@@ -1009,3 +1009,34 @@
 # Periodical issue-number with 〇 glitch 三〇三 "no. 303" (ch41, Biographical Literature
 # issue 303): the 〇 (U+3007) breaks the digit-read; the real value 303 is in English.
 三〇三
+#
+# --- B35 (ch42) entries ---
+#
+# Idiom 坐六望七 "sitting at sixty, gazing toward seventy" = in one's sixties (ch42):
+# the 六 (6) and 七 (7) are part of the set phrase, not the counts 6 and 7. English
+# carries "past sixty and looking toward seventy."
+坐六望七
+# Idiom 火冒三丈 "flames leapt three zhang" = in a blazing rage (ch42): the 三 (3) is
+# part of the set phrase, not a count.
+火冒三丈
+# Currency/weight measure 几两金子 "several taels of gold" (ch42): 两 "tael" after the
+# non-numeric 几 ("several") is misread as the count 2. English carries "several taels."
+几两金子
+# Glitch enumeration marker 30搭机 (ch42): the source prints "30" for the run-in list
+# ordinal 三/(3) (三、搭机人员...); the checker reads a phantom 30. Rendered "(3)."
+30搭机
+# Idiom 千方百计 "by every means, by hook or by crook" (ch42): the 千 (1000) and 百
+# (100) are part of the set phrase, not counts. The existing 百计 rule strips the tail
+# first, orphaning the 千 of 千方; this clears that residual (fires after 百计).
+千方
+# Approximate measure 三、五十两黄金 "thirty or fifty taels of gold" (ch42): the 两
+# "tael" is misread as the count 2. The existing 三、五十 rule strips first, orphaning
+# 两黄金; this clears that residual (fires after 三、五十). English "thirty or fifty taels."
+两黄金
+# Place-name numeral 千丈岩 "the Qianzhang Rock waterfall" (ch42): the 千 (1000) is part
+# of the scenic spot's proper name at Xikou, not a count.
+千丈岩
+# Date with redacted day-digit 十x日 "the ——th" (ch42, 三十七年十二月十x日): the day is
+# printed 十X with the ones-place redacted; the checker reads a phantom 10. English
+# carries an em-dash blank.
+十x日

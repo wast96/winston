@@ -2831,6 +2831,12 @@
    "pinyin": "Hou Jingru",
    "status": "provisional",
    "note": "Commander of the Seventeenth Army Group, holding the 'Jin-Gu Defense Zone' (both the Tianjin and the Tanggu sub-zones). On orders to withdraw after Tianjin fell, he carried out the sea withdrawal of the Tanggu main force, thirty-six thousand-odd men, to Qingdao."
+  },
+  "冯志俊": {
+   "en": "Feng Zhijun",
+   "pinyin": "Feng Zhijun",
+   "status": "provisional",
+   "note": "A comrade of the First Brigade, in those days a little past twenty and about the rank of lieutenant, later a retired major general; the author of the first-person 'Record of the Xiaolingfeng Garrison' that anchors this chapter's third section. Rendered inline in ch41; keyed here."
   }
  },
  "organizations": {
@@ -3936,6 +3942,36 @@
    "pinyin": "Baoding",
    "status": "decided",
    "note": "The Hebei provincial city on the Ping-Han line; seat of the First Command Room's Baoding Group and a hub of the line's pacification work."
+  },
+  "溪口": {
+   "en": "Xikou",
+   "pinyin": "Xikou",
+   "status": "decided",
+   "note": "Chiang Kai-shek's native town in Fenghua, Zhejiang; the brigade's charge in the winter and spring of 1949 was to guard its outer ring."
+  },
+  "奉化": {
+   "en": "Fenghua",
+   "pinyin": "Fenghua",
+   "status": "decided",
+   "note": "The Zhejiang county that holds Xikou, Chiang's home place."
+  },
+  "小灵峰": {
+   "en": "Xiaolingfeng",
+   "pinyin": "Xiaolingfeng",
+   "status": "decided",
+   "note": "A vital pass in the Siming Mountains on the outer ring of Xikou, guarded by the brigade; the subject of Feng Zhijun's garrison record."
+  },
+  "澎湖": {
+   "en": "Penghu",
+   "pinyin": "Penghu",
+   "status": "decided",
+   "note": "The Pescadores; the island group to which the brigade withdrew from Xiamen in September 1949 and where it was finally disbanded."
+  },
+  "马公": {
+   "en": "Magong",
+   "pinyin": "Magong",
+   "status": "decided",
+   "note": "The main harbor town of Penghu (the Pescadores), where the brigade went ashore in September 1949."
   }
  },
  "terms": {

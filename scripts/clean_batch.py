@@ -1045,6 +1045,51 @@ UNITS = {
         "glued": {}, "glued_head": {},
         "standalone": [8, 40, 100, 171],
     },
+    "ch42": {
+        "file": "43_index-split-000-0041.txt",
+        "title": "第十章 落叶归根 善其始终",
+        # drop=2: running header 英雄无名-陈恭澍 + <h2> chapter title. Confirmed
+        # byte-exact p-by-p against the source XHTML: 1 <h2> + 4 <h3> (the four
+        # section headings 一、/二、/三、/四、) + 201 <p>, ZERO mismatches; no
+        # <h1>, no <br/>, no <img>, no [\d+] note markers, 0 images. The file
+        # has NO trailing newline, so it is 207 lines (wc -l counts 206
+        # newlines); after drop=2 the txt has 205 body lines = 4 <h3> heading
+        # lines (raw 1-based L13/L64/L105/L161) + 201 <p>. The four <h3> are
+        # their OWN elements -> standalone (### ), not glued.
+        # ONE glitch-masked severed-<p> boundary at (9, 10): L9 ends
+        # ...牺牲、尽职！ and L10 begins 之外，书中也有几则... -- the bound
+        # postposition 之外 ("besides X") cannot begin a sentence, so the source
+        # broke one clause (...尽职之外，书中也有...) across two <p> with a
+        # spurious ！ masking the split. Merge restores the sentence. Every other
+        # body line ends on a terminal glyph; all remaining ！/？/》-enders are
+        # complete terminal sentences, NOT mid-predicate severs (verified each
+        # ending's next line begins a new sentence: L34 睡着了！/又一次幸运降临,
+        # L35 好危险呵！/是时, L47 军人身份！/现在应当做的, L50 松弛一下呢？/说到
+        # 这里, L58 涨停板呢？/这桩事, L97 颂扬伟大！/以下是原深兄的补述 [a
+        # contributed-account intro], L103 又能奈何呢？/到了三十八年, L144
+        # 顺逆可知矣！/﹁离船登岸 [a quoted account opens], L191 可鄙亦复可怕！/在
+        # 东京几个月). NO source-injection run (no 内容提要/第十章/落叶归根 fused
+        # mid-<p>).
+        # DELIBERATE authorial ring composition (NOT a duplication artifact): the
+        # final section opens (L3-L9) with a prose appraisal of the Pacification
+        # Corps and closes (L201-L207) by restating it as an enumerated 一/二/三
+        # list, bracketed by the identical sentence L8==L206 (笔者忝为其中之一员
+        # ...) and the echo L9≈L207 (全般事迹...笃实、忠勇、牺牲、尽职). Both
+        # occurrences kept and translated faithfully (rule 4); L8/L206 rendered
+        # identically in English to mirror the intended verbatim echo.
+        # INNER enumerations stay as BODY lines per parity: section 4's closing
+        # appraisal 一/二/三 (L202-L204) rendered with arabic run-in numbers the
+        # checker reads. Judged by function, not by leading numeral.
+        # Digitization glitches (rendered to plain sense, listed in PROGRESS):
+        # L3 stray | for ：(平实的结论应该是|构想...); L10 dropped 。 (毫无人性|
+        # 三十七年十二月, a run-on); the presentation-form corner brackets
+        # ﹁﹂﹃﹄ for 「」『』. All rendered to plain sense; only genuine reading
+        # uncertainty footnoted.
+        "drop": 2,
+        "merges": [(9, 10)],
+        "glued": {}, "glued_head": {},
+        "standalone": [13, 64, 105, 161],
+    },
 }
 
 

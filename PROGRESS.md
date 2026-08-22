@@ -4136,3 +4136,140 @@ the classmate's parting pistol, and Deng Baoshan's no-show at the plane).
 - Doubled/stray punctuation: 目前；，(L147). Mismatched guillemets ﹁﹂﹃﹄ pervasive (rendered to sense).
 - Name variants (NOT glitches): 邓某 = 邓宝珊 Deng Baoshan; 玉林兄 = 李玉林 Li Yulin; 原深兄 = 刘原深 Liu
   Yuanshen; 鲁颖兄 = 张鲁颖 Zhang Luying; 介民先生 = 郑介民 Zheng Jiemin; 老齐 = 齐庆斌 Qi Qingbin.
+
+## Batch B35 - ch42 (第十章 落叶归根 善其始终), the TENTH and LAST full Part-Four narrative chapter
+
+"Chapter 10. Fallen Leaves Return to the Root, Seen Through to the End" - the disbanding of the
+Pacification Corps and the diaspora of its men. Section 1: Chen's own leave-taking (the last visit
+to Jiang Tian and Zhang Zuoxing, who stay and are killed/sentenced in the 镇反 campaign; the near
+carbon-monoxide death at the Nanjing Central Hotel; the reorganization into the Youth
+National-Salvation Corps that pushes him out; the drifting, stock-gambling weeks in Shanghai; the
+passage to Taiwan). Section 2: the withdrawal of the stay-behind men from besieged Beiping - Zhang
+Luying's contributed account (the fight for aircraft through Li Haokun, the Temple-of-Heaven flight
+to Qingdao) and Liu Yuanshen's supplementary account (Chen's parting with Zheng Jiemin's overfull
+plane, the anarchy of the "political entry into the city," Fu Zuoyi's unused "Tianxiong" plane).
+Section 3: the southward journey guarding Chiang's home region - the contributed accounts of Wang
+Hongzhu (护衞先总统蒋公故鄕 / 闽南剿匪), Feng Zhijun (小灵峰衞戍记, the Xiaolingfeng garrison, the louse
+in the ear, Chiang glimpsed on a mountain-chair), Xiao Runyu (我部南调情形, the Hengchun's broken
+propeller), and Wu Chunxiang (the Lindun night action, the disbanding at Penghu). Section 4: Chen's
+post-1949 course - Liu Peichu's gift of gold, the unnamed "great power" cooperation out of Hong Kong,
+the Japan mission using former Japanese officers, the chief-of-Second-Section post, the
+two-hundred-man reunion, Li Yulin as Penghu magistrate; and the ring-composition close.
+
+- **Structure (CONFIRMED byte-exact p-by-p vs index_split_000_0041.xhtml, 0 mismatches):** 1 <h2> +
+  4 <h3> (section heads 一/二/三/四 at RAW 1-based L13/L64/L105/L161) + 201 <p>; NO <h1>, <br/>, <img>,
+  or [\d+] note markers; 0 images. drop=2. Raw txt = 207 lines (no trailing newline; wc -l 206);
+  207 - 2 = 205 body = 4 h3 + 201 p. clean_batch.py spec: drop=2, merges=[(9,10)], glued/glued_head={},
+  standalone=[13,64,105,161]. Source conserved OK. data/zh/ch42.txt = 205 lines (1 title + 4 heads +
+  200 body).
+- **ONE glitch-masked severed-<p> boundary at (9,10):** L9 ends ...牺牲、尽职！ and L10 begins 之外，书中
+  也有... - the bound postposition 之外 ("besides X") cannot begin a sentence, so the source broke one
+  clause (...尽职之外，书中也有...) across two <p> with a spurious ！ masking the split. Merged. All other
+  ！/？/》-enders verified complete sentences whose next line begins anew (incl. L97 颂扬伟大！/以下是原深
+  兄的补述 and L144 顺逆可知矣！/﹁离船登岸, both contributed-account intros, NOT severs).
+- **DELIBERATE authorial RING COMPOSITION (NOT a duplication artifact):** the final section opens
+  (L3-L9) with a prose appraisal of the Pacification Corps and closes (L201-L207) by restating it as
+  an enumerated 一/二/三 list, bracketed by the identical sentence L8 == L206 (笔者忝为其中之一员...) and
+  the near-echo L9 =~ L207 (全般事迹...笃实、忠勇、牺牲、尽职). Both kept and translated faithfully
+  (rule 4); L8/L206 rendered identically in English. NO source-injection run (grep 内容提要/第十章/落叶
+  归根 mid-<p> = none).
+- **Inner enumerations kept as BODY lines per parity** (judged by function): section 1's three-point
+  self-reflection (L54/L55/L56 一/二/三) and section 4's closing appraisal (L200/L201/L202 一/二/三)
+  rendered "First/Second/Third." The stay-behind decision-points (L73/L74/L75) and recollection-points
+  (L83/L84/L85) carry the glitch enumeration markers 川/口/囝/〕2/30 for 一/二/三 and are rendered
+  (1)(2)(3).
+
+### Checks (all green)
+- **verify_unit ch42:** parity 200/200 pairs; numbers 0 unresolved (with data/noise.txt auto-found);
+  anchors 10 ok.
+- **check_align ch42:** 200 source / 200 translation, median ratio 5.27 en/han (in the ch33-ch41
+  band); no pair strays >2.2x from median.
+- **check_structure (42 units):** ALL STRUCTURAL CHECKS PASS; parity 200/200; anchors 371 notes,
+  0 unresolved; headings OK.
+- **check_content (42 units):** ch42 = 167 name occurrences, ALL IN THE PAIRED PARAGRAPH (0 displaced),
+  after aligning three keyed near-misses to the glossary: 张作兴 -> named "Jiang Tian and Zhang
+  Zuoxing" (was elided as "the two of them"), 乌兰华 "Wulanhua" -> "Ulanhua" (the keyed form), 中岛信一
+  curly -> straight apostrophe "Nakajima Shin'ichi." Other units unchanged (pre-existing ch08 x3,
+  ch09 x1, ch13 x9, ch26 x2, ch38 海防/Haiphong x1, ch41 河内/Hanoi x1; the 6 new place keys added
+  occurrences to ch38/ch41 but NO new displacements).
+- **qc_entities (reconstructed bilingual):** 0 misses (fixed 1 verb-form: 绥靖 in the title 闽南剿匪、
+  绥靖地方 rendered the noun "Pacification of the Land," not the verb "Pacifying"). Census: 北平 x34,
+  绥靖 x16, 澎湖 x15, 江田 x12, 郑介民 x10, 张作兴 x9, 绍兴 x8, 马公 x7, 绥靖总队 x7, 溪口 x6, 汪鸿翥 x6.
+- **check_register --ref reference/B01_frozen.md:** within tolerance (contr 0.0 = ref, shall 0%,
+  em-dash 8.0/1k vs ref 8.3, rhythm CV 0.56).
+- **Tail verified** against source (pairs L200-L205, the ring-composition close): faithful, no
+  fabrication; L204 identical to the opening L8 rendering, L205 mirrors L9 with the source's small
+  variation (同学同志们 "students and comrades" vs 全体同学们 "all the students").
+- **qa_epub:** PASS (43 documents, 6130 paragraphs; 371 note refs / 371 bodies / 371 backlinks; 57
+  files, all links resolve). **epubcheck 5.1.0:** 0 fatals / 0 errors / 0 warnings / 0 infos.
+- **EPUB now 42/43 chapters, 371 notes.**
+
+### Notes (10 new; 371 cumulative) - first-appearance, NOT re-noted
+1. **the Suppression of Counter-Revolutionaries** (镇压反革命 / 镇反) - the 1950-51 mass purge of
+   ex-Nationalists; where Jiang Tian was shot and Zhang Zuoxing sentenced.
+2. **Tilanqiao** (提篮桥) - Shanghai's Ward Road Gaol; Chen's "fellow inmate in trouble" points back
+   to his own imprisonment.
+3. **the 万岁/万税 pun** - the wall-slogan 民国万税 "ten thousand taxes for the Republic," twisting the
+   cheer 万岁 "long live."
+4. **孤臣孽子** - the Mencius (7A.18) allusion in Hu Gui's "Letter to All Comrades."
+5. **Xikou and its landmarks** (溪口 / 武岭大门 / 妙高台 / 千丈岩 / Chiang's birthplace) - Chiang's
+   native town, the brigade's charge in 1949.
+6. **Shaoxing yellow wines** (花雕 / 陈绍 / 黄酒) - the aged rice-wines the young soldiers slipped out
+   to drink.
+7. **the spirit-medium boy** (乩童 / jitong) - the Southern Fujianese/Taiwanese trance-medium.
+8. **the Tangshan earthquake** (唐山大地震, 28 July 1976) - why Chen reckons Zhang Zuoxing's chances
+   "more ill than good."
+9. **the recruited Japanese officers** (白团 Baituan; 根本博 Nemoto Hiroshi at Kinmen/Guningtou; 和知鹰二
+   Wachi Takaji) - the ROC's post-1949 turn to former occupation officers.
+10. **the unnamed "great power"** (某一大国) - the US/CIA reading of Chen's Hong Kong cooperation, via
+    the date, the arrangement, and CAT (Civil Air Transport, CIA-bought 1950).
+
+### Glossary - B35 (6 net-new keyed rows: 1 person + 5 places)
+- **冯志俊 Feng Zhijun** (person, provisional) - GRADUATED from inline (a one-mention comrade in ch41);
+  the first-person author of the 小灵峰衞戍记 that anchors section 3.
+- **溪口 Xikou / 奉化 Fenghua / 小灵峰 Xiaolingfeng / 澎湖 Penghu / 马公 Magong** (places, decided) - the
+  five places central to the southward journey and the guarding of Chiang's native place; each renders
+  one way across every chapter it appears in (verified vs the other chapters' data/zh and reading.md;
+  no cross-chapter conflict, no new check_content displacements).
+- Kept INLINE (glossary-key discipline - one-mention men, name-lists, one-passage figures, standard
+  places): 江田 Jiang Tian, 陶铸 Tao Zhu, 李运昌 Li Yunchang, 李鸣秋 Li Mingqiu, 聂恩俊 Nie Enjun, 白世维
+  Bai Shiwei, 孙时林 Sun Shilin, 何思源 He Siyuan, 刘不同 Liu Butong, 李浩昆 Li Haokun, 吴尙游 Wu Shangyou,
+  胡轨 Hu Gui, 梅长龄 Mei Changling, 马寿泉 Ma Shouquan, 黄文炳 Huang Wenbing, 李良荣 Li Liangrong, 乌瑞山
+  Wu Ruishan, 汤恩伯 Tang Enbo, 李振清 Li Zhenqing, 孙文良 Sun Wenliang, 唐纵 Tang Zong, 韩尙英 Han Shangying,
+  曹霄青 Cao Xiaoqing, 渡边渡 Watanabe Wataru, 和知鹰二 Wachi Takaji, 根本博 Nemoto Hiroshi, and the
+  Xiaolingfeng roster (刘迈青 etc.). Places inline: 上海/南京/杭州/宁波/绍兴/厦门/漳州/泉州/长泰/岩溪/林墩/
+  青岛/基隆/台北/台中/香港/东京/北投/跑马地/惠安/高雄/白沙/蒋家 Jiangjia. 乌兰华 -> "Ulanhua" (keyed form
+  from 北国锄奸 ch04). 张垣 stays the whole-book reconciliation item.
+
+### data/noise.txt - B35 additions (8)
+- **坐六望七** (idiom "in one's sixties"; 六/七 not counts) and **火冒三丈** (idiom "in a blazing rage";
+  三 not a count).
+- **几两金子** (measure "several taels of gold"; 两 = tael after non-numeric 几, misread as 2) and
+  **两黄金** (residual after the existing 三、五十 rule strips 三、五十, orphaning 两 in 三、五十两黄金).
+- **千方** (residual after the existing 百计 rule strips 百计, orphaning 千 in the idiom 千方百计).
+- **千丈岩** (place-name numeral "the Qianzhang Rock waterfall" at Xikou; 千 part of the name).
+- **30搭机** (glitch enumeration marker "30" for the run-in ordinal 三/(3)).
+- **十x日** (date with the ones-place day-digit redacted, 三十七年十二月十x日; the checker reads a phantom
+  10 - rendered em-dash blank).
+- All REAL quantities carried as DIGITS/words: nearly 200,000 (Beiping garrison), some fifty
+  (stay-behind party), six / several taels of gold, ten Yuan big-heads, more than two hundred
+  (reunion), fifteen li, sixteen ridges, nine machine guns, sixty-odd islands; ROC years 21-76 by
+  ordinal or +1911.
+
+### Digitization glitches (rendered to plain sense; none footnoted - mechanical)
+- Spurious ！ masking the L9/L10 sever (尽职！之外, see Structure). Dropped 。 (run-ons): 毫无人性|三十七年
+  十二月 (L10), 临刑前的一刹那|张作兴 and 无产阶级出身...|结果 (L27), 那一大家子人呢〇 (L162, 〇 for 。).
+- Stray glyph for a colon | : 平实的结论应该是|构想 (L3), 清楚的知道| (L44), 所记的槪略| / 其文照录如下|
+  (L113), 原文如下| (L116/L139).
+- Stray glyph for opening/closing 「」: ︸ for 「 in 只说了一句︸不如先去台湾 (L47); ！ for 」 in 设计委员！
+  (L163), 大陆工作处！ (L175); ？ for 。 in 政工大队？ (L158); ﹃ for 」 in 绥靖总队﹃至此结束 (L158);
+  《 for 。 in 齐聚在台湾《三十八年 (L47); ⋮ stray in the slogan list (L99).
+- ︼ for 一 in ︼架银色飞机 (L100). M】 for M1 in 大八粒 M】半自动步枪 (L134).
+- Illegible/redacted: 打倒猼猚獽 (three corrupt glyphs for the slogan's target, L99, rendered "Down with
+  so-and-so"); 〇七六〇 = unit code 0760 (L27, 〇 mis-read); 十x日 (redacted day, L139); %月 (redacted
+  month, L154); 蒋xx (redacted name, L177); x君 (redacted kinsman, L98).
+- Single-char substitutions rendered to sense: 重马费 for 车马费 (L163, "carriage allowance"); 稍了一个
+  口信 for 捎了 (L164); 书伏夜出 for 昼伏夜出 (L127, "lying up by day").
+- Mismatched presentation-form guillemets ﹁﹂﹃﹄ for 「」『』 pervasive (rendered to sense).
+- Name/title variants (NOT glitches): 良顺兄/连良顺 = 连谋 Lian Mou; 张炳华 = 张炎元 Zhang Yanyuan; 郑三爷
+  = 郑恩普 Zheng Enpu; 兆芬 = 王兆芬 Wang Zhaofen; 鲁颖兄 = 张鲁颖 Zhang Luying; 原深兄 = 刘原深 Liu Yuanshen.
