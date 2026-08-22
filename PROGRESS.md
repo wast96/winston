@@ -5,6 +5,70 @@ translated (unit ids, PDF and printed ranges), which checks ran and what they
 found, notes added, glossary rows added with status, figures, and anything
 flagged for the commissioner's read-through.
 
+## CORRECTIONS PASS 1 (2026-08-22): R04 source-dependent items resolved, deliverable renamed
+
+A corrections pass, not a new batch. Content stays faithful: the source is
+rendered as printed and discrepancies are footnoted, never silently fixed.
+
+**Clean-checkout regression (ran first).** Reset to origin, replayed the
+resegment scripts, rebuilt, qa_epub PASS, epubcheck 0/0/0/0. resegment_ch05
+through ch13 regenerate their zh scaffold plus data/pagemap standalone (they
+embed the eye-verified transcription) and reproduced the tracked pagemaps
+byte-identical. resegment_ch02 through ch04 read a prior data/zh/chNN.txt
+(the assemble.py OCR scaffold, gitignored) and so are not standalone on a
+bare checkout; that is a known limitation of the early chained scripts, and
+those chapters were not in this pass's scope. No tracked regenerable changed.
+
+**Source-dependent faithfulness items (from the R04 log), each crop-verified
+against source.pdf; printed folios cited in every note.**
+
+- ch10 folio 339: the martyr's name is 章炳南; the monument miscarved it as
+  the homophone 张炳南. Both are "Zhang" in pinyin, so the old English
+  ("'Zhang Bingnan' written by mistake for 'Zhang Bingnan'") nullified
+  itself. Text now: the monument "carves the martyr Zhang Bingnan's surname
+  with the wrong character"; NOTE-ADD carries 章/张. The performer at folio
+  335 correctly reads 章炳南.
+- ch10 folios 307/311/323: the war span is 十四年 (folio 307), 八年 (folio
+  311, the cadre-career sense), 十五年 (folio 323), all as printed. Source's
+  own inconsistency; footnoted at "fifteen years." No number changed.
+- ch10 folio 313: 三个师派了三个参谋 (three posted); the surveillance run
+  prints 三人 then 两个联络参谋 in one breath, and names only Zhou Liwu and
+  Luo Bolun. Source's own slip; footnoted. No count changed.
+- ch10 folio 332: the body says only 处死 ("put to death"). The Wang Shiwei
+  note's "dry well" is the later record, now attributed rather than stated as
+  the book's.
+- ch11 folio 358: 下毒 then 死鱼 with no antecedent; "his food" became "a
+  fish dish" so the later "dead fish" refers back. No fact added.
+- ch11 folio 368: the source both credits Baoding with "producing" Chiang and
+  says his real schooling was the Japanese officers' school. Chiang passed
+  through a 1906 Baoding preparatory class before Japan and is only loosely
+  an alumnus; Wu Shi (3rd class, 1915) and Bai Chongxi were full graduates.
+  Footnoted; rendered as printed.
+- ch11 folio 370: 就让她在台湾吧, her own testament in the third person.
+  Faithful; footnoted. Baidu Baike: Xiao Minghua executed Taipei 1950-11-08,
+  aged 28; remains returned to the mainland 1982.
+- ch12 folio 381: 六朝古都西安 as printed. Xi'an is conventionally the capital
+  of thirteen dynasties; 六朝古都 is Nanjing's epithet. Footnoted; rendered as
+  printed.
+- ch12 folio 390: the source lists four distinct terms, 情报/保卫/安全/公安,
+  so the English "security" and "safety" are not a redundant doubling.
+  Faithful; footnoted to distinguish the four domains.
+
+**Deliverable renamed** per the commissioner's chat request so the .epub
+carries the book's full name:
+out/China's Secret War - A Documentary Record of the CCP's Intelligence and
+Security Work.epub. book.json "deliverable" updated; builder, qa_epub and the
+Stop hook all read the name from there. Old out/chinas_secret_war.epub retired.
+
+**Tooling (do not revert).** apply_edits.py gained --suffix and anchor_check.py
+an optional second arg, so a committed edits/<id>_corrections.md list applies
+without disturbing the R04 edits/<id>_edits.md audit trail. Default behavior
+unchanged.
+
+**Totals.** 7 notes added (251 to 258); 2 prose fixes (ch10 monument, ch11
+fish); 1 note refined (ch10 Wang Shiwei). qa_epub PASS (258 notes); epubcheck
+0/0/0/0. The book remains COMPLETE.
+
 ## REGISTER PASS: PLANNED AND TOOLED (2026-08-22); no prose touched yet
 
 At the commissioner's direction, studied the shelf's register-rebaseline

@@ -11,9 +11,27 @@ entries) for the register pass; then `CHANGELOG.md`.
 All 14 units are translated, built, and QA-clean: the Preface (ch00), Chapters
 1 through 12 (ch01-ch12), and the Afterword (ch13). The illustrated edition's
 figures are all in (182 inline + a 36-plate gallery + the real cover). The
-finished, rebuilt deliverable is `out/chinas_secret_war.epub` (committed with
-`git add -f`; chat attachments do not outlive the container, the branch does).
-qa_epub PASS; epubcheck 5.1.0 clean (0/0/0/0).
+finished, rebuilt deliverable is
+`out/China's Secret War - A Documentary Record of the CCP's Intelligence and Security Work.epub`
+(renamed from `out/chinas_secret_war.epub` in corrections pass 1 so the file
+carries the book's full name; the name lives in `book.json` `deliverable`, so
+builder, qa_epub and the Stop hook all agree on it; committed with
+`git add -f`, because chat attachments do not outlive the container, the branch
+does). qa_epub PASS (258 notes); epubcheck 5.1.0 clean (0/0/0/0).
+
+## Corrections pass 1 is done (2026-08-22)
+
+The source-dependent faithfulness items the R04 blind readers raised are
+resolved, each crop-verified against `source.pdf`: the ch10 Zhang Bingnan
+monument (章 miscarved as 张; text fixed and footnoted), the ch10 war-span
+14/8/15 figures, the ch10 three-vs-two liaison officers, the ch10 Wang Shiwei
+note, the ch11 "dead fish" antecedent, the ch11 Wu Shi/Baoding-vs-Chiang note,
+the ch11 Xiao Minghua third-person testament, the ch12 Xi'an "six dynasties,"
+and the ch12 four-term quadruplet. Where the source is self-contradictory it
+is rendered as printed and footnoted, never silently corrected. See
+`CHANGELOG.md`, `CORRECTIONS.md` (Done), and PROGRESS.md's corrections-pass
+entry. 7 notes added (251 to 258); prose edits went through
+`edits/<id>_corrections.md` applied by `apply_edits.py --suffix corrections`.
 
 ## What the voice/register pass did (R01-R04, complete 2026-08-22)
 
@@ -76,13 +94,18 @@ scan and which a corrections pass should look at:
   `/tmp/epubcheck-5.1.0/epubcheck.jar`. PaddleOCR absent (expected).
 - Rebuild from a clean checkout: `./setup.sh`; replay the resegment scripts;
   `python3 scripts/build_reading_epub.py`; `python3 scripts/qa_epub.py`;
-  `java -jar /tmp/epubcheck-5.1.0/epubcheck.jar out/chinas_secret_war.epub`.
+  `java -jar /tmp/epubcheck-5.1.0/epubcheck.jar "$(python3 -c 'import json;print(json.load(open("book.json"))["deliverable"])')"`.
 - Do NOT revert: the composable style system (`styles/`, composed `STYLE.md`
   which is a BUILD ARTIFACT never hand-edited, `STYLE.local.md` ledger),
   `book.json` `genre: nonfiction`, the register-pass scripts
   (compose_style, check_style_freshness, voice_gate_critique, anchor_check,
   apply_edits, register_tics.sh), `review/PROTOCOL.md`, the per-parity OCR crop
-  and the resegment_chNN.py scripts, and all figures-pass items.
+  and the resegment_chNN.py scripts, and all figures-pass items. Corrections
+  pass 1 added an optional edits-file suffix to `apply_edits.py` (`--suffix`)
+  and `anchor_check.py` (second arg) so `edits/<id>_corrections.md` lists apply
+  without disturbing the `edits/<id>_edits.md` register-pass audit; the default
+  path is unchanged. The `edits/<id>_corrections.md` files are the corrections
+  audit trail.
 - Work on branch `claude/chinas-secret-war` only (CLAUDE.md rule 2); expect a
   stray per-task branch at session start and consolidate onto the canonical
   branch.

@@ -98,6 +98,11 @@ def main():
     ap.add_argument("--bilingual", action="store_true",
                     help="edit the bilingual file and regenerate the reading "
                          "file (for projects that track bilinguals)")
+    ap.add_argument("--suffix", default="edits",
+                    help="edits-file suffix: reads edits/<id>_<suffix>.md "
+                         "(default 'edits'). Use e.g. --suffix corrections to "
+                         "apply a separate committed list without disturbing "
+                         "the register-pass edits/<id>_edits.md audit trail.")
     a = ap.parse_args()
 
     book = json.load(open(os.path.join(ROOT, "book.json"), encoding="utf-8"))
@@ -106,7 +111,7 @@ def main():
     notes_json = json.load(open(notes_path, encoding="utf-8"))
 
     for cid in a.units:
-        epath = os.path.join(ROOT, "edits", "%s_edits.md" % cid)
+        epath = os.path.join(ROOT, "edits", "%s_%s.md" % (cid, a.suffix))
         edits, anchor_moves, new_notes = parse_edits(epath)
         target = os.path.join(ROOT, "out", "%s_%s.md"
                               % (cid, "bilingual" if a.bilingual else "reading"))

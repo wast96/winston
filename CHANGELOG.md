@@ -8,6 +8,73 @@ Dated record of what changed and, for global corrections, what cascaded where.
 - LOCAL: fixed dropped clause at ch03 §2 folio 45.
 -->
 
+## 2026-08-22: Corrections pass 1 (source-dependent faithfulness items + deliverable rename)
+
+Clean-checkout regression first: reset to origin, replayed the resegment
+scripts, rebuilt, qa_epub PASS, epubcheck 0/0/0/0. (resegment_ch05..ch13
+regenerate their zh scaffold + pagemap standalone and reproduced the tracked
+pagemaps byte-identical; resegment_ch02..ch04 chain on the gitignored
+data/zh/*.txt OCR scaffold and are not standalone-replayable on a bare
+checkout, a known limitation, and those chapters were out of scope here.)
+
+Then resolved the source-dependent faithfulness items logged in PROGRESS.md's
+R04 entry, each crop-verified against source.pdf before any edit; where the
+source is genuinely self-contradictory it is rendered as printed and
+footnoted, never silently corrected (CLAUDE.md rule 4). Prose edits went
+through committed edits/<id>_corrections.md lists applied by apply_edits.py,
+with anchor_check run before each apply.
+
+- LOCAL ch10 (folio 339): the monument line "'Zhang Bingnan' written by
+  mistake for 'Zhang Bingnan'" was self-nullifying (both names romanize
+  identically). The scan reads 章炳南 miscarved as 张炳南; the text now says
+  the monument "carves the martyr Zhang Bingnan's surname with the wrong
+  character," and a NOTE-ADD carries the two characters (章 correct, 张 as
+  carved).
+- LOCAL ch10 (folio 323): the "fifteen years" War-of-Resistance span
+  footnoted as the source's own inconsistency (fourteen at the chapter head,
+  eight elsewhere, fifteen here); rendered as printed, no number changed.
+- LOCAL ch10 (folio 313): the three-vs-two liaison-officer count footnoted as
+  the source's own slip (three posted, two named and followed); rendered as
+  printed.
+- LOCAL ch10 (folio 332): the Wang Shiwei note refined. The body text says
+  only "put to death"; the "dry well" is the later documented record, now
+  attributed ("by most later accounts") rather than stated as the book's.
+- LOCAL ch11 (folio 358): the dangling "dead fish" given the fish antecedent
+  the source implies ("a fish dish" for 下毒/死鱼); no fact added.
+- LOCAL ch11 (folio 368): the Wu Shi / Baoding passage footnoted. The source
+  both credits Baoding with "producing" Chiang and says his real schooling
+  was the Japanese officers' school; Chiang passed through a 1906 Baoding
+  preparatory class before Japan and is only loosely counted an alumnus,
+  while Wu Shi and Bai Chongxi were full graduates. Rendered as printed.
+- LOCAL ch11 (folio 370): Xiao Minghua's third-person "her" (就让她在台湾吧)
+  footnoted as the source's own self-reference; faithful. Baidu Baike
+  corroboration: executed Taipei 1950, remains returned to the mainland 1982.
+- LOCAL ch12 (folio 381): Xi'an "six dynasties" footnoted (Xi'an is
+  conventionally the capital of thirteen dynasties; 六朝古都 is Nanjing's
+  epithet); rendered as printed.
+- LOCAL ch12 (folio 390): the intelligence/security/safety/public-security
+  quadruplet footnoted. The source lists four distinct terms
+  (情报/保卫/安全/公安), so the English near-synonyms are not a redundant
+  doubling; faithful.
+- DELIVERABLE: renamed per the commissioner's chat request so the .epub
+  carries the book's full name:
+  "out/China's Secret War - A Documentary Record of the CCP's Intelligence
+  and Security Work.epub" (book.json "deliverable" updated; the old
+  out/chinas_secret_war.epub retired). Builder, qa_epub and the Stop hook all
+  read the name from book.json, so nothing else needed changing.
+- TOOLING: apply_edits.py gained --suffix and anchor_check.py an optional
+  second arg, so a separate committed edits/<id>_corrections.md list applies
+  without disturbing the R04 edits/<id>_edits.md audit trail. Default
+  behavior (edits/<id>_edits.md) is unchanged.
+
+Net: 7 notes added (book-wide 251 to 258), 2 prose fixes (ch10 monument,
+ch11 fish), 1 note refined (ch10 Wang Shiwei). Rebuilt; qa_epub PASS (258
+notes); epubcheck 5.1.0 clean (0/0/0/0). Files touched: book.json,
+notes.json, out/ch10_reading.md, out/ch11_reading.md, scripts/apply_edits.py,
+scripts/anchor_check.py, edits/ch10_corrections.md, edits/ch11_corrections.md,
+edits/ch12_corrections.md, the renamed deliverable, CHANGELOG.md, PROGRESS.md,
+HANDOFF.md, CORRECTIONS.md.
+
 ## 2026-08-22: Voice/register pass COMPLETE (R01–R04)
 
 The commissioner-ordered whole-book voice/register/style pass is finished. It

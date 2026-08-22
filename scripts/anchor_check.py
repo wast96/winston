@@ -1,8 +1,9 @@
 import json, sys
 cid = sys.argv[1]
+suffix = sys.argv[2] if len(sys.argv) > 2 else 'edits'
 notes = [a['anchor'] for a in json.load(open('notes.json')).get(cid, [])]
 figs = [f['before'] for f in json.load(open('figures.json')).get(cid, []) if 'before' in f]
-olds = [ln[5:].rstrip('\n') for ln in open('edits/%s_edits.md' % cid) if ln.startswith('OLD: ')]
+olds = [ln[5:].rstrip('\n') for ln in open('edits/%s_%s.md' % (cid, suffix)) if ln.startswith('OLD: ')]
 found = False
 for o in olds:
     for a in notes:

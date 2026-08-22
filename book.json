@@ -1,6 +1,6 @@
 {
   "_README": "This is the single source of the book's structure. The build is driven ENTIRELY by this file. Fill in every field, delete the _comment/_README keys or leave them (the builder ignores unknown keys). Chapter ids MUST start with 'ch' (ch01, ch02, ...). A chapter is treated as translated once out/<id>_reading.md exists. Cite the book's own PRINTED FOLIO in notes, never the PDF page.",
-  "deliverable": "out/chinas_secret_war.epub",
+  "deliverable": "out/China's Secret War - A Documentary Record of the CCP's Intelligence and Security Work.epub",
   "_deliverable_note": "[SET PER PROJECT] The EPUB filename. Builder, qa_epub and the Stop hook all read this; never rely on the default.",
   "title_en": "China's Secret War",
   "title_zh": "中国秘密战：中共情报、保卫工作纪实",

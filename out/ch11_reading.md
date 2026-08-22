@@ -166,7 +166,7 @@ Having smashed the Communists' intelligence organization in North China, Chiang 
 
 Chiang had long tried to carry out a decapitation against Mao, but in northern Shaanxi Hu Zongnan simply could not find Mao's position. Only when Mao crossed the Yellow River from northern Shaanxi and passed over the Taihang Mountains into Hebei did Juntong pick up the trail.
 
-Mao moved into Chengnanzhuang, and an agent planted in the headquarters of the Jin-Cha-Ji Military District quietly poisoned his food; luckily the guards would not let Mao eat the dead fish, and he escaped by a hair.
+Mao moved into Chengnanzhuang, and an agent planted in the headquarters of the Jin-Cha-Ji Military District quietly poisoned a fish dish; luckily the guards would not let Mao eat the dead fish, and he escaped by a hair.
 
 The Nationalists then sent planes to bomb; Mao had only just been carried out of the small courtyard when the bomb fell from the sky.
 
