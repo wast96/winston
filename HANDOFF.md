@@ -3,19 +3,34 @@
 ## Message to paste into the next chat
 
 ```
-China's Secret War R02 (register pass)
+China's Secret War R03 (register pass)
 
 Read CLAUDE.md, then HANDOFF.md, then REVISION_PLAN.md, then STYLE.md and
 STYLE.local.md. Run ./setup.sh. Branch claude/chinas-secret-war only.
 
-Do revision batch R02 = ch02 + ch03 + ch04 + ch05 per REVISION_PLAN.md §5.
-FIRST read the R01 diff (git log, "R01 register pass" commits) as the
-exemplar for depth and restraint. ch02's stilted-dialogue flag is the
-priority item. The register reference is the REVISED out/ch01_reading.md.
-Content frozen; anchor_check before every apply; blind critique per unit;
-one commit per unit; build + qa_epub each; do not pause for approval.
-Deliver the EPUB in chat and paste the R03 kickoff from REVISION_PLAN.md §9.
+Do revision batch R03 = ch06 + ch07 + ch08 per REVISION_PLAN.md §5. Read the
+R01 diff first as the exemplar. These are the heaviest question-mark units:
+convert the docent questions, keep the real ones (interrogation scenes ask
+real questions). Content frozen; anchor_check before every apply; blind
+critique per unit; one commit per unit; build + qa_epub each; do not pause
+for approval. Deliver the EPUB in chat and paste the R04 kickoff from
+REVISION_PLAN.md §9.
 ```
+
+## R02 DONE (register pass, batch 2 of 4) — 2026-08-22
+
+R02 = ch02 + ch03 + ch04 + ch05 complete, one commit per unit, all pushed to
+claude/chinas-secret-war (34/19/19/26 edits). Content frozen; R01's diff was
+the exemplar and the restraint held (most paragraphs LEFT). epubcheck 0/0/0/0
+at batch end. See PROGRESS.md "R02" entry for the full exit checklist and the
+items logged for the corrections/R04 sweeps. Next: R03 (kickoff above).
+
+TRAP CONFIRMED IN R02 (for R03-R04): a FIGURE 'before' anchor can be LONGER
+than an edit's OLD line, so `anchor_check.py` (which tests anchor-in-OLD) will
+NOT flag it; the builder's refusal (exit 2, "BUILD FAILED: N figure(s) never
+placed") is the real backstop. Trust the build's own exit code, never a piped
+grep's. When it fires, update the figure's `before` in figures.json in the
+SAME commit (as done for ch05 p0208-f1).
 
 ## R01 DONE (register pass, batch 1 of 4) — 2026-08-22
 
@@ -23,7 +38,7 @@ R01 = ch00 + ch01 + ch09 complete, one commit per unit, all pushed to
 claude/chinas-secret-war. The REVISED out/ch01_reading.md is now the register
 reference for R02-R04. R01's committed diff is the exemplar: most paragraphs
 LEFT untouched; the edits are surgical and content-frozen. See PROGRESS.md
-"R01" entry for the exit checklist. Next: R02 (kickoff above).
+"R01" entry for the exit checklist.
 
 ## A VOICE/REGISTER REVISION PASS IS PLANNED (not yet started)
 

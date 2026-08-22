@@ -1834,3 +1834,94 @@ the narration now reads modern-neutral with the heat rationed.
 **For R02-R04:** R01's diff is the exemplar; match its restraint (most
 paragraphs LEAVE). The REVISED out/ch01_reading.md is the register reference.
 No new STYLE.local rules were needed this batch.
+
+## R02 — voice/register pass, batch 2 of 4 (2026-08-22)
+
+**Scope:** ch02 + ch03 + ch04 + ch05, per REVISION_PLAN §5. English-to-English
+re-voicing, content FROZEN (every NEW preserves its OLD's propositional content;
+no fact/name/number/date/claim changed, no paragraph merged or split, no name
+re-romanized, no note added or removed). One commit per unit; all pushed. R01's
+committed diff read first as the exemplar for depth and restraint. Blind
+context-free critique run per unit (archived review/voice_gate/chNN_round1).
+
+**Edits applied (edits/<id>_edits.md + apply_edits.py):**
+- ch02: 34 edits over ~180 body paragraphs. The STILTED-dialogue priority unit,
+  but its dialogue is mostly formal-by-design or already natural; the one wooden
+  spoken line (Zhang Guotao to Chiang) was naturalized to contracted first
+  person. Bulk: calque cleanup (顺藤摸瓜, 不亚于, 几经周折, 如虎添翼, litotes),
+  wrong-idiom fixes (hand over hand, eats sweet, fight guerrilla, run down by,
+  propping up), de-nominalization (guarding of the / closing noun-stack), two
+  fragment openers (Which->This), one narration ellipsis closed (two Laoshan
+  suspense ellipses kept), a section-heading reveal-bang rationed, three
+  self-answering docent questions stated.
+- ch03: 19 edits over ~230 paragraphs (clean chapter, R01-level restraint).
+  Two archaic 只能 plained (incl. designated p111), 不少 litotes, 'sallow'->
+  'yellow skin', 屈就 'stooped to serve'->'took the lesser post' (x2), 'bodies
+  under one roof'->'organizations', 如鱼得水/做文章/见不得光, 'got clear the
+  truth'->'pieced together', word-echo 'route was routed', 'dolt-generals',
+  hanzi-count 'eight words', 参观点 'visiting points'.
+- ch04: 19 edits over ~110 paragraphs. Short but calque-dense; all wrong-idiom
+  / wrong-word / POV fixes (拥兵割据, 扣帽子, 心腹大患, 敢想敢干, 恨之入骨,
+  'empty seat', 'whose house wins', 'unlettered lad', 'old revolutionary' vs
+  twenty-seven, 'lordlings', 'hollered', category-error 'as ... regiments',
+  'outfight'->'outwit', 'Nerves were unsteady', two intrusive 'Your Red army'/
+  'your opponent' in third-person narration).
+- ch05: 26 edits over ~340 paragraphs (~7%). 易如反掌/有奶便是娘/杀一儆百/上-下/
+  眼花缭乱/不少/血案/唱空城计('at full voice')/两栖('amphibious'), four
+  fronted-object inversions, de-nominalized 'earliness', two wooden dialogue
+  lines recast (Zhao Qufei/Shi Zhiwen), one narration reveal-bang rationed,
+  a doubled 实践证明 varied, 'tesuji' dropped from the weiqi motif.
+
+**Exit checklist (REVISION_PLAN §8):**
+- [x] every edited unit: apply_edits clean, build + qa_epub PASS (all four).
+- [x] anchor_check run BEFORE apply, per unit. Anchor moves: ch05 the Empty
+  City Stratagem NOTE anchor moved with its sentence (1 move); the ch05
+  p0208-f1 FIGURE 'before' anchor updated in figures.json in the SAME commit
+  (the 不少 litotes edit shifted the paragraph opener). NOTE THE TRAP: the
+  builder's refusal, not anchor_check, caught the figure collision, because
+  the figure 'before' anchor is LONGER than the OLD (anchor_check only tests
+  anchor-in-OLD). Always trust the build's exit code, not a piped grep's.
+  Book-wide note total unchanged at 251; all note+figure anchors placed.
+- [x] tic batteries re-run; near-zero batteries stayed near zero. Residual
+  hits are deliberate keeps: 'the founding of the People's Republic/Central
+  Soviet' (idiomatic institutional foundings), 'could come only through the
+  ports' (ch03:381, the DESIGNATED keep) and the idiomatic-helplessness
+  'could only wait'/'could not help dreading', 'no small feat' (ch02:483,
+  idiomatic English), 'at length'='in detail' (ch02:555), natural 'X and the
+  others' after names, and the p325 responsibilities-LIST parallelism.
+- [x] OLD/NEW propositional spot-check: every NEW re-read against its OLD;
+  all content-preserving (numbers, names, dates, claims intact). The only
+  contractions ADDED are in genuine dialogue (Zhang Guotao ch02; Zhao Qufei/
+  Shi Zhiwen ch05), never in a quoted document or formal-by-design speaker.
+- [x] KEEP-list grep over the batch diff: no contractions inside quoted
+  documents/telegrams/memoirs; no partisan term softened (汉奸/魔爪/我党/'our
+  side' all kept); no 对仗/set-piece broken (gun/knife refrain, 'Call it X...',
+  'you charge him...', the lotus and Duke-of-Zhou allusions, charcoal/brocade
+  refrain all intact); no *tewu*-class italics lost.
+- [x] blind critiques archived under review/voice_gate/ (ch02/ch03/ch04/ch05
+  round1), each from a context-blind subagent (no source, no STYLE, no glossary).
+- [x] one commit per unit, pushed; EPUB rebuilt each; epubcheck 0/0/0/0 at
+  batch end.
+
+**check_register (informational, ref = REVISED ch01):** ch03 2.9/1k (1.43x),
+ch04 0.0 (little dialogue), ch05 7.6/1k (3.69x, em-dash 4.2/1k) — all judged by
+ear per §2 (low-speech units make the dialogue metric noisy). ch02 flags 0.9/1k
+"STILTED": it improved from the ~0.1 baseline (the Zhang Guotao line
+contracted), but its quoted speech is overwhelmingly formal-by-design (Chiang's
+pronouncements, Mao's letter, the Xu Enzeng and Zhuo Lin memoirs) which the
+KEEP list exempts from contraction; its narration was re-voiced and reads
+modern-neutral by ear. Contracting further would mean contracting exempt
+registers, so the flag is left standing by design.
+
+**Logged for the corrections/R04 sweeps (out of scope for a register pass):**
+- ch02 p185 "Marshal Mao" — Mao held no marshal rank; a title is a content
+  assertion (and a note anchor), so LEFT for a corrections pass.
+- ch05 p287 Tao Siyong — pronoun switches "his secret"->"she"; the courier's
+  gender needs the source. LEFT.
+- ch05 "Old Lady Qin"/"Mama Qin" cover-name; the 上层 rendering drift
+  (upper reaches/crust/top brass); "two signboards"/"living the safe house"/
+  the '-ification' coinages — term-consistency for the R04 reconciliation sweep.
+
+**For R03-R04:** R01+R02 diffs are the exemplar; match the restraint. The
+REVISED out/ch01_reading.md remains the register reference. No new STYLE.local
+rules were needed this batch.
