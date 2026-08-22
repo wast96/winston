@@ -319,3 +319,11 @@
 华韵三
 # 字鸣三 courtesy name (Mingsan) — 三 part of the name, not a count
 鸣三
+#
+# --- B16 (ch14) block: name/idiom numerals ---
+# Luosan (瘰三), a period nickname for Li Lisan — rendered "Luosan"
+瘰三
+# Li Lisan written split as 李（立三） — the bare 立三 also a name fragment
+立三
+# Chen Sanbai (陈三百), a source author's name — rendered "Chen Sanbai"
+陈三百

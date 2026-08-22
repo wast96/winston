@@ -2,6 +2,90 @@
 
 The running per-batch log. Written as we go.
 
+## B16 — Chapter Fourteen ""一号机密" / "Secret Number One"" (ch14)
+
+- **Scope.** PDF 308-323, printed 293-308. Six sections: s1 一、中央文库 "The Central
+  Archive" (opener PDF 309, folio 294), s2 二、决不让一个纸片落到敌人手里 "Not One Scrap of
+  Paper to Fall into Enemy Hands" (PDF 312, folio 297), s3 三、我不死，我还要工作 "I Will Not
+  Die; I Still Have Work to Do" (PDF 313, folio 298), s4 四、"小老大" "The Little Boss"
+  (PDF 316, folio 301), s5 五、让自己永远沉默 "To Silence Herself Forever" (PDF 318, folio
+  303), s6 六、档归我们天下 "The Archive Comes Home to Us" (PDF 321, folio 306). Offset held a
+  constant 15; folios read off the scan at every opener and confirmed through 307. 66 body
+  paragraphs (s1 17, s2 7, s3 9, s4 6, s5 20, s6 7). Chapter divider p0308 and the washed-out
+  full-page painting p0323 are design furniture (no body text). The chapter tells the story
+  of the Central Archive (中央文库), the Party's first secret document repository, and the
+  chain of keepers who guarded it: Zhang Weiyi (founder, 1930), Ling Bing, Chen Weiren
+  (the tubercular hero who died guarding it, 1937), Miao Guren ("a second Chen Weiren,"
+  died 1944), and Chen Laisheng, who handed it over intact in 1949. Woven in: Pan Hannian's
+  South China Intelligence Bureau; the courier Zheng Wendao, who killed himself under arrest
+  rather than betray Nakanishi; and the Sorge / "Ramsay" ring's 1941 fall in Tokyo.
+- **Source recovery.** data/zh/ch14.txt HAND-TRANSCRIBED off the 300-DPI page images (OCR
+  chi_sim psm6, crop 0.06/0.95/0.11/0.955, kept as cross-check only). Chapter title + all six
+  section heads marked `###`. Parity exact: 66 = 66 (check_structure --pairs, source first).
+  One paragraph continues across a page break with the source-3 figure sitting mid-block
+  (p0313 to p0314): kept as one source line.
+- **Crop-verified readings (eye-read on magnified crops):** the source-author names 何荦
+  He Luo, 陈邦本 Chen Bangben (both confirmed on crop); 恺自迩路 (= Rue Kraetzer, today Jinling
+  Middle Rd); the Japanese-CCP cast (中西功 Nakanishi, 西里龙夫 Nishizato Tatsuo, the Sorge-ring
+  names). Load-bearing numerals confirmed: 六箱/两万多件 (six trunks, 20,000+ items), 104包共16箱,
+  戈登路1141号 / 恒吉里 / 江宁路673弄10号, 贝勒路710弄46号, 康定路1119弄, 胶州路175弄 / 新闸路1851弄,
+  成都北路972弄3号, 新闸路944弄 / 488号, 合兴坊15号.
+- **Register.** ch08-ch13 sardonic source-criticism voice kept. The chapter opens on the
+  renegade Luo Zhanglong's venom and turns it against him (Chen Weiren, whom he slanders, is
+  the hero); s1-s2 weigh Huang Jieran's interview (via Maomao) against the *Biography of Chen
+  Weiren* and Li Qiang's 1982 remarks; the author flatly calls Huang's memory "plainly
+  mistaken." Quoted Party directives (the 1939 consolidation and anti-spy resolutions) kept
+  starchy and formal. Contractions in narration 3.6/1k vs ch01 ref 0.3; check_register vs
+  ch01 within tolerance, NO stilted flag (em-dash 0.0/1k, sentence median 25, rhythm CV 0.75).
+- **Checks, all green.** parity 66=66; verify_unit numbers 0 unresolved (B16 noise block added:
+  瘰三 Luosan, 立三 Li Lisan split form, 陈三百 Chen Sanbai, all name numerals); check_align
+  median 4.98 en/han, no pair > 2.2x; qc_entities 0 misses; check_content 241 name occurrences
+  all in the paired paragraph; check_apparatus 0/0; build PASS (14/18 chapters, 395 notes);
+  qa_epub PASS (107 files, 395 refs/bodies/backlinks); epubcheck 5.1.0 0/0/0/0.
+- **Tail verification (rule 4 corollary).** The close (p0321-p0322, the last block quote and
+  paras 64-66: Zheng Wendao's second, fatal leap from a fourth-floor window; the archive's
+  delivery in 1949 and entry into the Central Archives in 1959, fulfilling Qu Qiubai's
+  "when the country is ours") re-read against the scan; faithful, nothing invented.
+- **Footnotes: 12 new** (unit total 12; book 395), first-appearance, reader-model. Items: the
+  courtesan couplet's allusions (倾国倾城 / 金屋藏娇 / 龙蛇); Luo Zhanglong (cross-ref ch09, the
+  expelled renegade whose bitterness colors the memoir); the "nine-tailed turtle" (late-Qing
+  byword for a philanderer); the Central Archive itself (the "Secret Number One"); the KMT
+  Fifth Plenum (Jan 1939, the anti-Communist turn); the China Defence League (Soong Ching-ling);
+  Kong Xiangxi / H. H. Kung; the Sorge / "Ramsay" ring (cross-ref ch07, plus the arrest-date
+  discrepancy [Ozaki taken Oct 14, not 15]); the Tokkō (Special Higher Police); the "Comintern
+  espionage ring" affair + Nishizato (cross-ref Nakanishi ch13); the film *No. 51 Depot* and
+  its "Little Boss"; Mao's "great in life, glorious in death" (Liu Hulan) applied to Zheng Wendao.
+- **NOT re-noted (already placed earlier) — cross-referenced, not re-noted:** Luo Zhanglong
+  (bio ch09), Deng Rong/Maomao (ch03), Gu Shunzhang (ch04+), Wang Jingwei (ch04+), the
+  "January 28th" Shanghai War (ch01), Liao Zhongkai & Li Shaoshi (ch06), He Xiangning (ch09),
+  Sorge & Ozaki (ch07, extended here), Nakanishi (ch13), the Comintern, the Central Special
+  Branch, the Central Social Affairs Department, tingzijian, the ten-li foreign quarter.
+- **Figures: 7** (`data/figs/ch14-01..07`, hand-cropped, printed captions excluded, translator's
+  captions with source-label provenance, real alt text): Chen Weiren portrait (s1, p0309); Qu
+  Qiubai portrait (s1, p0311); the Central Archive's old door, No. 15 Hexingfang (s3, p0314);
+  Xu Qiang & Li Yun in later years (s3, p0315); Miao Guren and Zheng Wendao portraits (s5,
+  p0318, two separate plates); Wang Jinyuan & Chen Yifeng visiting Li Desheng, 1945 (s6, p0321).
+  Every page eyeballed; p0308 (divider) and p0323 (washed-out painting) excluded as furniture.
+- **Glossary: ~65 new rows** (~53 people, ~6 organizations, ~6 places), written into the
+  sectioned ledger, each with a `pinyin` field (qc_entities requires it). Consulted
+  authority.json / the existing ledger first; many ch14 names already present (Luo Zhanglong,
+  Qu Qiubai, Li Lisan, Gu Shunzhang, Chen Geng, Pan Hannian, Kong Yuan, Zeng Xisheng, Li
+  Shaoshi, Nakanishi, Sorge, Ozaki, He Luo, and others) and reused unchanged. NEW recurring
+  institutional terms flagged `recurring:true`: 中央文库 the Central Archive, 华南情报局 the South
+  China Intelligence Bureau, 东北抗联 the Northeast Anti-Japanese United Army, 满铁调查部 the South
+  Manchuria Railway (Research Dept.), 日本同盟社 the Dōmei News Agency, 共产国际 the Comintern.
+  NEW concession-street gazetteer entries (gazetteer:true + today): 恺自迩路 Rue Kraetzer (today
+  Jinling Middle Rd), 开纳路 Kinnear Road (today Wuding West Rd), 小沙渡路 Ferry Road (today Xikang
+  Rd), 贝勒路 Rue Amiral Bayle (today Huangpi South Rd), 江西路 Kiangse Road (today Jiangxi Middle
+  Rd). Removed a redundant bare 小沙渡 place row (book-wide it occurs only inside 小沙渡路).
+- **Tooling patches (DO NOT REVERT).** `data/noise.txt` gained the B16 block (瘰三, 立三, 陈三百);
+  every real count still carried. No script changes this batch.
+- **Consistency note for the reconciliation sweep.** ch14 renders book/film/periodical titles
+  in `*italic*` (e.g. *No. 51 Depot*, *Sing Tao Daily*, *Autobiography*, *Shisheng*), matching
+  STYLE.md and ch01/ch08/ch09; ch10-ch13 left theirs plain. Book-wide title-italics remain a
+  reconciliation-sweep item. The two standing sweep items still hold: ch01 Yang Du note
+  "1875"->"1874"; ch09 para 163 "Fourth Avenue"->"Sima Road".
+
 ## B15 — Chapter Thirteen "并蒂莲 / Twin Lotus on One Stem" (ch13)
 
 - **Scope.** PDF 284-307, printed 269-292. Five sections: s1 一、派沈琬去 "Send Shen
