@@ -183,6 +183,59 @@ below about 4%. Full method and findings in `out/deep_audit.md`.
   `python3 scripts/qa_epub.py`, and `java -jar /tmp/epubcheck-5.1.0/epubcheck.jar
   out/zhou-enlai.epub`.
 
+## Register revision pass (R1-R5) — revision record, 2026-08-22
+
+After the book was complete, a five-batch **register revision pass** ran over
+the whole text (`REVISION_PLAN.md`), operationalizing the findings in
+`review/REGISTER_PASS_ASSESSMENT.md`. It was a REGISTER pass, not a
+retranslation: content frozen, no paragraph merged or split, no fact/name/
+date/number/hedge changed. Every change is an English-surface edit at an
+identified defect site.
+
+**Whole-pass total: 192 word-level edits, 188 insertions / 188 deletions
+across 25 of 28 reading files — zero paragraph-boundary changes anywhere.**
+By tier:
+- **Tier A globals (R1):** 95 day-month dates normalized to month-day; the
+  政治局 cascade to "the Politburo" (~65 sites incl. notes/glossary/authority);
+  ledger residuals ("in good time"->"in time/promptly" ×16; ch07 "driving
+  into"->"planted inside").
+- **Tier B tic sweep (R1 exemplar ch15, R2-R5):** ~40 narration edits total —
+  litotes calques ("no little/no small/no few" -> considerable / a good
+  deal / a good many), trailing/appositive "besides" (-> as well / apart
+  from / also), 只好 "could only" -> "had no choice but to", 相继/先后 for
+  people -> "in succession", antique stragglers (thereupon/whereupon/at
+  length/"was given to" -> then / and then / at last / often did),
+  fronted-infinitive de-inversions, redundant quote-tags. Most chapters came
+  back nearly clean; ch26/ch27 fully clean. Restraint held: the ch15 exemplar
+  was 12 edits / 75 paragraphs, and no later batch exceeded that density.
+- **Reconciliation (R5):**
+  - **叛徒 verdict:** "renegade" (29 occ., confined to batch B12 ch21/ch22 +
+    ch24, all rendering 叛徒, co-occurring with "traitor") was **per-batch
+    drift** and was collapsed to "traitor" (28 sites; 1 kept where the same
+    sentence already used "traitor"). "turncoat" (11 occ.) is the
+    STYLE-sanctioned variant and was **kept**.
+  - **Killing-verb ledger:** 3 source-verified fixes where 镇压/除掉 of
+    traitors by the Red Squad was softened to "put down"/"did away with" ->
+    "eliminated" (ch09 ×2, ch16).
+  - 破坏 -> "wreck*": reviewed book-wide and left as contextually appropriate
+    (mass-arrest destruction = smash/wreck, not the covert-subversion
+    "sabotage"); the abstract-noun calque the ledger flagged does not survive
+    in the text. See PROGRESS.md for the site inventory if a uniform
+    "sabotage" is ever wanted.
+
+**Verification:** every edited unit with a reading-source verify_unit GREEN
+(parity + numbers 0 unresolved + anchors); units edited without regenerated
+data/zh verified by the zh-independent guard set. check_register within
+tolerance of the frozen ch01 reference throughout. KEEP-list diff grep clean
+(no quoted-document register change, no "Comrade" thinning, no em-dash swaps,
+no contractions by quota). **Spot audit: 20+ edited paragraphs across R1-R5
+re-verified against source — zero meaning drift.** Build 28/28, qa_epub PASS,
+**epubcheck 5.1.0: 0 errors / 0 warnings** after the final rebuild.
+
+The register pass is CLOSED. The commissioner's requested **footnote-density
+pass** (`FOOTNOTE_PASS.md`) is the next initiative; everything else is a
+corrections pass per CLAUDE.md.
+
 ## Definition of done — met
 
 - [x] The EPUB: front matter, all 28 chapters, full clean TOC, cover, figures

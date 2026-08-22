@@ -2,6 +2,48 @@
 
 Dated record of what changed and, for global corrections, what cascaded where.
 
+## 2026-08-22 — R5 register pass: tail tic sweep, reconciliation, CLOSE (ch23-ch27 + whole book)
+Final register batch: tail tic sweep of ch23-ch27, then the whole-book
+reconciliation and close-out. Content frozen (no para merged/split, no fact/
+number/name/date/hedge changed). Reading text edited via edits/<id>_edits.md +
+apply_edits.py, except the 叛徒 collapse (a global rendering fix done grep-driven
+per the CLAUDE.md corrections workflow).
+- **Tail tic sweep, 6 edits** across ch23(3)/ch24(1)/ch25(2): 相继/先后 people ->
+  "in succession"; 出力不小 litotes -> "a great deal"; 除…外 "besides" ->
+  "apart from". **ch26 and ch27 came back clean** (0 edits).
+- **叛徒 variety check -> renegade collapsed.** "renegade" (29 occ., confined to
+  batch B12 ch21/ch22 + ch24, all rendering 叛徒, co-occurring with "traitor")
+  was per-batch drift; collapsed renegade -> traitor at 28 sites
+  (scripts/recovery/r5_collapse_renegade.py; anchor-safe), 1 kept where the same
+  sentence already used "traitor" (ch21 Chen Weiru). "turncoat" (11 occ.) kept
+  as the STYLE-sanctioned variant. CASCADE SCOPE: out/ch21,ch22,ch24_reading.md;
+  no notes/glossary body contained "renegade".
+- **Killing-verb ledger, 3 source-verified edits:** 镇压/除掉 of traitors by the
+  Red Squad softened to "put down"/"did away with" -> "eliminated"
+  (ch09 x2, ch16 x1). Borderline/quoted/idiom/movement-suppression uses KEPT.
+- **Whole-book antique-straggler sweep, 2 edits** the per-chapter gates missed:
+  ch12 "whereupon" -> "and then"; ch22 "at length" (终于, in the 1984 org-dept
+  notice) -> "at last".
+- **破坏 -> "wreck*" reviewed and LEFT** as contextually appropriate (mass-arrest
+  destruction = smash/wreck, not covert "sabotage"); the abstract-noun calque
+  the ledger flagged does not survive. Site inventory recorded in PROGRESS.md if
+  a uniform "sabotage" is ever wanted.
+- check_reconcile.py: epithet-drift candidates all hyphenation noise; glossary
+  forward 845/849 (4 pre-existing legitimate unused forms); theatre/theater is
+  the recorded venue-proper-name split, not drift.
+- Whole-pass (R1-R5) diff audit: 192 word-level edits, 188/188 balanced, zero
+  paragraph-boundary changes; KEEP-list grep clean. Spot audit 20+ paragraphs,
+  zero meaning drift.
+- Pre-flight: stray branch claude/modest-archimedes-7h5vbz folded into
+  claude/zhou-enlai; data/zh regenerated for ch17-ch27 (b10-b14 drivers);
+  ch09/ch10/ch16 pages re-OCR'd for killing-verb source.
+- Files touched: out/ch09,ch12,ch16,ch21,ch22,ch23,ch24,ch25_reading.md;
+  edits/ch09,ch12,ch16,ch22,ch23,ch24,ch25_edits.md;
+  scripts/recovery/r5_collapse_renegade.py; PROGRESS.md; COMPLETION.md;
+  HANDOFF.md; out/zhou-enlai.epub (rebuilt). notes.json byte-unchanged (339).
+- Build: 28/28, 339 notes, 496 pagebreaks. qa_epub PASS. epubcheck 5.1.0:
+  0 errors / 0 warnings. **The register revision pass (R1-R5) is CLOSED.**
+
 ## 2026-08-22 — R4 register pass: tic sweep, back batch (ch18–ch22)
 Tier-B tic sweep of the back batch (ch18–ch22), including the spine test on
 ch19's five and ch21's two flagged long sentences. Reading text edited via

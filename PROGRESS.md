@@ -1761,3 +1761,126 @@ the Deng Xiaoping eulogy). A list is never broken to shorten a sentence.
 - 镇压/除掉 of traitors → soft "put down"/"did away with" (killing-verb ledger:
   **eliminate/kill**) — sweep at R5's 叛徒/killing-verb reconciliation.
 - ch21's 等-tag alternation (above), for R5's check_reconcile.py.
+
+---
+
+## R5 — tail tic sweep (ch23-ch27) + whole-book reconciliation + close (2026-08-22)
+
+Final register batch. Pre-flight: stray branch `claude/modest-archimedes-7h5vbz`
+folded into `claude/zhou-enlai` (its head equalled origin, no work stranded);
+data/zh regenerated for ch17-ch27 (b10-b14 rebuild drivers, deterministic, no
+re-OCR); ch09/ch10/ch16 pages re-OCR'd raw for killing-verb source consultation.
+verify_unit GREEN on all regenerated units before any edit (ch23-27: 0 unresolved
+number pairs — no benign artifacts to pin; ch18-22 green too).
+
+### Tail tic sweep (ch23-ch27) — 6 narration edits
+ch23-ch25 are extremely quote-dense (memoirs, the Du Ning essay, Mao's
+Proclamation, the Xifeng county report, testimony); nearly every tic hit sits
+inside quoted matter and is KEPT. ch26 (Conclusion) and ch27 (Afterword) came
+back **clean** (0 edits) — expected per the plan's near-zero-tic list.
+- ch23 (3): "left Shanghai one after another" / "…Qian Zhuangfei did, one after
+  another" (相继/先后相继, people) -> "in succession"; "owed no little to his
+  wife" (出力不小 litotes) -> "a great deal".
+- ch24 (1): "transferred one after another to other places" (相继调往各地) ->
+  "in succession".
+- ch25 (2): two 除…外 "besides/Besides" (Mao clearing up the forged notice) ->
+  "apart from".
+- Defended survivors (source-checked): ch23 "at length"(memoir, = in detail),
+  "could not but"(Li Yimang memoir), "and the rest"(Du Ning essay), "as ill
+  luck would have it"(不幸得很, matches R4's ch21 decision); ch24 "Of late"/
+  "besides"(Mao's Proclamation, a KEEP document), the "one after another" at
+  连续/接连 sites (genuine sequence); ch25 "one after another" at 先后连续 (the
+  notices really ran in 4 papers Feb 16-21) and 纷纷落网 (a real multi-year
+  1950-51 campaign, dated); ch27 "at length"(talk at length = in detail),
+  陆续不断 "one after another".
+
+### 叛徒 variety check (plan 3.2) — VERDICT: renegade is drift, collapsed
+Sampled all three variants against source. **traitor** is the primary rendering
+book-wide. **renegade** (29 occ.) is confined to ch21/ch22 (batch B12) + 2 in
+ch24, every one rendering 叛徒 (verified: 叛徒王云程 -> "renegade Wang Yuncheng",
+无耻的叛徒 -> "shameless renegade"), and ch21/ch22 use BOTH "traitor" and
+"renegade" for 叛徒 in the same chapters — the signature of per-batch drift, not
+distinct-source variation. STYLE.md sanctions "traitor" OR "turncoat" for 叛徒
+but NOT "renegade". VERDICT: collapse renegade -> traitor (28 sites via
+`scripts/recovery/r5_collapse_renegade.py`, a grep-driven global rendering fix
+per the CLAUDE.md corrections workflow; anchor-safe — no anchor/note/glossary
+body contains "renegade"); 1 kept where the same sentence already used "traitor"
+(ch21 "the renegade Chen Weiru … the traitors' ranks", per plan 3.2). **turncoat
+(11 occ., ch04-09 + ch24) KEPT** as the STYLE-sanctioned deliberate early-batch
+variant of 叛徒 — not drift.
+
+### Killing-verb ledger cascade (STYLE round-2) — 3 edits, source-verified
+The soft rendering of a lethal act ("put down"/"did away with" for 镇压/除掉 of
+traitors by the Red Squad) is the exact STYLE killing-verb defect. Raw-OCR
+source confirms: ch09 "打狗队"连续镇压了几个公开的叛徒 / 及时的镇压叛徒 ->
+"eliminated"; ch16 为党和人民除掉了 -> "eliminated". KEPT (source-checked): ch09
+"put down turncoats who informed" (镇压 of scab-informers by the early workers'
+pickets, suppression) and "put it down" (镇压 of an activity, not a person);
+ch07 "put down the people's resistance" (镇压 of a movement = suppress); ch10
+"resolved to do away with them" (first-person memoir quote); ch15 "did away
+with feudal customs" (abolish, not killing); ch24 "do away with Chen Lifu…"
+(villain's quoted dialogue). ch24 "put down by its master" (dog idiom, quote).
+
+### Whole-book antique-straggler sweep — 2 edits the per-chapter gates missed
+register_tics.sh re-run over all 28 units; every surviving hit defended. Two
+genuine stragglers surfaced (fix the gate, not just the defect): ch12
+"whereupon" (便/遂 connective, narration) -> "and then"; ch22 "at length"
+(终于, inside the 1984 Central Org Dept notice — its own register is plain
+modern officialese, so the antique "at length" is off-register) -> "at last".
+Defended survivors book-wide: "before long"(不久), "let slip"(reveal sense),
+"Presently"/"Of late"/"for all that"(quotes), "at length"(= in detail).
+
+### check_reconcile.py — human-read adjudication
+- **Epithet drift: 69 candidates, all hyphenation noise** (counter-X, anti-X,
+  twenty-X, three-story vs three — distinct compounds, not rendering drift).
+- **Glossary forward: 845/849** decided forms present. 4 unused are pre-existing
+  (0 in HEAD too) and legitimate: "Chen Zhifei" (prose uses the given name
+  "Zhifei"), "Zhao Minlin"/"Jiang Baili"/"Guangming Daily" (referents mentioned
+  by variant or not by that exact form). Not R5 regressions.
+- **Spelling locale: the theatre/theater "mix" is the recorded B14 decision** —
+  all 9 "Theatre" are venue proper names (Carlton, Beijing, Lido, Yangtze,
+  Peacock Oriental); all 7 "theater" are the common noun. The check flags an
+  intentional, documented split, not drift.
+
+### 破坏 (enemy act) rendering — ADJUDICATED, no blanket cascade
+The R4 carry-forward flagged a book-wide 破坏 -> "wreck*" cascade to "sabotage".
+On review of all ~50 "wreck*" sites, the surviving renderings are contextually
+appropriate: 破坏组织 (an organization smashed by mass arrest) = wreck/smash/
+destroy, NOT "sabotage" (which implies covert subversion — the wrong sense);
+破坏计划 = "wreck a plan" (idiomatic English). The abstract-noun calque the
+ledger actually flagged ("forestall the enemy's *wrecking*") does not survive
+in the current text. A blanket "sabotage" swap would misrender the mass-arrest
+sense, so it is deliberately NOT done. If the commissioner wants uniform
+"sabotage" regardless, that is a one-line global corrections item (site
+inventory: ch04:103, ch09:59/95/99, ch10:43/45, ch11:27/31, ch12:31/47,
+ch16:5, ch17:137, ch19:13/69, ch20:65/67/91/113/129, ch21:5/7/23, ch22:29,
+ch23:7/15/91/99/101, ch24:5/7/9/11/19/35/41/43/67/69/89/99, ch25:31, ch27:3 —
+many inside quoted documents/memoirs, which are KEEP).
+
+### QC
+- verify_unit GREEN on every unit with data/zh that was edited (ch21/22/24 +
+  ch23/25): parity + numbers (0 unresolved) + anchors. ch09/ch12/ch16 (no
+  regenerated data/zh) verified by the zh-independent guard set (apply_edits
+  OLD-unique, anchors intact, no number/typography change, check_register) —
+  the R1 ch01/ch03 precedent.
+- Typography: **zero** new non-ASCII introduced by any R5 edit (per-file char
+  counts identical HEAD->now for all 8 touched files). Pre-existing U+2026
+  (quotation abridgment), U+2013, and accented foreign names (Lü, café) left.
+- check_register vs out/ch01_reading.pre-R.md: all touched units within
+  tolerance.
+- **Whole-pass (R1-R5) diff audit: 192 word-level edits, 188/188 balanced
+  insertions/deletions across 25 files — zero paragraph-boundary changes.**
+  Every change classified: dates, Politburo, renegade->traitor, litotes,
+  besides, 只好, 相继 people, killing verbs, antique stragglers, de-inversions.
+  KEEP-list grep clean: 0 em-dash swaps, 0 contractions-by-quota, 0 "Comrade"
+  removals, 0 quoted-document register changes; the one "let slip"->"missed" is
+  the antique "allow to escape" sense (not the KEEP reveal sense).
+- **Spot audit: 20+ edited paragraphs across R1-R5 re-verified vs source
+  (well above 10%/min-15) — zero meaning drift.**
+- Build: 28/28, 339 notes, 496 pagebreaks. qa_epub PASS. epubcheck 5.1.0: 0
+  errors / 0 warnings.
+
+### R5 total: 12 register edits (6 tic + 3 killing-verb + 2 straggler + the ch25
+"besides"×2 counted in the 6) + 28-site renegade collapse. The register pass
+(R1-R5) is COMPLETE. Further work is a corrections pass (CLAUDE.md), and the
+commissioner's requested footnote-density pass (FOOTNOTE_PASS.md), which is next.
