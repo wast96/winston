@@ -2,6 +2,15 @@
 
 Dated record of what changed and, for global corrections, what cascaded where.
 
+## 2026-08-22 — register-pass assessment (no text changed)
+- Added `review/REGISTER_PASS_ASSESSMENT.md`: a measured survey of the built
+  book against the register rebaseline and style machinery on
+  `claude/the-sword-roars` (commit 8431573), with a ranked defect inventory,
+  prose quality score, and a recommendation for a bounded tic-sweep pass.
+- TOOLING: imported `scripts/register_tics.sh` (the sword branch's grep
+  battery for the rebaseline kill list; runs against this repo unmodified).
+- No reading text, apparatus, or EPUB content was modified.
+
 <!-- Newest first. Example:
 ## 2026-01-01 — corrections batch 1
 - GLOBAL: renamed "X" to "Y" everywhere (glossary + grep across ch01-ch08); rebuilt, qa green.
