@@ -3608,6 +3608,18 @@
    "en": "Blue Shirts",
    "pinyin": "Blue Shirts",
    "status": "attested"
+  },
+  "中央政治局": {
+   "en": "the Politburo",
+   "pinyin": "Zhongyang Zhengzhiju",
+   "status": "decided",
+   "note": "R1 register pass (2026-08-22): 中央政治局 and bare 政治局 both render \"the Politburo\" — the standard term in English-language CCP scholarship (reader-ease over decode). \"Political Bureau\" was collapsed to \"Politburo\" book-wide and the redundant \"Central\" dropped, matching the form already used in ch19–ch20. 中央政治局常委 = \"the Politburo Standing Committee\"."
+  },
+  "政治局": {
+   "en": "the Politburo",
+   "pinyin": "Zhengzhiju",
+   "status": "decided",
+   "note": "See 中央政治局; both render \"the Politburo\"."
   }
  },
  "places": {
