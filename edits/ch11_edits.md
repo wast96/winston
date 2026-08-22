@@ -1,61 +1,32 @@
-# ch11 date normalization (Tier A, R1) -- day-month -> month-day
+# ch11 (R3) — Tier B tic sweep
 
-### ch11 [T-date] TOUCH
-OLD: 13 October
-NEW: October 13
-WHY: date order; house style is month-day (13 October)
+# The Peng Pai rescue chapter. Source consulted at every site. 4 edits over 39
+# body paras. The 等-list for the martyr group (彭湃、杨殷等) had drifted between
+# "and the rest" (L21/L35/L45) and "and the others" (L35/L41/L47) within one
+# chapter; collapsed to "and the others" (the reverent, majority form) per plan
+# 3.2 (per-batch drift on one referent). LEFT: "let slip not a moment" (L59) and
+# "besides Peng, Yang..." (L23) are inside Zhou Enlai's quoted Red Flag Daily
+# essay (KEEP); L43/L77/L85 likewise quoted; "the meeting of the Concession and
+# the Chinese city" (L37, junction) and "the founding of the soviet" (L43, in
+# quote) LEFT; the L25 Bai-Xin sentence is split by a semicolon and passes the
+# spine test (only its trailing "besides" touched).
 
-### ch11 [T-date] TOUCH
-OLD: 23 November
-NEW: November 23
-WHY: date order; house style is month-day (23 November)
+### ch11 [T3] TOUCH
+OLD: Peng Pai, Yang Yin, and the rest had been taken
+NEW: Peng Pai, Yang Yin, and the others had been taken
+WHY: 彭湃、杨殷等被捕; collapse the martyr-group 等-list drift to the reverent majority form "and the others"
 
-### ch11 [T-date] TOUCH
-OLD: 30 October
-NEW: October 30
-WHY: date order; house style is month-day (30 October)
+### ch11 [T3] TOUCH
+OLD: Peng Pai, Yang Yin, and the rest were seized
+NEW: Peng Pai, Yang Yin, and the others were seized
+WHY: 彭湃、杨殷等被捕; same collapse (and un-splits "rest"/"others" used for the same group within this line)
 
-### ch11 [T-date] TOUCH
-OLD: f 24 August 1929
-NEW: f August 24, 1929
-WHY: date order; house style is month-day (24 August 1929)
+### ch11 [T3] TOUCH
+OLD: rescuing Peng Pai, Yang Yin, and the rest
+NEW: rescuing Peng Pai, Yang Yin, and the others
+WHY: 营救彭湃、杨殷等; same 等-list collapse to "and the others"
 
-### ch11 [T-date] TOUCH
-OLD: 10 September
-NEW: September 10
-WHY: date order; house style is month-day (10 September)
-
-### ch11 [T-date] TOUCH
-OLD: n 24 August 1929
-NEW: n August 24, 1929
-WHY: date order; house style is month-day (24 August 1929)
-
-### ch11 [T-date] TOUCH
-OLD: On 24 August
-NEW: On August 24
-WHY: date order; house style is month-day (24 August)
-
-### ch11 [T-date] TOUCH
-OLD: 26 August
-NEW: August 26
-WHY: date order; house style is month-day (26 August)
-
-### ch11 [T-date] TOUCH
-OLD: 28 August
-NEW: August 28
-WHY: date order; house style is month-day (28 August)
-
-### ch11 [T-date] TOUCH
-OLD: on 30 August and 1 August
-NEW: on August 30 and August 1
-WHY: date order (compound); house style is month-day
-
-### ch11 [T-date] TOUCH
-OLD: On 30 August the four
-NEW: On August 30 the four
-WHY: date order; house style is month-day (standalone 30 August)
-
-### ch11 [T-ledger] TOUCH
-OLD: in good time
-NEW: in time
-WHY: ledger residual 及时 = "in time / promptly", not "in good time"
+### ch11 [T1] TOUCH
+OLD: and a large reward besides
+NEW: and a large reward as well
+WHY: 并取得一大笔奖金; trailing antique "besides" -> "as well"
