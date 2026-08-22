@@ -9,7 +9,7 @@ session updates the kickoff block below for the next one.**
 ## Message to paste into the next chat
 
 ```
-Nameless Heroes R2: register revision pass
+Nameless Heroes R3: register revision pass
 
 Branch: claude/nameless-heroes ONLY. First acts: git fetch origin
 claude/nameless-heroes && git checkout claude/nameless-heroes && git
@@ -20,7 +20,7 @@ Never read any other branch.
 Read CLAUDE.md, then REVISION_PLAN.md IN FULL (it is the authority for
 this pass), then run ./setup.sh.
 
-Scope this batch: ch07, ch08. Content is frozen; English-to-English
+Scope this batch: ch09, ch01–ch05, ch10. Content is frozen; English-to-English
 register edits only, per REVISION_PLAN.md §3 (defect classes T1–T6,
 KEEP list) and §5 (method, exactly). Edits via edits/<id>_edits.md +
 apply_edits.py; verify_unit + tic battery before/after per chapter;
@@ -36,27 +36,48 @@ approval stops.
 ```
 
 
-## Revision pass state (after R1)
+## Revision pass state (after R2)
 
-- **DONE:** R1 (ch06, the exemplar): 260 register edits + 1 note-anchor move
-  via `edits/ch06_edits.md`; all gates green (parity 322/322, numbers 0,
-  anchors 24/24, align OK, content clean); spot-audit 21/21 faithful; tic
-  table and full findings in PROGRESS.md §R1; revised ch06 frozen as
-  `reference/R1_frozen.md` (the register reference for R2–R13).
-- **AWAITING:** the exemplar gate (REVISION_PLAN.md §9). Approval = the
-  commissioner pastes the R2 kickoff above into a fresh chat. Corrections
-  typed in the R1 chat become §3.5 rules; ch06 is then re-revised and
-  re-presented.
-- **Carry-forward for R2:** voice sheets seeded in REVISION_PLAN.md §3.4
-  (Chen-in-scene, Dai Li, Zheng Jiemin, Wang Tianmu, Wu Youquan, and the
-  quasi-official recruiting voice); T3 rule as practiced in ch06 — recurring
-  decided terms plain after their book-first quoted use; quotes stay at
-  naming constructions, name-as-name, anatomized words, marked irony,
-  quoted documents, and note-anchor sites. New noise.txt entries: 五官,
-  四个大字. R13 reconciliation flags logged in PROGRESS.md §R1 (Baomiju
-  rendering, storey/story, "political operation").
+- **DONE:** R1 (ch06, exemplar, frozen as `reference/R1_frozen.md`). R2 (ch07,
+  ch08): ch07 86 edits, ch08 65 edits via `edits/ch07_edits.md` /
+  `edits/ch08_edits.md` + `apply_edits.py`; all fidelity gates green (ch07
+  parity 362/362, ch08 461/461; numbers 0; anchors 11 & 13; align OK; content
+  clean bar the documented ch08 Shunde substring FP); spot-audits clean (2
+  slips caught and fixed: ch07 p162 "in detail", ch08 p346 顾虑 nuance);
+  qa_epub PASS + epubcheck 0/0/0/0. Full tic tables + findings in PROGRESS.md
+  §R2. **ch08 check_register STILTED is a documented false positive** (its
+  "speech" is dominated by quoted documents + deliberately-formal speakers;
+  see PROGRESS §R2 and references/register-drift.md §§1-2) — do not chase it
+  by contracting formal/document speech.
+- **Carry-forward for R3+:** voice sheets in REVISION_PLAN.md §3.4; T3 rule as
+  practiced — recurring decided proper names/orgs plain in narration after
+  book-first use; quotes stay at naming/anatomizing sites, marked irony,
+  titles, code names, quoted documents, dialogue, note-anchor sites. R3 front
+  matter (ch01-05) is light-touch (closest to target already). Generate T3
+  quote-strips programmatically (byte-exact OLD, uniqueness pre-checked) and
+  skip whole quoted-document/dialogue paragraphs.
+- **New noise.txt entry (R2):** `三、四两` (enumerated pair + recap 两; see
+  PROGRESS §R2) — do-not-revert. Earlier R1 entries 五官, 四个大字 also stand.
 - **Tooling do-not-revert:** kickoff_guard Stop hook; apply_edits.py OLD
-  uniqueness contract; the R1 noise.txt entries above.
+  uniqueness contract; the noise.txt entries above.
+- **R13 reconciliation flags** logged in PROGRESS §R1 (Baomiju, storey/story,
+  "political operation") and §R2 (ch07 one-off hotel names; ch08 group-name /
+  special-commissioner / inspectorate-system quoting).
+
+## ⚠ COMMISSIONER DIRECTIVE (2026-08-22): a FOOTNOTE-DENSITY pass AFTER R13
+
+The commissioner has ordered an additional final pass, **after the whole R2-R13
+register revision is complete**, to **greatly increase footnote density** across
+the EPUB: explain the little references, the people, places, terms, events, and
+allusions a non-specialist Western reader would miss. Density is a reader model,
+not a quota — **never add a note just to add one**, but be generous: terms,
+people, places, events, and references should be explained. This is authored as
+its own pass, **F1…**, with its own schedule and kickoff canon in
+**REVISION_PLAN.md §12**. When R13 completes the register pass, the R13 reply
+must serve up the **F1 kickoff** (not a "book complete" notice); the directive
+and its kickoff are transcribed in `CORRECTIONS.md` and REVISION_PLAN.md §12 so
+they survive every batch seam. Carry this note forward in every HANDOFF until
+the footnote pass is itself complete.
 
 ---
 

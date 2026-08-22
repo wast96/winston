@@ -4545,3 +4545,187 @@ with the plan's verbatim prompt. It returned **493 numbered findings**
   zero meaning-drift defects.
 - Tail (p318–p322) re-verified after the fold-in touched p321–p322.
 - check_align ch06 OK (median 4.53); check_content ch06 clean (216/216).
+
+## R2 (ch07, ch08) — register revision pass
+
+Scope: ch07 + ch08, English-to-English register edits per REVISION_PLAN.md §3
+(T1-T6) and §5. Content frozen. **ch07: 86 edits; ch08: 65 edits** via
+`edits/ch07_edits.md` / `edits/ch08_edits.md` + `apply_edits.py` (every OLD
+verified unique; sequential apply simulated before each real run; the reading
+file re-derived from the pristine text on each amendment so the edits file
+stays the single source of truth). No note anchors touched (ch07 11 anchors,
+ch08 13 anchors, all still resolve); no notes added.
+
+### Tic battery, before -> after
+
+| class | ch07 before | ch07 after | ch08 before | ch08 after |
+|---|---|---|---|---|
+| T1 besides (adverbial, approx) | 11 | 8 | 17 | 16 |
+| T1 thereupon/whereupon | 0 | 0 | 7 | 7 |
+| T1 forthwith/presently/at length | 0 | 0 | 5 | 1 |
+| T1 of-a-morning/evening/sudden | 1 | 1 | 3 | 1 |
+| T1 wont/no-wish/made-bold/still-less | 0 | 0 | 4 | 3 |
+| T1 nothing for it | 0 | 0 | 2 | 0 |
+| T1 day-month dates | 5 | 2 | 16 | 6 |
+| T2 could not but / could only | 3 | 2 | 0 | 0 |
+| T2 and-the-rest/others | 6 | 5 | 12 | 12 |
+| T2 pivots (namely / that is to say) | 2 | 0 | 0 | 0 |
+| T2 gerund-of nominalizations | 3 | 2 | 3 | 3 |
+| T2 litotes (no small / no few) | 3 | 1 | 4 | 2 |
+| T3 quoted terms (straight pairs) | 0* | 0* | 361 | 322 |
+| T5 contractions (n't only) | 6 | 11 | 0 | 2 |
+| T6 impersonal one (+modal) | 11 | 3 | 27 | 23 |
+| T4 semicolons | 245 | 245 | 407 | 405 |
+| T4 sentences >60 / >90 | 43/12 | 38/11 | 94/26 | 92/25 |
+
+*ch07 uses CURLY quotes (") for quotation and straight ' for apostrophes, so
+the battery's straight-pair metric reads 0 for it; the real count was ~73
+curly term-pairs, of which 40 narration proper-name pairs were thinned (see
+below). ch08 uses straight quotes throughout. The T5 battery counts only
+`n't` forms; most ch08 dialogue contractions added were 's/'ll ('ll: p166,
+p330x2, p331, p340; and Wu Ping/Wang Wen 's-forms), which this metric ignores.
+
+### T3 policy applied (the biggest eye-level change)
+
+Decided recurring PROPER NAMES / orgs whose first book-use + gloss lives in
+earlier chapters went PLAIN in narration:
+- **ch07 (40 strips):** Grand Hôtel des Wagons-Lits, Legation Quarter, Beiping
+  Station, Tianjin Station, Water Gate, the Japanese/American barracks,
+  Lixingshe, Juntong.
+- **ch08 (41 strips):** Beiping Station, Tianjin Station, Juntong.
+Quotes KEPT at: naming/anatomizing sites (ch07 "legation district" p095, Water
+Gate + the "water" word p098, the barracks/guard-detachment anatomy p100,
+Lixingshe naming p326; ch08 Action/Intelligence/Military Group forming,
+special commissioner / Renaissance Society / inspectorate system /
+Investigation Section / Xiaobailou intros, "Ground C", the p220 & p387
+anatomizing org-lists), the author's marked deixis (ch07 p321 "that"/"this",
+p354 "Heaven's"), titles-as-titles, code names, and EVERYTHING inside quoted
+documents and dialogue. Generated programmatically (byte-exact OLD, uniqueness
+pre-checked); paragraphs that hold quoted documents/dialogue were skipped
+wholesale.
+
+### T5 dialogue naturalization
+
+- **ch07:** Wang Tianmu (worldly/urbane social & practical asides), Qi Nanpu
+  (blunt), Chen-in-scene & Bai Shiwei (terse with comrades), Feilong
+  (spirited Beiping girl) contracted / de-stiffened. KEPT formal (T5 CAUTION):
+  Zheng Jiemin's sanction briefing (p036-045, quasi-official), the stewards'
+  deferential register, Manager Ying (already natural), Wang's sententious
+  "all-rounder" teaching (p011).
+- **ch08:** the rough/operational speakers naturalized — Wu Ping (p296),
+  Chen Guorui (p340), Wang Wen (p166, p346), Yang Yushan (p330x2, p331). KEPT
+  formal by characterization: Chen's frontal persuasion of the conservative
+  elders Zheng/Fu, his operational briefings (a "troop-order"), Dai Li's
+  weighted speech, Wang Yumei's dignified reproach, the hotel boy's
+  deferential speech, and all quoted testimony/documents/Communist rhetoric.
+
+### Surviving hits, defended (the battery is a flag, not a verdict)
+
+- **ch07 day-month 2, of-a-sudden 1:** the 2 dates ("18 April", "21 April"/
+  "the nineteenth") sit inside the Secret Records quoted document (p307-313,
+  exempt); "all of a sudden" (p068) is living English idiom, not the
+  costume-drama "of a sudden."
+- **ch07 could-only 2:** p046 ("could only do our utmost", a landing coda) and
+  p107 ("we could only turn right", the actual route) both read naturally.
+- **ch07 and-the-rest 5 / gerund-of 2 / litotes 1:** the "and the others" cases
+  are 他们 (real group reference), the 等 case in the Secret Records is exempt;
+  gerund survivors are p333 (natural) and p362 (a deliberate parallel closing);
+  litotes survivor is a natural collocation.
+- **ch08 thereupon/whereupon 7, of-a-sudden 1, day-month 6, litotes 1(of 2),
+  and-the-rest (most):** all inside quoted documents — Feng's telegram, the
+  evidence lists, the two newspaper items, the Communist booklet, Ji's
+  deposition/notice — which §3.1 exempts wholesale.
+- **ch08 forthwith 1, still-less 3:** the surviving forthwith is in the p412
+  military-branch notice (document); "still less" survivors are correlative
+  comparisons (p370 "still less could there be error", p382 "Still less do we
+  understand"), legitimate English.
+- **ch08 impersonal one 23:** the bulk are Chen's essayist reflective codas
+  ("what one may see from this affair", "one may see how venomous…") that the
+  KEEP list protects (§3.2 T6 CAUTION); only genuinely-generic perception /
+  team "one" was thinned (p111, p174, p293, p294).
+
+### Rejected finding classes (RULE R1-4 — adjudicated by class, not item)
+
+No blind critique this batch (R6/R11 carry the two spot checks). Standing
+REJECT-by-class calls that shaped the pass: Chen's persona furniture (笔者
+"the writer", humility formulas, topic frames, reflective codas, the narrating
+"shall"); his interested-witness political heat ("the utterly evil Communist
+Party", "the Mao hag Jiang Qing", "his dog's foul wind", "traitors",
+"sanction") — never laundered, never sharpened; the author's marked irony /
+scare-quoted terms he anatomizes; source-carried doubling and faithful
+oddities; and everything inside quoted documents and quasi-official speech.
+
+### Fidelity note found during the aligned read (source-driven, logged)
+
+- ch08 p204: the English had fused two source sentences with a dash, leaving a
+  dangling "After the 'Investigation Section' was merged into the 'Juntong'…—
+  Wang was short and wiry" (RULE R1-2 class). Split into two sentences per the
+  zh (「调查课」拨并「军统局」后，改由戴先生领导。他短小精干…). Not a content change.
+
+### Checks
+
+- `verify_unit.py ch07`: parity 362/362, numbers 0 unresolved, 11 anchors ok.
+- `verify_unit.py ch08`: parity 461/461, numbers 0 unresolved, 13 anchors ok.
+- **noise.txt addition (documented in the file):** `三、四两` — an enumerated
+  pair recapped by 两 "the two of them" (三、四两层楼 ch08 = "the third and
+  fourth floors"; 第三、四两集 ch17). The 两 is a summarizing counter, not an
+  independent quantity; placed before the bare `三、四` per the longest-literal
+  ordering rule. This resolved a PRE-EXISTING ch08 number flag at pair 269
+  (present in the shipped text, not introduced by R2) and greens ch17's same
+  idiom too.
+- `check_align.py`: ch07 OK (median 4.60; two low-ratio flags are short
+  declaratives — "It was thus:", the date line); ch08 OK (median 4.69, no
+  strays >2.2x).
+- `check_content.py --config checks.json`: ch07 clean (206/206 name
+  occurrences in the paired paragraph); ch08 3 DISPLACED = the documented
+  homograph/substring false positive "ch08 Shunde" (the Lishunde Hotel,
+  利顺德, contains the substring "shunde"; §2 known-benign) — no NEW
+  displacement.
+- `check_register.py --ref reference/R1_frozen.md`:
+  - **ch07:** within tolerance (dialogue contractions 19.7/1k = 7.38x ref).
+    "shall"-share 33% is a benign warning — the only two shalls are Zheng
+    Jiemin's quasi-official sanction briefing (p044-045), deliberate/KEEP.
+  - **ch08:** flags `STILTED` (1.0/1k = 0.38x ref, threshold 0.45x). This is a
+    documented FALSE POSITIVE per `references/register-drift.md` §§1-2: ch08's
+    "speech" word-count is dominated by quoted documents (Feng's telegram, the
+    evidence lists, two newspaper reports, Ji's deposition, the military-branch
+    notice, Ji's letters/poem, the Communist booklet's long excerpts) and by
+    deliberately-formal speakers (Chen's persuasion of the conservative elders,
+    Wu Ping's testimony, Ji's Communist rhetoric, Dai Li, Wang Yumei's
+    dignified reproach, the deferential hotel boy) — all of which the reference
+    forbids contracting. Every genuinely-casual line (the operatives Wang Wen,
+    Chen Guorui, Wu Ping, Yang Yushan) was naturalized; the flag is measuring
+    the chapter's documentary density, not register drift. The fidelity gate
+    (verify_unit) is green.
+- **Tail check:** ch07 p318-322 and ch08 p453-461 re-read against zh — no
+  register edit falls in either tail (last ch07 edit p357, last ch08 edit
+  p452); the frozen tails are unchanged and faithful.
+- **Spot-audit (fixed seed 20260822, 10%+ of edited paragraphs, min 10):**
+  - ch07: 26 paragraphs read zh-against-en (the seeded sample plus every
+    RECAST/dialogue block) — ONE content slip caught and fixed (p162 dropped
+    "in detail"/仔细; restored). Otherwise zero meaning-drift.
+  - ch08: 21 paragraphs read (seeded sample plus the grammar recast, dates,
+    and all naturalized dialogue) — one nuance tightened (p346 顾虑到 rendered
+    "worried … might" rather than "watching in case"). Otherwise zero
+    meaning-drift.
+- Build: `qa_epub.py` **PASS** (57 files, 50 documents, 375 refs/375 bodies/
+  375 backlinks, all links resolve); epubcheck 5.1.0 **0 fatals / 0 errors /
+  0 warnings / 0 infos** (EPUB 3.3).
+
+### R13 reconciliation flags (NOT changed in R2)
+
+- ch07 keeps one-off proper hotel names quoted at their single ch07 appearance
+  ("Hôtel de Pékin", "Central Hotel", "Chang'anchun Hotel" p143) — low
+  frequency; confirm book-wide treatment in R13.
+- ch08 "special commissioner", "inspectorate system", "Intelligence Group",
+  "Action Group", "Military Group", "Renaissance Society", "Investigation
+  Section" left quoted (naming/anatomizing/list contexts here) — confirm
+  whether any recur plainly enough elsewhere to warrant book-wide thinning.
+
+### Setup note
+
+- setup.sh regression: the ONE known false alarm ("hook stands down on
+  template stub") still fails as documented — it is the kickoff_guard Stop hook
+  correctly ENFORCING because HANDOFF.md carries a real (non-template) kickoff,
+  which is exactly what we want; the test assumes a template-stub HANDOFF. All
+  other checker regression tests green.

@@ -45,3 +45,19 @@ Fix: aligned both occurrences to the keyed "North China Bandit-Suppression Headq
   regenerated ch32 en.json; check_content ch32 now 0 displaced. (Applied B28, ch35 batch.)
 
 (move applied blocks here, with the CHANGELOG date)
+
+### [GLOBAL] Footnote-density pass ordered (after the R1-R13 register revision)
+Unit: book-wide
+Where: the whole EPUB, once the register revision (R1-R13) is complete
+Problem: (commissioner directive, chat, 2026-08-22, transcribed verbatim in
+  substance) — footnote density is too low for a non-specialist Western reader.
+Fix: run an additional final pass that GREATLY increases footnote density —
+  explain the little references, the people, places, terms, events, and
+  allusions the reader would miss. Do NOT add notes just to add them; density
+  is a reader model, not a quota, but be generous. Authored as the F1-F8
+  footnote-density pass in REVISION_PLAN.md §12 (its own schedule + kickoff
+  canon + gates). Sequencing: this pass runs AFTER R13; when R13 finishes the
+  register revision, the R13 reply serves the F1 kickoff instead of a "book
+  complete" notice. Carried forward in HANDOFF.md until the footnote pass is
+  itself complete.
+Status: PENDING — starts after R13.

@@ -426,3 +426,129 @@ FIXED BODY (fill `{Rn}` and `{units}`; keep everything else verbatim):
 R1 uses its own kickoff (written at plan time, archived in `HANDOFF.md`):
 it adds the exemplar-gate STOP, the voice-sheet seeding, the blind critique,
 and the freezing of `reference/R1_frozen.md`, and its scope is ch06 only.
+
+## 12. The footnote-density pass (F1…), AFTER R13 — commissioner directive 2026-08-22
+
+After the whole register revision (R1-R13) is complete, the commissioner has
+ordered ONE more pass over the finished EPUB: **greatly increase footnote
+density** so a non-specialist Western reader has every reference explained.
+This section is the authority for that pass, exactly as §§1-11 are for the
+register pass. It is added here (not invented ad hoc later) so it survives
+every batch seam; the directive is also transcribed in `CORRECTIONS.md`.
+
+### 12.1 What the pass does
+
+- **Goal:** explain the little things a reader with no Chinese and no
+  background would miss — **terms, people, places, events, institutions,
+  allusions, idioms, customs**. The register pass left the prose clean; this
+  pass makes it legible.
+- **Density is a reader model, not a quota.** Be generous, but **never add a
+  note just to add one.** Every note must tell the reader something they need
+  and cannot get from the sentence. Redundant, padding, or "throat-clearing"
+  notes are defects in the note list exactly as synonym-shuffle edits were in
+  the register pass.
+- The footnote CONTRACT is CLAUDE.md's "Footnotes — what earns one" section,
+  applied at full strength: the four domains (material culture, social
+  structure, customs and belief, institutions and money); the four kinds
+  (translation uncertainty; a reference a non-specialist won't catch, with the
+  verdict stated; texture lost in translation; the author as interested
+  witness). First-appearance discipline with the greps; a "NOT re-noted"
+  ledger per batch; the glossary is the quarry and the note says MORE than the
+  glossary row.
+
+### 12.2 Hard invariants (each with its check)
+
+- **Content still frozen.** This pass adds NOTES ONLY. No prose word changes
+  except the minimal anchor-bearing substring already present (notes attach to
+  verbatim substrings of the shipped text; if an anchor is not present
+  verbatim, pick a different anchor, do NOT reword the prose).
+- **Fidelity of the note bodies:** fact-check against real scholarship
+  (CLAUDE.md rule 5 / `references/fact-checking.md`); NEVER source LLM-written
+  references; state the verdict (corroborated / uncorroborated / contradicted);
+  a contradicted source-claim stays faithful in the text and is footnoted.
+  Trace claims to the earliest source; repetition is not corroboration.
+- **Never invent.** An uncertain identification is footnoted AS uncertain, not
+  guessed with false confidence (RULE R1-1's spirit: say what you actually
+  know).
+- **Mechanics:** author notes ONLY via `apparatus_merge.py` (never a shell
+  heredoc into JSON); anchors verbatim, verified at write time; note bodies are
+  XHTML with **numeric character references only** (no named entities); a
+  chapter H1 cannot carry a note; numbering is the builder's. `check_apparatus.py`
+  clean; the builder's refuse-on-unmatched-anchor is the backstop for BOTH note
+  streams, not the check.
+- **Two note streams stay separate** (translator notes vs the author's own — the
+  source carries none here, but the guard stands).
+- Build + `qa_epub.py` after each batch (note refs == bodies == backlinks, all
+  links resolve); epubcheck when available. A failure stops the line.
+
+### 12.3 Method per chapter (do it like the register pass)
+
+1. Read the chapter's shipped English against the source in aligned chunks.
+2. List every notable term/person/place/event/allusion; check `glossary.json`
+   and existing `notes.json` FIRST (do not duplicate an existing note; respect
+   first-appearance — grep the built book for the term's earlier occurrences).
+3. Draft note bodies with sources; fact-check; state verdicts.
+4. Author via `apparatus_merge.py`; `check_apparatus.py` clean; verify every
+   new anchor is a verbatim substring at write time.
+5. Rebuild; `qa_epub.py` (+ epubcheck); record counts + the "NOT re-noted"
+   ledger + sources used in PROGRESS.md.
+6. Commit at chapter boundaries; deliver the two chat deliverables per batch.
+
+### 12.4 Batch schedule (balanced by note volume; sequential, no subagent fan-out)
+
+Front matter and early chapters carry the heaviest new-note load (the furniture
+is introduced there); the count tapers as the world gets covered. A reasonable
+split, to be firmed up by the F1 session after a survey of what is already
+noted vs. what a reader still needs:
+
+| Batch | Units |
+|---|---|
+| F1 | ch01-ch03 (+ survey the existing 375 notes; set the density target on ch01 as the exemplar; STOP for the commissioner to approve the exemplar's density/voice before F2) |
+| F2 | ch04-ch07 |
+| F3 | ch08-ch12 |
+| F4 | ch13-ch18 |
+| F5 | ch19-ch24 |
+| F6 | ch25-ch30 |
+| F7 | ch31-ch36 |
+| F8 | ch37-ch43 + whole-book note reconciliation, final rebuild, qa_epub + epubcheck, COMPLETION update |
+
+F1 ends at an exemplar gate (like §9): present ch01's before/after note counts,
+6-10 sample new notes spanning the four kinds, the rebuilt EPUB, and the F2
+kickoff. On approval ch01's density becomes the reference for F2-F8.
+
+### 12.5 Verbatim F-kickoff canon
+
+Every footnote-pass batch reply pastes the NEXT batch's kickoff from this canon
+(fill `{Fn}` and `{units}` from §12.4; F1 adds the exemplar-gate STOP line):
+
+    Nameless Heroes {Fn}: footnote-density pass
+
+    Branch: claude/nameless-heroes ONLY. First acts: git fetch origin
+    claude/nameless-heroes && git checkout claude/nameless-heroes && git
+    reset --hard origin/claude/nameless-heroes. If the harness started you
+    on a stray branch, consolidate and delete it per CLAUDE.md rule 2.
+    Never read any other branch.
+
+    Read CLAUDE.md (esp. "Footnotes — what earns one" and rule 5 on
+    fact-checking), then REVISION_PLAN.md §12 IN FULL (the authority for this
+    pass), then run ./setup.sh.
+
+    Scope this batch: {units}. Content is FROZEN — add footnotes only, no prose
+    changes. GREATLY increase footnote density: explain every term, person,
+    place, event, institution, and allusion a non-specialist Western reader
+    would miss — but never add a note just to add one. Author notes via
+    apparatus_merge.py (numeric character references only), anchors verified
+    verbatim; check_apparatus.py clean; fact-check against real scholarship,
+    never LLM-sourced, verdicts stated; respect first-appearance discipline
+    (grep earlier occurrences) and keep a "NOT re-noted" ledger. Rebuild +
+    qa_epub (+ epubcheck); commit and push at chapter boundaries.
+
+    End of batch: PROGRESS.md updated (note counts, sources, NOT-re-noted
+    ledger), HANDOFF.md kickoff updated, and the reply carries BOTH chat
+    deliverables: the rebuilt EPUB attached AND the next batch's kickoff
+    pasted verbatim in a fenced code block. Run to completion; no mid-batch
+    approval stops (except the F1 exemplar gate).
+
+When R13 completes the register pass, the R13 reply serves up the **F1**
+kickoff in place of a "book complete" notice, and rewrites HANDOFF.md so its
+"Message to paste into the next chat" is that F1 kickoff.

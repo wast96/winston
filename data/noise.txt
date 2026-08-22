@@ -362,6 +362,11 @@
 五、六个
 七、八分钟
 四、五
+# Enumerated pair recapped by 两 "the two of them" (三、四两层楼 = the third and
+# fourth floors, ch08; 第三、四两集 = volumes three and four, ch17). The 两 is a
+# summarizing counter, not an independent quantity; English carries "the third
+# and fourth ...". Longer literal — must precede the bare 三、四 below (rule 1).
+三、四两
 三、四
 二、三
 # Elided/approximate spans with no place-value leftover (safe in any order):
