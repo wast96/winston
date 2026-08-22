@@ -206,14 +206,60 @@ state it plainly; "it may be imagined" → "you can imagine" or cut.
 
 ### 3.4 Voice sheets (seeded in R1, grown as speakers recur)
 
-<R1 writes the first set here; later batches append. Two lines each:
-register, tics, formality toward whom.>
+- **Chen-in-scene (young Chen speaking):** earnest, quick, deferential to
+  seniors, candid about his own greenness; contracts with friends ("Then I'll
+  go and see him at once"), stays uncontracted and formal toward the
+  Commandant and in formal replies ("I should be glad to learn").
+- **Dai Li (Dai Yunong):** terse, warm-but-guarded, never explains himself;
+  short declaratives, plain verbs, the occasional silence AS the answer;
+  contracts in offhand practical asides ("don't take it out for fun"), never
+  in mission instructions or anything quasi-official.
+- **Zheng Jiemin:** the staff officer: measured, complete sentences, careful
+  hedges ("its reliability is uneven"), principles enumerated; formal with
+  everyone, warmth carried by content rather than diction; never contracts.
+- **Wang Tianmu (Zheng Shisong):** polished, worldly, urbane host; speaks
+  little on the page so far (ch06: welcomes, one dinner) — when he does,
+  give him easy social fluency, never stiffness; sixteen years Chen's senior
+  and lets it show as ease, not pomp.
+- **Wu Youquan (Wu Taixun):** the open-handed young magnate: colloquial,
+  direct, unbothered ("My father did not scrape it off the land!");
+  contractions fine; no literary furniture.
+- **Recruiter Yi / organizational voices (ch06):** quasi-official recruitment
+  speech keeps its slogan cadence and formality verbatim-weight (T5 CAUTION);
+  do not naturalize the creed.
 
 ### 3.5 New rulings ledger (append-only, during the pass)
 
-<Corrections from the exemplar gate and later discoveries land here as
-RULE / WHY / FIX / CHECK entries. A single correction is a data point; the
-rule that prevents the class is the deliverable.>
+- **RULE R1-1: wrong-image idiom calques are fidelity defects, first
+  priority.** WHY: the R1 blind critique's best catches were renderings that
+  assert a WRONG meaning in English ("for his sake" for 为了他的事, "showing
+  his hand" for 一显身手, "in good part" for largely, 刮地皮 as farming,
+  "cracked the case" for a plot that never happened). FIX: at every idiom,
+  ask what the English claims, not just whether it is smooth. CHECK: the
+  spot-audit reads for asserted meaning, not fluency.
+- **RULE R1-2: no dangling or absolute participle openers in narration.**
+  WHY: "Hearing that…", "Checking the dates…", "Repenting his errors…" — the
+  subject never arrives; the class recurred a dozen times in ch06. FIX:
+  give the clause a subject or promote it to a sentence. CHECK: grep the
+  diff for sentence-initial -ing without a following subject.
+- **RULE R1-3: month-name words can fake out the number check.** WHY: "it
+  may be" satisfied 五官's 5 via the May-month substring match, so the old
+  text passed and the honest revision failed. FIX: when an edit surfaces a
+  zh idiom-numeral, the remedy is a documented noise entry (五官, 四个大字
+  added), never wording contorted to keep a false match. CHECK: any new
+  noise entry carries its reason in data/noise.txt.
+- **RULE R1-4: blind-reader flags on Chen's persona are REJECT-by-class.**
+  WHY: 346 of 493 R1 findings named the deliberate furniture (笔者, humility
+  formulas, topic frames, source-carried doubling, quoted documents, org
+  terms of art, his political heat). FIX: adjudicate them as classes, cite
+  the KEEP list, and record the classes once per batch instead of item by
+  item. CHECK: PROGRESS lists the reject classes with one example each.
+- **RULE R1-5: keep an eye on repeated translator-tics the battery does not
+  count.** WHY: the critique surfaced density problems in "unable well to
+  decline," "call it X—it was really Y," "the good of it was," "may be
+  called," "in it" — each fine once, loud at four. FIX: when the aligned
+  read meets the same rendering twice in a chapter, vary or thin the later
+  ones. CHECK: note recurring tics per chapter in PROGRESS.
 
 ## 4. Triage discipline
 

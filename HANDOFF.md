@@ -9,43 +9,54 @@ session updates the kickoff block below for the next one.**
 ## Message to paste into the next chat
 
 ```
-Nameless Heroes R01: register revision pass, EXEMPLAR batch (ch06) + gate
+Nameless Heroes R2: register revision pass
 
 Branch: claude/nameless-heroes ONLY. First acts: git fetch origin
-claude/nameless-heroes && git checkout claude/nameless-heroes && git reset
---hard origin/claude/nameless-heroes. If the harness started you on a stray
-branch, consolidate and delete it per CLAUDE.md rule 2. Never fetch, check
-out, read, or diff any other branch; REVISION_PLAN.md is self-contained.
+claude/nameless-heroes && git checkout claude/nameless-heroes && git
+reset --hard origin/claude/nameless-heroes. If the harness started you
+on a stray branch, consolidate and delete it per CLAUDE.md rule 2.
+Never read any other branch.
 
-Read CLAUDE.md, then REVISION_PLAN.md IN FULL (it is the authority for this
-pass), then run ./setup.sh.
+Read CLAUDE.md, then REVISION_PLAN.md IN FULL (it is the authority for
+this pass), then run ./setup.sh.
 
-Scope this batch: ch06 ONLY, the exemplar. Content is frozen;
-English-to-English register edits only, per REVISION_PLAN.md §3 (defect
-classes T1-T6, KEEP list) and §5 (method, exactly):
-1. Tic battery before (bash scripts/revision_tics.sh ch06); read zh/en
-   aligned; triage LEAVE/TOUCH/RECAST; write edits/ch06_edits.md; apply via
-   scripts/apply_edits.py ch06.
-2. Seed the voice sheets into REVISION_PLAN.md §3.4 as you meet the
-   speakers.
-3. verify_unit ch06; tic battery after; tail check against the source;
-   spot-audit 10% of edited paragraphs.
-4. Blind-critique the REVISED chapter (plan §5 step 6); adjudicate
-   ACCEPT/REJECT-with-reason in PROGRESS.md; fold real findings into the
-   edits and the plan's §3.5.
-5. Freeze the revised ch06 as reference/R1_frozen.md; smoke-test
-   scripts/check_register.py --ref reference/R1_frozen.md.
-6. Rebuild, qa_epub green, update PROGRESS.md and this HANDOFF kickoff,
-   commit, push.
+Scope this batch: ch07, ch08. Content is frozen; English-to-English
+register edits only, per REVISION_PLAN.md §3 (defect classes T1–T6,
+KEEP list) and §5 (method, exactly). Edits via edits/<id>_edits.md +
+apply_edits.py; verify_unit + tic battery before/after per chapter;
+spot-audit 10% of edited paragraphs; check_register --ref
+reference/R1_frozen.md; rebuild + qa_epub; commit and push at chapter
+boundaries.
 
-Then STOP at the exemplar gate (REVISION_PLAN.md §9): the final reply
-presents 8-12 before/after excerpt pairs spanning T1-T6, the ch06 tic
-before/after table, the rebuilt EPUB ATTACHED, and the R2 kickoff (plan §11
-canon, scope ch07 + ch08) pasted VERBATIM in a fenced code block. Do NOT
-begin R2. The commissioner either pastes the R2 kickoff into a fresh chat
-(approval) or types corrections in this chat; corrections become §3.5 rules,
-ch06 is re-revised and re-presented here.
+End of batch: PROGRESS.md updated (tic tables, spot-audit, rejected
+findings), HANDOFF.md kickoff updated, and the reply carries BOTH chat
+deliverables: the rebuilt EPUB attached AND the next batch's kickoff
+pasted verbatim in a fenced code block. Run to completion; no mid-batch
+approval stops.
 ```
+
+
+## Revision pass state (after R1)
+
+- **DONE:** R1 (ch06, the exemplar): 260 register edits + 1 note-anchor move
+  via `edits/ch06_edits.md`; all gates green (parity 322/322, numbers 0,
+  anchors 24/24, align OK, content clean); spot-audit 21/21 faithful; tic
+  table and full findings in PROGRESS.md §R1; revised ch06 frozen as
+  `reference/R1_frozen.md` (the register reference for R2–R13).
+- **AWAITING:** the exemplar gate (REVISION_PLAN.md §9). Approval = the
+  commissioner pastes the R2 kickoff above into a fresh chat. Corrections
+  typed in the R1 chat become §3.5 rules; ch06 is then re-revised and
+  re-presented.
+- **Carry-forward for R2:** voice sheets seeded in REVISION_PLAN.md §3.4
+  (Chen-in-scene, Dai Li, Zheng Jiemin, Wang Tianmu, Wu Youquan, and the
+  quasi-official recruiting voice); T3 rule as practiced in ch06 — recurring
+  decided terms plain after their book-first quoted use; quotes stay at
+  naming constructions, name-as-name, anatomized words, marked irony,
+  quoted documents, and note-anchor sites. New noise.txt entries: 五官,
+  四个大字. R13 reconciliation flags logged in PROGRESS.md §R1 (Baomiju
+  rendering, storey/story, "political operation").
+- **Tooling do-not-revert:** kickoff_guard Stop hook; apply_edits.py OLD
+  uniqueness contract; the R1 noise.txt entries above.
 
 ---
 

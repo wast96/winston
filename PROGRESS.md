@@ -4340,3 +4340,208 @@ two-hundred-man reunion, Li Yulin as Penghu magistrate; and the ring-composition
 - **Findings left for the commissioner (documented, not silently changed):** 宋子文 pinyin-vs-Soong;
   制裁/sanction used from ch02 but formally defined in the ch04 note (ch02 uses transparent from
   context). Provisional romanizations (241 people / 19 places / 5 orgs) remain to firm up.
+
+## R1 (ch06) — register revision pass, EXEMPLAR batch
+
+Scope: ch06 only, English-to-English register edits per REVISION_PLAN.md §3
+(T1–T6) and §5. Content frozen; **406 edits + 1 note-anchor move** applied via
+`edits/ch06_edits.md` + `apply_edits.py` (every OLD verified unique,
+sequential application simulated before every real run; the reading file was
+re-derived from the pristine text on each amendment so the edits file remains
+the single source of truth). The 406 comprise the main sweep (~254), a
+chain-split/straggler round (~12), and the blind-critique fold-in (~140).
+
+### Tic battery, before → after
+
+| class | before | after |
+|---|---|---|
+| T1 besides (adverbial, approx) | 15 | 12 |
+| T1 thereupon/whereupon | 1 | 1 |
+| T1 wont/no-wish/made-bold/still-less | 2 | 0 |
+| T1 day-month dates | 5 | 1 |
+| T2 could not but / could only | 6 | 1 |
+| T2 cannot/could-not help | 1 | 1 |
+| T2 pivots (namely / that is to say) | 4 | 0 |
+| T2 gerund-of nominalizations | 6 | 5 |
+| T2 litotes (no small/no few) | 6 | 0 |
+| T3 quoted terms (straight pairs) | 304 | 184 |
+| T5 contractions | 0 | 3 (line count) |
+| T6 impersonal one + modal | 20 | 7 |
+| T4 semicolons | 247 | 250 |
+| T4 sentences >60 / >90 words | 41 / 7 | 32 / 5 (mean 26.3 → 25.2 wps) |
+
+### Surviving hits, defended (the battery is a flag, not a verdict)
+
+- **besides 13:** every survivor is prepositional ("besides reporting it",
+  "besides manpower") or postpositive ("a jangling call-bell besides") —
+  the counter is approximate; the killed class was the sentence adverb.
+- **thereupon 1** and **day-month date 1** ("26 February 1932"): both inside
+  quoted documents (the Chronicle passage p058, Dai Li's own account p063) —
+  exempt by §3.1.
+- **could only 1** (p146 "I could only write a little at a time, by stealth
+  and in scraps") and **could not help 1** (p280 "one could not help lending
+  an ear"): both natural English in context; p280 sits inside Chen's
+  unwritten-rule maxim, an essayist coda the KEEP list protects.
+- **gerund-of 5:** "at the urging of the", "the wording of the slogans",
+  "the parting of the ways" (idiom), "at the founding of the work", one in a
+  quoted document — all natural or exempt.
+- **impersonal one 7 (grep lines):** three are false positives ("no one
+  dared/could"); the real survivors are p051 (思过半矣, Chen's deliberate
+  classical allusion), p073 (the recruiter's quasi-official speech, T5
+  CAUTION), p117 and p280 (essayist codas, KEEP list). Thinned 20 → ~4 real,
+  roughly the plan's two-thirds.
+- **semicolons 250 (247 before):** nine chain-staples were split (p021,
+  p045 ×2, p056, p113, p138, p148, p164, p215, p316); the offsetting
+  additions are list semicolons in the p217 gezi run and balanced pairs.
+  Chains of ≥2 semicolons in narration now: p018 (name roster, list-exempt),
+  p086 (deliberate parallel triple), p217 (list), quoted documents. The
+  book-wide halving target is a narration-chain target, not a raw count.
+
+### T3 policy applied (the biggest visible change)
+
+Recurring decided terms whose first use and gloss note live in ch01–ch05
+(Juntong, Lixingshe, Special Services Department, Beiping Station, Bureau of
+Investigation and Statistics, Second/Sixth Department, Intelligence Section,
+the Association family, Tianjin Station, secret-service work, Legation
+Quarter, plus in-chapter repeats of gezi, Siwei Society, Art Academy) went
+plain throughout ch06: 304 → 185 straight pairs; the residue is quoted
+documents, dialogue, naming constructions ("X for short", "was named X",
+name-as-name), anatomized words, marked irony, and ch06 note-anchor sites.
+NOTE-ANCHOR: the 「四维学会」 note's anchor `the "Siwei Society"` had in fact
+been matching the p296 mention (the p295 naming site has the period inside
+the quotes); it now anchors on `named it the "Siwei Society."` at the naming
+itself. All 24 ch06 anchors verified post-apply.
+
+### Checks
+
+- `verify_unit.py ch06`: parity 322/322, numbers 0 unresolved, 24 anchors ok.
+- **noise.txt additions (both non-quantities, documented in the file):**
+  五官 (facial-features idiom — its 5 had been spuriously "accounted" by a
+  month-May match on the old wording "it may be"); 四个大字 (meta-linguistic
+  character count, same class as the existing 两个字 rule).
+- `check_align.py ch06`: OK, median 4.53 en/han, no pair strays >2.2x.
+- `check_content.py --config checks.json`: ch06 clean (216 name occurrences,
+  all in the paired paragraph). The displaced hits elsewhere (ch08 ×3, ch09,
+  ch13 ×9, ch26 ×2, ch38, ch41) are exactly the known-benign list in
+  REVISION_PLAN.md §2 — no new displacement.
+- **Tail check:** p318–p322 re-read against zh clause by clause — dates, the
+  sanction order, the full periodic sentence with all epithets, Itagaki,
+  the "mutiny"/"coup" pair, Bai Shiwei: nothing dropped, nothing added.
+- **Spot-audit:** fixed seed 20260822, 21 of 203 edited paragraphs (10%+)
+  read zh-against-en in full (p001, 012, 031, 055, 062, 068, 099, 113, 147,
+  154, 161, 204, 210, 218, 236, 246, 255, 260, 282, 288, 315): ZERO
+  meaning-drift defects. Zero in 21 proves the edit-induced error rate is
+  below ~14% (rule of three), not zero.
+
+### Fidelity corrections found during the aligned read (source-driven, logged)
+
+- p091 各言其是 — old EN said the sections "each going its own way"; the
+  phrase means THE ACCOUNTS DIFFER. Corrected.
+- p154 三度莅临 — old EN "the Leader came three times [on graduation day]";
+  corrected to "for the third time the Leader came" (opening p111 + mid-course
+  visits p094 make graduation his third address; the old reading was
+  impossible on its face).
+- p170 戴笠处长 — old EN promoted Dai Li to "Bureau Head"; he was head of the
+  Second DEPARTMENT (处长). Corrected.
+- p197 东洋味 — "an Eastern flavor" → "a Japanese flavor" (东洋 = Japan; the
+  sentence is a pointed observation about Wang Tianmu's rooms).
+- p191 捉襟见肘 — the old line carried an invented image ("patching the elbow
+  only tore the shoulder"); restored the real one (straighten the lapel and
+  the elbow shows).
+- p277 一显身手 — "showing his hand" (= revealing secrets, the opposite) →
+  "show what he could do"; p263 谈情说爱 — "making love" (dated sense trap) →
+  "courting"; p253 斜面 — "on the slant" → "diagonally opposite"; p088
+  人力车 — "man-pulled cart" → "rickshaw"; p121 "XiangguSi studio" →
+  "Xianggu Temple studio"; p211 迁走 — the landlord wasn't moving out, the
+  telephone wasn't being moved away.
+
+### Flagged for R13 reconciliation (NOT changed in R1; glossary-forward class)
+
+- 保密局: glossary decides "the Baomiju," but ch04 and ch06 read "Bureau of
+  Confidential Investigation" while ch33–ch35 use "Baomiju." One rendering
+  must win book-wide; a ch06-only change would just relocate the
+  inconsistency.
+- "storey/storeys" survives in ch06 ×3, ch17 ×2, ch18, ch24 ×2, ch30, ch41 ×3
+  despite the B36 American-spelling pass (not in its curated pairs). Fix
+  book-wide in R13.
+- 政治运用 rendered "political operation" in ch06 (was the calque "political
+  use," ch06-only term) — confirm no other chapter carries "political use."
+
+### Setup note
+
+- setup.sh regression: the ONE known false alarm ("hook stands down on
+  template stub") still fails as documented (PROGRESS lines 153, 892); all
+  other checker regression tests green.
+
+### Blind critique (plan §5 step 6) and adjudication
+
+The revised chapter went, alone and unsourced, to a context-blind reader
+with the plan's verbatim prompt. It returned **493 numbered findings**
+(archived verbatim at `edits/ch06_blind_critique.md`). Adjudication:
+
+- **ACCEPTED: 147 findings → ~140 edit blocks** (each block's WHY cites its
+  critique number). The accepted classes, in priority order:
+  1. **Wrong-meaning idiom calques** — the highest-value catches: "for his
+     sake" for 为了他的事 (over his case), "in good part" for largely,
+     "showing his hand" already fixed, "palm of his hand" for the
+     back-of-the-hand idiom, 刮地皮 rendered as farming, "cracked the case"
+     for a crime that never happened, 这一关 as "barrier," 不着边际 as
+     "wide-of-the-mark" (evasive, not inaccurate), 这也难说 as "hard to say."
+  2. **Outright grammar breaks** — "showed very unnatural," "we ended every
+     one of us," "was a small plank-built side room each" (first sweep),
+     "pressed me to a meal out" (my own), "the Mr. Zheng Jiemin present"
+     (first sweep), "he was assistant of," dangling participles ("Hearing
+     that...", "Checking the dates...", "Repenting his former errors...",
+     "on inquiring..."), broken antecedents (buyer/stallkeeper, "it was hard
+     to mend"), tense slips (present erupting into memoir at p151, p165,
+     p217, p269, p314-first-sweep).
+  3. **Collocation errors** — "steeped in a temper," "high grounding,"
+     "listened sharply," "carried a pride," "burrs were thick."
+  4. **Redundant doublings** — in fact/indeed, usually/normally, ever
+     after/year after year, whole/unanimous, thus/as a matter of course,
+     around the clock/twenty-four hours a day.
+  5. A handful of dialogue naturalizations consistent with the §3.4 voice
+     sheets (Chen with friends contracts; Dai Li's farewell and report
+     remarks lose their starch, keep their brevity).
+- **REJECTED: 346 findings, by class, with the reason as the record:**
+  - **Chen's persona and the KEEP list** (the largest class): 笔者 "the
+    writer," the humility formulas (dare not warrant / respectfully await
+    guidance / will not presume to guess), "in person / by his own hand,"
+    the topic frames (as for / to speak again of), the reflective codas and
+    rhetorical questions, "the higher-ups" (上级, consistent term), the
+    intensifiers the source itself carries. The blind reader calls this
+    "the single loudest source of translationese"; the plan calls it Chen
+    (§3.1: modulate, never raze). This is the calibration question for the
+    commissioner at the gate.
+  - **The author's own irony and marked terms:** scare quotes on 「谋杀」
+    (murdered), 「托付」 (entrusting), the 「一鸣惊人」/「不同凡响」 double
+    chengyu, "foreign goods" for 洋货 applied to texts, the 酒肉朋友
+    argument, "periphery of the core" (外围 is the org-speak term of art).
+  - **Quoted documents and quasi-official speech** (the Chronicle, Dai Li's
+    account, the magazine passage, the recruiter's slogan-catalogue, Zheng
+    Jiemin's numbered principles): exempt by §3.1, wholesale.
+  - **Source-carried doubling and structure:** paired proverbs the source
+    itself pairs (顾头顾脚 + 捉襟见肘; 越扯越长 + 离题越远), the tripled
+    "good" of the Beiping paean, the (?) after the Investigation Section,
+    the Browning-vs-unknown-make contradiction, the 梯子 (ladder) oddity in
+    the gezi sketch — faithful oddities stay visible.
+  - **Fidelity-risk fixes**: suggestions that would alter claims (e.g.
+    "split the government" for 分裂活动, "assets" for 「运用人员」,
+    dropping "three or five days"/"three men"/"two words" would break
+    numeric invariants or decided renderings).
+  - **Two reader errors:** 连谋 parsed as "a certain Lian" (谋 is the given
+    name); "nothing to boast of" counted as three words (it is four, matching
+    the 四个字 meta-count).
+- Full ledger: every accepted item is traceable by critique number in the
+  edits file; every rejected item falls under one of the classes above.
+
+### Post-fold-in verification
+
+- `verify_unit.py ch06` green after every apply cycle (one number regression
+  caught and fixed en route: dropping "the two of us" orphaned 我们两个人's
+  两 at p033 — restored; and the 五官/四个大字 noise entries above).
+- Supplementary spot-audit of six fold-in-only paragraphs (p003, p020, p041,
+  p072, p143, p283) against zh: all faithful. Combined audits: 27 paragraphs,
+  zero meaning-drift defects.
+- Tail (p318–p322) re-verified after the fold-in touched p321–p322.
+- check_align ch06 OK (median 4.53); check_content ch06 clean (216/216).

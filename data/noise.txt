@@ -1040,3 +1040,14 @@
 # printed 十X with the ones-place redacted; the checker reads a phantom 10. English
 # carries an em-dash blank.
 十x日
+#
+# --- R1 (register revision, ch06) entries ---
+#
+# Anatomy idiom 五官(端正) "the five sense organs" = facial features; the 五 is
+# not a count. English "regular features". (Previously masked by a spurious
+# month-May match on "it may be" in the old wording; the R1 edit removed it.)
+五官
+# Meta-linguistic count 四个大字 "these four great characters" (「慷慨好义」这
+# 四个大字) counts the characters of the phrase under discussion, same class as
+# the existing 两个字 rule. English keeps the phrase itself.
+四个大字
