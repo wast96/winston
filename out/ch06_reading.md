@@ -1,8 +1,8 @@
 ## Chapter 6. The Great Spies of the East: The Transnational Contest for Strategic Intelligence
 
-The year 1941, in the Second World War, held two great international events: Germany's surprise attack on the Soviet Union, and Japan's surprise attack on the American base at Pearl Harbor.
+The year 1941, in the Second World War, saw two great international events: Germany's surprise attack on the Soviet Union, and Japan's surprise attack on the American base at Pearl Harbor.
 
-A surprise attack the attacker naturally guards as an absolute secret, and the intelligence world just as naturally rates it the most important strategic intelligence of all. Every intelligence service on earth was chasing these two great international prizes, and the Soviet Union and the United States prized them beyond all others. And yet, on this very intelligence, on which the survival of their nations turned, the Soviet supreme commander Stalin and the American president Roosevelt both got it wrong.
+The attacker naturally guards a surprise attack as an absolute secret, and the intelligence world just as naturally rates it the most important strategic intelligence of all. Every intelligence service on earth was chasing these two great international prizes, and the Soviet Union and the United States prized them beyond all others. And yet, on this very intelligence, on which the survival of their nations turned, the Soviet supreme commander Stalin and the American president Roosevelt both got it wrong.
 
 Even before the world had finished reckoning up the intelligence failures of the past, America produced fresh ones. The surprise attack of September 11 was an intelligence failure. The invasion of Iraq that turned up no weapons of mass destruction was an intelligence failure. Historians have judged it harshly: it was intelligence failure that left America unable to head off September 11, and September 11 was the very hinge on which America turned from ascendancy toward decline.
 
@@ -10,13 +10,13 @@ Was there, then, any country in the Second World War whose intelligence failed l
 
 There was: China.
 
-Weak as China was, relatively, in 1941, the door to the intelligence that the superpowers could not force, China had already pried open.
+Relatively weak as it was in 1941, China had already pried open the door to the intelligence that the superpowers could not force.
 
 ### 1. A Japanese "State-Policy School" on the Shanghai Bund
 
 Early to the mark, long in its sights: Japan's national policy toward China deserves the name "the long policy."
 
-From the Meiji Restoration onward, Japan had China in its sights. In 1896 an army lieutenant, Arao Sei, went to ground in China and opened the Hankou branch of a Japanese pharmacy, the Rakuzendō; this was the first intelligence organ Japan planted in China. In 1898 an army captain, Nezu Hajime, was ordered to join the East Asia Common Culture Society as its managing director, and he set out a grand vision for intelligence: "The ideal is for experts burning with the sense of mission of the Emperor's loyal soldiers to make the treaty ports their bases and to soak into China as water soaks into cloth. To train up these picked men is the task of Nezu's East Asia Common Culture Academy."
+From the Meiji Restoration onward, Japan had China in its sights. In 1896 an army lieutenant, Arao Sei, slipped into China and opened the Hankou branch of a Japanese pharmacy, the Rakuzendō; this was the first intelligence organ Japan planted in China. In 1898 an army captain, Nezu Hajime, was ordered to join the East Asia Common Culture Society as its managing director, and he set out a grand vision for intelligence: "The ideal is for experts burning with the sense of mission of the Emperor's loyal soldiers to make the treaty ports their bases and to soak into China as water soaks into cloth. To train up these picked men is the task of Nezu's East Asia Common Culture Academy."
 
 Soak into China! To have men skilled at making war on China, Japan meant to found a spy school in China, and to raise on Chinese soil high-grade spies steeped in Chinese culture.
 
@@ -28,7 +28,7 @@ The academy the "state-policy society" founded was likewise a "state-policy scho
 
 The men the Shanghai academy turned out were more Chinese than the Chinese: they could move among China's upper crust and travel into the Chinese interior to survey it. Every survey report was copied out in five, and sent up to the Foreign Ministry, the Ministry of Agriculture and Commerce, the Army General Staff, the East Asia Common Culture Society, and the academy itself, as raw material for the study of China policy, and so to help frame the state policy of the Empire of Great Japan.
 
-"State policy," the policy of a nation: the mission was one of the highest honor, and what other school would dare, like the Shanghai academy, to call itself a "state-policy school"?
+"State policy," the policy of a nation: the mission was one of the highest honor, and no other school would dare, like the Shanghai academy, to call itself a "state-policy school."
 
 The Communists' work against Japan, too, was early to the mark and long in its sights.
 
@@ -44,7 +44,7 @@ The academy, breeding its cross-border intelligence men, began hiring more Chine
 
 Wang Xuewen had gone to Japan at fifteen to study at the Tokyo Common Culture Academy, and in 1921 was admitted to Tokyo Imperial University, where he studied under the socialist scholar Kawakami Hajime. In this way Wang Xuewen spent seventeen years studying in Japan, and brought home the true scripture of Communism.
 
-This Chinese scholar, trained at a Japanese university, was in fact a secret Communist, and inside the Japanese spy school he raised up a set of progressive young men. Nishizato Tatsuo, Ishida Shichirō, Ishida Takeo, Iwahashi Takeji, and Ozaki Shōtarō of the 26th class; Anzai Kuraji of the 27th; Shirai Yukiyuki of the 28th; and Nakanishi Kō and Mizuno Shigeru of the 29th—these classmates together formed a secret society for Japanese-Chinese friendship, the "Japan-China Struggle League."
+This Chinese scholar, trained at a Japanese university, was in fact a secret Communist, and inside the Japanese spy school he cultivated a circle of progressive young men. Nishizato Tatsuo, Ishida Shichirō, Ishida Takeo, Iwahashi Takeji, and Ozaki Shōtarō of the 26th class; Anzai Kuraji of the 27th; Shirai Yukiyuki of the 28th; and Nakanishi Kō and Mizuno Shigeru of the 29th—these classmates together formed a secret society for Japanese-Chinese friendship, the "Japan-China Struggle League."
 
 Zhou Enlai's instruction to Wang Xuewen was this: to have Japanese men of conscience working alongside us is a help in understanding Japanese militarism. Look further into the situation of these Japanese youths, and with those genuinely willing to stand with the Chinese people against Japanese militarism, take care to strengthen the ties.
 
@@ -66,7 +66,7 @@ The German journalist Johnson came to China in 1929. A veteran of the First Worl
 
 In truth "Johnson" was really named Sorge, and his mission in China was to serve Moscow's international strategy. Japan's Kwantung Army was building up its forces along China's northeastern border, a grave threat to Soviet security in the Far East. So Soviet military intelligence borrowed from the Comintern a German Communist, Sorge, and sent him to Shanghai, to watch international movements from this Far Eastern intelligence hub and to defend the Soviet Union.
 
-On good terms with the Germans in China, Sorge easily got hold of Chiang Kai-shek's dispositions for the encirclement of the Chinese Red Army. This intelligence Sorge not only sent to Moscow but passed on to the Communist organization. Communists of all countries were one family, and Sorge's work in China had Communist help. At the same time the Central Special Branch, under Zhou Enlai, was also getting Chiang Kai-shek's operational plans and sending them in good time to the Soviet area in Jiangxi. With intelligence this accurate, Mao Zedong and Zhu De won three successive campaigns against encirclement in Jiangxi.
+On good terms with the Germans in China, Sorge easily got hold of Chiang Kai-shek's dispositions for encircling the Chinese Red Army. This intelligence Sorge not only sent to Moscow but passed on to the Communist organization. Communists of all countries were one family, and Sorge's work in China had Communist help. At the same time the Central Special Branch, under Zhou Enlai, was also getting Chiang Kai-shek's operational plans and sending them in good time to the Soviet area in Jiangxi. With intelligence this accurate, Mao Zedong and Zhu De won three successive campaigns against encirclement in Jiangxi.
 
 Busy as he was in Shanghai, Sorge naturally needed the help of Chinese comrades. Agnes Smedley, who knew China's progressive literary men, introduced him to some contacts. The Liu Jinzhong couple, the Chen Hansheng couple, the Xiao Bingshi couple began working for Sorge. The Communist Special Branch also handed over to him such secret contacts as Cai Shuhou. In this way Sorge wove himself an intelligence network in China. In that network there were several Japanese as well: Smedley introduced Ozaki Hotsumi, who in turn introduced Kawai Teikichi and Mizuno Shigeru of the Common Culture Academy.
 
@@ -76,7 +76,7 @@ Japan was the source of the coming war in the Far East, and the Japanese natural
 
 The January 28 Incident opened the fighting between the foreign concessions and the Chinese city of Shanghai.
 
-The Japanese authorities, too, had to grow wary. Why had Shanghai not repeated the easy victory of the Manchurian Incident? Only now did they discover that their intelligence work against China lacked coordination, and that the consulate that oversaw the whole had no dedicated intelligence organ.
+The Japanese authorities, too, had to grow wary. Shanghai had not repeated the easy victory of the Manchurian Incident, and only now did they discover that their intelligence work against China lacked coordination, and that the consulate that oversaw the whole had no dedicated intelligence organ.
 
 The newly arrived deputy consul-general, Iwai Eiichi, proposed founding an intelligence organ in China—which meant drawing on the reserve of Chinese-speaking talent at the Common Culture Academy.
 
@@ -114,7 +114,7 @@ The SMR was an independent kingdom squatting on the soil of Manchuria, beyond th
 
 This "state within a state" even had an army of its own. The SMR's head office was at Dalian, a city the Qing had ceded to Japan and which was called the "Kwantung Leased Territory," and the SMR's railway guards were called the "Kwantung Army." On the strength of the SMR's economic power the Kwantung Army swelled swiftly, servant turning master, growing step by step into the master of the SMR and then into the overlord of "Manchukuo." In the fighting in North China and in the war against the Soviet Union, the Kwantung Army was always the mainstay of Japanese forces.
 
-The SMR was also an intelligence organ on an enormous scale, weighted toward economic intelligence. Its investigators, over a thousand of them, reached their feelers into the Chinese interior and mapped every important factory and mineral deposit in China, down to military terrain-intelligence maps. Every annual meeting of the Institute of Pacific Relations was sure to feature the SMR's papers on China, and army spies on cross-border secret work borrowed the cover of SMR employees.
+The SMR was also an intelligence organ on an enormous scale, weighted toward economic intelligence. Its investigators, over a thousand of them, extended their feelers into the Chinese interior and mapped every important factory and mineral deposit in China, down to military terrain-intelligence maps. Every annual meeting of the Institute of Pacific Relations was sure to feature the SMR's papers on China, and army spies on cross-border secret work borrowed the cover of SMR employees.
 
 Ozaki Hotsumi took a post as a commissioned adviser to the SMR—another advance for the secret intelligence work. Nakanishi Kō was not yet qualified to be any kind of consultant, but to get into the SMR's Research Department was still to burrow into Japan's treasure-house of intelligence.
 
@@ -140,7 +140,7 @@ To enter the diplomatic system was still not enough; Pan Hannian hoped to reach 
 
 Nakanishi Kō drew together his fellow academy alumni in China to form a Japanese intelligence cell. He also kept up his tie with Ozaki Hotsumi in Tokyo—and Ozaki was then an adviser to Prime Minister Konoe, a man at the very core.
 
-For reconnoitering intelligence on Japan, these Japanese were the most effective of all.
+For gathering intelligence on Japan, these Japanese were the most effective of all.
 
 There was, all the same, one great doubt: the Japanese were famous for their willingness to die for the Emperor. Could such men truly work for China's war of resistance?
 
@@ -172,7 +172,7 @@ Through their studies the Japanese students came to feel deeply the "sincere int
 
 On October 26, 1941, the Conference of the Anti-Fascist Peoples of the East opened in Yan'an, and the Japanese students of the Yan'an Workers' and Peasants' School took the stage together—Japanese brothers swearing to join the Eighth Route Army.
 
-The graduates of the Yan'an Japanese Workers' and Peasants' School went off to every battlefield the Communists led, and set up branch schools in northwest Shanxi, in Shandong, and in Central China, training in all five or six hundred people. These graduates became the Eighth Route Army's enemy-army-work cadres, carrying out battlefield propaganda against the Japanese army and winning over no small number of Japanese soldiers to turn against the war and come across.
+The graduates of the Yan'an Japanese Workers' and Peasants' School went off to every battlefield the Communists led, and set up branch schools in northwest Shanxi, in Shandong, and in Central China, training in all five or six hundred people. These graduates became the Eighth Route Army's enemy-army-work cadres, carrying out battlefield propaganda against the Japanese army and winning over a good many Japanese soldiers to turn against the war and come across.
 
 The Communists' work against Japan was deeply humane. The Eighth Route Army and the New Fourth Army did not put Japanese prisoners to death, but took them alive wherever they could. The first thing an Eighth Route or New Fourth soldier said to a prisoner was, "We won't kill you." The second was, "You are our brother."
 
@@ -232,7 +232,7 @@ In March 1939 the Japanese cabinet added a new body, the Kōa-in. Most of the Ch
 
 Nakanishi Kō learned that certain mysterious Chinese, claiming to represent this or that high Nationalist official—from Yan Xishan in Shanxi to Yu Hanmou in Guangdong, from Long Yun in Yunnan to Xu Chongzhi in Chongqing—meant that the Nationalists' regional power-holders had eight lines running to Japan at once.
 
-The identities of these representatives were doubtful, and the lines still only tentative; but the tentative could very well come to something. Had Wang Jingwei not defected? If the regional warlords broke off piece by piece, would the central power not be hollowed out? And more worrying still was the center itself: would Chiang Kai-shek follow in Wang Jingwei's footsteps?
+The identities of these representatives were doubtful, and the lines still only tentative; but the tentative could very well come to something. Wang Jingwei had already defected. If the regional warlords broke off piece by piece, the central power would be hollowed out. And more worrying still was the center itself: would Chiang Kai-shek follow in Wang Jingwei's footsteps?
 
 Using his good relations with the military, Nakanishi Kō got as close as he could to the army's agents, and found that a new section chief had been posted to the intelligence section of the general army headquarters at Nanjing—that Colonel Imai Takeo was in Hong Kong running the most highly classified of all the peace operations, "Operation Kiri."
 
@@ -266,7 +266,7 @@ In January, Chiang Kai-shek launched the New Fourth Army Incident, and Nationali
 
 Sure enough, the Japanese government openly arranged for Wang Jingwei to visit Manchukuo, an affront to China's sovereignty. Nishizato Tatsuo and Wang Jinyuan, traveling with Wang Jingwei, further discovered that Yan Xishan of Shanxi had also sent men to make contact with the puppet regime. Chiang Kai-shek's New Fourth Army Incident, far from raising the price of a secret peace, had let Japan seize the chance to beat the price down.
 
-For a Japanese to reconnoiter intelligence on Japan was a native advantage, and Nakanishi Kō had it. On March 8, the Japanese ambassador to the United States, Nomura, reached with the American Secretary of State, Hull, a "Draft Understanding between Japan and the United States." On May 19, from Nanjing came word that the British Foreign Secretary Eden, the Chinese ambassador to Britain Guo Taiqi, and the Japanese ambassador to Britain Shigemitsu Mamoru had worked out a peace scheme, which Guo was carrying to America for its views. None of this top-secret intelligence escaped Nakanishi Kō's eye.
+For a Japanese to gather intelligence on Japan was a native advantage, and Nakanishi Kō had it. On March 8, the Japanese ambassador to the United States, Nomura, reached with the American Secretary of State, Hull, a "Draft Understanding between Japan and the United States." On May 19, from Nanjing came word that the British Foreign Secretary Eden, the Chinese ambassador to Britain Guo Taiqi, and the Japanese ambassador to Britain Shigemitsu Mamoru had worked out a peace scheme, which Guo was carrying to America for its views. None of this top-secret intelligence escaped Nakanishi Kō's eye.
 
 Having intelligence channels made all the difference. From Shanghai, Hong Kong, Nanjing, Chongqing, channel after channel reported the international secret talks, and the German friend Anna Wang also detected Munich-like plotting in the Far East. The Communists could not only see through their opponents at home but see clear through the great powers abroad. On May 25, 1941, Mao Zedong issued an intra-Party directive, "Notice on Exposing the New Far Eastern Munich Plot."
 
@@ -284,7 +284,7 @@ Stalin had his own difficulties: getting the intelligence was hard, and once he 
 
 Soviet foreign intelligence was mainly the charge of the intelligence department of the Red Army General Staff, and Sorge belonged to that system. But Sorge's secret telegrams had to pass two sieves, the head of the General Staff's intelligence department and the chief of the General Staff, before they could go up to Stalin. And Sorge's superior in Moscow, the Red Army intelligence chief Berzin, had already been shot as a foreign spy. The new head of General Staff intelligence, Golikov, made a judgment of his own: "The rumors and documents about the inevitability of war against the Soviet Union this spring must be regarded as false intelligence spread by British, and possibly by German, intelligence."
 
-Real intelligence taken for false—so how could the intelligence set before Stalin be anything but false?
+Real intelligence taken for false: the intelligence set before Stalin could only be false too.
 
 The Comintern had Party organizations in every country, handy for gathering international intelligence; but the Soviets said, "Except for Pieck, no German can be trusted"—Pieck being the German Communist leader.
 
@@ -312,11 +312,11 @@ Watching Japan about to move against the Soviet Union, certain Chinese, too, wer
 
 Mao Zedong named the "Three Norths policy": Japan advancing north to attack the Soviet Union; Chiang Kai-shek pressing the New Fourth Army to cross north over the Yangtze; and the demand that the Eighth Route Army cross north over the Yellow River.
 
-The Chinese Communists had suffered much in the past, struck without warning by Chiang Kai-shek in 1927. Now the Chinese Communists, stepping into a world war, were no longer naïve, and the old business of being clubbed from behind by their partners must not happen again. The whole Party and army were on the sharpest guard, and the intelligence system, above all, was mobilized to the last man to reconnoiter international strategic intelligence.
+The Chinese Communists had suffered much in the past, struck without warning by Chiang Kai-shek in 1927. Now the Chinese Communists, stepping into a world war, were no longer naïve, and the old business of being clubbed from behind by their partners must not happen again. The whole Party and army were on the sharpest guard, and the intelligence system, above all, was mobilized to the last man to gather international strategic intelligence.
 
 Intelligence work is a systematic undertaking; a few excellent agents cannot by themselves keep the whole system running—much depends on the design at the top.
 
-Struck by the great "six-two-two" failure, the Soviet Union had to overhaul its intelligence organs. The intelligence department of the Red Army General Staff was split in two, reorganized into the intelligence department of the Supreme Command and the intelligence department of the General Staff. The Supreme Command's intelligence department answered directly to the supreme commander, Stalin, and held the foreign networks; the General Staff's department handled battlefield reconnaissance for the army. The People's Commissariat for State Security was folded into the People's Commissariat for Internal Affairs, becoming the Main Directorate for State Security, whose First Directorate worked against the United States, Britain, and Latin America, and whose Fourth Directorate worked against Germany and Japan. Two years later this directorate again broke away from the internal-affairs ministry, was raised to an independent commissariat, and its foreign stations swelled swiftly to nearly forty.
+Struck by the great failure of June 22, the Soviet Union had to overhaul its intelligence organs. The intelligence department of the Red Army General Staff was split in two, reorganized into the intelligence department of the Supreme Command and the intelligence department of the General Staff. The Supreme Command's intelligence department answered directly to the supreme commander, Stalin, and held the foreign networks; the General Staff's department handled battlefield reconnaissance for the army. The People's Commissariat for State Security was folded into the People's Commissariat for Internal Affairs, becoming the Main Directorate for State Security, whose First Directorate worked against the United States, Britain, and Latin America, and whose Fourth Directorate worked against Germany and Japan. Two years later this directorate again broke away from the internal-affairs ministry, was raised to an independent commissariat, and its foreign stations swelled swiftly to nearly forty.
 
 By comparison, the Communists' overhaul was the more forward-looking.
 
@@ -324,7 +324,7 @@ Out went the "Decision on Strengthening Party Spirit" and the "Decision on Inves
 
 There was a reshaping of the organization too: the Central Investigation and Study Bureau was founded, with Mao Zedong himself as its head, and the Center added a new department—the Central Intelligence Department. Across the whole Party and army, in every place, a concentrated and unified intelligence power took shape.
 
-The Soviet Supreme Command's intelligence department had its eye on Japan; the Communist Central Intelligence Department had its eye on Japan; and in the second half of 1941 every super-spy in the world had his eye on Tokyo. The German army drove east—which way would the Japanese army turn?
+The Soviet Supreme Command's intelligence department had its eye on Japan; the Communist Central Intelligence Department had its eye on Japan; and in the second half of 1941 every super-spy in the world had his eye on Tokyo. The German army drove east, and the question was which way the Japanese army would turn.
 
 Sorge, holding his ground in Tokyo, had the surest intelligence of all. On September 14 he reported the decision of Japan's Imperial Conference, top-secret intelligence Ozaki Hotsumi had drawn out of the Emperor's confidential bureau. The Emperor had convened the meeting on September 6; for secrecy's sake there was not even a secretary's record, only a set of notes that Prime Minister Konoe Fumimaro compiled. Those notes showed that Japan had decided to open its attack on Britain, America, and the Netherlands in the middle to latter part of October. From this Sorge judged that the Japanese navy would strike south into the Pacific, and that the army would not drive north into Siberia. On October 18 Sorge sent an urgent message: "Japan will attack the United States and Britain; the threat to the Soviet Union has passed."
 
@@ -344,11 +344,11 @@ Which way would Japan move?
 
 Nakanishi Kō and Wu Chengfang fell to quarreling: Nakanishi Kō judged it would be south, Wu Chengfang judged it would be north, and neither could talk the other round. This was because what decided the direction was not the men who analyzed the intelligence, but Tokyo.
 
-Just then something happened in Tokyo. On October 18 Tōjō Hideki formed his cabinet, a move that shook Tokyo, shook Shanghai, shook the world. With the horses changed at the top, would the strategy change too?
+Just then something happened in Tokyo. On October 18 Tōjō Hideki formed his cabinet, a move that shook Tokyo, shook Shanghai, shook the world. With the horses changed at the top, the question was whether the strategy would change too.
 
 Nakanishi Kō analyzed it coolly: whoever came to power, Japan's war policy would not greatly change.
 
-By now Nakanishi Kō had the confidence for his analysis of international strategy. The fixing of a strategy turned on two things: the basic situation and the shifting situation. How to read the basic situation? Nakanishi Kō followed the method of Mao Zedong's *On Protracted War*—fix the quality first, then attend to the quantity. On the plane of quality, Japan's state policy was to occupy China first, and on this it would not give an inch, however much it compromised with America; while China's will to resist was firm and thorough, and however strong Japan grew, the Chinese people would not submit. So what decided whether Japan went south or north was, in the last analysis, the China front. North? That would require, as its premise, a great German victory and the fall of Moscow. South? If Japan judged it could finish the China Incident within two years, it would not shrink from war with America.
+By now Nakanishi Kō had the confidence for his analysis of international strategy. The fixing of a strategy turned on two things: the basic situation and the shifting situation. The basic situation had to be read first. Nakanishi Kō followed the method of Mao Zedong's *On Protracted War*—fix the quality first, then attend to the quantity. On the plane of quality, Japan's state policy was to occupy China first, and on this it would not give an inch, however much it compromised with America; while China's will to resist was firm and thorough, and however strong Japan grew, the Chinese people would not submit. So what decided whether Japan went south or north was, in the last analysis, the China front. North? That would require, as its premise, a great German victory and the fall of Moscow. South? If Japan judged it could finish the China Incident within two years, it would not shrink from war with America.
 
 The analysis of the basic situation pointed to a Japanese drive south. But having reached it, Nakanishi Kō was not easy. It had not fully weighed the shifting situation—the international scene was changing, and the Japanese ruling group was changing. Japan was split into rival factions with clashing views. On the empire's strategic direction there had always been two schools: the navy for the southern advance, the army for the northern. And the new prime minister, Tōjō Hideki, had commanded the Kwantung Army, had himself drawn up the plan for war against the Soviet Union, and had always been a firm advocate of the northern advance.
 
@@ -362,7 +362,7 @@ After Tōjō Hideki took power on October 18, the intelligence the Pan Hannian s
 
 Intelligence on movements calls for dynamic reconnaissance—to confirm whether Japan would go south or north, and to keep an unbroken grasp on the latest movements at the Japanese core.
 
-Mao Zedong was so anxious he lay three days and nights without sleep, forever pressing the Central Intelligence Department for intelligence on Japan's movements: verify it exactly, that the Japanese army is about to go south, and the date it will open the war, and report it early.
+Mao Zedong was so anxious he lay three days and nights without sleep, forever pressing the Central Intelligence Department for intelligence on Japan's movements: confirm exactly whether the Japanese army was about to go south, fix the date it would open the war, and report early.
 
 The telegrams the Central Intelligence Department sent out demanding intelligence carried four characters at their head: "most extremely urgent."
 
@@ -390,7 +390,7 @@ Having settled that it would be south, Nakanishi Kō still would not end his rec
 
 He ran into Satō of the army press department again. The fellow was busy over on the navy side—the navy was gathering in the Seto Inland Sea, ready to set out. Satō said, too, that the units drawn from the home islands were not heading for Manchuria but massing in secret on Taiwan: the Special Maneuvers were a feint to the north and a blow to the south.
 
-Nakanishi Kō, too, meant now to go west—not to take shelter in the base area, but to return to Shanghai, and go on reconnoitering strategic intelligence.
+Nakanishi Kō, too, meant now to go west—not to take shelter in the base area, but to return to Shanghai, and go on gathering strategic intelligence.
 
 What Yan'an demanded was not only Japan's strategic direction but the dispositions and the date of the war's opening. Strategic direction was only an abstract judgment; how to make dispositions to meet it called for more concrete intelligence still.
 
@@ -432,21 +432,21 @@ On June 23, 1941, the day after the German attack on the Soviet Union, the Execu
 
 That same day the Communist Central Committee issued the "Decision on the International Anti-Fascist United Front," drafted by Mao Zedong. Mao Zedong set out the Chinese Communists' concrete way of aiding the Soviet Union: hold firm to the anti-Japanese national united front, hold firm to Nationalist-Communist cooperation, and drive the fascist Japanese bandits out of China.
 
-Yan'an's reply did not yet satisfy Moscow. Stalin telegraphed Mao Zedong, and in the tone of a request asked whether the Communists could pull out several brigades or regiments and place them near the Great Wall to pin down the Japanese army. The Commander-in-Chief of the Eighth Route Army, Zhu De, held that for the Eighth Route Army to leave its base areas and fight in the Great Wall region, where the Japanese were heavily fortified, would be no better than exhausting the troops on a distant campaign—a cardinal taboo of the art of war. Wang Ming at once objected: the Communist Party was a branch of the Comintern and must carry out the Comintern's instructions to the letter. Mao Zedong's view was that the Eighth Route Army should aid the Soviet Union as best it could, and that this aid should begin with two things—intelligence and the wrecking of the railways.
+Yan'an's reply did not yet satisfy Moscow. Stalin telegraphed Mao Zedong, and in the tone of a request asked whether the Communists could pull out several brigades or regiments and place them near the Great Wall to pin down the Japanese army. The Commander-in-Chief of the Eighth Route Army, Zhu De, held that for the Eighth Route Army to leave its base areas and fight in the Great Wall region, where the Japanese were heavily fortified, would be no better than exhausting the troops on a distant campaign—a cardinal taboo of the art of war. Wang Ming at once objected: the Communist Party was a branch of the Comintern and must carry out the Comintern's instructions to the letter. Mao Zedong's view was that the Eighth Route Army should aid the Soviet Union as best it could, and that this aid should begin with two things: intelligence, and wrecking the railways.
 
 If intelligence could prove the Japanese army would not go north, then Moscow's demand for a troop movement would fall away of itself. On July 6 Mao Zedong telegraphed Zhou Enlai in Chongqing, judging that Japan seemed set not to attack the Soviet Union but to pin down Britain and America. On July 9 the Comintern issued instructions to the Communist parties of all countries, calling for aid to the Soviet Union in the German-Soviet war. The Communist Politburo signaled its full agreement, and Mao Zedong resolved on "a policy of long-term struggle, wearing the Japanese bandits down over time, rather than a policy of staking all on a single throw." In this period Sorge's intelligence from Tokyo to Moscow also showed the Japanese army would not go north, but Moscow was still uneasy. The German-Soviet front was giving way step by step—what if the Japanese army came after all? On September 7 the Soviet defense commissariat telegraphed Yan'an, asking that the Eighth Route Army send troops into southern Manchuria if a Japanese-Soviet war broke out.
 
-By October 6 the German army was already at the gates of Moscow. The Comintern was deeply displeased with the Communists, and on October 7 Dimitrov telegraphed Yan'an with a string of fifteen questions: what measures, in the end, did the Chinese Communist Party mean to take to strike Japan militarily and actively on the China front, so that Germany's ally in the East, Japan, could not open a second front and invade the Soviet Union? Wang Ming at once made trouble in Yan'an, accusing Mao Zedong to his face of a mistaken policy for the war of resistance. Wang Ming's view was that, with both the Soviet Union and China in extraordinary straits, relations should be mended with the big bourgeois Chiang Kai-shek. Wang Ming, who a while before had said he would no longer contend with Mao Zedong for power, now proposed to review the Center's political line.
+By October 6 the German army was already at the gates of Moscow. The Comintern was deeply displeased with the Communists, and on October 7 Dimitrov telegraphed Yan'an with a string of fifteen questions: what measures did the Chinese Communist Party mean to take to strike Japan militarily and actively on the China front, so that Germany's ally in the East, Japan, could not open a second front and invade the Soviet Union? Wang Ming at once made trouble in Yan'an, accusing Mao Zedong to his face of a mistaken policy for the war of resistance. Wang Ming's view was that, with both the Soviet Union and China in extraordinary straits, relations should be mended with the big bourgeois Chiang Kai-shek. Wang Ming, who a while before had said he would no longer contend with Mao Zedong for power, now proposed to review the Center's political line.
 
-On October 18 Tōjō Hideki took power, and Mao Zedong at once telegraphed Zhou Enlai for his views. On October 19 Moscow declared martial law as the German army mounted a general assault on the city. On October 20 Yan'an held a Politburo meeting, and Mao Zedong said the situation of late had the flavor of reaching a turning point: Moscow was in crisis now, but the German offensive had perhaps reached its high-water mark, and the decisive point lay in the coming week or two—a week on, the shape of things would be clearer. That same day Mao Zedong telegraphed Zhou Enlai in Chongqing: the Tōjō cabinet was a military cabinet preparing directly for war; it was preparing directly for war, but would not necessarily move at once; its warlike tendency held the danger of a northern advance, but the possibility of a southern advance had not been lost. The Nationalists were sure it would be north; we need not agree with them.
+On October 18 Tōjō Hideki took power, and Mao Zedong at once telegraphed Zhou Enlai for his views. On October 19 Moscow declared martial law as the German army mounted a general assault on the city. On October 20 Yan'an held a Politburo meeting, and Mao Zedong said the situation of late had the feel of a turning point: Moscow was in crisis now, but the German offensive had perhaps reached its high-water mark, and the decisive point lay in the coming week or two—a week on, the shape of things would be clearer. That same day Mao Zedong telegraphed Zhou Enlai in Chongqing: the Tōjō cabinet was a military cabinet preparing directly for war; it was preparing directly for war, but would not necessarily move at once; its warlike tendency held the danger of a northern advance, but the possibility of a southern advance had not been lost. The Nationalists were sure it would be north; we need not agree with them.
 
 Yan'an again telegraphed Pan Hannian urgently, asking him to confirm the southern advance. On October 25 Nakanishi Kō went to Tokyo to reconnoiter on the spot.
 
 On November 7, at the Red Square parade in Moscow, Stalin gave a public speech. That same day Mao Zedong gave a radio address in Yan'an: "Though Japanese fascism is preparing for both a southern advance and a northern advance at once, whichever of these adventurous roads they take, it is certain they will drive west to destroy China." While the whole world watched to see whether Japan would strike the Soviet Union or America, Mao Zedong reminded the world: the one Japan was striking was China.
 
-On November 17 Stalin telegraphed Mao Zedong himself, hoping the Communists would send part of their strength to develop inside and outside the Great Wall. To have the Eighth Route Army fight its way out past the Great Wall to "take up arms in defense of the Soviet Union"—was that not staking all on a single throw?
+On November 17 Stalin telegraphed Mao Zedong himself, hoping the Communists would send part of their strength to develop inside and outside the Great Wall. To have the Eighth Route Army fight its way out past the Great Wall to "take up arms in defense of the Soviet Union" would be to stake all on a single throw.
 
-International pressure, domestic pressure, pressure within the Party: how was Mao Zedong to answer it?
+International pressure, domestic pressure, pressure within the Party: Mao Zedong had to find his answer.
 
 Wrecking the railways plainly could not satisfy Moscow's demand. So Yan'an would have to lean on intelligence.
 
@@ -466,17 +466,17 @@ The Technical Research Office had over four hundred technical staff, and the gre
 
 On December 3 Chi Buzhou broke another special cipher telegram from the Tokyo Foreign Ministry to its ambassador in America. This telegram ordered the destruction of all codebooks and secret documents, and showed besides: "The Imperial Government will take resolute action in accordance with the decision of the Imperial Conference." From this Chi Buzhou judged: Japan would raid Pearl Harbor on a Sunday.
 
-Reported up the chain, Chiang Kai-shek had Mao Qingxiang hurry the word to the military attaché in America, to notify the U.S. Office of Naval Intelligence…
+Once it was reported up the chain, Chiang Kai-shek had Mao Qingxiang hurry the word to the military attaché in America, to notify the U.S. Office of Naval Intelligence…
 
 When the Chinese military attaché in America, Xiao Bo, said Japan was going to attack America, the American officers roared with laughter: intelligence on Japan that even we Americans haven't got, and you Chinese have?
 
-This important intelligence the Chinese handed over for nothing may never have reached the American president at all.
+This important intelligence, handed over by the Chinese for nothing, may never have reached the American president at all.
 
 Roosevelt too, of course, ought to have worried about a Japanese drive south. But the American president seemed in no hurry to prepare for war. Of late America was busy negotiating with Japan.
 
-Set apart in its ocean, America was screened from the European front by the Atlantic and from the China front by the Pacific, with all the geography's advantage of watching a fire from across the river. America had always leaned toward isolationism; the common people had no wish to join some world war for another country, and neutrality could, besides, turn a profit on both sides. Since the outbreak of the war between China and Japan, America had extended loans to China and supplied scrap steel and oil to Japan, and its purse had fattened not a little. It was the three-nation military alliance of Germany, Italy, and Japan that finally spurred America, which stood for free trade and could not let the fascists monopolize the world; and so it began to face Japan down.
+Set apart in its ocean, America was screened from the European front by the Atlantic and from the China front by the Pacific, with all the geography's advantage of watching a fire from across the river. America had always leaned toward isolationism; the common people had no wish to join some world war for another country, and neutrality could, besides, turn a profit on both sides. Since the outbreak of the war between China and Japan, America had extended loans to China and supplied scrap steel and oil to Japan, and its purse had fattened handsomely. It was the three-nation military alliance of Germany, Italy, and Japan that finally spurred America, which stood for free trade and could not let the fascists monopolize the world; and so it began to face Japan down.
 
-In the Japanese-American talks America demanded that Japan quit the three-nation alliance, withdraw from China, and go back to the state of things before the Mukden Incident of 1931. But how could meat once in the tiger's mouth be spat out? Japan flatly refused. When the German army struck the Soviet Union, America was rather relieved: with the Germans split off eastward, the pressure on Britain eased. And if the Japanese army too went north in concert with Germany, America could go on at its ease. Keep talking, then—America did not mind the talks dragging on.
+In the Japanese-American talks America demanded that Japan quit the three-nation alliance, withdraw from China, and go back to the state of things before the Mukden Incident of 1931. But meat once in the tiger's mouth is not spat out again. Japan flatly refused. When the German army struck the Soviet Union, America was rather relieved: with the Germans split off eastward, the pressure on Britain eased. And if the Japanese army too went north in concert with Germany, America could go on at its ease. Keep talking, then—America did not mind the talks dragging on.
 
 Just then Yan'an spoke out: America was still aiding the Japanese aggressor through trade. The name was hard to bear, and the American president seemed only now to grasp that scrap steel and oil were strategic materials.
 
@@ -540,7 +540,7 @@ Mao Zedong judged the Japanese army most likely to go south, and won the strateg
 
 Having won the initiative, Mao Zedong very much wanted to help Roosevelt, did in fact help Stalin, and, at the same time, helped himself most of all. On December 8, the very day of the Pearl Harbor attack, Mao Zedong issued a public statement pressing for an international anti-fascist united front. Mao Zedong's earlier foresight had come true: the Japanese drive south changed the shape of the world. Once-neutral America and Britain now threw themselves into the war and into support for China; China's Chiang Kai-shek turned from his divisive "Three Norths policy" to leaning on Nationalist-Communist cooperation; and the Communists' position at home and abroad greatly improved.
 
-On December 8 Chiang Kai-shek, too, made a move: he declared war on Japan. Reckoning from the Mukden Incident of 1931, the great Sino-Japanese war had already been fought for ten years, and this declaration came very late indeed. It could not but set people guessing that Generalissimo Chiang was still waiting for foreigners to make the first move. And it reminded people, too, that the chairman of the Chinese Soviet Republic, Mao Zedong, had issued a "Declaration of War Against Japan" as early as April 15, 1932.
+On December 8 Chiang Kai-shek, too, made a move: he declared war on Japan. Reckoning from the Mukden Incident of 1931, the great Sino-Japanese war had already been fought for ten years, and this declaration came very late indeed. It was bound to set people guessing that Generalissimo Chiang was still waiting for foreigners to make the first move. And it reminded people, too, that the chairman of the Chinese Soviet Republic, Mao Zedong, had issued a "Declaration of War Against Japan" as early as April 15, 1932.
 
 Pearl Harbor: in the second round of the great international contest of strategic intelligence, China was again ahead.
 
@@ -580,9 +580,9 @@ There was nothing for it but to die. Zheng Wendao flung himself up, burst out th
 
 The Japanese gendarmes could never have foreseen that Zheng Wendao would choose this way to fight back.
 
-The Japanese, for whom suicide was a commonplace, often mocked the Chinese as having no courage to take their own lives; and so Japan had no trouble finding traitors in China. Zheng Wendao's first leap from the van had shaken the Japanese gendarmes—China too had its brave men. The gendarmes nursed Zheng Wendao with care, out of respect for a brave man, and still more in hope of a confession. The Japanese, rich in the experience of suicide, knew that the ordeal of dying is beyond terror, and that a man who has died once will not dare to die a second time.
+The Japanese, for whom suicide was a commonplace, often mocked the Chinese as having no courage to take their own lives; and so Japan had no trouble finding traitors in China. Zheng Wendao's first leap from the van had shaken the Japanese gendarmes—China too had its brave men. The gendarmes nursed Zheng Wendao with care, out of respect for a brave man, and still more in hope of a confession. The Japanese, so familiar with suicide, knew that the ordeal of dying is beyond terror, and that a man who has died once will not dare to die a second time.
 
-But the thing that even the Japanese dared not imagine, a Chinese did: Zheng Wendao took his own life a second time, and this time it took.
+But the thing that even the Japanese dared not imagine, a Chinese did: Zheng Wendao took his own life a second time, and this time he succeeded.
 
 Nakanishi Kō, learning in prison of Zheng Wendao's death, was moved to the depths.
 
@@ -616,7 +616,7 @@ In 1983 Nishizato Tatsuo visited China and was reunited with his Chinese comrade
 
 Nakanishi Kō and Zheng Wendao, two brothers of Japan and China, reunited after death.
 
-Such is the fate of the nameless hero: bearing shame and heavy burdens to a career of legendary merit, suffering wrong and injustice to a vindication at the last.
+Such is the fate of the nameless hero: enduring shame and heavy burdens on the way to legendary achievement, suffering wrong and injustice until vindication came at last.
 
 The German-born Soviet agent Sorge kept his true identity hidden for years. It was American scholars who found the secret in the Japanese archives and made public the intelligence contribution of the Sorge group. The world was astonished, and the intelligence world agreed: Sorge was one of the greatest spies of the twentieth century.
 
@@ -632,7 +632,7 @@ Germany's surprise attack on the Soviet Union and Japan's surprise attack on Ame
 
 The Chinese agents no one noticed had slipped quietly into the front rank of the world's intelligence race.
 
-The posture of strong and weak, the momentum of victory and defeat, in this hour and on this count, turned silently over.
+The balance of strong and weak, the tide of victory and defeat, in this hour and on this count, quietly reversed.
 
 The weak overcoming the strong, ahead in intelligence.
 
