@@ -2,6 +2,18 @@
 
 Dated record of what changed and, for global corrections, what cascaded where.
 
+## 2026-08-22 — R1 pre-flight: data/zh regeneration + recovery tooling (no reading text changed)
+- Regenerated `data/zh/` for all 28 units; verify_unit GREEN on 26/28.
+- TOOLING (do not revert): added `scripts/recovery/b01_surgery.py` (ch00
+  Preface: assemble range 36-38, strip furniture + 2 boundary repairs -> 6
+  paras, GREEN); patched `scripts/recovery/b02_surgery.py` to skip-and-warn on
+  a missing OCR anchor instead of a fatal SystemExit (ch02 -> 40/40 GREEN
+  under tesseract 5.3.4).
+- Documented in `scripts/recovery/README.md` the B01 recipe and the two
+  parity limits (ch01, ch03) this container's tesseract 5.3.4 cannot
+  reproduce; pinned the known-benign warnings in `REVISION_PLAN.md` section 2.
+- Snapshotted `out/ch01_reading.pre-R.md` as the frozen register reference.
+
 ## 2026-08-22 — revision pass planned (no text changed)
 - Added `REVISION_PLAN.md` from the template: five batches (R1 foundation +
   globals + ch15 exemplar; R2-R4 tic sweeps front/middle/back; R5 tail +

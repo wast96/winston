@@ -1386,3 +1386,30 @@ sample + 100% scan verification of B14 = 0 substantive errors (out/deep_audit.md
 out/term_ledger.md (847 rows) written; authority.json fed (252 renderings, slug
 zhou-enlai); COMPLETION.md written; HANDOFF.md rewritten to COMPLETE. Back matter
 left inert (no errata/colophon; PDF p582 blank). Cover from data/figs/cover.png.
+
+## R1 (register revision) — pre-flight regression run (2026-08-22)
+
+Regenerated `data/zh/` for all 28 units from source (b02-b09 re-OCR at the
+recorded crop, b10-b14 from `data/txt_backup_b*`), replayed `apply_fixes.py`
+(1318 + 42 + 218 + 345 + 210 replacements). Container tesseract is 5.3.4; the
+original build used an older tesseract, so the character stream reproduces
+(fixes replay) but blank-line paragraph structure drifts on the two oldest
+batches.
+
+- **verify_unit GREEN on 26/28**: ch00, ch02, ch04-ch27 (parity + numbers +
+  anchors). ch00 recovered by a new `scripts/recovery/b01_surgery.py` (range
+  fix 36-38 + 2 boundary repairs -> 6 paras). ch02 recovered by making
+  `b02_surgery.py` skip-and-warn on a missing anchor instead of aborting
+  fatally (-> 40/40).
+- **ch01, ch03 parity not reproducible here** (documented + pinned in
+  REVISION_PLAN.md section 2): ch01 zh 32 vs en 38 (6 OCR welds; §3 ambiguous,
+  not force-split); ch03 zh 38 vs en 37 (p83 photo-page displacement). The
+  shipped book built green at B14; this is a scaffold-reproducibility limit.
+  R1 edits on these two units are Tier A mechanical swaps verified by the
+  zh-independent guard set (apply_edits + notes.json anchor grep + builder
+  anchor refusal + direct number/typography grep + check_register).
+- **Benign zh number artifacts pinned** (parity OK, en correct): ch04 pair 37
+  [7], ch15 pair 36 [2,10,30,1948], ch16 pair 2 [0,5,6,7,8].
+- Snapshotted `out/ch01_reading.pre-R.md` (34450 bytes, identical to a8dda4c)
+  as the frozen register reference for check_register through R2-R5.
+- `pgrep -c tesseract` == 0 after every OCR run.

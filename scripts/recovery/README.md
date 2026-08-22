@@ -63,3 +63,27 @@ Result: ch02 = 40 body paras + 4 headings; ch03 = 37 + 5.
 7. `b05_pagemap.py` regenerates data/pagemap/ch07.json + ch08.json for the
    post-surgery structure (matches each page's first BODY line into the final ZH;
    monotonic; skips heading-opener lines).
+
+## B01 (ch00 Preface PDF 36-38, ch01 PDF 45-59) + B02 robustness — added by R1 (2026-08-22)
+
+B01 originally had no strip/surgery script and no raw-OCR backup. On a fresh
+QC regen with tesseract 5.3.4 (the build used an older tesseract), the
+character stream reproduces but the BLANK-LINE paragraph structure drifts.
+
+- **ch00 (Preface).** Assemble range is PDF **36-38** only (39-44 are the
+  table of contents; 45 is ch01). `scripts/recovery/b01_surgery.py` strips the
+  running-head furniture and the trailing source citation and fixes two
+  OCR-misplaced breaks; result 6 body paragraphs, verify_unit GREEN.
+  Regen: `assemble.py ch00 36 38 --offset 44` ; `b01_surgery.py` ;
+  `apply_fixes.py ch00`.
+- **ch01.** zh 32 vs en 38 under tesseract 5.3.4 (six OCR-welded boundaries).
+  §2 welds are mapped in b01_surgery comments; §3 is ambiguous and is NOT
+  force-split (a wrong split passes parity while mis-pairing lines). PINNED as
+  a known parity limitation in REVISION_PLAN.md section 2; edits verified by
+  the zh-independent guard set.
+- **ch03.** zh 38 vs en 37 (a p83 photo-page body displacement). Same pin.
+- **B02 robustness patch.** `b02_surgery.py` now SKIPS a missing anchor with a
+  warning (was a fatal SystemExit on the first miss, which aborted all of
+  ch02's merges). Under tesseract 5.3.4 two anchors drift (`延请`,
+  `革命委员会委员`); with skip-and-warn, ch02 lands 40/40 GREEN, ch03 lands
+  38 (one short, the p83 case above). DO NOT REVERT the skip-and-warn.

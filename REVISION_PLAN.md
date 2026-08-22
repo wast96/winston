@@ -59,9 +59,36 @@ rationing, and em-dash rate. Expect most paragraphs to be LEFT alone.
   Tier A/B edits in this pass; run check_register on the OTHER edited units
   against ch01's PRE-pass state if ch01 is edited in the same batch (keep a
   copy `out/ch01_reading.pre-R.md` from commit `a8dda4c` for the ref).
-- Known-benign warnings: none pinned yet. R1's pre-flight MUST record here
-  (by exact location) any warning class it finds benign; anything not pinned
-  here gets investigated, every time.
+- Known-benign warnings (pinned by R1's pre-flight, 2026-08-22). The QC
+  scaffold `data/zh/` is regenerated per unit; anything below is a
+  regeneration artifact of THIS container (tesseract 5.3.4, vs the original
+  build's tesseract), NOT a defect in the shipped English. Anything NOT on
+  this list gets investigated, every time.
+  - **26 of 28 units regenerate fully green** (parity + numbers + anchors):
+    ch00, ch02, ch04&#8211;ch27. ch00 and ch02 were recovered by R1 (see the
+    "do not revert" list); the rest reproduce from `scripts/recovery/`.
+  - **ch01 and ch03: PARITY not reproducible in this container.** These are
+    the two oldest batches (B01 front matter, B02) and predate the raw-OCR
+    backup discipline (only b10&#8211;b14 have `data/txt_backup_b*`). Their
+    character stream reproduces (apply_fixes replays the char fixes) but the
+    tesseract-5.3.4 BLANK-LINE paragraph structure drifts from the build's:
+    ch01 shows zh 32 vs en 38 (six OCR-welded paragraph boundaries; §2 welds
+    are mapped, §3 is ambiguous and NOT force-split, because a wrong split
+    yields a data/zh that passes parity while pairing the wrong lines &#8212;
+    worse than an honest fail); ch03 shows zh 38 vs en 37 (a p83 photo-page
+    body displacement the new OCR renders differently). The shipped book
+    built green at B14; this is a scaffold-reproducibility limit only. R1's
+    edits on ch01/ch03 are Tier A mechanical swaps (dates, Politburo, "in
+    good time") that preserve numbers and paragraph count; they are verified
+    by the zh-independent guard set: apply_edits (OLD-unique, structure- and
+    anchor-preserving) + notes.json anchor grep + the builder's anchor
+    refusal + a direct number/typography grep on each edit + check_register.
+  - **Benign zh number-pairing artifacts** (parity OK, one unresolved
+    number-pair each, all zh-side OCR/segmentation drift; the en is correct):
+    `ch04` pair 37 (unaccounted `[7]`), `ch15` pair 36 (`[2,10,30,1948]`, an
+    Edgar Snow memoir quote where a date landed in an adjacent zh paragraph),
+    `ch16` pair 2 (`[0,5,6,7,8]`, OCR-garbled "龙华兵工厂"/1865 date). When an
+    edited unit's verify_unit shows ONLY its pinned artifact, it is clean.
 
 ## 3. The register target
 
