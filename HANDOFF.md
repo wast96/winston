@@ -3,7 +3,7 @@
 **The translation is COMPLETE (the record is preserved below), and the
 commissioner has ordered a whole-book REGISTER REVISION PASS. The authority
 for the pass is `REVISION_PLAN.md`; where it and this file disagree, the plan
-wins. Batches R1 through R13 run per the plan's §8 schedule; each batch
+wins. Batches R1 through R9 run per the plan's §8 schedule; each batch
 session updates the kickoff block below for the next one.**
 
 ## Message to paste into the next chat
@@ -20,8 +20,9 @@ Never read any other branch.
 Read CLAUDE.md, then REVISION_PLAN.md IN FULL (it is the authority for
 this pass), then run ./setup.sh.
 
-Scope this batch: ch09, ch01–ch05, ch10. Content is frozen; English-to-English
-register edits only, per REVISION_PLAN.md §3 (defect classes T1–T6,
+Scope this batch: ch01–ch05, ch09, ch10 (front matter is light-touch).
+Content is frozen; English-to-English register edits only, per
+REVISION_PLAN.md §3 (defect classes T1–T6,
 KEEP list) and §5 (method, exactly). Edits via edits/<id>_edits.md +
 apply_edits.py; verify_unit + tic battery before/after per chapter;
 spot-audit 10% of edited paragraphs; check_register --ref
@@ -60,21 +61,21 @@ approval stops.
   PROGRESS §R2) — do-not-revert. Earlier R1 entries 五官, 四个大字 also stand.
 - **Tooling do-not-revert:** kickoff_guard Stop hook; apply_edits.py OLD
   uniqueness contract; the noise.txt entries above.
-- **R13 reconciliation flags** logged in PROGRESS §R1 (Baomiju, storey/story,
+- **R9 (whole-book close) reconciliation flags** logged in PROGRESS §R1 (Baomiju, storey/story,
   "political operation") and §R2 (ch07 one-off hotel names; ch08 group-name /
   special-commissioner / inspectorate-system quoting).
 
-## ⚠ COMMISSIONER DIRECTIVE (2026-08-22): a FOOTNOTE-DENSITY pass AFTER R13
+## ⚠ COMMISSIONER DIRECTIVE (2026-08-22): a FOOTNOTE-DENSITY pass (F0) AFTER R9
 
-The commissioner has ordered an additional final pass, **after the whole R2-R13
+The commissioner has ordered an additional final pass, **after the whole R1-R9
 register revision is complete**, to **greatly increase footnote density** across
 the EPUB: explain the little references, the people, places, terms, events, and
 allusions a non-specialist Western reader would miss. Density is a reader model,
 not a quota — **never add a note just to add one**, but be generous: terms,
 people, places, events, and references should be explained. This is authored as
-its own pass, **F1…**, with its own schedule and kickoff canon in
-**REVISION_PLAN.md §12**. When R13 completes the register pass, the R13 reply
-must serve up the **F1 kickoff** (not a "book complete" notice); the directive
+a single final wave, **F0** (one session over the whole book), with its
+canon in **REVISION_PLAN.md §12**. When R9 completes the register pass, the R9
+reply must serve up the **F0 kickoff** (not a "book complete" notice); the directive
 and its kickoff are transcribed in `CORRECTIONS.md` and REVISION_PLAN.md §12 so
 they survive every batch seam. Carry this note forward in every HANDOFF until
 the footnote pass is itself complete.

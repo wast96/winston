@@ -335,27 +335,33 @@ real attempt burned a session budget on agents re-reading shared context).
 If a session dies: stop at a chapter boundary, commit, push, deliver, record
 the exact resume point in PROGRESS.md.
 
+**Schedule (consolidated per commissioner directive 2026-08-22): the register
+pass runs R1-R9 — SEVEN batches after R1/R2, not eleven.** The original 13-round
+plan was set before per-batch cost was known; R2 (49k words, 823 paragraphs)
+used only a small fraction of a fresh session's budget, so batches are safely
+~1.5-2x larger. Each batch still commits and pushes AT EVERY CHAPTER BOUNDARY,
+so a session death costs at most the chapter in flight (resume point in
+PROGRESS.md). Then ONE final footnote wave, **F0** (§12).
+
 | Batch | Units | ~En words | Notes |
 |---|---|---|---|
-| R1 | ch06 | 21k | EXEMPLAR + setup; ends at the gate (§9) |
-| R2 | ch07, ch08 | 49k | first post-gate batch |
-| R3 | ch09, ch01–ch05, ch10 | 42k | front matter is light-touch (closest to target already) |
+| R1 | ch06 | 21k | EXEMPLAR + setup; ends at the gate (§9) — DONE |
+| R2 | ch07, ch08 | 49k | first post-gate batch — DONE |
+| R3 | ch01–ch05, ch09, ch10 | 42k | front matter is light-touch (closest to target already) |
 | R4 | ch11, ch12, ch13 | 58k | |
-| R5 | ch14, ch15, ch16, ch17 | 56k | |
-| R6 | ch18, ch19, ch20, ch21 | 37k | + blind-critique spot check on one revised chapter |
-| R7 | ch22, ch23, ch24 | 47k | |
-| R8 | ch25, ch26, ch27 | 54k | |
-| R9 | ch28, ch29, ch30, ch31, ch32 | 47k | |
-| R10 | ch33, ch34, ch35 | 44k | |
-| R11 | ch36, ch37, ch38 | 43k | + second blind-critique spot check |
-| R12 | ch39, ch40, ch41 | 42k | |
-| R13 | ch42, ch43 + whole-book close | 19k | reconciliation, re-score, COMPLETION update |
+| R5 | ch14, ch15, ch16, ch17, ch18 | 65k | + blind-critique spot check on one revised chapter |
+| R6 | ch19, ch20, ch21, ch22, ch23, ch24 | 68k | |
+| R7 | ch25, ch26, ch27, ch28, ch29 | 63k | |
+| R8 | ch30, ch31, ch32, ch33, ch34, ch35 | 67k | + second blind-critique spot check |
+| R9 | ch36, ch37, ch38, ch39, ch40, ch41, ch42, ch43 + whole-book close | 74k | reconciliation, re-score, COMPLETION update; serves the F0 kickoff |
 
-R13 additionally runs: `check_reconcile.py`; the whole-book tic battery with
+R9 additionally runs: `check_reconcile.py`; the whole-book tic battery with
 the final table into PROGRESS.md; a diff-grep for every KEEP-list item
 (§3.3); grep-count of ~20 decided renderings; rebuild; qa_epub + epubcheck;
 an honest before/after prose-quality statement appended to `COMPLETION.md`;
-and rewrites `HANDOFF.md` back to COMPLETE (revision edition).
+rewrites `HANDOFF.md` so its next-chat message is the **F0 footnote-pass
+kickoff** (§12), NOT a "book complete" notice (the book is not done until the
+footnote pass is).
 
 ## 9. Commissioner touchpoints (kept to the minimum)
 
@@ -367,12 +373,14 @@ and rewrites `HANDOFF.md` back to COMPLETE (revision edition).
    §3.5 as rules, re-revises, and re-presents. The approved revised ch06 is
    frozen as `reference/R1_frozen.md`, the register reference for the rest
    of the pass.
-2. **Nothing else until R13.** Batches R2–R12 run to completion per
+2. **Nothing else until R9.** Batches R3–R8 run to completion per
    CLAUDE.md rule 3; each batch reply carries the two chat deliverables
    (EPUB attached + next kickoff pasted, per the CLAUDE.md banner). No
    mid-batch questions; genuine blockers only.
-3. **R13** delivers the finished revised edition and the re-scored
-   assessment.
+3. **R9** delivers the finished register-revised edition and the re-scored
+   assessment, and serves the **F0** footnote-pass kickoff (§12).
+4. **F0** (one wave) then delivers the footnote-densified final edition; its
+   ch01 exemplar checkpoint (§12.4) is the only mid-pass touchpoint.
 
 ## 10. Score accounting (what "as high as possible" means, falsifiably)
 
@@ -386,13 +394,13 @@ spot audits and parity gates exist to protect it). The levers, by axis:
   critiques are the falsifiable check (a blind reader should stop flagging
   register within two spot checks).
 - Translation quality: unchanged by design; the deep-audit protocol re-runs
-  on 10 fresh pairs in R13 as proof.
+  on 10 fresh pairs in R9 as proof.
 
 ## 11. Verbatim kickoff canon
 
 Every batch reply pastes the NEXT batch's kickoff assembled from this canon:
 the fixed body below with the two `{...}` fields filled from the §8 table
-(and, for R13, the extra line noted there). The assembled kickoff is also
+(and, for R9, the F0-handoff noted there). The assembled kickoff is also
 written into `HANDOFF.md` under `## Message to paste into the next chat`
 (re-arming the Stop hook) before the reply is sent.
 
@@ -427,9 +435,9 @@ R1 uses its own kickoff (written at plan time, archived in `HANDOFF.md`):
 it adds the exemplar-gate STOP, the voice-sheet seeding, the blind critique,
 and the freezing of `reference/R1_frozen.md`, and its scope is ch06 only.
 
-## 12. The footnote-density pass (F1…), AFTER R13 — commissioner directive 2026-08-22
+## 12. The footnote-density pass (F0, one wave), AFTER R9 — commissioner directive 2026-08-22
 
-After the whole register revision (R1-R13) is complete, the commissioner has
+After the whole register revision (R1-R9) is complete, the commissioner has
 ordered ONE more pass over the finished EPUB: **greatly increase footnote
 density** so a non-specialist Western reader has every reference explained.
 This section is the authority for that pass, exactly as §§1-11 are for the
@@ -492,36 +500,38 @@ every batch seam; the directive is also transcribed in `CORRECTIONS.md`.
    new anchor is a verbatim substring at write time.
 5. Rebuild; `qa_epub.py` (+ epubcheck); record counts + the "NOT re-noted"
    ledger + sources used in PROGRESS.md.
-6. Commit at chapter boundaries; deliver the two chat deliverables per batch.
+6. Commit at chapter boundaries (a session death then costs only the chapter
+   in flight; record the resume point in PROGRESS.md).
 
-### 12.4 Batch schedule (balanced by note volume; sequential, no subagent fan-out)
+### 12.4 One wave: F0 (commissioner directive — a single footnote pass)
 
-Front matter and early chapters carry the heaviest new-note load (the furniture
-is introduced there); the count tapers as the world gets covered. A reasonable
-split, to be firmed up by the F1 session after a survey of what is already
-noted vs. what a reader still needs:
+The footnote pass is **one wave, F0**, over the whole book (all 43 chapters),
+not a multi-batch schedule. It runs like the register pass — chapter by
+chapter, committing and pushing at every chapter boundary — but as a single
+conversation. Because it is one session over the whole book, it leans on the
+harness's context summarization; if a session ends before ch43, it RESUMES
+(same F0 kickoff, from the recorded resume point in PROGRESS.md) rather than
+spawning a new batch id.
 
-| Batch | Units |
-|---|---|
-| F1 | ch01-ch03 (+ survey the existing 375 notes; set the density target on ch01 as the exemplar; STOP for the commissioner to approve the exemplar's density/voice before F2) |
-| F2 | ch04-ch07 |
-| F3 | ch08-ch12 |
-| F4 | ch13-ch18 |
-| F5 | ch19-ch24 |
-| F6 | ch25-ch30 |
-| F7 | ch31-ch36 |
-| F8 | ch37-ch43 + whole-book note reconciliation, final rebuild, qa_epub + epubcheck, COMPLETION update |
+**Internal exemplar checkpoint (the one mid-pass touchpoint).** Do **ch01
+first** and, in the same session, pause once to present its before/after note
+counts and 6-10 sample new notes spanning the four kinds (material culture,
+social structure, customs/belief, institutions/money), so the commissioner can
+calibrate density and voice before the rest of the book. On approval, ch01's
+density is the reference for ch02-ch43; then F0 runs to completion without
+further stops. (If the commissioner prefers no stop, ch01 still serves as the
+self-set density reference.)
 
-F1 ends at an exemplar gate (like §9): present ch01's before/after note counts,
-6-10 sample new notes spanning the four kinds, the rebuilt EPUB, and the F2
-kickoff. On approval ch01's density becomes the reference for F2-F8.
+F0 closes with: whole-book note reconciliation (no duplicate notes across
+first-appearances; every anchor resolves), final rebuild, qa_epub + epubcheck,
+the final note count into PROGRESS.md, and `COMPLETION.md` rewritten to the
+footnote-densified final edition. Only then is the book COMPLETE.
 
-### 12.5 Verbatim F-kickoff canon
+### 12.5 Verbatim F0 kickoff
 
-Every footnote-pass batch reply pastes the NEXT batch's kickoff from this canon
-(fill `{Fn}` and `{units}` from §12.4; F1 adds the exemplar-gate STOP line):
+The F0 reply (and any resume) pastes this kickoff verbatim:
 
-    Nameless Heroes {Fn}: footnote-density pass
+    Nameless Heroes F0: footnote-density pass (single wave, whole book)
 
     Branch: claude/nameless-heroes ONLY. First acts: git fetch origin
     claude/nameless-heroes && git checkout claude/nameless-heroes && git
@@ -533,22 +543,23 @@ Every footnote-pass batch reply pastes the NEXT batch's kickoff from this canon
     fact-checking), then REVISION_PLAN.md §12 IN FULL (the authority for this
     pass), then run ./setup.sh.
 
-    Scope this batch: {units}. Content is FROZEN — add footnotes only, no prose
-    changes. GREATLY increase footnote density: explain every term, person,
-    place, event, institution, and allusion a non-specialist Western reader
-    would miss — but never add a note just to add one. Author notes via
-    apparatus_merge.py (numeric character references only), anchors verified
-    verbatim; check_apparatus.py clean; fact-check against real scholarship,
-    never LLM-sourced, verdicts stated; respect first-appearance discipline
-    (grep earlier occurrences) and keep a "NOT re-noted" ledger. Rebuild +
-    qa_epub (+ epubcheck); commit and push at chapter boundaries.
+    Scope: the WHOLE BOOK, all 43 chapters, in one wave. Content is FROZEN —
+    add footnotes only, no prose changes. GREATLY increase footnote density:
+    explain every term, person, place, event, institution, and allusion a
+    non-specialist Western reader would miss — but never add a note just to
+    add one. Author notes via apparatus_merge.py (numeric character references
+    only), anchors verified verbatim; check_apparatus.py clean; fact-check
+    against real scholarship, never LLM-sourced, verdicts stated; respect
+    first-appearance discipline (grep earlier occurrences) and keep a "NOT
+    re-noted" ledger. Do ch01 FIRST as the density exemplar and pause once to
+    present it (§12.4); then run to completion. Rebuild + qa_epub (+ epubcheck);
+    commit and push AT EVERY CHAPTER BOUNDARY; record the resume point in
+    PROGRESS.md so an interrupted session resumes with this same kickoff.
 
-    End of batch: PROGRESS.md updated (note counts, sources, NOT-re-noted
-    ledger), HANDOFF.md kickoff updated, and the reply carries BOTH chat
-    deliverables: the rebuilt EPUB attached AND the next batch's kickoff
-    pasted verbatim in a fenced code block. Run to completion; no mid-batch
-    approval stops (except the F1 exemplar gate).
+    End when the whole book is densified: PROGRESS.md updated (final note
+    count, sources, NOT-re-noted ledger), COMPLETION.md rewritten, HANDOFF.md
+    marked COMPLETE, and the reply carries the rebuilt EPUB attached.
 
-When R13 completes the register pass, the R13 reply serves up the **F1**
-kickoff in place of a "book complete" notice, and rewrites HANDOFF.md so its
-"Message to paste into the next chat" is that F1 kickoff.
+When R9 completes the register pass, the R9 reply serves up this **F0** kickoff
+in place of a "book complete" notice, and rewrites HANDOFF.md so its "Message
+to paste into the next chat" is the F0 kickoff.
