@@ -5,6 +5,52 @@ translated (unit ids, PDF and printed ranges), which checks ran and what they
 found, notes added, glossary rows added with status, figures, and anything
 flagged for the commissioner's read-through.
 
+## FOOTNOTE DENSIFICATION PASS (2026-08-22): 258 to 886 notes
+
+A note-only pass on commissioner request: greatly increase footnote density
+so a non-specialist Western reader gets the terms, people, places, events, and
+references explained, without padding. The translation is FROZEN; no prose
+changed. Notes added: 628 (ch00 +5, ch01 +67, ch02 +74, ch03 +99, ch04 +17,
+ch05 +44, ch06 +89, ch07 +39, ch08 +14, ch09 +38, ch10 +31, ch11 +72,
+ch12 +31, ch13 +8).
+
+**Method.** One annotator per chapter, run in three waves (ch00-04, ch05-09,
+ch10-13) so each later wave read the earlier waves' merged notes and honored
+first-book-wide-appearance for recurring subjects. Each annotator read the
+whole notes.json and glossary.json and skipped anything already covered
+anywhere in the book (major recurring cast stays on the Principal Characters
+page and glossary). New notes concentrate on the "little references": minor
+figures, specific places, offices, campaigns, idioms and chengyu, material
+culture, and terms.
+
+**Checks.** Every candidate note was pre-validated before merge: anchor a
+verbatim substring of out/<id>_reading.md, no builder-hazard characters
+(* # & < > newline) in anchors, numeric character references only in bodies
+(no named entities, no bare ampersands, no U+FFFD), and no duplicate anchors
+within a unit. check_apparatus.py: 0 failures (the 43 warnings are the
+pre-existing glossary attestation-note warnings, untouched). Builder accepted
+all 886 anchors (no orphans). qa_epub PASS; epubcheck 5.1.0 clean 0/0/0/0.
+
+**One build fix.** The added density created three same-paragraph anchor
+overlaps that made note numbering non-sequential (the builder's marker
+insertion breaks a re-find when one anchor is nested in another): ch02
+"Zhang Wentian, Zhu De, and Li Fuchun" trimmed to "Zhang Wentian, Zhu De";
+ch06 "Lu Xun, Xia Yan, Wang Xuewen" to "Lu Xun, Xia Yan"; ch12 "with Hou
+Baolin poking fun" to "with Hou Baolin". Each trim is a valid unique substring
+and keeps the note on its subject.
+
+**Fact discipline (rule 5).** Annotators verified checkable claims against
+Wikipedia, Baidu Baike, and academic sources, never AI-written references;
+substantive claims state a corroborated / uncorroborated / contradicted
+verdict; uncertain external detail was hedged or omitted rather than invented.
+Notes were written so as not to contradict the frozen prose even where the
+source itself errs.
+
+**For the commissioner's read.** This was a broad automated densification;
+spot-checks of the new notes read accurate and correctly formatted, but with
+628 new notes a reading eye may still find an occasional gloss to tighten or a
+verdict to sharpen. Flag any and they become a local corrections item.
+
 ## CORRECTIONS PASS 1 (2026-08-22): R04 source-dependent items resolved, deliverable renamed
 
 A corrections pass, not a new batch. Content stays faithful: the source is

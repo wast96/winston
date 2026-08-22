@@ -8,6 +8,36 @@ Dated record of what changed and, for global corrections, what cascaded where.
 - LOCAL: fixed dropped clause at ch03 §2 folio 45.
 -->
 
+## 2026-08-22: Footnote densification pass (commissioner request)
+
+The commissioner asked to greatly increase footnote density: explain the
+terms, people, places, events, and references a non-specialist Western reader
+would miss, without padding. Content stays FROZEN (a note-only pass; not one
+word of the translation changed).
+
+- APPARATUS: notes.json grew from 258 to 886 (+628). Per unit, new totals:
+  ch00 7, ch01 86, ch02 110, ch03 126, ch04 31, ch05 68, ch06 101, ch07 66,
+  ch08 22, ch09 54, ch10 56, ch11 93, ch12 54, ch13 12. Late chapters taper
+  by design (their institutional furniture was introduced earlier and is
+  cross-referenced, not re-noted).
+- METHOD: one annotator per chapter, each reading the full book-wide
+  notes.json and glossary.json so nothing already covered was re-noted;
+  recurring subjects keep their note at first book-wide appearance. Every
+  candidate was pre-validated (anchor a verbatim substring of the reading
+  file, no builder-hazard characters, numeric character references only, no
+  duplicate anchors) before apparatus_merge.
+- FACT DISCIPLINE (CLAUDE.md rule 5): checkable claims verified against
+  Wikipedia / Baidu Baike / academic sources, never AI-written references;
+  substantive claims carry a corroborated / uncorroborated / contradicted
+  verdict; uncertain external detail was hedged or omitted rather than
+  invented. Notes were written not to contradict the frozen prose even where
+  the source itself errs (e.g. the ch12 field-army command line).
+- BUILD FIX: three same-paragraph anchor overlaps (ch02 Zhang Wentian/Li
+  Fuchun, ch06 Xia Yan/Tian Han, ch12 Hou Baolin/Yiguandao) made the note
+  numbering non-sequential; the earlier anchor of each pair was trimmed to a
+  non-overlapping substring. Rebuilt: qa_epub PASS (886 notes), epubcheck
+  5.1.0 clean (0/0/0/0), check_apparatus 0 failures.
+
 ## 2026-08-22: Corrections pass 1 (source-dependent faithfulness items + deliverable rename)
 
 Clean-checkout regression first: reset to origin, replayed the resegment

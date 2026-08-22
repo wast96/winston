@@ -17,7 +17,8 @@ finished, rebuilt deliverable is
 carries the book's full name; the name lives in `book.json` `deliverable`, so
 builder, qa_epub and the Stop hook all agree on it; committed with
 `git add -f`, because chat attachments do not outlive the container, the branch
-does). qa_epub PASS (258 notes); epubcheck 5.1.0 clean (0/0/0/0).
+does). qa_epub PASS (886 notes after the 2026-08-22 footnote densification
+pass, up from 258); epubcheck 5.1.0 clean (0/0/0/0).
 
 ## Corrections pass 1 is done (2026-08-22)
 
