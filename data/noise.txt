@@ -327,3 +327,13 @@
 立三
 # Chen Sanbai (陈三百), a source author's name — rendered "Chen Sanbai"
 陈三百
+#
+# --- B17 (ch15) block: name numerals ---
+# Wang Yangsan (王养三), a former name of Pu Huaren — rendered "Wang Yangsan"
+王养三
+# Qin Xuwu (秦叙五), an alias of Liu Zhonghua — rendered "Qin Xuwu"
+秦叙五
+# Yu Sanyuan (俞三元), Zhang Qiuyang's young son — rendered "Yu Sanyuan"
+俞三元
+# Mizuban Saburo (水番三郎), Pan Hannian's ship alias — rendered "Mizuban Saburo"
+水番三郎

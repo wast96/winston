@@ -2,6 +2,97 @@
 
 The running per-batch log. Written as we go.
 
+## B17 — Chapter Fifteen "最后的努力 / The Last Effort" (ch15)
+
+- **Scope.** PDF 324-337, printed 309-322. THE BOOK'S LAST BODY CHAPTER (ch16 Works
+  Cited opens PDF 338). Four sections: s1 一、陈云来了 "Chen Yun Arrives" (opener PDF 325,
+  folio 310), s2 二、"三人团" "The Group of Three" (PDF 329, folio 314), s3 三、沧海横流，方显英雄本色
+  "Only in the Raging Sea Is the Hero's True Color Seen" (PDF 331, folio 316), s4 四、在浦东上船
+  "Boarding the Boat at Pudong" (PDF 334, folio 319). Offset held a constant 15; folios read off
+  the scan at every opener and confirmed through 322. 55 body paragraphs (s1 17, s2 10, s3 14,
+  s4 14). Chapter divider p0324 is design furniture (the four section titles listed, no body
+  text); NO full-page double plates or washed-out paintings this chapter. The chapter tells how
+  Chen Yun, sent from the Long March at the Luding meeting (May 1935) to "rebuild the Party's
+  organization in the White areas," reached a Shanghai so shattered by the White Terror that the
+  Comintern delegation judged it needed no central organ; he and Pan Hannian were smuggled out to
+  the USSR (Chen via Vladivostok, Aug 1935; Pan end-Aug on the freighter Dongfang). Woven in: the
+  chain of couriers and cover men (Zhang Qiuyang, Sun Shipu, Pu Huaren, Dong Jianwu); the
+  short-lived "Group of Three"/"Group of Five" under the Comintern man Gebert; the united-front
+  turn (Seventh Comintern Congress, the "August First Declaration," Dimitrov); the collapse of the
+  Sorge-linked "Walton" intelligence ring; and Chen Yun's pseudonymous first insider account of
+  the Long March, *Random Notes on the Western March*.
+- **Source recovery.** data/zh/ch15.txt HAND-TRANSCRIBED off the 300-DPI page images (OCR
+  chi_sim psm6, crop 0.06/0.95/0.11/0.955, kept as cross-check only; OCR lost 孙诗圃, 陈翰笙 and
+  most proper names entirely). Chapter title + all four section heads marked `###`. Parity exact:
+  55 = 55 (check_structure --pairs, source first).
+- **Crop-verified readings (eye-read on magnified crops):** 北山西路 (printed twice, so
+  transcribed; footnoted as almost certainly a slip for 山西北路 Shanxi North Road); 俞三元
+  Yu Sanyuan (Zhang Qiuyang's son, different surname, as printed); 15名猖獗活动的内奸 (number 15,
+  char 猖獗 not 猎); 华尔敦 Walton and 刘燧元/萧柄实/陆海防; 格伯特 Gebert ("the Old Man");
+  格柏乌 GPU; 左尔格 Sorge (matches ch14); 赖安 (2007) source cite; 严朴/陆定一/严慰冰 relationship;
+  一万二千里 (12,000 li), 100多人, 70多人, 36/8/40 arrest counts.
+- **Register.** ch08-ch14 sardonic source-criticism voice kept; this is an exposition- and
+  document-heavy chapter (bios, Party resolutions, memoir quotes), so casual dialogue is scarce
+  and the check_register dialogue metric is QUIET by design. Judged on narratorial signals:
+  rhythm CV 0.66 (= ch01 ref exactly), em-dash 0.0/1k, sentence median 29; four narration
+  contractions added (paras 23, 22, 52, Sun Shipu quote) to lift off 0.0 → 0.4/1k, 1.31x ref,
+  NO stilted flag. Source-criticism motion preserved: the author corrects Xia Yan's *Lazily
+  Seeking Old Dreams* (董牧师 = Dong Jianwu, not Dong Weijian — 张冠李戴) and the *Biography of
+  Chen Yun*'s note (Su Mei's husband was Qiu Wen/Xiao Shouhuang, not "Chuwen"); quoted 1935
+  resolutions and the "August First Declaration" kept starchy.
+- **Checks, all green.** parity 55=55; verify_unit numbers 0 unresolved (B17 noise block added:
+  王养三, 秦叙五, 俞三元, 水番三郎 — all name numerals); anchors 10 ok; qc_entities 0 misses;
+  check_content 359 name occurrences all in the paired paragraph; check_align median 4.88 en/han,
+  no pair > 2.2x; check_apparatus 0/0; build PASS (15/18 chapters, 405 notes); qa_epub PASS (111
+  files, 405 refs/bodies/backlinks); epubcheck 5.1.0 0/0/0/0.
+- **Tail verification (rule 4 corollary).** The close (p0336-0337, paras 54-55: the Nov 7 Red
+  Square parade, Chen Yun in Moscow writing *Random Notes on the Western March* under the pen
+  name "Lianchen," and his 1936 assessment of the Red Army's spread) re-read against the scan;
+  faithful, nothing invented.
+- **Footnotes: 10 new** (unit total 10; book 405), first-appearance, reader-model. Items: Zhang
+  Naiqi (banker, later a "Seven Gentlemen" and first PRC food minister); Beishanxi Road (the
+  likely misprint, [—Trans.]); Kirov's assassination → the Great Purge; Dimitrov (Reichstag-fire
+  fame, Comintern GS from the 7th Congress); the "August First Declaration"; the Book-of-Songs
+  allusion 兄弟阋墙外御其侮; the "mysterious Westerner"/Walton case (cross-ref Noulens ch12);
+  *Random Notes on the Western March*; Zhu-Mao; Mao's "single spark / prairie fire."
+- **NOT re-noted (already placed earlier) — cross-referenced or left to the glossary/gazetteer:**
+  the Long March (ch07/08), the Great Revolution (ch01), the three armed uprisings of the Shanghai
+  workers (ch01/02/03), Feng Yuxiang (ch08), the Blue Shirts (ch12), the GPU (ch01/06), Sorge
+  (ch07/14), the Zunyi Conference (ch10), the united front (ch01/13), the White areas / soviet
+  areas (ch01), Gu Shunzhang, the Three Heroes of Longtan, Zhou Enlai, Mao Zedong, Qu Qiubai,
+  Song Qingling (China Defence League ch14), Pan Hannian ("The Wild Swan" ch11), Chen Geng, the
+  Comintern, the Central Special Branch, Dong Jianwu (presiding pastor, ch01).
+- **Figures: 4** (`data/figs/ch15-01..04`, hand-cropped, printed captions excluded, translator's
+  captions with source-label provenance, real alt text): Chen Yun in later life (s1, p0325);
+  Pu Huaren portrait (s1, p0328); *The Unfalling Red Flag*, Chen Tongsheng's memoir + his
+  daughter's 2018 inscription (s2, p0329, a book-cover-plus-handwriting composite); Chen Hansheng
+  & Gu Shuxing (s4, p0336). Every page eyeballed; p0324 (chapter divider listing the four section
+  titles) excluded as furniture.
+- **Glossary: 123 new rows** (63 people, 14 organizations, 43 places, 3 terms), written into the
+  sectioned ledger, each with a `pinyin` field. Consulted authority.json / the existing ledger
+  first; ~32 ch15 names already present and reused unchanged (Chen Yun, Pan Hannian, Zhang Wentian,
+  Xia Yan, Dong Jianwu, Chen Geng, Mif, Qu Qiubai, Yang Zhihua, He Shuheng, Song Qingling, Sorge,
+  Chiang Kai-shek, Yan Pu, Lu Dingyi, He Long, Xiao Ke, and others). NEW recurring institutional
+  terms flagged `recurring:true`: 上海中央局 the Shanghai Central Bureau, 江苏省委 the Jiangsu
+  Provincial Committee, 共青团 the Youth League. NEW concession-street gazetteer entries
+  (gazetteer:true + today): 天主堂街 Cathedral Street (Sichuan South Rd), 新永安街 New Yong'an Street
+  (Xin Yong'an Rd), 环龙路 Route Vallon (Nanchang Rd), 垃圾桥 Rubbish Bridge (Zhejiang Road Bridge),
+  北京路 Beijing Road (Beijing East Rd), 大马路 Dama Road (Nanjing East Rd). 小开 Xiaokai added as
+  a term (Pan Hannian's code name, cross-ref ch11); 朱毛 Zhu-Mao and 廉臣 Lianchen added.
+- **Tooling patches (DO NOT REVERT).** `data/noise.txt` gained the B17 block (王养三, 秦叙五,
+  俞三元, 水番三郎); every real count still carried. No script changes this batch.
+- **Consistency accommodations / sweep notes.** (1) Conformed to the glossary's decided forms
+  "Song Qingling" (not Soong Ching-ling; 3 outliers in earlier chapters remain a sweep item) and
+  "Dabu" (not Dapu; 1 earlier outlier). (2) Para 2 re-glosses 江西路 as "Kiangse Road (today Jiangxi
+  Middle Road)" because check_content's bare 江西→Jiangxi anchor (a substring of 江西路) needs the
+  "Jiangxi" token present; ch14 passed the same way via its inline gloss. (3) **Latent ch14 caption
+  bug for the reconciliation sweep:** the builder passes figure captions through `html.escape`,
+  which double-escapes numeric character references — ch14's captions store `&#8217;`/`&#8220;`
+  and will render the literal entity text; ch15 captions use plain ASCII quotes to avoid this.
+  Book/film/periodical titles cannot be italicized in captions (esc strips markup). (4) Standing
+  items still open: ch01 Yang Du note "1875"->"1874"; ch09 para 163 "Fourth Avenue"->"Sima Road";
+  book-wide title-italics (ch10-ch13 plain vs ch01/ch08/ch09/ch14 italic; ch15 italicizes titles).
+
 ## B16 — Chapter Fourteen ""一号机密" / "Secret Number One"" (ch14)
 
 - **Scope.** PDF 308-323, printed 293-308. Six sections: s1 一、中央文库 "The Central
