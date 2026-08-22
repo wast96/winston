@@ -1390,3 +1390,38 @@ figure spec and used consistently for the copied file, the manifest media type
 Result: 78 of 78 figures went to JPEG, 1 PNG remains (the generated cover);
 EPUB 28.56 MiB -> 12.19 MiB (-57%); qa_epub PASS; epubcheck 5.1.0 = 0/0/0.
 No visible loss (q90 greyscale on <=1000px scans). MAX_FIG_WIDTH=1000 still holds.
+
+## 2026-08-22 -- Footnote densification pass (commissioner request)
+
+Commissioner asked to greatly increase footnote density, explaining all the
+little references (people, places, events, institutions, offices, terms,
+idioms) a Western lay reader would miss. Ran one research/drafting pass per
+reading unit (nine parallel agents, one or more units each), each reading its
+chapter, cross-checking every candidate against the existing 432 notes to avoid
+duplication, fact-checking each against Wikipedia / Baidu Baike / academic
+sources (never AI-generated references, rule 5), and writing merge-ready notes
+with verbatim anchors and numeric-only XHTML entities.
+
+Result: 432 -> 657 notes (+225). Per unit: ch00 4->10, ch01 73->100,
+ch02 130->157, ch03 62->90, ch04 75->142, ch05 47->76, ch06 24->47,
+ch07 6->10, ch08 6->10, ch09 2->7, ch10 1->3, ch11 2->5.
+
+Method notes for the next session:
+- Two new tools, do NOT revert: scripts/validate_new_notes.py (verifies every
+  new anchor is a verbatim substring and every body uses numeric-only XHTML
+  entities before merge) and scripts/find_note_dups.py (finds the same subject
+  noted in more than one unit by shared hanzi, since parallel drafters cannot
+  see each other's new notes).
+- Cross-unit dedup: 26 duplicate-subject notes removed, keeping each at its
+  first appearance in reading order.
+- SILENT-LOSS TRAP resolved: sections 4-5 of chapter 2 have a stale duplicate
+  reading file out/ch02s45_reading.md that the builder never reads (chapter 2's
+  whole text is in out/ch02_reading.md; ch02s45 is not a book.json structure
+  node). Six notes first keyed to the phantom unit "ch02s45" were re-keyed to
+  "ch02" (anchors verified unique in ch02_reading.md, all in the sections 4-5
+  region) and the phantom key removed. The first build placed only 651 of 657
+  notes; after re-keying, all 657 render. If a later session re-annotates
+  chapter 2 sections 4-5, key the notes to ch02, NOT ch02s45.
+- Fixed one Chen Geng note that used the traditional geng glyph; simplified now.
+- Gates: check_apparatus 0/0; qa_epub PASS (657 refs/bodies/backlinks);
+  epubcheck 5.1.0 = 0 fatals / 0 errors / 0 warnings; EPUB ~12.2 MiB.
