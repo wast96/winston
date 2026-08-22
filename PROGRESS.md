@@ -1124,3 +1124,115 @@ and the other chapters' apparatus date reformats.
 No script changes. The 4 note-date reformats were a one-off json edit (ASCII-only
 date reordering, ensure_ascii=False preserves all CJK; 141 hanzi across note
 bodies verified intact after write).
+
+## Revision R2 (R2): SWEEP ch01, ch03, ch04 -- scope TIER 1+2
+
+Second editing batch of the register/style/apparatus pass (REVISION_PLAN.md),
+scope TIER 1+2. Calibration target: the R1 ch02 exemplar diff (most paragraphs
+LEAVE; synonym-shuffling is itself a defect; when in doubt keep). Content FROZEN.
+Totals: 23 prose edits + 2 note-anchor moves + 18 note-body date reformats across
+the three chapters. Line counts unchanged (146/128/257); git diff --stat = 22
+insertions / 22 deletions, ZERO net line change.
+
+### ch01 -- 7 prose edits (no Politburo/litotes/could-not-help; no note dates)
+- White Terror x3: capitalized the three DEFINITE named uses (ch01:120 Hangzhou,
+  137 Shanghai, 138 Zhejiang). Read each hit: ch01:124 "lay under a white terror"
+  and ch01:130 "so fierce a white terror" are INDEFINITE generic uses -> LEFT
+  lowercase per the rule's carve-out; ch01:145 "steeped in white terror" sits in
+  a {v} block -> LEFT frozen (KEEP list).
+- one-after-another x4: 5 identical hits dominated the chapter; varied four
+  (77 "in quick succession", 86 "in turn", 122 "one by one", 126 "in succession")
+  and kept ch01:124 "one after another" as the retained instance. The ch01:126
+  edit changed only "fell one after another"->"fell in succession"; the anchored
+  name-list (Li Dazhao, Zhao Shiyan, Chen Yannian ...) earlier in the em-dash run
+  is untouched.
+- LEFT deliberately: nominalizations ("the founding of", "the making of", "the
+  writing of", "the coming of" ...) all idiomatic; "threats and inducements"
+  (威逼利诱, ch01:19) is a real coercion/enticement distinction, not a collapsible
+  doublet; "heart and soul"/"safe and sound" idiomatic English.
+
+### ch03 -- 6 prose edits + 2 anchor moves + 7 note-date reformats
+- Politburo x1 (ch03:84, the CPSU Политбюро "Political Bureau"->"Politburo"). The
+  note anchored on that clause CONTAINED "Political Bureau", so shipped a
+  NOTE-ANCHOR pair (Kirov ... Political Bureau -> ... Politburo) in the same list.
+  grep "Political Bureau" now 0.
+- inversion recast x1 (ch03:88): "So answered, with one voice, several of the
+  chief men Kang Sheng named: X, Y, Z." -> subject-first "Several of the chief men
+  Kang Sheng named, X, Y, and Z, answered with one voice." The note on the three
+  cadres was anchored on the old colon-list; re-anchored to "Xiao Shouhuang,
+  Ouyang Xin, and He Changzhi" (NOTE-ANCHOR pair). No em-dash introduced (ch03
+  has none in the file).
+- could-not-but x2: ch03:98 "could not but have known"->"must have known";
+  ch03:111 "could not but shake Mao Zedong"->"was bound to shake". ch03:5/15
+  "had no wish to" read as natural reported speech and were LEFT (the tier-1
+  target is the stiff "could not but" formula).
+- litotes x2: ch03:67 "wronged not a few comrades"->"a good many comrades";
+  ch03:99 "had had no few comrades killed"->"a good many". KEPT ch03:67 "which
+  was no small thing" (idiomatic English).
+- one-after-another: ch03:114 is inside a {v} block (LEFT); ch03:62 is the only
+  editable instance and, with no domination, was LEFT.
+- Note dates x7: reformatted D-Month-YYYY to Month D, YYYY in note bodies
+  0,8,15,27,39,47,49 (e.g. "12 December 1936"->"December 12, 1936") AND normalized
+  4 bare day-month forms (0 "25 December"->"December 25", 4 "12 December", 6
+  "1 October", 39 "23 April"; note 39's range now reads "from April 23 to June 11,
+  1945"). Values never changed (note 39 still flags the source's wrong 1943->1945;
+  note 49's Kirov date December 1, 1934 preserved). Done via json load/dump,
+  ensure_ascii=False.
+
+### ch04 -- 10 prose edits + 7 note-date reformats (no Politburo)
+- could-not-but x1 (ch04:209 "could not but carry a certain risk"->"was bound to").
+- litotes x2: ch04:138 "gathered no little material"->"a good deal of material";
+  ch04:199 "had no few legendary stories"->"a good many" (the figure `before`
+  anchor earlier in that paragraph is untouched). KEPT ch04:18 "no small amount of
+  work" (inside He Long's quoted speech).
+- "Such was" x1: ch04:109 "Such was Chen Yangshan ..." PASSES the read-aloud test
+  (deliberate summation after a quoted maxim) -> LEFT; ch04:151 "Such was the whole
+  of Zhang He's first entry ..." fails -> recast "That was all that came of ...".
+- one-after-another x6: 9 hits dominated the chapter; CUT three redundant with an
+  explicit count (9 "a good many cadres", 11 "three ... stations", 196 "more than
+  twenty connections" -- counts untouched), varied three (160 "in turn", 166 "in
+  succession", 209 "a few at a time"), kept three natural instances (64, 151, 170).
+
+### Verification (plan sec.2, mechanical-chapter path)
+- Parity by construction: line counts unchanged; git diff --stat 22 ins / 22 del,
+  zero net line change (all in-place substitutions or same-line phrase cuts).
+- Anchors: pre-flight simulation applied all edits to a copy and confirmed every
+  note anchor (after the 2 moves) and every figure `before` anchor still a verbatim
+  substring; old anchors gone; the builder's refusal is the backstop (did not fire).
+- Numbers: grepped every OLD/NEW pair for digits -- no numeral differs. The three
+  one-after-another cuts drop only the sequence tag, never a count.
+- Typography guard: every added line pure ASCII; no curly quotes/ellipsis
+  introduced. (ch01 carries 4 PRE-EXISTING curly chars on lines 23/46/123, present
+  in HEAD, NOT on any edited line and out of R2 scope -- flag for the R-final
+  typography regression.)
+- check_apparatus.py: 0 failures, 0 warnings.
+- Build: 12/12, 432 notes, 0 pagebreaks; qa_epub PASS (104 files, 432/432/432
+  notes resolve); epubcheck 5.1.0 = 0 fatals / 0 errors / 0 warnings.
+- EPUB 28.6 MiB (under the 30 MiB chat limit; MAX_FIG_WIDTH=1000 held).
+
+### Spot-audit (plan sec.5 step 5)
+Reviewed 100% of the 23 edited paragraphs (well over the 10%/min-10 bar) OLD->NEW
+in context: every edit is a terminology substitution (Politburo), a capitalization
+(White Terror), a tic-variation/cut (等/one-after-another), a litotes flip, a
+plain-auxiliary swap (could-not-but), or one inversion + one summary-formula
+recast. None alters the translation's relationship to the source; parity + the
+semantic-equivalence review is the appropriate audit (data/zh gitignored;
+mechanical path). Zero meaning drift found.
+
+### KEEP-list sweep (plan sec.3.3)
+Diff sweep confirms: no {v}/{p}/{d}/{g}/*** line changed (grep of the changed
+lines returns none); partisan epithets ("traitors", "agents", "butcher knife")
+and the institutional first person ("our Party") preserved; the ch01:126 em-dash
+name-list, ch04:18 quoted speech, and the ch03/ch04 {v} instance of
+"one after another" all untouched; every decided glossary rendering stands.
+
+### Deliverables
+edits/ch01_edits.md, edits/ch03_edits.md, edits/ch04_edits.md; out/ch01_reading.md
+(14 lines touched), out/ch03_reading.md (12), out/ch04_reading.md (18);
+notes.json (2 anchor moves + 18 date reformats); out/chen-yangshan.epub rebuilt.
+NOT in scope for R2 (deferred to R3): Principal Characters growth, the
+translator's-note sentence, and ch00/ch05-ch11 note-date reformats.
+
+### Tooling -- no reverts
+No script changes. Date reformats were a one-off json load/dump (ASCII-only date
+reordering, ensure_ascii=False preserves all CJK).
