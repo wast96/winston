@@ -14,6 +14,20 @@ translator's-note author-voice sentence; see PROGRESS.md). The chapter sweep is
 COMPLETE. Next and last: **R-final** (whole-book regression + reconcile sweep +
 register table + CHANGELOG + COMPLETION addendum + final EPUB commit).
 
+**Interleaved commissioner request (2026-08-22): footnote densification.** On
+the commissioner's request the apparatus was greatly enlarged, explaining the
+"little references" (people, places, events, institutions, offices, terms,
+idioms) a Western lay reader would miss: notes **432 -> 657 (+225)**, every one
+fact-checked (Wikipedia / Baidu Baike / academic; no AI references), verbatim-
+anchored, numeric-only XHTML. 26 cross-unit duplicate subjects deduped to first
+appearance; 6 notes re-keyed off the phantom unit `ch02s45` (a stale duplicate
+reading file the builder never reads) onto `ch02`. Gates green: check_apparatus
+0/0, qa_epub PASS (657/657/657), epubcheck 0/0/0. Two new tools kept (do NOT
+revert): `scripts/validate_new_notes.py`, `scripts/find_note_dups.py`. See
+CHANGELOG.md and PROGRESS.md. The R-final regression below now also covers the
+enlarged apparatus. Also: the stray per-session branch was folded into
+`claude/chen-yangshan` and deleted (local + remote).
+
 ## Message to paste into the next chat
 
 ```
