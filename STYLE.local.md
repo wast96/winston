@@ -170,8 +170,96 @@ the book._
 - 相信科学 / 追求上进 -> "put her faith in science" / "had ambition" (render the
   stance, do not leave the bare slogan-calque). #book
 
-## Decided renderings (this book's word-level ledger)
+## Revision rebaseline (register/style/apparatus pass, R1+) [provenance: REVISION_PLAN.md sec.3]
 
-_One rendering per recurring item, like the glossary but for diction and
-function words. Wrong form on the left, decided form on the right. Grows through
-the book._
+These rules were approved for the post-completion revision pass, scope TIER 1+2
+(tier 3, the deeper topology/contraction rebaseline, was declined by the
+commissioner). They are the standing calibration for every revision batch;
+the ch02 exemplar diff is the touch-rate target. The governing discipline is
+the plan's own: MOST paragraphs LEAVE, a rewrite that only shuffles synonyms is
+itself a defect, and when in doubt keep. Honour the KEEP list (plan sec.3.3):
+{v} documents, verse, the ch07 obituary, the author's institutional first
+person and partisan epithets, and any decided glossary rendering are all frozen.
+
+### RULE. 政治局 is "the Politburo", never "Political Bureau". [#book]
+- **WHY.** "Political Bureau" is a bare calque of 政治局; the shelf canon and
+  standard English usage is "the Politburo" (with qualifiers as needed:
+  "the provisional Politburo", "the Politburo Standing Committee").
+- **FIX.** Substitute "Politburo" for "Political Bureau" wherever it renders
+  政治局, keeping the qualifier ("provisional Central Politburo", "Politburo
+  member"). Purely mechanical; no boundary moves.
+- **CHECK.** `grep -n "Political Bureau"` on a swept unit returns nothing.
+
+### RULE. 白色恐怖 is "the White Terror" (capitalized) for the specific KMT terror. [#book]
+- **WHY.** The book uses 白色恐怖 as a named historical phenomenon (the post-1927
+  KMT terror, extending through the civil-war period); lowercase "white terror"
+  under-marks it and the book was split (21 lc / 6 cap at R0).
+- **FIX.** Capitalize both words. CARVE-OUT: a genuinely generic, indefinite use
+  ("a white terror descended") stays lowercase; read each hit. In ch02 all seven
+  body hits were the specific definite terror and were capitalized.
+- **CHECK.** `grep -ni "white terror"` and read each; no lowercase specific use
+  survives, no generic use is wrongly capitalized.
+
+### RULE. Dates are Month D, YYYY everywhere, apparatus included. [#promote]
+- **WHY.** The body was already uniform (Month D, YYYY); the outliers were
+  D-Month-YYYY dates in note bodies and one glossary row ("30 August 1929").
+- **FIX.** Reformat D-Month-YYYY to Month D, YYYY. Reformat ONLY: the day,
+  month, and year values never change (a note that flags a source's wrong year
+  keeps that year). Note bodies are edited directly in notes.json via a small
+  json load/dump (ensure_ascii=False), NOT by apply_edits (which cannot touch a
+  note body) and NEVER by shell heredoc.
+- **CHECK.** grep the swept unit's notes for `[0-9]{1,2} (January|...|December)`;
+  none remain.
+
+### RULE. Retire the litotes calque; state the thing positively. [#promote]
+- **WHY.** 不少/极大 rendered as "no small X" ("no small convenience") is a
+  litotes calque that reads as period stiffness in narration.
+- **FIX.** Recast to the positive ("a great convenience"). CARVE-OUT: leave it
+  where it sits inside a {v} document or quoted matter (ch02:115 "made no small
+  contribution", inside Chen Geng's letter, is KEPT), and leave a genuinely
+  idiomatic English litotes if one reads naturally.
+- **CHECK.** `grep -n "no small\|no few\|no little"`, read each against the KEEP
+  list before touching.
+
+### RULE. "could not but / could not help / had no wish to" get the plain equivalent. [#promote]
+- **WHY.** These are stiff litotes-adjacent auxiliaries flagged at R0.
+- **FIX.** Plain equivalents: "had to", "couldn't help", "did not want to". NOTE
+  ON SCOPE: the contraction here ("couldn't help asking") is the prescribed
+  tier-1 equivalent for THIS formula only; it is NOT the declined tier-3 program
+  of contracting narration generally. Do not read the exemplar as licence to
+  contract narration elsewhere.
+- **CHECK.** `grep -n "could not but\|could not help\|had no wish"`.
+
+### RULE. 等-tags: vary and thin, but only genuine tics; keep the tag alive. [#promote]
+- **WHY.** 等/等人 rendered as "and others / and the others / and the rest / and
+  so on" recurs (76 book-wide). The defect is a single tag DOMINATING and, worse,
+  a tag re-listing names already just named, or clustering three to a paragraph.
+- **FIX.** Three techniques: cut where the list is complete or the tag is
+  redundant with an opener like "many ... that could be used: ..., and so on";
+  reposition/vary ("among others"); and cut a redundant re-listing ("Zhou Enlai,
+  Li Weihan, Deng Xiaoping, and the others laid on a banquet ... the others all
+  warmly agreed", not the names a second time). Target: no single tag dominating,
+  NOT zero. Be surgical: in ch02 the tags were already well varied, so only three
+  genuine tics were touched, and any tag sitting inside a note anchor was LEFT
+  (do not restructure anchored text for a tic; the anchor breaks).
+- **CHECK.** After a sweep, no single tag dominates the unit and no paragraph
+  stacks three; `grep` the changed spans against note anchors first.
+
+### RULE. "one after another / one after the other" is varied, not repeated. [#promote]
+- **WHY.** 先后/一个个/陆续 all fall to "one after another"; it recurred 16 times
+  book-wide.
+- **FIX.** Vary by sense: "in turn", "one by one", "a few at a time", "in
+  succession", or cut. Keep one instance where it reads best; not zero.
+- **CHECK.** `grep -n "one after another\|one after the other"`; more than one or
+  two of the same phrasing in a chapter is a rewrite.
+
+### RULE. Convert the awkward "the X-ing of the Y" nominalization to a finite verb, where it helps. [#promote]
+- **WHY.** 的 nominal phrases calque to "the drawing of a double agent out of the
+  enemy's camp"; a finite verb reads better ("drawing a double agent out ...").
+- **FIX.** Convert the awkward ones to finite verbs; LEAVE the idiomatic set
+  outright ("the founding of the nation / of the Section", "the killing of these
+  men", "the shooting of the four" all read naturally). This is the smallest of
+  the classes: in ch02 only one conversion earned its place. Do not force the
+  ones that already read as English.
+- **CHECK.** `grep -noE "the [a-z]+ing of"`; convert only what fails the
+  read-aloud test.

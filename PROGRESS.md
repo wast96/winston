@@ -1016,3 +1016,111 @@ qa_epub PASS, epubcheck 0/0/0, title page reads COMPLETE.
 No script changes. ch11 used the ch01-06 body crop. The Route->Avenue Joffre fix
 and the ch02 figure recovery are DATA corrections (glossary/notes/prose/figures),
 not tooling changes.
+
+================================================================================
+## Revision R1 (R1): LEDGER UPDATE + ch02 EXEMPLAR -- scope TIER 1+2
+
+The first editing batch of the post-completion register/style/apparatus pass
+(REVISION_PLAN.md). Scope approved by the commissioner: TIER 1+2 only (tier 3,
+the deeper topology/contraction rebaseline, was DECLINED). R0 was read-only
+calibration; its census (defect classes + counts) lives in the R0 chat, and the
+confirmed defect list was carried into the R1 kickoff. Content is FROZEN: this
+is a style pass, not a retranslation; no source line touched, no boundary moved,
+no number/name/fact changed.
+
+### Ledger update (done first, per the kickoff)
+Wrote the approved tier-1+2 rules into STYLE.local.md as a new section,
+"Revision rebaseline (register/style/apparatus pass, R1+)", tagged #book/#promote,
+provenance cited as REVISION_PLAN.md sec.3. Eight rules: Politburo, White Terror,
+date format, litotes calque, the could-not-help formula, 等-tags, one-after-another,
+and the X-ing-of nominalization. Each carries the anti-over-correction discipline
+(most paragraphs LEAVE; synonym-shuffling is itself a defect) and the KEEP list.
+STYLE.md and the styles/ layers were NOT touched (no mid-book recompose).
+
+### ch02 exemplar -- 26 prose edits + 4 note-body date reformats
+All edits in edits/ch02_edits.md (apply_edits.py grammar; OLD occurs exactly
+once each), applied with `python3 scripts/apply_edits.py ch02`. Every edit is a
+single-word or phrase substitution that cannot move a paragraph boundary.
+Breakdown:
+- TIER 1 Politburo: 10 edits collapsing all 政治局 ("Political Bureau" -> "Politburo",
+  qualifier kept). Post-edit grep "Political Bureau" = 0.
+- TIER 1 White Terror: 7 edits capitalizing all seven body hits of 白色恐怖 (all
+  the specific definite terror -- Shanghai, Tianjin, Chongqing; none the generic
+  "a white terror descended", so no carve-out applied). grep lowercase = 0.
+- TIER 1 could-not-help: 1 edit (ch02:54 "could not help asking" -> "couldn't
+  help asking", the plan's prescribed plain equivalent for THIS formula; this is
+  a tier-1 fix, NOT the declined tier-3 narration-contraction program -- recorded
+  in the STYLE.local rule so later batches do not over-read it).
+- TIER 2 litotes: 1 edit (ch02:306 "no small convenience" -> "a great convenience").
+  ch02:115 "no small contribution" was KEPT: it sits inside Chen Geng's {v} letter.
+- TIER 2 nominalization: 1 edit (ch02:58 "the drawing of a double agent out" ->
+  "drawing a double agent out"); the other ~10 "the X-ing of" hits were idiomatic
+  ("the founding of ...", "the killing of ...", "the shooting of the four") and LEFT.
+- TIER 2 one-after-another: 3 edits varied by sense ("in turn" / "one by one" /
+  "a few at a time"), keeping ch02:293 as the retained instance.
+- TIER 2 等-tags: 3 surgical edits (cut a redundant re-listing at ch02:20; vary to
+  "among others" at ch02:36; cut "and so on" redundant with "many connections" at
+  ch02:297). The tags in ch02 were already well varied (7/6/5/2), so only genuine
+  tics were touched; any 等-tag sitting inside a note OR figure anchor was LEFT.
+
+Apparatus (ch02 only this batch; other chapters' note dates go to R2/R3): 4
+D-Month-YYYY dates reformatted to Month D, YYYY in note bodies 111 (three:
+August 24/30, 1929; September 14, 1929) and 116 (November 11, 1929). Done
+directly in notes.json via a json load/dump (ensure_ascii=False) because
+apply_edits cannot edit a note body; only the day/month/year ordering changed,
+never the values (note 111 still flags the source's wrong 1928 -> 1929 year).
+
+### One collision caught by the build gate (recorded as a lesson)
+Edit p036 first read "...and Yang Jianhong, among others...", which inserted "and"
+into the figure `before` anchor "That March, Chen Lifu, Zhang Daofan, Yang Jianhong"
+(p0047-f1.png) and the builder REFUSED the build. I had checked note anchors but
+not FIGURE anchors. Fix: reworded p036 to vary the tag AFTER the names only
+("Yang Jianhong, among others"), leaving the anchored name-list intact; reset the
+reading file and re-applied. GATE NOTE for R2/R3: check every prose edit against
+BOTH notes.json anchors AND figures.json `before` anchors before applying; do not
+restructure anchored text for a mere tic.
+
+### Verification (plan sec.2, mechanical-chapter path)
+- Parity by construction: `git diff --stat out/ch02_reading.md` = 24 insertions /
+  24 deletions, ZERO net line change (all in-place substitutions).
+- Anchors: all 130 ch02 note anchors and all 20 ch02 figure anchors still present
+  (dry-run check + the builder's refusal backstop, which fired once and was fixed).
+- Numbers: grepped the edit list for digits; no numeral differs between any OLD
+  and NEW. data/zh is gitignored (mechanical path), so no bilingual number run.
+- Typography guard: every ADDED (+) line is pure ASCII; the pre-existing café /
+  Pere Robert / one dialogue em dash were untouched. No curly quotes or ellipsis
+  characters introduced.
+- check_apparatus.py: 0 failures, 0 warnings.
+- Build: 12/12, 432 notes; qa_epub PASS (104 files, 432/432/432 notes resolve);
+  epubcheck 5.1.0 = 0 fatals / 0 errors / 0 warnings.
+- EPUB 28 MiB (under the 30 MiB chat limit; MAX_FIG_WIDTH=1000 held).
+
+### Spot-audit (plan sec.5 step 5)
+Reviewed 100% of the 24 edited paragraphs (well over the 10% / min-10 bar) for
+meaning preservation, reading each OLD->NEW in context. Every edit is a
+terminology substitution (Politburo), a capitalization (White Terror), a
+tic-variation (等 / one-after-another), one litotes flip, or one nominalization
+recast -- none alters the translation's relationship to the source, so parity +
+the semantic-equivalence review is the appropriate audit and a scan re-render was
+not required (plan sec.2 mechanical-chapter path; data/zh gitignored). Zero
+meaning drift found.
+
+### KEEP-list sweep (plan sec.3.3)
+Diff sweep confirms: no {v}/{p}/{d}/{g} line changed; the ch02:115 "no small
+contribution" inside Chen Geng's letter is untouched; all four ch02 {v} blocks
+(Chen Geng's 1951 letter, the note to Deshui, the order to Huang Dihong, and
+Chen Yangshan's quoted recollections) are untouched; the author's institutional
+first person ("our Party") and partisan epithets ("traitors", "running dogs")
+are preserved; every decided glossary rendering (Avenue Joffre included) stands.
+
+### Deliverables
+edits/ch02_edits.md, out/ch02_reading.md (24 lines), notes.json (4 date
+reformats), STYLE.local.md (rebaseline section), out/chen-yangshan.epub rebuilt.
+The ch02 diff is the calibration target for R2/R3. NOT in scope for R1 (deferred
+to R3 per the plan): Principal Characters growth, the translator's-note sentence,
+and the other chapters' apparatus date reformats.
+
+### Tooling -- no reverts
+No script changes. The 4 note-date reformats were a one-off json edit (ASCII-only
+date reordering, ensure_ascii=False preserves all CJK; 141 hanzi across note
+bodies verified intact after write).
