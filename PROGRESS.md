@@ -1555,3 +1555,117 @@ broken to shorten). No spine split, as in the ch15 exemplar.
 - Build: 28/28 chapters, 339 notes, 496 pagebreaks. qa_epub PASS (78 files, all
   links resolve). **epubcheck NOT available in this container** (setup could
   not fetch it; network-restricted). qa_epub is the gate and passes.
+
+## R3 (register revision) — tic sweep, middle: ch09–ch14, ch16, ch17 (2026-08-22)
+
+Batch R3 complete. Tier-B tic sweep of ch09–ch14 and ch17, plus the FULL
+aligned zh-en read of ch16 (the "other biography chapter"). Edits only via
+edits/<id>_edits.md + apply_edits.py. Content frozen; no paragraph merged/split;
+no facts, numbers, names, or hedges changed.
+
+### Pre-flight (fresh container)
+- `./setup.sh` (tesseract 5.3.4 + chi_sim/chi_tra; epubcheck 5.1.0 fetched OK
+  this time). The one pre-existing checker-regression failure ("hook stands
+  down on template stub") is template maintenance, unrelated to the book.
+- Regenerated `data/zh/` for R3's units: render 198–332 @300dpi, ocr_crop
+  (recorded crop 0.11/0.90/0.135/0.95, chi_sim psm6, running-head strip), then
+  b06 (ch09/ch10), b07 (ch11/ch12), b08 (ch13/ch14), b09 (ch15/ch16)
+  strip/assemble/surgery/apply_fixes; ch17 (+ch18) from `b10_rebuild.sh`
+  (txt_backup_b10). `pgrep -c tesseract` == 0 after every OCR run. Reverted
+  data/pagemap/ (assemble's auto-output is stale after surgery; the committed
+  hand-built pagemaps are authoritative).
+- verify_unit matches the §2 pins exactly: ch09/ch10/ch11/ch12/ch13/ch14/ch17
+  fully green; ch16 shows ONLY its pinned pair-2 `[0,5,6,7,8]` (OCR-garbled
+  龙华兵工厂/1865 on the zh side; the English renders 1865/1913/1927 correctly).
+  No unpinned warning.
+
+### The sweep — 18 English-surface edits across 6 units; ch10 & ch12 clean
+- **ch09 (5):** litotes 不少/不少/不少 ("no few/no little" -> "a good many /
+  quite a few / a good deal of"); 除...外 "besides" -> "apart from"; 纷纷 "one
+  after another" -> "each" (distributive, not sequence, per §3.2 caution).
+- **ch11 (4):** collapsed the martyr-group 等-list drift (彭湃、杨殷等 rendered
+  "and the rest" L21/L35/L45 vs "and the others" elsewhere) to the reverent
+  majority form "and the others"; trailing 并 "besides" -> "as well".
+- **ch13 (1):** 除...外 "besides" -> "apart from".
+- **ch14 (5):** two trailing "besides" -> "as well"; 相继被捕 "one after
+  another" -> "in succession"; two genuine NARRATION ellipses cut per STYLE
+  ruling 8 (L35 Du Yuesheng bio 。……; L83 name-list).
+- **ch16 (2), FULL aligned read of all 42 paras:** 只得 "could only" -> "had no
+  choice but to"; litotes 不少 "no little work" -> "a good deal of work". ch16
+  is largely OPERATIONAL (the Song Zaisheng infiltration, the magic-wine trap,
+  the intelligence network) with two FACTUAL officer mini-bios — not elevated-
+  antique like ch15 — so it correctly yields fewer register edits, not more.
+  No padding to a number.
+- **ch17 (1):** 除...外 "besides" -> "apart from". The chapter is heavily
+  first-person Li Qiang memoir (KEEP), so it comes back near-clean.
+- **ch10 & ch12 clean (0 edits):** every flagged site is quoted memoir/letter/
+  dialogue (KEEP), a good form ("and the others"/"and the rest" with a
+  meaningful martyr/traitor distinction in ch12), a modern form ("before long,"
+  "the evening of the"), or genuine sequence.
+
+### Surviving tics, all defended aloud (NOT re-noted / left)
+- "Before long"/"before long" (不久) everywhere: modern English, not "ere long."
+- "could only" ch09:47 (只能, genuine restrictive), ch17:67 (只能, physical),
+  ch17:95 & ch17:97 (inside Li Qiang's quoted memoir).
+- "could not help" ch16:43 & ch17:97 (不禁, idiomatic English).
+- de-nominalizations left as idiomatic ("the fighting of the Pudong pickets,"
+  "the development of the revolution," "from the founding of the Central Special
+  Section," "the founding of the ... radio station") or inside quotes ("the
+  arming of the peasants," ch09 document list; "the crossing of the Jinsha
+  River," ch17 quote); "at the planning of the French consul-general" (ch14:35)
+  held for restraint (diction-adjacent).
+- "one after another" ch09:43 (连续, genuine sequence of eliminations), ch12:49
+  (Fan brothers hit in sequence), ch12:81 (covert entry one by one), ch16:13
+  (inside a quote, 先后).
+- "and the rest"/"and the others" left where a good form or a meaningful
+  distinction: ch11:77 (Zhou Enlai's quoted essay), ch12 (martyrs vs traitors),
+  ch13:67 (其余 = remainder of documents), ch14:61 (orgs), ch17:103.
+- "no small risk" (ch17:75) & "no small part" (ch17:143, quoted): idiomatic
+  English collocations, defensible aloud (unlike "no few"/"no little" calques).
+- trailing/quoted "besides" left: ch09:77 (memoir quote), ch11:23 (Zhou essay),
+  ch12:25 (Ke Lin quote), ch14 dialogue; "Besides X, ..." sentence-initial +
+  gerund (ch16:36, ch12:37) modern; "besides"+gerund (ch17:71/129) natural.
+- "let slip" ch11:59 (inside Zhou Enlai's quoted essay — KEEP despite the plan
+  citing it; the KEEP list wins), ch14:69 & elsewhere (modern "reveal" idiom).
+- "whereupon" ch12:55 (inside a quoted newspaper article — KEEP).
+- Long-sentence spine test: no split. ch11:25 (semicolon-split), ch12:11
+  (single-spine + embedded newspaper quote), ch12:41 & ch12:57 (splitter
+  artifacts across in-quote periods — real sentences all <90w), ch16 quoted
+  letters, ch17:103 (single-spine colon list of six measures), ch17:121
+  (dramatic action beat carried by an em-dash), ch17:153 (near-all quoted
+  Chiang telegrams).
+
+### QC
+- verify_unit: ch09–ch14, ch17 green; ch16 shows only its pinned pair-2 zh
+  artifact. Anchors: all present, 0 broken; notes.json byte-unchanged (339
+  book-wide; no anchor moved — no prose edit touched an anchor).
+- Typography guard: R3 introduced **zero** smart quotes/ellipses (per-file
+  Unicode-punct count identical HEAD vs post-edit). The pre-existing "…"
+  ellipses (ch09:15/21/69, ch11:39, ch16:9/11, ch17:43/153) are quotation-
+  abridgment marks inside quoted material, sanctioned by STYLE ruling 8; left.
+- check_register vs out/ch01_reading.pre-R.md: all 6 edited units within
+  tolerance; em-dash rates well under the ~6/1k reference (no pile-ups).
+- check_apparatus clean (0 failures, 0 warnings).
+- **10% spot-audit — all 18 edited sites re-verified vs source: zero meaning
+  drift.** Litotes map 不少/不小 (vague quantity kept vague); 相继/连续/纷纷/先后
+  handled per their actual sense (sequence vs distributive); 只得 -> "had no
+  choice but to"; 除...外 -> "apart from"; the 等-list collapse preserves the
+  referent; the two ellipsis cuts are punctuation-only. No number, name, date,
+  unit, or hedge changed; no quoted/dialogue material touched.
+- Diff searched for KEEP-list over-corrections: none survived. Two mechanical
+  over-corrections were CAUGHT and left in triage — "let slip not a moment"
+  (ch11:59, Zhou Enlai's quoted essay) and "whereupon" (ch12:55, quoted
+  newspaper) — exactly the cases the KEEP-list guard exists for.
+- Build: 28/28 chapters, 339 notes, 496 pagebreaks. qa_epub PASS (78 files,
+  all links resolve). **epubcheck 5.1.0: 0 fatals / 0 errors / 0 warnings.**
+
+### Observed for R5 (book-wide diction ledger, deliberately NOT fixed piecemeal)
+These are STYLE.md decided-rendering residuals that drifted; fixing them only in
+R3's units would create the partial-application drift the plan forbids. They
+belong to R5's whole-book reconciliation (a global grep-and-cascade), not the
+tic sweep:
+- 破坏 (enemy act) -> "wrecking" (ledger decided: **sabotage**): e.g.
+  ch09:47, ch16:2. Book-wide count to be swept at R5.
+- 镇压/除掉 of traitors -> soft "put down"/"did away with" (killing-verb ledger:
+  **eliminate/kill**): e.g. ch09:47 "put it down", ch16:32 "did away with this
+  menace". Sweep at R5's 叛徒/killing-verb reconciliation.

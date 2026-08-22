@@ -2,6 +2,39 @@
 
 Dated record of what changed and, for global corrections, what cascaded where.
 
+## 2026-08-22 — R3 register pass: tic sweep, middle batch (ch09–ch14, ch16, ch17)
+Tier-B tic sweep of ch09–ch14 and ch17, plus the FULL aligned zh-en read of
+ch16. Reading text edited via edits/<id>_edits.md + apply_edits.py; content
+frozen (no para merged/split, no facts/numbers/names/hedges changed).
+- **18 English-surface edits** across ch09(5)/ch11(4)/ch13(1)/ch14(5)/ch16(2)/
+  ch17(1): litotes 不少/不小 ("no few/no little" -> "a good many / quite a few /
+  a good deal of"); 除...外 "besides" -> "apart from"; trailing 并/还 "besides"
+  -> "as well"; 纷纷 -> "each" (distributive) and 相继 -> "in succession"; the
+  ch11 martyr-group 等-list drift collapsed to "and the others"; two narration
+  ellipses cut per STYLE ruling 8 (ch14); 只得 -> "had no choice but to" (ch16).
+- **ch16 got the full aligned read** (42 paras, 2 edits): it is largely
+  operational, not elevated-antique like ch15, so it correctly yields few
+  register edits — no padding to a number.
+- **ch10 & ch12 came back clean** (0 edits): quoted memoirs/letters/dialogue and
+  meaningful "and the others"/"and the rest" distinctions, respected per KEEP.
+- Long-sentence spine test on the >90-word narration sentences: no split (single-
+  spine colon-lists, em-dash action beats, or splitter artifacts across in-quote
+  periods).
+- KEEP-list guard caught two mechanical over-corrections and left them: "let
+  slip not a moment" (ch11, Zhou Enlai's quoted essay) and "whereupon" (ch12,
+  quoted newspaper).
+- Files touched: out/ch09,ch11,ch13,ch14,ch16,ch17_reading.md;
+  edits/ch09,ch11,ch13,ch14,ch16,ch17_edits.md; rebuilt out/zhou-enlai.epub.
+  notes.json unchanged (339; no anchor moved).
+- verify_unit green (ch16 shows only its pinned pair-2 zh artifact);
+  check_register within tolerance vs ch01_reading.pre-R.md; typography guard
+  clean (zero new smart punct); spot-audit of all 18 sites vs source = zero
+  meaning drift.
+- Build 28/28, 339 notes; qa_epub PASS; **epubcheck 5.1.0: 0 errors, 0 warnings.**
+- Noted for R5 (book-wide diction ledger, not fixed piecemeal): 破坏 ->
+  "wrecking" (ledger: sabotage) and 镇压/除掉 -> soft "put down"/"did away with"
+  (killing-verb ledger: eliminate/kill); these need a whole-book cascade.
+
 ## 2026-08-22 — R2 register pass: tic sweep, front batch (ch00–ch08)
 Tier-B tic sweep of the front chapters. Reading text edited via
 edits/<id>_edits.md + apply_edits.py; content frozen (no para merged/split,
