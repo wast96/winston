@@ -126,6 +126,8 @@ instruction: the deliverable now carries the book's full name.
   Massenet). `book.json` gained `"build_complete": true`.
 - **Totals after B18:** 425 notes, 77 figures, 1140 glossary rows, 2015 body
   paragraphs across 18 units.
+- **After the footnote-density pass (2026-08-22):** 778 notes (see CHANGELOG);
+  figures, glossary rows and paragraphs unchanged (notes-only pass).
 
 ## B17 — Chapter Fifteen "最后的努力 / The Last Effort" (ch15)
 

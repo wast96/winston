@@ -8,13 +8,16 @@ trust it. (No em dashes, per the working rules.)
 
 - **18 of 18 units translated:** the Preface, fifteen body chapters, the
   Works Cited, and the Afterword.
-- **425 footnotes**, continuous book-wide.
+- **778 footnotes**, continuous book-wide (a footnote-density pass expanded the
+  original 425 by surfacing the vetted glossary scholarship as first-appearance
+  notes for the people, places, organizations and terms a non-specialist reader
+  would miss; see CHANGELOG).
 - **77 figures**, every one hand-cropped, with real screen-reader alt text and
   a translator's caption whose provenance is stated.
 - **Glossary: 1,140 rows** (people 757, organizations 115, places 227, terms
   41), rendered for a non-Chinese reader as `out/term_ledger.md`.
-- **qa_epub: PASS** (111 files, 27 documents, 425 references / 425 bodies /
-  425 backlinks, all links resolve).
+- **qa_epub: PASS** (111 files, 27 documents, 778 references / 778 bodies /
+  778 backlinks, all links resolve).
 - **epubcheck 5.1.0 (EPUB 3.3): 0 fatals / 0 errors / 0 warnings / 0 infos.**
 - **Deliverable:** `out/The Sword Roars in the West Wind.epub`, committed to the
   branch `claude/the-sword-roars` (branches outlive containers, chat
@@ -57,25 +60,25 @@ trust it. (No em dashes, per the working rules.)
 
 | Unit | Title | Paragraphs | Notes | Figures |
 | --- | --- | --- | --- | --- |
-| ch00 | Preface: History Must Not Be Made a Monster | 24 | 15 | 0 |
-| ch01 | No Concealment, No Survival | 165 | 92 | 12 |
-| ch02 | The Clean Stay Clean, the Foul Stay Foul | 56 | 28 | 5 |
-| ch03 | Who Is Judas | 146 | 34 | 4 |
-| ch04 | Bloodshed on Avenue Joffre | 131 | 24 | 10 |
-| ch05 | A Real Vault, a False Marriage | 66 | 28 | 5 |
-| ch06 | It Was Not Me, It Was the Wind | 165 | 30 | 3 |
-| ch07 | The Great Hermit Hides in the City | 99 | 26 | 6 |
-| ch08 | A Nanjing Night, Deadly Urgent | 252 | 28 | 4 |
-| ch09 | The Riddle of Xiang Zhongfa's Disappearance | 194 | 27 | 5 |
-| ch10 | Opening a Shop, Doing Trade | 39 | 15 | 3 |
-| ch11 | The Wild Swan | 82 | 19 | 3 |
-| ch12 | A Purge in the Red-Light District | 139 | 15 | 2 |
-| ch13 | Twin Lotus on One Stem | 139 | 17 | 4 |
-| ch14 | "Secret Number One" | 66 | 12 | 7 |
+| ch00 | Preface: History Must Not Be Made a Monster | 24 | 17 | 0 |
+| ch01 | No Concealment, No Survival | 165 | 111 | 12 |
+| ch02 | The Clean Stay Clean, the Foul Stay Foul | 56 | 29 | 5 |
+| ch03 | Who Is Judas | 146 | 47 | 4 |
+| ch04 | Bloodshed on Avenue Joffre | 131 | 57 | 10 |
+| ch05 | A Real Vault, a False Marriage | 66 | 57 | 5 |
+| ch06 | It Was Not Me, It Was the Wind | 165 | 89 | 3 |
+| ch07 | The Great Hermit Hides in the City | 99 | 69 | 6 |
+| ch08 | A Nanjing Night, Deadly Urgent | 252 | 44 | 4 |
+| ch09 | The Riddle of Xiang Zhongfa's Disappearance | 194 | 29 | 5 |
+| ch10 | Opening a Shop, Doing Trade | 39 | 42 | 3 |
+| ch11 | The Wild Swan | 82 | 20 | 3 |
+| ch12 | A Purge in the Red-Light District | 139 | 60 | 2 |
+| ch13 | Twin Lotus on One Stem | 139 | 49 | 4 |
+| ch14 | "Secret Number One" | 66 | 43 | 7 |
 | ch15 | The Last Effort | 55 | 10 | 4 |
 | ch16 | Works Cited | 179 | 0 | 0 |
 | ch17 | Afterword: Keep to Poverty, Endure the Silence | 18 | 5 | 0 |
-| | **Total** | **2,015** | **425** | **77** |
+| | **Total** | **2,015** | **778** | **77** |
 
 ## Batching as executed
 

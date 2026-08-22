@@ -8,6 +8,40 @@ Dated record of what changed and, for global corrections, what cascaded where.
 - LOCAL: fixed dropped clause at ch03 §2 folio 45.
 -->
 
+## 2026-08-22 — footnote-density pass (book stays COMPLETE)
+
+Commissioner asked to greatly increase footnote density: explain the "little
+references" a Western reader misses (people, places, organizations, events,
+terms). Notes-only pass; no prose, glossary, figure or structure change.
+
+- GLOBAL (apparatus): +353 footnotes, 425 -> 778, continuous book-wide.
+  Method: the glossary is the quarry. Of the ~636 glossary rows carrying a
+  vetted, researched note, 355 named subjects appeared in the prose but were
+  never touched by any existing footnote. Each was surfaced as a footnote at
+  its FIRST book-wide appearance, expanded past the bare glossary row with the
+  subject's role in this book's narrative and stable, established facts
+  (dates, offices). Content rests on the project's own vetted glossary
+  scholarship plus the prose, per rule 5; notable figures/events were
+  web-verified against Wikipedia / Baidu Baike; obscure roster names and
+  uncertain identifications are flagged in-note, never invented (rule 4).
+- Per-chapter adds (first-appearance placement, so each subject noted once):
+  ch00 +2, ch01 +19, ch02 +1, ch03 +13, ch04 +33, ch05 +29, ch06 +59,
+  ch07 +43, ch08 +16, ch09 +2, ch10 +27, ch11 +1, ch12 +45, ch13 +32,
+  ch14 +31. ch15 had no uncovered glossary subjects; ch16 (Works Cited) and
+  ch17 (Afterword) unchanged.
+- TOOLING (do not revert): `scripts/note_gaps.py` (finds glossary subjects
+  present in the prose but untouched by any note) and `scripts/gap_packets.py`
+  (emits per-chapter first-appearance work packets). Reusable next book.
+- Every note merged through `apparatus_merge.py` (verbatim-anchor and
+  numeric-entity validation) and placed at first appearance by the builder.
+  Rebuilt; qa_epub PASS (778 references / 778 bodies / 778 backlinks);
+  check_apparatus 0 failures / 0 warnings. Docs updated: COMPLETION.md,
+  PROGRESS.md, HANDOFF.md.
+- BRANCH HYGIENE: session opened on a stray branch `claude/the-sword-roars-
+  ztmxk9` (local only; never pushed to origin). Consolidated onto the
+  canonical `claude/the-sword-roars`; stray deleted and its stale
+  remote-tracking ref pruned.
+
 ## 2026-08-22 — corrections pass + full QA sweep (book stays COMPLETE)
 
 Zero commissioner items, so a clean-checkout regression run, plus one

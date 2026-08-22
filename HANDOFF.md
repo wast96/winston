@@ -12,6 +12,20 @@ checks run book-wide, the observed error rate (`out/deep_audit.md`), and the
 residual uncertainties a reader should know about. The full term ledger is
 `out/term_ledger.md`.
 
+## Footnote-density pass (2026-08-22)
+
+On the commissioner's request the footnote apparatus was greatly expanded:
+425 notes to 778. See CHANGELOG for the method and per-chapter counts. In
+short, the glossary was mined as the quarry: 355 glossary subjects (people,
+places, organizations, terms) that appeared in the prose but carried no
+footnote were surfaced as notes at their first book-wide appearance, expanded
+past the bare glossary row. Two reusable scripts drive it: `note_gaps.py`
+finds the gaps, `gap_packets.py` emits per-chapter work packets. This was a
+notes-only pass; prose, glossary, figures and structure are unchanged, so the
+frozen-reference register and all prose checks are unaffected. qa_epub and
+check_apparatus stay green at 778 notes. Any further work remains a corrections
+pass, as below.
+
 ## What was done in the final batch (B18)
 
 - **Preface (ch00)**, "History Must Not Be Made a Monster": 24 paragraphs, 15
