@@ -2,9 +2,9 @@
 
 An opportunity that comes once in a thousand years is one that anyone would seize and refuse to let go.
 
-With the enemy at the gate, the Chinese nation found a rare unity. Across the country everyone rallied behind the central government's war of resistance, and no warlord clique stood apart in armed division any longer.
+With the enemy at the gate, the Chinese nation found a rare unity. Across the country everyone rallied behind the central government's war of resistance, and no warlord clique kept an army of its own in defiance any longer.
 
-Zhou Enlai seized the moment of the Communists' legalization with a decisive hand. He not only rebuilt the Party organization in Nationalist-held China; he got Communists into the ranks of the national army.
+Zhou Enlai moved decisively the moment the Communists were legalized. He not only rebuilt the Party organization in Nationalist-held China; he got Communists into the ranks of the national army.
 
 Chiang Kai-shek was shrewd too. He used the chance of developing the great rear to march his central-government armies into the southwest and the northwest. In the China of that hour, there was no longer an independent kingdom left to defy Generalissimo Chiang.
 
@@ -26,7 +26,7 @@ For all the layered defenses the Social Affairs Department and the Border Securi
 
 When Japanese planes bombed Yan'an, a white silk streamer five feet long was found on the wall of a local earth-god shrine, its arrow pointing straight at Phoenix Hill, where Mao lived. The streamer was very likely a Japanese agent's way of marking the target for the aircraft. But through what channel had the Japanese agents worked their way into Yan'an?
 
-Nerves were unsteady inside Yan'an and out. For a spell, crowds suddenly poured into the temples to burn incense. The Security Office looked into it and found a rumor spreading everywhere: that a man and a woman had lain together on a temple altar, and their bodies had grown into one and could not be pulled apart, so that terrified people were flocking to the temples to ward off calamity. The Central Committee at once sent scholars out to give talks debunking the rumor with science, and even brought in foreign doctors to explain the medical facts.
+Yan'an was on edge, inside and out. For a spell, crowds suddenly poured into the temples to burn incense. The Security Office looked into it and found a rumor spreading everywhere: that a man and a woman had lain together on a temple altar, and their bodies had grown into one and could not be pulled apart, so that terrified people were flocking to the temples to ward off calamity. The Central Committee at once sent scholars out to give talks debunking the rumor with science, and even brought in foreign doctors to explain the medical facts.
 
 Even the most tightly guarded internal units were not free of serious crimes. A young nurse at the Yan'an Central Hospital vanished, and was later found raped, murdered, and dumped. The infant daughter of Liu Bocheng, commander of the Eighth Route Army's 129th Division, was in the care of the Central Nursery when a killer strangled her and cruelly cut away an organ. Both cases were suspected of having political motives behind them, and neither was ever solved.
 
@@ -62,7 +62,7 @@ For it turned out that this Magistrate Ma Yuzhang, appointed by the Nationalists
 
 Fushi County lay deep in the Red heartland, and when the Nationalists picked a magistrate for it, no one dared take the post. Ma Yuzhang, through his connection with Du Bincheng, the secretary-general of the Shaanxi provincial government, volunteered for it and came to Yan'an to serve. When the CCP Central Committee moved into Yan'an, Ma Yuzhang secretly made contact with the Border Security. Zhou Xing kept this important inside man so close that he handled him alone on a single line; not only did the Nationalists not know, but even Yan'an's own security cadres did not know that this Nationalist magistrate was one of their own.
 
-The magistrate's position mattered, and Zhou Xing arranged to strengthen his protection. Xu Jianguo, deputy head of the Border Security, made contact himself and won over Cui Yi, the deputy commander of the county security brigade; this Party member, who had lost his organizational ties, was brought back into the fold. The Border Security also placed its own men in posts in the security brigade, charged with guarding Ma Yuzhang. The head of the Fushi county party branch, Gao Zhongqian, was a Zhongtong agent, and the Border Security deliberately assigned him an orderly named Ma Yinghai. Gao Zhongqian trusted this unlettered lad from northern Shaanxi and made him a Zhongtong courier.
+The magistrate's position mattered, and Zhou Xing arranged to strengthen his protection. Xu Jianguo, deputy head of the Border Security, made contact himself and won over Cui Yi, the deputy commander of the county security brigade; this Party member, who had lost his organizational ties, was brought back into the fold. The Border Security also placed its own men in posts in the security brigade, charged with guarding Ma Yuzhang. The head of the Fushi county party branch, Gao Zhongqian, was a Zhongtong agent, and the Border Security deliberately assigned him an orderly named Ma Yinghai. Gao Zhongqian trusted this illiterate young man from northern Shaanxi and made him a Zhongtong courier.
 
 The magistrate was a Communist, the deputy commander of the security brigade was a Communist, the county branch's courier was a Communist: the Nationalists' Fushi county government was in fact under Communist control.
 
@@ -90,7 +90,7 @@ The Border Region's Guanzhong sub-district lay in its south, thrust like a fist 
 
 At this place that any strategist must contest, Xi Zhongxun, secretary of the Guanzhong sub-committee, was put to a great test.
 
-Xi Zhongxun was only twenty-seven, yet already an old revolutionary of the northwest. He had joined the Youth League at thirteen, transferred to the Party at fifteen, launched the Liangdang mutiny at eighteen, and become chairman of the Shaan-Gan Border Soviet at twenty-one. In the mistaken northern-Shaanxi purge he too had been among the principal figures held for interrogation, and had been saved only by the Central Committee. Rich in experience of the struggle against the Nationalists, and a Fuping man who knew the Guanzhong country well, he was sent to take command at the Guanzhong front. Hidden at his sub-district headquarters was also a Shaanxi provincial committee, directing the underground work in the Nationalist-held Xi'an area.
+Xi Zhongxun was only twenty-seven, yet already a veteran revolutionary of the northwest. He had joined the Youth League at thirteen, transferred to the Party at fifteen, launched the Liangdang mutiny at eighteen, and become chairman of the Shaan-Gan Border Soviet at twenty-one. In the mistaken northern-Shaanxi purge he too had been among the principal figures held for interrogation, and had been saved only by the Central Committee. Rich in experience of the struggle against the Nationalists, and a Fuping man who knew the Guanzhong country well, he was sent to take command at the Guanzhong front. Hidden at his sub-district headquarters was also a Shaanxi provincial committee, directing the underground work in the Nationalist-held Xi'an area.
 
 Early in 1939 the Eighth Route Army's veterans' school, the school for the war-disabled that had stood on the bank of the Yellow River, was moved because of pressure at the front to Tuqiao, a town outside the seat of Xunyi County in the Guanzhong area. Hearing of it, the Nationalist magistrate of Xunyi, Zhang Zhongtang, at once mustered two or three thousand security troops to besiege the school. Xi Zhongxun got word of it, warned the school to pull out in time, and moved it to Kanhuagong north of the Xunyi county seat, avoiding an armed clash.
 
@@ -104,13 +104,13 @@ Hard on this, the Nationalists mustered more forces to attack Majiabao, the seat
 
 The soldiers and people of the Guanzhong sub-district were furious and clamored for an armed answer; war in the "treasure gourd" was ready to break out at a touch.
 
-At this crucial moment the man in charge, Xi Zhongxun, kept his head throughout. An armed answer would feel good, but it would surely cost them: the Guanzhong sub-district had only three battalions in arms, and the other side had several regiments. Xi Zhongxun reasoned that the enemy wanted precisely to use a Communist resort to arms as a pretext, to manufacture greater friction and seize the "treasure gourd" on the pretext. He talked the troops into keeping their restraint, while working on the Nationalist security regiments one by one to split them apart.
+At this crucial moment the man in charge, Xi Zhongxun, kept his head throughout. An armed answer would feel good, but it would surely cost them: the Guanzhong sub-district had only three battalions in arms, and the other side had several regiments. Xi Zhongxun reasoned that the enemy wanted precisely to use a Communist resort to arms as a pretext, to manufacture greater friction and seize the "treasure gourd" on the pretext. He talked the troops into holding back, while working on the Nationalist security regiments one by one to split them apart.
 
 When the Party Central Committee learned of the Guanzhong situation, it acted at once. Xiao Jinguang, commander of the Eighth Route Army's rear garrison corps, sent an urgent telegram from Yan'an protesting to the Shaanxi provincial governor, and telegraphed the whole country protesting the diehards' slaughter of the war-disabled.
 
 The struggle against friction became the pressing task of Guanzhong, and a new problem for the CCP Central Committee. Xi Zhongxun, at the front of the fight, submitted to the Center a special report, "On the Anti-Friction Question in the Guanzhong Sub-district," analyzing the three chief features of the enemy's attacks and proposing a strategy to meet them.
 
-Late that year Hu Zongnan's men shed their army uniforms, disguised themselves as local security regiments, and made a surprise attack on Malan, the seat of the Guanzhong sub-district. The Border Security got word in advance, and the sub-district's Independent Battalion No. 3 and 8th Garrison Regiment broke out successfully at Diantou, then fought at Jingcun, Zhuanjiao, and elsewhere, destroying more than a thousand men under the Nationalist Xunyi county security-regiment commander Guo Xiangtang and the Chunhua county security-brigade commander Li Yangzhi, and retook Malan in victory.
+Late that year Hu Zongnan's men shed their army uniforms, disguised themselves as local security troops, and made a surprise attack on Malan, the seat of the Guanzhong sub-district. The Border Security got word in advance, and the sub-district's Independent Battalion No. 3 and 8th Garrison Regiment broke out successfully at Diantou, then fought at Jingcun, Zhuanjiao, and elsewhere, destroying more than a thousand men under the Nationalist Xunyi county security-regiment commander Guo Xiangtang and the Chunhua county security-brigade commander Li Yangzhi, and retook Malan in victory.
 
 Xi Zhongxun judged that the anti-friction struggle in the Guanzhong sub-district was about to escalate, the Nationalist attacks turning from mainly political to mainly military. Before long the "Chunhua Incident" broke out.
 
@@ -128,9 +128,9 @@ The Nationalists mounted a great assault on the Longdong area with superior forc
 
 At harrying the Communists, Chiang Kai-shek had the most experience of all.
 
-Now that it was the alliance, old Chiang would not wear the hat of endangering the resistance himself; he pushed it down the line. For the attacks on the Shaanxi-Gansu-Ningxia Border Region the central government always pretended to know nothing, letting local governments take the lead, and the troops it used flew no regular-army colors but were fronted by local security corps.
+Now that it was the alliance, old Chiang would not take the blame for endangering the resistance himself; he pushed it onto those below him. For the attacks on the Shaanxi-Gansu-Ningxia Border Region the central government always pretended to know nothing, letting local governments take the lead, and the troops it used flew no regular-army colors but were fronted by local security corps.
 
-In this way the Nationalist governments and security corps embedded across the Shaanxi-Gansu-Ningxia Border Region became a mortal affliction to the Communists, to be got rid of and quickly.
+In this way the Nationalist governments and security corps embedded across the Shaanxi-Gansu-Ningxia Border Region became a deadly threat to the Communists, one to be removed fast.
 
 And yet these too were legally constituted organs, appointed by the central Nationalist government. On what grounds could you drive them out?
 
@@ -142,7 +142,7 @@ In the spring of 1939 a checkpoint in Fu County caught a reporter for the *Centr
 
 This reporter-agent was a little past thirty, a graduate of Shanghai Jiaotong University, six years already in the Zhongtong, guarded in his words under interrogation and steady in his replies: not an easy man to handle. To turn him was uncertain, to release him a waste; and after turning it over and over, the Border Security's chief of investigation, Bu Lu, hit on a bold plan.
 
-Bu Lu passed himself off as this agent and strode into a county party branch. The branch secretary was a seasoned Zhongtong agent, yet he could not see any possibility that his visitor was an impostor. Leather jacket, woolen overcoat, an easy and gracious bearing, black leather shoes, gold-rimmed glasses, an air of cultivation: by no reckoning did he look like some rough-hewn Communist.
+Bu Lu passed himself off as this agent and strode into a county party branch. The branch secretary was a seasoned Zhongtong agent, yet he could not see any possibility that his visitor was an impostor. Leather jacket, woolen overcoat, an easy and gracious bearing, black leather shoes, gold-rimmed glasses, an air of cultivation: he looked nothing like a rough country Communist.
 
 Bu Lu's real name was Chen Bo. Born in Qionghai County on Hainan Island, he had gone to work as a factory apprentice while still a boy, joined the Communist Party in 1926, and taken part in the Qionghai Worker-Peasant Red Army uprising. After the attack on Bo'ao failed he fled abroad, working in the ethnic-affairs committee of the Malayan Communist Party's central body, in charge of the workers' picket corps, protecting the organization and assassinating traitors. In 1932 he was deported home and worked in the Seamen's General Union. In February 1937 he reached Yan'an and was transferred to the Security Office to take charge of investigation and protection.
 
@@ -154,7 +154,7 @@ The evidence Bu Lu gathered proved it: the Nationalist county party branches sta
 
 But Bu Lu's actions, bold and singular, also stirred misgivings among his own colleagues, and someone wrote a letter denouncing him to his superiors. When Kang Sheng, head of the Social Affairs Department, heard of it, he called Bu Lu in for a harsh dressing-down: This is a tactical victory and a strategic defeat. In the season of the alliance, you run disguise operations against a friendly party without a thought for the political fallout?
 
-Whether Boss Kang's criticism was right, the Security Office's cadres had their own views. On Bu Lu's daring to think and daring to do, though, they were of one mind; and Bu Lu earned himself the nickname "Red Sherlock Holmes."
+Whether Boss Kang's criticism was right, the Security Office's cadres had their own views. On Bu Lu's nerve and initiative, though, they were all of one mind; and Bu Lu earned himself the nickname "Red Sherlock Holmes."
 
 ### 4. The Anti-Corruption Storm
 
@@ -162,11 +162,11 @@ Around Yan'an, within the Border Region, there were several prefectures besides,
 
 The several counties of the Suide area had not been Soviet areas before, but had been handed over to the Red Army by the Northwest Army and the Northeast Army and belonged to the Eighth Route Army's recruiting grounds. The Eighth Route Army had two regiments stationed at Suide, facing the Japanese in Shanxi across the Yellow River. The Communist Suide special committee sheltered within the command's secretariat, working under the name of an open body, the "Resist-the-Enemy Support Association." Every county in Suide had a Communist-organized Resist-the-Enemy Support Association whose chairman was as good as a magistrate, standing on equal terms against the magistrate the Nationalists appointed.
 
-The Nationalists set great store by the Suide area too, and specially appointed He Shaonan "administrative inspection commissioner." He Shaonan was an anti-Communist specialist, and set about grabbing power the moment he arrived. The Suide Resist-the-Enemy Support Association had been founded by the Communists, but for the sake of united resistance they gave up its chairmanship to He Shaonan, and Chen Qihan, the Eighth Route Army's Suide garrison commander, stepped down to vice-chairman. He Shaonan, however, would not rest in an empty seat. On the pretext of local order he brought in more than four hundred security troops, recruited local bandits and toughs, and formed them into five security squads garrisoned across the counties of the Suide area. So the Suide area too now had a second armed force, He Shaonan's own. He Shaonan went in for "friction" in a big way: assassinating Eighth Route soldiers, organizing Elder Brothers Society wharves and a "Black Army," and smuggling opium under the guise of the Eighth Route Army. The soldiers and people of Suide hated him to the bone, and the Border Region government called him "Commissioner Friction." But the Eighth Route Army's forces at Suide were limited, and for a time there was nothing to be done about him.
+The Nationalists set great store by the Suide area too, and specially appointed He Shaonan "administrative inspection commissioner." He Shaonan was an anti-Communist specialist, and set about grabbing power the moment he arrived. The Suide Resist-the-Enemy Support Association had been founded by the Communists, but for the sake of united resistance they gave up its chairmanship to He Shaonan, and Chen Qihan, the Eighth Route Army's Suide garrison commander, stepped down to vice-chairman. He Shaonan, however, was not content to hold an empty title. On the pretext of local order he brought in more than four hundred security troops, recruited local bandits and toughs, and formed them into five security squads garrisoned across the counties of the Suide area. So the Suide area too now had a second armed force, He Shaonan's own. He Shaonan went in for "friction" in a big way: assassinating Eighth Route soldiers, organizing Elder Brothers Society wharves and a "Black Army," and smuggling opium under the guise of the Eighth Route Army. The soldiers and people of Suide hated him bitterly, and the Border Region government called him "Commissioner Friction." But the Eighth Route Army's forces at Suide were limited, and for a time there was nothing to be done about him.
 
-Before long the Eighth Route Army's main force moved up to Suide. Wang Zhen, commander of the 359th Brigade, took his stand at Suide and served concurrently as garrison commander, and the Communist side was at once greatly strengthened. The Nationalists, for their part, hollered that Wang Zhen was a "general who crossed the border."
+Before long the Eighth Route Army's main force moved up to Suide. Wang Zhen, commander of the 359th Brigade, took his stand at Suide and served concurrently as garrison commander, and the Communist side was at once greatly strengthened. The Nationalists, for their part, protested that Wang Zhen was a "general who crossed the border."
 
-The "general who crossed the border" against the "friction expert": let us see whose house wins.
+The "general who crossed the border" against the "friction expert": it remained to be seen who would come out on top.
 
 What no ordinary eye would have noticed was that Wang Zhen had, under his command, two young liaison staff officers as well.
 
@@ -184,7 +184,7 @@ His name in ruins, He Shaonan slunk back to Xi'an. And in the Suide area there w
 
 ### 5. "Escorted Out of the Territory"
 
-The Nationalists' friction grew worse and worse; the political struggle had already grown into a military one, and there was no possibility of going on in peaceful coexistence. The Communists resolved to end the "dual regime" in the Border Region and drive out these county lordlings who wrecked its stability.
+The Nationalists' friction grew worse and worse; the political struggle had already grown into a military one, and there was no possibility of going on in peaceful coexistence. The Communists resolved to end the "dual regime" in the Border Region and drive out these petty county despots who wrecked its stability.
 
 In February 1940 Mao Zedong drafted a telegram in his own hand and sent it, over the name of Xiao Jinguang, head of the Eighth Route Army's rear garrison office, to Cheng Qian, commander of the Nationalists' First War Zone, demanding that "the Shaanxi provincial government withdraw of its own accord; otherwise we shall escort them out of the territory. This too would be the height of benevolence and the fullness of righteousness."
 
@@ -220,11 +220,11 @@ As the line shifted and experience grew, the ways of CCP intelligence and securi
 
 To penetrate enemy territory meant to penetrate the Japanese-occupied areas.
 
-That secret war was fought in a wholly different way from the open one. Your Red army might fight bravely and well, striking terror at the mere sound of its name. But these Communists, so fierce in their hatred of the enemy, once they entered enemy territory, could they really pass unrecognized?
+That secret war was fought in a wholly different way from the open one. The Red Army might fight bravely and well, striking terror at the mere sound of its name. But these Communists, so fierce in their hatred of the enemy, once they entered enemy territory, could they really pass unrecognized?
 
-In the past the opponent had been the Nationalists, and the two sides knew each other inside out; the Communists, half a step ahead in the agent's craft, held some advantage. But now your opponent had gained a foreigner as well.
+In the past the opponent had been the Nationalists, and the two sides knew each other inside out; the Communists, half a step ahead in the agent's craft, held some advantage. But now the enemy had gained a foreigner as well.
 
-Could a green "red spy" fresh from the schoolroom outfight the seasoned, cunning Japanese agent?
+Could a green "red spy" fresh from the schoolroom outwit the seasoned, cunning Japanese agent?
 
 ### Principal Sources
 
