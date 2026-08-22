@@ -1,96 +1,17 @@
-# ch01 date normalization (Tier A, R1) -- day-month -> month-day
+# ch01 R2 tic sweep (Tier B). 38 paras, 28 note anchors.
+# Sweep: register_tics.sh + §3.2 greps. KEEP respected — the "no small hindrance"
+# (L81) sits inside the quoted 1930 Central Committee circular ("...which said:")
+# and stays per the KEEP list; the many "and others"/"and the rest" 等-closers are
+# natural list-enders; "Before long" (L17) is modern; the awakening/morning
+# nominalizations are the plan's own leave-cases. Only the two narration 相继
+# calques are touched. Neither touches a note anchor (verified against notes.json).
 
-### ch01 [T-date] TOUCH
-OLD: 23 July 1921
-NEW: July 23, 1921
-WHY: date order; house style is month-day (23 July 1921)
+### ch01 [T3] TOUCH
+OLD: Massacres followed elsewhere one after another.
+NEW: Massacres followed in place after place.
+WHY: 各地屠杀相继发生; "one after another" is the 相继 calque — recast keeps the sequence and multiplicity
 
-### ch01 [T-date] TOUCH
-OLD: 23 February
-NEW: February 23
-WHY: date order; house style is month-day (23 February)
-
-### ch01 [T-date] TOUCH
-OLD: 21 March
-NEW: March 21
-WHY: date order; house style is month-day (21 March)
-
-### ch01 [T-date] TOUCH
-OLD: 11 April
-NEW: April 11
-WHY: date order; house style is month-day (11 April)
-
-### ch01 [T-date] TOUCH
-OLD: 14 April
-NEW: April 14
-WHY: date order; house style is month-day (14 April)
-
-### ch01 [T-date] TOUCH
-OLD: 22 May
-NEW: May 22
-WHY: date order; house style is month-day (22 May)
-
-### ch01 [T-date] TOUCH
-OLD: 17 May
-NEW: May 17
-WHY: date order; house style is month-day (17 May)
-
-### ch01 [T-date] TOUCH
-OLD: 21 May
-NEW: May 21
-WHY: date order; house style is month-day (21 May)
-
-### ch01 [T-date] TOUCH
-OLD: 12 June
-NEW: June 12
-WHY: date order; house style is month-day (12 June)
-
-### ch01 [T-date] TOUCH
-OLD: 20 June
-NEW: June 20
-WHY: date order; house style is month-day (20 June)
-
-### ch01 [T-date] TOUCH
-OLD: 14 July
-NEW: July 14
-WHY: date order; house style is month-day (14 July)
-
-### ch01 [T-date] TOUCH
-OLD: 12 July
-NEW: July 12
-WHY: date order; house style is month-day (12 July)
-
-### ch01 [T-date] TOUCH
-OLD: 26 July
-NEW: July 26
-WHY: date order; house style is month-day (26 July)
-
-### ch01 [T-date] TOUCH
-OLD: 1 August
-NEW: August 1
-WHY: date order; house style is month-day (1 August)
-
-### ch01 [T-date] TOUCH
-OLD: 7 November
-NEW: November 7
-WHY: date order; house style is month-day (7 November)
-
-### ch01 [T-date] TOUCH
-OLD: 10 January 1928
-NEW: January 10, 1928,
-WHY: date order; house style is month-day (10 January 1928)
-
-### ch01 [T-date] TOUCH
-OLD: 14 November 1928
-NEW: November 14, 1928
-WHY: date order; house style is month-day (14 November 1928)
-
-### ch01 [T-date] TOUCH
-OLD: 19 April 1930
-NEW: April 19, 1930,
-WHY: date order; house style is month-day (19 April 1930)
-
-### ch01 [T-date] TOUCH
-OLD: 9 and 10 November
-NEW: November 9 and 10
-WHY: date order (range); house style is month-day
+### ch01 [T3] TOUCH
+OLD: brought about the arrest, one after another, of the provincial secretary
+NEW: brought about the arrest, in turn, of the provincial secretary
+WHY: 相继逮捕; "one after another" jammed in as a parenthetical reads as calque — "in turn" carries the succession
