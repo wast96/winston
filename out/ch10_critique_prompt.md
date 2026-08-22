@@ -1,4 +1,24 @@
-## Chapter 10. The Open Scheme: The Secret Contest Between Peace and War
+Read this. It is a chapter of an English translation. I want you to tell me, in
+detail, every single thing in here that is wrong from the perspective of a
+native English speaker.
+
+Focus on this being a translation: it is mostly about how the prose reads. I do
+not want things fully invented, but they need to be fixed, because right now
+this is not exactly right. Look for translationese and stiltedness: stilted
+inversions, calqued idioms, transferred syntax, sentences that stack too many
+clauses, dash- or comma-glosses jammed mid-sentence, doubled synonyms, wooden
+dialogue, pronoun fog, wrong or fake-antique register, and anything a good
+editor would blue-pencil in original English.
+
+Be succinct but precise. No huge paragraphs. No repetition. No notes that manage
+feelings about how good it is. Just good, insightful, solid corrections: quote
+the phrase or sentence, say what is wrong in a few words, and give the fix.
+
+======================================================================
+
+CHAPTER UNDER REVIEW
+
+Chapter 10. The Open Scheme: The Secret Contest Between Peace and War
 
 The fourteen bitter years of the War of Resistance had entered the phase of the counter-offensive, and Japan was visibly finished. On the great land of China stood two principal forces, the Nationalists and the Communists, and whether peace or war would come between them was a question that bore on the fate of the nation.
 
@@ -8,7 +28,7 @@ In the same season the Nationalists convened their own Sixth National Congress, 
 
 Nationalists and Communists alike were straining every muscle to grab territory. On the surface they still hailed one another as friendly parties and friendly armies, but under the table their intelligence services were already kicking each other's shins.
 
-### 1. The Secret Front Locks Horns Early
+1. The Secret Front Locks Horns Early
 
 The main task of Communist intelligence work now turned to gathering the Nationalists' anti-Communist military intelligence. The Border Security's own intelligence work, suspended during the campaign, was being restored at a gallop.
 
@@ -36,7 +56,7 @@ Li Qiming, chief of the Border Security's intelligence section, meanwhile set to
 
 Zhongtong had little to show for its espionage against the Border Region and badly needed first-hand knowledge of Yan'an, but no one it might send would dare go. At this point Li Maotang, head of Zhongtong's Shaanxi investigation office, volunteered: I'll make the trip to Yan'an myself!
 
-In the autumn of 1945 Li Maotang was warmly received in Yan'an by the Party Center's Intelligence Department. On examination the Department judged that although Li Maotang had once turned himself in, he had not sold out the organization, and now had rendered outstanding service; it decided to develop him as a "special Party member." Mao Zedong, who approved his admission in person, laughed: "Two directors sponsoring a third director into the Party." Just so. His sponsors were Luo Qingchang, director of the Social Affairs Department's First Office, and Wang Dongxing, of its Second Office; the man being brought in, Li Maotang, was director of Zhongtong's Shaanxi provincial office. Three directors, chiefs of the secret services on the two sides of the Nationalist-Communist divide, and all three of them Communist Party members. Kang Sheng, head of the Intelligence Department, gladly announced the appointments too: Wang Chaobei as chief of the Xi'an intelligence station, Li Maotang as his deputy.
+In the autumn of 1945 Li Maotang was warmly received in Yan'an by the Party Center's Intelligence Department. On examination the Department judged that although Li Maotang had once turned himself in, he had not sold out the organization, and now had rendered outstanding service; it decided to develop him as a "special Party member." Mao Zedong, who approved his admission in person, laughed: "Two directors sponsoring a third director into the Party." Just so. His sponsors, Luo Qingchang, was director of the Social Affairs Department's First Office and Wang Dongxing of its Second Office; the man being brought in, Li Maotang, was director of Zhongtong's Shaanxi provincial office. Three directors, chiefs of the secret services on the two sides of the Nationalist-Communist divide, and all three of them Communist Party members. Kang Sheng, head of the Intelligence Department, gladly announced the appointments too: Wang Chaobei as chief of the Xi'an intelligence station, Li Maotang as his deputy.
 
 Home safe in Xi'an, Li Maotang was again commended by his Zhongtong superiors: into the tiger's den indeed! Little did Xu Enzeng know that this venture into the tiger's den had in fact delivered up a tiger cub.
 
@@ -62,7 +82,7 @@ Historians call the Yan'an Rectification the second movement for the liberation 
 
 The working spirit of "bold, open-handed pioneering" turned into hard results: the Border Security's intelligence strength grew fast, quickly finding solid footing at key points in the Nationalist areas around the rim of the Border Region, then reaching its feelers into the central cities of the Nationalist areas. Xi'an, Lanzhou, Yinchuan, Guisui, Baotou, Wuyuan, Shanxi, all had nails planted by the Border Security's intelligence organs. It sent out secret cadres like Liu Wu to build intelligence outposts at Lintong and Baqiao near Xi'an, and contrived to work its way into the Nationalists' "People's Self-Salvation Army," taking control of part of the force. In that single short year of 1945, the Border Security's intelligence strength grew by 374 percent over the year before.
 
-It also gathered much valuable experience: on organizing its strength, on choosing and using a "bridge," on picking the moment to "draw out" a man, on joining political means to armed force, on exploiting the enemy's contradictions to deepen his divisions, on directing the counter-espionage struggle, and so on. At the start of the war the Border Security's cadres had still been learning to do intelligence work; eight years on, a whole crop of them, Li Qiming among them, had become intelligence experts.
+It also gathered much valuable experience: on organizing its strength, on choosing and using a "bridge," on picking the moment when "drawing out" a man, on joining political means to armed force, on exploiting the enemy's contradictions to deepen his divisions, on directing the counter-espionage struggle, and so on. At the start of the war the Border Security's cadres had still been learning to do intelligence work; eight years on, a whole crop of them, Li Qiming among them, had become intelligence experts.
 
 The War of Resistance was won. Where would China go now?
 
@@ -70,7 +90,7 @@ The whole Party was of one mind. The ambitious Communists would not stop at hold
 
 The intelligence front was on the offensive, its spirit up. It would no longer be content to bag a few agents; it stood ready at any moment to serve the Party's strategic tasks.
 
-### 2. The Chongqing Negotiations: A Play Performed in Earnest
+2. The Chongqing Negotiations: A Play Performed in Earnest
 
 On August 10, 1945, Japan sent its note suing for surrender. That very night, in Yan'an, Eighth Route Army commander-in-chief Zhu De ordered the forces everywhere to press their attacks on the Japanese and puppet troops, take their surrender, and take over the towns.
 
@@ -122,7 +142,7 @@ The Chongqing negotiations were like a modern-day Feast at Hongmen, only this dr
 
 Chiang Kai-shek had meant to put on a play to deceive, and found himself instead directed by the other side, the agents he had posted turned into buffoons out of the tale of Jiang Gan. Mao Zedong, all passive avoidance on the surface, stepped suddenly onto the stage, with intelligence men at his side as able as Zhou Yu.
 
-### 3. Who Missed the Historic Opportunity?
+3. Who Missed the Historic Opportunity?
 
 Thunder for a thousand li, lightning for ten thousand: the news of victory in the War of Resistance came fast. On September 5, 1945, Japan surrendered. Yan'an boiled over. The banks of the Yan River filled with young people leaping and dancing, and into the night the hillsides were still ablaze with torches.
 
@@ -250,7 +270,7 @@ On August 19, the Central China Bureau reported the Shanghai uprising plan to th
 
 Barely a day later, on August 21, the Center wired Central China again to cancel the Shanghai uprising. The enemy and puppet forces in Shanghai were fairly strong, Chiang had appointed Shanghai officials and airlifted them in urgently, and in such circumstances the New Fourth Army's main force from eastern Zhejiang risked destruction if it rashly entered the city. On August 22, the Party Center and the Central Military Commission changed their policy on occupying the great cities, so as not to tear the Nationalist-Communist relationship apart.
 
-In a single day the whole strategic line was recast: resolute enough, and fast enough. And that swift strategic turn came, again, from accurate, quick intelligence.
+In a single day the whole strategic line was recast: resolve enough, and fast enough. And that swift strategic turn came, again, from intelligence accurate and quick.
 
 On August 28, Mao Zedong flew to Chongqing. That same day Liu Shaoqi saw off the first group of cadres bound for the Northeast: "You must go and grab it, quickly!"
 
@@ -268,7 +288,7 @@ The Second World War was also a great intelligence war, and both the Soviet Unio
 
 Within China, the two great intelligence systems belonged to the Nationalists and the Communists. Now these two masters were to take the stage and trade blows.
 
-### 4. Activating the "Cold-Storage Spies"
+4. Activating the "Cold-Storage Spies"
 
 During the Nationalist-Communist collaboration, Communist intelligence operatives planted deep in the Nationalist camp had suspended all hostile activity and gone into long "hibernation." Such secret assets, buried long-term and not brought out until the crucial moment, were known within the trade as "strategic spies." After the victory over Japan, facing the coming Nationalist-Communist contest, the Communists decided to "activate" these operatives.
 
@@ -282,7 +302,7 @@ Here in the northwest one man was brought out; over in the Northeast a whole gro
 
 When the Soviet Red Army struck at the Northeast, the mighty Japanese Kwantung Army proved unable to withstand a single blow. What no one knew was that the Kwantung Army's defensive dispositions had long since been discovered by the Communists' Northeast intelligence group and passed to the Soviets through Yan'an.
 
-The mighty Soviet army, entering Changchun, was nonetheless entirely in the dark, for those deeply guilty senior officials of "Manchukuo" had hidden themselves in the suburbs ahead of time, ready to slip away to Japan. Now the Communists' Northeast intelligence group came forward to help, and Zhang Mengshi was ordered to find the Soviet command. This young master from the "prime minister's" household knew, of course, where his father and his father's subordinates were hiding, and led the Soviets to arrest all the puppet-Manchukuo senior officials, his own father among them. Zhang Mengshi, denouncing his kin for the greater cause, never gave away his secret identity, and went along with these war criminals to the Soviet Union in the guise of a nephew, doing ideological work on Puyi and his fellow prisoners. Later, when the "Manchukuo" war criminals were repatriated, Puyi, in dread of being put to death by the Chinese, meant to kill himself, and no one could talk him out of it; it took Zhang Jinghui's son, "young Zhang," to do it. This "young Zhang," who had shared a cell with the war criminals in the Soviet Union, came home and transformed himself into a Communist cadre at the Fushun War Criminals Management Center.
+The mighty Soviet army, entering Changchun, was nonetheless entirely in the dark, for those deeply guilty senior officials of "Manchukuo" had hidden themselves in the suburbs ahead of time, ready to slip away to Japan. Now the Communists' Northeast intelligence group came forward to help, and Zhang Mengshi was ordered to find the Soviet command. This young master from the "prime minister's" household knew, of course, where his father and his father's subordinates were hiding, and led the Soviets to arrest all the puppet-Manchukuo senior officials, his own father among them. Zhang Mengshi, denouncing his kin for the greater cause, never gave away his secret identity, and went along with these war criminals to the Soviet Union in the guise of a nephew, doing ideological work on Puyi and the others in prison. Later, when the "Manchukuo" war criminals were repatriated, Puyi, in dread of being put to death by the Chinese, meant to kill himself, and no one could talk him out of it; it took Zhang Jinghui's son, "young Zhang," to do it. This "young Zhang," who had shared a cell with the war criminals in the Soviet Union, came home and transformed himself into a Communist cadre at the Fushun War Criminals Management Center.
 
 With the whole Northeast liberated by the Soviet army, the Eighth Route Army's Ji-Re-Liao forces nearby at once pushed out through the passes; the Communist strategy was to seize the Northeast. The Northeast intelligence group came forward to help at once. The Japanese, unwilling to hand their arms to the Eighth Route Army, had scattered their artillery into storage. Now Xian Dong, a puppet-Manchukuo artillery regiment commander, appeared out of nowhere and, knowing just where to look, found the scattered parts and assembled a great batch of guns, and the Eighth Route Army was suddenly a tiger with wings. This Xian Dong turned out to be Kawashima Yoshiko's own younger brother; under the new name Ai Ke he became an artillery brigade commander of the People's Liberation Army.
 
@@ -316,7 +336,7 @@ The Nationalist secret-service organs in Xi'an were fitted with advanced America
 
 One summer day, agents had searched the compound that morning, and Wang Chaobei, sure no one would come in the afternoon, came out of the tunnel to bathe. He was in the middle of it when shadows flickered outside. His wife, Li Tianchou, cried out, "You can't come in! I'm bathing!" As those outside hesitated, Wang Chaobei snatched the moment to hide, and by the time the police came in they saw only Li Tianchou getting dressed and the child still soaking in the tub.
 
-### 5. China Also Had a "Democratic Allied Army"
+5. China Also Had a "Democratic Allied Army"
 
 What had been activated was not only the Communists' secret operatives, but the heart of the whole nation.
 
@@ -368,13 +388,13 @@ In peacetime such a choice is perhaps only a chance; get it wrong, and it is wro
 
 In wartime the choice is a matter of life and death, and never must one board a sinking ship.
 
-### 6. The "Latter Three Heroes" of CCP Intelligence
+6. The "Latter Three Heroes" of CCP Intelligence
 
 The Nationalists' civil war had lost the people's heart, and under pressure at home and abroad the Nationalists, Communists, and Americans formed a three-party military mediation group, with its executive headquarters in Beiping. The Communist delegation's chief representative was Lieutenant General Ye Jianying, its secretary-general Major General Li Kenong. While the two generals carried on the diplomatic work, they carried on intelligence work in secret.
 
 Chiang Kai-shek was plotting a surprise strike on Zhangjiakou, the Communists' largest city, and Xie Shiyan, operations chief of the 11th War Zone who drafted the battle plan, brought the intelligence to Ye Jianying of his own accord.
 
-This Xie Shiyan was a trusted general of Chen Cheng's, dropped into the 11th War Zone to take charge of operations as a guard against any unreliability in commander Sun Lianzhong, who came out of the Northwest Army. Chen Cheng had perhaps forgotten that this Xie Shiyan was also a general of the anti-Japanese war. Xie Shiyan admired the Eighth Route Army's firmness in the resistance and most detested the Nationalists' civil war.
+This Xie Shiyan was a trusted general of Chen Cheng's, dropped into the 11th War Zone to take charge of operations as a guard against the reliability of commander Sun Lianzhong, who came out of the Northwest Army. Chen Cheng had perhaps forgotten that this Xie Shiyan was also a general of the anti-Japanese war. Xie Shiyan admired the Eighth Route Army's firmness in the resistance and most detested the Nationalists' civil war.
 
 The battle plan Xie Shiyan drew up with his own hand was already before Nie Rongzhen, commander of the Jin-Cha-Ji Military Region, before Fu Zuoyi, commander of the 12th War Zone, had even seen it, and with it came the counter-plan Xie Shiyan had sketched. The Jin-Cha-Ji forces pulled out of Zhangjiakou ahead of time and suffered no loss.
 
@@ -414,7 +434,7 @@ Hu Zongnan too was drawing the lesson: had his own battle plan leaked?
 
 On February 28, 1947, Chiang Kai-shek summoned Hu Zongnan in Nanjing, and the two conferred in secret on the battle plan, resolved on a surprise strike at Yan'an to knock out the Communists' headquarters at a stroke.
 
-Having learned from the leaks in his two earlier surprise strikes at the salient, Hu Zongnan this time resolved on strict secrecy, keeping even his most trusted generals in the dark. But secrecy or no, someone had to do the work, and Hu Zongnan had to turn to the able and reliable Xiong Xianghui.
+Having learned from the leaks in his two earlier surprise strikes at the salient, Hu Zongnan this time resolved on strict secrecy, keeping even his most trusted generals in the dark. But secrecy or no, someone had to do the work, and Hu Zongnan could only lean on the able and reliable Xiong Xianghui.
 
 Xiong Xianghui was an "idle chessman" whom Zhou Enlai had placed at Hu Zongnan's side at the start of the resistance, not to be lightly brought out save at the crucial moment.
 
@@ -424,7 +444,7 @@ On March 1, someone from the Bureau of Investigation and Statistics suddenly cam
 
 Chiang Kai-shek's secret order was for Hu Zongnan to strike Yan'an on March 10, the day the foreign ministers of the four powers, America, the Soviet Union, Britain, and France, would meet and raise the China question anew; Chiang meant to present the world with a fait accompli.
 
-Given this chance to win a feat for the ages, Hu Zongnan was elated. He was no mere man of arms; he was a man of ideas, with the political ambition to succeed Chiang Kai-shek. On taking the Communist capital of Yan'an, Hu Zongnan meant to issue a *Program for the Government of Yan'an and Northern Shaanxi Liberated by the National Army*, and this program was to be written more revolutionary than the Communists' own.
+Given this chance to win a feat for the ages, Hu Zongnan was elated. Hu Zongnan was no mere man of arms; Hu Zongnan was a man of ideas and of views, with the political ambition to succeed Chiang Kai-shek. On taking the Communist capital of Yan'an, Hu Zongnan meant to issue a *Program for the Government of Yan'an and Northern Shaanxi Liberated by the National Army*, and this program was to be written more revolutionary than the Communists' own.
 
 For a document so grand, Xiong Xianghui, that great pen, had to be called on. On the evening of March 2, Xiong Xianghui, with background material Hu Zongnan supplied, shut himself in a secret room to draft it. In this *Plan to Take Yan'an*, the force committed to the attack came to 15 brigades and 140,000 men; the time of the attack was dawn on March 10; the day before, 94 aircraft would be gathered from Shanghai and Xuzhou to bomb Yan'an; the Longdong corps would feint, while the two corps, left and right, seized Yan'an by lightning action, guaranteeing the destruction of the Communist main force. With intelligence this important before him, Xiong Xianghui of course copied it all down faithfully.
 
@@ -436,7 +456,7 @@ Communist intelligence had long spoken of the "Three Heroes of the Dragon's Pool
 
 Now Communist intelligence had another three, Xiong Xianghui, Chen Zhongjing, and Shen Jian, planted at the side of the Nationalist general Hu Zongnan who ringed the Border Region, who intercepted in time the intelligence of the Nationalist attack on Yan'an and once more guarded the safety of the Party Center. Zhou Enlai hailed them as the "Latter Three Heroes."
 
-### 7. The Great Withdrawal from Yan'an
+7. The Great Withdrawal from Yan'an
 
 The deployment of Communist intelligence grew more thorough by the day. Besides the "Latter Three Heroes," many other channels sent in military intelligence without letup. Mao Peichun reported Hu Zongnan's battle plan, and Chen Rujie and Liu Liangji sent in besides the *Ground-to-Air Contact Signals* issued within the Nationalist army. This confirmed that Hu Zongnan planned not only to bomb Yan'an but possibly to drop paratroops on the Yan'an airfield in a direct strike at Liberation Army headquarters.
 
@@ -454,7 +474,7 @@ The organs of Yan'an moved in a tense scramble, scattering as they withdrew. The
 
 On the 17th, the Nationalists' 140,000-strong army attacked northward; a bomb fell in Mao Zedong's courtyard, and the blast toppled the thermos on his table.
 
-The organs of Yan'an were busy withdrawing, and even the common people had all left the town, and only then did Mao Zedong pull out of Yan'an. Border Security chief Zhou Xing hurried back through the night, leading a platoon of cavalry to guard the rear. When the Central General Office building caught fire, Border Security regiment chief of staff Xia Fei ascertained it was not set on purpose. Yan'an police chief Hao Su made a last inspection of the town, and saw every organ, every shop, every house, every cave stripped bare of people, with a bombed crow lying in the middle of the main street. Some houses in the town were still burning, and Hao Su would not let them be put out: never mind these pots and jars, we go up the hills to fight as guerrillas!
+The organs of Yan'an were busy withdrawing, and even the common people had all left the town, and only then did Mao Zedong pull out of Yan'an. Border Security chief Zhou Xing hurried back through the night, leading a platoon of cavalry to guard the rear. When the building of the Central General Office caught fire, Border Security regiment chief of staff Xia Fei ascertained it was not set on purpose. Yan'an police chief Hao Su made a last inspection of the town, and saw every organ, every shop, every house, every cave stripped bare of people, with a bombed crow lying in the middle of the main street. Some houses in the town were still burning, and Hao Su would not let them be put out: never mind these pots and jars, we go up the hills to fight as guerrillas!
 
 Xia Fei took men to lay mines in the town, Hao Su led the guerrillas out, and no sooner were they clear of the town than Nationalist troops descended, the two great columns closing like a giant pincer, and the last man of the guerrillas was taken. Hu Zongnan, entering Yan'an, had a catch at least.
 
@@ -532,7 +552,7 @@ The most precious thing a man has is his life. The security organs that wield th
 
 In the war of self-defense, the faults and errors of security work too were laid starkly bare.
 
-Against Hu Zongnan's attack, the Border Security, though it had the intelligence in advance, was still somewhat thrown in the early war: the archives were not fully dealt with, and a few traitors did much harm. The intelligence forces had not arranged contingency measures in time, so that when the enemy came most contact was lost and the sources of intelligence broke off. The intelligence groups were generally turned into armed work teams, which did more to harass the enemy but less to gather intelligence. Short of radios, once cut off by the enemy they could not for a time restore contact up and down the line. The Liulin intelligence group's Yang Feng rashly took men into Xi'an to lie low, was quickly exposed, and dragged in with it Liu Wu's group, which had gone in earlier, so that many were killed. Looking into the matter, it emerged that the very sending of Liu Wu's group had been an error, for in this hidden group was Zhang Bingnan, a famous performer of the Border Security's yangge troupe: how many people knew that face!
+Against Hu Zongnan's attack, the Border Security, though it had the intelligence in advance, was still somewhat thrown in the early war: the archives were not fully dealt with, and a few traitors did much harm. The intelligence forces had not arranged contingency measures in time, so that when the enemy came most contact was lost and the sources of intelligence broke off. The intelligence groups were generally turned into armed work teams, which strengthened the harassment of the enemy but slackened the gathering of intelligence. Short of radios, once cut off by the enemy they could not for a time restore contact up and down the line. The Liulin intelligence group's Yang Feng rashly took men into Xi'an to lie low, was quickly exposed, and dragged in with it Liu Wu's group, which had gone in earlier, so that many were killed. Looking into the matter, it emerged that the very sending of Liu Wu's group had been an error, for in this hidden group was Zhang Bingnan, a famous performer of the Border Security's yangge troupe: how many people knew that face!
 
 In the end all the problems came back to the leadership. In early December 1947, the Northwest Bureau held a conference at Yihe town on the bank of the Yellow River to sum up the early war's work, review the Border Security's failings, and above all criticize Zhou Xing, head of the Northwest Bureau's Social Affairs Department and chief of the Security Office. The Border Security's work errors were of course not few, and Zhou Xing, who had led it for more than ten years, had made all the more enemies in the Rescue Campaign; throughout the conference he criticized himself in earnest. Yet the pitch of the conference climbed higher and higher, and new scores and old were reckoned together. From lax anti-smuggling it pursued him to trafficking his own contraband; from the confusion of the early self-defense war it pursued him to why he had trusted men who had confessed; from a review of the security system's not-close-enough ties with the Party and government organs it rose to the charge that the security system played at independence from the Party committee; from chief Zhou Xing's bureaucratism it stretched to his improper promotion of young cadres.
 
@@ -540,7 +560,7 @@ The Yihe conference put the Border Security in its place. Before the war the Nor
 
 At year's end, in his essay *The Present Situation and Our Tasks*, Mao Zedong stressed that the main problem now was to oppose the Left, not the Right, and only then did the conference cool. The Northwest Bureau encouraged the Security Office not to lose heart over the criticism but to take charge with a free hand under the Party's leadership. On March 27, 1949, Zhou Xing put his views to the Center in writing, holding that the Yihe conference had been one-sided, that its achievements should be affirmed as the basic and principal side of the Security Office's work. That the work had grave failings and even errors was fact, but it was not "a complete mess," and the ordinary failings and errors the leadership had all corrected, and was still correcting the exceptional ones. The Center wired back and affirmed Zhou Xing's views.
 
-### 8. The Yan'an Guerrillas
+8. The Yan'an Guerrillas
 
 When war came, the Shaanxi-Gansu-Ningxia Border Region's existing organs of government lost their governing standing in a single day, and Party, government, and mass bodies all threw themselves into guerrilla war against the enemy. Everywhere in the Border Region guerrilla and armed work teams were formed; the heads of the public-security departments at each level mostly served as guerrilla leaders, and the Party committee secretaries at each level as political commissars. The guerrilla and armed work teams took the Border Security's cadres and its security sub-units as their backbone, drawing in militia and the masses.
 
@@ -572,7 +592,7 @@ Some Communists too staked their bets on a Nationalist victory. The Border Secur
 
 Facing the tense situation, the Yan-shu military sub-district headquarters and the Yan-shu Security sub-office issued directives to strengthen the guerrillas' security work: guerrilla detachments were to have the security work held concurrently by the political commissar and his deputy, sub-units by the instructor and his deputy, or a second deputy post set up for full-time security. Sub-units set up a security-group leader. Security cadres at every level, directly under the security section, consolidated the units and strengthened education in moral firmness. When the leader of one sub-unit of the Yanxi guerrillas meant to defect, Yan-shu security-section chief Hao Su gathered the whole unit, took away their arms, and on announcing the truth the men denounced the traitor one after another. Song Zhenjiang, deputy chief of the Fu county security section, held out in the struggle behind enemy lines, and the enemy pressed his father to talk him into surrender. Song Zhenjiang warned his father: come again and I'll shoot you!
 
-The struggle in the Longdong region was especially cruel. The Yimaguan checkpoint stood only forty li from the enemy's stronghold town of Xifeng: the first station chief, Yu Tingji, was seized by the home-returning corps and tortured to death at Xifeng; the second, Chen Bin, was sold by a layabout to the Nationalist garrison and bayoneted to death; and the third, Du Dinghua, carried on the struggle. The masses held a memorial meeting of their own for Chen Bin and the other martyrs, and stoned to death the man who had welcomed the enemy army into the town.
+The struggle in the Longdong region was especially cruel. The Yimaguan checkpoint stood only forty li from the enemy's stronghold town of Xifeng: the first station chief, Yu Tingji, was seized by the home-returning corps and tortured to death at Xifeng; the second, Chen Bin, was sold by a layabout to the Nationalist garrison and bayoneted to death; and the third, Du Dinghua, carried on the struggle. The masses held a memorial meeting of their own for the martyrs Chen Bin and the others, and stoned to death the man who had welcomed the enemy army into the town.
 
 War is the hour that gives birth to heroes, and a hero's future is often to be a martyr. The Liu Wu intelligence group that the Border Security sent out had slipped into Xi'an in advance before the war, and had gone beyond the bounds of intelligence work to build a secret military organization. On February 10, 1948, the Nationalists took Liu Wu and 32 others to the foot of Yaowang Mountain in Yao county and buried them alive together. To this day the martyrs' monument here bears the names of nineteen of them, with "Zhang Bingnan" written by mistake for "Zhang Bingnan."
 
@@ -626,7 +646,7 @@ By the time it turned to the strategic counter-offensive, the great Communist ar
 
 The decisive battle. A great war that would settle the fate of China was about to begin, and China's secret war too would enter a new realm.
 
-### Principal Sources
+Principal Sources
 
 Huang Youqun, former deputy-bureau-grade cadre of the Ministry of State Security; interviewed March 1, 1995. Huang Youqun's husband, Yan Fu, was in charge of cracking the Heshui county guard-detachment mutiny case, and Huang Youqun did the recording.
 
@@ -727,3 +747,30 @@ Li Wenji and Ma Ruyao, *A War of Annihilation on the Hidden Front: Scattered Not
 Xia Fei, former military attaché of the Second Department of the General Staff; interviewed March 11, 2000. From his sickbed Xia Fei recounted in detail the course of the fighting from the Yan'an guerrillas to the main force of the Northwest Field Army. As security-regiment chief of staff, Xia Fei directed many engagements. After the founding of the state he served as a military attaché abroad.
 
 The Northwest Bureau Social Affairs Department, *Summary of Cleaning Out Enemy and Puppet Personnel in the Restoration of Yan'an*, from Zhou Xing's own files. This document, issued in November 1948, gives a detailed account of the social conditions in Yan'an at the time of the Communist recovery.
+
+---
+
+NOTES (these are prose too; judge them):
+
+- [under the table their intelligence services were already kicking each other] “The open scheme” renders 阳谋 yangmou, coined as the mirror of 阴谋 yinmou, “plot”: a design carried out in the open rather than in secret. The chapter’s “open scheme” is the postwar contest in which the two sides maneuvered openly — above all in the Chongqing peace talks — while each raced in secret for military position.
+- [arrived by air in Chongqing] The Chongqing negotiations (28 August–10 October 1945) were a genuine historic event: Chiang Kai-shek invited Mao Zedong to talks, Mao flew to the Nationalist capital under American escort, and the two sides signed the Double-Tenth Agreement. The risk to Mao’s person was real, and his safety a preoccupation of the CCP security apparatus. Corroborated; the framing here as a “play performed in earnest” is the author’s.
+- [a modern-day Feast at Hongmen] 鸿门宴, the banquet of 206 BC at which Xiang Yu’s followers schemed to assassinate his rival Liu Bang, who slipped away; a byword for a banquet that is a deadly trap.
+- [buffoons out of the tale of Jiang Gan] In the Romance of the Three Kingdoms, Jiang Gan is sent to spy on the Wu strategist Zhou Yu before the Battle of Red Cliffs, is fed a forged letter, and is gulled into having his own side’s admirals killed — the archetype of the spy turned against his master. Zhou Yu, named just below, is the brilliant young Wu commander who engineers the deception.
+- [On September 5, 1945, Japan surrendered.] The date is as printed, and is anomalous. Japan announced its acceptance of the Potsdam terms on 15 August 1945; the instrument of surrender was signed aboard the USS Missouri on 2 September; and the surrender of Japanese forces in the China theater was received at Nanjing on 9 September — the date the book itself gives correctly two paragraphs below. No standard milestone falls on 5 September; treat it as the author’s slip.
+- [north of the 16th parallel was China's to receive] Under the Allied surrender arrangements, Chinese forces took the Japanese surrender across China (apart from the Soviet-occupied Northeast), on Taiwan, and in French Indochina north of the 16th parallel; the zone south of it went to the British. Corroborated.
+- [forced Long Yun out of Yunnan] Long Yun (1884–1962), the “King of Yunnan,” had ruled the province semi-autonomously since 1927. On Chiang’s order Du Yuming’s troops surrounded his headquarters on Wuhua Mountain on 3 October 1945 and forced him to Chongqing, where he was kept under virtual house arrest; in 1948 he fled to Hong Kong and sided with the Communists. Corroborated.
+- [the Vietnamese emperor Bao Dai] Bao Dai (1913–1997), last emperor of the Nguyen dynasty, abdicated on 25 August 1945 in favor of Ho Chi Minh’s provisional government and briefly served it as “supreme adviser.”
+- [no Sino-Japanese dispute over the Diaoyu Islands today] An editorial aside of the author’s, reading a present-day territorial quarrel back onto 1945. The status of the Diaoyu (Senkaku) islands was not part of the surrender arrangements the passage describes; the remark reflects the book’s contemporary nationalist vantage rather than the historical record. Interested witness.
+- [known within the trade as "strategic spies."] 冷藏间谋 (“cold-storage” or “refrigerated” spy) and 战略间谋 (“strategic spy”) both name an agent planted deep in the enemy camp and left dormant, doing no active work, until a decisive moment makes him worth the risk of activation.
+- [the time had come to bring out Yan Youwen] Yan Youwen (1914–1962), a secret CCP member planted years before as aide and press chief to Fu Zuoyi. His intelligence, and his later persuasion, helped bring about the peaceful surrender of Beiping in 1949. His Party membership was kept secret even from his family; branded a “reactionary warlord” and persecuted, he was publicly acknowledged as a CCP intelligence officer only in 1993. Corroborated: the book cites his daughter and his case officer Luo Qingchang.
+- [hailed them as the "Latter Three Heroes."] 后三杰. Xiong Xianghui (1919–2005), placed by Zhou Enlai as Hu Zongnan’s confidential secretary and later a senior PRC diplomat, together with Chen Zhongjing and Shen Jian, formed the trio that penetrated Hu Zongnan’s headquarters and gave early warning of the 1947 attack on Yan’an. The name deliberately echoes the “Three Heroes of Longtan” (Qian Zhuangfei, Li Kenong, Hu Di) of the early 1930s (see ch. 1). Corroborated; Xiong’s own memoir, My Life in Diplomacy and Intelligence, is the principal source, and the episode is standard in accounts of CCP intelligence.
+- [was Zhou Enlai's tesuji indeed] 手筋 (Japanese tesuji), a term from the board game go for a deft, precisely placed stone that turns a position; here, the perfectly timed use of a long-buried agent.
+- [loudly singing the Empty Fort] 空城计, the ruse attributed to Zhuge Liang in the Three Kingdoms tale: with the city all but undefended, he flings the gates open and sits playing the zither, so that the stronger enemy suspects an ambush and withdraws. In 1943 the CCP publicized Hu Zongnan’s planned attack in order to deter it; by 1947, the passage notes, the bluff no longer sufficed.
+- [declared his revolt at Handan] Gao Shuxun (1898–1972), a former Northwest Army general, defected with the New 8th Army during the Handan campaign on 30 October 1945. Mao turned his name into a slogan, the “Gao Shuxun Movement,” encouraging Nationalist officers to revolt rather than fight the civil war. Corroborated.
+- [these revolted units had not yet raised the Communist banner] At this stage the CCP called the fighting a “war of self-defense,” not yet a “war of liberation,” and the defecting units took “democratic” names to appeal to the broad popular longing for peace and against Chiang’s one-party rule. The CCP’s own main force in the Northeast was likewise styled the “Northeast Democratic Allied Army.” The framing is the CCP’s; the passage reports it faithfully.
+- [it sent a Red Army cadre, Li Bai.] Li Bai (1910–1949), the CCP’s clandestine radio operator in Shanghai, was arrested and executed by the Nationalists in May 1949 on the eve of the city’s fall; he later became famous as the model for the hero of the film The Unfailing Radio Waves (永不消逝的电波).
+- [The Shaanbei people call such a withdrawal] 跑反 paofan, a north-Shaanxi term for the flight of a whole population, families and belongings and all, ahead of an oncoming army.
+- [that very night Wang Shiwei was put to death.] Wang Shiwei (1906–1947), the writer whose 1942 essay “Wild Lily” attacked privilege in Yan’an and made him the literary target of the Rectification (see ch. 9), was killed here during the retreat, his body thrown down a well. In February 1991 the verdict was overturned and the killing officially called a wartime error. The chapter’s own accounting below — 2,296 killed in the Border Region in 1947, more than half of them wrongly — is an unusually candid reckoning for this book.
+- [with its own "house law": "enter alive, leave only dead."] 生进死出, Juntong’s motto for the lifelong loyalty it claimed: a man admitted while living could leave only as a corpse.
+- [seized by the home-returning corps] 还乡团 (huanxiangtuan), landlord-led militias that came back in the wake of the Nationalist advance to retake land distributed under CCP land reform and to take revenge on those who had carried it out.
+- [Wu Manyou, a Border Region model laborer] Wu Manyou was the most celebrated model farmer of the wartime Border Region and a poster figure of Yan’an’s production drive. His 1947 capture and the broadcasts he then made for the Nationalists were a grave embarrassment; returned to Yan’an after 1949, he died in obscurity and was quietly dropped from the model-laborer story. Corroborated in outline.
