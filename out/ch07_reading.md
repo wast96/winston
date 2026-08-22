@@ -1,12 +1,12 @@
 ## Chapter 7. Rooting Out Traitors: The Deep and Intricate War of Counter-espionage
 
-China's War of Resistance was a war against invasion, a resistance mounted only after the blows had already fallen; at bottom it was fought from the back foot. The secret front was no different. There too the overall posture was defense—counter-espionage.
+China's War of Resistance was a war against invasion, a resistance mounted only after the blows had already fallen; from the start it was fought on the back foot. The secret front was no different. There too the overall posture was defense—counter-espionage.
 
 ### 1. The "Double Agent" Who Tried to Kill the Commander-in-Chief
 
 During the war the Eighth Route Army's security department took a new name: the Anti-Traitor Department. Its work was to root out spies, and by spies it meant one thing in particular—Chinese who served the enemy, the men commonly called *hanjian*, traitors to the nation.
 
-So the security department's main enemy was the traitor?
+So the security department's main enemy was the traitor.
 
 A work report of the Shaanxi-Gansu-Ningxia Border Region government summed up the enemy this way: "In the great war of national liberation we must fight the open fight, and we must also fight the hidden fight. The hidden fight, because it is hidden, most people scarcely notice; and precisely because it is hidden, its wins and losses often count for more than the wins and losses of whole divisions and armies, and the strategy and tactics of it are often more intricate and profound than those of the open fight. This—the struggle against enemy scouts, against traitors, against anti-Communist agents—is what we call anti-traitor security work."
 
@@ -20,13 +20,13 @@ Skull sat in the teahouse at the mouth of the town, looking down on the welcomin
 
 Only Skull did not know that the street team's orders were something else again. After he had hit Zhu De, they were to turn their guns on Skull. Dai Li wanted the killer silenced, so that the whole blame for wrecking the Nationalist-Communist alliance could be shifted onto the Japanese.
 
-Skull and the Juntong action team each had their own calculations, and neither reckoned right. The man who rode into Zhichuan was not Zhu De but Yang Qiqing, chief of the Anti-Traitor Department at the Eighth Route Army's forward headquarters; Zhu De had long since gone straight to the ford and crossed. Yang Qiqing had had the intelligence in advance, and he not only kept Zhu De safe, he took Skull alive.
+Skull and the Juntong action team each had their own calculations, and neither reckoned right. The man who rode into Zhichuan was not Zhu De but Yang Qiqing, chief of the Anti-Traitor Department at the Eighth Route Army's forward headquarters; Zhu De had long since gone straight to the ford and crossed. Yang Qiqing had known of it in advance, and he not only kept Zhu De safe, he took Skull alive.
 
 The notice announcing Skull's execution called him "a double agent of both Japan and the Nationalists."
 
 A "double agent"? A foreign-and-Chinese double spy, an enemy of a kind the Communist security men had never faced, intricate and profound beyond anything before.
 
-Yang Qiqing drew a stroke of his pen, circled out a few words and added two. And so Skull's title became "Japanese collaborator" instead. This was a decision of deep policy: when Yang Qiqing moved to seize Skull, he had let the Nationalist agents in the street go. During the united front, one kept the larger picture in view.
+With a stroke of his pen, Yang Qiqing struck out a few words and added two. And so Skull's title became "Japanese collaborator" instead. This was a decision of deep policy: when Yang Qiqing moved to seize Skull, he had let the Nationalist agents in the street go. During the united front, one kept the larger picture in view.
 
 And so the security department, though its main work was now against Japanese and Nationalist agents alike, was still called the Anti-Traitor Department.
 
@@ -34,7 +34,7 @@ Whether "Japanese scout" or "Nationalist agent," all of it was folded under "roo
 
 Yan'an too was holding public trials of traitors.
 
-On the evening of March 27, 1938, a public trial was convened on the parade ground of North Shaanxi College in Yan'an. Along the front of the ground a row of long tables stood in a half-moon. At the center sat the presiding judge, Lei Jingtian, president of the Shaanxi-Gansu-Ningxia Border Region High Court, with Cheng Fangwu and Mo Wenhua beside him; alongside were people's assessors from the Anti-Japanese Military and Political University and North Shaanxi College. At the edge of the ground three anti-aircraft machine guns pointed at the blue sky. Within it, close on ten thousand cadres and civilians listened in rapt silence.
+On the evening of March 27, 1938, a public trial was convened on the parade ground of North Shaanxi College in Yan'an. Along the front of the ground a row of long tables stood in a half-moon. At the center sat the presiding judge, Lei Jingtian, president of the Shaanxi-Gansu-Ningxia Border Region High Court, with Cheng Fangwu and Mo Wenhua beside him; alongside were people's assessors from the Anti-Japanese Military and Political University and North Shaanxi College. At the edge of the ground three anti-aircraft machine guns pointed at the blue sky. Within it, nearly ten thousand cadres and civilians listened in rapt silence.
 
 The case was a devious story. A man who called himself head of the Eighth Route Army office's political-training section had been recruiting young women students to come to Yan'an, mapping the country as he went and making the women share his bed along the road. When the party lodged at Yan'an's reception house, he was seen through by Cheng Yonghe of the Border Security.
 
@@ -42,9 +42,9 @@ The man's real name, it emerged, was Ji Sigong. He had joined the Japanese intel
 
 Before the eyes of the multitude, the traitor Ji Sigong was shot.
 
-Traitors were a loathsome thing. From Kawashima Yoshiko to Ji Sigong, Japan's invasion always sent collaborators ahead to clear the road, and China never seemed to run short of them.
+Traitors were loathsome. From Kawashima Yoshiko to Ji Sigong, Japan's invasion always sent collaborators ahead to clear the road, and China never seemed to run short of them.
 
-In the Northeast there was Puyi, the former Qing emperor; in Nanjing, Wang Jingwei, the former Nationalist vice-president; in North China, Wang Kemin, chairman of the Provisional Government council—great men of China, openly setting up puppet regimes for the Japanese. Lesser collaborators were legion too: across the occupied countryside "maintenance associations" sprang up everywhere, local gentry stepping forward to keep order for the Japanese. A dozen Japanese soldiers could hold a whole county, for they had puppet troops and collaborators at their service.
+In the Northeast there was Puyi, the former Qing emperor; in Nanjing, Wang Jingwei, the former Nationalist vice-president; in North China, Wang Kemin, chairman of the Provisional Government council—prominent men of China, openly setting up puppet regimes for the Japanese. Lesser collaborators were legion too: across the occupied countryside "maintenance associations" sprang up everywhere, local gentry stepping forward to keep order for the Japanese. A dozen Japanese soldiers could hold a whole county, for they had puppet troops and collaborators at their service.
 
 The Japanese intelligence apparatus also used collaborators to carry on its work, worming its way by every means into the Nationalist-controlled areas and the Communist base areas.
 
@@ -82,11 +82,11 @@ Work directed at the Japanese themselves was harder: on this side of Shandong on
 
 One day the enemy-work chief, He Qingyu, received a report: "A good devil has come to Da'anzhuang!"
 
-The people had lately been saying that a good-natured devil had come to Da'anzhuang—smiled at everyone, treated the sick, even cut and waived the grain levies the puppet troops imposed. When the Japanese carried off two village heads, it was that same Mizuhara Kiyoshi who had them brought back.
+The people had lately been saying that a good-natured devil had come to Da'anzhuang—smiled at everyone, treated the sick, even cut the grain levies the puppet troops imposed. When the Japanese carried off two village heads, it was that same Mizuhara Kiyoshi who had them brought back.
 
-A devil who was a good man? So odd a figure drew the notice of the Column's political department: could the man have some other, political background? The Shandong Column's base lay in the Yimeng mountains; along the base's edge ran the Yi River, and on the far bank stood Da'anzhuang, garrisoned by the Japanese—a place that had always been a focus of the Column's enemy-work section.
+A devil who was a good man? Such an odd figure drew the notice of the Column's political department: could the man have some other, political background? The Shandong Column's base lay in the Yimeng mountains; along the base's edge ran the Yi River, and on the far bank stood Da'anzhuang, garrisoned by the Japanese—a place that had always been a focus of the Column's enemy-work section.
 
-He Qingyu went to the front himself to investigate. Around Da'anzhuang there had been a string of killings of anti-Japanese elements, and that same rescued village head had now been assassinated too. The situation was tangled, the people tangled; it had to be probed to the bottom.
+He Qingyu went to the front himself to investigate. Around Da'anzhuang there had been a string of killings of anti-Japanese elements, and that same rescued village head had now been assassinated too. The situation was murky, the loyalties confused; it had to be probed to the bottom.
 
 He Qingyu's Yidong armed work team were all crack shots, every man a two-gun hand. They moved like lightning, secretly seizing Mizuhara Kiyoshi's courier and taking a coded letter Mizuhara had written to the Yishui office. So this Mizuhara Kiyoshi, it turned out, was the chief agent posted by the Jinan apparatus to the Yishui office. At Da'anzhuang he had set up an "experimental zone," meaning to win the hearts of the Chinese by soft methods and so realize a strategy of "intensified pacification."
 
@@ -104,7 +104,7 @@ That proved it: this double agent had surrendered in name only. The Shandong Col
 
 The latest case showed that the Japanese army not only struck and killed ferociously, it could also work by deception. It was not only we who used two-faced tactics to plant men on the enemy; the Japanese agents were using two-faced tactics to deceive us as well.
 
-Struggle against foreign agents was still a new subject for the young Communist intelligence and security organs. Do you know the inner workings of a foreign intelligence service? Do you know a foreign language? Can you get inside a foreign agent's mind? Can you be sure you will not be taken in?
+Struggle against foreign agents was still a new subject for the young Communist intelligence and security organs. Did they know the inner workings of a foreign intelligence service, or a foreign language? Could they get inside a foreign agent's mind, and be sure of not being taken in?
 
 ### 3. A "Party Branch" Inside Juntong's Main Station
 
@@ -112,7 +112,7 @@ If the Communists knew Japan's intelligence machinery imperfectly, the Nationali
 
 The Communists entered Yan'an at the end of 1936. In May of the following year Chiang Kai-shek sent a senior staff officer, Lieutenant General Tu Sizong, to lead a delegation to Yan'an, and the army system's operative-work chief, Yang Wei, mixed in with them. That winter Xu Enzeng again sent men to Yan'an to make "an exploratory expedition," coming away with a book, *The Party's Line of Strategy*, said to be teaching material Zhang Hao had used in his lectures at the "Anti-Japanese University." There was also a Juntong agent, Shen Zhiyue, who claimed to have slipped into Yan'an and served as Mao Zedong's secretary, and who went round the various Nationalist agencies telling of his espionage exploits, cutting quite a figure for a time.
 
-A Nationalist agent had been Mao Zedong's secretary? That would be a great spy indeed, of the first importance! In fact Shen Zhiyue had genuinely entered Yan'an, studying in the second class of the Anti-Japanese University in August 1937 and worming his way into the Communist organization; but later, seeing how strict Yan'an's political vetting was, the man quietly slipped away. As for serving as Mao Zedong's secretary, that was so much bragging.
+A Nationalist agent had been Mao Zedong's secretary? That would be a great spy indeed, of the first importance. In fact Shen Zhiyue had genuinely entered Yan'an, studying in the second class of the Anti-Japanese University in August 1937 and worming his way into the Communist organization; but later, seeing how strict Yan'an's political vetting was, the man quietly slipped away. As for serving as Mao Zedong's secretary, that was so much bragging.
 
 Whatever the water in these boasted espionage feats, Zhongtong and Juntong did put real effort into their Yan'an work.
 
@@ -142,7 +142,7 @@ Even the Nationalist-controlled departments were no monolith. A young trainee in
 
 And so the Nationalists' postal and telecommunications offices in Yan'an, far from serving the Nationalists as intelligence outposts, became instead a channel by which the Communists gathered intelligence. Internal documents and operative papers that the Nationalist Shaanxi provincial party headquarters and the Shaanxi investigation-and-statistics room mailed into the Border Region fell, one after another, into the Border Security's hands.
 
-The "three links," everyone agreed, were a good thing that eased exchange among the people. But the security organs also feared they were a bad thing, giving the adversary his chance to gather intelligence. Still, the channel was there for anyone—you could work it, and so could I; a bad thing could be turned into a good one. Why oppose the three links?
+The "three links," everyone agreed, were a good thing that eased exchange among the people. But the security organs also feared they were a bad thing, giving the adversary his chance to gather intelligence. Still, the channel was there for anyone; either side could work it, and a bad thing could be turned into a good one. There was no reason to oppose the three links.
 
 The facts proved that the Nationalist agents were always at work in secret to undermine the Communists. Yet now, after all, it was a Nationalist-Communist alliance against Japan, and the term "enemy scout" belonged to the Japanese agents alone.
 
@@ -162,7 +162,7 @@ As for how to slip operatives into the Border Region, Zhongtong and Juntong trie
 
 In espionage against the Communists, the Nationalists' past successes had come mostly from Communist renegades. Zhongtong therefore set special store by its "shock" policy. By "shock" was meant the secret arrest of Communist members, forcible persuasion, their recruitment as inside informers, and then their secret release. The shock campaigns ran, in turn, as the "inside-informer shock," the "surrender policy," and the "one-and-two movement." In 1940 Zhongtong sent down word to launch a "high-grade special-intelligence shock competition" across the station-rooms of every province, taking as its targets the senior figures at every level of the Communist branch bureaus, provincial committees, district committees, prefectural committees, and county committees, and of the rear liaison organs; it set ten to twelve months as the shock period, put each province's station-room chief and experimental-zone chief personally in charge, and rated one to two men per unit a pass.
 
-"Special-intelligence" work was hardly a sport—and yet they were running a "competition"? It shows how eager and how pressed the Nationalist apparatus was in its espionage against the Communists. The Central Social Affairs Department noted: "The Nationalists have a long history of rule in China, and their vast agent apparatus makes use of a considerable number of politically seasoned renegades from our party, and of other conveniences besides. We must therefore take a firm hold of policy, split their social base, and so achieve the aim of purging inner traitors and smashing the enemy."
+"Special-intelligence" work was hardly a sport, and yet they were running a "competition." It shows how eager and how pressed the Nationalist apparatus was in its espionage against the Communists. The Central Social Affairs Department noted: "The Nationalists have a long history of rule in China, and their vast agent apparatus makes use of a considerable number of politically seasoned renegades from our party, and of other conveniences besides. We must therefore take a firm hold of policy, split their social base, and so achieve the aim of purging inner traitors and smashing the enemy."
 
 There are generally two ways to build an inside secret agent: to plant one in, or to pull one out.
 
@@ -172,17 +172,17 @@ To pick a man at a key post inside the enemy's apparatus and lead him around to 
 
 The Border Security's field post at Fuping, at the southern tip of the "pouch" of the Guanzhong sub-district, was the very front line of the struggle facing Xi'an. One day late in 1941 the head of the Guanzhong theatrical troupe, He Zhide, came hurrying to the field post to report: his own clansman, a certain He, had defected and was trying to draw him over to the enemy.
 
-Qin Ping, the Border Security field officer who received He Zhide, was startled—this certain He was a famous progressive figure! Around the time of the Xi'an Incident he had been a leader of the "Northwest Youth National Salvation Association," one of the far-famed "Five Youths of the Northwest." How could such a progressive have defected?
+Qin Ping, the Border Security field officer who received He Zhide, was startled: this certain He was a famous progressive figure. Around the time of the Xi'an Incident he had been a leader of the "Northwest Youth National Salvation Association," one of the far-famed "Five Youths of the Northwest." How could such a progressive have defected?
 
 Xi Zhongxun, secretary of the Guanzhong prefectural committee, and Qu Jixian, head of the Fuping field team, weighed it and decided: lure the certain He into a trap.
 
 He Zhide feigned agreement with the certain He's demands and got word to him through a go-between to set a meeting; the moment the certain He came, he was secretly arrested. A sudden interrogation revealed that after his arrest by the Nationalists the certain He had surrendered and defected, joining the Zhongtong agent organization. Given the certain He's revolutionary past, the Border Security field team meant to turn him and send him back into Zhongtong as an inside informer. But the certain He, seizing on a lapse by his guards, suddenly bolted, and was caught by the soldiers sent after him.
 
-Even a famous revolutionary youth could be pulled out by the Nationalists to serve as an agent! The fact drove the lesson home: anti-traitor work had to guard against the enemy's agents "planting in" and against their "pulling out" both—and in a sense, one might say, guarding against the "pulling out" was the more important task.
+Even a famous revolutionary youth could be pulled out by the Nationalists to serve as an agent. The fact drove the lesson home: anti-traitor work had to guard against the enemy's agents "planting in" and against their "pulling out" both—and in a sense, one might say, guarding against the "pulling out" was the more important task.
 
-Everyone knew "pulling" worked better than "planting"; so, if others could pull men out of our ranks, why could we not pull men out of theirs?
+Everyone knew "pulling" worked better than "planting"; so, if others could pull men out of our ranks, surely we could pull men out of theirs.
 
-Hard! The hardness lay not in others forbidding it but in our own unwillingness to do it. When Zhou Enlai founded the Special Branch, he took particular care to use the strategy of "pulling out," and it did great good. But the "left"-deviationist leaders who held the center one after another saw nothing but mortal foes: within the party they waged "ruthless struggle," at the middle forces they aimed "merciless blows," and as for the enemy's camp, well, that was "one solid slab of iron." When even one's own people were being pushed out, "pulling out" was out of the question.
+It was hard. The hardness lay not in others forbidding it but in our own unwillingness to do it. When Zhou Enlai founded the Special Branch, he took particular care to use the strategy of "pulling out," and it did great good. But the "left"-deviationist leaders who held the center one after another saw nothing but mortal foes: within the party they waged "ruthless struggle," at the middle forces they aimed "merciless blows," and as for the enemy's camp, well, that was "one solid slab of iron." When even one's own people were being pushed out, "pulling out" was out of the question.
 
 During the war against Japan the Communist center corrected the old "left" line in secret work as well. After reaching northern Shaanxi, Mao Zedong had proposed, in "On Tactics Against Japanese Imperialism": "If they can pull the bad elements out of our ranks and make them run off, then of course we can pull the 'bad elements' out of their ranks and make them come over."
 
@@ -190,7 +190,7 @@ The Communists, skilled at active defense in war, took the same active-defense l
 
 The Nationalists had begun as a revolutionary party and had appealed to revolutionary ideals in recruiting operatives too. But the Nationalists who held power were sliding into corruption, and so were losing their power to appeal to the progressive. And so the progressive youths who had already entered the Nationalist agent apparatus came to feel "their bodies in Cao's camp, their hearts with Han." The Communists, though they held no nationwide power, led the whole country's progressive tide—and this was the peculiar advantage of "pulling out."
 
-One night in the autumn of 1939, two uninvited guests burst into the Eighth Route Army office at Zengjiayan in Chongqing—officers of the Nationalist Juntong radio station, Zhang Weilin and Feng Chuanqing, wanting to go to Yan'an!
+One night in the autumn of 1939, two uninvited guests burst into the Eighth Route Army office at Zengjiayan in Chongqing—officers of the Nationalist Juntong radio station, Zhang Weilin and Feng Chuanqing, wanting to go to Yan'an.
 
 Zengjiayan stands on a stretch of red rock in the outskirts of Chongqing, and is also called the Red Crag. The organ there was called the "Eighth Route Army office" to the outside world; within, it was still the Communist Southern Bureau, directing the Communist underground of the Southwest and of South China. The Southern Bureau's military group received the two Juntong officers and decided to have them go on working within the Juntong system to gather intelligence. Before long the two were developed as secret Communist Party members.
 
@@ -210,7 +210,7 @@ Whether the Nationalists' "pulling out" or the Communists' "pulling out," both s
 
 What the Communist security organs hated most was the renegade. During the Second Revolutionary Civil War the Nationalists cracked most of the underground Communist organizations in the White areas by relying on a mass of renegades like Gu Shunzhang; the renegade was the greatest security threat, and it was renegades that the Special Branch's "dog-beating squad" was made to strike.
 
-During the war, in the second Nationalist-Communist alliance, Communists would again meet former renegades in the course of their work, and could not help their revulsion. Yan Xishan of Shanxi exploited this friction, deliberately packing his Sacrifice League with renegade cadres to hold the Communists down. How to treat the renegade became a test of the Communists' policy sense.
+During the war, in the second Nationalist-Communist alliance, Communists would again meet former renegades in the course of their work, and could not suppress their revulsion. Yan Xishan of Shanxi exploited this friction, deliberately packing his Sacrifice League with renegade cadres to hold the Communists down. How to treat the renegade became a test of the Communists' policy sense.
 
 In December 1942 Mao Zedong drafted a party directive for the Communist center, summing up the policy on intelligence work, and stated plainly: "As for renegades, apart from those guilty of monstrous crimes, so long as they do not go on opposing the Communists, they are to be given a road to remake themselves; and if they can turn back to revolution, they may even be received—but are not to be readmitted to the Party." The central policy lifted the misgivings below; the Communists in the Sacrifice League took care to unite with and win over the former renegades, and the two forces joined to deal with the diehards of Shanxi, bringing the Sacrifice League and the Shanxi New Army effectively under control.
 
@@ -234,7 +234,7 @@ What he did not see was that the chance had been created. Policy answered to the
 
 The Nationalist agent apparatus employed a mass of Communist renegades. Some had gone over to the enemy in true earnest; most had left the party (lost their contact) but had never sold out the organization, and once the moment came these lapsed members would turn back to serve the Communists again. A few had from the start feigned being "renegades" to burrow into the Nationalist agent organization, and lay hidden deeper still. Of the two provinces with which Zhongtong ringed the Border Region, both provincial station-room chiefs—Li Maotang in Shaanxi and Miao Zhuanglin in Shanxi—secretly returned to the Communist camp.
 
-Espionage and counter-espionage, the espionage war, are a tangled thing. Whose policy is the more supple, his methods are the more; whose methods are the more, his gains are the greater.
+The espionage war, of spying and counter-spying, is a tangled affair. Whose policy is the more supple, his methods are the more; whose methods are the more, his gains are the greater.
 
 A tangled espionage case appeared.
 
@@ -256,7 +256,7 @@ In the border zones enemy and self were interlaced, and men shifted at any momen
 
 The Border Security's cadres began to take up a tangled subject: the double agent.
 
-A "double agent" (a two-faced agent, a turned agent) has two senses. In the one, a single agent serves at once two mutually hostile agencies—a foot in each boat! This kind of double agent gives an agency the worst headache: whoever gives the milk is mother to him, and who can tell whose man he truly is? In the other, he reaches true service to one side through false service to the other—body in Cao's camp, heart with Han. This second kind too keeps an agency on its guard, lest the man be pulled over to the other side. Whichever the kind, the double agent ranks among the higher and harder grades of espionage work.
+A "double agent" (a two-faced agent, a turned agent) has two senses. In the one, a single agent serves at once two mutually hostile agencies—a foot in each boat. This kind of double agent gives an agency the worst headache: whoever gives the milk is mother to him, and who can tell whose man he truly is? In the other, he reaches true service to one side through false service to the other—body in Cao's camp, heart with Han. This second kind too keeps an agency on its guard, lest the man be pulled over to the other side. Whichever the kind, the double agent ranks among the higher and harder grades of espionage work.
 
 The Border Security got a double agent of its own. Yang Hongchao, a primary-school teacher in the Border Region, received a subversion letter sent from the Nationalist areas, and the Border Security seized the chance to plant this Yang Hongchao inside Zhongtong. To win Yang Hongchao Zhongtong's trust, the field team fed him some false intelligence and false special-intelligence besides. Sure enough Zhongtong appointed Yang Hongchao a "full-time investigation worker," and he brought back no little intelligence. Later, in an inspection of the work, the Social Affairs Department criticized the Border Security: the false special-intelligence handed over in Guanzhong had been pitched too high—even a county committee secretary had been made out to be a Nationalist agent—which was to swell the enemy's strength, and had to be pulled back. The Guanzhong prefectural committee and the field team weighed it and decided that the Xinzheng County committee secretary, Li Ke, and others would publish a statement in the paper to quash the rumor. At this Yang Hongchao's footing on the Zhongtong side turned somewhat awkward. Before long the field team head, Qu Jixian, who had had single-line contact with Yang Hongchao, was recalled to Yan'an, and Qin Ping took over the work. But the intelligence Yang Hongchao sent grew scarcer and scarcer, and was sometimes no more than street gossip.
 
@@ -272,13 +272,13 @@ Shi Zhe, chief of the First Bureau of the Security Office, led a party to Guanzh
 
 The espionage war is the most tangled of struggles, and the double agent the hardest figure to place.
 
-Yang Hongchao was only a young primary-school teacher, made a double agent all at once, without the training to handle a tangled situation. If the intelligence tie you brought to the Nationalist agents is publicly quashed in the papers, can you still be trusted by the Nationalist apparatus? Can a man who is not trusted still obtain secret intelligence? And if he cannot send back secret intelligence, can he still be trusted by the Communists?
+Yang Hongchao was only a young primary-school teacher, made a double agent all at once, without the training to handle a tangled situation. If the intelligence tie he brought to the Nationalist agents was publicly quashed in the papers, could he still be trusted by the Nationalist apparatus? A man who was not trusted could not obtain secret intelligence; and a man who could not send back secret intelligence could not be trusted by the Communists either.
 
 The double agent, trusted by neither side, is always in a hard place. On the moral coordinate of espionage, every choice is a temptation: steadfastness, wavering, evasion, a foot in each boat, surrender, defection, going over to the enemy.
 
-To whom, in the end, was this double agent Yang Hongchao loyal? A later sifting found that when Zhongtong dispatched Wen Bin to subvert Zhou Chongde, Yang Hongchao had at the time reported it to the Border Security; but because contact was difficult, the intelligence had not reached Qin Ping's hands in time, and so the misunderstanding arose.
+To whom, then, was the double agent Yang Hongchao loyal? A later sifting found that when Zhongtong dispatched Wen Bin to subvert Zhou Chongde, Yang Hongchao had at the time reported it to the Border Security; but because contact was difficult, the intelligence had not reached Qin Ping's hands in time, and so the misunderstanding arose.
 
-What is the standard for judging an agent? It is a question of real difficulty. The Social Affairs Department documents of the day once listed several standards. In short, look at the quality of the intelligence he brings back. Whoever gets the truest, most accurate, highest-grade intelligence is the one he is loyal to. All the rest—signatures, fingerprints, verbal declarations—is empty.
+The standard for judging an agent is a question of real difficulty. The Social Affairs Department documents of the day once listed several standards. In short, look at the quality of the intelligence he brings back. Whoever gets the truest, most accurate, highest-grade intelligence is the one he is loyal to. All the rest—signatures, fingerprints, verbal declarations—is empty.
 
 The Communist Ji-Re-Liao district committee was holding a three-level cadre conference at Yangjiapu when it was suddenly encircled by Japanese troops. The Jidong intelligence station chief, Ren Yuan, had already broken out, then charged back into the ring to rescue his comrades, and was gravely wounded and captured.
 
@@ -294,13 +294,13 @@ Social life is complex, the espionage war more complex still, and the simple-min
 
 ### 5. "Why Doesn't the Thunder God Strike Mao Zedong?"
 
-The Communists' management of society was solid enough. Criminal and public-order cases in the Shaanxi-Gansu-Ningxia Border Region were quite few; Yan'an even reached the state where nothing lost on the road was picked up and no door was barred at night. Across the length of China the people could scarcely make a living; only this Shaanxi-Gansu-Ningxia Border Region was truly an earthly paradise.
+The Communists' management of society was solid enough. Criminal and public-order cases in the Shaanxi-Gansu-Ningxia Border Region were quite few; In Yan'an, nothing dropped on the road was pocketed and no door was locked at night. Across the length of China the people could scarcely make a living; only this Shaanxi-Gansu-Ningxia Border Region was truly an earthly paradise.
 
-The Nationalists were unwilling to see Yan'an grow strong. In the autumn of 1940 the Nationalist government cut off the Eighth Route Army's pay and blockaded the Shaanxi-Gansu-Ningxia Border Region's supplies. How was a Border Region of 1.4 million people to feed troops and organs numbering in the hundreds of thousands? The Communists, so skilled at war, ran into an economic crisis, and the Border Region faced the prospect of running out of both ammunition and grain.
+The Nationalists were unwilling to see Yan'an grow strong. In the autumn of 1940 the Nationalist government cut off the Eighth Route Army's pay and blockaded the Shaanxi-Gansu-Ningxia Border Region's supplies. A Border Region of 1.4 million people now had to feed troops and organs numbering in the hundreds of thousands. The Communists, so skilled at war, ran into an economic crisis, and the Border Region faced the prospect of running out of both ammunition and grain.
 
 The scarcer the grain, the more had to be levied. On June 3, 1941, the Border Region government convened a joint conference of county heads to discuss the grain levy. Dry, rain-starved Yan'an was suddenly struck by a downpour; with a great crash a lightning bolt hit the conference room, wounding eight of those present and killing the acting head of Yanchuan County, Li Caiyun, on the spot.
 
-Chinese folk belief has always held to a correspondence between Heaven and man, and an ordinary natural disaster was passed from mouth to mouth among the common people: "The county head was struck down by five thunderbolts from Heaven—he must have done something to burden his conscience!"
+Chinese folk belief has always held to a correspondence between Heaven and man, and word of an ordinary natural disaster passed from mouth to mouth among the common people: "The county head was struck down by five thunderbolts from Heaven—he must have done something to burden his conscience!"
 
 Some went further: "Heaven's eyes are shut. Why doesn't the Thunder God strike Mao Zedong dead?"
 
@@ -312,7 +312,7 @@ A peasant himself by origin, Mao Zedong understood that peasants do not curse pe
 
 Defending a poor and weak Border Region called for a strong force, yet the vast host of men taken off production would drain that poor, weak Border Region dry—a contradiction the cadres within the party thought insoluble. Then, unexpectedly, at the Border Region's second assembly, a non-party assemblyman, Li Dingming, put forward the proposal for "crack troops and simple administration."
 
-Crack troops and simple administration—the target of the trimming was bound to be the army and the organs, the Communists' core strength. Look back over the history of the Republic: how many times had armies been reorganized, and not one of them succeeded. What ruler would give up vested interests? Yet Mao Zedong thought highly of this non-party man Li Dingming's advice. The Border Region government at once set up a reorganization committee. In December 1941 the Border Region government's administrative council decided on a sweeping cut in personnel: for 1942 the public grain levy was set at only 600,000 dan, 40,000 less than the previous year, and the public fodder at only 16 million jin, 10 million less than the previous year.
+Crack troops and simple administration—the target of the trimming was bound to be the army and the organs, the Communists' core strength. In the history of the Republic, armies had been reorganized many times, and not one attempt had succeeded. No ruler gives up vested interests willingly. Yet Mao Zedong thought highly of this non-party man Li Dingming's advice. The Border Region government at once set up a reorganization committee. In December 1941 the Border Region government's administrative council decided on a sweeping cut in personnel: for 1942 the public grain levy was set at only 600,000 dan, 40,000 less than the previous year, and the public fodder at only 16 million jin, 10 million less than the previous year.
 
 Saving with one hand and opening new sources with the other, Mao Zedong also called for a Great Production Campaign. Across the whole Border Region, from the chairman down to the clerks, everyone labored—breaking new ground and planting, spinning thread and weaving cloth. This lean, capable body of men in Yan'an actually met most of its needs by its own hands.
 
@@ -320,11 +320,11 @@ A single "Thunder God" affair brought many consequences. The security department
 
 How to tell contradictions of different natures apart was not only a question of policy but a question of competence. In the Longdong sub-district a tangled money-theft case appeared.
 
-That year Longdong suffered a great drought, and the Qingyang County government drew special funds to relieve the victims. When 8 million in border currency, carried by the county civil-affairs section chief Li Lianchen, went missing, suspicion of the theft fell on two men. This Section Chief Li was a Nationalist holdover; that Secretary Li was fond of opium. In the course of the inquiry Secretary Li went to Section Chief Li's home and swindled 2 million out of his younger brother, forcing Section Chief Li to make good 6 million! Section Chief Li insisted that the 2 million was money a relative had entrusted to him to buy opium, and demanded Secretary Li hand over the 8 million!
+That year Longdong suffered a great drought, and the Qingyang County government drew special funds to relieve the victims. When 8 million in border currency, carried by the county civil-affairs section chief Li Lianchen, went missing, suspicion of the theft fell on two men. This Section Chief Li was a Nationalist holdover; that Secretary Li was fond of opium. In the course of the inquiry Secretary Li went to Section Chief Li's home and swindled 2 million out of his younger brother, forcing Section Chief Li to make good 6 million. Section Chief Li insisted that the 2 million was money a relative had entrusted to him to buy opium, and demanded Secretary Li hand over the 8 million.
 
 The case was tangled, and the Longdong security section took Section Chief Li and Secretary Li into custody together. Just then the Qingyang County deputy head, a man named Luo, suddenly came to the security-section chief Li Fushan and handed over a letter showing Secretary Li in collusion with the Nationalist agents at Pingliang.
 
-The theft case rose to an agent case! The Longdong court decided to arrest Secretary Li and release Section Chief Li without charge.
+The theft case rose to an agent case. The Longdong court decided to arrest Secretary Li and release Section Chief Li without charge.
 
 The Border Security's security chief, Bu Lu, came on a tour of Longdong, and received word from cadres and masses that Secretary Li was an honest man, while Section Chief Li and Deputy Head Luo were brothers-in-law—officials siding with officials, commoners with commoners, one turtle cozy with another. Some grumbled that the Communists were no different from the Nationalists after all, still taking the side of the officeholder.
 
@@ -338,7 +338,7 @@ The allowance funds for all the county's cadres vanished from the finance sectio
 
 The case reached into the family of the county head, Feng Zhiguo, and Hao Su told Feng Zhiguo how things stood. This old revolutionary of northern Shaanxi had a strong sense of party discipline: "This is the security section's business."
 
-The county head's own wife caught for theft! Among the common people of Longdong the word went round: the Communists put justice above kin!
+The county head's own wife had been caught for theft. Among the common people of Longdong the word went round: the Communists put justice above kin!
 
 The Longdong commissioner, Ma Xiwu, also served as court president, and by trying and mediating many a tangled case in open court he won the people's hearts—the folk of Longdong called him "Ma the Blue Sky."
 
@@ -346,7 +346,7 @@ How a party is to hold power, how power is to serve the people—Yan'an gave its
 
 This learning did not come easily. The Communist security organization had learned from the Soviet Cheka, and "Cheka" was a short form: its full name was the "All-Russian Extraordinary Commission for Combating Counter-Revolution and Sabotage."
 
-Purging counter-revolutionaries is a contradiction between the enemy and ourselves; sabotage is a contradiction among the people. Two kinds of contradiction handled by a single organ?
+Purging counter-revolutionaries is a contradiction between the enemy and ourselves; sabotage is a contradiction among the people. Yet a single organ handled both kinds of contradiction.
 
 And so the Soviet purges often ran to excess; and under the Soviet influence the Communist purges too came to run to serious excess.
 
@@ -406,7 +406,7 @@ This counter-espionage work was truly an intricate and profound problem.
 
 The complexity of the espionage struggle lies in the blurring of enemy and self—the enemy has us in him, and we have the enemy in us. And so whoever can turn the enemy to serve us is the one who wins the espionage war.
 
-Both sides were trying to win the agent over; so whom, in the end, would an agent caught in the crack serve?
+Both sides were trying to win the agent over; which side an agent caught in the middle would serve was the question.
 
 The most profound thing in this world is not the craft of the work but the human heart. An agent too is a human being, with his heart set somewhere. And an agent's heart is deeper than an ordinary man's.
 
