@@ -832,6 +832,14 @@
 # (1924-25); the 四 elides 十四 (14), carried in English as the ordinal "fourteenth,"
 # not the count 4.
 十三、四
+# Elided date-range years 民国二十一、二年 (1932-33) and 二十七、八年 (1938-39) in ch10:
+# the 、二 / 、八 elide 二十二 (22) / 二十八 (28), and the checker misreads them as the
+# bare counts 2 / 8. R3 rendered these Republic years as Gregorian ("1932 and 1933",
+# "1938 and 1939") for reader access and book consistency, which removed the incidental
+# 2/8 the old ordinal wording carried; these entries strip the elided source pairs so
+# no phantom 2/8 is orphaned (same class as 十三、四 above).
+二十一、二
+二十七、八
 # Idiom 四壁 "the four bare walls / on every side" (剥落处四壁可见, ch34): the 四 is the
 # set idiom for "all around," not a tracked count of 4. English "on every side."
 四壁
