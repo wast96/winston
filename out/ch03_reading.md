@@ -2,7 +2,7 @@
 
 ### Chen Geng's Legendary Career
 
-Section Two of the Central Special Section was the intelligence branch, set up to gather intelligence, keep track of the enemy, and take the offensive against the enemy's own detective organs. In a Shanghai held down by the imperialists and by the Kuomintang's army, police, gendarmes, and secret services, there was no protecting yourself without going on the attack. The most important side of the Special Section's intelligence work lay in two methods—planting agents inside the enemy and winning enemy people over—to reach deep into his vital departments and break up his schemes in good time.
+Section Two of the Central Special Section was the intelligence branch, set up to gather intelligence, keep track of the enemy, and take the offensive against the enemy's own detective organs. In a Shanghai held down by the imperialists and by the Kuomintang's army, police, gendarmes, and secret services, there was no protecting yourself without going on the attack. The most important side of the Special Section's intelligence work lay in two methods—planting agents inside the enemy and winning enemy people over—to reach deep into his vital departments and break up his schemes in time.
 
 The intelligence branch was headed, under the alias "Wang Yong," by Chen Geng—later a general who would storm across the revolutionary battlefields and win fame at home and abroad. His military life had begun as a private, second class, in a warlord's army.
 

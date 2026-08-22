@@ -45,3 +45,8 @@ WHY: date order; house style is month-day (7 December 1927)
 OLD: accurately and in good time
 NEW: accurately and promptly
 WHY: ledger residual 及时; reads better as "promptly" beside "accurately"
+
+### ch03 [T-ledger] TOUCH
+OLD: break up his schemes in good time
+NEW: break up his schemes in time
+WHY: ledger residual 及时 = "in time / promptly"
