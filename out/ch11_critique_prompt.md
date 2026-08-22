@@ -1,4 +1,24 @@
-## Chapter 11. The Great Turning: The Highest Art of Secret Struggle
+Read this. It is a chapter of an English translation. I want you to tell me, in
+detail, every single thing in here that is wrong from the perspective of a
+native English speaker.
+
+Focus on this being a translation: it is mostly about how the prose reads. I do
+not want things fully invented, but they need to be fixed, because right now
+this is not exactly right. Look for translationese and stiltedness: stilted
+inversions, calqued idioms, transferred syntax, sentences that stack too many
+clauses, dash- or comma-glosses jammed mid-sentence, doubled synonyms, wooden
+dialogue, pronoun fog, wrong or fake-antique register, and anything a good
+editor would blue-pencil in original English.
+
+Be succinct but precise. No huge paragraphs. No repetition. No notes that manage
+feelings about how good it is. Just good, insightful, solid corrections: quote
+the phrase or sentence, say what is wrong in a few words, and give the fix.
+
+======================================================================
+
+CHAPTER UNDER REVIEW
+
+Chapter 11. The Great Turning: The Highest Art of Secret Struggle
 
 In the three years from 1946 to 1949 the face of China changed utterly: first Chiang Kai-shek drove Mao Zedong out of Yan'an, and then Mao Zedong drove Chiang Kai-shek off the mainland. Looking back on the vastest war in Chinese history, people marvel that Mao commanded troops like a god.
 
@@ -6,13 +26,13 @@ But Mao was a man, not a god, and to command like a god is only a figure of spee
 
 Zhou Enlai ran spies like a god too.
 
-### 1. Electronic Warfare on the Loess Plateau
+1. Electronic Warfare on the Loess Plateau
 
 Mao pulled out of Yan'an but refused to leave northern Shaanxi. He meant, he said, to go fishing on the Loess Plateau, using himself as the stinking bait to draw out Chiang Kai-shek's strategic reserves. This suited old Chiang exactly. The surprise assault on Yan'an was meant to cut out the heart and take off the head, to swallow the Communists' supreme command and finish the whole business in a single stroke.
 
 The two sides thought as one, and Hu Zongnan's army of 230,000 men spent its days combing the gullies of northern Shaanxi for Mao Zedong.
 
-Mao knew he was playing a dangerous move, and it had to be covered. After the withdrawal from Yan'an, the Party Center met at Zaolingou and decided to split in three. Mao Zedong, Zhou Enlai, and Ren Bishi formed the Central Front Committee, which would fight its way across northern Shaanxi and direct the war nationwide. Liu Shaoqi, Zhu De, and Dong Biwu formed the Central Working Committee, which moved to Pingshan in Hebei, in the Jin-Cha-Ji Liberated Area, to lead land reform and base-area construction. Ye Jianying, Yang Shangkun, Li Weihan, and Li Kenong formed the Central Rear Committee, which went to Linxian in Shanxi, in the Jin-Sui Liberated Area, to handle logistics. It was a defense in depth: lose the first line, and there was still a second. Mao even arranged for two Soviet doctors to be moved to the rear, lest anyone say foreigners were taking part in China's civil war.
+Mao knew he was playing a dangerous move, and it had to be hedged. After the withdrawal from Yan'an, the Party Center met at Zaolingou and decided to split in three. Mao Zedong, Zhou Enlai, and Ren Bishi formed the Central Front Committee, which would fight its way across northern Shaanxi and direct the war nationwide. Liu Shaoqi, Zhu De, and Dong Biwu formed the Central Working Committee, which moved to Pingshan in Hebei, in the Jin-Cha-Ji Liberated Area, to lead land reform and base-area construction. Ye Jianying, Yang Shangkun, Li Weihan, and Li Kenong formed the Central Rear Committee, which went to Linxian in Shanxi, in the Jin-Sui Liberated Area, to handle logistics. It was a defense in depth: lose the first line, and there was still a second. Mao even arranged for two Soviet doctors to be moved to the rear, lest anyone say foreigners were taking part in China's civil war.
 
 The Front Committee was the first line, buried deep behind enemy lines and at the greatest risk, so of course it needed a guard unit. Called a regiment, it was really one pistol company, two infantry companies, and one cavalry company. Could four small companies protect the supreme command? With this thin force Mao still wanted to try his hand. As they marched along he suddenly stopped, saying he wanted to have a look at the enemy for himself.
 
@@ -54,11 +74,11 @@ Forty days out of Yan'an, the Liberation Army had won three great victories. Zho
 
 Hu Zongnan rose to the bait again and gave chase toward Zhenwudong. His army came within five li of Wangjiawan, where Mao lay hidden; that night, in heavy rain, the Ninth Detachment and the enemy troops actually converged. The Ninth Detachment marched along a ridge, not daring to make a sound; the enemy marched through the gully below, men shouting and horses neighing. Only at daybreak did the Ninth Detachment slip clear of danger.
 
-For days on end the Ninth Detachment stayed within range of the enemy's guns. The men did not take off their clothes, nor the horses their saddles, and planes hung overhead. Yet the enemy simply could not find Mao. On the Long March Mao had often ridden in a litter; now, ten years older, he was stronger in body and mind, and never once used a litter. With the situation urgent, Mao even sent his deputy chief of staff Wang Dongxing with a company deep into the enemy's rear to fight a guerrilla campaign around Yan'an and Ansai; Wang Dongxing led them for thirty-four days before returning to report.
+For days on end the Ninth Detachment stayed within range of the enemy's guns. The men did not take off their clothes, the horses did not have their saddles removed, and planes hung overhead. Yet the enemy simply could not find Mao. On the Long March Mao had often ridden in a litter; now, ten years older, he was stronger in body and mind, and never once used a litter. With the situation urgent, Mao even sent his deputy chief of staff Wang Dongxing with a company deep into the enemy's rear to fight a guerrilla campaign around Yan'an and Ansai; Wang Dongxing led them for thirty-four days before returning to report.
 
 Mao moved safely on to Xiaohe village. The front commanders Peng Dehuai, Xi Zhongxun, He Long, Wang Zhen, and Chen Geng gathered under a single awning and held the crucial conference that laid out the strategic counter-offensive.
 
-Chiang Kai-shek, directing a nationwide war, never let up on the intelligence war. Juntong imported large stocks of the newest direction-finding gear from America and broke a Communist secret station in Beiping. Following the thread, it cracked the secret station in Xi'an, and the Wang Shijian intelligence system, stretching across the Northwest, North China, and the Northeast, was broken up: more than a hundred underground Party members were arrested.
+Chiang Kai-shek, directing a nationwide war, relaxed the intelligence war not at all. Juntong imported large stocks of the newest direction-finding gear from America and broke a Communist secret station in Beiping. Following the thread, it cracked the secret station in Xi'an, and the Wang Shijian intelligence system, stretching across the Northwest, North China, and the Northeast, was broken up: more than a hundred underground Party members were arrested.
 
 Getting word of it, Zhou Enlai at once convened a confidential-communications conference at Xiaohekou. With the head of the Military Commission's Second Bureau Dai Jingyuan, the head of the Third Bureau Wang Zheng, the head of the Central Confidential Office Li Zhizhong, the secretariat director Tong Xiaopeng, and the deputy director Luo Qingchang, he spent more than twenty days studying how to counter the Nationalists' aerial monitoring, underground sabotage, and code-breaking.
 
@@ -74,7 +94,7 @@ The commander's banner flew on. On the plateau of northern Shaanxi the great com
 
 In guarding that banner, the secret front played no small part.
 
-### 2. Who Received Hu Zongnan's Battle Orders First?
+2. Who Received Hu Zongnan's Battle Orders First?
 
 Yan'an's security system had for years devoted itself to guarding the Center and guarding the Border Region, work that was essentially internal defense. When the War of Liberation began, that internal-defense work rose into a war of self-defense—a sign that security work had entered its most intense phase.
 
@@ -112,7 +132,7 @@ Over some nine months, the three secret stations of Lü Chu and the others sent 
 
 Besides Lü Chu's group, the Border Security had several other important intelligence organizations planted inside the enemy army. Intelligence from many channels cross-checked one another and guaranteed the high quality of the military intelligence. The Communists were at a disadvantage in weapons and equipment, but in intelligence work they far outstripped their opponent.
 
-### 3. The Most Successful Period of Intelligence Work
+3. The Most Successful Period of Intelligence Work
 
 Before the outcome of the war was even clear, the Nationalists were already losing move after move—and this, in fact, was the result of both parties reorganizing their intelligence work at the same time.
 
@@ -144,7 +164,7 @@ Mao said: the intelligence work of the War of Liberation was the best.
 
 The enemy saw this too. After his defeat at Qingfengdian, Chiang Kai-shek wrote on the Ministry of National Defense's review report: "From this one can imagine the bandits' intelligence work. Before every operation they have investigated our army's situation with perfect thoroughness. Then they decide their battle plan in light of our army's circumstances and strike at us. I have studied it carefully: how they can have investigated our situation so thoroughly is, to be sure, partly because we ourselves leak secrets, but chiefly because the bandits' intelligence work is done to the last detail. The bandits have a slogan—'if the enemy's situation is unclear, do not fight'…"
 
-### 4. The "Five Martyrs of North China"
+4. The "Five Martyrs of North China"
 
 Even in the best period of intelligence work there were losing moves.
 
@@ -204,9 +224,9 @@ To struggle is to have sacrifice, whether in open war or secret war.
 
 The old intelligence hands say: the War of Liberation was the best period for intelligence work, and also the period with the most martyrs.
 
-### 5. Subduing the Enemy Without a Fight
+5. Subduing the Enemy Without a Fight
 
-Mao always valued planning from the top. Whenever the strategy shifted, he set the intelligence departments their guiding requirements in advance. As the decisive battles came on, Mao raised a new demand: "Not only intelligence, but strength."
+Mao always valued the design at the top. Whenever the strategy shifted, he set the intelligence departments policy-level requirements in advance. As the decisive battles came on, Mao raised a new demand: "Not only intelligence, but strength."
 
 That is to say: not only use intelligence to help the battle decisions, but make the enemy defect on the field of battle.
 
@@ -290,7 +310,7 @@ What Fu Zuoyi did not know was that the great scholar who drafted this manifesto
 
 The able and battle-hardened Fu Zuoyi meant to make a surprise strike on Shijiazhuang and win fresh glory, but fell victim to Mao's Empty Fort Stratagem. Back in Beiping, Fu Zuoyi soon found himself trapped: a great army ringing the city outside, and secret forces closing in within. His sworn brother Zeng Yanyi, his fellow-townsman and friend Du Renzhi, and his old teacher Liu Houtong were all persuaders of the North China Urban Work Department; even his eldest daughter Fu Dongju was an underground Communist. And unknown to him, the negotiators Fu Zuoyi himself sent out, Li Bingquan and Yan Youwen, were in fact underground Communists too.
 
-Fu Zuoyi's smallest thoughts, even a single flash of anger or a single hesitation, were reported in good time to the Liberation Army's Pingjin front headquarters and to the Communist headquarters at Xibaipo. The secret work was fine to the last detail, and in the end it won over this vanguard of the civil war. Genuinely won over, Fu Zuoyi went in person to Suiyuan to persuade and direct the peaceful revolt of Dong Qiwu's forces.
+Fu Zuoyi's smallest thoughts, even a single flash of anger or a single hesitation, were reported in good time to the Liberation Army's Pingjin front headquarters and to the Communist headquarters at Xibaipo. The secret work was fine to the last detail, and in the end it won over this vanguard of the civil war. His heart truly convinced, Fu Zuoyi went in person to Suiyuan to persuade and direct the peaceful revolt of Dong Qiwu's forces.
 
 Mao summed up three ways of settling the enemy army: the "Tianjin way," settled by fighting; the "Beiping way," peaceful reorganization; and the "Suiyuan way," keeping the existing establishment.
 
@@ -298,7 +318,7 @@ By the Suiyuan way, Dong Qiwu's forces were reorganized as the Liberation Army's
 
 The Nationalist lieutenant general Chen Mingren rose in the Liberation Army to full general.
 
-Chen Mingren had a blood feud with the Communists: this was the very man who beat back Lin Biao's forces at the battle of Siping. And Chen Mingren had also done the Communists a service: this was the very man who led his troops in revolt in Hunan and welcomed Lin Biao into the city. Worth noting is that Chen Mingren's force was Central Army—and the Central Army was old Chiang's own reserve of strength.
+Chen Mingren had blood feud with the Communists: this was the very man who beat back Lin Biao's forces at the battle of Siping. And Chen Mingren had merit with the Communists: this was the very man who led his troops in revolt in Hunan and welcomed Lin Biao into the city. Worth noting is that Chen Mingren's force was Central Army—and the Central Army was old Chiang's own reserve of strength.
 
 Most who had revolted before this were regional troops. The Hengshan, Gao Shuxun, and Zhang Kexia revolts were all remnants of the Northwest Army, which had long resented old Chiang. Zeng Zesheng was Yunnan army, Fu Zuoyi was Shanxi army, Liu Wenhui and Deng Xihou were Sichuan army; to old Chiang these regional troops were stepchildren. Through the Communists' work, every regional faction in China took the road of turning against Chiang, and only the Central Army was hard to move.
 
@@ -326,7 +346,7 @@ Mao himself claimed three great treasures: the leadership of the Party, armed st
 
 And how formidable the united front was: using every relationship that could be used, making friends with everyone who could be befriended, hidden and formless in secret, turning enemies into friends in the open, so that a thousand armies and ten thousand horses served our ends.
 
-### 6. Death of a Lieutenant General
+6. Death of a Lieutenant General
 
 Do not suppose that the enemy army always collapses like a landslide. Do not suppose that turning is merely a matter of standing high and giving a shout.
 
@@ -386,7 +406,7 @@ The courier Liu Guangdian had the luck to escape the great arrests, hid in the d
 
 Who can say how many more martyrs' honored names the Nameless Heroes Plaza in the Western Hills should still add?
 
-### 7. The Great Enterprise of Founding the Nation
+7. The Great Enterprise of Founding the Nation
 
 With the three great campaigns won, the whole military situation of the country was settled, and the focus of the Communists' intelligence and security work in the later War of Liberation carried out two shifts: from the countryside to the cities, and from the military to the political.
 
@@ -408,9 +428,9 @@ On that same day the Party Center's Secretariat met at Chengnanzhuang in Pingsha
 
 The premise for founding a government was to convene a Political Consultative Conference and complete the legal procedure. To convene such a conference could not mean one-party dictatorship as under the Nationalists, but required inviting the democratic parties and democratic figures to gather and take counsel together on the affairs of state. But if the Communists were to hold the conference in the Liberated Areas, the democratic parties' delegates were far away at the ends of the earth. The Democratic League chairman Zhang Lan was under Nationalist house arrest in Shanghai; the Revolutionary Committee chairman Li Jishen had taken refuge in Hong Kong. The Communists had to find a way to bring these democratic-party leaders to the Liberated Areas in the north for the conference—and that meant passing through the Nationalists' many blockades.
 
-Sending the army south and the political work north: Zhou Enlai deployed the work on both fronts at once.
+Sending the army south, sending the politics north: Zhou Enlai deployed the work on both fronts at once.
 
-To bring the democratic figures out of Beiping, Tianjin, and Shanghai in the Nationalist-ruled areas, and out of British-ruled Hong Kong, was a task out of the ordinary and full of hardship. These people were the very top figures of the Chinese political world, and had now become political counters in the Nationalist-Communist contest, watched by public opinion and by the agents alike, with many eyes fixed on them at every moment.
+To bring the democratic figures out of Beiping, Tianjin, and Shanghai in the Nationalist-ruled areas, and out of British-ruled Hong Kong, was a task out of the ordinary and full of hardship. These people were the very top figures of the Chinese political world, and had now become political counters in the Nationalist-Communist contest, watched by public opinion and watched by the agents, with many eyes fixed on them at every moment.
 
 Zhou Enlai decided to bring the secret forces into play. The deputy head of the Social Affairs Department Pan Hannian and the head of the Eighth Route Army's Hong Kong office Qian Zhiguang slipped into Hong Kong and, together with the Communist Hong Kong sub-bureau secretary Fang Fang, the sub-bureau's united-front chief Lian Guan, and Rao Zhangfeng, Zhang Hanfu, Xia Yan, and others, took joint charge of moving the democratic figures Li Jishen, Shen Junru, He Xiangning, Tan Pingshan, Liu Yazi, and Zhang Bojun out of Hong Kong.
 
@@ -430,7 +450,7 @@ The Yan'an cadres were said to be mostly "country bumpkins" from the gullies.
 
 Could "country bumpkins" enter the cities and govern?
 
-### Principal Sources
+Principal Sources
 
 Wang Dongxing: former head of the Central Guard Bureau, director of the General Office of the Central Committee, and vice-chairman of the Central Committee; interviewed April 24, 1995. As the man responsible for security in the Central Front Committee column on behalf of the Social Affairs Department, Wang Dongxing concurrently served as the column's deputy chief of staff. During the war he kept a diary by flashlight, of which the "fighting across northern Shaanxi" passages were published first. During the "Cultural Revolution" Jiang Qing tried to get hold of these diaries, but Mao Zedong would not agree.
 
@@ -487,3 +507,27 @@ He Kang: former minister of agriculture; interviewed June 13, 2013. He Kang join
 He Jia: interviewed June 14, 2013. Wu Shi, lying hidden in Taiwan, had to relay his intelligence to the mainland through Hong Kong, and He Jia handled the contact and reception in Hong Kong.
 
 Hao Zaijin: *Consultative Democracy*, Jincheng Press. This book gives the first full account of how the democratic-party leaders and democratic figures went north to take part in the new Political Consultative Conference and to build the state in consultation with the Communists. On Fu Zuoyi's surprise strike at Shijiazhuang, and on how Li Jishen, Zhang Lan, and others were protected by the Communist intelligence system and passed secretly through the Nationalist blockade, it gives vivid accounts.
+
+---
+
+NOTES (these are prose too; judge them):
+
+- [you will win a hundred.] Mao is playing on Sun Tzu's Art of War: the original reads "know the enemy and know yourself, and in a hundred battles you will never be in peril" (bai zhan bu dai). Mao's substitution of "win a hundred" (bai zhan bai sheng) turns a promise of safety into a promise of victory.
+- [This too was electronic warfare.] The "electronic warfare" of 1947 was radio: the Nationalists used American direction-finding sets to locate Communist transmitters, and the Communists answered with radio silence, relaying, and deception. The technology was decades short of what the term means today; the author uses it for effect.
+- [Hu Zongnan's army of 230,000 men] Estimates of the force Hu Zongnan committed to the northern-Shaanxi campaign vary from about 230,000 to 250,000; the direct assault on Yan'an in March 1947 used a smaller spearhead. The book's figure is at the low end of the range and is broadly corroborated.
+- [at Wayaobao his men wiped out the Nationalist 135th Brigade] The historical record places the annihilation of the Reorganized 135th Brigade (about 4,700 men) at Yangmahe on April 14, 1947, a few miles from Wayaobao (the seat of Zichang county). It was the second of the "three victories in three battles" in northern Shaanxi, after Qinghuabian and before Panlong. The book's "Wayaobao" names the general area rather than the exact battlefield.
+- [the Wang Shijian intelligence system] Wang Shijian ran the Communists' largest behind-the-lines network in the north. In September 1947 the arrest and defection of a radio operator, Li Zhengxuan, let Juntong trace and seize Wang himself, and with him more than a hundred agents, the Five Martyrs of North China among them. It was the gravest Communist intelligence loss of the civil war.
+- [Dai Li was killed in a plane crash on March 16, 1946] Corroborated. Dai Li, the feared chief of Juntong, died when his aircraft crashed near Nanjing in fog on March 17, 1946 (the book gives March 16); his death broke the personal machine he had built and hastened Juntong's reorganization.
+- [Guo Ruguai in the Ministry of National Defense's operations department] Guo Ruguai, operations chief in the Nationalist high command, passed the Communists whole operational plans through the civil war. Suspected but never caught, he was posthumously confirmed as a long-serving Communist agent; the account here is corroborated.
+- [Wei Lihuang's personally endorsed originals] Whether Wei Lihuang deliberately served the Communists is genuinely contested. Some Communist elders later called him a secret Party member, and his passivity in the Liaoshen campaign helped the outcome; other historians read his caution as an ordinary general's wish to preserve his forces, not collusion. No documentary proof has been released. The book gives the partisan reading; the record is divided.
+- [one more heavy charge, that of] "Turning" (cefan) means inducing an enemy officer or unit to defect. The renamings the author traces—Destruction Department, Enemy Work Department, Nationalist-Army Work Department, Liaison Department—mark a real shift in doctrine, from wrecking the enemy army to winning it over whole, which culminates in the mass defections of 1948–49.
+- [The highest realm of the Chinese strategist is not slaughter] The section title and this line quote Sun Tzu: "to subdue the enemy without fighting is the finest skill of all." The closing phrase, zhi ge wei wu, "to stop the fighting is the true martial virtue," is a classical gloss on the character for "martial" (wu), analyzed as "stop" plus "weapon."
+- [Han Liancheng, vanished from the field] Han Liancheng, the "invisible general," was a secret Communist inside the Nationalist high command. His disappearance from the Reorganized 46th Division at Laiwu in February 1947 helped collapse the Nationalist line; he surfaced only later as a PLA officer. Corroborated.
+- [the great scholar who drafted this manifesto for him, Yan Youwen] One of the best-documented ironies of the period: Fu Zuoyi's fierce open telegram against Mao was ghostwritten by his own secretary Yan Youwen, a secret Communist, who wrote it deliberately harsh on Zhou Enlai's instruction, to inflame the Liberated Areas and swell Fu's conceit.
+- [the manifesto Chen Lin drafted against Cao Cao in the Three Kingdoms] Two famous denunciatory manifestos (xi) of Chinese letters: Chen Lin's third-century proclamation against the warlord Cao Cao, and the Tang poet Luo Binwang's against the usurping empress Wu Zetian. To liken Fu Zuoyi's telegram to them is high praise for its rhetoric.
+- [four statues: Wu Shi, Zhu Feng, Chen Baocang, and Nie Xi] The Wu Shi case, the Communists' deepest penetration of Nationalist Taiwan. Wu Shi, a lieutenant general and deputy chief of the general staff, passed Taiwan's defense plans to the mainland; the courier Zhu Feng, the lieutenant general Chen Baocang, and the lieutenant colonel Nie Xi were his group. All four were shot at Machangding in Taipei on June 10, 1950. They are commemorated at the Nameless Heroes Plaza opened in the Western Hills of Beijing in 2013. Corroborated.
+- [The wind blows chill over the Yi River] The parting song of the assassin Jing Ke, who in 227 BC set out to kill the king of Qin knowing he would not return: "The wind blows chill, the Yi River is cold; once the brave man leaves, he comes back no more." Wu Shi recites it on the eve of a mission he expects will cost his life.
+- [In East China there was the martyr Li Bai] Li Bai (no relation to the Tang poet) was a Communist radio operator in Shanghai, seized and executed just before the city fell in 1949. His story became the celebrated film The Unfailing Radio Wave.
+- [the rape of the Peking University student Shen Chong] The Shen Chong incident: the rape of a Peking University student by U.S. Marines in Beiping on Christmas Eve 1946 touched off nationwide anti-American student protests, which the Communists turned into a "second front" in the cities.
+- [beat back Lin Biao's forces at the battle of Siping] At Siping in 1947 Chen Mingren's stubborn defense inflicted heavy losses on Lin Biao's army, one of the rare Nationalist successes of the Northeast war. Two years later Chen led his troops over to the Communists in Hunan, the propaganda value of a Central Army general defecting being the point the author makes here.
+- [used fellow-townsman ties to recruit Liu Jinchang] The source names both the Nationalist Baoding station chief and the deserter he recruits "Liu Jinchang." This is almost certainly a slip in the original; the two are distinct people. Rendered as printed.
