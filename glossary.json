@@ -16,7 +16,7 @@
       "status": "decided",
       "principal": true,
       "cast": "CCP youth organizer and editor of China Youth; the man who drew Chen Yangshan to revolution. 1895-1931.",
-      "cast_order": 2
+      "cast_order": 6
     },
     "贺龙": {
       "en": "He Long",
@@ -24,14 +24,17 @@
       "status": "attested",
       "principal": true,
       "cast": "Nanchang Uprising commander whom Chen Yangshan shielded in Shanghai in 1927; later a PLA marshal.",
-      "cast_order": 3,
+      "cast_order": 5,
       "note": "authority.json: agreed 'He Long'."
     },
     "章素贞": {
       "en": "Zhang Suzhen",
       "pinyin": "Zhang Suzhen",
       "status": "decided",
-      "note": "Chen Yangshan's wife; later joined the Central Special Branch."
+      "note": "Chen Yangshan's wife; later joined the Central Special Branch.",
+      "principal": true,
+      "cast_order": 9,
+      "cast": "Chen Yangshan's wife, who later joined the Central Special Branch."
     },
     "任弼时": {
       "en": "Ren Bishi",
@@ -62,7 +65,10 @@
       "en": "Zhou Enlai",
       "pinyin": "Zhou Enlai",
       "status": "attested",
-      "note": "authority.json: agreed 'Zhou Enlai'."
+      "note": "authority.json: agreed 'Zhou Enlai'.",
+      "principal": true,
+      "cast_order": 2,
+      "cast": "Founder and guiding leader of the Party's hidden front, and Chen Yangshan's chief in the Central Special Branch. 1898-1976."
     },
     "李维汉": {
       "en": "Li Weihan",
@@ -84,24 +90,36 @@
       "en": "Chen Geng",
       "pinyin": "Chen Geng",
       "status": "decided",
-      "note": "Ran the Central Special Branch's operations; recruited Zhang Suzhen."
+      "note": "Ran the Central Special Branch's operations; recruited Zhang Suzhen.",
+      "principal": true,
+      "cast_order": 4,
+      "cast": "Ran the Central Special Branch's operations and worked the Tianjin case with Chen Yangshan; later a PLA general. 1903-1961."
     },
     "顾顺章": {
       "en": "Gu Shunzhang",
       "pinyin": "Gu Shunzhang",
       "status": "attested",
-      "note": "authority.json: agreed 'Gu Shunzhang'. His 1931 defection gutted the CCP underground."
+      "note": "authority.json: agreed 'Gu Shunzhang'. His 1931 defection gutted the CCP underground.",
+      "principal": true,
+      "cast_order": 15,
+      "cast": "A Central Special Branch leader whose 1931 defection gutted the Communist underground in Shanghai."
     },
     "鲍君甫": {
       "en": "Bao Junfu",
       "pinyin": "Bao Junfu",
-      "status": "decided"
+      "status": "decided",
+      "principal": true,
+      "cast_order": 10,
+      "cast": "The Central Special Branch's first counter-espionage source, a Kuomintang secret-service insider run by Chen Yangshan."
     },
     "蒋介石": {
       "en": "Chiang Kai-shek",
       "pinyin": "Jiang Jieshi",
       "status": "attested",
-      "note": "authority.json: agreed conventional form 'Chiang Kai-shek'."
+      "note": "authority.json: agreed conventional form 'Chiang Kai-shek'.",
+      "principal": true,
+      "cast_order": 18,
+      "cast": "Leader of the Kuomintang and head of the Nationalist government; the Communists' principal adversary. 1887-1975."
     },
     "汪精卫": {
       "en": "Wang Jingwei",
@@ -162,13 +180,19 @@
       "en": "Kang Sheng",
       "pinyin": "Kang Sheng",
       "status": "decided",
-      "note": "Original name Zhang Zongke; also Zhao Rong. Later head of Party intelligence and security; a principal instrument of the Yan&#8217;an rectification purges and, in the Cultural Revolution, of mass persecutions."
+      "note": "Original name Zhang Zongke; also Zhao Rong. Later head of Party intelligence and security; a principal instrument of the Yan&#8217;an rectification purges and, in the Cultural Revolution, of mass persecutions.",
+      "principal": true,
+      "cast_order": 16,
+      "cast": "Head of Party intelligence and security; an instrument of the Yan'an purges and, later, of Cultural Revolution persecutions, whom Chen Yangshan confronted over murdered comrades. 1898-1975."
     },
     "潘汉年": {
       "en": "Pan Hannian",
       "pinyin": "Pan Hannian",
       "status": "decided",
-      "note": "A leading Communist intelligence figure of the 1930s and 1940s; imprisoned in 1955 on a fabricated charge of treason and rehabilitated only after his death."
+      "note": "A leading Communist intelligence figure of the 1930s and 1940s; imprisoned in 1955 on a fabricated charge of treason and rehabilitated only after his death.",
+      "principal": true,
+      "cast_order": 11,
+      "cast": "A leading Communist intelligence figure of the 1930s and 1940s, jailed in 1955 on a fabricated treason charge and cleared only after his death. 1906-1977."
     },
     "李强": {
       "en": "Li Qiang",
@@ -184,7 +208,10 @@
       "en": "Li Kenong",
       "pinyin": "Li Kenong",
       "status": "decided",
-      "note": "One of the founders of Communist intelligence; after 1949 a deputy chief of the General Staff and the Party&#8217;s senior intelligence official, sometimes called its spymaster."
+      "note": "One of the founders of Communist intelligence; after 1949 a deputy chief of the General Staff and the Party&#8217;s senior intelligence official, sometimes called its spymaster.",
+      "principal": true,
+      "cast_order": 3,
+      "cast": "A founder of Communist intelligence and Chen Yangshan's mentor and 'elder brother'; the Party's spymaster after 1949. 1899-1962."
     },
     "钱壮飞": {
       "en": "Qian Zhuangfei",
@@ -334,7 +361,10 @@
     "徐恩曾": {
       "en": "Xu Enzeng",
       "pinyin": "Xu Enzeng",
-      "status": "decided"
+      "status": "decided",
+      "principal": true,
+      "cast_order": 17,
+      "cast": "Head of the Kuomintang's Central Statistics (Zhongtong) secret service, behind the forged 'Wu Hao Notice' smearing Zhou Enlai."
     },
     "宋再生": {
       "en": "Song Zaisheng",
@@ -728,7 +758,10 @@
       "en": "Chen Kehan",
       "pinyin": "Chen Kehan",
       "status": "decided",
-      "note": "A Communist journalist, one of the Three Chens; later a senior figure at the Xinhua News Agency and a deputy minister of culture."
+      "note": "A Communist journalist, one of the Three Chens; later a senior figure at the Xinhua News Agency and a deputy minister of culture.",
+      "principal": true,
+      "cast_order": 8,
+      "cast": "Communist journalist, one of the 'Three Chens' with Chen Yangshan; later a Xinhua News Agency leader and deputy minister of culture."
     },
     "陈仲英": {
       "en": "Chen Zhongying",
@@ -764,7 +797,10 @@
       "en": "Wang Shiying",
       "pinyin": "Wang Shiying",
       "status": "decided",
-      "note": "A veteran Communist intelligence officer who headed the Central Special Branch in its final phase (1935)."
+      "note": "A veteran Communist intelligence officer who headed the Central Special Branch in its final phase (1935).",
+      "principal": true,
+      "cast_order": 7,
+      "cast": "Veteran intelligence officer who led the Central Special Branch in its final phase and had sent Chen Yangshan to Sichuan and Xi'an."
     },
     "邱吉夫": {
       "en": "Qiu Jifu",
@@ -1383,7 +1419,10 @@
     "韦健": {
       "en": "Wei Jian",
       "pinyin": "Wei Jian",
-      "status": "decided"
+      "status": "decided",
+      "principal": true,
+      "cast_order": 13,
+      "cast": "Communist agent who ran the underground intelligence station inside Yan Xishan's Taiyuan."
     },
     "曹言行": {
       "en": "Cao Yanxing",
@@ -1839,7 +1878,10 @@
       "en": "Lu Nan",
       "pinyin": "Lu Nan",
       "status": "decided",
-      "note": "Codename of the Suiyuan intelligence agent 赵锡鸿 Zhao Xihong, also called 赵孚民 Zhao Fumin; the codename echoes his Shandong origin (Lu = Shandong)."
+      "note": "Codename of the Suiyuan intelligence agent 赵锡鸿 Zhao Xihong, also called 赵孚民 Zhao Fumin; the codename echoes his Shandong origin (Lu = Shandong).",
+      "principal": true,
+      "cast_order": 12,
+      "cast": "Codename of the Suiyuan agent Zhao Xihong, who ran a key Communist network in the Jin-Sui border region; died 1947."
     },
     "赵锡鸿": {
       "en": "Zhao Xihong",
@@ -2914,7 +2956,10 @@
       "en": "Cheng Jianyu",
       "pinyin": "Cheng Jianyu",
       "status": "decided",
-      "note": "Chen Yangshan's eldest son, who gathered these papers. He signs with the family's original surname, Cheng (程), which his father had changed to Chen for underground work."
+      "note": "Chen Yangshan's eldest son, who gathered these papers. He signs with the family's original surname, Cheng (程), which his father had changed to Chen for underground work.",
+      "principal": true,
+      "cast_order": 14,
+      "cast": "Chen Yangshan's eldest son, who preserved and supplied his father's papers; he signs with the family's original surname, Cheng."
     },
     "姚华飞": {
       "en": "Yao Huafei",
@@ -3869,7 +3914,7 @@
       "en": "the Lugou Bridge Incident",
       "pinyin": "Lugouqiao Shibian",
       "status": "decided",
-      "note": "The Marco Polo Bridge Incident, 7 July 1937."
+      "note": "The Marco Polo Bridge Incident, July 7, 1937."
     },
     "整风运动": {
       "en": "the Rectification Movement",

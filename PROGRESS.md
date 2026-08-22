@@ -1236,3 +1236,139 @@ translator's-note sentence, and ch00/ch05-ch11 note-date reformats.
 ### Tooling -- no reverts
 No script changes. Date reformats were a one-off json load/dump (ASCII-only date
 reordering, ensure_ascii=False preserves all CJK).
+
+## Revision R3 (R3): SWEEP ch05-ch11 + APPARATUS -- scope TIER 1+2
+
+Final editing batch of the register/style/apparatus pass (REVISION_PLAN.md),
+scope TIER 1+2. Calibration target: the R1 ch02 / R2 ch01,ch03,ch04 diffs (most
+paragraphs LEAVE; a rewrite that only shuffles synonyms is itself a defect; when
+in doubt keep). Content FROZEN. This batch: 7 prose edits (all ch05) + 1
+note-anchor move; 0 note-body date reformats needed (already compliant); 1
+glossary date reformat; Principal Characters grown 3 -> 18; one translator's-note
+sentence. git diff --stat out/ch05_reading.md = 7 insertions / 7 deletions, zero
+net line change (187 = 187).
+
+### ch05 -- 7 prose edits + 1 note-anchor move (the only R3 chapter with defects)
+ch05 is the last big narrative chapter; ch06-ch11 are near-KEEP (obituary,
+posthumous writings, chronology, references, afterword) and took zero prose
+edits. All edits in edits/ch05_edits.md (apply_edits.py grammar; OLD occurs once
+each).
+- Politburo x2: ch05:42 "the Party's Central Political Bureau" -> "Politburo"
+  (this clause is a NOTE ANCHOR, so a NOTE-ANCHOR pair shipped in the same list);
+  ch05:45 "a provisional Central Political Bureau" -> "Politburo". grep
+  "Political Bureau" now 0.
+- White Terror x1: ch05:81 "in the days of the white terror" -> "White Terror"
+  (the specific post-1927 Shanghai terror of the Gu Shunzhang-defection era;
+  definite named use, not the generic carve-out). grep lowercase "white terror"
+  now 0.
+- litotes x1: ch05:53 "handled no small number of grave matters" -> "a good many
+  grave matters" (narration, not a {v} block).
+- ellipsis in narration x1: ch05:74 trailing "..." after "the War to Resist
+  America and Aid Korea" -> period (plan sec.3.2: narration gets a period, "..."
+  kept only inside quotations the source truncates; this is the career-sweep
+  sentence before "Who was he?"). The note anchor "the Panmunjom talks during the
+  War to Resist America and Aid Korea" is preserved verbatim.
+- 等-tags x2: "and others" dominated ch05's list-closers (~10 hits); fronted two
+  as "among them" appositives reusing the existing em dashes (ch05:17, ch05:26),
+  both spans clear of note AND figure anchors. Other tags (already varied across
+  "and others"/"and the others"/"and the rest") LEFT.
+- LEFT deliberately in ch05: the two 1961 letters and quoted recollections ({v}),
+  the {p} verse, the forged "Notice of Wu Hao and Others" (document title), the
+  13 precepts (Chen's posthumous voice), the single non-dominating "one after the
+  other"/"one by one" pair on ch05:45 (already varied phrasings), all idiomatic
+  "the founding of"/"the gathering of"/"the handling of"/"the raising of"
+  nominalizations, and the author's institutional first person and epithets.
+
+### ch06-ch11 -- zero prose edits (walked the full grep battery; recorded here)
+- ch06: White Terror already capitalized (line 68); "had no choice but to close"
+  is inside a quoted 1988 letter (KEEP); the one litotes "the yield was not small"
+  (line 19) is natural understatement, immediately quantified by "a good deal of
+  ... material," LEFT; 等-tags varied and non-dominating. 0 edits.
+- ch07: the whole obituary (悼词) is a HARD KEEP; both "White Terror" hits already
+  capitalized. 0 edits.
+- ch08: Chen's posthumous writings (13 precepts + 36-item outline + dry first
+  person) are a HARD KEEP; the sentence-initial numerals are his numbered lists
+  (structural). 0 edits.
+- ch09: the chronology (年谱) is a structural table (year entries "1913 (age 7)");
+  "White Terror" (line 16) already capitalized. 0 edits.
+- ch10: References (bibliography); "White Terror" appears only inside a cited book
+  title, already capitalized. 0 edits.
+- ch11: the Afterword (author's own closing) reads as natural, warm English; the
+  three "and others" are natural name-list closers / "others like him"; "the
+  Writing of" (line 3) is a document title. 0 edits.
+
+### Apparatus (plan sec.6)
+- Note-date reformats (ch00, ch05-ch11): NONE required. Every month-bearing date
+  in these chapters' note bodies is already Month D, YYYY or Month YYYY (e.g.
+  "January 17, 1931", "February 7", "January 28, 1932", "October 7, 1906"); no
+  D-Month-YYYY (day-first) or bare day-month forms remained. The R0 outliers were
+  all in ch01-ch04, cleared in R1/R2. Verified by regex scan; logged as a no-op.
+- Glossary date reformat x1: events/卢沟桥事变 note "The Marco Polo Bridge
+  Incident, 7 July 1937." -> "..., July 7, 1937." Done by a targeted ASCII
+  substring replace (not a heredoc; count-checked == 1); values unchanged, JSON
+  re-validated. This was the one glossary D-Month-YYYY row the plan named.
+- Principal Characters page grown 3 -> 18. Flagged the recurring cast in
+  glossary.json with "principal": true + a one-line "cast" + "cast_order": Chen
+  Yangshan (1), Zhou Enlai (2), Li Kenong (3), Chen Geng (4), He Long (5), Yun
+  Daiying (6), Wang Shiying (7), Chen Kehan (8), Zhang Suzhen (9), Bao Junfu (10),
+  Pan Hannian (11), Lu Nan (12), Wei Jian (13), Cheng Jianyu (14), Gu Shunzhang
+  (15), Kang Sheng (16), Xu Enzeng (17), Chiang Kai-shek (18). Pure glossary edit;
+  cast one-liners drawn from each row's existing note and the book, dates only
+  where well established. The built characters.xhtml renders 18 castrows.
+- Translator's-note sentence added (book.json translator_note para 2, mapped to
+  translator_note_paragraphs by the builder): one sentence stating that the book's
+  institutional first person ("our Party", "we") and its partisan epithets
+  ("traitors", "running dogs", "reactionaries") are the author's own voice, kept
+  deliberately rather than softened, with the historical verdicts left to the
+  notes. Rendered (backmatter.xhtml) and typographized correctly.
+
+### Verification (plan sec.2, mechanical-chapter path)
+- Parity by construction: ch05 187 = 187 lines; git diff --stat 7 ins / 7 del,
+  zero net line change (all in-place substitutions or same-line phrase recasts).
+- Anchors: all 47 ch05 note anchors (after the 1 move) and all 17 ch05 figure
+  before-anchors still verbatim substrings post-edit; the builder's anchor-refusal
+  backstop passed (built 12/12, 432 notes). check_apparatus 0 failures / 0
+  warnings.
+- Numbers: no digit appears in any OLD/NEW in edits/ch05_edits.md, so no numeral
+  can change; the glossary date reorder changed no value; data/zh gitignored
+  (mechanical path), so no bilingual number run.
+- Typography guard: ch05 non-ASCII inventory unchanged (U+2014 x41, U+00FC x1);
+  no curly quote or ellipsis character introduced into any reading file; the two
+  等 recasts reuse pre-existing em dashes and introduce none.
+- Build: 12/12, 432 notes, 0 pagebreaks; qa_epub PASS (104 files, 19 documents,
+  432/432/432 notes resolve, all links resolve); epubcheck 5.1.0 = 0 fatals / 0
+  errors / 0 warnings.
+- EPUB 28.6 MiB (under the 30 MiB chat limit; MAX_FIG_WIDTH=1000 held).
+- Register: check_register out/ch05_reading.md --ref out/ch01_reading.md within
+  tolerance (contr 4.1/1k, em-dash 2.9/1k, rhythm 0.62; roster-heavy chapter,
+  little dialogue -- matches the B07 ch05 baseline).
+
+### Spot-audit (plan sec.5 step 5)
+Reviewed 100% of the 7 edited ch05 paragraphs OLD->NEW in context (well over the
+10%/min-10 bar): two Politburo terminology substitutions, one White Terror
+capitalization, one litotes flip, one narration ellipsis -> period, and two 等
+appositive recasts that preserve every name and add/drop none. None alters the
+translation's relationship to the source; parity + the semantic-equivalence
+review is the appropriate audit (data/zh gitignored; mechanical path). Zero
+meaning drift found.
+
+### KEEP-list sweep (plan sec.3.3)
+Diff sweep confirms: no {v}/{p}/{d}/{g}/*** line changed in ch05; ch07 obituary,
+ch08 precepts/outline, and all verse untouched (0 prose edits in ch06-ch11); the
+author's institutional first person and partisan epithets are preserved (the
+translator's-note sentence names them as deliberately kept, not neutralized);
+every decided glossary rendering stands.
+
+### Deliverables
+edits/ch05_edits.md; out/ch05_reading.md (7 lines touched); notes.json (1 anchor
+move); glossary.json (1 date reformat + 18 principal flags); book.json
+(translator's-note sentence); out/chen-yangshan.epub rebuilt (committed).
+R3 completes the chapter sweep of the revision pass; all 12 units now swept
+(R1 ch02, R2 ch01/ch03/ch04, R3 ch05 + the ch06-ch11 zero-edit walk) plus the
+apparatus mechanics. Remaining: R-final (whole-book regression + reconcile +
+register table + CHANGELOG + COMPLETION addendum + final EPUB commit).
+
+### Tooling -- no reverts
+No script changes. The glossary date reformat and principal flags were a
+targeted string replace + a json load/dump (indent=2, ensure_ascii=False, CJK
+preserved); the translator's-note sentence was a targeted book.json edit.
