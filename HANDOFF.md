@@ -1,9 +1,60 @@
-# HANDOFF — Nameless Heroes (英雄无名), Chen Gongshu — **COMPLETE**
+# HANDOFF: Nameless Heroes (英雄无名), Chen Gongshu. REGISTER REVISION PASS IN PROGRESS
 
-**THE BOOK IS FINISHED. This is the completion notice, not a next-batch
-kickoff. There is no next batch. Do not reopen this file to start new work; a
-correction pass, if ever needed, is governed by `CORRECTIONS.md`, not by a
-kickoff here.**
+**The translation is COMPLETE (the record is preserved below), and the
+commissioner has ordered a whole-book REGISTER REVISION PASS. The authority
+for the pass is `REVISION_PLAN.md`; where it and this file disagree, the plan
+wins. Batches R1 through R13 run per the plan's §8 schedule; each batch
+session updates the kickoff block below for the next one.**
+
+## Message to paste into the next chat
+
+```
+Nameless Heroes R01: register revision pass, EXEMPLAR batch (ch06) + gate
+
+Branch: claude/nameless-heroes ONLY. First acts: git fetch origin
+claude/nameless-heroes && git checkout claude/nameless-heroes && git reset
+--hard origin/claude/nameless-heroes. If the harness started you on a stray
+branch, consolidate and delete it per CLAUDE.md rule 2. Never fetch, check
+out, read, or diff any other branch; REVISION_PLAN.md is self-contained.
+
+Read CLAUDE.md, then REVISION_PLAN.md IN FULL (it is the authority for this
+pass), then run ./setup.sh.
+
+Scope this batch: ch06 ONLY, the exemplar. Content is frozen;
+English-to-English register edits only, per REVISION_PLAN.md §3 (defect
+classes T1-T6, KEEP list) and §5 (method, exactly):
+1. Tic battery before (bash scripts/revision_tics.sh ch06); read zh/en
+   aligned; triage LEAVE/TOUCH/RECAST; write edits/ch06_edits.md; apply via
+   scripts/apply_edits.py ch06.
+2. Seed the voice sheets into REVISION_PLAN.md §3.4 as you meet the
+   speakers.
+3. verify_unit ch06; tic battery after; tail check against the source;
+   spot-audit 10% of edited paragraphs.
+4. Blind-critique the REVISED chapter (plan §5 step 6); adjudicate
+   ACCEPT/REJECT-with-reason in PROGRESS.md; fold real findings into the
+   edits and the plan's §3.5.
+5. Freeze the revised ch06 as reference/R1_frozen.md; smoke-test
+   scripts/check_register.py --ref reference/R1_frozen.md.
+6. Rebuild, qa_epub green, update PROGRESS.md and this HANDOFF kickoff,
+   commit, push.
+
+Then STOP at the exemplar gate (REVISION_PLAN.md §9): the final reply
+presents 8-12 before/after excerpt pairs spanning T1-T6, the ch06 tic
+before/after table, the rebuilt EPUB ATTACHED, and the R2 kickoff (plan §11
+canon, scope ch07 + ch08) pasted VERBATIM in a fenced code block. Do NOT
+begin R2. The commissioner either pastes the R2 kickoff into a fresh chat
+(approval) or types corrections in this chat; corrections become §3.5 rules,
+ch06 is re-revised and re-presented here.
+```
+
+---
+
+# Completion record (pre-revision, preserved)
+
+**THE TRANSLATION IS FINISHED. What follows is the completion notice from
+B36, kept for the record; the revision pass above supersedes its "no next
+batch" instruction. A correction pass, if ever needed, is still governed by
+`CORRECTIONS.md`.**
 
 The full completion report is `COMPLETION.md`; read that for the detail. This
 page is the one-screen summary.
