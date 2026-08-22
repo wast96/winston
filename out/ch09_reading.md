@@ -72,7 +72,7 @@ On December 6 the Central General Study Committee issued its "Circular Against t
 
 Was it by design that the case-cracking and the Rectification ran together?
 
-Rectification was carried out to a plan; the Dai case surfaced by chance. Who could have ordered Wu Nanshan to confess of his own accord in October 1940? Who could have appointed Cheng Muyi to send Qi Sanyi to Yan'an in October 1941?
+Rectification was carried out to a plan; the Dai case surfaced by chance. No one had ordered Wu Nanshan to confess of his own accord in October 1940; no one had appointed Cheng Muyi to send Qi Sanyi to Yan'an in October 1941.
 
 Yet the later cracking of the case was driven by plan. The mass roundup of May 1942 above all was the leadership's own choice of the moment. The explanation given at the time was that the situation had grown tense and the net had to be drawn in without delay.
 
@@ -112,9 +112,9 @@ Lin Lifu had been a "long-term resident" there since 1939. In Shanghai he had be
 
 The affairs of the white-area Party, and of the Shanghai underground in particular, were tangled indeed. The case dragged on unresolved, and Lin Lifu stayed in Border Security custody. Later a man named He Guiren was locked in the same cave dwelling.
 
-He Guiren's family background was more tangled still. His grandfather had been Zhang Taiyan's teacher, his father a Hanlin scholar of the Qing; he himself was born in England and had, while working in the white areas, once helped rescue Liu Shaoqi and Kang Sheng. In 1934 He Guiren went abroad, took a doctorate in law, and traveled through Europe and America; in 1937 he led a group of returning students home to join the war, reaching Yan'an in 1938. A man of great learning, he was chosen as one of Mao Zedong's secretaries. He wrote a novel that glanced at Jiang Qing, sensed his own footing turning treacherous, and asked to be transferred out of Yan'an to the Nationalist areas. Just as he was boarding the vehicle with his wife and children, Kang Sheng ordered him held. Kang Sheng's explanation: a telegram had come from the Nationalist areas saying there was an international figure in Yan'an to be arrested. Soon enough it was found the arrest was a mistake, but Kang Sheng then said He Guiren had too many ties in the Nationalist areas, and his going out would do harm. So He Guiren stayed on in Border Security custody for years. Later Britain's Reuters offered him charge of its North China news agency, and his father took a post at the American State Department. Kang Sheng then demanded that He Guiren confess to being an agent.
+He Guiren's family background was more tangled still. His grandfather had been Zhang Taiyan's teacher, his father a Hanlin scholar of the Qing; he himself was born in England and had, while working in the white areas, once helped rescue Liu Shaoqi and Kang Sheng. In 1934 He Guiren went abroad, took a doctorate in law, and traveled through Europe and America; in 1937 he led a group of returning students home to join the war, reaching Yan'an in 1938. A man of great learning, he was chosen as one of Mao Zedong's secretaries. He wrote a novel that glanced at Jiang Qing, sensed his own footing turning treacherous, and asked to be transferred out of Yan'an to the Nationalist areas. Just as he was boarding the vehicle with his wife and children, Kang Sheng ordered him held. Kang Sheng's explanation: a telegram had come from the Nationalist areas saying there was an international figure in Yan'an to be arrested. Soon enough it was found the arrest was a mistake, but Kang Sheng then said He Guiren had too many ties in the Nationalist areas, and his going out would do harm. So He Guiren stayed on in Border Security custody for years. Later Britain's Reuters offered him charge of its North China news agency, and his father took a post at the U.S. State Department. Kang Sheng then demanded that He Guiren confess to being an agent.
 
-In the old cases there was also one Wang Wenyuan. This Wang Wenyuan, who had joined the revolution in 1927, was originally a Special Branch man; after the Shanghai Special Branch collapsed, he made his way to Yan'an. Just then Wang Ming's wife, Meng Qingshu, also arrived in Yan'an, and the name Wang Wenyuan pricked her ears at once: China's Trotskyite organization had a Central Committee member by exactly that name!
+In the old cases there was also one Wang Wenyuan. This Wang Wenyuan, who had joined the revolution in 1927, was originally a Special Branch man; after the Shanghai Special Branch collapsed, he made his way to Yan'an. Just then Wang Ming's wife, Meng Qingshu, also arrived in Yan'an, and the name Wang Wenyuan caught her attention at once: China's Trotskyite organization had a Central Committee member by exactly that name.
 
 This Wang Wenyuan was not that Wang Wenyuan. The Yan'an Wang Wenyuan's real name was Jin Shuwang; his elder brother Jin Cheng was head of the Border Region's liaison office, and his uncle by marriage, Xuan Xiafu, was also a Special Branch man. The Shanghai Wang Wenyuan really was a Trotskyite Central Committee member; his real name was Wang Fanxi. The two Wang Wenyuans were nothing but namesakes. Yet even knowing they had the wrong man, those above would not let him go.
 
@@ -136,7 +136,7 @@ The Party Center sent a five-man group under Chen Yun to investigate and settle 
 
 A "Trotskyite" meant a member of the "Trotskyist Opposition." This faction, native to the Soviet Union, was slight in China both in numbers and in reach. So why would cadres in China's Huxi go "subjectively exaggerating the strength of the Trotskyites"?
 
-Fairly stated, China's war years were a tangled affair. Some Trotskyites opposed the Nationalist-Communist alliance, declaring that to oppose the Nationalists was revolution while to resist Japan was not. Such an extreme "Left" stance was hard to make sense of, and one could not help wondering whether Japanese agents worked behind it. The struggle in Shandong was cruel beyond the ordinary; there was even a case in which a sub-district commander set up his own mountain kingdom and murdered his political commissar.
+Fairly stated, China's war years were a tangled affair. Some Trotskyites opposed the Nationalist-Communist alliance, declaring that to oppose the Nationalists was revolution while to resist Japan was not. Such an extreme "Left" stance was hard to make sense of, and it was worth wondering whether Japanese agents worked behind it. The struggle in Shandong was cruel beyond the ordinary; there was even a case in which a sub-district commander set up his own mountain kingdom and murdered his political commissar.
 
 The blame for subjectively exaggerating the strength of the Trotskyites falls plainly to Kang Sheng.
 
@@ -152,7 +152,7 @@ From the suspects in Yan'an's old cases one can pick out a common thread: all ca
 
 When the relevant organs vetted a cadre, they had to establish his family origins, his own record, and his social ties. The "base-area cadres" mostly came of worker or peasant stock, had grown up on the spot, and were of clear provenance. But of some of the "outside cadres" the security organs knew rather little. Most of these came from what used to be called the "white areas," the "Nationalist areas," were of the upper strata of society, some with overseas connections, and had comparatively tangled records; naturally they became the focus of the security organs' scrutiny. Outside intellectual cadres like Cai Ziwei and Li Qiming had already fallen under suspicion in the Shaanbei purge.
 
-In the early years of the war more and more educated young people threw in their lot with Yan'an, and among them were no few of tangled record. So, were there agents among these people?
+In the early years of the war more and more educated young people threw in their lot with Yan'an, and among them were quite a few of tangled record. So, were there agents among these people?
 
 If the residents of the old cases were no more than "suspects," the newly arrived guests were "agents" confirmed.
 
@@ -172,15 +172,15 @@ The shame of it! At school Wang Zunji could not face anyone, and, unwilling to g
 
 Wang Zunji, arriving happily in Yan'an, was sent straight to the Border Region Security Office to be examined. No sooner had she left the Jizhong rear office than a Nationalist force struck it, calling by name for the rescue of Wang Zunji. This one was a great traitor's niece, and she could work a wireless set besides: worth pursuing.
 
-The young Wang Zunji could not stand up to the intimidation, and she had to invent lies to get through. And so the stories she had heard and the novels she had read became the stuff of her confession. The Japanese agent Wang Zunji had put out poison; she had signaled Japanese aircraft with a lantern to bomb Shanghai's Nanjing Road; her signals to the Nationalist secret service were knitted into a sweater!
+The young Wang Zunji could not stand up to the intimidation, and she had to invent lies to get through. And so the stories she had heard and the novels she had read became the stuff of her confession. The Japanese agent Wang Zunji had put out poison; she had signaled Japanese aircraft with a lantern to bomb Shanghai's Nanjing Road; her signals to the Nationalist secret service were knitted into a sweater.
 
-North China's number-one traitor had an agent ring inside the Jizhong base area! The security people believed they had caught a great double agent, Nationalist and Japanese both.
+North China's number-one traitor had an agent ring inside the Jizhong base area. The security people believed they had caught a great double agent, Nationalist and Japanese both.
 
 The "three great agents" set Yan'an buzzing, and yet all three cases wanted for evidence. It is easy to suspect; hard to unsuspect. The Border Region's security organs had limited means of reaching outside, and it was hard to verify anything in the Nationalist areas. So the "three great agents" stayed locked up under examination.
 
-The fourth great agent was more startling still, and dragged in a many-province "Red-Flag Party"!
+The fourth great agent was more startling still, and dragged in a many-province "Red-Flag Party".
 
-At the very crux of Yan'an's Rectification, at the very moment the Border Security drew in its net on the Hanzhong class, on May 26, 1942, Zhou Enlai reported an emergency from Chongqing: the Communists' Southern Committee had been wrecked by Nationalist agents! Its deputy secretary Zhang Wenbin, its member Liao Chengzhi, and more than twenty other senior cadres were arrested, and the underground Party in Guangdong and Guangxi was gravely damaged.
+At the very crux of Yan'an's Rectification, at the very moment the Border Security drew in its net on the Hanzhong class, on May 26, 1942, Zhou Enlai reported an emergency from Chongqing: the Communists' Southern Committee had been wrecked by Nationalist agents. Its deputy secretary Zhang Wenbin, its member Liao Chengzhi, and more than twenty other senior cadres were arrested, and the underground Party in Guangdong and Guangxi was gravely damaged.
 
 Nationalist agents in Ji'an, Jiangxi, had stopped and searched travelers and pounced on two young women. Now that Nationalists and Communists were allied against Japan, they said, every Communist must support the government, and secret work like theirs was illegal. This line left the two peasant women at a loss, and they admitted they were underground couriers for the Communists. Following the vine to the melon, Zhongtong seized seventeen members of the Communists' southwest-Jiangxi special committee, and without alarming a soul.
 
@@ -190,11 +190,11 @@ To reach the provincial committee's seat at Yangxi Mountain, one had to be guide
 
 In January 1942 Li Zhaoxian lured the provincial-committee leaders Xie Yucai and Luo Qiding down the mountain to visit their wives, and Zhongtong pounced on the pair at once. With his wife near term, Xie Yucai reluctantly signed a bond, and Luo Qiding offered to lead them to the Southern Bureau. Zhongtong meant to use this tie to get into the Southern Bureau, but Luo Qiding and his wife slipped away in the dark of night. Reckoning that Luo Qiding would not dare go back and report to the provincial committee, Zhongtong laid a further plan: it used Old Iron-Crutch to lure more than forty of the committee's people down the mountain in batches, and received them under the pretense of united-front ties. The committee's secret wireless up the mountain was worked by a husband and wife, and when childbirth forced them down, they were installed with the agents. Zhongtong sent a woman agent to tend the new mother with care, and only once feeling had ripened did it strike in the open. By this cunning method Zhongtong won over the underground Communists in its net one by one, then had the turncoats do the persuading, until step by step it turned the committee's leaders and its guards, and even the Red Army wireless operator and cipher clerk sent from Yan'an gave themselves up. Huang Luping, secretary of the southwest-Jiangxi special committee, after his own defection even helped Zhongtong lay its plans and take control of the county organizations under the committee.
 
-Through 1942 the forty-four county committees and more than two hundred district committees under the Communists' Jiangxi Provincial Committee were all wrecked; over two thousand Party members were arrested and over two thousand rural Party members put under "supervised training," and all the while the higher organ far off in Guangdong, the "Southern Committee," knew nothing of it!
+Through 1942 the forty-four county committees and more than two hundred district committees under the Communists' Jiangxi Provincial Committee were all wrecked; over two thousand Party members were arrested and over two thousand rural Party members put under "supervised training," and all the while the higher organ far off in Guangdong, the "Southern Committee," knew nothing of it.
 
 Zhongtong then laid plans to work upward, meaning to wreck all the Communists' organization in the south and reach at last into the Yan'an Center. The Jiangxi Provincial Committee's wireless, now under Zhongtong's control, suddenly called the Southern Committee's set, claiming it had just been repaired and asking besides for Yan'an's call sign and wavelength. The "Southern Committee" was a body under the Communists' Southern Bureau, charged with the southeast and the south. Wary that the Jiangxi station had gone silent for three or four months, the Southern Committee's secretary Fang Fang sent his organization chief Guo Qian to Jiangxi to check, and sent Provincial Committee secretary Xie Yucai a coded letter in plain-language cipher.
 
-Seeing the Southern Committee in danger, Xie Yucai flung down his infant and leapt out a window to flee. Judging it could no longer play the long game of penetration, Zhongtong at once sent men to move ahead of Xie Yucai. On May 26 Fang Fang learned what Xie Yucai had reported and wired Guo Qian. Guo Qian was arrested before he could decode it, turned that same night, and the next day led agents to arrest the northern-Guangdong provincial secretary Li Dalin and others!
+Seeing the Southern Committee in danger, Xie Yucai flung down his infant and leapt out a window to flee. Judging it could no longer play the long game of penetration, Zhongtong at once sent men to move ahead of Xie Yucai. On May 26 Fang Fang learned what Xie Yucai had reported and wired Guo Qian. Guo Qian was arrested before he could decode it, turned that same night, and the next day led agents to arrest the northern-Guangdong provincial secretary Li Dalin and others.
 
 When Zhou Enlai saw Fang Fang's wire, his face changed, and he kept saying, this is bad. He thought a moment, then had Tong Xiaopeng wire the Southern Committee at once: Liao Chengzhi, then at the committee's seat in Qujiang, was to come to Chongqing at once, or else stay at the home of his mother, He Xiangning.
 
@@ -208,7 +208,7 @@ Zhongtong had broken the underground organizations of the Communists across thre
 
 Zhou Enlai rebuilt with painstaking care, re-forming a Guangdong provisional provincial committee at the end of 1942 and reviving organizational work everywhere by 1944. When the Japanese drove open the Canton-Hankou railway, the Communists' underground in the south again roused the people to resist, and played a great part.
 
-The lesson of the Southern Committee's undoing was staggering: a whole provincial committee, Jiangxi's, in the grip of the Nationalist secret service!
+The lesson of the Southern Committee's undoing was staggering: a whole provincial committee, Jiangxi's, in the grip of the Nationalist secret service.
 
 There is the enemy within our ranks, and our own within the enemy's; even a familiar comrade could not be wholly trusted, and denouncing agents became a chief occupation in Yan'an. The Social Affairs Department received a flood of denunciation letters daily, and among them one forwarded from the Lu Xun Academy of Arts denounced Zhang Keqin as an agent. Just then the Social Affairs Department was itself looking into the man. After Zhang Keqin transferred from Lanzhou to Yan'an, his father and his wife, who had joined the Party at the same time as he, were arrested and turned, and the Gansu Work Committee was wrecked soon after. There were leads, too, that Zhongtong agents were working to turn Zhang Keqin.
 
@@ -220,7 +220,7 @@ Under three days and three nights of unbroken interrogation, Zhang Keqin, who at
 
 Kang Sheng at once made Zhang Keqin the model of the "four great agents" and promoted him everywhere.
 
-The vetting for the "Red-Flag Party" soon spread to the Communists' underground organizations across every Nationalist-area province: Gansu, Henan, Shaanxi, Sichuan, Hunan, Hubei, Yunnan, Guizhou, Zhejiang, Guangxi, and more, all had their "Red-Flag Party," and most of the Communists' white-area organizations were held to be tainted!
+The vetting for the "Red-Flag Party" soon spread to the Communists' underground organizations across every Nationalist-area province: Gansu, Henan, Shaanxi, Sichuan, Hunan, Hubei, Yunnan, Guizhou, Zhejiang, Guangxi, and more, all had their "Red-Flag Party," and most of the Communists' white-area organizations were held to be tainted.
 
 During the Yan'an cadre vetting, the suspicion of the white-area Party, the suspicion of the outside intellectuals, reached a pitch to freeze the blood.
 
@@ -256,11 +256,11 @@ Ren Bishi set out the Center's decision: "We should give these young people, who
 
 This policy toward agents was plainly more lenient, more enlightened, than the purges of counter-revolutionaries and of Trotskyites before it.
 
-In the past, agents were locked up as a rule and mostly beheaded; now they were allowed to turn over a new leaf!
+In the past, agents were locked up as a rule and mostly beheaded; now they were allowed to turn over a new leaf.
 
 Every organ in Yan'an at once began a movement to confess.
 
-April had barely passed when, in May 1943, the Comintern declared its own dissolution!
+April had barely passed when, in May 1943, the Comintern declared its own dissolution.
 
 Stalin hoped by this to reassure the West and to spur America to open a second front against Germany.
 
@@ -302,7 +302,7 @@ Kang Sheng struck a figure that stayed with his hearers: "A child slips and fall
 
 Rescue? Which of those who have fallen in does not long to be rescued?
 
-Zhang Keqin, planted in advance, went up first to confess and lead the way. One after another, people who had already confessed went up again, denouncing their own crimes in tears. Some were driven up onto the platform; but the very passivity of these only proved the more how necessary the rescue was. And so confession became, of all things, a "conscious" act; people vied to get up on the platform, vied to speak, vied to clap the agent's cap onto their own heads!
+Zhang Keqin, planted in advance, went up first to confess and lead the way. One after another, people who had already confessed went up again, denouncing their own crimes in tears. Some were driven up onto the platform; but the very passivity of these only proved the more how necessary the rescue was. And so confession became, of all things, a "conscious" act; people vied to get up on the platform, vied to speak, vied to clap the agent's cap onto their own heads.
 
 Who would not long to be "rescued"...
 
@@ -310,7 +310,7 @@ Who would not long to be "rescued"...
 
 The day after Kang Sheng's speech, every organ in Yan'an began its own roaring "rescue." Party, government, army, people, schools, all were to hold "rescue rallies." From this the "cadre-vetting campaign" turned into the "Rescue Campaign."
 
-Every circle in Yan'an had its Nationalist agents; whoever did not believe it, Kang Sheng would pull one out of his very organ! Kang Sheng's pockets were full of magic weapons like the Heaven-Toppling Seal: a list of 450 agents, of whom 33 came from the "Dai case" alone! At the Zaoyuan confession rally the "Dai case" agent Hu Shiyuan spoke amid streaming tears, laying out the agent work of his own cell inside the Second Bureau, and threw the whole hall into an uproar. Walking into a unit, Kang Sheng could actually call out a name on the spot, and a "Dai case" man would rise in answer; this cowed the leaders of every unit, and no one dared fail to find an agent in his own.
+Every circle in Yan'an had its Nationalist agents; whoever did not believe it, Kang Sheng would pull one out of his very organ. Kang Sheng's pockets were full of magic weapons like the Heaven-Toppling Seal: a list of 450 agents, of whom 33 came from the "Dai case" alone. At the Zaoyuan confession rally the "Dai case" agent Hu Shiyuan spoke amid streaming tears, laying out the agent work of his own cell inside the Second Bureau, and threw the whole hall into an uproar. Walking into a unit, Kang Sheng could actually call out a name on the spot, and a "Dai case" man would rise in answer; this cowed the leaders of every unit, and no one dared fail to find an agent in his own.
 
 "Yan'an's New Market has become an agents' market!"
 
@@ -320,7 +320,7 @@ Every circle in Yan'an had its Nationalist agents; whoever did not believe it, K
 
 The Rescue Campaign swept forward like a whirlwind, and in a dozen days had taken the whole town of Yan'an by storm.
 
-An invisible great contest of rescue took shape inside Yan'an and out; every organ and unit vied to catch agents, and agents duly arose to be caught, more and more of them, until in a dozen days over 1,400 had been seized!
+An invisible great contest of rescue took shape inside Yan'an and out; every organ and unit vied to catch agents, and agents duly arose to be caught, more and more of them, until in a dozen days over 1,400 had been seized.
 
 To confirm an agent still called for a legal procedure.
 
@@ -340,7 +340,7 @@ By the rules, beating and cursing, corporal punishment, disguised corporal punis
 
 It seems the leadership's read of a campaign's temper shaped the means of interrogation too. When a campaign was launched, the stress fell on not being so lenient as to slacken repression; when it crested, breaches of discipline in interrogation might be indulged as "the ardor of the masses"; and in a given unit, unlawful and undisciplined methods might even be encouraged, by a leader of lower caliber, as "effective means."
 
-For the unlawful and undisciplined excesses that arose within a campaign, the Communists had a summary all their own: "coerce, confess, believe"!
+For the unlawful and undisciplined excesses that arose within a campaign, the Communists had a summary all their own: "coerce, confess, believe".
 
 This was Mao Zedong's own coinage. The Party Center's "Decision on Vetting Cadres" held that its nine-point policy "stands fundamentally opposed to the mistaken purge line committed in many places during the civil-war years. That mistaken line, put simply, comes down to three words: coerce, confess, believe. The interrogator uses corporal punishment, disguised corporal punishment, and other means of coercion on agents and suspects; the interrogated then confesses wildly and at random, framing good people; and the interrogator and those in charge then believe, without a second thought, this utterly unreliable testimony, and go arresting, beating, and killing at random."
 
@@ -362,7 +362,7 @@ A lone person under examination had no way to prove the major premise, the Red-F
 
 Analyzing an agent. And while they analyzed, they would not hear your defense.
 
-When Su Ping was "analyzed" into an agent, they analyzed it thus: you came to Yan'an from the Nationalist areas, so the travel pass for your road was surely one the Nationalists issued. How were these red-area cadres, who had never gone far from home, to know that outside you simply bought a ticket to ride? They analyzed again: the Shaanxi Party is a Red-Flag Party, and you are an underground member, so you must be a Nationalist agent. It never occurred to these cadres from elsewhere that, if the Shaanxi Party were a Red-Flag Party, how could the Center, come to Shaanbei on the Long March, have found any footing? They analyzed again: your cousin is a secretary-general at a Nationalist county Party office, so your coming to Yan'an must mean the Nationalists sent you in as an agent! It never crossed the minds of these cadres of clean worker-peasant stock that drawing in people of every origin was the very charm of a revolutionary party!
+When Su Ping was "analyzed" into an agent, they analyzed it thus: you came to Yan'an from the Nationalist areas, so the travel pass for your road was surely one the Nationalists issued. How were these red-area cadres, who had never gone far from home, to know that outside you simply bought a ticket to ride? They analyzed again: the Shaanxi Party is a Red-Flag Party, and you are an underground member, so you must be a Nationalist agent. It never occurred to these cadres from elsewhere that, if the Shaanxi Party were a Red-Flag Party, how could the Center, come to Shaanbei on the Long March, have found any footing? They analyzed again: your cousin is a secretary-general at a Nationalist county Party office, so your coming to Yan'an must mean the Nationalists sent you in as an agent. It never crossed the minds of these cadres of clean worker-peasant stock that drawing in people of every origin was the very charm of a revolutionary party.
 
 Since it was analysis, it needed no evidence.
 
@@ -374,7 +374,7 @@ A man who had joined no agent organization was an agent, a man who had done no a
 
 Everyone who lived through it could tell several tales of the "Rescue Campaign," stories so absurd they might be jokes.
 
-In every age and every land, the chronic disease of the police and security trade is just this: "coerce, confess, believe"!
+In every age and every land, the chronic disease of the police and security trade is just this: "coerce, confess, believe".
 
 This old ailment turns malignant in the heat of a campaign. The coerced confessions of the Rescue Campaign manufactured more and more agents.
 
@@ -396,21 +396,21 @@ Pan Hannian, deputy head of the Social Affairs Department, who had long directed
 
 The decline of intelligence work told in turn on security work. In the past the Social Affairs Department and the Border Security could, through moles planted inside the Nationalist secret services, keep track of the agents sent into the Border Region. Now that most of the moles were cut off, this way of countering agents became hard to work.
 
-A mass anti-agent campaign could, of course, partly halt the Nationalist agents' work in Yan'an. Yet the Nationalists could still get Border Region intelligence through special channels. On March 31, 1944, Zhongtong's Unity Press brought out a book, *The Inside Story of the Recent Inner-Party Struggle of the Chinese Communists*, drawing heavily on the Social Affairs Department's internal journal *Anti-Traitor Experience*; and one Guo Hualun then wrote his *A History of the Chinese Communists* on the strength of it, this Guo Hualun being none other than the great turncoat Guo Qian!
+A mass anti-agent campaign could, of course, partly halt the Nationalist agents' work in Yan'an. Yet the Nationalists could still get Border Region intelligence through special channels. On March 31, 1944, Zhongtong's Unity Press brought out a book, *The Inside Story of the Recent Inner-Party Struggle of the Chinese Communists*, drawing heavily on the Social Affairs Department's internal journal *Anti-Traitor Experience*; and one Guo Hualun then wrote his *A History of the Chinese Communists* on the strength of it, this Guo Hualun being none other than the great turncoat Guo Qian.
 
 A campaign got up to hunt traitors had instead brought intelligence work to a stop; and the decline of intelligence work had in turn hampered security work. A campaign run this way not only disrupted the hunt for traitors, it harmed the whole of the Party's work.
 
-A political campaign that told against the great cause of the revolution could not but draw doubt.
+A political campaign that told against the great cause of the revolution was bound to draw doubt.
 
 "Agents as thick as hemp." Were these hemp-thick "agents" all real?
 
-If these people were not agents but were treated as agents, then was it not time this campaign was brought to a close?
+If these people were not agents but were treated as agents, then it was surely time this campaign was brought to a close.
 
 ### 6. Mao Zedong Apologizes
 
 Many cadres began to doubt this "Rescue Campaign."
 
-In its early days the campaign had no lack of zealots, firm in denouncing agents! The more agents confessed, the more it proved the Party right and themselves keen. Only when they too were denounced as agents did it dawn on them: since their own agent-hood was false, the agent-hood of others might be false as well.
+In its early days the campaign had no lack of zealots, firm in denouncing agents. The more agents confessed, the more it proved the Party right and themselves keen. Only when they too were denounced as agents did it dawn on them: since their own agent-hood was false, the agent-hood of others might be false as well.
 
 Many senior cadres brought the problem to the Center, and Mao Zedong saw the problem himself.
 
@@ -424,13 +424,13 @@ Mao Zedong apologized in public again and again, easing the feelings of the pers
 
 Cases of a counter-revolutionary character were all handled by the security organs, and the screening of these cases turned, again, on the security departments. To correct one's own errors was a test for the security organs too.
 
-The highest security organ was the Central Social Affairs Department, and the man who ran this key department, Kang Sheng, was the very begetter of the Rescue Campaign!
+The highest security organ was the Central Social Affairs Department, and the man who ran this key department, Kang Sheng, was the very begetter of the Rescue Campaign.
 
 On December 24, 1943, the third day after the Center decided on screening, Kang Sheng gave a report on the screening work. On March 29, 1944, he addressed the Northwest Bureau's senior-cadre conference. He spoke first of "consolidating the gains of a year's anti-traitor struggle," second of "thoroughly correcting the errors of coerce-confess-believe," third of "the new anti-traitor line," and last of "how to carry out the screening work."
 
 The Party Center decided to work the speech up into a pamphlet, "On the Course of the Anti-Traitor Struggle and the Present Tasks," and send it out everywhere as study material for the screening.
 
-Kang Sheng, so good at reading the wind, could not only trim his sails to it but seize the initiative first!
+Kang Sheng, so good at reading the wind, could not only trim his sails to it but seize the initiative first.
 
 By Shi Zhe's recollection, this speech of Kang Sheng's was drafted by the Security Office. Kang Sheng made a point of adding his own view, insisting: "That so great a movement should touch and wound a few, what is strange in that? What is odd in that? What is there in it that cannot be understood?"
 
@@ -448,7 +448,7 @@ Li Kenong said kindly: if it's so, it's so, and if it isn't, it isn't! This pett
 
 This Huang Gang, once "rescued" by the Social Affairs Department, later became a writer with a gift for the intelligence front, and wrote the screenplay for the film *The Unfailing Radio Waves*.
 
-The Border Security's screening load was heavier than the Social Affairs Department's: it was holding over five hundred people!
+The Border Security's screening load was heavier than the Social Affairs Department's: it was holding over five hundred people.
 
 Zhou Xing had lived through the Soviet-area purges of the civil-war years. As secretary of the Jiangxi Provincial Security Bureau then, he had watched, helpless, as many revolutionary comrades were tortured into confession, and even his own younger brother was killed; his own life had hung in the balance, until the Center corrected the purge's errors. After coming to Yan'an, Zhou Xing never forgot the lesson, and reviewed his own faults from time to time. When the Rescue Campaign began, as head of the Border Region's largest security organ he had, of course, to carry it out in earnest; but Zhou Xing's head did not run too hot, and he often reminded those below him of the old purges. When the Center decided on screening, he bore down at once on the screening of the Border Region government system.
 
@@ -474,21 +474,21 @@ Xi Zhongxun, the Suide prefectural Party secretary, looked into it himself, and 
 
 In the earlier stage Bu Lu had already established that not one of the school's teachers, students, or staff was a real agent. Yet the black-ink poster and the stone case still hung over Suide like a dark cloud.
 
-Bu Lu went to survey the scene. The anonymous slogan ran to seven characters: "Streamline the army, streamline the government, and give us democracy." Streamlining the army and the government had nothing to do with the students; the Party members among the staff were ruled out; the odd-job workers would not raise a point of policy. The field narrowed to three or four non-Party teachers, of whom Yang Dian was the only outside intellectual and the only one with a historical question still uncleared, and thus the one most likely to fear being cut in the streamlining. And yet Yang Dian had suffered the enemy's secret assault besides!
+Bu Lu went to survey the scene. The anonymous slogan ran to seven characters: "Streamline the army, streamline the government, and give us democracy." Streamlining the army and the government had nothing to do with the students; the Party members among the staff were ruled out; the odd-job workers would not raise a point of policy. The field narrowed to three or four non-Party teachers, of whom Yang Dian was the only outside intellectual and the only one with a historical question still uncleared, and thus the one most likely to fear being cut in the streamlining. And yet Yang Dian had suffered the enemy's secret assault besides.
 
 Yang Dian worked hard at the school, head down, and had always been valued by his leaders. But because a stretch of his past, when he had served in a puppet force, could not be cleared, he had never been able to join the Party. Before the Rescue Campaign had even reached him, the incident of the stone occurred, which turned Yang Dian, of all things, into the toast of Suide.
 
 No Party membership, so no political enemies; unmarried, so no private grudges; at the scene only the weapon, a stone, and no assailant to be seen. The school's head, Yang Bin, laughed ruefully: to crack this one, I'm afraid we'd have to send for Sherlock Holmes!
 
-Bu Lu judged that a stone so small, struck to the chest, could hardly knock a man down, let alone out. He gripped the stone and struck his own chest with it, and the bruise it raised was very like Yang Dian's. This was a clumsy self-injury!
+Bu Lu judged that a stone so small, struck to the chest, could hardly knock a man down, let alone out. He gripped the stone and struck his own chest with it, and the bruise it raised was very like Yang Dian's. This was a clumsy self-injury.
 
 After a talk with Bu Lu, Yang Dian honestly admitted that he had written the black-ink poster out of fear of being cut in the streamlining, and had injured himself out of fear that the cadre vetting would dig into his past.
 
 With the case cracked, the prefectural secretary Xi Zhongxun was greatly pleased. Had it been enemy sabotage, the man should be arrested and his political background traced. Being private selfishness, it was a matter for education.
 
-The cracking of the false stone case caused another stir in Suide. More than three hundred implicated students and their parents cheered, and the great mass of wronged and false cases in Suide were overturned root and branch.
+Cracking the false stone case caused another stir in Suide. More than three hundred implicated students and their parents cheered, and the great mass of wronged and false cases in Suide were overturned root and branch.
 
-One case faked by a single teacher had somehow dragged most of a school's teachers and students into agent-hood, set off the over-reach of a whole district, and even become a model for the entire Border Region! Without the social condition of a political campaign, one isolated case could never have borne such poisoned fruit.
+One case faked by a single teacher had somehow dragged most of a school's teachers and students into agent-hood, set off the over-reach of a whole district, and even become a model for the entire Border Region. Without the social condition of a political campaign, one isolated case could never have borne such poisoned fruit.
 
 The lesson of the screening proved that the cracking of cases should still rest chiefly on the specialist security organs, and that the attitude and efficiency of those organs, in turn, played the decisive part in the screening.
 
@@ -504,11 +504,11 @@ From ants filling the eyes and agents thick as hemp, to concrete analysis and tr
 
 While Yan'an was screening, Xi'an got up a stunt. The Nationalists insisted Yan'an had already executed Wang Shiwei, and staged a grand memorial rally for him in Xi'an, which many Trotskyites attended. When word reached Yan'an, people joked that this was a "memorial service for a live man." Mao Zedong proposed: bring Wang Shiwei out and let them see him!
 
-Chinese and foreign correspondents gathered at the Border Region's liaison office, and Wang Shiwei appeared! The camera shutters clicked without a pause. Whatever treatment the man had met in Yan'an, that he was not dead was at least a fact.
+Chinese and foreign correspondents gathered at the Border Region's liaison office, and Wang Shiwei appeared. The camera shutters clicked without a pause. Whatever treatment the man had met in Yan'an, that he was not dead was at least a fact.
 
 Wang Shiwei said earnestly: I am a Trotskyite, I made mistakes, I ought to be shot, but Chairman Mao does not want me to die and has let me work. He also asked the correspondents to tell his relatives and friends in the Nationalist areas: I live well in Yan'an; do not worry over me, and do not be taken in by the Nationalists.
 
-Wang Shiwei, already given a memorial service in Xi'an, had risen from the dead in Yan'an! Yan'an did not need to publicize it; this delicious piece of news spread across China at once.
+Wang Shiwei, already given a memorial service in Xi'an, had risen from the dead in Yan'an. Yan'an did not need to publicize it; this delicious piece of news spread across China at once.
 
 The Nationalists' propaganda had lost another round. Yet some keen correspondents, such as Zhao Chaogou of the *Xinmin Evening News*, could still see that Wang Shiwei spoke somewhat against his will.
 
@@ -524,7 +524,7 @@ As the screening went on, people came little by little to feel that this cadre-v
 
 By now the focus of Yan'an was shifting too. The Border Region held a labor-model conference, and the arts world raised a yangge-opera movement in answer to Mao Zedong's talks at the Yan'an Forum on Literature and Art. The work of the Social Affairs Department and the Security Office shifted with it: a few cadres took charge of the training teams, and most threw themselves into the production drive. The Social Affairs Department turned out Victory-brand soap, and the Border Security's training team wove woolen serge.
 
-More surprising was another undertaking: the Social Affairs Department even had a "Zaoyuan Art Troupe"!
+More surprising was another undertaking: the Social Affairs Department even had a "Zaoyuan Art Troupe".
 
 The Rescue Campaign that Kang Sheng had pushed so hard had bred a tense air in the Social Affairs Department, and the sizable training team was a heavy burden besides. Again it was deputy head Li Kenong who came out to mend matters, adding an entertainment section to the department. Wang Dongxing, who had run the cadre vetting, became its section chief; one of his deputies was the Red Army cadre Duan Daming, and the other was that famous "Red-Flag Party" man, Zhang Keqin. The Border Security's training team formed a yangge troupe too, led by the interrogation-section cadre Yang Gang, with the "trainee" Yan Yong as deputy leader and, for its players, the "prisoner-trainees" locked up under examination.
 
@@ -532,7 +532,7 @@ Putting on shows is habit-forming too. The Zaoyuan Art Troupe got ahead of the L
 
 Commissioner Ma Xiwu was the highest administrative officer of Longdong, but his way of governing was nothing like a Nationalist commissioner's. He would often shoulder a mattock and go down to the countryside, lending the villagers a hand wherever he went; hoeing and chatting, he would get the whole matter clear. Ma Xiwu also served as presiding judge of the Border Region High Court's Longdong branch, yet he rarely held court in Qingyang town. Judge Ma's courtroom was more often set at the scene of the case, and wherever there was a case he went there to sit and talk with the parties.
 
-Feng Yangui, a peasant of Zhangbangyuan at Chenghao in Huachi county, Longdong, had a daughter named Feng Peng'er. When Peng'er was four her father had betrothed her to Zhang Bo'er, second son of Zhang Jincai, a peasant of Zhangwan village at Shangpuzi in Huachi. But by the time his daughter had grown into an eighteen-year-old, Feng Yangui had come to regret it: he had taken no bride-price at the betrothal! So Feng Yangui put his daughter up to seeking an end to the engagement on the pretext of "freedom to choose in marriage." At the same time he secretly betrothed her to the son of Zhang Xianzhi of Nanyuan, and got for himself 2,400 yuan in fabi and 48 silver dollars. When Zhang Jincai's family learned of it, they reported it to the Huachi county government. Child betrothal and the buying and selling of brides were both feudal marriages forbidden by the democratic government, and the county judicial office ruled that both engagements be annulled. Zhang Jincai's family still would not have it, and Feng Peng'er could not bear to give up Zhang Bo'er; but her greedy father would by no means agree, and betrothed her instead to the landlord Zhu Shouchang, getting 8,000 yuan in fabi and 20 silver dollars, and four bolts of serge besides. Feng Peng'er, desperate, told Zhang Bo'er to think of something fast. And so Zhang Jincai gathered a band of twenty-odd men, came to the door to seize the bride, and married them that same night. A bride-seizing? A child betrothal? The county judicial office took it for the Zhang family practicing feudal marriage, sentenced Zhang Jincai to six months' imprisonment, and declared the marriage of Zhang Bo'er and Feng Peng'er void.
+Feng Yangui, a peasant of Zhangbangyuan at Chenghao in Huachi county, Longdong, had a daughter named Feng Peng'er. When Peng'er was four her father had betrothed her to Zhang Bo'er, second son of Zhang Jincai, a peasant of Zhangwan village at Shangpuzi in Huachi. But by the time his daughter had grown into an eighteen-year-old, Feng Yangui had come to regret it: he had taken no bride-price at the betrothal. So Feng Yangui put his daughter up to seeking an end to the engagement on the pretext of "freedom to choose in marriage." At the same time he secretly betrothed her to the son of Zhang Xianzhi of Nanyuan, and got for himself 2,400 yuan in fabi and 48 silver dollars. When Zhang Jincai's family learned of it, they reported it to the Huachi county government. Child betrothal and the buying and selling of brides were both feudal marriages forbidden by the democratic government, and the county judicial office ruled that both engagements be annulled. Zhang Jincai's family still would not have it, and Feng Peng'er could not bear to give up Zhang Bo'er; but her greedy father would by no means agree, and betrothed her instead to the landlord Zhu Shouchang, getting 8,000 yuan in fabi and 20 silver dollars, and four bolts of serge besides. Feng Peng'er, desperate, told Zhang Bo'er to think of something fast. And so Zhang Jincai gathered a band of twenty-odd men, came to the door to seize the bride, and married them that same night. A bride-seizing? A child betrothal? The county judicial office took it for the Zhang family practicing feudal marriage, sentenced Zhang Jincai to six months' imprisonment, and declared the marriage of Zhang Bo'er and Feng Peng'er void.
 
 A happy match, broken up just like that, and the people talked and talked. Feng Peng'er above all was heartbroken; recalling that Longdong had a Commissioner Ma who judged clearly, she walked the eighty li to Qingyang alone to bring her suit.
 
@@ -550,7 +550,7 @@ This true story struck a chord in the Border Security's yangge troupe: had they 
 
 By collective work, with Yuan Jing holding the pen, they wrote a qinqiang libretto, *Liu Qiao'er Brings Suit*. The heroine was played by Guo Suping, the woman who to the death would not confess to being an agent, and the hero by Wang Xingwen, a real Hanzhong-class agent.
 
-This *Liu Qiao'er Brings Suit* was a hit at its first performance, and it even dared to sell tickets at Yan'an's New Market! The Shaanbei storyteller Han Qixiang, after hearing it, made a Shaanbei qinshu ballad of it and sang it everywhere. After the founding of the state, the Beijing Pingju Theater adapted it again into a pingju. The pingju *Liu Qiao'er* played up its theme of opposing feudal marriage, caught the tide of the new Marriage Law's championing of marriage freedom, and, with the famous actress Xin Fengxia in the title role, swept the whole country for a time. Later a published dictionary of drama, in its note on the pingju *Liu Qiao'er*, forgot the qinqiang original and mistakenly credited the first authorship of the subject to Han Qixiang's storytelling.
+This *Liu Qiao'er Brings Suit* was a hit at its first performance, and it even dared to sell tickets at Yan'an's New Market. The Shaanbei storyteller Han Qixiang, after hearing it, made a Shaanbei qinshu ballad of it and sang it everywhere. After the founding of the state, the Beijing Pingju Theater adapted it again into a pingju. The pingju *Liu Qiao'er* played up its theme of opposing feudal marriage, caught the tide of the new Marriage Law's championing of marriage freedom, and, with the famous actress Xin Fengxia in the title role, swept the whole country for a time. Later a published dictionary of drama, in its note on the pingju *Liu Qiao'er*, forgot the qinqiang original and mistakenly credited the first authorship of the subject to Han Qixiang's storytelling.
 
 In the Border Security detention house, the first to be let out was Li Rui. In early June 1944 Li Rui read in a newspaper that the rear areas were about to send a delegation of Chinese and foreign correspondents to Yan'an, and that among them was a primary-school classmate of his. Li Rui seized the chance to write to the Center, saying he could do some united-front work. Zhou Enlai, who had charge of the united front, had the Border Security release him, and in mid-June Li Rui walked out the Border Security gate.
 
@@ -582,7 +582,7 @@ Those who came through the screening all found a way ahead. From the Border Secu
 
 Fate is a tangled thing...
 
-"There was cause behind it, but no evidence was found": a flat-seeming phrase, and how much it carried!
+"There was cause behind it, but no evidence was found": a flat-seeming phrase, and how much it carried.
 
 Some said: this form of words does not get snarled in historical questions, and helps free a cadre quickly.
 
@@ -600,7 +600,7 @@ As 1945 came, the War of Resistance had been endured through eight bitter years,
 
 It is when hands are wanted that one grudges having so few. The greatest spur to the screening came from the needs of revolutionary work.
 
-In early 1945, with the counter-offensive under way, the war went well everywhere. The Eighth Route and New Fourth Armies had grown to 910,000 men, the nineteen base areas held a population near a hundred million, and the Communists already held one part of the realm in three! The Yan'an Rectification, too, had completed its three great phases: the rectification of thought, the organizational vetting of cadres, and the summing-up of Party history. The Seventh Plenum of the Sixth Central Committee opened on May 21, 1944; this preparatory meeting ran on for eleven months and passed the "Resolution on Certain Questions in the History of the Party." By the spring of 1945 every condition for the Congress was fully met.
+In early 1945, with the counter-offensive under way, the war went well everywhere. The Eighth Route and New Fourth Armies had grown to 910,000 men, the nineteen base areas held a population near a hundred million, and the Communists already held one part of the realm in three. The Yan'an Rectification, too, had completed its three great phases: the rectification of thought, the organizational vetting of cadres, and the summing-up of Party history. The Seventh Plenum of the Sixth Central Committee opened on May 21, 1944; this preparatory meeting ran on for eleven months and passed the "Resolution on Certain Questions in the History of the Party." By the spring of 1945 every condition for the Congress was fully met.
 
 The understanding of the Rescue Campaign, too, grew clearer by degrees. In March 1945 Jiang Nanxiang wrote to Liu Shaoqi and the Party Center an "Opinion on the Rescue Campaign," stating plainly: from the narrow standpoint of security work, it had of course its gains; but weighed against the Party's overall gains and losses, the loss outran the gain. In this blind sort of fighting, though one might by chance strike an enemy or two, one wounded oneself far more. This opinion may have been the first writing within the Communist Party to reject the Rescue Campaign outright, but it spoke for the inward view of many cadres of the day.
 
@@ -646,13 +646,13 @@ On August 9 the First Plenum of the Seventh Central Committee opened, and Mao Ze
 
 Eight hard years of resistance, and the Communists would not let the fruits of victory fall into others' hands. With the whole realm the prize, the Party Center urgently needed to send cadres out to every quarter in numbers.
 
-But no few cadres had not yet been screened, and their many tangled questions were hard to settle at short notice. Mao Zedong grew impatient: the Northeast will soon be liberated, we need cadres in numbers, so let them go to the front and draw their own conclusions. A Communist will stay in the Communist Party; a Nationalist, let him run off to the Nationalists, what is there to fear!
+But a good many cadres had not yet been screened, and their many tangled questions were hard to settle at short notice. Mao Zedong grew impatient: the Northeast will soon be liberated, we need cadres in numbers, so let them go to the front and draw their own conclusions. A Communist will stay in the Communist Party; a Nationalist, let him run off to the Nationalists, what is there to fear!
 
 The Border Security sent its sub-offices one directive after another "on summing up the screening work": let these cadres screen themselves, be answerable to the Party, and make their own questions clear; the organization would trust the cadre's account, and if a problem came to light later he would answer for it himself.
 
 Screen yourself? An enlightened way of screening, enlightened to the hilt. Soon 99 percent of the cadres were freed, and the few for whom no conclusion could be reached at once were set to be tested in real work.
 
-Great numbers of cadres for whom no conclusion had yet been reached were able to leave the cadre training teams of every name and set out for the front!
+Great numbers of cadres for whom no conclusion had yet been reached were able to leave the cadre training teams of every name and set out for the front.
 
 These cadres, resolved to wash the stain off with their lives, fought with more than ordinary courage. Two of them, an uncle and his nephew, went to Sanbian, led a guerrilla band against a brigade of Hu Zongnan's for a day and a night, and were still unrehabilitated when they fell.
 
@@ -668,7 +668,7 @@ A turning point in history had come, and the whole Communist Party mobilized to 
 
 In the rush of it all, there was no attending to so much. No attending to the odd agent who had slipped through, and no attending, either, to the gravely mistaken "Rescue Campaign."
 
-Twenty-odd years on, those who lived through the "Cultural Revolution" would think: the Yan'an "Rescue Campaign" and the "Cultural Revolution" were all too alike!
+Twenty-odd years on, those who lived through the "Cultural Revolution" would think: the Yan'an "Rescue Campaign" and the "Cultural Revolution" were all too alike.
 
 Both struggled their own cadres as enemies; both distrusted the intellectuals; both took the form of a mass campaign; both practiced coerce-confess-believe; both produced a vast crop of wronged and false cases; both were launched by the same leader; and both had the same "strategist," Kang Sheng.
 
@@ -692,7 +692,7 @@ Qin Ping, former deputy Party secretary and security chief of the Ministry of Pe
 
 Wang Zunji, former office director of the Chinese Academy of Sciences' earth-sciences department; interviewed February 16, 2000. Speaking of being wronged in those days, Wang Zunji did not hide that she too had confessed wildly under coerce-confess-believe. After Xu Jianguo reached the Jin-Cha-Ji base area he corrected one wrong case; only Xiong Dazheng, the most deeply implicated, was not freed in time, and was put to death by his escorts during a transfer. Wang Zunji said plainly that Kang Sheng never took part directly in her own interrogation.
 
-Liu Xiangyi, former office director of the Central Organization Department; interviewed March 7, 2011. Liu Xiangyi worked in Shandong during the war and led the Weishan Lake guerrillas; his elder brother, a primary-school principal, was wrongly killed in the anti-Trotskyist purge!
+Liu Xiangyi, former office director of the Central Organization Department; interviewed March 7, 2011. Liu Xiangyi worked in Shandong during the war and led the Weishan Lake guerrillas; his elder brother, a primary-school principal, was wrongly killed in the anti-Trotskyist purge.
 
 Tong Xiaopeng, *Forty Years of Wind and Rain* (Central Party Literature Press). This book records how Zhou Enlai handled the wrecking of the Southern Committee.
 
