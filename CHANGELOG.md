@@ -8,6 +8,29 @@ Dated record of what changed and, for global corrections, what cascaded where.
 - LOCAL: fixed dropped clause at ch03 §2 folio 45.
 -->
 
+## 2026-08-22: Register-pass setup — style system adopted, plan committed
+
+No prose changed. Adopted the shelf's composable style system and planned
+the commissioner-ordered voice/register pass so future sessions need only
+this branch:
+
+- Ported verbatim from the sibling book's branch (read-only): `styles/`
+  (INDEX, _base, lang-zh, lang-ja, genre-fiction, genre-nonfiction,
+  STYLE.local.template), `scripts/compose_style.py`,
+  `scripts/check_style_freshness.py`, `scripts/voice_gate_critique.py`,
+  `scripts/anchor_check.py`, `review/PROTOCOL.md`,
+  `review/voice_gate_critic_prompt.md`, `tools/sync_shared.sh`,
+  `tests/run_tests.py` (hook-test fix; kills the benign FAILED line
+  setup.sh printed on every run).
+- `book.json`: `genre: "nonfiction"`. `STYLE.md` recomposed from the layers
+  (build artifact with manifest; the old standalone file, which the layers
+  descend from, is in git history at edc98bf). `STYLE.local.md` written:
+  voice sharpening, preserve list, the ADOPTED register rebaseline, the
+  measured calibration baseline, decided renderings.
+- `REVISION_PLAN.md` written (four batches R01-R04 with verbatim kickoffs);
+  `scripts/register_tics.sh` adapted to this book's profile; HANDOFF carries
+  the R01 kickoff.
+
 ## 2026-08-21: Figures pass — all 218 images/figures added; real cover
 
 The 图文版's images were deferred through the whole translation (figures.json

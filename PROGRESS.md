@@ -5,6 +5,40 @@ translated (unit ids, PDF and printed ranges), which checks ran and what they
 found, notes added, glossary rows added with status, figures, and anything
 flagged for the commissioner's read-through.
 
+## REGISTER PASS: PLANNED AND TOOLED (2026-08-22); no prose touched yet
+
+At the commissioner's direction, studied the shelf's register-rebaseline
+learnings (read-only, from the sibling book's branch) and set this book up
+for a whole-book voice/register pass that future sessions can run from THIS
+branch alone. What landed, all infrastructure, zero prose edits:
+
+- **Composable style system adopted**: `styles/` layers ported verbatim,
+  `STYLE.md` recomposed as a build artifact (zh + nonfiction; the old
+  standalone STYLE.md was the PARENT of these layers, so doctrine is
+  unchanged; its book-specific content now lives in `STYLE.local.md`).
+  `book.json` gains `genre: "nonfiction"`.
+- **STYLE.local.md written**: Hao Zaijin voice sharpening, the DELIBERATE
+  features to preserve, the adopted REGISTER REBASELINE (modern-neutral
+  default; three voices; read-aloud test; the rule set, each with CHECK),
+  the measured calibration baseline, and the decided-renderings ledger.
+- **REVISION_PLAN.md written** from the template: English-to-English
+  re-voicing, content frozen, edits/ + apply_edits driver, anchor_check
+  against notes AND figures (218 figure anchors now live in the prose),
+  per-unit blind critique, four batches R01-R04 with verbatim kickoffs.
+- **Calibration measured** (table in the plan): the book is already modern
+  on the archaism axis (9 antique-word hits in 212k words, 0 DMY dates,
+  0 British spellings); the real work is speech naturalness (0.2/1k
+  contractions overall), heat rationing (ch09: 64 exclamations), and the
+  judgment sweeps (114 nominalizations, 31 等-tags, 26 could-only, 19
+  >90-word sentences).
+- **Tooling ported** (from the sibling branch, read-only):
+  compose_style.py, check_style_freshness.py, voice_gate_critique.py,
+  anchor_check.py, review/PROTOCOL.md + the blind-critic prompt,
+  tools/sync_shared.sh (superset), tests/run_tests.py (fixes the spurious
+  "hook stands down on template stub" failure setup.sh has been printing).
+  scripts/register_tics.sh written fresh, adapted to this book's measured
+  profile.
+
 ## FIGURES: RESOLVED (2026-08-21) — the standing deferral is closed
 
 The "Figures: DEFERRED" decision recorded through every batch below is now

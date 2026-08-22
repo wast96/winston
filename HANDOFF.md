@@ -1,5 +1,43 @@
 # HANDOFF -- China's Secret War (中国秘密战)
 
+## Message to paste into the next chat
+
+```
+China's Secret War R01 (register pass)
+
+Read CLAUDE.md, then HANDOFF.md, then REVISION_PLAN.md, then STYLE.md and
+STYLE.local.md (its REGISTER REBASELINE section is the target). Run
+./setup.sh. Work on branch claude/chinas-secret-war only; if the harness
+starts you elsewhere, consolidate per CLAUDE.md rule 2.
+
+Do revision batch R01 = ch00 + ch01 + ch09, per REVISION_PLAN.md §5 exactly:
+English-to-English re-voicing, content frozen, edits via edits/<id>_edits.md
++ apply_edits.py, anchor_check before every apply (218 figure anchors are
+live in the prose), blind critique per unit via voice_gate_critique.py, one
+commit per unit, build + qa_epub each. Expected distribution: MOST
+paragraphs LEAVE. R01's diff is the exemplar for R02-R04: restraint is part
+of the deliverable. Do not pause for approval mid-batch. Deliver the EPUB in
+chat and paste the R02 kickoff from REVISION_PLAN.md §9.
+```
+
+## A VOICE/REGISTER REVISION PASS IS PLANNED (not yet started)
+
+The commissioner ordered a whole-book voice/register pass (2026-08-22),
+adapting the shelf's register-rebaseline learnings. Everything a session
+needs is ON THIS BRANCH: the plan and batch kickoffs are `REVISION_PLAN.md`;
+the target register is `STYLE.local.md` ("THE REGISTER REBASELINE"); the
+composed contract is `STYLE.md` (build artifact of the new `styles/` layers;
+never hand-edit); the machinery is `scripts/` (voice_gate_critique,
+register_tics, anchor_check, apply_edits, compose_style,
+check_style_freshness) and `review/PROTOCOL.md`. Four batches, R01-R04, one
+conversation each; the R01 kickoff is above. Until R04 completes, the
+shipped EPUB remains the pre-pass build.
+
+Do not revert: the composable style system (styles/, composed STYLE.md,
+STYLE.local.md ledger), book.json `genre: nonfiction`, the ported
+tests/run_tests.py hook-test fix, and the figures-pass items listed further
+down.
+
 ## THE BOOK IS COMPLETE
 
 All 14 units are translated, built, and QA-clean: the Preface (ch00),

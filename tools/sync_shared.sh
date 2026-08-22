@@ -11,8 +11,14 @@ SHARED=(
   scripts/check_register.py scripts/check_apparatus.py
   scripts/check_reconcile.py scripts/verify_unit.py scripts/apply_edits.py
   scripts/apparatus_merge.py scripts/smart_quotes.py scripts/reflow.py
+  scripts/compose_style.py scripts/check_style_freshness.py
+  scripts/voice_gate_critique.py
   tests/run_tests.py data/noise.txt authority.json COLLECTION.md
   REVISION_PLAN.template.md COMPLETION.template.md review/PROTOCOL.md
+  review/voice_gate_critic_prompt.md
+  styles/_base.md styles/lang-zh.md styles/lang-ja.md
+  styles/genre-fiction.md styles/genre-nonfiction.md
+  styles/INDEX.md styles/STYLE.local.template.md
   .claude/hooks/kickoff_guard.py
 )
 for f in "${SHARED[@]}"; do

@@ -94,10 +94,17 @@ def hook_test(failures):
     print("hook fails open on garbage:", "OK"
           if p.returncode == 0 and "block" not in p.stdout else "FAIL")
 
-    # placeholder stand-down: with the template's stub HANDOFF restored, a
-    # wrap-up-looking reply must NOT be blocked (the false positive happened)
-    open(hpath, "w").write(handoff_backup)
+    # placeholder stand-down: when HANDOFF.md still carries the template's
+    # placeholder kickoff (first line "(First line: ...)"), a wrap-up-looking
+    # reply must NOT be blocked (the false positive happened). Stage an actual
+    # stub here; the restored real handoff of an active book is NOT a stub, so
+    # relying on handoff_backup made this subcase false-fail on every book.
+    open(hpath, "w").write(
+        "# HANDOFF\n\n## Message to paste into the next chat\n\n"
+        "```\n(First line: <Project> <Bxx>)\n\nRead CLAUDE.md, then "
+        "HANDOFF.md. Do the batch.\n```\n")
     rc, out = run("Batch done, qa_epub green, book.epub attached.", "t-stub")
+    open(hpath, "w").write(handoff_backup)  # restore the real handoff
     if "block" in out:
         failures.append("hook: blocked during template maintenance "
                         "(placeholder stand-down broken)")
@@ -167,6 +174,101 @@ def builder_test(failures):
                 os.unlink(o)
 
 
+def style_test(failures):
+    """Compose the shelf-wide style layers for a fiction (ja) and a nonfiction
+    (zh) book and assert: mechanical layer selection, VOICE_TARGET substituted
+    with no placeholder left, deterministic output, the freshness check reads
+    FRESH then STALE, and the composer refuses a genre layer missing its
+    VOICE_TARGET directive."""
+    import json, re, shutil, tempfile
+    compose = os.path.join(ROOT, "scripts", "compose_style.py")
+    fresh = os.path.join(ROOT, "scripts", "check_style_freshness.py")
+    styles = os.path.join(ROOT, "styles")
+    if not os.path.isfile(compose) or not os.path.isdir(styles):
+        return
+    tmp = tempfile.mkdtemp(prefix="styletest_")
+    try:
+        cases = {
+            "fic": ({"title_en": "T", "source_language": "ja",
+                     "subjects": ["FICTION / Historical"]},
+                    "ja", "fiction", "translator of serious literary fiction"),
+            "non": ({"title_en": "T", "source_language": "zh",
+                     "subjects": ["History / Asia / China"]},
+                    "zh", "nonfiction", "writer of popular narrative history"),
+        }
+        for tag, (book, lang, genre, voice) in cases.items():
+            bj = os.path.join(tmp, "%s.book.json" % tag)
+            out = os.path.join(tmp, "%s.STYLE.md" % tag)
+            open(bj, "w").write(json.dumps(book))
+            p = subprocess.run([sys.executable, compose, "--book", bj,
+                                "--styles", styles, "--out", out,
+                                "--local", os.path.join(tmp, "%s.local.md" % tag)],
+                               capture_output=True, text=True)
+            if p.returncode != 0:
+                failures.append("compose_style %s failed: %s" % (tag, p.stderr))
+                print("compose_style %s:" % tag, "FAIL")
+                continue
+            text = open(out).read()
+            man = json.loads(re.search(
+                r"<!-- STYLE_MANIFEST\n(.*?)\nSTYLE_MANIFEST -->", text, re.S).group(1))
+            ok = (man["language"] == lang and man["genre"] == genre
+                  and "{{" not in text and voice in text)
+            if not ok:
+                failures.append("compose_style %s: wrong selection/substitution "
+                                "(lang=%s genre=%s)" % (tag, man["language"], man["genre"]))
+            print("compose_style %s (%s/%s):" % (tag, lang, genre),
+                  "OK" if ok else "FAIL")
+            # determinism
+            out2 = os.path.join(tmp, "%s.2.STYLE.md" % tag)
+            subprocess.run([sys.executable, compose, "--book", bj, "--styles",
+                            styles, "--out", out2, "--local",
+                            os.path.join(tmp, "%s.2.local.md" % tag)],
+                           capture_output=True, text=True)
+            det = open(out).read() == open(out2).read()
+            if not det:
+                failures.append("compose_style %s: non-deterministic output" % tag)
+            print("compose_style %s deterministic:" % tag, "OK" if det else "FAIL")
+
+        # freshness: FRESH against the real layers, STALE against a mutated copy
+        fic_out = os.path.join(tmp, "fic.STYLE.md")
+        p = subprocess.run([sys.executable, fresh, "--style", fic_out,
+                            "--styles", styles], capture_output=True, text=True)
+        fresh_ok = p.returncode == 0 and "All layers fresh" in p.stdout
+        if not fresh_ok:
+            failures.append("check_style_freshness: not FRESH on unchanged layers")
+        print("check_style_freshness fresh:", "OK" if fresh_ok else "FAIL")
+
+        styles2 = os.path.join(tmp, "styles_moved")
+        shutil.copytree(styles, styles2)
+        with open(os.path.join(styles2, "lang-ja.md"), "a") as fh:
+            fh.write("\n<!-- moved -->\n")
+        p = subprocess.run([sys.executable, fresh, "--style", fic_out,
+                            "--styles", styles2], capture_output=True, text=True)
+        stale_ok = p.returncode == 0 and "STALE" in p.stdout
+        if not stale_ok:
+            failures.append("check_style_freshness: did NOT detect a moved layer")
+        print("check_style_freshness stale-detect:", "OK" if stale_ok else "FAIL")
+
+        # composer must refuse a genre layer with no VOICE_TARGET directive
+        styles3 = os.path.join(tmp, "styles_bad")
+        shutil.copytree(styles, styles3)
+        gf = os.path.join(styles3, "genre-fiction.md")
+        open(gf, "w").write(re.sub(r"<!--\s*VOICE_TARGET:.*?-->", "",
+                                   open(gf).read(), count=1))
+        bj = os.path.join(tmp, "fic.book.json")
+        p = subprocess.run([sys.executable, compose, "--book", bj, "--styles",
+                            styles3, "--out", os.path.join(tmp, "bad.STYLE.md"),
+                            "--local", os.path.join(tmp, "bad.local.md")],
+                           capture_output=True, text=True)
+        refused = p.returncode != 0 and "VOICE_TARGET" in p.stderr
+        if not refused:
+            failures.append("compose_style: did NOT refuse a missing VOICE_TARGET")
+        print("compose_style refuses missing VOICE_TARGET:",
+              "OK" if refused else "FAIL")
+    finally:
+        shutil.rmtree(tmp, ignore_errors=True)
+
+
 def main():
     failures = []
 
@@ -191,6 +293,7 @@ def main():
 
     hook_test(failures)
     builder_test(failures)
+    style_test(failures)
 
     if failures:
         print("\n" + "\n".join(failures))
