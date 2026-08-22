@@ -2,6 +2,15 @@
 
 Dated record of what changed and, for global corrections, what cascaded where.
 
+## 2026-08-22 — revision pass planned (no text changed)
+- Added `REVISION_PLAN.md` from the template: five batches (R1 foundation +
+  globals + ch15 exemplar; R2-R4 tic sweeps front/middle/back; R5 tail +
+  reconciliation + close), filled with live examples, KEEP list, and verbatim
+  kickoffs for every batch.
+- `HANDOFF.md` again carries a paste-ready kickoff (R1) as its first section;
+  the completion notice stands below it.
+- Still no reading text, apparatus, or EPUB content modified.
+
 ## 2026-08-22 — register-pass assessment (no text changed)
 - Added `review/REGISTER_PASS_ASSESSMENT.md`: a measured survey of the built
   book against the register rebaseline and style machinery on

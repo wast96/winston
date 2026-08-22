@@ -1,5 +1,21 @@
 # HANDOFF — Zhou Enlai: Commander of the Hidden Front
 
+## Message to paste into the next chat
+
+The book is COMPLETE (see below); what follows next is the REGISTER REVISION
+pass planned in `REVISION_PLAN.md` (2026-08-22, five batches R1-R5). Where
+that plan and this handoff disagree, the plan wins. The R1 kickoff:
+
+```
+Zhou Enlai R1 (revision)
+
+Read CLAUDE.md, then REVISION_PLAN.md (it governs this pass; where HANDOFF.md disagrees, the plan wins), then STYLE.md and review/REGISTER_PASS_ASSESSMENT.md. All work on branch claude/zhou-enlai only; if the session starts on a stray branch, fold it per CLAUDE.md rule 2. Content is FROZEN: English-surface edits at flagged sites only, no paragraph merged or split, no facts or hedges changed, edits only via edits/<id>_edits.md + scripts/apply_edits.py.
+
+Do batch R1 end to end per REVISION_PLAN.md section 7: (a) setup.sh; regenerate data/zh for all 28 units per scripts/recovery/README.md and replay apply_fixes.py; verify_unit green on ALL units before any edit; pin known-benign warnings in the plan's section 2; snapshot out/ch01_reading.pre-R.md; (b) Tier A globals: normalize the 95 day-month dates to month-day, cascade the Politburo decision (plan section 3.2; default "the Politburo", record in glossary.json and authority.json), fix the "in good time" and "driving into" ledger residuals; (c) the ch15 exemplar: full tic sweep plus aligned zh-en read plus spine test, per plan sections 3-5; (d) rebuild, qa_epub, epubcheck, 10% spot-audit, PROGRESS and CHANGELOG entries, commit, push.
+
+Do not pause for approval mid-batch. Cite printed folios in any new note text. Never invent bridging text. End the batch with the rebuilt EPUB attached in chat AND the R2 kickoff from REVISION_PLAN.md section 9 pasted verbatim in a fenced block.
+```
+
 ## THE BOOK IS COMPLETE
 
 All 28 units are translated (ch00 Preface through ch27 Afterword). B14, the
