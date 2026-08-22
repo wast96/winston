@@ -240,5 +240,19 @@
       "alt": "A hand-drawn organization chart. A large central circle labeled 'Second Branch — Detection — Section Head Gu' radiates lines to some two dozen smaller circles standing for agents and contacts, several inked solid black and one bearing the Kuomintang sun emblem; boxed sub-groups at the corners are labeled for Nanjing, Shanghai, Manchuria, and Hong Kong.",
       "caption": "The intelligence network of the Central Special Section's Second Branch, as Gu Shunzhang drew it for the enemy in The Theory and Practice of Secret Service Work. Reproduced from the source; the caption is the translator's."
     }
+  ],
+  "ch25": [
+    {
+      "file": "ch25_bahe.png",
+      "before": "On the statement made to us by Mr. Zhou Shaoshan",
+      "alt": "A newspaper clipping in vertical Chinese columns, headed by the Shen Bao masthead, carrying a legal notice in dense small type.",
+      "caption": "&#8220;Barrister Ba He&#8217;s Urgent Notice on Behalf of Zhou Shaoshan,&#8221; as it ran in Shen Bao on March 4, 1932. The clipping is the source&#8217;s; the caption is the translator&#8217;s."
+    },
+    {
+      "file": "ch25_zhou_report.png",
+      "before": "Zhou Enlai was boundlessly loyal to the Party",
+      "alt": "A page of handwritten Chinese in ink, a title in several lines at the top followed by a body of running script.",
+      "caption": "The first page of the transcript of Zhou Enlai&#8217;s report on the so-called &#8220;Wu Hao Notice&#8221; question, in his own hand (June 23, 1972, Beijing). The manuscript is the source&#8217;s; the caption is the translator&#8217;s."
+    }
   ]
 }

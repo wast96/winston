@@ -1593,11 +1593,6 @@
    "pinyin": "CaiFei",
    "status": "attested"
   },
-  "罗斯": {
-   "en": "Ross",
-   "pinyin": "Luosi",
-   "status": "attested"
-  },
   "刘少白": {
    "en": "Liu Shaobai",
    "pinyin": "Liu Shaobai",
@@ -1819,8 +1814,8 @@
    "status": "attested"
   },
   "巴和": {
-   "en": "Baihe",
-   "pinyin": "Baihe",
+   "en": "Ba He",
+   "pinyin": "Bahe",
    "status": "attested"
   },
   "赵子柏": {
@@ -3132,6 +3127,126 @@
    "en": "Zhou Lian",
    "pinyin": "Zhou Lian",
    "status": "attested"
+  },
+  "江青": {
+   "en": "Jiang Qing",
+   "pinyin": "Jiang Qing",
+   "status": "attested"
+  },
+  "林彪": {
+   "en": "Lin Biao",
+   "pinyin": "Lin Biao",
+   "status": "attested"
+  },
+  "博古": {
+   "en": "Bo Gu",
+   "pinyin": "Bo Gu",
+   "status": "attested"
+  },
+  "周少山": {
+   "en": "Zhou Shaoshan",
+   "pinyin": "Zhou Shaoshan",
+   "status": "attested"
+  },
+  "史量才": {
+   "en": "Shi Liangcai",
+   "pinyin": "Shi Liangcai",
+   "status": "attested"
+  },
+  "陶行知": {
+   "en": "Tao Xingzhi",
+   "pinyin": "Tao Xingzhi",
+   "status": "attested"
+  },
+  "秦杰": {
+   "en": "Qin Jie",
+   "pinyin": "Qin Jie",
+   "status": "attested"
+  },
+  "连承义": {
+   "en": "Lian Chengyi",
+   "pinyin": "Lian Chengyi",
+   "status": "attested"
+  },
+  "杨匏安": {
+   "en": "Yang Pao'an",
+   "pinyin": "Yang Pao'an",
+   "status": "attested"
+  },
+  "罗绮园": {
+   "en": "Luo Qiyuan",
+   "pinyin": "Luo Qiyuan",
+   "status": "attested"
+  },
+  "陈华": {
+   "en": "Chen Hua",
+   "pinyin": "Chen Hua",
+   "status": "attested"
+  },
+  "张春桥": {
+   "en": "Zhang Chunqiao",
+   "pinyin": "Zhang Chunqiao",
+   "status": "attested"
+  },
+  "姚文元": {
+   "en": "Yao Wenyuan",
+   "pinyin": "Yao Wenyuan",
+   "status": "attested"
+  },
+  "吴法宪": {
+   "en": "Wu Faxian",
+   "pinyin": "Wu Faxian",
+   "status": "attested"
+  },
+  "许世友": {
+   "en": "Xu Shiyou",
+   "pinyin": "Xu Shiyou",
+   "status": "attested"
+  },
+  "谢富治": {
+   "en": "Xie Fuzhi",
+   "pinyin": "Xie Fuzhi",
+   "status": "attested"
+  },
+  "汪东兴": {
+   "en": "Wang Dongxing",
+   "pinyin": "Wang Dongxing",
+   "status": "attested"
+  },
+  "赵容": {
+   "en": "Zhao Rong",
+   "pinyin": "Zhao Rong",
+   "status": "attested"
+  },
+  "阎宝航": {
+   "en": "Yan Baohang",
+   "pinyin": "Yan Baohang",
+   "status": "attested"
+  },
+  "阎明诗": {
+   "en": "Yan Mingshi",
+   "pinyin": "Yan Mingshi",
+   "status": "attested"
+  },
+  "李政文": {
+   "en": "Li Zhengwen",
+   "pinyin": "Li Zhengwen",
+   "status": "attested"
+  },
+  "沈安娜": {
+   "en": "Shen Anna",
+   "pinyin": "Shen Anna",
+   "status": "attested"
+  },
+  "陈诚": {
+   "en": "Chen Cheng",
+   "pinyin": "Chen Cheng",
+   "status": "attested"
+  },
+  "王冶秋": {
+   "en": "Wang Yeqiu",
+   "pinyin": "Wang Yeqiu",
+   "status": "attested"
   }
  },
  "organizations": {
@@ -3923,6 +4038,41 @@
   "瞻园": {
    "en": "Zhanyuan",
    "pinyin": "Zhanyuan",
+   "status": "attested"
+  },
+  "瑞金": {
+   "en": "Ruijin",
+   "pinyin": "Ruijin",
+   "status": "attested"
+  },
+  "宁都": {
+   "en": "Ningdu",
+   "pinyin": "Ningdu",
+   "status": "attested"
+  },
+  "永定": {
+   "en": "Yongding",
+   "pinyin": "Yongding",
+   "status": "attested"
+  },
+  "钓鱼台": {
+   "en": "Diaoyutai",
+   "pinyin": "Diaoyutai",
+   "status": "attested"
+  },
+  "台儿庄": {
+   "en": "Tai'erzhuang",
+   "pinyin": "Tai'erzhuang",
+   "status": "attested"
+  },
+  "枣庄": {
+   "en": "Zaozhuang",
+   "pinyin": "Zaozhuang",
+   "status": "attested"
+  },
+  "梅园": {
+   "en": "Meiyuan",
+   "pinyin": "Meiyuan",
    "status": "attested"
   }
  },

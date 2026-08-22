@@ -290,3 +290,17 @@
 濮备九
 # 1个多月 = more than a month (arabic 1 as the measure "a", not a count) — rendered "more than a month"
 1个多月
+# 数万万(中国工农群众) = hundreds of millions (数万=many-ten-thousand + 万) — rendered "hundreds of millions"
+数万万
+# 亿万(人民) = hundreds of millions (亿=10^8, 万=10^4, idiom) — rendered "hundreds of millions"
+亿万
+# 伍豪二字 = the (two-character) name Wu Hao (二字 = "two characters", a naming idiom) — rendered "the alias Wu Hao"
+伍豪二字
+# 一百两(银子) = a hundred taels of silver (两 is the tael MEASURE, mis-read as the numeral 2) — rendered "a hundred taels"
+一百两
+# 万劫不回 = an abyss beyond recovery (idiom; 万=10000) — rendered "an abyss beyond recovery"
+万劫
+# 千百倍(于己) = hundreds of times over (idiom; 千=1000,百=100) — rendered "hundreds of times its strength"
+千百倍
+# 日理万机 = handles a myriad affairs daily (idiom; 万=10000) — rendered "a myriad affairs"
+日理万机

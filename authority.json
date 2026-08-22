@@ -59,7 +59,8 @@
     "Shanghai": [
      "huang-mulan",
      "on-a-hair-trigger",
-     "the-whistling-wind"
+     "the-whistling-wind",
+     "zhou-enlai"
     ]
    },
    "category": "places",
@@ -95,7 +96,8 @@
   "中国民权保障同盟": {
    "renderings": {
     "China League for the Protection of Civil Rights": [
-     "huang-mulan"
+     "huang-mulan",
+     "zhou-enlai"
     ],
     "the China League for Civil Rights": [
      "on-a-hair-trigger"
@@ -112,6 +114,9 @@
     ],
     "Central Special Branch": [
      "huang-mulan"
+    ],
+    "Central Special Section": [
+     "zhou-enlai"
     ]
    },
    "category": "organizations",
@@ -132,7 +137,8 @@
    "renderings": {
     "Jiujiang": [
      "midnight",
-     "wang-yaqiao"
+     "wang-yaqiao",
+     "zhou-enlai"
     ]
    },
    "category": "places",
@@ -278,7 +284,8 @@
      "juntong"
     ],
     "Juntong": [
-     "on-a-hair-trigger"
+     "on-a-hair-trigger",
+     "zhou-enlai"
     ]
    },
    "category": "organizations",
@@ -290,7 +297,8 @@
     "Feng Yuxiang": [
      "huang-mulan",
      "thousand-li",
-     "wang-yaqiao"
+     "wang-yaqiao",
+     "zhou-enlai"
     ]
    },
    "category": "people",
@@ -420,7 +428,8 @@
    "renderings": {
     "Nanchang": [
      "juntong",
-     "midnight"
+     "midnight",
+     "zhou-enlai"
     ]
    },
    "category": "places",
@@ -509,7 +518,8 @@
    "renderings": {
     "Zhou Enlai": [
      "huang-mulan",
-     "juntong"
+     "juntong",
+     "zhou-enlai"
     ]
    },
    "category": "people",
@@ -563,7 +573,8 @@
   "国民党": {
    "renderings": {
     "Kuomintang": [
-     "huang-mulan"
+     "huang-mulan",
+     "zhou-enlai"
     ],
     "the Kuomintang": [
      "thousand-li"
@@ -592,7 +603,8 @@
      "juntong"
     ],
     "Renaissance Society": [
-     "wang-yaqiao"
+     "wang-yaqiao",
+     "zhou-enlai"
     ]
    },
    "category": "organisations",
@@ -628,6 +640,9 @@
     "the Great World": [
      "the-whistling-wind",
      "wang-yaqiao"
+    ],
+    "Great World": [
+     "zhou-enlai"
     ]
    },
    "category": "places",
@@ -664,7 +679,8 @@
      "huang-mulan"
     ],
     "Da Mei Wan Bao": [
-     "thousand-li"
+     "thousand-li",
+     "zhou-enlai"
     ]
    },
    "category": "organizations",
@@ -676,7 +692,8 @@
     "Tianjin": [
      "huang-mulan",
      "midnight",
-     "the-whistling-wind"
+     "the-whistling-wind",
+     "zhou-enlai"
     ]
    },
    "category": "places",
@@ -797,7 +814,8 @@
   "宋庆龄": {
    "renderings": {
     "Song Qingling": [
-     "huang-mulan"
+     "huang-mulan",
+     "zhou-enlai"
     ],
     "Soong Ching-ling": [
      "wang-yaqiao"
@@ -841,6 +859,9 @@
     ],
     "the Municipal Police": [
      "thousand-li"
+    ],
+    "concession police": [
+     "zhou-enlai"
     ]
    },
    "category": "terms",
@@ -873,7 +894,8 @@
    "renderings": {
     "Guangzhou": [
      "huang-mulan",
-     "midnight"
+     "midnight",
+     "zhou-enlai"
     ]
    },
    "category": "places",
@@ -933,7 +955,8 @@
    "renderings": {
     "Zhang Guotao": [
      "huang-mulan",
-     "juntong"
+     "juntong",
+     "zhou-enlai"
     ]
    },
    "category": "people",
@@ -1036,7 +1059,8 @@
     "Dai Li": [
      "huang-mulan",
      "juntong",
-     "wang-yaqiao"
+     "wang-yaqiao",
+     "zhou-enlai"
     ]
    },
    "category": "people",
@@ -1260,7 +1284,8 @@
      "midnight",
      "on-a-hair-trigger",
      "the-whistling-wind",
-     "thousand-li"
+     "thousand-li",
+     "zhou-enlai"
     ]
    },
    "category": "places",
@@ -1343,7 +1368,8 @@
     "Wuhan": [
      "huang-mulan",
      "midnight",
-     "thousand-li"
+     "thousand-li",
+     "zhou-enlai"
     ]
    },
    "category": "places",
@@ -1354,7 +1380,8 @@
     "Mao Zedong": [
      "huang-mulan",
      "on-a-hair-trigger",
-     "wang-yaqiao"
+     "wang-yaqiao",
+     "zhou-enlai"
     ]
    },
    "category": "people",
@@ -1377,7 +1404,8 @@
    "renderings": {
     "Hankou": [
      "huang-mulan",
-     "midnight"
+     "midnight",
+     "zhou-enlai"
     ]
    },
    "category": "places",
@@ -1615,7 +1643,8 @@
    "renderings": {
     "Ruijin": [
      "huang-mulan",
-     "thousand-li"
+     "thousand-li",
+     "zhou-enlai"
     ]
    },
    "category": "places",
@@ -1639,7 +1668,8 @@
      "on-a-hair-trigger"
     ],
     "Shen Bao": [
-     "thousand-li"
+     "thousand-li",
+     "zhou-enlai"
     ]
    },
    "category": "organizations",
@@ -1723,7 +1753,8 @@
     "Hu Zongnan": [
      "huang-mulan",
      "juntong",
-     "wang-yaqiao"
+     "wang-yaqiao",
+     "zhou-enlai"
     ]
    },
    "category": "people",
@@ -1807,7 +1838,8 @@
      "huang-mulan",
      "juntong",
      "thousand-li",
-     "wang-yaqiao"
+     "wang-yaqiao",
+     "zhou-enlai"
     ]
    },
    "category": "people",
@@ -1897,7 +1929,8 @@
    "renderings": {
     "Deng Yanda": [
      "huang-mulan",
-     "thousand-li"
+     "thousand-li",
+     "zhou-enlai"
     ]
    },
    "category": "people",
@@ -1978,7 +2011,8 @@
     "Changsha": [
      "huang-mulan",
      "juntong",
-     "midnight"
+     "midnight",
+     "zhou-enlai"
     ]
    },
    "category": "places",
@@ -2056,7 +2090,8 @@
      "huang-mulan",
      "juntong",
      "thousand-li",
-     "wang-yaqiao"
+     "wang-yaqiao",
+     "zhou-enlai"
     ]
    },
    "category": "people",
@@ -2067,7 +2102,8 @@
    "renderings": {
     "Chen Geng": [
      "huang-mulan",
-     "thousand-li"
+     "thousand-li",
+     "zhou-enlai"
     ]
    },
    "category": "people",
@@ -2081,7 +2117,8 @@
      "midnight",
      "on-a-hair-trigger",
      "the-whistling-wind",
-     "wang-yaqiao"
+     "wang-yaqiao",
+     "zhou-enlai"
     ]
    },
    "category": "places",
@@ -2095,7 +2132,8 @@
      "midnight",
      "the-whistling-wind",
      "thousand-li",
-     "wang-yaqiao"
+     "wang-yaqiao",
+     "zhou-enlai"
     ]
    },
    "category": "places",
@@ -2168,7 +2206,8 @@
     "Gu Shunzhang": [
      "huang-mulan",
      "juntong",
-     "on-a-hair-trigger"
+     "on-a-hair-trigger",
+     "zhou-enlai"
     ]
    },
    "category": "people",
@@ -2180,7 +2219,8 @@
     "Hong Kong": [
      "huang-mulan",
      "midnight",
-     "the-whistling-wind"
+     "the-whistling-wind",
+     "zhou-enlai"
     ]
    },
    "category": "places",
@@ -2249,6 +2289,9 @@
     "Whampoa Military Academy": [
      "huang-mulan",
      "thousand-li"
+    ],
+    "Whampoa": [
+     "zhou-enlai"
     ]
    },
    "category": "organizations",
@@ -2283,12 +2326,1948 @@
    "renderings": {
     "Longhua": [
      "huang-mulan",
-     "thousand-li"
+     "thousand-li",
+     "zhou-enlai"
     ]
    },
    "category": "places",
    "status": "agreed",
    "note": "District in the southern outskirts of Shanghai; site of the Kuomintang Garrison Command&#8217;s prison and execution ground."
+  },
+  "白色恐怖": {
+   "renderings": {
+    "White Terror": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "terms",
+   "status": "single-book"
+  },
+  "租界": {
+   "renderings": {
+    "the Concessions": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "terms",
+   "status": "single-book"
+  },
+  "领事裁判权": {
+   "renderings": {
+    "extraterritoriality": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "terms",
+   "status": "single-book"
+  },
+  "龙潭三杰": {
+   "renderings": {
+    "Three Heroes of Longtan": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "terms",
+   "status": "single-book"
+  },
+  "田中奏折": {
+   "renderings": {
+    "Tanaka Memorial": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "terms",
+   "status": "single-book"
+  },
+  "双十二事变": {
+   "renderings": {
+    "December 12 Incident": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "terms",
+   "status": "single-book"
+  },
+  "中国共产党": {
+   "renderings": {
+    "Chinese Communist Party": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "orgs",
+   "status": "single-book"
+  },
+  "共产国际": {
+   "renderings": {
+    "Comintern": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "orgs",
+   "status": "single-book"
+  },
+  "红队": {
+   "renderings": {
+    "Red Squad": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "orgs",
+   "status": "single-book"
+  },
+  "太古公司": {
+   "renderings": {
+    "Butterfield & Swire": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "orgs",
+   "status": "single-book"
+  },
+  "新新通讯社": {
+   "renderings": {
+    "Xinxin News Agency": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "orgs",
+   "status": "single-book"
+  },
+  "中国救济总会": {
+   "renderings": {
+    "China Relief Society": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "orgs",
+   "status": "single-book"
+  },
+  "国际济难会": {
+   "renderings": {
+    "International Red Aid": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "orgs",
+   "status": "single-book"
+  },
+  "东方大学": {
+   "renderings": {
+    "Communist University of the Toilers of the East": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "orgs",
+   "status": "single-book"
+  },
+  "上海大学": {
+   "renderings": {
+    "Shanghai University": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "orgs",
+   "status": "single-book"
+  },
+  "达生医院": {
+   "renderings": {
+    "Dasheng Hospital": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "orgs",
+   "status": "single-book"
+  },
+  "同德医院": {
+   "renderings": {
+    "Tongde Hospital": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "orgs",
+   "status": "single-book"
+  },
+  "镜湖医院": {
+   "renderings": {
+    "Kiang Wu Hospital": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "orgs",
+   "status": "single-book"
+  },
+  "中山医学院": {
+   "renderings": {
+    "Sun Yat-sen Medical College": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "orgs",
+   "status": "single-book"
+  },
+  "新四军": {
+   "renderings": {
+    "New Fourth Army": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "orgs",
+   "status": "single-book"
+  },
+  "汉口青年励志社": {
+   "renderings": {
+    "Hankou Youth Self-Improvement Society": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "orgs",
+   "status": "single-book"
+  },
+  "南华药房": {
+   "renderings": {
+    "Nanhua Pharmacy": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "orgs",
+   "status": "single-book"
+  },
+  "全国总工会": {
+   "renderings": {
+    "All-China Federation of Trade Unions": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "orgs",
+   "status": "single-book"
+  },
+  "汇丰银行": {
+   "renderings": {
+    "Hongkong and Shanghai Bank": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "orgs",
+   "status": "single-book"
+  },
+  "云南护国军": {
+   "renderings": {
+    "Yunnan National Protection Army": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "orgs",
+   "status": "single-book"
+  },
+  "太阳社": {
+   "renderings": {
+    "Sun Society": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "orgs",
+   "status": "single-book"
+  },
+  "中统": {
+   "renderings": {
+    "Zhongtong": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "orgs",
+   "status": "single-book"
+  },
+  "党务调查科": {
+   "renderings": {
+    "Investigation Section": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "orgs",
+   "status": "single-book"
+  },
+  "生活书店": {
+   "renderings": {
+    "Life Bookstore": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "orgs",
+   "status": "single-book"
+  },
+  "正中书局": {
+   "renderings": {
+    "Zhengzhong Book Company": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "orgs",
+   "status": "single-book"
+  },
+  "长城通讯社": {
+   "renderings": {
+    "Great Wall News Agency": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "orgs",
+   "status": "single-book"
+  },
+  "民智通讯社": {
+   "renderings": {
+    "Minzhi News Agency": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "orgs",
+   "status": "single-book"
+  },
+  "长江通讯社": {
+   "renderings": {
+    "Yangtze News Agency": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "orgs",
+   "status": "single-book"
+  },
+  "奉天讲武堂": {
+   "renderings": {
+    "Fengtian Military Academy": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "orgs",
+   "status": "single-book"
+  },
+  "高等军学研究班": {
+   "renderings": {
+    "Advanced Military Studies Class": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "orgs",
+   "status": "single-book"
+  },
+  "满洲特委": {
+   "renderings": {
+    "Manchuria Special Committee": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "orgs",
+   "status": "single-book"
+  },
+  "满洲省委": {
+   "renderings": {
+    "Manchuria Provincial Committee": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "orgs",
+   "status": "single-book"
+  },
+  "首善医院": {
+   "renderings": {
+    "Shoushan Hospital": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "orgs",
+   "status": "single-book"
+  },
+  "广济医院": {
+   "renderings": {
+    "Guangji Hospital": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "orgs",
+   "status": "single-book"
+  },
+  "中东铁路": {
+   "renderings": {
+    "Chinese Eastern Railway": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "orgs",
+   "status": "single-book"
+  },
+  "行动科": {
+   "renderings": {
+    "Action Section": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "orgs",
+   "status": "single-book"
+  },
+  "打狗队": {
+   "renderings": {
+    "Dog-Beating Squad": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "orgs",
+   "status": "single-book"
+  },
+  "淞沪警备司令部": {
+   "renderings": {
+    "Songhu Garrison Command": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "orgs",
+   "status": "single-book"
+  },
+  "中国互济会": {
+   "renderings": {
+    "China Mutual Aid Society": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "orgs",
+   "status": "single-book"
+  },
+  "政学系": {
+   "renderings": {
+    "Political Study Clique": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "orgs",
+   "status": "single-book"
+  },
+  "改组派": {
+   "renderings": {
+    "Kuomintang Reorganizationists": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "orgs",
+   "status": "single-book"
+  },
+  "筹安会": {
+   "renderings": {
+    "Peace Planning Society": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "orgs",
+   "status": "single-book"
+  },
+  "反帝大同盟": {
+   "renderings": {
+    "Anti-Imperialist League": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "orgs",
+   "status": "single-book"
+  },
+  "顺直省委": {
+   "renderings": {
+    "Shun-Zhi provincial committee": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "orgs",
+   "status": "single-book"
+  },
+  "中华共进会": {
+   "renderings": {
+    "China Mutual Advancement Society": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "orgs",
+   "status": "single-book"
+  },
+  "中国自由大同盟": {
+   "renderings": {
+    "China Freedom League": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "orgs",
+   "status": "single-book"
+  },
+  "南华通讯社": {
+   "renderings": {
+    "Nanhua News Agency": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "orgs",
+   "status": "single-book"
+  },
+  "新四川通讯社": {
+   "renderings": {
+    "New Sichuan News Agency": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "orgs",
+   "status": "single-book"
+  },
+  "世界与中国杂志社": {
+   "renderings": {
+    "World and China Magazine society": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "orgs",
+   "status": "single-book"
+  },
+  "二战区战动总会": {
+   "renderings": {
+    "Second War Zone General Mobilization Committee": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "orgs",
+   "status": "single-book"
+  },
+  "绍敦电机公司": {
+   "renderings": {
+    "Shaodun Electrical Company": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "orgs",
+   "status": "single-book"
+  },
+  "上海无线电学校": {
+   "renderings": {
+    "Shanghai Radio School": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "orgs",
+   "status": "single-book"
+  },
+  "昆仑影片公司": {
+   "renderings": {
+    "Kunlun Film Company": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "orgs",
+   "status": "single-book"
+  },
+  "兵工署": {
+   "renderings": {
+    "Ordnance Department": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "orgs",
+   "status": "single-book"
+  },
+  "红一方面军": {
+   "renderings": {
+    "First Front Army": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "orgs",
+   "status": "single-book"
+  },
+  "亚美无线电公司": {
+   "renderings": {
+    "Yamei Radio Company": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "orgs",
+   "status": "single-book"
+  },
+  "大华无线电公司": {
+   "renderings": {
+    "Dahua Radio Company": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "orgs",
+   "status": "single-book"
+  },
+  "少年中国学会": {
+   "renderings": {
+    "Young China Association": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "orgs",
+   "status": "single-book"
+  },
+  "利群书社": {
+   "renderings": {
+    "Liqun Book Society": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "orgs",
+   "status": "single-book"
+  },
+  "互助社": {
+   "renderings": {
+    "Mutual Aid Society": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "orgs",
+   "status": "single-book"
+  },
+  "新民学会": {
+   "renderings": {
+    "New People's Study Society": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "orgs",
+   "status": "single-book"
+  },
+  "中国左翼作家联盟": {
+   "renderings": {
+    "League of Left-Wing Writers": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "orgs",
+   "status": "single-book"
+  },
+  "中国济难会": {
+   "renderings": {
+    "China Relief Society": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "orgs",
+   "status": "single-book"
+  },
+  "国民御侮自救会": {
+   "renderings": {
+    "National Salvation Association Against Foreign Aggression": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "orgs",
+   "status": "single-book"
+  },
+  "蓝衣社": {
+   "renderings": {
+    "Blue Shirts": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "orgs",
+   "status": "single-book"
+  },
+  "孙子兵法": {
+   "renderings": {
+    "Art of War": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "works",
+   "status": "single-book"
+  },
+  "共产党宣言": {
+   "renderings": {
+    "Communist Manifesto": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "works",
+   "status": "single-book"
+  },
+  "共产主义ABC": {
+   "renderings": {
+    "ABC of Communism": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "works",
+   "status": "single-book"
+  },
+  "论列宁主义问题": {
+   "renderings": {
+    "Concerning Questions of Leninism": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "works",
+   "status": "single-book"
+  },
+  "新生命": {
+   "renderings": {
+    "New Life": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "works",
+   "status": "single-book"
+  },
+  "人民日报": {
+   "renderings": {
+    "People's Daily": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "works",
+   "status": "single-book"
+  },
+  "光明日报": {
+   "renderings": {
+    "Guangming Daily": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "works",
+   "status": "single-book"
+  },
+  "论反对日本帝国主义的策略": {
+   "renderings": {
+    "On Tactics Against Japanese Imperialism": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "works",
+   "status": "single-book"
+  },
+  "毛泽东选集": {
+   "renderings": {
+    "Selected Works of Mao Zedong": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "works",
+   "status": "single-book"
+  },
+  "上海——冒险家的乐园": {
+   "renderings": {
+    "Shanghai: The Paradise of Adventurers": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "works",
+   "status": "single-book"
+  },
+  "特务工作之理论与实际": {
+   "renderings": {
+    "The Theory and Practice of Secret Service Work": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "works",
+   "status": "single-book"
+  },
+  "抗战以来": {
+   "renderings": {
+    "Since the War of Resistance Began": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "works",
+   "status": "single-book"
+  },
+  "The Invisible Conflict": {
+   "renderings": {
+    "The Invisible Conflict": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "works",
+   "status": "single-book"
+  },
+  "满洲红旗": {
+   "renderings": {
+    "Manchurian Red Flag": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "works",
+   "status": "single-book"
+  },
+  "阵中要务令": {
+   "renderings": {
+    "Field Service Regulations": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "works",
+   "status": "single-book"
+  },
+  "康生传": {
+   "renderings": {
+    "The Claws of the Dragon": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "works",
+   "status": "single-book"
+  },
+  "双山回忆录": {
+   "renderings": {
+    "Reminiscences of Shuangshan": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "works",
+   "status": "single-book"
+  },
+  "模糊的荧屏": {
+   "renderings": {
+    "The Blurred Screen": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "works",
+   "status": "single-book"
+  },
+  "布尔塞维克": {
+   "renderings": {
+    "Bolshevik": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "works",
+   "status": "single-book"
+  },
+  "字林西报": {
+   "renderings": {
+    "North China Daily News": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "works",
+   "status": "single-book"
+  },
+  "大陆报": {
+   "renderings": {
+    "The China Press": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "works",
+   "status": "single-book"
+  },
+  "民国日报": {
+   "renderings": {
+    "Minguo Ribao": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "works",
+   "status": "single-book"
+  },
+  "中华英烈": {
+   "renderings": {
+    "Zhonghua Yinglie": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "works",
+   "status": "single-book"
+  },
+  "辞海": {
+   "renderings": {
+    "Cihai": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "works",
+   "status": "single-book"
+  },
+  "红旗": {
+   "renderings": {
+    "Red Flag": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "works",
+   "status": "single-book"
+  },
+  "大公报": {
+   "renderings": {
+    "Ta Kung Pao": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "works",
+   "status": "single-book"
+  },
+  "泰东日报": {
+   "renderings": {
+    "Taidong Daily": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "works",
+   "status": "single-book"
+  },
+  "君宪救国论": {
+   "renderings": {
+    "Saving the Nation Through Constitutional Monarchy": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "works",
+   "status": "single-book"
+  },
+  "西行漫记": {
+   "renderings": {
+    "Red Star Over China": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "works",
+   "status": "single-book"
+  },
+  "京报": {
+   "renderings": {
+    "Jing Bao": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "works",
+   "status": "single-book"
+  },
+  "文化周报": {
+   "renderings": {
+    "Cultural Weekly": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "works",
+   "status": "single-book"
+  },
+  "时事新报": {
+   "renderings": {
+    "Shishi Xinbao": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "works",
+   "status": "single-book"
+  },
+  "徐州日报": {
+   "renderings": {
+    "Xuzhou Ribao": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "works",
+   "status": "single-book"
+  },
+  "晋绥日报": {
+   "renderings": {
+    "Shanxi-Suiyuan Daily": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "works",
+   "status": "single-book"
+  },
+  "兵工月报": {
+   "renderings": {
+    "Ordnance Monthly": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "works",
+   "status": "single-book"
+  },
+  "江西民国日报": {
+   "renderings": {
+    "Jiangxi Minguo Ribao": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "works",
+   "status": "single-book"
+  },
+  "东方杂志": {
+   "renderings": {
+    "Eastern Miscellany": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "works",
+   "status": "single-book"
+  },
+  "向导": {
+   "renderings": {
+    "The Guide": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "works",
+   "status": "single-book"
+  },
+  "北斗": {
+   "renderings": {
+    "Big Dipper": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "works",
+   "status": "single-book"
+  },
+  "民族日报": {
+   "renderings": {
+    "National Daily": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "works",
+   "status": "single-book"
+  },
+  "危害民国紧急治罪法": {
+   "renderings": {
+    "Emergency Law for Crimes Endangering the Republic": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "works",
+   "status": "single-book"
+  },
+  "红色中华": {
+   "renderings": {
+    "Red China": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "works",
+   "status": "single-book"
+  },
+  "潮州": {
+   "renderings": {
+    "Chaozhou": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "places",
+   "status": "single-book"
+  },
+  "汕头": {
+   "renderings": {
+    "Shantou": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "places",
+   "status": "single-book"
+  },
+  "惠州": {
+   "renderings": {
+    "Huizhou": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "places",
+   "status": "single-book"
+  },
+  "海丰": {
+   "renderings": {
+    "Haifeng": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "places",
+   "status": "single-book"
+  },
+  "华阳": {
+   "renderings": {
+    "Huayang": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "places",
+   "status": "single-book"
+  },
+  "海参崴": {
+   "renderings": {
+    "Vladivostok": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "places",
+   "status": "single-book"
+  },
+  "会昌": {
+   "renderings": {
+    "Huichang": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "places",
+   "status": "single-book"
+  },
+  "长汀": {
+   "renderings": {
+    "Changting": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "places",
+   "status": "single-book"
+  },
+  "湘乡": {
+   "renderings": {
+    "Xiangxiang": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "places",
+   "status": "single-book"
+  },
+  "南京": {
+   "renderings": {
+    "Nanjing": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "places",
+   "status": "single-book"
+  },
+  "北京": {
+   "renderings": {
+    "Beijing": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "places",
+   "status": "single-book"
+  },
+  "徐州": {
+   "renderings": {
+    "Xuzhou": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "places",
+   "status": "single-book"
+  },
+  "苏州": {
+   "renderings": {
+    "Suzhou": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "places",
+   "status": "single-book"
+  },
+  "安庆": {
+   "renderings": {
+    "Anqing": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "places",
+   "status": "single-book"
+  },
+  "南溪": {
+   "renderings": {
+    "Nanxi": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "places",
+   "status": "single-book"
+  },
+  "格廷根": {
+   "renderings": {
+    "Göttingen": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "places",
+   "status": "single-book"
+  },
+  "伯力": {
+   "renderings": {
+    "Khabarovsk": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "places",
+   "status": "single-book"
+  },
+  "奉天": {
+   "renderings": {
+    "Fengtian": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "places",
+   "status": "single-book"
+  },
+  "上虞": {
+   "renderings": {
+    "Shangyu": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "places",
+   "status": "single-book"
+  },
+  "镇海": {
+   "renderings": {
+    "Zhenhai": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "places",
+   "status": "single-book"
+  },
+  "厦门": {
+   "renderings": {
+    "Xiamen": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "places",
+   "status": "single-book"
+  },
+  "宜宾": {
+   "renderings": {
+    "Yibin": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "places",
+   "status": "single-book"
+  },
+  "深水埗": {
+   "renderings": {
+    "Sham Shui Po": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "places",
+   "status": "single-book"
+  },
+  "晋绥": {
+   "renderings": {
+    "Shanxi-Suiyuan": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "places",
+   "status": "single-book"
+  },
+  "湘鄂赣": {
+   "renderings": {
+    "Hunan-Hubei-Jiangxi": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "places",
+   "status": "single-book"
+  },
+  "闽西": {
+   "renderings": {
+    "western Fujian": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "places",
+   "status": "single-book"
+  },
+  "平江": {
+   "renderings": {
+    "Pingjiang": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "places",
+   "status": "single-book"
+  },
+  "万载": {
+   "renderings": {
+    "Wanzai": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "places",
+   "status": "single-book"
+  },
+  "铜鼓": {
+   "renderings": {
+    "Tonggu": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "places",
+   "status": "single-book"
+  },
+  "崇阳": {
+   "renderings": {
+    "Chongyang": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "places",
+   "status": "single-book"
+  },
+  "通城": {
+   "renderings": {
+    "Tongcheng": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "places",
+   "status": "single-book"
+  },
+  "沈阳": {
+   "renderings": {
+    "Shenyang": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "places",
+   "status": "single-book"
+  },
+  "大阪": {
+   "renderings": {
+    "Osaka": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "places",
+   "status": "single-book"
+  },
+  "千叶": {
+   "renderings": {
+    "Chiba": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "places",
+   "status": "single-book"
+  },
+  "齐齐哈尔": {
+   "renderings": {
+    "Qiqihar": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "places",
+   "status": "single-book"
+  },
+  "海拉尔": {
+   "renderings": {
+    "Hailar": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "places",
+   "status": "single-book"
+  },
+  "四平": {
+   "renderings": {
+    "Siping": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "places",
+   "status": "single-book"
+  },
+  "抚顺": {
+   "renderings": {
+    "Fushun": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "places",
+   "status": "single-book"
+  },
+  "博克图": {
+   "renderings": {
+    "Boketu": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "places",
+   "status": "single-book"
+  },
+  "新疆": {
+   "renderings": {
+    "Xinjiang": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "places",
+   "status": "single-book"
+  },
+  "哈尔滨": {
+   "renderings": {
+    "Harbin": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "places",
+   "status": "single-book"
+  },
+  "和合坊": {
+   "renderings": {
+    "Hehe Fang": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "places",
+   "status": "single-book"
+  },
+  "蒲石路": {
+   "renderings": {
+    "Rue Bourgeat": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "places",
+   "status": "single-book"
+  },
+  "白宫饭店": {
+   "renderings": {
+    "White Palace Hotel": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "places",
+   "status": "single-book"
+  },
+  "新世界饭店": {
+   "renderings": {
+    "New World Hotel": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "places",
+   "status": "single-book"
+  },
+  "提篮桥监狱": {
+   "renderings": {
+    "Tilanqiao Prison": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "places",
+   "status": "single-book"
+  },
+  "龙华寺": {
+   "renderings": {
+    "Longhua Temple": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "places",
+   "status": "single-book"
+  },
+  "龙华兵工厂": {
+   "renderings": {
+    "Longhua Arsenal": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "places",
+   "status": "single-book"
+  },
+  "九龙": {
+   "renderings": {
+    "Kowloon": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "places",
+   "status": "single-book"
+  },
+  "尖沙嘴": {
+   "renderings": {
+    "Tsim Sha Tsui": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "places",
+   "status": "single-book"
+  },
+  "弥敦道": {
+   "renderings": {
+    "Nathan Road": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "places",
+   "status": "single-book"
+  },
+  "中央苏区": {
+   "renderings": {
+    "Central Soviet": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "places",
+   "status": "single-book"
+  },
+  "瓦窑堡": {
+   "renderings": {
+    "Wayaobao": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "places",
+   "status": "single-book"
+  },
+  "东固": {
+   "renderings": {
+    "Donggu": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "places",
+   "status": "single-book"
+  },
+  "百色": {
+   "renderings": {
+    "Bose": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "places",
+   "status": "single-book"
+  },
+  "老虎桥": {
+   "renderings": {
+    "Laohuqiao": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "places",
+   "status": "single-book"
+  },
+  "提蓝桥": {
+   "renderings": {
+    "Tilanqiao": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "places",
+   "status": "single-book"
+  },
+  "康奈尔大学": {
+   "renderings": {
+    "Cornell": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "places",
+   "status": "single-book"
+  },
+  "哈佛大学": {
+   "renderings": {
+    "Harvard": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "places",
+   "status": "single-book"
+  },
+  "东南大学": {
+   "renderings": {
+    "Southeast University": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "places",
+   "status": "single-book"
+  },
+  "亚尔培路": {
+   "renderings": {
+    "Avenue du Roi Albert": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "places",
+   "status": "single-book"
+  },
+  "晓庄": {
+   "renderings": {
+    "Xiaozhuang": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "places",
+   "status": "single-book"
+  },
+  "南浔铁路": {
+   "renderings": {
+    "Nanchang-Jiujiang railway": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "places",
+   "status": "single-book"
+  },
+  "塘沽": {
+   "renderings": {
+    "Tanggu": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "places",
+   "status": "single-book"
+  },
+  "劝业场": {
+   "renderings": {
+    "Quanyechang": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "places",
+   "status": "single-book"
+  },
+  "细柳巷": {
+   "renderings": {
+    "Xiliuxiang": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "places",
+   "status": "single-book"
+  },
+  "安品街": {
+   "renderings": {
+    "Anpin Street": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "places",
+   "status": "single-book"
+  },
+  "汀州": {
+   "renderings": {
+    "Tingzhou": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "places",
+   "status": "single-book"
+  },
+  "大埔": {
+   "renderings": {
+    "Dapu": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "places",
+   "status": "single-book"
+  },
+  "瞻园": {
+   "renderings": {
+    "Zhanyuan": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "places",
+   "status": "single-book"
+  },
+  "宁都": {
+   "renderings": {
+    "Ningdu": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "places",
+   "status": "single-book"
+  },
+  "永定": {
+   "renderings": {
+    "Yongding": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "places",
+   "status": "single-book"
+  },
+  "钓鱼台": {
+   "renderings": {
+    "Diaoyutai": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "places",
+   "status": "single-book"
+  },
+  "台儿庄": {
+   "renderings": {
+    "Tai'erzhuang": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "places",
+   "status": "single-book"
+  },
+  "枣庄": {
+   "renderings": {
+    "Zaozhuang": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "places",
+   "status": "single-book"
+  },
+  "梅园": {
+   "renderings": {
+    "Meiyuan": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "places",
+   "status": "single-book"
+  },
+  "杨献珍": {
+   "renderings": {
+    "Yang Xianzhen": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "people",
+   "status": "single-book"
+  },
+  "潘汉年": {
+   "renderings": {
+    "Pan Hannian": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "people",
+   "status": "single-book"
+  },
+  "钱壮飞": {
+   "renderings": {
+    "Qian Zhuangfei": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "people",
+   "status": "single-book"
+  },
+  "瞿秋白": {
+   "renderings": {
+    "Qu Qiubai": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "people",
+   "status": "single-book"
+  },
+  "康生": {
+   "renderings": {
+    "Kang Sheng": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "people",
+   "status": "single-book"
+  },
+  "李强": {
+   "renderings": {
+    "Li Qiang": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "people",
+   "status": "single-book"
+  },
+  "阎宝航": {
+   "renderings": {
+    "Yan Baohang": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "people",
+   "status": "single-book"
+  },
+  "江青": {
+   "renderings": {
+    "Jiang Qing": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "people",
+   "status": "single-book"
+  },
+  "张春桥": {
+   "renderings": {
+    "Zhang Chunqiao": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "people",
+   "status": "single-book"
+  },
+  "聂荣臻": {
+   "renderings": {
+    "Nie Rongzhen": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "people",
+   "status": "single-book"
+  },
+  "熊向晖": {
+   "renderings": {
+    "Xiong Xianghui": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "people",
+   "status": "single-book"
+  },
+  "沈安娜": {
+   "renderings": {
+    "Shen Anna": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "people",
+   "status": "single-book"
+  },
+  "徐恩曾": {
+   "renderings": {
+    "Xu Enzeng": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "people",
+   "status": "single-book"
+  },
+  "林彪": {
+   "renderings": {
+    "Lin Biao": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "people",
+   "status": "single-book"
+  },
+  "姚文元": {
+   "renderings": {
+    "Yao Wenyuan": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "people",
+   "status": "single-book"
+  },
+  "李立三": {
+   "renderings": {
+    "Li Lisan": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "people",
+   "status": "single-book"
+  },
+  "周少山": {
+   "renderings": {
+    "Zhou Shaoshan": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "people",
+   "status": "single-book"
+  },
+  "陈养山": {
+   "renderings": {
+    "Chen Yangshan": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "people",
+   "status": "single-book"
+  },
+  "陈云": {
+   "renderings": {
+    "Chen Yun": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "people",
+   "status": "single-book"
+  },
+  "王明": {
+   "renderings": {
+    "Wang Ming": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "people",
+   "status": "single-book"
+  },
+  "邓颖超": {
+   "renderings": {
+    "Deng Yingchao": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "people",
+   "status": "single-book"
+  },
+  "李克农": {
+   "renderings": {
+    "Li Kenong": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "people",
+   "status": "single-book"
+  },
+  "刘鼎": {
+   "renderings": {
+    "Liu Ding": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "people",
+   "status": "single-book"
+  },
+  "史量才": {
+   "renderings": {
+    "Shi Liangcai": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "people",
+   "status": "single-book"
+  },
+  "张冲": {
+   "renderings": {
+    "Zhang Chong": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "people",
+   "status": "single-book"
+  },
+  "博古": {
+   "renderings": {
+    "Bo Gu": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "people",
+   "status": "single-book"
+  },
+  "胡底": {
+   "renderings": {
+    "Hu Di": [
+     "zhou-enlai"
+    ]
+   },
+   "category": "people",
+   "status": "single-book"
   }
  }
 }

@@ -1323,3 +1323,66 @@ plates (Smedley p517 top, Rewi Alley p520 top, Zhou's Ruijin office p523 foot) a
 one hand-drawn diagram (Gu's Second-Branch network, p543 mid-page, which
 find_figures MISSED as line art) stripped from the body and reproduced as figures.
 Surgery markers written in clean text against the same-length de-mangle map.
+
+## B14 (FINAL) — ch25 Wu Hao Notice + ch26 Conclusion + ch27 Afterword; book COMPLETE
+
+ch25 (《伍豪启事》的出笼与破灭, printed 509-525, 3 sections, 52 body paras, 8 notes,
+2 figures): the KMT's Feb 1932 forged "Wu Hao and Others Withdraw from the CP"
+notice (Zhang Chong + Huang Kai of the Investigation Section); Chen Yangshan's 1951
+interrogation of Huang Kai; the Provisional Central Committee's rebuttal (the Party's
+own Wu Hao Notice in Struggle #4; Mao's Central Government Proclamation; Barrister Ba
+He's notice for "Zhou Shaoshan" via Pan Hannian/Huang Mulan/Chen Zhigao); and the
+1967-1980 reckoning after Jiang Qing and the Gang of Four weaponized the forgery,
+through Zhou's, Mao's, Kang Sheng's, Xie Fuzhi's, and Chen Yun's statements, Zhou's
+pre-surgery signing (Sept 1975), his death (Jan 1976), and the Tiananmen Incident.
+ch26 (结束语, printed 526-534, 19 paras, 7 notes): Mu Xin's summation of Zhou's
+hidden-front leadership, extended through the anti-Japanese and Liberation wars
+(Yan Baohang's Barbarossa warning; Xiong Xianghui and the "Three Later Heroes";
+Shen Anna; Zhang Kexia's Huaihai defection; Zhou's own retrospective on intelligence
+work). ch27 (后记, printed 535-537, 7 paras, 1 note): the author's afterword on
+sources and method.
+
+### Figures
+ch25-1 Barrister Ba He's Shen Bao clipping (p561, find_figures caught it);
+ch25-2 Zhou's handwritten report manuscript (p568, MISSED by find_figures as
+handwriting, cropped by hand). find_figures found only p561.
+
+### Checks (all green)
+verify_unit ch25/ch26/ch27 (parity 52/19/7, numbers 0 unresolved, anchors 8/7/1 ok);
+qc_entities 0 misses (removed 斗争 as a works entry — false-matched "struggle" — and
+罗斯 — substring of 俄罗斯; both hazards CLAUDE.md warns of); check_content --config
+OK (0 displacement); check_align OK; check_structure parity OK; check_register within
+tolerance of ch01; check_apparatus 0/0. Build: qa_epub PASS (28/28, 339 notes, 496
+pagebreaks), epubcheck 0/0/0.
+
+### OCR notes (dual-engine tesseract; PaddleOCR host unreachable)
+Folio garble intermittently caught by the crop (S$10/和4l11/S$12/S$34), stripped
+textually. Per-unit name folds: 陈广/陈庆→陈赓 (ch27), 毛洋东→毛泽东, 江理→江青,
+陈志皋's four garbles, 能向晖→熊向晖, 净宝航→阎宝航, 刘章→刘鼎, 柯遍→柯麟. Real
+numbers OCR corrupted and restored: 二百四十三→243 (Zhou's 1967 批示), 1S3→153,
+197S→1975, $0周年→50周年. 《-as-digit phantoms (4/6/六) and note-ref-as-digit
+phantoms fixed. Idioms to data/noise.txt: 数万万, 亿万, 千百倍, 日理万机, 万劫,
+一百两, 伍豪二字. No fabrication; the one cut-off (逸豪 p510) read off the scan.
+
+### Fact-check verdicts (real scholarship; never LLM-sourced)
+Wu Hao Notice CORROBORATED (Zhang Chong the forger; Mao's 1932 proclamation; the
+CR reckoning, "a sword over Zhou's head"). Yan Baohang's Barbarossa warning:
+contribution CORROBORATED, its decisive 24-hour effect UNCORROBORATED (Western
+scholarship notes Stalin disregarded many such warnings). Zhang Chong later became
+the KMT's liaison to Zhou (ironic, noted). Source inconsistency footnoted: Mu Xin
+attributes a memoir to Li Yimang but cites 《模糊的荧屏》(Huang Mulan's memoir).
+
+### NOT re-noted (already placed earlier; cross-referenced)
+Wu Hao (as Zhou's alias), Central Special Section, Zhongtong, Juntong, White Terror,
+Kuomintang, Cultural Revolution, Kang Sheng, September Eighteenth / Mukden, Shanghai
+Incident / Nineteenth Route Army, Shen Bao, Chinese Eastern Railway, Li Lisan line,
+Wang Ming, Three Heroes of Longtan, Ningdu, Chiang Kai-shek, Central Soviet, Ruijin.
+
+### Whole-book completion tail
+Reconciliation sweep (check 12): glossary-forward 843/847; spelling standardized to
+American (grey→gray, travelled→traveled x2, one note theatre→theater); 9 remaining
+"Theatre" are proper venue names (kept). Deep audit (check 10): 41-para 3% fixed-seed
+sample + 100% scan verification of B14 = 0 substantive errors (out/deep_audit.md).
+out/term_ledger.md (847 rows) written; authority.json fed (252 renderings, slug
+zhou-enlai); COMPLETION.md written; HANDOFF.md rewritten to COMPLETE. Back matter
+left inert (no errata/colophon; PDF p582 blank). Cover from data/figs/cover.png.
