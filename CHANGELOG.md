@@ -2,6 +2,43 @@
 
 Dated record of what changed and, for global corrections, what cascaded where.
 
+## 2026-08-22 — R4 register pass: tic sweep, back batch (ch18–ch22)
+Tier-B tic sweep of the back batch (ch18–ch22), including the spine test on
+ch19's five and ch21's two flagged long sentences. Reading text edited via
+edits/<id>_edits.md + apply_edits.py; content frozen (no para merged/split, no
+fact/number/name/date/hedge changed, no quoted material touched).
+- **19 English-surface edits** across ch18(4)/ch19(6)/ch20(4)/ch21(5)/ch22(0):
+  trailing 此外/并且/又/还/还有 "besides" → "also"/"as well"; 除…外 "besides X"
+  → "apart from X"; 先后 "one after another" → "in succession" (people) and
+  接连 reordered for rhythm; 只好 "could only" → "had no choice but to"; 便
+  "thereupon" → "then"; 后来 "At length" → "Later"; inverted antique "let slip
+  no chance" → "missed no chance"; de-nominalized "the teaching of the …";
+  **one calibrated-ruling-1 de-inversion** (ch19 L79 fronted-infinitive subject);
+  **one spine split** (ch21 L201 run-on cut at the hall).
+- **ch22 came back clean** (0 edits): a testimony-saturated chapter (the prison
+  hypnotism memoir, the Shen Bao report, Shen Zui's assassination account, the
+  Organization Department statement) — every tic is KEEP-listed. ch20 likewise
+  KEPT every in-quote litotes/could-only/besides (Chen Yangshan / Bao Junfu /
+  Chen Geng's reply letter).
+- Long-sentence spine test: only ch21 L201 split; all others pass (single-spine
+  biographies, colon-plus-list measure enumerations, rhetorical how-lists that
+  keep the author's heat, semicolon-balanced deliberations, quoted documents).
+- KEEP-list guard caught and left three in-quote hits: "could only work hard to
+  repay" (ch18, Zhang Shenchuan memoir), "Presently Chiang Kai-shek came" (ch19,
+  Cai Mengjian testimony), "could only make contact by telephone" (ch20, Chen
+  Yangshan testimony).
+- ch21's 18 等-tags ("and the rest"/"and the others") LEFT as genuine
+  varying-membership truncations; the mild arrestee-group alternation is flagged
+  for R5's whole-book check_reconcile.py (the plan's place for it).
+- Pre-flight: regenerated data/zh for ch18–ch22 from data/txt_backup_b1* via the
+  b1N_rebuild.sh drivers; all five verify_unit green before any edit.
+- Files touched: out/ch18,ch19,ch20,ch21_reading.md;
+  edits/ch18,ch19,ch20,ch21,ch22_edits.md; PROGRESS.md; rebuilt
+  out/zhou-enlai.epub. notes.json unchanged (339; no anchor moved).
+- verify_unit green on all five; check_register within tolerance vs
+  ch01_reading.pre-R.md (em-dash 1.00×); typography guard clean (0 curly quotes,
+  0 new ellipses); qa_epub PASS; **epubcheck 5.1.0: 0 errors, 0 warnings.**
+
 ## 2026-08-22 — R3 register pass: tic sweep, middle batch (ch09–ch14, ch16, ch17)
 Tier-B tic sweep of ch09–ch14 and ch17, plus the FULL aligned zh-en read of
 ch16. Reading text edited via edits/<id>_edits.md + apply_edits.py; content

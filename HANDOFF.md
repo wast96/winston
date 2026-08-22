@@ -3,69 +3,82 @@
 ## Message to paste into the next chat
 
 The book is COMPLETE; the REGISTER REVISION pass (`REVISION_PLAN.md`, five
-batches R1-R5) is under way. **R1, R2 and R3 are DONE.** R1: Tier A globals (95
-dates, Politburo cascade, ledger residuals) + the ch15 exemplar. R2: the
-Tier-B tic sweep of the front batch ch00-ch08 (11 edits; ch00/ch03/ch05/ch08
-clean). R3: the tic sweep of ch09-ch14 and ch17 + the full aligned read of ch16
-(18 edits; ch10/ch12 clean; see PROGRESS.md / CHANGELOG.md). Where the plan and
-this handoff disagree, the plan wins. Next is R4. The R4 kickoff:
+batches R1-R5) is under way. **R1, R2, R3 and R4 are DONE.** R1: Tier A globals
+(95 dates, Politburo cascade, ledger residuals) + the ch15 exemplar. R2: the
+Tier-B tic sweep of the front batch ch00-ch08 (11 edits). R3: the tic sweep of
+ch09-ch14 and ch17 + the full aligned read of ch16 (18 edits). R4: the tic
+sweep of the back batch ch18-ch22 (19 edits; ch22 clean; see PROGRESS.md /
+CHANGELOG.md). Where the plan and this handoff disagree, the plan wins. Next is
+R5, the final register batch. The R5 kickoff:
 
 ```
-Zhou Enlai R4 (revision)
+Zhou Enlai R5 (revision, final)
 
 Read CLAUDE.md, then REVISION_PLAN.md (it governs; where HANDOFF.md disagrees, the plan wins), then STYLE.md. Branch claude/zhou-enlai only; fold any stray branch per CLAUDE.md rule 2. Content FROZEN; edits only via edits/<id>_edits.md + scripts/apply_edits.py. Calibrate against the committed ch15 exemplar diff.
 
-Do batch R4 = tic sweep of ch18-ch22 per REVISION_PLAN.md sections 3-5, including the spine test on ch19's five and ch21's two flagged long sentences. ch19-ch20 already carry the Politburo form from R1; do not re-decide it. Source consulted at every non-mechanical site; KEEP list respected (ch20-ch22 are dense with quoted testimony; abridgment ellipses and document register stay). If data/zh is missing, regenerate per scripts/recovery/README.md and verify_unit green before editing.
+Do batch R5 = tic sweep of ch23-ch27, then the pass-closing sweep, per REVISION_PLAN.md sections 3-5 and 7: the 叛徒 variety check (plan section 3.2; sample against source, collapse only if it is drift, record the verdict); whole-book register_tics.sh re-run with every surviving hit defended; check_reconcile.py; grep the full pass diff for KEEP-list over-corrections; fresh 15-paragraph spot audit drawn from edited paragraphs book-wide. If data/zh is missing, regenerate per scripts/recovery/README.md and verify_unit green before editing.
 
-Per unit: apply, verify_unit, re-run register_tics.sh, defend survivors in PROGRESS.md, check_register vs out/ch01_reading.pre-R.md. Then rebuild, qa_epub (epubcheck if installed), 10% spot-audit (min 10), CHANGELOG, commit, push. Do not pause for approval. End with the rebuilt EPUB attached in chat AND the R5 kickoff from REVISION_PLAN.md section 9 pasted verbatim in a fenced block.
+Close out: rebuild, qa_epub, epubcheck; update COMPLETION.md with a dated revision record (edit counts per tier, spot-audit result, the 叛徒 verdict); commit the final EPUB with git add -f out/zhou-enlai.epub; restore HANDOFF.md to its completion state with NO kickoff section (the pass is over; further work is corrections per CLAUDE.md); CHANGELOG; commit, push. Do not pause for approval. End with the final EPUB attached in chat and a closing summary; there is no next kickoff.
 ```
 
-### R3 carry-forward for R4 (ch18-ch22)
-- **Fresh container = regenerate data/zh first.** data/zh is untracked. R4's
-  units: ch18 comes from `scripts/recovery/b10_rebuild.sh` (txt_backup_b10, with
-  ch17); ch19-ch22 come from b11/b12 — run render + ocr_crop (recorded crop
-  0.11/0.90/0.135/0.95, chi_sim psm6, running-head "隐蔽战线统帅周恩来") for the
-  PDF ranges, then the b1N strip/assemble/surgery/apply_fixes per
-  scripts/recovery/README.md and the b1N_rebuild.sh drivers where present, then
-  `apply_fixes.py`, then **revert data/pagemap/** (assemble's auto-output is
-  stale after surgery; the committed hand-built pagemaps are authoritative).
-  `pgrep -c tesseract` must read 0 after every OCR run. ocr_dual NOT needed.
-- **The regen recipe that worked in R3** (fresh container, tesseract 5.3.4):
-  render the whole PDF span once, ocr_crop once with the recorded crop, then run
-  each batch's strip -> assemble (per-unit, --offset 44) -> surgery --apply ->
-  apply_fixes; b10-b14 have `b1N_rebuild.sh` drivers that do this from
-  txt_backup. A stray "not found" from apply_fixes on a single char is benign
-  tesseract-5.3.4 drift; verify_unit is the gate.
+> **Commissioner request (2026-08-22), AFTER R5:** once the register pass closes,
+> run a dedicated **footnote-density pass** — greatly increase footnote coverage
+> across the whole book (people, places, events, offices, terms, allusions:
+> everything a non-specialist Western reader would miss), without padding. This
+> is a NEW initiative beyond the register plan (which had footnotes out of scope,
+> section 6); the commissioner's instruction takes precedence. The plan and
+> kickoff live in `FOOTNOTE_PASS.md` (its `## Kickoff` block is paste-ready).
+> Do R5 first; then that pass.
+
+### R4 carry-forward for R5 (ch23-ch27 + close-out)
+- **Fresh container = regenerate data/zh first.** data/zh is untracked. R5's
+  units ch23-ch27 come from `data/txt_backup_b13` and `_b14` via
+  `scripts/recovery/b13_rebuild.sh` and `b14_rebuild.sh` (deterministic; they
+  copy the backup into data/txt, then strip/assemble/surgery/apply_fixes/
+  pagemap). No re-OCR, no render needed for b10-b14 units. `mkdir -p data/txt
+  data/zh` first if absent. A stray apply_fixes "not found" on a single char is
+  benign tesseract-5.3.4 drift; verify_unit is the gate. In R4 the b1N drivers
+  regenerated data/pagemap byte-identical to the committed maps (no revert
+  needed); check `git status data/pagemap` and revert only if it drifts.
+- **All 28 units verify_unit green on R4's regen; ch18-ch22 had no benign
+  number-pair artifacts** (unlike ch04/ch15/ch16). If R5's regen throws one,
+  pin it in PROGRESS and do NOT touch the English.
 - **check_register ref:** always `out/ch01_reading.pre-R.md`.
-- **Everything in R4's range is the tic sweep** (no full-read chapter; ch15/ch16
-  were the two biography chapters and are done).
-- **Calibration:** the ch15 exemplar diff (12 edits/75 paras) and R2/R3 edit
-  lists are the restraint targets. Most flagged sites are LEFT; touch only
-  genuine narration tics; quoted memoirs/documents/dialogue are KEEP. The
-  KEEP-list guard is real: in R3 it caught "let slip not a moment" and
-  "whereupon" sitting inside quotes — search the diff for over-corrections.
-- **Defended-survivor conventions established R2-R3** (apply the same reasoning):
+- **Calibration:** the ch15 exemplar diff (12 edits/75 paras) and the R2/R3/R4
+  edit lists are the restraint targets. R4 was 19 edits across 316 paras; ch22
+  came back clean. Touch only genuine narration tics; quoted
+  memoirs/documents/dialogue are KEEP.
+- **KEEP-list guard is real:** R4 caught three in-quote hits and left them
+  ("could only work hard to repay" ch18 Zhang Shenchuan memoir; "Presently"
+  ch19 Cai Mengjian testimony; "could only make contact by telephone" ch20 Chen
+  Yangshan testimony). Search the diff for over-corrections every batch.
+- **Defended-survivor conventions (R2-R4, apply the same reasoning):**
   "before long"/"Before long" (不久) = modern, keep; "could not help" (不禁) =
   idiomatic, keep; "no small risk/part/feat" = idiomatic collocation, keep, but
   "no few"/"no little" = calque, fix; 除...外 noun-phrase "besides" -> "apart
-  from"; trailing 并/还 "besides" -> "as well"; sentence-initial or +gerund
-  "besides" = modern, keep; "one after another" kept only for genuine sequence
-  (连续/相继 where rhythm holds), else "in succession" (people) or recast for
-  纷纷 (distributive); "and the others"/"and the rest" kept where a good form or
-  a meaningful distinction (martyrs vs traitors), collapsed only on intra-
-  chapter drift for one referent; narration "。……" ellipses cut per STYLE
-  ruling 8, quotation-abridgment ellipses kept.
-- **Pinned benign zh artifacts in/near range:** none new for ch18-ch22 recorded
-  yet; if verify_unit flags a single number-pair that is zh-side OCR garble with
-  the English correct, pin it in PROGRESS (do not "fix" the English).
+  from"; trailing 并/还/又/还有/此外 "besides" -> "as well"/"also"; sentence-
+  initial or +gerund "besides" = modern, keep; "one after another" kept only for
+  genuine sequence (连续/相继/接连 where rhythm holds), else "in succession"
+  (people) or recast for 纷纷 (distributive); "and the others"/"and the rest"
+  kept as genuine varying-membership truncations, collapsed only on intra-
+  chapter drift for one fixed referent; 只好 -> "had no choice but to";
+  后来 -> "then/later" not "at length"; 便 -> "then" not "thereupon";
+  fronted-infinitive subjects de-inverted per STYLE calibrated ruling 1;
+  narration ellipses cut per STYLE ruling 8, quotation-abridgment ellipses kept;
+  spine-split ONLY genuine multi-spine run-ons, never a colon-plus-list.
+- **叛徒 variety check (R5 core task):** traitor 240 / renegade 29 / turncoat
+  11. Sample ~15 sites per variant against source; if the variation tracks
+  distinct source words (叛徒/变节分子/叛逆) keep it as deliberate, else collapse
+  to "traitor". Also do ch21's 等-tag arrestee-group alternation via
+  check_reconcile.py's human read.
+- **Book-wide diction-ledger residuals for R5's whole-book cascade (do NOT do
+  piecemeal):** 破坏 -> "wrecking" (ledger: **sabotage**), e.g. ch21:5,
+  ch20:67; and 镇压/除掉 of traitors -> soft "put down"/"did away with"
+  (killing-verb ledger: **eliminate/kill**). Grep-and-cascade across ALL built
+  units, then rebuild.
 - **Anchor discipline:** any prose edit that breaks a notes.json anchor carries
-  its NOTE-ANCHOR pair in the same edit list; date/term edits can also break
-  figures.json `before` anchors (builder refuses; fix figures.json by hand). In
-  R3 no anchor was touched (notes.json byte-unchanged, 339).
-- **For R5 (do not do in R4):** two book-wide diction-ledger residuals were
-  observed and deliberately left for R5's whole-book cascade — 破坏 -> "wrecking"
-  (ledger: sabotage) and 镇压/除掉 of traitors -> soft "put down"/"did away with"
-  (killing-verb ledger: eliminate/kill). Fixing them piecemeal would drift.
+  its NOTE-ANCHOR pair in the same edit list. In R4 no anchor was touched
+  (notes.json byte-unchanged, 339).
 
 ## THE BOOK IS COMPLETE
 
