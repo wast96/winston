@@ -1,6 +1,6 @@
 {
   "_README": "Structure and metadata for the build. printed = pdf - 11 for the body (verified at printed 2, 27, 231; constant, no plate drift). Front matter (blurb p6; series foreword pp.7-8) runs its OWN folio sequence restarting at 1. Chapter openers carry a photograph above the heading. Cite the printed folio in notes, never the PDF page.",
-  "deliverable": "out/chen-yangshan.epub",
+  "deliverable": "out/Chen Yangshan - Hero of the Secret War.epub",
   "title_en": "Chen Yangshan: Hero of the Secret War",
   "title_zh": "秘战英雄 陈养山",
   "subtitle_en": "",
