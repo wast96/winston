@@ -2,9 +2,9 @@
 
 **The book is COMPLETE.** All 18 units are translated and built: the Preface,
 fifteen body chapters, the Works Cited, and the Afterword. The deliverable,
-`out/sword-roars.epub`, is committed to this branch (`claude/the-sword-roars`).
-qa_epub PASSES and epubcheck 5.1.0 reports 0 fatals / 0 errors / 0 warnings /
-0 infos.
+`out/The Sword Roars in the West Wind.epub`, is committed to this branch
+(`claude/the-sword-roars`). qa_epub PASSES and epubcheck 5.1.0 reports 0 fatals
+/ 0 errors / 0 warnings / 0 infos.
 
 There is no next-batch kickoff. The whole-book completion report is
 `COMPLETION.md`: read it for the status-at-a-glance, the per-chapter tally, the

@@ -92,7 +92,7 @@ Zheng Chaolin, born 1901, was from Zhangping in Fujian. In 1919 he went to Franc
 
 It was Qu Qiubai who first had Zheng Chaolin take the lease on 34 Hengchangli. By Zheng Chaolin's own account in his memoirs, it was meant to be a "permanent liaison office to the various ports," because "the Center was preparing to move from Shanghai to Guangzhou once Ye Ting's army had taken Guangdong," and he was to be left "in Shanghai as director of the Center's Shanghai office." But when the Nanchang Uprising forces met grave defeat at Chaoshan, the plan to move to Guangzhou faded, and the house became instead the editorial office of Bolshevik and, with it, the Party's Central Propaganda Department. Zheng Chaolin took the south-facing front room on the second floor, and the office's secretary, Huang Jieran, the north-facing back room. (Zheng Chaolin, 1996)
 
-Later Huang Jieran left and Luo Yinong came. Back from his tour of the two Hu, Luo Yinong took the north-facing back room that Huang Jieran had vacated; that is, he spent his nights at 34 Hengchangli, and by day he worked at Wangdeli, at the corner of Avenue Road (today Beijing West Road) and Gordon Road (today Jiangning Road).
+Later Huang Jieran left and Luo Yinong came. Back from his tour of the two Hu, Luo Yinong took the north-facing back room that Huang Jieran had vacated; that is, he spent his nights at 34 Hengchangli, and by day he worked at Wangdeli, at the corner of Avenue Road and Gordon Road (today Jiangning Road).
 
 On the evening of April 14, 1928, Li Weihan came to 34 Hengchangli on Yuyuan Road.
 

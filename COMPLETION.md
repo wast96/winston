@@ -16,9 +16,10 @@ trust it. (No em dashes, per the working rules.)
 - **qa_epub: PASS** (111 files, 27 documents, 425 references / 425 bodies /
   425 backlinks, all links resolve).
 - **epubcheck 5.1.0 (EPUB 3.3): 0 fatals / 0 errors / 0 warnings / 0 infos.**
-- **Deliverable:** `out/sword-roars.epub`, committed to the branch
-  `claude/the-sword-roars` in the B18 commit (branches outlive containers,
-  chat attachments do not).
+- **Deliverable:** `out/The Sword Roars in the West Wind.epub`, committed to the
+  branch `claude/the-sword-roars` (branches outlive containers, chat
+  attachments do not). Renamed from `out/sword-roars.epub` in the 2026-08-22
+  corrections pass to carry the book's full name; content unchanged.
 
 ## What the finished edition contains
 
@@ -108,9 +109,9 @@ trust it. (No em dashes, per the working rules.)
 - **Apparatus** (`check_apparatus.py`): 0 failures, 0 warnings, after the
   title-italics anchor updates.
 - **Whole-book reconciliation** (`check_reconcile.py`): epithet drift 0
-  candidates; 1,123 of 1,140 decided forms present in the text (the unused
-  remainder are recurring terms that surface only in notes, or short-form
-  variants the prose uses instead, all legitimate). Resolved this batch:
+  candidates; 1,120 of 1,140 decided forms present in the text (the 20 unused
+  are recurring terms that surface only in notes, or short-form variants the
+  prose uses instead, all legitimate). Resolved this batch:
   - "Soong Ching-ling" to **Song Qingling** (the decided form; the T.V. Soong
     / Soong Ai-ling / Soong Mei-ling conventional names are unchanged).
   - "Dapu" already clean; **Dabu** stands book-wide.
@@ -190,7 +191,8 @@ of per-unit gate results is the stronger evidence of fidelity.
 - **Deliverables:** `out/<id>_reading.md` per unit (the correction surface),
   `out/term_ledger.md`, `out/deep_audit.md`, `notes.json`, `glossary.json`,
   `figures.json`, `book.json`; `authority.json` updated with this book's
-  decided renderings; the built `out/sword-roars.epub` committed.
+  decided renderings; the built `out/The Sword Roars in the West Wind.epub`
+  committed.
 
 ## Further work
 

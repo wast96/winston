@@ -8,6 +8,45 @@ Dated record of what changed and, for global corrections, what cascaded where.
 - LOCAL: fixed dropped clause at ch03 §2 folio 45.
 -->
 
+## 2026-08-22 — corrections pass + full QA sweep (book stays COMPLETE)
+
+Zero commissioner items, so a clean-checkout regression run, plus one
+commissioner instruction (rename the deliverable). The regression run caught
+two real regressions against the frozen B09 STYLE.local policy and fixed both.
+
+- DELIVERABLE RENAME: `out/sword-roars.epub` -> `out/The Sword Roars in the
+  West Wind.epub`. Changed only `book.json` `deliverable` (builder, qa_epub and
+  the Stop hook all read that key). Old committed EPUB retired from git; new
+  file added. Rebuilt content is byte-identical to the prior EPUB (unzip-diff
+  verified); only the filename changed. Doc refs updated in COMPLETION.md,
+  HANDOFF.md, PROGRESS.md.
+- GLOBAL: footnote dates normalized to month-day-year. 19 day-month-year dates
+  in note bodies ("12 April 1927" -> "April 12, 1927"; ranges "22-23 March
+  1927" -> "March 22-23, 1927") brought into line with the prose and the
+  translator's-note promise of month-day-year throughout. notes.json only; no
+  note anchor affected. Cascade check: grep of the "D Month YYYY" pattern now
+  zero across out/*_reading.md, notes.json, glossary.json, figures.json,
+  book.json.
+- GLOBAL: street glosses de-duplicated to once-per-street book-wide, per the
+  STYLE.local rule "keep the first, cut the rest" (back Street Gazetteer carries
+  the mapping). Cut 13 repeated "(today X)" parentheticals across ch03, ch05,
+  ch06, ch07, ch14, ch15, keeping each street's first gloss in reading order.
+  The one anchored gloss (ch04 "Avenue Joffre (today Huaihai Middle Road)") is
+  a kept first occurrence. Cascade check: no "(today X)" gloss appears more than
+  once book-wide; check_apparatus 0/0.
+- QA: rebuilt; qa_epub PASS; epubcheck 5.1.0 0/0/0/0; check_apparatus 0/0;
+  check_reconcile epithet-drift SKIPPED (no data/zh in clean checkout),
+  glossary-forward 1120/1140 (unchanged by these edits; the 20 unused decided
+  forms are notes-only or short-form variants), spelling-locale flags only the
+  deliberate "China Defence League" x3; term_ledger regenerated, in sync with
+  glossary.json.
+- Files touched: book.json, notes.json, out/ch03_reading.md, out/ch05_reading.md,
+  out/ch06_reading.md, out/ch07_reading.md, out/ch14_reading.md,
+  out/ch15_reading.md, out/term_ledger.md (regenerated, no change),
+  out/The Sword Roars in the West Wind.epub (new), out/sword-roars.epub
+  (removed), COMPLETION.md, HANDOFF.md, PROGRESS.md, CORRECTIONS.md,
+  CHANGELOG.md.
+
 ## 2026-08-16 — B09 review, round two: attribution, footnotes, spine method
 
 Factual integrity (priority 1):

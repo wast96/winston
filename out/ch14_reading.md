@@ -124,7 +124,7 @@ Wu Chengfang signaled to Miao's wife to help Miao Guren lie down and rest a whil
 
 As for Zheng Wendao, from the moment of his arrest his whole mind held only one thing, the words he had spoken to Nakanishi's face: "Sir, I can tell you this: once I am taken, I will not let slip one word about you." And the surest way to make good on that "not let slip" was to shut his own mouth forever, to fall utterly silent.
 
-As the car carrying Zheng Wendao passed the corner of Kiangse Road (today Jiangxi Middle Road) and Sanma Road (today Hankou Road), he gave a great shout, sprang up all at once, tore free of his escorts, hurled himself from the moving car, and struck his head hard against the racing wheels.
+As the car carrying Zheng Wendao passed the corner of Kiangse Road (today Jiangxi Middle Road) and Sanma Road, he gave a great shout, sprang up all at once, tore free of his escorts, hurled himself from the moving car, and struck his head hard against the racing wheels.
 
 Seven days later he came out of his coma to find himself lying in the Japanese gendarmerie headquarters, and, forcing himself past the pain that racked his whole body, he made a second desperate attempt on his own life. This time he flung himself not from a jolting car but from a fourth-floor window. In that last instant, his blood spattering, he fixed forever an unconquerable, faithful soul!
 

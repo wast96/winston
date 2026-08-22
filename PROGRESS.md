@@ -2,6 +2,60 @@
 
 The running per-batch log. Written as we go.
 
+## Corrections pass + QA sweep (2026-08-22)
+
+The book stays COMPLETE. This was a corrections pass (zero commissioner items,
+so a clean-checkout regression run) plus the full QA sweep, and one commissioner
+instruction: the deliverable now carries the book's full name.
+
+- **Deliverable renamed** to `out/The Sword Roars in the West Wind.epub` (was
+  `out/sword-roars.epub`). Changed only `book.json` `deliverable`; builder,
+  qa_epub and the Stop hook all read that key, so the rename cascades. The old
+  committed EPUB was retired from git (a rename) and the new-named file added.
+  Rebuilt content is byte-identical to the old EPUB (verified by unzip-diff);
+  only the filename changed.
+- **Branch.** Harness started on stray `claude/gracious-ride-gcczio` (same
+  commit as origin/canonical). Consolidated onto `claude/the-sword-roars`;
+  stray deleted local, and the stale remote-tracking ref pruned (no remote ref
+  existed on GitHub).
+- **Two real regressions caught by the sweep and fixed globally** (both against
+  the frozen B09 STYLE.local policy; chapters drafted after B09 reintroduced the
+  drift that policy predicted):
+  1. **Dates.** 19 footnote dates were in day-month-year form
+     ("the coup of 12 April 1927") while the prose and the reader-facing
+     translator's note promise month-day-year *throughout*; notes.json even
+     mixed both forms for the same date. Normalized all 19 to month-day-year
+     ("April 12, 1927"), ranges included ("March 22-23, 1927"). Confined to
+     note bodies; no anchor touched (check_apparatus clean after).
+  2. **Repeated street glosses.** 13 "(today X)" parenthetical glosses repeated
+     a street already glossed earlier (e.g. Avenue Road "(today Beijing West
+     Road)" 3x, Burkill Road "(today Fengyang Road)" 3x). STYLE.local rule
+     "gloss once, book-wide; keep the first, cut the rest" applied: kept each
+     street's first gloss (reading order), cut the 13 later ones. The back
+     Street Gazetteer carries the rest. The one anchored gloss (ch04 "Avenue
+     Joffre (today Huaihai Middle Road)") is a kept first occurrence, so safe.
+     Files touched: ch03, ch05, ch06, ch07, ch14, ch15 reading files.
+- **QA sweep, Tier A (whole-book, no source needed):** build clean; qa_epub
+  PASS; epubcheck 5.1.0 **0/0/0/0**; check_apparatus 0/0; check_reconcile
+  epithet-drift SKIPPED (no data/zh in a clean checkout; a Tier B item),
+  glossary-forward 1120/1140 (the 20 unused decided forms are notes-only or
+  short-form variants, legitimate), spelling-locale flags only the deliberate
+  "China Defence League" x3; check_register (informational) flags ch16 (a
+  bibliography) and ch04/ch11 (document-heavy) STILTED, expected not defects;
+  British-spelling battery clean but for China Defence League and the literal
+  "GRAND/CARLTON THEATRE" signage described in two figure alt/caption fields
+  (faithful description of the image, kept); term_ledger regenerated, still in
+  sync with glossary.json; invented-precision grep surfaced only inherently
+  vague renderings ("tens, hundreds of times", "thousands of li", "for months
+  on end"), no false definiteness.
+- **QA sweep, Tier B (source comparison):** the edits this pass are apparatus
+  and style (footnote date format; translator-supplied street glosses), none of
+  which touches source fidelity, and every unit passed full source-comparison
+  gates in its own batch. data/zh and data/png are gitignored, so a full source
+  re-audit means regenerating the OCR pipeline for the audited units; not run
+  this pass because no fidelity surface changed and there were no commissioner
+  flags. The seed-1837 deep-audit coverage stands.
+
 ## B18 — FINAL: front & back matter, reconciliation, completion (2026-08-22)
 
 **THE BOOK IS COMPLETE.** 18/18 units built; qa_epub PASS; epubcheck 5.1.0
