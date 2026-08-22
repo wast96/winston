@@ -1,4 +1,24 @@
-## Preface: Probing the Secret
+Read this. It is a chapter of an English translation. I want you to tell me, in
+detail, every single thing in here that is wrong from the perspective of a
+native English speaker.
+
+Focus on this being a translation: it is mostly about how the prose reads. I do
+not want things fully invented, but they need to be fixed, because right now
+this is not exactly right. Look for translationese and stiltedness: stilted
+inversions, calqued idioms, transferred syntax, sentences that stack too many
+clauses, dash- or comma-glosses jammed mid-sentence, doubled synonyms, wooden
+dialogue, pronoun fog, wrong or fake-antique register, and anything a good
+editor would blue-pencil in original English.
+
+Be succinct but precise. No huge paragraphs. No repetition. No notes that manage
+feelings about how good it is. Just good, insightful, solid corrections: quote
+the phrase or sentence, say what is wrong in a few words, and give the fix.
+
+======================================================================
+
+CHAPTER UNDER REVIEW
+
+Preface: Probing the Secret
 
 The search for secrets seems to be part of human nature.
 
@@ -10,7 +30,7 @@ People are greedy. To find a secret is not enough; they want to possess it.
 
 And to possess a secret takes professional skill.
 
-At the level of national security, the organizations that ferret secrets out are called intelligence agencies, and those that keep secrets are called security organs. This work, both intelligence and security, is the profession of secret struggle, and it is itself the deepest secret in the world.
+At the level of national security, the organizations that ferret secrets out are called intelligence agencies, and those that keep secrets are called security organs. This work, intelligence and security both, the profession of secret struggle, becomes in itself the deepest secret in the world.
 
 A secret within the secret.
 
@@ -20,7 +40,7 @@ Who knew that modern China's first secret-service organization was created not b
 
 Zhou Enlai, the world-renowned diplomat, was at the same time the head of a vast secret apparatus. At a time when the agents of every country and faction stank to high heaven, the CCP's own spymaster kept a clean name.
 
-And who would have guessed that Mao Zedong was also a master analyst of intelligence? While Stalin and Roosevelt both misread their intelligence and brought their nations to the edge of ruin, Mao had already seized the strategic initiative. When every other field in China lagged behind, its intelligence and security work moved into the front rank of the world during the Second World War.
+And who would have guessed that Mao Zedong was also a master analyst of intelligence? While Stalin and Roosevelt both misread their intelligence and brought their nations to the edge of ruin, Mao had already seized the strategic initiative. When every trade in China lagged behind, its intelligence and security work moved into the front rank of the world during the Second World War.
 
 In the largest civil war of all, the People's Liberation Army's headquarters could get almost any intelligence it wanted, for the asking. Before the Volunteers ever went into Korea, Mao had read America's hand.
 
@@ -38,7 +58,7 @@ I have interviewed a great many of these old "special agents" across every branc
 
 Since it appeared, this book has had the good fortune to win a wide readership, specialists among them. One reader asked me how a true record could be better reading than an invented story. My answer is that the people who made these true events were, every one, artists, and the cases they designed had to fool everybody. When the rest of us spin a tale badly or act it out unconvincingly, the worst we suffer is to look foolish; the moment these people slipped, they forfeited their lives.
 
-The events in this book are all the work of people of the first rank, made with the whole of their lives and their wits. Stories like these are bound to move anyone.
+The events in this book are all the work of people of the first rank, made with the whole of their lives and their wits. Such stories cannot fail to move.
 
 This book has been added to and reprinted many times over, and still I dare not feel the least satisfaction. The water is too deep.
 
@@ -46,12 +66,19 @@ China's hidden front holds countless secrets yet, buried out of sight.
 
 The water is deep, and you cannot touch the bottom of the pool. But we have to wade in and try; only by testing the water do you learn its depth. This book is my wading in alongside the reader, feeling for the vein of ore; and once the vein is found, the seam will follow.
 
-I am especially grateful to the readers who pointed out the book's gaps and handed me leads to follow, and to the specialists whose corrections sharpened my grasp of the subject even further.
+I am especially grateful to the readers who pointed out the book's gaps and handed me leads to follow, and to the specialists whose corrections did still more to sharpen my grasp of the subject.
 
-The new illustrated edition I now bring out is, in a sense, expanded and revised.
+The newly upgraded illustrated edition I now bring out is, in a sense, an expanded and revised one.
 
 If the first edition merely set the treasures out on display, this one goes a step further and tries to search out the cultural value of the hoard.
 
 The most precious treasure in this world is not gold or diamonds but cultural heritage. Culture too has life; the growth of a civilization has its own cultural genes.
 
-And passing on that cultural heritage is a task for reader and author to take up together.
+And that cultural inheritance is a task for reader and author to take up together.
+
+---
+
+NOTES (these are prose too; judge them):
+
+- [the Volunteers ever went into Korea] The Chinese People's Volunteers, the name given to the PLA forces China sent into the Korean War (1950–1953).
+- [the deepest secret in the world] The author's framing thesis: that the intelligence and security services, being the profession of secrecy itself, are the most hidden part of any state — and that China's, and the CCP's in particular, are the least known of all. The chapters that follow are his attempt to open them.
