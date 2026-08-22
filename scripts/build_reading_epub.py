@@ -208,25 +208,44 @@ def make_cover(dest, title_en, title_zh, author_en, author_zh):
     return True
 
 
-def shrink_image(src, dest):
-    """Downsample an interior FIGURE for the reading edition (covers never come
-    through here -- a cover is chrome and is copied byte-identical). Saves in
-    the format the destination's extension declares, so the manifest media
-    type stays truthful. Returns False (caller copies verbatim) when Pillow is
-    missing or the format is one we do not re-encode."""
+def emit_figure(src, images_dir, srcname):
+    """Downsample, greyscale and re-encode an interior FIGURE for the reading
+    edition, writing it in whichever of PNG or JPEG comes out SMALLER: JPEG
+    wins for continuous-tone scans (photographs, scanned document plates), PNG
+    for near-bilevel line art, so photographs stop shipping as bloated greyscale
+    PNGs (the payload of this book is almost entirely scanned photos). Each
+    figure is capped at MAX_FIG_WIDTH. Returns the emitted filename, whose
+    extension may differ from the source; the declared media type follows that
+    extension, so the manifest stays truthful. Covers never come through here --
+    a cover is chrome and is copied byte-identical. Falls back to a verbatim
+    copy (returning srcname) when Pillow is missing or the source is a format we
+    do not re-encode."""
+    import io
+    base, ext = os.path.splitext(srcname)
+    ext = ext.lower()
+    if ext not in (".png", ".jpg", ".jpeg"):
+        shutil.copy(src, os.path.join(images_dir, srcname))
+        return srcname
     try:
         from PIL import Image
     except ImportError:
-        return False
-    ext = os.path.splitext(dest)[1].lower()
-    fmt = {".png": "PNG", ".jpg": "JPEG", ".jpeg": "JPEG"}.get(ext)
-    if not fmt:
-        return False
+        shutil.copy(src, os.path.join(images_dir, srcname))
+        return srcname
     img = Image.open(src)
     if img.width > MAX_FIG_WIDTH:
         h = int(img.height * MAX_FIG_WIDTH / img.width)
         img = img.resize((MAX_FIG_WIDTH, h), Image.LANCZOS)
-    img.convert("L").save(dest, format=fmt, optimize=True)
+    g = img.convert("L")
+    pbuf, jbuf = io.BytesIO(), io.BytesIO()
+    g.save(pbuf, format="PNG", optimize=True)
+    g.save(jbuf, format="JPEG", quality=90, optimize=True, progressive=True)
+    if len(jbuf.getvalue()) < len(pbuf.getvalue()):
+        out, data = base + ".jpg", jbuf.getvalue()
+    else:
+        out, data = base + ".png", pbuf.getvalue()
+    with open(os.path.join(images_dir, out), "wb") as fh:
+        fh.write(data)
+    return out
     return True
 
 
@@ -524,7 +543,7 @@ def render_body(md_path, section_ids, sub_ids, figures, notes, counter, doc,
                 out.append(
                     '<figure><img src="images/%s" alt="%s"/>'
                     "<figcaption>%s</figcaption></figure>"
-                    % (fig["file"], esc(fig.get("alt", "")),
+                    % (fig.get("emitted", fig["file"]), esc(fig.get("alt", "")),
                        esc(fig["caption"])))
                 fig["placed"] = True
         # PAGE-BREAK MARKER, before the paragraph the printed page opens on.
@@ -938,11 +957,10 @@ def main(epub_path):
             src = os.path.join(FIGS, spec["file"])
             if not os.path.exists(src):
                 continue
-            dest = os.path.join(oebps, "images", spec["file"])
-            if not shrink_image(src, dest):
-                shutil.copy(src, dest)
-            if spec["file"] not in manifest_figs:
-                manifest_figs.append(spec["file"])
+            name = emit_figure(src, os.path.join(oebps, "images"), spec["file"])
+            spec["emitted"] = name
+            if name not in manifest_figs:
+                manifest_figs.append(name)
 
     with open(os.path.join(oebps, "style.css"), "w") as fh:
         fh.write(CSS)

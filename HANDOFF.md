@@ -29,8 +29,8 @@ Re-run the full battery across the spine per plan sec.2 and sec.8:
   - structure/apparatus: check_apparatus clean; the builder's anchor-refusal
     backstop passes on a clean build.
   - build + QA: build_reading_epub.py; qa_epub.py PASS; epubcheck
-    /tmp/epubcheck-5.1.0/epubcheck.jar out/chen-yangshan.epub = 0/0/0. Keep the
-    EPUB under 30 MiB (MAX_FIG_WIDTH=1000 must hold; it is ~28.6 MiB now).
+    /tmp/epubcheck-5.1.0/epubcheck.jar out/Chen Yangshan - Hero of the Secret War.epub = 0/0/0. Keep the
+    EPUB under 30 MiB (MAX_FIG_WIDTH=1000 must hold; it is ~12.2 MiB now after the R3 JPEG re-encode).
   - reconcile sweep: check_reconcile.py for cross-chapter drift (repeated
     compounds with >1 English rendering, every glossary en form used, one
     spelling locale). NOTE a known metadata locale slip to resolve or record:
@@ -49,7 +49,7 @@ Re-run the full battery across the spine per plan sec.2 and sec.8:
 Then close: dated CHANGELOG.md entry; COMPLETION.md addendum recording the pass
 and final counts (12 units swept, edit totals per batch, 18 principals, dates
 normalized, translator-note sentence); commit the final EPUB
-(git add -f out/chen-yangshan.epub); push. Deliver the EPUB and the addendum in
+(git add -f out/Chen Yangshan - Hero of the Secret War.epub); push. Deliver the EPUB and the addendum in
 chat. HANDOFF.md returns to "COMPLETE; further work is a corrections pass." Do
 not pause for approval mid-batch.
 ```
@@ -75,7 +75,7 @@ still a clean-checkout regression run.
   ch10 references; ch11 afterword). 1,256 body paragraphs.
 - **432 footnotes**, **78 figures**, **731 glossary referents** (52 provisional,
   all minor bit-part names).
-- **Deliverable:** `out/chen-yangshan.epub` (committed with `git add -f`).
+- **Deliverable:** `out/Chen Yangshan - Hero of the Secret War.epub` (committed with `git add -f`).
   qa_epub PASS (104 files, 432/432/432 notes resolve); epubcheck 5.1.0 0/0/0.
   Title page reads COMPLETE.
 - **Ledgers current:** `notes.json`, `glossary.json`, `figures.json`, `book.json`,
@@ -92,6 +92,11 @@ still a clean-checkout regression run.
 - Builder: section-nav omits pending sections; refuses on an unmatched note anchor
   or unplaced figure; figure `alt` carries no straight double quotes;
   `strip_runfoot` removes the verso book-title foot.
+- Builder figure encoder `emit_figure`: greyscale + cap at MAX_FIG_WIDTH,
+  then write each figure as whichever of PNG or JPEG (q90) is smaller (JPEG for
+  photos, PNG for line art). Cut the EPUB 28.6 -> 12.2 MiB with no visible loss;
+  do not revert to PNG-only. figures.json keeps .png source names; emitted names
+  (often .jpg) are a build-time detail.
 - `apparatus_merge` merges glossary rows into sections; **REPLACES a unit's
   figures wholesale** — for a chapter split across batches, always re-include the
   prior batch's figures or they are dropped silently (this bit ch02; recovered in
@@ -103,6 +108,6 @@ still a clean-checkout regression run.
 - `./setup.sh` once; epubcheck at `/tmp/epubcheck-5.1.0/epubcheck.jar` (setup
   re-fetches on a fresh container). `OMP_THREAD_LIMIT=1` for tesseract.
 - Rebuild: `python3 scripts/build_reading_epub.py`, `python3 scripts/qa_epub.py`,
-  `java -jar /tmp/epubcheck-5.1.0/epubcheck.jar out/chen-yangshan.epub`.
+  `java -jar /tmp/epubcheck-5.1.0/epubcheck.jar out/Chen Yangshan - Hero of the Secret War.epub`.
 - The setup.sh regression "hook stands down on template stub: FAIL" is benign
   (the fixture expects a placeholder HANDOFF; this one is a real/complete handoff).

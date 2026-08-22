@@ -1372,3 +1372,21 @@ register table + CHANGELOG + COMPLETION addendum + final EPUB commit).
 No script changes. The glossary date reformat and principal flags were a
 targeted string replace + a json load/dump (indent=2, ensure_ascii=False, CJK
 preserved); the translator's-note sentence was a targeted book.json edit.
+
+## R3 tooling addendum -- figure images re-encoded to JPEG (do NOT revert)
+
+Commissioner asked to trim the ~28.6 MiB EPUB. The payload was almost entirely
+figure images, and every figure was shipping as a greyscale PNG (a wasteful
+format for continuous-tone scans). Changed the builder's figure encoder
+(scripts/build_reading_epub.py): the old shrink_image is now emit_figure, which
+greyscales and caps each figure at MAX_FIG_WIDTH (unchanged, still 1000) and then
+writes it in whichever of PNG or JPEG (quality 90, progressive) is SMALLER. JPEG
+wins for continuous-tone scans; PNG is kept for any near-bilevel line art, so
+nothing with sharp text edges is forced through JPEG when PNG is already smaller.
+The emitted filename (extension may change to .jpg) is stored on each in-memory
+figure spec and used consistently for the copied file, the manifest media type
+(MIME keys off the extension), and the <img src>; figures.json is NOT rewritten
+(source names stay .png). The cover is untouched (chrome, copied byte-identical).
+Result: 78 of 78 figures went to JPEG, 1 PNG remains (the generated cover);
+EPUB 28.56 MiB -> 12.19 MiB (-57%); qa_epub PASS; epubcheck 5.1.0 = 0/0/0.
+No visible loss (q90 greyscale on <=1000px scans). MAX_FIG_WIDTH=1000 still holds.
