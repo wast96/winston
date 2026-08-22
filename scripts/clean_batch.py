@@ -1090,6 +1090,37 @@ UNITS = {
         "glued": {}, "glued_head": {},
         "standalone": [13, 64, 105, 161],
     },
+    "ch43": {
+        "file": "44_index-split-000-0042.txt",
+        "title": "英雄无名 篇后续话",
+        # drop=2: running header 英雄无名-陈恭澍 + <h2> chapter title. Confirmed
+        # byte-exact p-by-p against the source XHTML: 1 <h2> + 32 <p>, ZERO
+        # mismatches; no <h1>, no <h3>, no <br/>, no <img>, no [\d+] note
+        # markers, 0 images. The Afterword has NO sections (no <h3>), so
+        # book.json ch43 carries NO `sections` array and there are NO
+        # standalone sub-heads. The file has NO trailing newline, so it is 33
+        # lines; after drop=2 there are 31 NON-EMPTY body lines. The XHTML
+        # shows 32 <p> because its LAST <p> (document-final) is EMPTY -- the
+        # extractor drops it -> 31 non-empty <p> == 31 body lines, a clean 1:1
+        # match. NO severed-<p> boundaries: every body line ends on a terminal
+        # glyph (no non-terminal enders, no ！/？/》-masked severs). NO
+        # source-injection run (no 内容提要/篇后续话 fused mid-<p>; near-duplicate
+        # scan found nothing).
+        # INNER enumeration stays as BODY lines per parity: the four-point
+        # reform programme (国家安全部门纳入行政体制 [tail of L18=在我国...] /
+        # 情报组织一元化 [L19] / 保防系统正规化 [L20] / 任何政党...政争工具 [L21])
+        # is a run-in policy list, each a source <p>, kept as its own body line.
+        # Digitization glitches (rendered to plain sense, listed in PROGRESS):
+        # L1 glitched book-enumeration markers 丨/2/3/囡/同 for 一/二/三/四/五
+        # (the five constituent books); L3 mismatched guillemets ﹃...﹂ and a
+        # stray ？ for a closing 」 (自传﹂？); L6 安享余—年 stray — in 余年; L22/L25
+        # ﹁特务！ stray ！ for a closing 」. All rendered to plain sense; only
+        # genuine reading uncertainty footnoted; corner brackets ﹁﹂﹃﹄ for 「」『』.
+        "drop": 2,
+        "merges": [],
+        "glued": {}, "glued_head": {},
+        "standalone": [],
+    },
 }
 
 

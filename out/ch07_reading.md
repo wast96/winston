@@ -182,7 +182,7 @@ In this there was no special reason; our early work, from the Bureau headquarter
 
 Even so, Mr. Dai did not like his subordinates to ask anything of others. Were we now to put any request to the authorities in charge, reasonable though it was, it always felt not quite fitting at just this critical pass. So I thought for my own part, and Mr. Zheng Jiemin was much of the same mind; and so we decided to solve our own difficulties ourselves. This, indeed, was the meaning of doing all that lies in oneself.
 
-A little after ten that morning, when we had held a first consultation with Mr. Zheng, he made ready to go up and see Minister He (acting deputy chairman of the Military Branch). Elder Brother Wang and I went by the same car to Beichang Street to join up with brother Shiwei.
+A little after ten that morning, when we had held a first consultation with Mr. Zheng, he made ready to go up and see Minister He (acting chairman of the Military Branch Council). Elder Brother Wang and I went by the same car to Beichang Street to join up with brother Shiwei.
 
 We three, on the principle just discussed, exchanged views once more and agreed to proceed each on his own part:
 

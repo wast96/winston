@@ -20,7 +20,7 @@ And further, according to the mainland Peking-opera actor Li Hongchun, who tells
 
 4. Concerning the date of martyrdom of the three forerunners Xu Shouxin, Yu Yanzhi, and Zhou Xiliang (see the sixth chapter, page eighty-seven), as Mr. Xu Zhan has informed me by telephone, it remains the twenty-seventh of the twelfth month of the twenty-eighth year of the Republic.
 
-5. Lin Huaibu, the principal figure in the case of Zhang Xiaolin (see the eighth chapter, page one hundred and twenty-nine), has now been traced. According to a man come from Hong Kong: “A few years ago, Lin Huaibu was undergoing reform through labour in the Third Brigade of the ‘Shanghai No. —— Farm’ in northern Jiangsu.” As the man had yet to go back, I can but leave it at that.
+5. Lin Huaibu, the principal figure in the case of Zhang Xiaolin (see the eighth chapter, page one hundred and twenty-nine), has now been traced. According to a man come from Hong Kong: “A few years ago, Lin Huaibu was undergoing reform through labor in the Third Brigade of the ‘Shanghai No. —— Farm’ in northern Jiangsu.” As the man had yet to go back, I can but leave it at that.
 
 6. Chen Gongbo was president of the puppet Legislative Yuan, while the presidency of the puppet Executive Yuan was held by Wang himself concurrently (see the ninth chapter, page eighty-five). What was set down in the text—that “Chen Gongbo was at the time the puppet president of the Executive Yuan”—is in error.
 

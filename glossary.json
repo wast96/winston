@@ -48,7 +48,7 @@
    "en": "Ji Hongchang",
    "pinyin": "Jí Hóngchāng",
    "status": "attested",
-   "note": "1895–1934; Northwest Army general, figure in the 1933 Chahar anti-Japanese army; executed by the Nationalists. Honoured as a Communist martyr in the People's Republic."
+   "note": "1895–1934; Northwest Army general, figure in the 1933 Chahar anti-Japanese army; executed by the Nationalists. Honored as a Communist martyr in the People's Republic."
   },
   "冯玉祥": {
    "en": "Feng Yuxiang",
@@ -263,7 +263,7 @@
    "en": "Wu Taixun",
    "pinyin": "Wú Tàixūn",
    "status": "attested",
-   "note": "Courtesy name Youquan, called 'the Fifth Master'; son of the Manchurian general Wu Junsheng, and a wealthy patron of Dai Li's work. Chen honours him as a 'nameless hero.'"
+   "note": "Courtesy name Youquan, called 'the Fifth Master'; son of the Manchurian general Wu Junsheng, and a wealthy patron of Dai Li's work. Chen honors him as a 'nameless hero.'"
   },
   "李士珍": {
    "en": "Li Shizhen",
@@ -2837,6 +2837,12 @@
    "pinyin": "Feng Zhijun",
    "status": "provisional",
    "note": "A comrade of the First Brigade, in those days a little past twenty and about the rank of lieutenant, later a retired major general; the author of the first-person 'Record of the Xiaolingfeng Garrison' that anchors this chapter's third section. Rendered inline in ch41; keyed here."
+  },
+  "刘绍唐": {
+   "en": "Liu Shaotang",
+   "pinyin": "Liu Shaotang",
+   "status": "decided",
+   "note": "1921-2000; founder and, for some four decades, editor of the Taipei monthly Biographical Literature, the foremost venue for Republican-era memoir and first-hand historical recollection, in which the whole of Chen's memoir was serialized. Chen thanks him in the Afterword for the fixed venue and the support he gave."
   }
  },
  "organizations": {
@@ -3972,6 +3978,12 @@
    "pinyin": "Magong",
    "status": "decided",
    "note": "The main harbor town of Penghu (the Pescadores), where the brigade went ashore in September 1949."
+  },
+  "张垣": {
+   "en": "Zhangyuan",
+   "pinyin": "Zhangyuan",
+   "status": "decided",
+   "note": "A literary name for Zhangjiakou (Kalgan), the Chahar gateway city; the form Chen favors in the Part-Four chapters. Introduced with Zhangjiakou in a note at its first appearance."
   }
  },
  "terms": {

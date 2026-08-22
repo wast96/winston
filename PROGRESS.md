@@ -4273,3 +4273,70 @@ two-hundred-man reunion, Li Yulin as Penghu magistrate; and the ring-composition
 - Mismatched presentation-form guillemets ﹁﹂﹃﹄ for 「」『』 pervasive (rendered to sense).
 - Name/title variants (NOT glitches): 良顺兄/连良顺 = 连谋 Lian Mou; 张炳华 = 张炎元 Zhang Yanyuan; 郑三爷
   = 郑恩普 Zheng Enpu; 兆芬 = 王兆芬 Wang Zhaofen; 鲁颖兄 = 张鲁颖 Zhang Luying; 原深兄 = 刘原深 Liu Yuanshen.
+
+## Batch B36 - ch43 (英雄无名 篇后续话, the Afterword) + WHOLE-BOOK COMPLETION - THE LAST BATCH
+
+**BOOK COMPLETE: 43/43 chapters, 375 notes, qa_epub PASS, epubcheck 0/0/0/0.**
+
+### ch43 structure
+- src 44_index-split-000-0042.txt. drop=2 (running header 英雄无名-陈恭澍 + <h2> title). NO sections
+  (no <h3>) -> book.json ch43 has NO `sections` array; reading.md = `## title_en` + body paragraphs.
+- **The 31-vs-32 count question RESOLVED:** byte-exact p-by-p diff vs the XHTML showed 1 <h2> + 32 <p>,
+  but the LAST <p> is EMPTY (the extractor drops it) -> 31 NON-EMPTY <p> == 31 body lines, a clean 1:1
+  match. NO severs (every body line ends terminal), NO glued, NO standalone, NO merges, NO source-injection
+  (内容提要/篇后续话 scan clean; near-duplicate scan clean). 0 images (grep <img> = 0). No [\d+] markers.
+- clean_batch source-conservation OK. 31 body paragraphs.
+
+### ch43 translation & checks
+- Chen's grave reflective register (the narrating "shall" DELIBERATE, preserved). median ratio 5.43
+  en/han (reflective coda, higher than narrative band, like the ch32 preface; alignment is the gate).
+- verify_unit: 31 pairs, 0 unresolved numbers, 3 anchors ok. check_align: 31/31, no pair strays >2.2x.
+- check_content: ch43 7 name occurrences, 0 DISPLACED. qc_entities: 0 misses (传记文学 x3, 罗敬 x2,
+  制裁 x2, 绥靖 x1 [in the Part-Four book title], 河内 x1 [in the Part-Two book title], 刘绍唐 x1,
+  刘原深 x1 - all align to glossary). check_register: within tolerance. TAIL (the book's last words)
+  verified explicitly vs source - faithful, complete.
+- **NO new noise rules needed** (all numbers resolved: the five-book enumeration 1/2/3/4/5, the
+  ordinals second/third/fourth/fifth, 十年/七年/八年/五本, ROC years - all traced).
+
+### ch43 notes (3 net-new; 375 cumulative) & glossary (1 net-new row)
+- 3 notes: (1) the five-books editorial enumeration reconciled to the four Parts of this collection
+  (book 4 抗战后期反间活动 "Counter-Agent Work..." is Chen's separate volume, not carried as a Part);
+  (2) 刘绍唐 Liu Shaotang, publisher of Biographical Literature, met/thanked for the first time;
+  (3) 大中至正 "the great, the central, and the utterly upright", the classical closing ideal (the
+  arch at the Chiang Kai-shek Memorial Hall), on which the book's last argument turns.
+- 1 glossary row: 刘绍唐 Liu Shaotang (people, decided). NOT re-noted: 制裁/sanction, 军统/保密局,
+  戴雨农 Dai Li, the ROC-year system, the five-part memoir structure, 特务/tewu, 传记文学.
+- Digitization glitches (rendered to sense, none footnoted - mechanical): L1 glitched book-enumeration
+  markers 丨/2/3/囡/同 for 一/二/三/四/五; L3 mismatched ﹃...﹂ and a stray ？ for a closing 」
+  (自传﹂？); L6 安享余—年 (stray — in 余年); L22/L25 ﹁特务！ (stray ！ for a closing 」); dropped 。
+  stops (园地|这; 之处|过去; 关联|所以; 前题 for 前提); pervasive ﹁﹂﹃﹄ for 「」『』.
+
+### WHOLE-BOOK COMPLETION (CLAUDE.md "Definition of done")
+- **Clean TOC 43/43** (no pending placeholder), coverage complete. qa_epub PASS (57 files, 50 docs,
+  375/375/375 note refs/bodies/backlinks). epubcheck 5.1.0: 0 fatals/errors/warnings/infos.
+- **check_reconcile + reconciliation applied:**
+  - **Spelling locale unified to AMERICAN** (was 736 American vs 38 British across curated pairs).
+    scripts/normalize_spelling.py cascaded 26 tokens across prose + note bodies + glossary bodies
+    (theater/honor/color/center/meter/defense/gray/organize/practice/marvelous/favor/labor/neighbor),
+    proper-noun-safe (no Labour Party / surname Grey / proper Centre-Honour). Re-check: 0 British /
+    774 American.
+  - **张垣/张家口 reconciled:** both are Kalgan; source uses both names. Now 张垣 -> Zhangyuan and
+    张家口 -> Zhangjiakou uniformly (the lone ch08 张垣, previously collapsed to "Zhangjiakou", aligned
+    to "Zhangyuan"), with a first-appearance city note at ch08 (Zhangjiakou/Kalgan + the literary name
+    Zhangyuan). 张垣 -> Zhangyuan now keyed; check_content shows NO new displacement (ch08 still 3
+    Shunde FPs, ch41 still 1 河内 FP).
+  - **~20 decided renderings grep-counted**, single renderings + first-appearance notes confirmed
+    (the Juntong 72/ch04, Baomiju via ch04 note, Dai Li 33/ch02, Pacification Corps 75/ch32, Wang
+    Jingwei 195/ch03, Three Principles 25/ch05, Whampoa 18/ch05, Biographical Literature 9/ch18).
+- **Deep audit** (out/deep_audit.md): fixed-seed (43) sample of 45 pairs (0.7%) read vs source;
+  44/45 fully faithful, ZERO substantive errors; 1 title nuance fixed (ch07 何部长（军分会代委员长）:
+  "acting deputy chairman" -> "acting chairman of the Military Branch Council", 代委员长 = acting
+  chairman). Bounds the rate below ~6-7% at 95% (not zero); sits atop whole-population scripted checks.
+- **authority.json fed back** (scripts/feed_authority.py) under slug `nameless-heroes`: 399 new
+  cross-book terms, 43 agreements with prior books, 1 flagged disagreement (宋子文 "Song Ziwen" pinyin
+  vs the shelf's "T. V. Soong" - honest `reconcile`; NH glossary note already bridges to T. V. Soong).
+- **out/term_ledger.md** written (decided/attested renderings by category with whole-book counts;
+  provisional list appended). **COMPLETION.md** written. **HANDOFF.md rewritten to COMPLETE.**
+- **Findings left for the commissioner (documented, not silently changed):** 宋子文 pinyin-vs-Soong;
+  制裁/sanction used from ch02 but formally defined in the ch04 note (ch02 uses transparent from
+  context). Provisional romanizations (241 people / 19 places / 5 orgs) remain to firm up.

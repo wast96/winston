@@ -898,7 +898,7 @@ As Ji Hongchang's train passed through Shandong on the Tianjin–Pukou railway, 
 
 In October 1932, Feng Yuxiang came down from the mountain, and indeed came to Zhangjiakou.
 
-In February 1933, Ji Hongchang went from Tianjin to Zhangjiakou, and with Feng Yuxiang plotted the setting-on-foot of the "Chahar People's Anti-Japanese Allied Army." Feng Yuxiang, of course, understood well what game Ji Hongchang was playing; yet still, as though his wits were bewitched, he was content to play the puppet. From this one may see that between Feng Yuxiang and the Communist Party there was surely reached some measure of understanding, and it is very possible that certain conditions were even struck.
+In February 1933, Ji Hongchang went from Tianjin to Zhangyuan, and with Feng Yuxiang plotted the setting-on-foot of the "Chahar People's Anti-Japanese Allied Army." Feng Yuxiang, of course, understood well what game Ji Hongchang was playing; yet still, as though his wits were bewitched, he was content to play the puppet. From this one may see that between Feng Yuxiang and the Communist Party there was surely reached some measure of understanding, and it is very possible that certain conditions were even struck.
 
 Such is a stretch of Ji Hongchang's career.
 

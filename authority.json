@@ -143,7 +143,8 @@
    "renderings": {
     "Yu Youren": [
      "huang-mulan",
-     "juntong"
+     "juntong",
+     "nameless-heroes"
     ]
    },
    "category": "people",
@@ -246,7 +247,8 @@
   "关东军": {
    "renderings": {
     "the Kwantung Army": [
-     "on-a-hair-trigger"
+     "on-a-hair-trigger",
+     "nameless-heroes"
     ],
     "Kwantung Army": [
      "wang-yaqiao"
@@ -275,7 +277,8 @@
      "huang-mulan"
     ],
     "the Juntong": [
-     "juntong"
+     "juntong",
+     "nameless-heroes"
     ],
     "Juntong": [
      "on-a-hair-trigger"
@@ -290,7 +293,8 @@
     "Feng Yuxiang": [
      "huang-mulan",
      "thousand-li",
-     "wang-yaqiao"
+     "wang-yaqiao",
+     "nameless-heroes"
     ]
    },
    "category": "people",
@@ -339,7 +343,8 @@
      "huang-mulan",
      "midnight",
      "the-whistling-wind",
-     "thousand-li"
+     "thousand-li",
+     "nameless-heroes"
     ]
    },
    "category": "places",
@@ -420,7 +425,8 @@
    "renderings": {
     "Nanchang": [
      "juntong",
-     "midnight"
+     "midnight",
+     "nameless-heroes"
     ]
    },
    "category": "places",
@@ -454,7 +460,8 @@
    "renderings": {
     "Ye Ting": [
      "huang-mulan",
-     "juntong"
+     "juntong",
+     "nameless-heroes"
     ]
    },
    "category": "people",
@@ -464,7 +471,8 @@
    "renderings": {
     "Wu Peifu": [
      "huang-mulan",
-     "wang-yaqiao"
+     "wang-yaqiao",
+     "nameless-heroes"
     ]
    },
    "category": "people",
@@ -477,7 +485,8 @@
      "midnight"
     ],
     "the Wusong bar": [
-     "thousand-li"
+     "thousand-li",
+     "nameless-heroes"
     ]
    },
    "category": "places",
@@ -499,7 +508,8 @@
    "renderings": {
     "Zhou Weilong": [
      "juntong",
-     "wang-yaqiao"
+     "wang-yaqiao",
+     "nameless-heroes"
     ]
    },
    "category": "people",
@@ -509,7 +519,8 @@
    "renderings": {
     "Zhou Enlai": [
      "huang-mulan",
-     "juntong"
+     "juntong",
+     "nameless-heroes"
     ]
    },
    "category": "people",
@@ -531,7 +542,8 @@
    "renderings": {
     "Tang Shengzhi": [
      "huang-mulan",
-     "wang-yaqiao"
+     "wang-yaqiao",
+     "nameless-heroes"
     ]
    },
    "category": "people",
@@ -579,7 +591,8 @@
      "huang-mulan"
     ],
     "the People's Political Council": [
-     "juntong"
+     "juntong",
+     "nameless-heroes"
     ]
    },
    "category": "organizations",
@@ -589,7 +602,8 @@
   "复兴社": {
    "renderings": {
     "the Renaissance Society": [
-     "juntong"
+     "juntong",
+     "nameless-heroes"
     ],
     "Renaissance Society": [
      "wang-yaqiao"
@@ -676,7 +690,8 @@
     "Tianjin": [
      "huang-mulan",
      "midnight",
-     "the-whistling-wind"
+     "the-whistling-wind",
+     "nameless-heroes"
     ]
    },
    "category": "places",
@@ -687,7 +702,8 @@
    "renderings": {
     "Fenghua": [
      "juntong",
-     "wang-yaqiao"
+     "wang-yaqiao",
+     "nameless-heroes"
     ]
    },
    "category": "places",
@@ -707,7 +723,8 @@
   "孔祥熙": {
    "renderings": {
     "Kong Xiangxi": [
-     "huang-mulan"
+     "huang-mulan",
+     "nameless-heroes"
     ],
     "H. H. Kung": [
      "juntong"
@@ -723,7 +740,8 @@
      "huang-mulan",
      "midnight",
      "thousand-li",
-     "wang-yaqiao"
+     "wang-yaqiao",
+     "nameless-heroes"
     ]
    },
    "category": "people",
@@ -734,7 +752,8 @@
    "renderings": {
     "Sun Chuanfang": [
      "huang-mulan",
-     "midnight"
+     "midnight",
+     "nameless-heroes"
     ]
    },
    "category": "people",
@@ -788,6 +807,9 @@
     ],
     "T. V. Soong": [
      "thousand-li"
+    ],
+    "Song Ziwen": [
+     "nameless-heroes"
     ]
    },
    "category": "people",
@@ -955,7 +977,8 @@
    "renderings": {
     "Zhang Xueliang": [
      "juntong",
-     "wang-yaqiao"
+     "wang-yaqiao",
+     "nameless-heroes"
     ]
    },
    "category": "people",
@@ -965,7 +988,8 @@
    "renderings": {
     "Zhang Yanyuan": [
      "juntong",
-     "wang-yaqiao"
+     "wang-yaqiao",
+     "nameless-heroes"
     ]
    },
    "category": "people",
@@ -989,7 +1013,8 @@
      "huang-mulan"
     ],
     "the Loyal and Patriotic Army": [
-     "juntong"
+     "juntong",
+     "nameless-heroes"
     ]
    },
    "category": "organizations",
@@ -1001,7 +1026,8 @@
     "Yuyuan Road": [
      "on-a-hair-trigger",
      "the-whistling-wind",
-     "thousand-li"
+     "thousand-li",
+     "nameless-heroes"
     ]
    },
    "category": "places",
@@ -1036,7 +1062,8 @@
     "Dai Li": [
      "huang-mulan",
      "juntong",
-     "wang-yaqiao"
+     "wang-yaqiao",
+     "nameless-heroes"
     ]
    },
    "category": "people",
@@ -1209,7 +1236,8 @@
     "Li Zongren": [
      "huang-mulan",
      "juntong",
-     "wang-yaqiao"
+     "wang-yaqiao",
+     "nameless-heroes"
     ]
    },
    "category": "people",
@@ -1235,7 +1263,8 @@
      "huang-mulan",
      "juntong",
      "thousand-li",
-     "wang-yaqiao"
+     "wang-yaqiao",
+     "nameless-heroes"
     ]
    },
    "category": "people",
@@ -1294,7 +1323,8 @@
   "桂林": {
    "renderings": {
     "Guilin": [
-     "huang-mulan"
+     "huang-mulan",
+     "nameless-heroes"
     ],
     "Kweilin": [
      "juntong"
@@ -1343,7 +1373,8 @@
     "Wuhan": [
      "huang-mulan",
      "midnight",
-     "thousand-li"
+     "thousand-li",
+     "nameless-heroes"
     ]
    },
    "category": "places",
@@ -1354,7 +1385,8 @@
     "Mao Zedong": [
      "huang-mulan",
      "on-a-hair-trigger",
-     "wang-yaqiao"
+     "wang-yaqiao",
+     "nameless-heroes"
     ]
    },
    "category": "people",
@@ -1377,7 +1409,8 @@
    "renderings": {
     "Hankou": [
      "huang-mulan",
-     "midnight"
+     "midnight",
+     "nameless-heroes"
     ]
    },
    "category": "places",
@@ -1410,7 +1443,8 @@
     "Wang Jingwei": [
      "huang-mulan",
      "on-a-hair-trigger",
-     "wang-yaqiao"
+     "wang-yaqiao",
+     "nameless-heroes"
     ]
    },
    "category": "people",
@@ -1734,7 +1768,8 @@
    "renderings": {
     "Hu Hanmin": [
      "huang-mulan",
-     "wang-yaqiao"
+     "wang-yaqiao",
+     "nameless-heroes"
     ]
    },
    "category": "people",
@@ -1829,7 +1864,8 @@
    "renderings": {
     "Hongkou": [
      "midnight",
-     "the-whistling-wind"
+     "the-whistling-wind",
+     "nameless-heroes"
     ]
    },
    "category": "places",
@@ -1875,7 +1911,8 @@
    "renderings": {
     "He Long": [
      "huang-mulan",
-     "midnight"
+     "midnight",
+     "nameless-heroes"
     ]
    },
    "category": "people",
@@ -1897,7 +1934,8 @@
    "renderings": {
     "Deng Yanda": [
      "huang-mulan",
-     "thousand-li"
+     "thousand-li",
+     "nameless-heroes"
     ]
    },
    "category": "people",
@@ -1928,7 +1966,8 @@
    "renderings": {
     "Chongqing": [
      "huang-mulan",
-     "the-whistling-wind"
+     "the-whistling-wind",
+     "nameless-heroes"
     ],
     "Chungking": [
      "juntong"
@@ -1988,7 +2027,8 @@
    "renderings": {
     "Yan Xishan": [
      "midnight",
-     "wang-yaqiao"
+     "wang-yaqiao",
+     "nameless-heroes"
     ]
    },
    "category": "people",
@@ -2021,7 +2061,8 @@
    "renderings": {
     "Chen Bulei": [
      "huang-mulan",
-     "juntong"
+     "juntong",
+     "nameless-heroes"
     ]
    },
    "category": "people",
@@ -2043,7 +2084,8 @@
    "renderings": {
     "Chen Duxiu": [
      "huang-mulan",
-     "juntong"
+     "juntong",
+     "nameless-heroes"
     ]
    },
    "category": "people",
@@ -2056,7 +2098,8 @@
      "huang-mulan",
      "juntong",
      "thousand-li",
-     "wang-yaqiao"
+     "wang-yaqiao",
+     "nameless-heroes"
     ]
    },
    "category": "people",
@@ -2156,7 +2199,8 @@
    "renderings": {
     "Gu Zhutong": [
      "huang-mulan",
-     "juntong"
+     "juntong",
+     "nameless-heroes"
     ]
    },
    "category": "people",
@@ -2258,7 +2302,8 @@
   "黄浦江": {
    "renderings": {
     "the Huangpu": [
-     "on-a-hair-trigger"
+     "on-a-hair-trigger",
+     "nameless-heroes"
     ],
     "the Huangpu River": [
      "thousand-li"
@@ -2272,7 +2317,8 @@
    "renderings": {
     "Huang Jinrong": [
      "huang-mulan",
-     "wang-yaqiao"
+     "wang-yaqiao",
+     "nameless-heroes"
     ]
    },
    "category": "people",
@@ -2289,6 +2335,3996 @@
    "category": "places",
    "status": "agreed",
    "note": "District in the southern outskirts of Shanghai; site of the Kuomintang Garrison Command&#8217;s prison and execution ground."
+  },
+  "陈恭澍": {
+   "renderings": {
+    "Chen Gongshu": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": ""
+  },
+  "张敬尧": {
+   "renderings": {
+    "Zhang Jingyao": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "1881–1933; Beiyang general and former military governor of Hunan, assassinated in Beiping in 1933."
+  },
+  "施剑翘": {
+   "renderings": {
+    "Shi Jianqiao": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Avenger who shot Sun Chuanfang dead in 1935; publicly pardoned."
+  },
+  "吉鸿昌": {
+   "renderings": {
+    "Ji Hongchang": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "1895–1934; Northwest Army general, figure in the 1933 Chahar anti-Japanese army; executed by the Nationalists. Honored as a Communist martyr in the People's Republic."
+  },
+  "方振武": {
+   "renderings": {
+    "Fang Zhenwu": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": ""
+  },
+  "石友三": {
+   "renderings": {
+    "Shi Yousan": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "1891–1940; a general notorious for switching sides repeatedly."
+  },
+  "殷汝耕": {
+   "renderings": {
+    "Yin Rugeng": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "1885–1947; head of the Japanese-sponsored East Hebei regime; executed as a traitor after the war."
+  },
+  "王克敏": {
+   "renderings": {
+    "Wang Kemin": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "1879–1945; head of the Japanese puppet 'Provisional Government' at Beiping; called 'Blind Wang.'"
+  },
+  "陈璧君": {
+   "renderings": {
+    "Chen Bijun": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "1891–1959; Wang Jingwei's wife, a forceful political figure; imprisoned after the war."
+  },
+  "曾仲鸣": {
+   "renderings": {
+    "Zeng Zhongming": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "1896–1939; Wang Jingwei's close aide, killed at Hanoi in the attack meant for Wang."
+  },
+  "李士群": {
+   "renderings": {
+    "Li Shiqun": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "1905–1943; ex-Communist who ran the Wang regime's secret police at No. 76; poisoned by the Japanese."
+  },
+  "傅筱庵": {
+   "renderings": {
+    "Fu Xiao'an": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "1872–1940; banker installed as puppet mayor of Shanghai; assassinated in 1940."
+  },
+  "张啸林": {
+   "renderings": {
+    "Zhang Xiaolin": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "One of the Green Gang's 'Three Tycoons' of Shanghai; killed in 1940 for collaborating."
+  },
+  "郑介民": {
+   "renderings": {
+    "Zheng Jiemin": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Senior Nationalist intelligence chief; rose to full general."
+  },
+  "毛人凤": {
+   "renderings": {
+    "Mao Renfeng": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Dai Li's successor as head of the postwar secret service (the Baomiju)."
+  },
+  "林彪": {
+   "renderings": {
+    "Lin Biao": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Communist commander whose army took Beiping and Tianjin in 1948–49."
+  },
+  "聂荣臻": {
+   "renderings": {
+    "Nie Rongzhen": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Communist commander in the North China campaign of 1948–49."
+  },
+  "刘少奇": {
+   "renderings": {
+    "Liu Shaoqi": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "1898–1969; PRC head of state, purged and hounded to death in the Cultural Revolution."
+  },
+  "陶铸": {
+   "renderings": {
+    "Tao Zhu": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Senior Communist official, another victim of the Cultural Revolution."
+  },
+  "王天木": {
+   "renderings": {
+    "Wang Tianmu": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "A senior Juntong operative in North China; later, in the Hanoi affair and after, his loyalties became a matter of dispute."
+  },
+  "白世维": {
+   "renderings": {
+    "Bai Shiwei": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Seventh-class academy graduate; the gunman who carried out the 1933 killing of Zhang Jingyao, the Beiping Station's first case."
+  },
+  "吴泰勋": {
+   "renderings": {
+    "Wu Taixun": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Courtesy name Youquan, called 'the Fifth Master'; son of the Manchurian general Wu Junsheng, and a wealthy patron of Dai Li's work. Chen honors him as a 'nameless hero.'"
+  },
+  "李士珍": {
+   "renderings": {
+    "Li Shizhen": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Whampoa graduate and police theorist, the strict team leader of the Honggongci training class; later a leading figure in the Nationalist police and a rival of Dai Li for its control."
+  },
+  "黄雍": {
+   "renderings": {
+    "Huang Yong": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Courtesy name Jianqiu; a first-class Whampoa graduate who took Chen in at Nanjing and recommended him into the work."
+  },
+  "张作霖": {
+   "renderings": {
+    "Zhang Zuolin": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "1875-1928; the 'Old Marshal,' warlord of Manchuria, killed by the Japanese Kwantung Army in the Huanggutun bombing of 1928."
+  },
+  "何应钦": {
+   "renderings": {
+    "He Yingqin": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "1890-1987; senior Nationalist general, at this time acting head of the Military Affairs Commission's Beiping Branch."
+  },
+  "坂垣征四郎": {
+   "renderings": {
+    "Itagaki Seishirō": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "1885-1948; general of the Japanese Kwantung Army, an architect of the 1931 Manchurian seizure; hanged as a war criminal. The source writes 坂垣 for the standard 板垣."
+  },
+  "张宗昌": {
+   "renderings": {
+    "Zhang Zongchang": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "1881-1932; warlord of Shandong, the 'Dog-Meat General.' See the note in this section."
+  },
+  "蔡锷": {
+   "renderings": {
+    "Cai E": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "1882-1916; Yunnan general who launched the 1915 National Protection War against Yuan Shikai's monarchy. See the note in this section."
+  },
+  "小凤仙": {
+   "renderings": {
+    "Xiao Fengxian": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "The sing-song girl of Republican legend who helped Cai E flee Yuan Shikai's Beijing in 1915; a stock figure of stage and screen."
+  },
+  "宋哲元": {
+   "renderings": {
+    "Song Zheyuan": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "1885-1940; commander of the Twenty-Ninth Army in North China. See the note in this section."
+  },
+  "段祺瑞": {
+   "renderings": {
+    "Duan Qirui": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "1865-1936; Beiyang premier and head of the Anhui clique. See the note in this section."
+  },
+  "施从滨": {
+   "renderings": {
+    "Shi Congbin": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Division commander under Sun Chuanfang, executed by him at Bengbu; the killing his daughter Shi Jianqiao avenged in 1935."
+  },
+  "吉章简": {
+   "renderings": {
+    "Ji Zhangjian": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Nationalist gendarmerie officer, commander of the Fourth Regiment and leader of Chen's Lixingshe cell; later a general. The source's stray '古章简' is the same man."
+  },
+  "宣侠父": {
+   "renderings": {
+    "Xuan Xiafu": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Communist organizer who, with Ji Hongchang, formed the 1934 Chinese People's Anti-Fascist Grand Alliance at Tianjin."
+  },
+  "南汉宸": {
+   "renderings": {
+    "Nan Hanchen": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Communist figure, co-organizer of the 1934 Tianjin alliance; later the founding governor of the People's Bank of China."
+  },
+  "任应岐": {
+   "renderings": {
+    "Ren Yingqi": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "A former Zhili-clique general drawn into Ji Hongchang's circle; extradited and executed alongside Ji in 1934, though, as Chen notes, not himself a Communist."
+  },
+  "商震": {
+   "renderings": {
+    "Shang Zhen": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": ""
+  },
+  "于学忠": {
+   "renderings": {
+    "Yu Xuezhong": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": ""
+  },
+  "张慕陶": {
+   "renderings": {
+    "Zhang Mutao": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": ""
+  },
+  "穆欣": {
+   "renderings": {
+    "Mu Xin": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "The Communist author of the 1979 booklet 'General Ji Hongchang,' which Chen quotes at length and disputes."
+  },
+  "樊钟秀": {
+   "renderings": {
+    "Fan Zhongxiu": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": ""
+  },
+  "靳云鹗": {
+   "renderings": {
+    "Jin Yun'e": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": ""
+  },
+  "门致中": {
+   "renderings": {
+    "Men Zhizhong": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": ""
+  },
+  "佟麟阁": {
+   "renderings": {
+    "Tong Linge": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Later a Nationalist general and a celebrated martyr of the 1937 defense of Beiping."
+  },
+  "孙良诚": {
+   "renderings": {
+    "Sun Liangcheng": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": ""
+  },
+  "冯占海": {
+   "renderings": {
+    "Feng Zhanhai": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": ""
+  },
+  "杨虎城": {
+   "renderings": {
+    "Yang Hucheng": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "The Shaanxi general who, with Zhang Xueliang, seized Chiang Kai-shek in the 1936 Xi'an Incident."
+  },
+  "李大钊": {
+   "renderings": {
+    "Li Dazhao": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "A co-founder of the Chinese Communist Party, executed at Beiping in 1927."
+  },
+  "魏野畴": {
+   "renderings": {
+    "Wei Yechou": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": ""
+  },
+  "王芃生": {
+   "renderings": {
+    "Wang Pengsheng": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Head of the Nationalist Institute for International Affairs, a noted intelligence analyst on Japan."
+  },
+  "邓文仪": {
+   "renderings": {
+    "Deng Wenyi": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": ""
+  },
+  "江青": {
+   "renderings": {
+    "Jiang Qing": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": ""
+  },
+  "韩复矩": {
+   "renderings": {
+    "Han Fuju": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": ""
+  },
+  "刘郁芬": {
+   "renderings": {
+    "Liu Yufen": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": ""
+  },
+  "王树常": {
+   "renderings": {
+    "Wang Shuchang": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": ""
+  },
+  "李培基": {
+   "renderings": {
+    "Li Peiji": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": ""
+  },
+  "孙殿英": {
+   "renderings": {
+    "Sun Dianying": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": ""
+  },
+  "庞炳勋": {
+   "renderings": {
+    "Pang Bingxun": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": ""
+  },
+  "李际春": {
+   "renderings": {
+    "Li Jichun": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": ""
+  },
+  "白坚武": {
+   "renderings": {
+    "Bai Jianwu": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": ""
+  },
+  "土肥原贤二": {
+   "renderings": {
+    "Doihara Kenji": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": ""
+  },
+  "曾澈": {
+   "renderings": {
+    "Zeng Che": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Secretary and later District chief of the Juntong's Tianjin organization, and head of the Anti-Japanese Traitor-Killing Corps; martyred at Beiping in 1940."
+  },
+  "陈春圃": {
+   "renderings": {
+    "Chen Chunpu": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "A kinsman of Chen Bijun and an official in the Wang Jingwei regime."
+  },
+  "叶吉卿": {
+   "renderings": {
+    "Ye Jiqing": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Wife of Li Shiqun."
+  },
+  "影佐祯昭": {
+   "renderings": {
+    "Kagesa Sadaaki": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Japanese army officer who headed the Ume Kikan and engineered Wang Jingwei's defection."
+  },
+  "近卫文麿": {
+   "renderings": {
+    "Konoe Fumimaro": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Prime Minister of Japan; issued the three statements of 1938 that Wang Jingwei answered."
+  },
+  "林柏生": {
+   "renderings": {
+    "Lin Baisheng": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "An associate of Wang Jingwei who arranged the publication of the Yan Telegram at Hong Kong."
+  },
+  "高宗武": {
+   "renderings": {
+    "Gao Zongwu": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "A Nationalist diplomat who conducted the secret 1938 Shanghai talks with Japan on Wang's behalf; later broke with him."
+  },
+  "梅思平": {
+   "renderings": {
+    "Mei Siping": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "A negotiator of the secret 1938 Shanghai agreement for Wang Jingwei."
+  },
+  "今井武夫": {
+   "renderings": {
+    "Imai Takeo": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Japanese army officer, a principal in the secret talks with Wang's representatives."
+  },
+  "吴敬恒": {
+   "renderings": {
+    "Wu Jingheng": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Better known by his courtesy name Zhihui (稚晖); a venerable Nationalist elder statesman who drafted the resolution expelling Wang."
+  },
+  "林森": {
+   "renderings": {
+    "Lin Sen": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Chairman of the National Government, 1931-1943."
+  },
+  "张继": {
+   "renderings": {
+    "Zhang Ji": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "A veteran Nationalist and member of the Central Standing Committee."
+  },
+  "炳华": {
+   "renderings": {
+    "Binghua": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "The given name of Zhang Yanyuan (张炎元), an early Juntong figure; see that entry."
+  },
+  "汪兆铭": {
+   "renderings": {
+    "Wang Zhaoming": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "The original name of Wang Jingwei (汪精卫); see that entry."
+  },
+  "龙云": {
+   "renderings": {
+    "Long Yun": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "The Yi military strongman who governed Yunnan 1927–45; his Kunming was a way-station on Wang Jingwei's flight."
+  },
+  "有田": {
+   "renderings": {
+    "Arita": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Arita Hachirō (有田八郎, 1884–1965), Japan's foreign minister 1936–40."
+  },
+  "平沼骐一郎": {
+   "renderings": {
+    "Hiranuma Kiichirō": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Japanese premier January–August 1939, succeeding Konoe."
+  },
+  "田中义一": {
+   "renderings": {
+    "Tanaka Giichi": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Japanese premier and foreign minister 1927–29; associated with the Jinan Incident and the alleged Tanaka Memorial."
+  },
+  "金雄白": {
+   "renderings": {
+    "Jin Xiongbai": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Journalist of the Wang Jingwei regime; wrote its history under the pen name Zhu Zijia."
+  },
+  "朱子家": {
+   "renderings": {
+    "Zhu Zijia": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Pen name of Jin Xiongbai (金雄白); see that entry."
+  },
+  "张季鸾": {
+   "renderings": {
+    "Zhang Jiluan": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Chief editorial writer of the Dagongbao (Ta Kung Pao), a celebrated political commentator."
+  },
+  "甘乃光": {
+   "renderings": {
+    "Gan Naiguang": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Nationalist official; the diarist 'Yongwu' consults him on Wang's flight."
+  },
+  "陈树人": {
+   "renderings": {
+    "Chen Shuren": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Nationalist elder and painter, cited on the causes of Wang's flight."
+  },
+  "孙哲生": {
+   "renderings": {
+    "Sun Zhesheng": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Sun Ke / Sun Fo (孙科, 1891–1973), son of Sun Yat-sen; 'Zhesheng' is his courtesy name."
+  },
+  "蒋廷黻": {
+   "renderings": {
+    "Jiang Tingfu": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Historian and diplomat (T. F. Tsiang)."
+  },
+  "彭学沛": {
+   "renderings": {
+    "Peng Xuepei": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Vice-minister of Communications in the Nationalist government."
+  },
+  "陈公博": {
+   "renderings": {
+    "Chen Gongbo": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "A close associate of Wang Jingwei who followed him into the collaborationist regime; later its head, executed 1946."
+  },
+  "周佛海": {
+   "renderings": {
+    "Zhou Fohai": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "A leading figure in Wang Jingwei's peace movement and later regime."
+  },
+  "广田": {
+   "renderings": {
+    "Hirota": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Hirota Kōki (广田弘毅, 1878–1948), Japanese foreign minister and later premier; author of the 1935 'Three Principles.'"
+  },
+  "重光葵": {
+   "renderings": {
+    "Shigemitsu Mamoru": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Japanese diplomat, ambassador to the USSR at the time of the Zhanggufeng Incident."
+  },
+  "袁世凯": {
+   "renderings": {
+    "Yuan Shikai": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "President of the Republic of China 1912–16; recipient of Japan's Twenty-One Demands in 1915."
+  },
+  "罗君强": {
+   "renderings": {
+    "Luo Junqiang": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Named in the 'Yongwu' diary; a figure in Wang Jingwei's Chongqing circle."
+  },
+  "谷正鼎": {
+   "renderings": {
+    "Gu Zhengding": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "A Nationalist official sent to Hanoi to see Wang; his report is quoted via the 'Yongwu' diary."
+  },
+  "王宠惠": {
+   "renderings": {
+    "Wang Chonghui": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Styled Liangchou; jurist and Foreign Minister of the National Government."
+  },
+  "魏道明": {
+   "renderings": {
+    "Wei Daoming": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Styled Bocong; a Nationalist official who asked Chen after Wang's movements."
+  },
+  "汪兆镛": {
+   "renderings": {
+    "Wang Zhaoyong": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Wang Jingwei's elder half-brother, a Guangxu provincial graduate and painter-chronicler of Lingnan; his stern tutor."
+  },
+  "朱执信": {
+   "renderings": {
+    "Zhu Zhixin": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Revolutionary and husband of Wang Jingwei's eldest sister; a fellow Tongmenghui founder."
+  },
+  "梁启超": {
+   "renderings": {
+    "Liang Qichao": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Styled Rengong; reformist thinker and leader of the Emperor-Protection (Royalist) party, rival to the revolutionaries."
+  },
+  "黄兴": {
+   "renderings": {
+    "Huang Xing": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Styled Kexing; co-founder with Sun Yat-sen of the Tongmenghui and chief military leader of the 1911 revolution."
+  },
+  "章太炎": {
+   "renderings": {
+    "Zhang Taiyan": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Given name Binglin; eminent classical scholar and revolutionary, editor-in-chief of the Min Bao, driven off by Wang."
+  },
+  "宋教仁": {
+   "renderings": {
+    "Song Jiaoren": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Tongmenghui leader and architect of parliamentary Nationalism, assassinated in 1913 on Yuan Shikai's order."
+  },
+  "陶成章": {
+   "renderings": {
+    "Tao Chengzhang": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Revolutionary who, with Zhang Taiyan, set up the rival Restoration Society (Guangfuhui)."
+  },
+  "吴樾": {
+   "renderings": {
+    "Wu Yue": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Revolutionary whose 1905 attempt to bomb the five ministers sent to study constitutions inspired Wang's own plot."
+  },
+  "黄复生": {
+   "renderings": {
+    "Huang Fusheng": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Originally Shuzhong; Wang Jingwei's co-conspirator in the 1910 attempt on the Prince Regent, imprisoned with him."
+  },
+  "载沣": {
+   "renderings": {
+    "Zaifeng": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Prince Chun, the Prince Regent for the child Xuantong emperor; target of Wang's 1910 assassination attempt."
+  },
+  "善耆": {
+   "renderings": {
+    "Shanqi": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Prince Su, the Qing Minister of the Interior who examined Wang and spared his life out of regard for his talent."
+  },
+  "袁克定": {
+   "renderings": {
+    "Yuan Keding": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Eldest son of Yuan Shikai, who drew Wang into secret talks with his father."
+  },
+  "杨度": {
+   "renderings": {
+    "Yang Du": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Politician who went south with Wang in the 1912 peace talks; later a promoter of Yuan Shikai's monarchy."
+  },
+  "鲍罗廷": {
+   "renderings": {
+    "Borodin": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Mikhail Borodin, the chief Soviet (Comintern) adviser to the Nationalist Party in the 1920s."
+  },
+  "马林": {
+   "renderings": {
+    "Maring": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Henk Sneevliet ('Maring'), early Comintern representative to China."
+  },
+  "越飞": {
+   "renderings": {
+    "Joffe": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Adolph Joffe, Soviet diplomat whose 1923 declaration with Sun Yat-sen framed the KMT-Soviet alliance."
+  },
+  "陈炯明": {
+   "renderings": {
+    "Chen Jiongming": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Guangdong warlord who rebelled against Sun Yat-sen in 1922."
+  },
+  "张发奎": {
+   "renderings": {
+    "Zhang Fakui": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Nationalist general who circulated a telegram mocking Wang's two-facedness."
+  },
+  "顾孟余": {
+   "renderings": {
+    "Gu Mengyu": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "A leading figure of Wang's faction who declined to follow him to Nanjing."
+  },
+  "郑学稼": {
+   "renderings": {
+    "Zheng Xuejia": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Writer whose 1939 essay on Wang Jingwei (in The Spirit of the Age) Chen quotes."
+  },
+  "唐有壬": {
+   "renderings": {
+    "Tang Youren": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "A soft, 'feminine' associate of Wang's clique, named as already dead; assassinated in 1935."
+  },
+  "董其昌": {
+   "renderings": {
+    "Dong Qichang": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Ming-dynasty painter-calligrapher of tender grace, whose hand Wang's writing most resembled."
+  },
+  "元遗山": {
+   "renderings": {
+    "Yuan Haowen": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Jin-dynasty poet Yuan Haowen (styled Yishan), a couplet of whose ci Wang echoed in his last poem."
+  },
+  "方君璧": {
+   "renderings": {
+    "Fang Junbi": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "1898-1986; painter, wife of Zeng Zhongming; wounded in the Hanoi attack."
+  },
+  "汪文惺": {
+   "renderings": {
+    "Wang Wenxing": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Wang Jingwei's eldest daughter, wife of He Wenjie."
+  },
+  "居正": {
+   "renderings": {
+    "Ju Zheng": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "1876–1951; veteran Tongmenghui revolutionary and jurist, president of the Judicial Yuan."
+  },
+  "翁文灏": {
+   "renderings": {
+    "Weng Wenhao": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "1889–1971; geologist and technocrat, a senior figure in the wartime government."
+  },
+  "邵力子": {
+   "renderings": {
+    "Shao Lizi": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "1882–1967; journalist and Nationalist official, later a peace envoy to the Communists."
+  },
+  "陈果夫": {
+   "renderings": {
+    "Chen Guofu": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "1892–1951; elder of the 'CC Clique,' brother of Chen Lifu."
+  },
+  "董显光": {
+   "renderings": {
+    "Dong Xianguang": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "1887–1971; Hollington Tong, US-trained journalist and the government's chief spokesman for foreign publicity."
+  },
+  "张群": {
+   "renderings": {
+    "Zhang Qun": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "1889–1990; close associate of Chiang, foreign minister 1935–37; secretary-general of the Supreme National Defense Council."
+  },
+  "徐堪": {
+   "renderings": {
+    "Xu Kan": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "1888–1969; financial official, later minister of finance."
+  },
+  "徐谟": {
+   "renderings": {
+    "Xu Mo": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "1893–1956; vice-minister of Foreign Affairs who accompanied Trautmann and reported the mediation to the meeting; later a judge of the International Court of Justice."
+  },
+  "白崇禧": {
+   "renderings": {
+    "Bai Chongxi": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "1893–1966; the Guangxi general (courtesy name Jiansheng / 健生), one of Chiang's foremost strategists."
+  },
+  "徐永昌": {
+   "renderings": {
+    "Xu Yongchang": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "1887–1959; general (courtesy name Ci-chen / 次宸); director of the Military Operations Board. The source's '次展 / 次辰' are misprints for 次宸."
+  },
+  "陶德曼": {
+   "renderings": {
+    "Trautmann": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Oskar Trautmann, German ambassador to China, whose winter-1937 mediation the quoted meeting record concerns (identified at ch13)."
+  },
+  "川樾": {
+   "renderings": {
+    "Kawagoe": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Kawagoe Shigeru, Japanese ambassador to China 1936–38, who negotiated with Foreign Minister Zhang Qun in 1936."
+  },
+  "秦桧": {
+   "renderings": {
+    "Qin Hui": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "d. 1155; the Song chancellor who engineered the judicial murder of the general Yue Fei and made peace with the Jin; the archetypal Chinese traitor, whose kneeling iron effigy stands before Yue Fei's tomb at West Lake."
+  },
+  "李完用": {
+   "renderings": {
+    "Yi Wan-yong": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "1858–1926; the Korean prime minister who signed the 1910 treaty annexing Korea to Japan; a byword for a national traitor."
+  },
+  "吴三桂": {
+   "renderings": {
+    "Wu Sangui": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "1612–1678; the Ming general who opened the Shanhaiguan pass to the Manchus in 1644, letting the Qing conquest through."
+  },
+  "溥仪": {
+   "renderings": {
+    "Puyi": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "1906–1967; the last Qing emperor, installed by Japan as the puppet ruler of 'Manchukuo' in 1932."
+  },
+  "哈柴": {
+   "renderings": {
+    "Hácha": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Emil Hácha, president of rump Czecho-Slovakia, who in March 1939 signed his country to Germany and stayed on as puppet 'State President' of the Protectorate of Bohemia and Moravia."
+  },
+  "张伯伦": {
+   "renderings": {
+    "Chamberlain": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Neville Chamberlain, British prime minister, whose Munich Agreement of September 1938 pressed Czechoslovakia to cede the Sudetenland to Germany."
+  },
+  "李石曾": {
+   "renderings": {
+    "Li Shizeng": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "1881–1973; anarchist and Nationalist elder, with Wu Jingheng a leader of the Franco-Chinese work-study movement."
+  },
+  "张溥泉": {
+   "renderings": {
+    "Zhang Puquan": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Courtesy name of Zhang Ji (张继, 1882–1947), veteran Tongmenghui revolutionary and Nationalist elder."
+  },
+  "梁鸿志": {
+   "renderings": {
+    "Liang Hongzhi": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "1882–1946; head of the Japanese-sponsored 'Reformed Government' at Nanjing (1938); executed as a traitor after the war."
+  },
+  "方君瑛": {
+   "renderings": {
+    "Fang Junying": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Elder sister of Fang Junbi and a fellow Tongmenghui revolutionary; took part in the 1910 plot against the Qing Prince Regent."
+  },
+  "赵理君": {
+   "renderings": {
+    "Zhao Lijun": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Acting chief of the Shanghai District and leader of its First Action Squad; on sick leave and transferred to Luoyang in 1939."
+  },
+  "犬养健": {
+   "renderings": {
+    "Inukai Ken": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Japanese politician of the Seiyūkai and son of former premier Inukai Tsuyoshi; Kagesa's aide in escorting Wang Jingwei from Hanoi."
+  },
+  "犬养毅": {
+   "renderings": {
+    "Inukai Tsuyoshi": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Prime minister of Japan assassinated by naval officers in 1932; father of Inukai Ken."
+  },
+  "有田八郎": {
+   "renderings": {
+    "Arita Hachirō": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Japanese foreign minister at the time of Wang Jingwei's June 1939 Tokyo visit."
+  },
+  "西尾寿造": {
+   "renderings": {
+    "Nishio Toshizō": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Japanese general; inspector-general of education, made commander-in-chief of the China Expeditionary Army in September 1939."
+  },
+  "佐藤贤了": {
+   "renderings": {
+    "Satō Kenryō": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Japanese officer; deputy chief of staff of the South China Expeditionary Army, who helped Wang Jingwei's Shanghai activity."
+  },
+  "陈调元": {
+   "renderings": {
+    "Chen Diaoyuan": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Former chairman of the Anhui provincial government; his house at No. 76 Jessfield Road became a Wang-regime venue."
+  },
+  "邓龙光": {
+   "renderings": {
+    "Deng Longguang": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Cantonese Nationalist general, courted by Wang Jingwei for a South China regime but unmoved."
+  },
+  "清水董三": {
+   "renderings": {
+    "Shimizu Tōzō": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Secretary of the Japanese Foreign Ministry, part of the Wang Jingwei Tokyo party."
+  },
+  "板垣征四郎": {
+   "renderings": {
+    "Itagaki Seishirō": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Japanese general (1885–1948), Kwantung Army architect of the 1931 Manchurian seizure, war minister, later chief of staff of the China Expeditionary Army; hanged as a war criminal."
+  },
+  "陈群": {
+   "renderings": {
+    "Chen Qun": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Puppet politician; 'Chairman of Jiangsu Province' under the Wang regime, whose Yuyuan Road houses Wang used."
+  },
+  "陈耀祖": {
+   "renderings": {
+    "Chen Yaozu": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Wang Jingwei's brother-in-law; wrote to Huang Yiguang urging him to join the 'Peace Movement.'"
+  },
+  "王伯群": {
+   "renderings": {
+    "Wang Boqun": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Former Minister of Communications; owner of the Lane 1136 Yuyuan Road houses Wang Jingwei used."
+  },
+  "周至柔": {
+   "renderings": {
+    "Zhou Zhirou": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Nationalist air-force general; dean of studies at the Air Force Officers' School."
+  },
+  "王叔铭": {
+   "renderings": {
+    "Wang Shuming": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Nationalist air-force general; chief of the education section at the Air Force Officers' School."
+  },
+  "戴藏宜": {
+   "renderings": {
+    "Dai Cangyi": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Son of Dai Li; the Dai and Wang families were once spoken of as prospective in-laws."
+  },
+  "吴乃宪": {
+   "renderings": {
+    "Wu Naixian": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Second chief of the Shanghai District, styled Jinfu, of the first class of the Whampoa Military Academy; later a National Assembly delegate. Figures in 'Rooting Out Traitors in the North.'"
+  },
+  "虞洽卿": {
+   "renderings": {
+    "Yu Qiaqing": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "1867–1945; a leading Shanghai comprador-businessman and community leader, honored as “the venerable Yu.” Chen cites him to refute a rumor that Dai Li had ordered his sanction."
+  },
+  "贺耀组": {
+   "renderings": {
+    "He Yaozu": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "1889–1961; the nominal director of the Bureau of Investigation and Statistics, a figurehead while Dai Li ran its affairs as deputy director."
+  },
+  "褚民谊": {
+   "renderings": {
+    "Chu Minyi": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "1884–1946; a senior figure of the Wang Jingwei regime (deputy president of its Executive Yuan, then foreign minister); executed for treason after the war. New Group One planted an agent at his side."
+  },
+  "万墨林": {
+   "renderings": {
+    "Wan Molin": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Du Yuesheng's cousin and business manager, a Green Gang figure; his memoir 'Bygone Days in Shanghai' (沪上往事) is quoted here on the collaborator Yu Yefeng."
+  },
+  "傅式说": {
+   "renderings": {
+    "Fu Shishuo": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Former president of Daxia University who joined the Wang regime; New Group One recruited two of his secretaries. The source misprints his surname 傅 as 传."
+  },
+  "顾兰君": {
+   "renderings": {
+    "Gu Lanjun": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "A 1930s Shanghai film actress; Chen rented her former apartment on Seymour Road."
+  },
+  "杨虎": {
+   "renderings": {
+    "Yang Hu": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "1889–1966; former Songhu (Shanghai) garrison commander, notorious for his part in the 1927 anti-Communist purge; Tian Shujun was “of his household.”"
+  },
+  "袁殊": {
+   "renderings": {
+    "Yuan Shu": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Also called Xueyi (学易) and Xiaoyi (筱易); a journalist-agent of tangled loyalties, later revealed as a Communist."
+  },
+  "新艳秋": {
+   "renderings": {
+    "Xin Yanqiu": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "A celebrated Peking-opera actress of the female (dan) roles, performing at the Gengxin Stage on the night of Yu Yefeng's sanction."
+  },
+  "吴世宝": {
+   "renderings": {
+    "Wu Shibao": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Alias Yunfu (云甫); an underworld figure and first commander of No. 76's guard corps, later poisoned."
+  },
+  "胡均鹤": {
+   "renderings": {
+    "Hu Junhe": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Chief of the Second Section of No. 76, later found to be a Communist as well."
+  },
+  "秦启荣": {
+   "renderings": {
+    "Qin Qirong": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "A Shandong man of the sixth Whampoa class, named in Dai Li's directive to command the Tianjin-Pukou demolition brigade and organize the Qingdao action group."
+  },
+  "潘汉年": {
+   "renderings": {
+    "Pan Hannian": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "The Chinese Communist Party's foremost intelligence operative in occupied Shanghai, who worked the seam between the underground and the Wang puppets' No. 76."
+  },
+  "兪叶封": {
+   "renderings": {
+    "Yu Yefeng": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Variant-glyph spelling (兪 for 俞) of Yu Yefeng, the collaborator sanctioned at the Gengxin Stage in January 1940 (ch24)."
+  },
+  "丁默邨": {
+   "renderings": {
+    "Ding Mocun": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Co-founder and director of the puppet Special Operations Headquarters (No. 76) with Li Shiqun; tried and executed as a traitor after the war."
+  },
+  "汪时璟": {
+   "renderings": {
+    "Wang Shiying": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "North China's foremost economic collaborator; the Kang Corps' unfinished target (see Part One, ch06). Rendered Wang Shiying consistently across the book."
+  },
+  "施何成": {
+   "renderings": {
+    "Shi Hecheng": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "A New Group One operative (aliases Bao Yueren, later Peng Jun); his letters supply several of the chapter's martyr cases."
+  },
+  "邵范九": {
+   "renderings": {
+    "Shao Fanjiu": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "A cousin's nephew of the KMT elder Shao Lizi; sanctioned in November 1939 for going over to the puppets."
+  },
+  "陶联芳": {
+   "renderings": {
+    "Tao Lianfang": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "A New Group One member, buried alive by the puppet Huzhou Station after being caught re-linking with the Bureau."
+  },
+  "徐寿新": {
+   "renderings": {
+    "Xu Shouxin": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Alias Zhu Chengwo; chief communications inspector of the Shanghai District, shot at No. 76 on 25 Dec 1939. The reproduced Xu Wenqi essay memorializes him."
+  },
+  "朱承我": {
+   "renderings": {
+    "Zhu Chengwo": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Alias of the martyr Xu Shouxin, taken to keep the memory of his late wife Zhu Cheng'e."
+  },
+  "徐寿棪": {
+   "renderings": {
+    "Xu Shouyan": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Xu Shouxin's younger brother, a Juntong veteran; his letters recovered his brother's martyrdom for this book."
+  },
+  "徐文祺": {
+   "renderings": {
+    "Xu Wenqi": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "A Shanghai District assistant secretary imprisoned with Xu Shouxin at No. 76; author of the reproduced memorial essay."
+  },
+  "余延智": {
+   "renderings": {
+    "Yu Yanzhi": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Fifth Action Brigade commander (surname perhaps Chu), killed with Xu Shouxin at No. 76 in December 1939."
+  },
+  "周锡良": {
+   "renderings": {
+    "Zhou Xiliang": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "A counter-espionage operative inside No. 76, killed there in December 1939; the puppet verdict writes his name with a different middle character (周希良), alike in sound."
+  },
+  "张执一": {
+   "renderings": {
+    "Zhang Zhiyi": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "A CCP united-front operative under the Jiangsu Provincial Committee, later deputy head of the Party's Central United Front Work Department; author of the quoted memoir 'In the Heart of the Enemy.'"
+  },
+  "赤木亲之": {
+   "renderings": {
+    "Akagi Chikayuki": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Japanese deputy commissioner of the Shanghai Municipal Police, assassinated on Yuyuan Road, June 1941."
+  },
+  "林秀澄": {
+   "renderings": {
+    "Hayashi Hidezumi": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Lieutenant-colonel, chief of the Special Higher Section of the Shanghai Japanese Gendarmerie; the 'Section chief Lin' Chen knew only by surname."
+  },
+  "李正梁": {
+   "renderings": {
+    "Li Zhengliang": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Alias Li Liang; leader of the Third Action Brigade's Fourth Group, who directed the Akagi assassination."
+  },
+  "李亮": {
+   "renderings": {
+    "Li Liang": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "The everyday name of Li Zhengliang, director of the Akagi case."
+  },
+  "林怀部": {
+   "renderings": {
+    "Lin Huaibu": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "The hired bodyguard who shot the tycoon Zhang Xiaolin dead in October 1940; the mysteries around him open ch27."
+  },
+  "俞作柏": {
+   "renderings": {
+    "Yu Zuobai": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Deputy commander-in-chief of the Loyal and Patriotic Army, addressed in one of Dai Li's quoted telegrams."
+  },
+  "林之江": {
+   "renderings": {
+    "Lin Zhijiang": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "A No. 76 executioner (with Wan Lilang) of Xu Shouxin; later turned back to the government and died in poverty at Hong Kong."
+  },
+  "萧焕文": {
+   "renderings": {
+    "Xiao Huanwen": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "The Hunan-born patriarch of the Xiao family, whose whole household served the Juntong; kept the Loyal Army's liaison."
+  },
+  "陈植琚": {
+   "renderings": {
+    "Chen Zhiju": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Xiao Shuying's husband; leader of the Dachang field group, blown to death by an enemy plane early in the war."
+  },
+  "李鑫": {
+   "renderings": {
+    "Li Xin": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "A Shanghai Kang Corps action man who perished with his own bomb at the Jessfield Park Axis-recognition rally, August 1941."
+  },
+  "缪维": {
+   "renderings": {
+    "Miao Wei": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "A Kang Corps operative killed with Huang Kezhong when their charge went off at Hongkou Park."
+  },
+  "黄克忠": {
+   "renderings": {
+    "Huang Kezhong": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "A Kang Corps action man (also recorded as Huang Ruitang); took part in the Tōwa Theater bombing and died at Hongkou Park."
+  },
+  "向松坡": {
+   "renderings": {
+    "Xiang Songpo": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "A prominent Hong Gang chief in Shanghai (styled Haiqian) whose connection the CCP operative Zhang Zhiyi used."
+  },
+  "赵圣": {
+   "renderings": {
+    "Zhao Sheng": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "The working name of the Second Action Brigade's commander (real name Ji Zhencang, keyed); the man who reported the Zhang Xiaolin sanction. Rendered Zhao Sheng consistently."
+  },
+  "朱升": {
+   "renderings": {
+    "Zhu Sheng": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "The servant who killed the puppet Shanghai mayor Fu Xiao'an with an axe on 11 Oct 1940; central to ch28 Section 2. His assassination act was noted at ch04. Source spelling-variants (朱生, 朱升源) and the alias 陈中南 render inline."
+  },
+  "叶剑英": {
+   "renderings": {
+    "Ye Jianying": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "The Communist representative on the Military Mediation Executive Headquarters at Beiping and chief of staff of the Communist army; later a marshal of the People's Republic."
+  },
+  "傅作义": {
+   "renderings": {
+    "Fu Zuoyi": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "1895-1974; commander-in-chief of the North China Bandit Suppression Headquarters and the Nationalist defender of Beiping, which he surrendered by negotiated agreement to the Communists in January 1949, sparing the city a siege."
+  },
+  "陈诚": {
+   "renderings": {
+    "Chen Cheng": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "1898-1965; one of Chiang Kai-shek's most trusted generals and, at this time, Chief of the General Staff (Chen corrects here his fourth volume's misattribution of the post to Bai Chongxi, who was Minister of National Defense)."
+  },
+  "李运昌": {
+   "renderings": {
+    "Li Yunchang": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "A Zunhua man and East-Hebei guerrilla chief in the war years, later a CCP general and Minister of Railways."
+  },
+  "罗荣桓": {
+   "renderings": {
+    "Luo Ronghuan": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Political commissar of the Communist Northeast field army, senior in the Party to Lin Biao; later a PLA marshal. Zheng Jiemin warns Chen to avoid his intervention."
+  },
+  "黄郛": {
+   "renderings": {
+    "Huang Fu": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "The diplomat (courtesy Yingbai) who acted for He Yingqin at Beiping in the early 1930s as chairman of the Executive Yuan's Beiping Political Affairs Reorganization Committee."
+  },
+  "吕正操": {
+   "renderings": {
+    "Lü Zhengcao": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "Communist commander of the Central Hebei Military District, which held the Beiping-Tianjin-Baoding triangle from 1938; later a PLA general."
+  },
+  "萧克": {
+   "renderings": {
+    "Xiao Ke": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "He Long's deputy as commander of the 120th Division of the Eighth Route Army; the senior Communist commander in the Hebei-Rehe border region to whose forces Zhu Zhankui was sent after 1945."
+  },
+  "刘绍唐": {
+   "renderings": {
+    "Liu Shaotang": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "people",
+   "status": "agreed",
+   "note": "1921-2000; founder and, for some four decades, editor of the Taipei monthly Biographical Literature, the foremost venue for Republican-era memoir and first-hand historical recollection, in which the whole of Chen's memoir was serialized."
+  },
+  "力行社": {
+   "renderings": {
+    "the Lixingshe": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "organizations",
+   "status": "agreed",
+   "note": "The 'Society for Vigorous Practice of the Three Principles of the People' (三民主义力行社), a secret Whampoa-clique organization of 1932, popularly the 'Blue Shirts.'"
+  },
+  "特务处": {
+   "renderings": {
+    "the Special Services Department": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "organizations",
+   "status": "agreed",
+   "note": "The covert-operations department of the Lixingshe, headed by Dai Li; the operational seed of the Juntong."
+  },
+  "调查统计局": {
+   "renderings": {
+    "the Bureau of Investigation and Statistics": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "organizations",
+   "status": "agreed",
+   "note": "The Military Affairs Commission bureau (1932) whose Second Department, under Dai Li, grew into the Juntong."
+  },
+  "抗日杀奸团": {
+   "renderings": {
+    "the Anti-Japanese Traitor-Killing Corps": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "organizations",
+   "status": "agreed",
+   "note": "A patriotic assassination group of young people in occupied North China."
+  },
+  "特工总部": {
+   "renderings": {
+    "the Special Operations Headquarters": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "organizations",
+   "status": "agreed",
+   "note": "The Wang regime's secret police, known from its address as 'No. 76.'"
+  },
+  "中统": {
+   "renderings": {
+    "the Zhongtong": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "organizations",
+   "status": "agreed",
+   "note": "The Kuomintang party's civilian secret service (Central Statistics Bureau), grown from the Party Central's Investigation Section and run by the Chen brothers' 'CC Clique'; the rival of Dai Li's military Juntong. See the note in Section 1."
+  },
+  "满洲国": {
+   "renderings": {
+    "Manchukuo": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "organizations",
+   "status": "agreed",
+   "note": "The Japanese puppet state set up in the Northeast in 1932 under the last Qing emperor, Puyi. See the note at 'a second Manchukuo.'"
+  },
+  "北平军分会": {
+   "renderings": {
+    "the Beiping Military Branch": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "organizations",
+   "status": "agreed",
+   "note": "The Beiping Branch of the National Military Affairs Commission (军事委员会北平分会), the top Nationalist military organ in North China, headed at this time by acting deputy chairman He Yingqin."
+  },
+  "中国人民反法西斯大同盟": {
+   "renderings": {
+    "the Chinese People's Anti-Fascist Grand Alliance": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "organizations",
+   "status": "agreed",
+   "note": "The anti-Japanese, Communist-linked front Ji Hongchang helped organize at Tianjin in 1934."
+  },
+  "察哈尔民众抗日同盟军": {
+   "renderings": {
+    "the Chahar People's Anti-Japanese Allied Army": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "organizations",
+   "status": "agreed",
+   "note": "The anti-Japanese coalition Feng Yuxiang raised in Chahar in 1933, which Chen treats as Communist-penetrated; renamed, after Feng's withdrawal, the 'Anti-Japanese, Chiang-Chastising Army.'"
+  },
+  "蓝衣社": {
+   "renderings": {
+    "the Blue Shirt Society": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "organizations",
+   "status": "agreed",
+   "note": "Outsiders' name for the Lixingshe / Renaissance Society; glossed at its first appearance."
+  },
+  "青帮": {
+   "renderings": {
+    "the Green Gang": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "organizations",
+   "status": "agreed",
+   "note": ""
+  },
+  "红卫兵": {
+   "renderings": {
+    "the Red Guards": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "organizations",
+   "status": "agreed",
+   "note": ""
+  },
+  "行动组": {
+   "renderings": {
+    "the Action Group": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "organizations",
+   "status": "agreed",
+   "note": ""
+  },
+  "情报组": {
+   "renderings": {
+    "the Intelligence Group": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "organizations",
+   "status": "agreed",
+   "note": ""
+  },
+  "军事组": {
+   "renderings": {
+    "the Military Group": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "organizations",
+   "status": "agreed",
+   "note": ""
+  },
+  "华北自治运动": {
+   "renderings": {
+    "the North China Autonomy Movement": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "organizations",
+   "status": "agreed",
+   "note": ""
+  },
+  "便衣队": {
+   "renderings": {
+    "the plainclothes corps": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "organizations",
+   "status": "agreed",
+   "note": ""
+  },
+  "南昌行营调查课": {
+   "renderings": {
+    "the Investigation Section of the Nanchang Field Headquarters": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "organizations",
+   "status": "agreed",
+   "note": ""
+  },
+  "世界日报": {
+   "renderings": {
+    "the Shijie Ribao": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "organizations",
+   "status": "agreed",
+   "note": ""
+  },
+  "二十九军": {
+   "renderings": {
+    "the Twenty-ninth Army": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "organizations",
+   "status": "agreed",
+   "note": ""
+  },
+  "华北政务委员会": {
+   "renderings": {
+    "the North China Political Affairs Council": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "organizations",
+   "status": "agreed",
+   "note": ""
+  },
+  "冀北边区保安司令": {
+   "renderings": {
+    "Peace-Preservation Commander of the Northern Hebei Border Region": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "organizations",
+   "status": "agreed",
+   "note": ""
+  },
+  "滦榆游击总部": {
+   "renderings": {
+    "the Luan-Yu Guerrilla Command": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "organizations",
+   "status": "agreed",
+   "note": "The Juntong guerrilla command for the Luan River and Shanhaiguan (Yuguan) region of East Hebei."
+  },
+  "梅机关": {
+   "renderings": {
+    "the Ume Kikan": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "organizations",
+   "status": "agreed",
+   "note": ""
+  },
+  "满铁株式会社": {
+   "renderings": {
+    "the South Manchuria Railway Company": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "organizations",
+   "status": "agreed",
+   "note": "The Japanese 'Mantetsu,' a vast semi-official enterprise and instrument of Japanese expansion in China."
+  },
+  "天津区": {
+   "renderings": {
+    "the Tianjin District": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "organizations",
+   "status": "agreed",
+   "note": ""
+  },
+  "北平第一站": {
+   "renderings": {
+    "the Beiping First Station": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "organizations",
+   "status": "agreed",
+   "note": ""
+  },
+  "国防部情报局": {
+   "renderings": {
+    "the Intelligence Bureau of the Ministry of National Defense": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "organizations",
+   "status": "agreed",
+   "note": "The postwar successor organization to the Juntong."
+  },
+  "中国国民党": {
+   "renderings": {
+    "the Chinese Nationalist Party": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "organizations",
+   "status": "agreed",
+   "note": "The Kuomintang (KMT)."
+  },
+  "太古公司": {
+   "renderings": {
+    "Butterfield & Swire": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "organizations",
+   "status": "agreed",
+   "note": "The British 'Taikoo' trading and shipping firm."
+  },
+  "怡和洋行": {
+   "renderings": {
+    "Jardine, Matheson": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "organizations",
+   "status": "agreed",
+   "note": "The British 'Ewo' trading house."
+  },
+  "渣华公司": {
+   "renderings": {
+    "the Java-China-Japan Line": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "organizations",
+   "status": "agreed",
+   "note": "A Dutch shipping company (the JCJL)."
+  },
+  "五相会议": {
+   "renderings": {
+    "the Five Ministers' Conference": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "organizations",
+   "status": "agreed",
+   "note": "Inner council of the Japanese cabinet (premier, war, navy, foreign, finance ministers), set up 1938."
+  },
+  "兴亚院": {
+   "renderings": {
+    "the Kōain": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "organizations",
+   "status": "agreed",
+   "note": "The Asia Development Board, central organ for Japanese policy in occupied China, established December 1938."
+  },
+  "同盟会": {
+   "renderings": {
+    "the Tongmenghui": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "organizations",
+   "status": "agreed",
+   "note": "The Revolutionary Alliance founded by Sun Yat-sen at Tokyo in 1905, forerunner of the Nationalist Party."
+  },
+  "民报": {
+   "renderings": {
+    "the Min Bao": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "organizations",
+   "status": "agreed",
+   "note": "The Tongmenghui's organ ('People's Journal'), on which Wang wrote as 'Jingwei.'"
+  },
+  "光复会": {
+   "renderings": {
+    "the Restoration Society": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "organizations",
+   "status": "agreed",
+   "note": "A rival revolutionary body (Guangfuhui) set up by Zhang Taiyan and Tao Chengzhang."
+  },
+  "保皇党": {
+   "renderings": {
+    "the Royalists": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "organizations",
+   "status": "agreed",
+   "note": "The Emperor-Protection party of Kang Youwei and Liang Qichao, opposed to the revolutionaries."
+  },
+  "双照楼诗词稿": {
+   "renderings": {
+    "Verses from the Double-Reflection Tower": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "organizations",
+   "status": "agreed",
+   "note": "Wang Jingwei's collected poetry."
+  },
+  "东方汇理银行": {
+   "renderings": {
+    "the Banque de l'Indochine": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "organizations",
+   "status": "agreed",
+   "note": "The Bank of Indochina, the French colonial bank of issue in Hanoi."
+  },
+  "南华日报": {
+   "renderings": {
+    "the South China Daily News": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "organizations",
+   "status": "agreed",
+   "note": "The Hong Kong Chinese daily run by the Wang Jingwei faction, which floated the 'Blue Shirt Society' theory of the Hanoi killing."
+  },
+  "西南运输公司": {
+   "renderings": {
+    "the Southwest Transport Company": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "organizations",
+   "status": "agreed",
+   "note": "A Nationalist wartime transport organ, with a Hong Kong branch, with which Dai Li had ties."
+  },
+  "特务团": {
+   "renderings": {
+    "the Special Service Regiment": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "organizations",
+   "status": "agreed",
+   "note": "A combat unit directly under the Juntong, commanded by Wang Zhaohuai at Chongqing."
+  },
+  "中央训练团": {
+   "renderings": {
+    "the Central Training Corps": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "organizations",
+   "status": "agreed",
+   "note": "The Nationalist party-and-government training organ at Chongqing; Chen attended the Third Term of its Party-Government Training Class."
+  },
+  "政友会": {
+   "renderings": {
+    "the Seiyūkai": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "organizations",
+   "status": "agreed",
+   "note": "The Friends of Constitutional Government Party, a major pre-war Japanese political party."
+  },
+  "临时政府": {
+   "renderings": {
+    "the Provisional Government": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "organizations",
+   "status": "agreed",
+   "note": "The Japanese-sponsored 'Provisional Government of the Republic of China' at Beiping (North China), headed by Wang Kemin."
+  },
+  "维新政府": {
+   "renderings": {
+    "the Reformed Government": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "organizations",
+   "status": "agreed",
+   "note": "The Japanese-sponsored 'Reformed Government of the Republic of China' at Nanjing (Central China), headed by Liang Hongzhi."
+  },
+  "传记文学": {
+   "renderings": {
+    "Biographical Literature": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "organizations",
+   "status": "agreed",
+   "note": "Zhuanji Wenxue, the Taipei monthly in which Nameless Heroes was serialized."
+  },
+  "上海职工运动委员会": {
+   "renderings": {
+    "the Shanghai Workers'-Movement Committee": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "organizations",
+   "status": "agreed",
+   "note": "The labor-movement organ Dai Li ordered set up in 1940, with the notables Yu Qiaqing and Zhao Zigang as figurehead members; it never really took shape."
+  },
+  "抗团": {
+   "renderings": {
+    "the Kang Corps": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "organizations",
+   "status": "agreed",
+   "note": "The standard abbreviation of the Anti-Japanese Traitor-Killing Corps (抗日杀奸团, NOTED ch02/ch11)."
+  },
+  "联合准备银行": {
+   "renderings": {
+    "the Federal Reserve Bank": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "organizations",
+   "status": "agreed",
+   "note": "The North China puppet regime's central bank of issue (Federal Reserve Bank of China, 1938); Wang Shiying its governor. Distinct from the Wang regime's Central Reserve Bank (中央储备银行)."
+  },
+  "会审公廨": {
+   "renderings": {
+    "the Mixed Court": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "organizations",
+   "status": "agreed",
+   "note": "The Shanghai concessions' pre-1930 joint tribunal, abolished by the two reproduced retrocession agreements and replaced by the Chinese Special District Courts."
+  },
+  "绥靖总队": {
+   "renderings": {
+    "the Pacification Corps": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "organizations",
+   "status": "agreed",
+   "note": "In full the Ministry of National Defense Pacification Corps, the postwar special force raised for the 1946-49 campaign against the Communists; Chen commanded its First Brigade in the Beiping-Tianjin region."
+  },
+  "军事调处执行部": {
+   "renderings": {
+    "the Military Mediation Executive Headquarters": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "organizations",
+   "status": "agreed",
+   "note": "The tripartite body (American, Nationalist, and Communist) set up at Beiping in 1946 to enforce the cease-fire brokered by the Marshall Mission."
+  },
+  "军事三人小组": {
+   "renderings": {
+    "the Committee of Three": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "organizations",
+   "status": "agreed",
+   "note": "The three-man committee of Marshall, Zhang Qun for the government, and Zhou Enlai for the Communists, that directed the 1946 truce negotiations."
+  },
+  "励志训练班": {
+   "renderings": {
+    "the Lizhi Training Class": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "organizations",
+   "status": "agreed",
+   "note": "The training class at the Central Training Corps in Nanjing through which the cadres of the Pacification Corps were passed; see the note on the Lizhi Plan."
+  },
+  "保密局": {
+   "renderings": {
+    "the Baomiju": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "organizations",
+   "status": "agreed",
+   "note": "In full the Bureau of Secrets (保密局) of the Ministry of National Defense, the postwar successor to the Juntong (Bureau of Investigation and Statistics) after its 1946 reorganization; headed by Mao Renfeng."
+  },
+  "交警总队": {
+   "renderings": {
+    "Transport Police Corps": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "organizations",
+   "status": "agreed",
+   "note": "The Transport Police Corps (交通警察总队), the postwar rebadging of the Loyal and Patriotic Army as 'transport police'; in Chen's account it was in fact given over to the suppression of the Communist rising."
+  },
+  "华北剿匪总司令部": {
+   "renderings": {
+    "North China Bandit-Suppression Headquarters": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "organizations",
+   "status": "agreed",
+   "note": "The North China Bandit-Suppression Headquarters, the Nationalist theater command that conferred the First Brigade's code-name 'Unit 0760'; built on the keyed 剿匪 'bandit-suppression'."
+  },
+  "东北人民解放军": {
+   "renderings": {
+    "the Northeast People's Liberation Army": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "organizations",
+   "status": "agreed",
+   "note": "The Chinese Communist field army in the Northeast, commanded by Lin Biao with Tao Zhu as political-department director; the target of the chapter's intelligence operation."
+  },
+  "察哈尔": {
+   "renderings": {
+    "Chahar": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "A former province north-west of Beiping, abolished in 1952."
+  },
+  "东交民巷": {
+   "renderings": {
+    "the Legation Quarter": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "The walled diplomatic quarter of Beiping, extraterritorial under the 1901 Boxer Protocol. Noted at first appearance in the introductions."
+  },
+  "六国饭店": {
+   "renderings": {
+    "the Grand Hôtel des Wagons-Lits": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "六国饭店, the 'Six Nations Hotel' in the Legation Quarter; the site of the Zhang Jingyao killing. Noted at first appearance in Section 1."
+  },
+  "热河": {
+   "renderings": {
+    "Rehe": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "Rehe (Jehol), the borderland province north-east of Beiping, invaded by the Kwantung Army in 1933. See the note at first appearance."
+  },
+  "韩家潭": {
+   "renderings": {
+    "Hanjiatan": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "A lane in Beiping's Eight Great Hutongs pleasure quarter."
+  },
+  "国民大饭店": {
+   "renderings": {
+    "the Guomin Hotel": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "The Tianjin French-concession hotel where the shooting took place on 9 November 1934. Chen also writes it simply 国民饭店."
+  },
+  "交通旅馆": {
+   "renderings": {
+    "the Jiaotong Hotel": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": ""
+  },
+  "惠中饭店": {
+   "renderings": {
+    "the Huizhong Hotel": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": ""
+  },
+  "利顺德饭店": {
+   "renderings": {
+    "the Lishunde Hotel": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "The Astor House Hotel in the British concession; glossed at first appearance."
+  },
+  "小白楼": {
+   "renderings": {
+    "Xiaobailou": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": ""
+  },
+  "特别第一区": {
+   "renderings": {
+    "the First Special District": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "The former German concession at Tianjin, taken back after the First World War."
+  },
+  "劝业场": {
+   "renderings": {
+    "the Quanyechang": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "A famous multi-story commercial arcade in the Tianjin French concession."
+  },
+  "紫竹林": {
+   "renderings": {
+    "Zizhulin": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": ""
+  },
+  "张家口": {
+   "renderings": {
+    "Zhangjiakou": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": ""
+  },
+  "卧佛寺街": {
+   "renderings": {
+    "Wofosi Street": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": ""
+  },
+  "海光寺": {
+   "renderings": {
+    "Haiguang Temple": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": ""
+  },
+  "顺德": {
+   "renderings": {
+    "Shunde": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": ""
+  },
+  "滦县": {
+   "renderings": {
+    "Luan county": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": ""
+  },
+  "新民": {
+   "renderings": {
+    "Xinmin": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": ""
+  },
+  "锦州": {
+   "renderings": {
+    "Jinzhou": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": ""
+  },
+  "沈阳兵工厂": {
+   "renderings": {
+    "the Shenyang Arsenal": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": ""
+  },
+  "按院胡同": {
+   "renderings": {
+    "Anyuan Hutong": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": ""
+  },
+  "弓弦胡同": {
+   "renderings": {
+    "Gongxian Hutong": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": ""
+  },
+  "米市大街": {
+   "renderings": {
+    "Mishi Street": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": ""
+  },
+  "西直门": {
+   "renderings": {
+    "Xizhimen": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": ""
+  },
+  "平绥路": {
+   "renderings": {
+    "the Ping-Sui Railway": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": ""
+  },
+  "归绥": {
+   "renderings": {
+    "Guisui": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": ""
+  },
+  "辟才胡同": {
+   "renderings": {
+    "Bicai Hutong": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": ""
+  },
+  "羊皮巷": {
+   "renderings": {
+    "Yangpi Lane": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": ""
+  },
+  "鸡鹅巷": {
+   "renderings": {
+    "Ji'e Lane": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": ""
+  },
+  "老虎桥": {
+   "renderings": {
+    "Laohuqiao": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": ""
+  },
+  "津浦路": {
+   "renderings": {
+    "the Tianjin-Pukou Railway": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": ""
+  },
+  "鸡泽县": {
+   "renderings": {
+    "Jize County": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": ""
+  },
+  "阳明山": {
+   "renderings": {
+    "Yangmingshan": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": ""
+  },
+  "黄寺": {
+   "renderings": {
+    "the Yellow Temple": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": ""
+  },
+  "安定门": {
+   "renderings": {
+    "Andingmen": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": ""
+  },
+  "河内": {
+   "renderings": {
+    "Hanoi": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": ""
+  },
+  "安南": {
+   "renderings": {
+    "Annam": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "An old name for Vietnam; here French Tonkin, in Indochina."
+  },
+  "越南": {
+   "renderings": {
+    "Vietnam": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": ""
+  },
+  "四川": {
+   "renderings": {
+    "Sichuan": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": ""
+  },
+  "广西": {
+   "renderings": {
+    "Guangxi": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": ""
+  },
+  "跑马地": {
+   "renderings": {
+    "Happy Valley": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "A district of Hong Kong Island; its Chinese name means 'the racecourse ground.'"
+  },
+  "薄扶林道": {
+   "renderings": {
+    "Pok Fu Lam Road": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": ""
+  },
+  "半山": {
+   "renderings": {
+    "the Mid-Levels": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "The hillside residential quarter of Hong Kong Island."
+  },
+  "湾仔": {
+   "renderings": {
+    "Wan Chai": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": ""
+  },
+  "干诺道": {
+   "renderings": {
+    "Connaught Road": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": ""
+  },
+  "塘沽": {
+   "renderings": {
+    "Tanggu": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "The port at the mouth of the Hai River, the sea-gate of Tianjin."
+  },
+  "宝坻": {
+   "renderings": {
+    "Baodi": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": ""
+  },
+  "冀东": {
+   "renderings": {
+    "East Hebei": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "The eastern part of Hebei, seat of the Japanese-sponsored puppet 'East Hebei' government."
+  },
+  "布鲁塞尔": {
+   "renderings": {
+    "Brussels": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": ""
+  },
+  "比利时": {
+   "renderings": {
+    "Belgium": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": ""
+  },
+  "台儿庄": {
+   "renderings": {
+    "Tai'erzhuang": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "Town in southern Shandong, site of the Chinese victory of spring 1938."
+  },
+  "张鼓峰": {
+   "renderings": {
+    "Zhanggufeng": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "The Zhanggufeng / Lake Khasan border clash with the USSR, July–August 1938."
+  },
+  "珊瑚坝": {
+   "renderings": {
+    "Shanhuba": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "The airfield on a sandbar in the river at Chongqing, from which Wang flew out."
+  },
+  "上清寺": {
+   "renderings": {
+    "Shangqingsi": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "A district of Chongqing where Wang lodged."
+  },
+  "北碚": {
+   "renderings": {
+    "Beibei": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "A district near Chongqing."
+  },
+  "滇越路": {
+   "renderings": {
+    "the Yunnan–Vietnam railway": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "The French-built Yunnan–Vietnam (Kunming–Haiphong) railway, the route from Yunnan into Indochina."
+  },
+  "无锡": {
+   "renderings": {
+    "Wuxi": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": ""
+  },
+  "绍兴": {
+   "renderings": {
+    "Shaoxing": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": ""
+  },
+  "番禺": {
+   "renderings": {
+    "Panyu": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": ""
+  },
+  "三水": {
+   "renderings": {
+    "Sanshui": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": ""
+  },
+  "横滨": {
+   "renderings": {
+    "Yokohama": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": ""
+  },
+  "里昂": {
+   "renderings": {
+    "Lyon": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": ""
+  },
+  "西贡": {
+   "renderings": {
+    "Saigon": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": ""
+  },
+  "海防": {
+   "renderings": {
+    "Haiphong": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": ""
+  },
+  "槟榔屿": {
+   "renderings": {
+    "Penang": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": ""
+  },
+  "新加坡": {
+   "renderings": {
+    "Singapore": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": ""
+  },
+  "息烽": {
+   "renderings": {
+    "Xifeng": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "A county in Guizhou; site of the Juntong's own detention camp for its own personnel."
+  },
+  "北极阁": {
+   "renderings": {
+    "Beiji Pavilion": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "A height at Nanjing; Wang climbed it on the Double-Ninth for his last ci."
+  },
+  "名古屋": {
+   "renderings": {
+    "Nagoya": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "Japanese city where Wang Jingwei died of illness in 1944."
+  },
+  "红河大桥": {
+   "renderings": {
+    "the Red River bridge": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "The long road-and-rail bridge over the Red (Hong) River at Hanoi, the Pont Doumer (now Long Bien); scene of the failed car chase."
+  },
+  "杜美路": {
+   "renderings": {
+    "Route Doumer": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "A street in the Shanghai French Concession (Route/Rue Doumer, today Donghu Road); Chen lodged there opposite Du Yuesheng's residence."
+  },
+  "极司菲尔路": {
+   "renderings": {
+    "Jessfield Road": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "A road on the western edge of the Shanghai settlements; No. 76 became the notorious headquarters of the Wang puppet secret service."
+  },
+  "卡尔登公寓": {
+   "renderings": {
+    "the Carlton Apartments": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "A Shanghai apartment building, home of Chen's friend Hu Yongquan."
+  },
+  "黄埔江": {
+   "renderings": {
+    "the Huangpu River": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "The river running through Shanghai (source 黄埔 for the standard 黄浦)."
+  },
+  "基隆": {
+   "renderings": {
+    "Keelung": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "The port at the northern tip of Taiwan, a way-station on Wang Jingwei's sea passage to Shanghai."
+  },
+  "雨花台": {
+   "renderings": {
+    "Yuhuatai": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "The Terrace of Raining Flowers, a hill south of Nanjing long used as an execution ground."
+  },
+  "更新舞台": {
+   "renderings": {
+    "Gengxin Stage": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "A Peking-opera theater on Newchwang Road in the International Settlement; the site of the Yu Yefeng sanction of January 1940."
+  },
+  "石家庄": {
+   "renderings": {
+    "Shijiazhuang": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "The Hebei rail-junction city, scene of the Communist siege and capture of November 1947; Chen more often calls it by its older name, Shimen."
+  },
+  "石门": {
+   "renderings": {
+    "Shimen": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "The older name of Shijiazhuang, used throughout this chapter."
+  },
+  "安次": {
+   "renderings": {
+    "Anci": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "The Hebei county garrisoned by the First Directly Subordinate Section (its seat, Langfang lies on the Bei-Ning line)."
+  },
+  "安国": {
+   "renderings": {
+    "Anguo": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "The Hebei county whose Temple of the Medicine King was the object of the raid meant to seize Mao Zedong."
+  },
+  "正定": {
+   "renderings": {
+    "Zhengding": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "The town reckoned the screen of Shimen, and the northern terminus of the Zheng-Tai railway."
+  },
+  "立水桥": {
+   "renderings": {
+    "Lishuiqiao": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "The Daxing-county village, some thirty li north of Beiping's Andingmen, named for its cement bridge; scene of the October 1948 night battle between the local corps and the Communist militia."
+  },
+  "大兴": {
+   "renderings": {
+    "Daxing": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "The Hebei county north of Beiping into which the North-Suburb Group extended its pacification work; Lishuiqiao lay within it."
+  },
+  "赵家坟": {
+   "renderings": {
+    "Zhaojiafen": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "The base village of the North-Suburb Mixed Group, at the northeastern corner of Beiping."
+  },
+  "王庆沱": {
+   "renderings": {
+    "Wangqingtuo": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "The town some fifteen li west of Yangliuqing garrisoned by Zhu Zhankui's security corps; it fell to the bandit army on the night the assault team and the Second Command Room withdrew from it."
+  },
+  "杨柳青": {
+   "renderings": {
+    "Yangliuqing": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "The town on the northern reach of the Jin-Pu railway near Tianjin to which the Second Command Room fell back as the working district shifted ever northward."
+  },
+  "独流": {
+   "renderings": {
+    "Duliu": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "The Jin-Pu-line station where the assault team detrained and awaited orders; the Second Command Room's Second Group was seated there."
+  },
+  "静海": {
+   "renderings": {
+    "Jinghai": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "The Hebei county on the northern reach of the Jin-Pu railway where the Second Command Room was seated."
+  },
+  "顺义": {
+   "renderings": {
+    "Shunyi": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "The county north of Beiping where the assault team, in the autumn of 1948, seized a puppet county commissar and broke up an arms-repair shop at Niulanshan."
+  },
+  "唐官屯": {
+   "renderings": {
+    "Tangguantun": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "The town in Jinghai county on the Jin-Pu line where the assault-team command was handed from Wang Hongzhu to Chang Shaozeng, and where the Second Command Room's Third Group was stationed."
+  },
+  "涿县": {
+   "renderings": {
+    "Zhuoxian": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "The county southwest of Beiping on the Ping-Han line where the First Command Room had its seat; the hub of section one and the place to which Fu Zuoyi's requisitioned coffins were sent."
+  },
+  "新保安": {
+   "renderings": {
+    "Xinbao’an": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "The walled town on the Ping-Sui line, southeast of Xuanhua, where Guo Jingyun's 35th Army was surrounded and destroyed between 6 and 24 December 1948."
+  },
+  "涞水": {
+   "renderings": {
+    "Laishui": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "The Hebei county and the campaign (the 涞水之役) in which the 35th Army bled, its commander and division commander took their lives, and the mass encoffining of the dead was carried out."
+  },
+  "保定": {
+   "renderings": {
+    "Baoding": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "The Hebei provincial city on the Ping-Han line; seat of the First Command Room's Baoding Group and a hub of the line's pacification work."
+  },
+  "溪口": {
+   "renderings": {
+    "Xikou": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "Chiang Kai-shek's native town in Fenghua, Zhejiang; the brigade's charge in the winter and spring of 1949 was to guard its outer ring."
+  },
+  "小灵峰": {
+   "renderings": {
+    "Xiaolingfeng": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "A vital pass in the Siming Mountains on the outer ring of Xikou, guarded by the brigade; the subject of Feng Zhijun's garrison record."
+  },
+  "澎湖": {
+   "renderings": {
+    "Penghu": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "The Pescadores; the island group to which the brigade withdrew from Xiamen in September 1949 and where it was finally disbanded."
+  },
+  "马公": {
+   "renderings": {
+    "Magong": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "The main harbor town of Penghu (the Pescadores), where the brigade went ashore in September 1949."
+  },
+  "张垣": {
+   "renderings": {
+    "Zhangyuan": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "places",
+   "status": "agreed",
+   "note": "A literary name for Zhangjiakou (Kalgan), the Chahar gateway city; the form Chen favors in the Part-Four chapters. Introduced with Zhangjiakou in a note at its first appearance."
+  },
+  "制裁": {
+   "renderings": {
+    "sanction": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "terms",
+   "status": "agreed",
+   "note": "The service's euphemism for the targeted killing or execution of an enemy or traitor; kept as the book's own term."
+  },
+  "绥靖": {
+   "renderings": {
+    "pacification": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "terms",
+   "status": "agreed",
+   "note": "A Nationalist term for the 1946–49 civil war, casting the Communists as rebels to be pacified."
+  },
+  "督察": {
+   "renderings": {
+    "inspector": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "terms",
+   "status": "agreed",
+   "note": ""
+  },
+  "三八式": {
+   "renderings": {
+    "the Type 38": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "terms",
+   "status": "agreed",
+   "note": ""
+  },
+  "艳电": {
+   "renderings": {
+    "the Yan Telegram": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "terms",
+   "status": "agreed",
+   "note": ""
+  },
+  "和平三原则": {
+   "renderings": {
+    "the Three Principles of Peace": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "terms",
+   "status": "agreed",
+   "note": ""
+  },
+  "孔明车": {
+   "renderings": {
+    "the Kongming cart": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "terms",
+   "status": "agreed",
+   "note": ""
+  },
+  "东亚新秩序": {
+   "renderings": {
+    "New Order in East Asia": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "terms",
+   "status": "agreed",
+   "note": "Japan's slogan (東亞新秩序) for a Japanese-led East Asian bloc, from Konoe's statement of 3 November 1938."
+  },
+  "东亚协同体": {
+   "renderings": {
+    "East Asian Cooperative Body": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "terms",
+   "status": "agreed",
+   "note": "A related Japanese slogan (東亞協同體) for the merging of Japan, 'Manchukuo,' and China."
+  },
+  "田中奏折": {
+   "renderings": {
+    "Tanaka Memorial": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "terms",
+   "status": "agreed",
+   "note": "The alleged 1927 memorial of Tanaka Giichi on world conquest; generally regarded as a forgery."
+  },
+  "二十一条款": {
+   "renderings": {
+    "Twenty-One Demands": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "terms",
+   "status": "agreed",
+   "note": "Japan's 1915 demands on China."
+  },
+  "九国公约": {
+   "renderings": {
+    "Nine-Power Treaty": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "terms",
+   "status": "agreed",
+   "note": "The 1922 Washington treaty guaranteeing China's sovereignty and the Open Door."
+  },
+  "马关条约": {
+   "renderings": {
+    "Treaty of Shimonoseki": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "terms",
+   "status": "agreed",
+   "note": "The 1895 treaty ending the first Sino-Japanese War."
+  },
+  "国家总动员法": {
+   "renderings": {
+    "National General Mobilization Law": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "terms",
+   "status": "agreed",
+   "note": "Japanese law of April 1938 placing the economy on a war footing."
+  },
+  "中山舰事件": {
+   "renderings": {
+    "the Zhongshan Warship Incident": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "terms",
+   "status": "agreed",
+   "note": "Chiang Kai-shek's March 1926 move against Communist influence in the Nationalist Party and army."
+  },
+  "宁汉分裂": {
+   "renderings": {
+    "the Ninghan Split": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "terms",
+   "status": "agreed",
+   "note": "The 1927 rupture between the Nanjing (Ning) and Wuhan (Han) Nationalist governments."
+  },
+  "五四运动": {
+   "renderings": {
+    "the May Fourth Movement": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "terms",
+   "status": "agreed",
+   "note": "The 1919 nationalist and cultural movement; Chen ties it to the entry of Communism into China."
+  },
+  "甲午战争": {
+   "renderings": {
+    "the First Sino-Japanese War": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "terms",
+   "status": "agreed",
+   "note": "The war of 1894–95 in which Japan defeated Qing China."
+  },
+  "琉球": {
+   "renderings": {
+    "the Ryukyus": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "terms",
+   "status": "agreed",
+   "note": "The island kingdom annexed by Japan in 1879, cited as the start of Japan's designs on China."
+  },
+  "北光丸": {
+   "renderings": {
+    "the Hokkō Maru": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "terms",
+   "status": "agreed",
+   "note": "The Yamashita Steamship Company cargo vessel that carried Wang Jingwei from Vietnam to Shanghai in 1939."
+  },
+  "霞飞将军": {
+   "renderings": {
+    "the Général Joffre": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "terms",
+   "status": "agreed",
+   "note": "The French mail steamer on which Chen sailed from Hong Kong to Shanghai."
+  },
+  "励志计划": {
+   "renderings": {
+    "the Lizhi Plan": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "terms",
+   "status": "agreed",
+   "note": "The plan under which the Ministry of National Defense raised, trained, and tasked the Pacification Corps; 励志 means to steel the will or better oneself."
+  },
+  "特种部队": {
+   "renderings": {
+    "special-operations unit": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "terms",
+   "status": "agreed",
+   "note": "The new-pattern special force of the Pacification Corps; the same compound is glossed 'Special Forces' in the chapter that defines it (Part Four, chapter two)."
+  },
+  "特种组织": {
+   "renderings": {
+    "special organization": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "terms",
+   "status": "agreed",
+   "note": "The Leader's term for the older special services he had 'raised with his own hands over twenty years,' the Juntong foremost among them, whose decay he lamented at the opening of the Lizhi Class."
+  },
+  "掏心战术": {
+   "renderings": {
+    "the heart-extraction tactic": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "terms",
+   "status": "agreed",
+   "note": "The code-name of the deep raid into the Communist-held triangle aimed at seizing the enemy's leadership at a stroke; the chapter title glosses it at title level."
+  },
+  "平津保三角地带": {
+   "renderings": {
+    "the Beiping-Tianjin-Baoding triangle": [
+     "nameless-heroes"
+    ]
+   },
+   "category": "terms",
+   "status": "agreed",
+   "note": "The dozen-odd counties of central Hebei, bounded by Beiping, Tianjin, and Baoding, held by the Communists' Central Hebei forces from 1938."
   }
  }
 }
