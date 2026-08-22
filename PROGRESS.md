@@ -1471,3 +1471,87 @@ split).
   meaning drift.** Digits preserved on every date; 打进/钻进心脏 -> "planted
   inside"; 及时 -> "in time"; 颇有威望 -> "considerable standing"; 只好 -> "had
   no choice but to"; 政治局 -> "the Politburo". All faithful.
+
+## R2 (register revision) — tic sweep, front batch: ch00–ch08 (2026-08-22)
+
+Batch R2 complete. Front batch of the Tier-B tic sweep (REVISION_PLAN §7).
+Edits only via edits/<id>_edits.md + apply_edits.py. Content frozen; no
+paragraph merged/split; no facts, numbers, names, or hedges changed.
+
+### Pre-flight (fresh container)
+- Regenerated `data/zh/` for ch00–ch08 per scripts/recovery/README.md: render
+  36–197 @300dpi, ocr_crop (recorded crop, chi_sim psm6), then b01–b05
+  strip/assemble/surgery/apply_fixes. `pgrep -c tesseract` == 0 after OCR.
+  (ocr_dual skipped — not needed for the QC scaffold; content frozen.)
+- Reverted data/pagemap/ch00–ch08 (assemble's auto-output is stale after
+  surgery; the committed hand-built pagemaps are authoritative).
+- verify_unit matches the §2 pins exactly: ch00/ch02/ch05/ch06/ch07/ch08 fully
+  green; ch01 parity zh32/en38, ch03 parity zh38/en37 (pinned); ch04 pair 37
+  `[7]` (pinned). No unpinned warning.
+
+### Edits — 11 English-surface swaps across 5 units (ch00/ch03/ch05/ch08 clean)
+- **ch01 (2):** 相继 "Massacres followed elsewhere one after another" -> "in
+  place after place"; 相继 "the arrest, one after another, of" -> "the arrest,
+  in turn, of". All 28 note anchors survive (grep-verified; neither edit
+  touches an anchor).
+- **ch02 (1):** 陆续 "returned to Shanghai one after another" -> "in succession".
+- **ch04 (1):** trailing "did much work besides to assist" -> "did much other
+  work to assist".
+- **ch06 (6):** appositive ", besides," -> "also"; 不少 "no little intelligence"
+  -> "a good deal of"; 不少 "no little convenience" -> "considerable"; 先后 "one
+  after another resigned" -> "resigned in turn"; 不得不 "could not but hand" ->
+  "had to hand"; 不小 "no small bribe" -> "a sizable bribe".
+- **ch07 (1):** trailing "cowed besides by" -> "cowed as well by". (R1 already
+  did this unit's Tier A ledger residuals: 及时 x2, 打入.)
+
+### Clean chapters (0 edits — the pass working)
+- **ch00** (preface): only hit is idiomatic "the building of the Central
+  Special Section began" — natural English, left.
+- **ch03**: all hits defensible — "no small thing" (Liu Bocheng quote),
+  sentence-initial "Besides," (narration, modern), "and others" 等-closers,
+  "the founding of Whampoa" (idiom), "Many years later," (reads naturally).
+- **ch05**: every hit is inside quoted reminiscence (Li Kenong, Song Zhijia,
+  Zhang Zhenhua, Ah Ying) or idiomatic ("the building of the country").
+- **ch08**: the entire body (¶19–121) is Zhao Weigang's quoted memoir; ALL its
+  tic hits (could only ×6, before long ×4, besides ×7, no small ×3, no few,
+  could not but) are KEEP-list and untouched.
+
+### Surviving tics, all defended aloud
+- ch01:81 "no small hindrance" — inside the quoted 1930 Central Committee
+  secret-work circular (KEEP: Party document).
+- ch02:5 "no small feat" — fixed English idiom, not a 不少 calque.
+- ch04:17 "could only wait tables" — plan-named FINE idiom, and inside Liu
+  Ding's quoted reminiscence; ch04:131 "could only go back and hide" — inside
+  the quoted Chen Shouchang mountain account.
+- ch07:63 "no little superstition" — inside a quote-marked characterization;
+  ch07:97 "one after another" — inside the Li Kenong biographer block quote.
+- Connective/sentence-initial "Besides…" left across ch02/ch03/ch06/ch07 as
+  modern "in addition" (plan CAUTION); "Before long" left as modern English.
+
+### Long-sentence spine test
+Regenerated the >90-word narration list for ch00–ch08 (ch01 113w schemes-list,
+ch03 96w achievements-anaphora, ch03 97w parallel "not knowing…, they…", ch06
+94w cumulative description; the others are quoted). Every one is a single-spine
+colon/semicolon list or cumulative construction — none splits (a list is never
+broken to shorten). No spine split, as in the ch15 exemplar.
+
+### QC
+- verify_unit: all edited units match the §2 pins (ch01 pinned parity, ch04
+  pinned `[7]`; ch02/ch06/ch07 green). ch01 28/28 anchors present post-edit.
+- Typography guard: R2 introduced **zero** smart quotes/ellipses. The 3
+  pre-existing Unicode ellipses (ch01:43,47 Li Qiang; ch02:59 Liu Shuqin) are
+  trailing-in-quotation marks that STYLE.md ruling 8 explicitly sanctions;
+  in KEEP-zone quotes, left untouched.
+- check_register vs out/ch01_reading.pre-R.md: all 5 edited units within
+  tolerance (em-dash rate unchanged; ch07's "shall" flag is pre-existing formal
+  quoted speech — Zou Taofen / Xu Enzeng dialogue — not an R2 edit).
+- notes.json unchanged (byte-identical; 339 book-wide; no anchor moved).
+- Diff reviewed for KEEP-list over-corrections: none (ch07 "no little
+  superstition" quote correctly left; only the adjacent narration changed).
+- **10% spot-audit — all 11 edited sites vs source: zero meaning drift.** Every
+  litotes maps 不少/不小 (vague quantity preserved vague); 相继/陆续/先后 keep
+  their succession sense; 不得不 -> "had to"; no number, name, date, unit, or
+  hedge changed; no quoted material touched.
+- Build: 28/28 chapters, 339 notes, 496 pagebreaks. qa_epub PASS (78 files, all
+  links resolve). **epubcheck NOT available in this container** (setup could
+  not fetch it; network-restricted). qa_epub is the gate and passes.

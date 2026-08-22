@@ -2,6 +2,28 @@
 
 Dated record of what changed and, for global corrections, what cascaded where.
 
+## 2026-08-22 — R2 register pass: tic sweep, front batch (ch00–ch08)
+Tier-B tic sweep of the front chapters. Reading text edited via
+edits/<id>_edits.md + apply_edits.py; content frozen (no para merged/split,
+no facts/numbers/names/hedges changed).
+- **11 English-surface edits** across ch01(2)/ch02(1)/ch04(1)/ch06(6)/ch07(1):
+  相继/陆续/先后 "one after another" calques, 不少/不小 litotes ("no little/no
+  small" -> "a good deal of/considerable/sizable"), trailing/appositive
+  "besides" (-> "also/as well/other"), 不得不 "could not but" -> "had to".
+- **ch00/ch03/ch05/ch08 came back clean** (0 edits): quoted memoirs and
+  idioms, respected per the KEEP list. ch08's whole body is Zhao Weigang's
+  memoir; all its tic hits are KEEP-list.
+- Long-sentence spine test on the >90-word narration sentences: no split (all
+  single-spine list/cumulative constructions).
+- Files touched: out/ch01_reading.md, out/ch02_reading.md, out/ch04_reading.md,
+  out/ch06_reading.md, out/ch07_reading.md; edits/ch0{1,2,4,6,7}_edits.md;
+  rebuilt out/zhou-enlai.epub. notes.json unchanged (339; no anchor moved).
+- verify_unit matches §2 pins; check_register within tolerance vs
+  ch01_reading.pre-R.md; typography guard clean (zero new smart punct);
+  spot-audit of all 11 sites vs source = zero meaning drift.
+- Build 28/28, 339 notes; qa_epub PASS. epubcheck not available in this
+  container (fetch network-restricted); qa_epub is the gate.
+
 ## 2026-08-22 — R1 register pass: Tier A globals + ch15 exemplar
 Reading text edited via edits/<id>_edits.md + apply_edits.py; Politburo via a
 global cascade (CLAUDE.md). Content frozen (no para merged/split, no facts or
