@@ -1,0 +1,66 @@
+<!-- blind voice-gate critique | unit=ch13 | round=1 | reader was context-blind (no source, no STYLE, no project) -->
+
+Findings on the Afterword's English prose (context-blind reader):
+
+- ¶23 "is enough to thrill a man" — vague generalized "a man" for the author's own feeling; wooden. Fix: "is a thrilling thing for an author" or "thrills me."
+- ¶25 "not because... but because...; not because... but because..." — the doubled parallel stacks stiffly. Fix: split or vary: "...has added important new material. It is not that I write well, but that the subject is too good."
+- ¶25 "the subject is too good" — "too good" reads oddly (too good for what?); means the subject is simply so good. Fix: "the subject itself is so rich."
+- ¶27 "interviewing, face to face, many who lived the hidden front themselves" — comma-jammed gloss and awkward "lived the hidden front." Fix: "interviewing face to face many who had served on the hidden front."
+- ¶29 "only I was rash enough to want to write the whole history" — "rash enough to want to" is a calque; slightly off. Fix: "only I was rash enough to attempt the whole history."
+- ¶29/¶33 "has the honor... has had the honor... has the honor" — repeated "the honor" formula across paragraphs; translationese modesty. Vary or cut.
+- ¶31 "not to be dug out in one go, not to be written out in ten years" — "written out" is wrong idiom; "in one go" is colloquial-clashing. Fix: "not to be dug out all at once, nor exhausted in ten years of writing."
+- ¶33 "This newest upgraded illustrated edition" — three stacked adjectives, "upgraded" is marketing-calque. Fix: "This new illustrated edition."
+- ¶33 "It reflects the fruit of my interviewing" — "the fruit of my interviewing" abstract/wooden. Fix: "It draws on the interviews I have done."
+- ¶33 "where many an 'old intelligence hand' appears in person" — "many an" is fake-antique; "appears in person" odd for a book. Fix: "where many an old intelligence hand — better, where numerous veteran intelligence officers — speak for themselves."
+- ¶35 "Not only was matter added; the level was raised." — "matter" and "the level was raised" are bald calques. Fix: "It is not just that material was added; the treatment went deeper."
+- ¶35 "it caught a lasting wave of spy-thriller enthusiasm" — "caught a wave" mismatch; a book doesn't catch a wave it rode. Fix: "it coincided with a lasting wave of spy-thriller enthusiasm."
+- ¶35 "riding a tiger I could not dismount" — calqued idiom (骑虎难下); acceptable but flag literal; English idiom is "I could not get off the tiger's back" or gloss. Fix: keep but ensure footnote, or "committed past the point of turning back."
+- ¶35 "to rescue the record" — vague. Fix: "to salvage their recollections" / "to preserve the record."
+- ¶35 "The ordering of the material was a process of ordering my own thoughts" — clumsy repetition of "ordering." Fix: "Arranging the material meant arranging my own thoughts."
+- ¶35 "deepened by degrees" — mildly fake-antique. Fix: "deepened steadily."
+- ¶35 "among all the trades of modern China, was the earliest to enter the front rank of the world" — "trades" wrong register; "enter the front rank of the world" translationese. Fix: "of all fields in modern China, was among the first to reach world-class standing."
+- ¶35 "a cultural treasure-house" — calque (文化宝库). Fix: "a cultural treasure trove."
+- ¶37 "a batch of works titled 'The Secret War of So-and-so'" — "a batch of works" is calque (一批); "So-and-so" register clash. Fix: "a number of works with titles like 'The Secret War of...'"
+- ¶37 "people care all the more about this secret war" — "care about... war" awkward. Fix: "interest in this secret war keeps growing."
+- ¶39 "I fixed on the title" — "fixed on" slightly off. Fix: "I settled on the title."
+- ¶39 "this front is not easily bounded" — passive/abstract. Fix: "this front resists neat definition."
+- ¶41 "But this work radiates outward too" — "radiates outward" abstract. Fix: "But the work extends outward as well."
+- ¶41 "the united front draws intelligence along, diplomacy screens intelligence" — "draws along" / "screens" opaque, calqued verbs. Fix: reword for sense, e.g. "united-front work carries intelligence with it, diplomacy provides cover for it."
+- ¶41 "you can hardly hold it within bounds" — shift to second person "you" clashes with formal register. Fix: "it can hardly be held within bounds."
+- ¶41 "a name relatively vague and yet quite alluring" — "quite alluring" wrong register for a term. Fix: "a name at once vague and evocative."
+- ¶43 "The scope... is relatively broad" / ¶37 "relatively complete" / ¶41 "relatively vague" — "relatively" (比较) overused as a translationese hedge throughout. Trim most.
+- ¶43 "this opened a train of thought" — calque (打开思路). Fix: "this set me thinking" / "this suggested a line of thought."
+- ¶43 "this secret war I write of is exactly the scope of national security" — "is exactly the scope of" is ungrammatical equation. Fix: "the secret war I write of is precisely national security."
+- ¶45 "could not live a single day apart from security work" — calque. Fix: "could not survive a single day without security work."
+- ¶45 "valued political security to the utmost" — stiff. Fix: "prized political security above all."
+- ¶45 "grew richer, broader, and more complex" — "richer" wrong for problems. Fix: "grew more numerous, broader, and more complex."
+- ¶45 "spanning the political, territorial, military, economic... and nuclear domains" — eleven-item stacked list, exhausting but likely faithful; consider trimming "domains" repetition—acceptable if source lists them.
+- ¶45 "enough to show the extremely high standing of security work" — dangling "enough to show," bald. Fix: "which shows how high a standing security work now holds."
+- ¶47 "one comes to see history afresh... one finds that..." — formal "one" plus repeated abstract clause-stacking; heavy. Fix: recast in first person or simplify.
+- ¶47 "turned always upon the core of security" — "turned upon the core" awkward. Fix: "always centered on security."
+- ¶47 "is, in turn, full of Chinese character" — "full of Chinese character" calque (中国特色). Fix: "bears a distinctly Chinese character."
+- ¶49/¶51ff "the founding period, the maturing period, the victory period, the construction period, the wrecking period" — "the wrecking period" reads oddly in English for 破坏; consider "the period of destruction." "maturing period" → "period of maturation."
+- ¶51 "was raw and forceful, but under the great influence of the Soviet model too" — trailing "too" and "great influence" clumsy. Fix: "was raw and vigorous, though heavily shaped by the Soviet model."
+- ¶53 "came fully into maturity, forming a character of their own, a revolutionary road of their own, a guiding thought of their own, and a system... of their own" — fourfold "of their own" is a wearing calque (自己的). Fix: vary.
+- ¶57 "how to fit the new security situation was a new exploration" — "fit the situation" and "was a new exploration" are calques. Fix: "adapting to the new security situation was itself uncharted ground."
+- ¶59 "the smashing of the police, procuratorate, and courts" / "restoration of the police, procuratorate, and courts" — "smashing" colloquial-violent; repeated full phrase clunky.
+- ¶61 "up to the founding of the Central National Security Commission in 2013; China is strengthening the rule of law across the board." — a single run-on with dashes and semicolon spanning six clauses; final clause a non-sequitur tacked on. Split it.
+- ¶63 "History makes books" — cryptic calque. Fix: "History yields books" or reword to sense.
+- ¶65 whole paragraph: "briefly introduced... told in detail... sketched... hinted at" — one 90-word sentence with four parallel volume clauses; split.
+- ¶67 "enough to form four great works" — "great works" (大部头) reads as boast; fix: "enough for four substantial books."
+- ¶67 "Only my own time and strength are limited" — "Only" as sentence-opener calque (只是); "time and strength" calque of 时间精力. Fix: "But my own time and energy are limited."
+- ¶69 "dissecting the top cases of the international contest for intelligence" — "top cases" informal-calque; "contest for intelligence" awkward. Fix: "examining the major cases in the international struggle over intelligence."
+- ¶73 "audiences always complain of too heavy a mark of fabrication" — calque (编造痕迹太重). Fix: "audiences always complain that they feel too made-up."
+- ¶73 "This work has a strong force of truth to it" — calque (真实的力量). Fix: "This work carries real conviction / rings true."
+- ¶75 "may be called a writing of China's intelligence history" — "a writing of" ungrammatical. Fix: "amounts to a history of China's intelligence work."
+- ¶75 "It is thus bound to be a vast systematic undertaking." — stiff. Fix: "It is therefore an enormous, systematic undertaking."
+- ¶77 "including the trade's authorities" — calque (业内权威). Fix: "including leading authorities in the field."
+- ¶77 "I cannot, by myself, even keep up with ordering it all" — awkward. Fix: "I cannot even organize it all on my own."
+- ¶77 "better that a body of young scholars work at it together" — stiff. Fix: "it would be better for a team of young scholars to take it on together."
+- ¶79 "some university teaching-and-research office" — literal calque of 教研室. Fix: "some university research unit / department."
+- ¶79 "Is the value of such a research project not alluring enough?" — "alluring" again wrong for research value. Fix: "Is such a project not valuable enough to be worth pursuing?"
+- ¶81 "A pity: all I can promise to do is to keep working at it myself." — "A pity:" fragment as sentence-opener, calque. Fix: "Sadly, all I can promise is to keep at it myself."
+- ¶83 "welcome leads for interviews and fellow enthusiasts to study and discuss together" — garbled coordination. Fix: "I welcome interview leads, and fellow enthusiasts to study and discuss these matters with me."
+
+Notes section:
+- Recurring across chapter: overuse of "hidden front," "secret war," "the honor," "relatively," and the "of their own" pattern — translationese tics to vary or thin.
