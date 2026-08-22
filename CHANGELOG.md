@@ -8,6 +8,39 @@ Dated record of what changed and, for global corrections, what cascaded where.
 - LOCAL: fixed dropped clause at ch03 §2 folio 45.
 -->
 
+## 2026-08-22: Voice/register pass COMPLETE (R01–R04)
+
+The commissioner-ordered whole-book voice/register/style pass is finished. It
+was an English-to-English re-voicing with content FROZEN: every replacement
+preserved its original's propositional content exactly (no fact, name, number,
+date-value, or claim changed; no paragraph merged or split; no name
+re-romanized; no note added or removed). Edits went through committed
+`edits/<id>_edits.md` lists applied by `scripts/apply_edits.py`, with
+`scripts/anchor_check.py` run before every apply so the 251 note anchors and
+182 figure anchors stayed placed. One commit per unit; blind context-free
+critiques archived under `review/voice_gate/`.
+
+- R01 (calibration + exemplar): ch00, ch01, ch09. The REVISED
+  `out/ch01_reading.md` became the register reference for the rest.
+- R02: ch02, ch03, ch04, ch05.
+- R03: ch06, ch07, ch08.
+- R04 (final) + closing sweep: ch10, ch11, ch12, ch13 (66 edits: 10/9/14/33).
+  The Afterword (ch13) drew the most edits — it is the author's own essay and
+  the most translationese-dense unit. Closing sweep: book-wide apparatus checks
+  (check_apparatus 0 failures; no bundled notes; density spread ~3.2x within
+  tolerance), whole-book tic regression (near-zero batteries stayed near zero),
+  the check_register table (R04 units within tolerance; the lone drift flag is
+  pre-existing ch02), and epubcheck 5.1.0 clean (0/0/0/0).
+- MOST paragraphs were LEFT untouched in the narrative chapters; the pass
+  protected the author's deliberate register (partisan terms, "old Chiang," the
+  vivid keep-idioms and 对仗 set-pieces, the footnoted allusions, the one-line
+  punches, quoted-document shapes, the *tewu* italics). Source-dependent
+  faithfulness flags the blind readers raised are logged in PROGRESS.md for a
+  corrections pass, not touched here. No new STYLE.local rules were needed.
+- The rebuilt EPUB is `out/chinas_secret_war.epub` (committed). qa_epub PASS,
+  epubcheck 0/0/0/0. The book remains COMPLETE; further work is a corrections
+  pass. HANDOFF.md rewritten to post-pass state (kickoff section removed).
+
 ## 2026-08-22: Register-pass setup — style system adopted, plan committed
 
 No prose changed. Adopted the shelf's composable style system and planned

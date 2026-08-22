@@ -2036,3 +2036,133 @@ of the reference."
 **For R04:** R01+R02+R03 diffs are the exemplar; match the restraint. The
 REVISED out/ch01_reading.md remains the register reference. No new STYLE.local
 rules were needed this batch.
+
+## R04 — voice/register pass, batch 4 of 4 (FINAL) + closing sweep (2026-08-22)
+
+**Scope:** ch10 + ch11 + ch12 + ch13, per REVISION_PLAN §5, THEN the whole-book
+closing sweep per §7. English-to-English re-voicing, content FROZEN (every NEW
+preserves its OLD's propositional content; no fact/name/number/date/claim
+changed, no paragraph merged or split, no name re-romanized, no note added or
+removed). One commit per unit; all pushed. R01's committed diff was read first
+as the exemplar for depth and restraint. Blind context-free critique run per
+unit (archived review/voice_gate/chNN_round1_critique.md).
+
+**Edits applied (edits/<id>_edits.md + apply_edits.py): 66 total.**
+- ch10: 10 edits over 365 paragraphs. The prose was already strongly
+  modern-neutral; the author's deliberate lively register (the sardonic
+  colloquialisms "kicking each other's shins," "cough up the ground he
+  swallowed," "made a rich haul," "What satisfaction," "old Chiang," the
+  ventriloquized colon-speech, the one kept authorial bang "how many people
+  knew that face!") was LEFT per STYLE.local's voice sheet. Fixes: a broken
+  subject-verb-apposition (the "sponsors" list); a "moment when drawing out a
+  man" syntax; "resolve enough" + postposed "intelligence accurate and quick";
+  the archaic "could only lean on" -> "had to turn to"; a "guard against the
+  reliability of" logic garble; "Hu Zongnan" x3 -> pronouns + doubled "ideas
+  and of views"; a gerund misparse ("the building of the Central General
+  Office"); a de-nominalized harassment/gathering pair; two thinned 等-tags.
+- ch11: 9 edits over 245 paragraphs. Protected the partisan "our/we," "old
+  Chiang," the vivid keep-idioms, the footnoted allusions, the title-concept
+  "turning" motif, the self-correcting rhetorical reframes, the genuine section
+  hooks, and the Principal Sources list. Fixes: "hedged" -> "covered"; an
+  active/passive parallel mismatch; "relaxed the intelligence war not at all";
+  the anachronistic "the design at the top" + garbled "policy-level
+  requirements"; "His heart truly convinced" -> "Genuinely won over"; a missing
+  article; "had merit with" calque; "sending the politics north"; a doubled
+  "watched by ... watched by."
+- ch12: 14 edits over 136 paragraphs. Kept the exclamatory momentum ("Storm the
+  walls, seize the land!", "West! South!", "South! South!"), the reflective
+  coda's inclusive voice, the genuine section hooks, and the 101-name roster.
+  Fixes: "full of themselves" (which inverted the author's admiration) ->
+  "riding high"; "dug in, digging"; "chieftains" -> "chiefs"; "by June 3,533"
+  -> "by June, 3,533" (number-reading hazard); "sedan" -> "car" (sedan-chair
+  ambiguity); "police chief changed hands" -> "the post of ..."; the "hung-out
+  shingle" Americanism; "of high enough quality"; "a tail too big to wag"
+  naturalized; "no few" -> "quite a few"; "a superb art of work"; a doubled
+  "matter"; one docent 岂不-question made declarative; "a thing still in
+  progress."
+- ch13 (the Afterword): 33 edits over 33 paragraphs. This is the author
+  speaking in his own voice and the single most translationese-dense unit in
+  the book, so the modern-essayist register target applies most directly and
+  the count is high by design. Cleared the "the honor" modesty formula (varied,
+  not cut), the "relatively" hedge, the fourfold "of their own" anaphora, bald
+  calques ("new matter," "the level was raised," "a strong force of truth," "the
+  trade's authorities," "teaching-and-research office," "full of Chinese
+  character"), an ungrammatical "is exactly the scope of" and "a writing of," a
+  garbled invitation, and shifted the third-person "The author has had the
+  honor" to the "I" the essay uses elsewhere. Preserved every fact, date, book
+  and edition title, the author's modest/reflective stance, his scare quotes,
+  the buried-treasure metaphor, and the four-period/four-volume scheme.
+
+**Exit checklist (REVISION_PLAN §8):**
+- [x] every edited unit: apply_edits clean, build + qa_epub PASS (all four).
+      apply_edits reported 10/9/14/33 edits, 0 anchor moves, 0 OLD failures.
+- [x] anchor_check run BEFORE apply, per unit; no collisions, no anchor moves
+      needed. Book-wide note total unchanged at 251; all anchors placed.
+- [x] tic batteries re-run per unit AND book-wide (all 14). The near-zero guard
+      batteries stayed near zero: antique fn-words are the deliberate quoted-
+      maxim keeps (ch10's "let slip" x3 in the "rather wrong than let slip" set-
+      piece) and isolated deliberate cases; DMY dates 0, British spellings 0,
+      "in the end?" 0, pivots 1 (ch01, deliberate). The de-nominalize / 等-tag /
+      narration-exclamation / >90-word residuals are the idiomatic "founding of
+      the," deliberate 等-tags, quoted/ventriloquized exclamations, and exempt
+      colon-list / quoted-document long sentences.
+- [x] OLD/NEW propositional spot-check: every NEW re-read against its OLD via
+      the committed diff; all content-preserving (numbers, names, dates, claims
+      intact). No contractions added inside quoted documents or formal-by-design
+      speakers.
+- [x] KEEP-list grep over the batch diff: quoted documents/slogans kept
+      uncontracted; partisan terms ("our Party"/"old Chiang"/汉奸-class) kept;
+      对仗 and allusion set-pieces intact; the "buried treasure"/mouse-elephant
+      metaphor strand and the title-concept "turning" motif intact; *tewu*-class
+      italics untouched.
+- [x] blind critiques archived under review/voice_gate/ (ch10/ch11/ch12/ch13
+      round1), each from a context-blind subagent (no source, no STYLE, no
+      glossary).
+- [x] one commit per unit, pushed; EPUB rebuilt each; epubcheck 0/0/0/0 at
+      batch end.
+
+**Closing sweep (REVISION_PLAN §7):**
+- **Apparatus checks (§6):** check_apparatus 0 failures (43 warnings, all the
+  pre-existing "attested/decided but no attestation note" informational class,
+  not R04 defects). Bundled notes: none (0 note bodies >= 6 sentences; no note
+  serves two distinct referents). Mid-phrase markers: 4 anchors end just before
+  an apostrophe/asterisk (ch04 possessive, ch07/ch09 work-title italics, ch10
+  "kicking each other['s shins]") -- all pre-existing, at the end of the
+  referent phrase, and placed correctly by the builder (qa_epub PASS); none
+  introduced by R04. Double-gloss: R04 added no notes/glossary rows, so the
+  one-gloss-per-term state audited at completion is unchanged. Density spread:
+  words-per-note ranges ~470 (ch04/ch13) to ~1526 (ch08), ~3.2x, at the edge of
+  the ~2-3x tolerance and driven by the naturally-tapered mid-book chapters
+  (ch06/ch08) where the furniture was noted earlier; density was settled at
+  completion and a register pass does not re-open it -- no notes added.
+- **Whole-book tic regression:** all 14 batteries re-run; near-zero batteries
+  near zero (see exit checklist).
+- **check_register (ref = REVISED ch01):** R04 units within tolerance -- ch10
+  7.6/1k (3.70x, speech-rich chapter, healthy), ch11/ch12/ch13 at 0.0 (little-
+  dialogue / the afterword has no dialogue, noisy by §2, judged on narration by
+  ear and reading modern-neutral after the pass; em-dash 0.0-2.0/1k, rhythm CV
+  0.51-0.63). The tool's single "drift" flag is ch02 (STILTED, 0.42x) -- a
+  pre-existing R02 item (low-dialogue documentary, formal-by-design speakers,
+  judged on narration), NOT an R04 unit; ch09's "shall 100%" is the pre-existing
+  R01 deliberate formal-speaker note. Neither reopened.
+- **epubcheck 5.1.0:** 0 fatals / 0 errors / 0 warnings / 0 infos, EPUB 3.3.
+
+**Logged for a corrections pass (out of scope for a frozen register pass):**
+- ch10: the "eight/fourteen/fifteen years" War-of-Resistance span discrepancy;
+  the "three vs two liaison officers" count; the "Zhang Bingnan written by
+  mistake for Zhang Bingnan" romanization collision (two distinct source
+  characters lost, needs the scan); the note-vs-text Wang Shiwei detail
+  ("body thrown down a well" note vs "put to death" text).
+- ch11: the Baoding-vs-Chiang apparent contradiction in the Wu Shi paragraph;
+  the unreferenced "dead fish" (poisoned dish); the third-person "her" inside
+  Xiao Minghua's own testament. All source-dependent; a register pass cannot
+  resolve them without the scan.
+- ch12: Xi'an "ancient capital of six dynasties" (usually given as thirteen) --
+  verify against the source; the "intelligence, security, safety, and public-
+  security" quadruplet (possibly distinct 保卫/安全 terms, left intact).
+
+**Voice/register pass COMPLETE.** R01-R04 = 66 (R04) on top of the prior
+batches; the REVISED out/ch01_reading.md was the register reference throughout.
+No new STYLE.local rules were needed. The book remains COMPLETE; further work
+is a corrections pass. HANDOFF.md rewritten to post-pass state (kickoff section
+removed; the Stop hook stands down).

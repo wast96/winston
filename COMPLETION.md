@@ -4,6 +4,29 @@ The book is COMPLETE. This report replaces the next-batch handoff; it is the
 document to read to know what the finished edition contains and how far to
 trust it.
 
+## Addendum (2026-08-22): voice/register pass complete
+
+After completion, the commissioner ordered a whole-book voice/register/style
+pass, run in four batches (R01–R04) on branch `claude/chinas-secret-war`. It
+was an English-to-English re-voicing toward a modern-neutral register (period
+flavour from content, not antique syntax; documents starchy, narrator like a
+smart writer today, people sounding like people). Content was FROZEN: every
+edit preserved its original's propositional content exactly, so the fidelity
+guarantees below still hold unchanged. The pass changed only wording, never
+facts, names, numbers, dates, claims, paragraph count, or the apparatus (251
+notes, 284 glossary rows, and all figure placements are unchanged). It
+protected the author's deliberate register — the partisan "interested witness"
+voice, "old Chiang," the vivid idioms and 对仗 set-pieces, the footnoted
+allusions, the one-line punches, quoted-document shapes, and the *tewu*
+italics. The Afterword (ch13) drew the most edits, being the author's own
+essay and the most translationese-dense unit. The rebuilt EPUB is still
+`out/chinas_secret_war.epub`; qa_epub PASS, epubcheck 5.1.0 clean (0/0/0/0).
+The per-batch record is in PROGRESS.md (R01–R04 entries), which also logs the
+source-dependent faithfulness items the blind readers raised (year-span and
+name-count discrepancies, a lost romanization collision, a "six/thirteen
+dynasties" question) for a corrections pass; a register pass could not resolve
+those without the scan. The book remains COMPLETE.
+
 ## Status at a glance
 
 - **14 of 14 units translated:** the Preface, Chapters 1 through 12, and the
