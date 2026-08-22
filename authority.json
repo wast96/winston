@@ -1,5 +1,5 @@
 {
- "_about": "Cross-book name authority for the whole translation shelf. Consult BEFORE romanizing anything in a new book; one rendering per referent ACROSS BOOKS unless a book records a deliberate deviation (e.g. a period-flavor style like Chungking/Peiping in a 1940s memoir) in its own glossary note. Feed every new book's decided renderings back in on completion. Entries carry every rendering observed on the shelf with the books that used it; status 'reconcile' marks a live cross-book disagreement (article-only differences excluded). Sources: the nine completed books, 2026-08.",
+ "_about": "Cross-book name authority for the whole translation shelf. Consult BEFORE romanizing anything in a new book; one rendering per referent ACROSS BOOKS unless a book records a deliberate deviation (e.g. a period-flavor style like Chungking/Peiping in a 1940s memoir) in its own glossary note. Feed every new book's decided renderings back in on completion. Entries carry every rendering observed on the shelf with the books that used it; status 'reconcile' marks a live cross-book disagreement (article-only differences excluded). Sources: the sword-roars and prior completed books, 2026-08.",
  "terms": {
   "万国公墓": {
    "renderings": {
@@ -48,6 +48,9 @@
     ],
     "Third Avenue": [
      "thousand-li"
+    ],
+    "Sanma Road": [
+     "the-sword-roars"
     ]
    },
    "category": "places",
@@ -59,7 +62,8 @@
     "Shanghai": [
      "huang-mulan",
      "on-a-hair-trigger",
-     "the-whistling-wind"
+     "the-whistling-wind",
+     "the-sword-roars"
     ]
    },
    "category": "places",
@@ -95,7 +99,8 @@
   "中国民权保障同盟": {
    "renderings": {
     "China League for the Protection of Civil Rights": [
-     "huang-mulan"
+     "huang-mulan",
+     "the-sword-roars"
     ],
     "the China League for Civil Rights": [
      "on-a-hair-trigger"
@@ -108,7 +113,8 @@
   "中央特科": {
    "renderings": {
     "the Central Special Branch": [
-     "gu-shunzhang"
+     "gu-shunzhang",
+     "the-sword-roars"
     ],
     "Central Special Branch": [
      "huang-mulan"
@@ -154,7 +160,8 @@
    "renderings": {
     "Yunnan Road": [
      "midnight",
-     "on-a-hair-trigger"
+     "on-a-hair-trigger",
+     "the-sword-roars"
     ]
    },
    "category": "places",
@@ -179,10 +186,13 @@
     "Wu Hao": [
      "huang-mulan",
      "on-a-hair-trigger"
+    ],
+    "Wuhao": [
+     "the-sword-roars"
     ]
    },
    "category": "terms",
-   "status": "agreed",
+   "status": "reconcile",
    "note": "An alias of Zhou Enlai, from his code name in the Awakening Society; the pivot of the fake &#8216;renunciation&#8217; notices and their rebuttal."
   },
   "俞济时": {
@@ -290,7 +300,8 @@
     "Feng Yuxiang": [
      "huang-mulan",
      "thousand-li",
-     "wang-yaqiao"
+     "wang-yaqiao",
+     "the-sword-roars"
     ]
    },
    "category": "people",
@@ -301,7 +312,8 @@
    "renderings": {
     "Feng Xuefeng": [
      "huang-mulan",
-     "thousand-li"
+     "thousand-li",
+     "the-sword-roars"
     ]
    },
    "category": "people",
@@ -326,7 +338,8 @@
     "North Sichuan Road": [
      "midnight",
      "the-whistling-wind",
-     "thousand-li"
+     "thousand-li",
+     "the-sword-roars"
     ]
    },
    "category": "places",
@@ -349,7 +362,8 @@
   "十九路军": {
    "renderings": {
     "Nineteenth Route Army": [
-     "huang-mulan"
+     "huang-mulan",
+     "the-sword-roars"
     ],
     "the Nineteenth Route Army": [
      "thousand-li"
@@ -420,7 +434,8 @@
    "renderings": {
     "Nanchang": [
      "juntong",
-     "midnight"
+     "midnight",
+     "the-sword-roars"
     ]
    },
    "category": "places",
@@ -454,7 +469,8 @@
    "renderings": {
     "Ye Ting": [
      "huang-mulan",
-     "juntong"
+     "juntong",
+     "the-sword-roars"
     ]
    },
    "category": "people",
@@ -488,7 +504,8 @@
    "renderings": {
     "Wu Tiecheng": [
      "huang-mulan",
-     "wang-yaqiao"
+     "wang-yaqiao",
+     "the-sword-roars"
     ]
    },
    "category": "people",
@@ -509,7 +526,8 @@
    "renderings": {
     "Zhou Enlai": [
      "huang-mulan",
-     "juntong"
+     "juntong",
+     "the-sword-roars"
     ]
    },
    "category": "people",
@@ -554,16 +572,20 @@
      "on-a-hair-trigger",
      "the-whistling-wind",
      "thousand-li"
+    ],
+    "Sima Road": [
+     "the-sword-roars"
     ]
    },
    "category": "places",
-   "status": "agreed",
+   "status": "reconcile",
    "note": "A busy, crowded Shanghai street (present-day Fuzhou Road), rendered by its old foreign-settlement name (Chapter 26)."
   },
   "国民党": {
    "renderings": {
     "Kuomintang": [
-     "huang-mulan"
+     "huang-mulan",
+     "the-sword-roars"
     ],
     "the Kuomintang": [
      "thousand-li"
@@ -627,7 +649,8 @@
    "renderings": {
     "the Great World": [
      "the-whistling-wind",
-     "wang-yaqiao"
+     "wang-yaqiao",
+     "the-sword-roars"
     ]
    },
    "category": "places",
@@ -676,7 +699,8 @@
     "Tianjin": [
      "huang-mulan",
      "midnight",
-     "the-whistling-wind"
+     "the-whistling-wind",
+     "the-sword-roars"
     ]
    },
    "category": "places",
@@ -707,7 +731,8 @@
   "孔祥熙": {
    "renderings": {
     "Kong Xiangxi": [
-     "huang-mulan"
+     "huang-mulan",
+     "the-sword-roars"
     ],
     "H. H. Kung": [
      "juntong"
@@ -723,7 +748,8 @@
      "huang-mulan",
      "midnight",
      "thousand-li",
-     "wang-yaqiao"
+     "wang-yaqiao",
+     "the-sword-roars"
     ]
    },
    "category": "people",
@@ -797,7 +823,8 @@
   "宋庆龄": {
    "renderings": {
     "Song Qingling": [
-     "huang-mulan"
+     "huang-mulan",
+     "the-sword-roars"
     ],
     "Soong Ching-ling": [
      "wang-yaqiao"
@@ -862,7 +889,8 @@
    "renderings": {
     "Guangdong": [
      "huang-mulan",
-     "midnight"
+     "midnight",
+     "the-sword-roars"
     ]
    },
    "category": "places",
@@ -873,7 +901,8 @@
    "renderings": {
     "Guangzhou": [
      "huang-mulan",
-     "midnight"
+     "midnight",
+     "the-sword-roars"
     ]
    },
    "category": "places",
@@ -882,7 +911,8 @@
   "庐山": {
    "renderings": {
     "Mount Lu": [
-     "huang-mulan"
+     "huang-mulan",
+     "the-sword-roars"
     ],
     "Lushan": [
      "wang-yaqiao"
@@ -896,7 +926,8 @@
    "renderings": {
     "Liao Zhongkai": [
      "huang-mulan",
-     "thousand-li"
+     "thousand-li",
+     "the-sword-roars"
     ]
    },
    "category": "people",
@@ -906,7 +937,8 @@
    "renderings": {
     "Liao Chengzhi": [
      "huang-mulan",
-     "juntong"
+     "juntong",
+     "the-sword-roars"
     ]
    },
    "category": "people",
@@ -916,7 +948,8 @@
   "延安": {
    "renderings": {
     "Yan'an": [
-     "huang-mulan"
+     "huang-mulan",
+     "the-sword-roars"
     ],
     "Yenan": [
      "juntong"
@@ -933,7 +966,8 @@
    "renderings": {
     "Zhang Guotao": [
      "huang-mulan",
-     "juntong"
+     "juntong",
+     "the-sword-roars"
     ]
    },
    "category": "people",
@@ -1001,7 +1035,8 @@
     "Yuyuan Road": [
      "on-a-hair-trigger",
      "the-whistling-wind",
-     "thousand-li"
+     "thousand-li",
+     "the-sword-roars"
     ]
    },
    "category": "places",
@@ -1013,7 +1048,8 @@
     "Gordon Road": [
      "on-a-hair-trigger",
      "the-whistling-wind",
-     "wang-yaqiao"
+     "wang-yaqiao",
+     "the-sword-roars"
     ]
    },
    "category": "places",
@@ -1024,7 +1060,8 @@
    "renderings": {
     "Dai Jitao": [
      "thousand-li",
-     "wang-yaqiao"
+     "wang-yaqiao",
+     "the-sword-roars"
     ]
    },
    "category": "people",
@@ -1059,7 +1096,8 @@
   "新华日报": {
    "renderings": {
     "Xinhua Daily": [
-     "huang-mulan"
+     "huang-mulan",
+     "the-sword-roars"
     ],
     "the New China Daily": [
      "juntong"
@@ -1151,7 +1189,8 @@
    "renderings": {
     "Zengjiayan": [
      "huang-mulan",
-     "juntong"
+     "juntong",
+     "the-sword-roars"
     ]
    },
    "category": "places",
@@ -1235,7 +1274,8 @@
      "huang-mulan",
      "juntong",
      "thousand-li",
-     "wang-yaqiao"
+     "wang-yaqiao",
+     "the-sword-roars"
     ]
    },
    "category": "people",
@@ -1246,7 +1286,8 @@
    "renderings": {
     "Yang Xingfo": [
      "huang-mulan",
-     "juntong"
+     "juntong",
+     "the-sword-roars"
     ]
    },
    "category": "people",
@@ -1260,7 +1301,8 @@
      "midnight",
      "on-a-hair-trigger",
      "the-whistling-wind",
-     "thousand-li"
+     "thousand-li",
+     "the-sword-roars"
     ]
    },
    "category": "places",
@@ -1270,7 +1312,8 @@
   "枫林桥": {
    "renderings": {
     "Fenglin Bridge": [
-     "thousand-li"
+     "thousand-li",
+     "the-sword-roars"
     ],
     "Maple Grove Bridge": [
      "wang-yaqiao"
@@ -1343,7 +1386,8 @@
     "Wuhan": [
      "huang-mulan",
      "midnight",
-     "thousand-li"
+     "thousand-li",
+     "the-sword-roars"
     ]
    },
    "category": "places",
@@ -1354,7 +1398,8 @@
     "Mao Zedong": [
      "huang-mulan",
      "on-a-hair-trigger",
-     "wang-yaqiao"
+     "wang-yaqiao",
+     "the-sword-roars"
     ]
    },
    "category": "people",
@@ -1398,7 +1443,8 @@
    "renderings": {
     "Jiangxi": [
      "huang-mulan",
-     "midnight"
+     "midnight",
+     "the-sword-roars"
     ]
    },
    "category": "places",
@@ -1410,7 +1456,8 @@
     "Wang Jingwei": [
      "huang-mulan",
      "on-a-hair-trigger",
-     "wang-yaqiao"
+     "wang-yaqiao",
+     "the-sword-roars"
     ]
    },
    "category": "people",
@@ -1487,7 +1534,8 @@
    "renderings": {
     "Zhejiang Road": [
      "midnight",
-     "thousand-li"
+     "thousand-li",
+     "the-sword-roars"
     ]
    },
    "category": "places",
@@ -1535,7 +1583,8 @@
    "renderings": {
     "Hunan": [
      "huang-mulan",
-     "midnight"
+     "midnight",
+     "the-sword-roars"
     ]
    },
    "category": "places",
@@ -1615,7 +1664,8 @@
    "renderings": {
     "Ruijin": [
      "huang-mulan",
-     "thousand-li"
+     "thousand-li",
+     "the-sword-roars"
     ]
    },
    "category": "places",
@@ -1636,7 +1686,8 @@
   "申报": {
    "renderings": {
     "the Shen Bao": [
-     "on-a-hair-trigger"
+     "on-a-hair-trigger",
+     "the-sword-roars"
     ],
     "Shen Bao": [
      "thousand-li"
@@ -1687,7 +1738,8 @@
    "renderings": {
     "Fujian": [
      "huang-mulan",
-     "midnight"
+     "midnight",
+     "the-sword-roars"
     ]
    },
    "category": "places",
@@ -1698,7 +1750,8 @@
    "renderings": {
     "Qin Bangxian": [
      "huang-mulan",
-     "thousand-li"
+     "thousand-li",
+     "the-sword-roars"
     ]
    },
    "category": "people",
@@ -1771,7 +1824,8 @@
      "on-a-hair-trigger",
      "the-whistling-wind",
      "thousand-li",
-     "wang-yaqiao"
+     "wang-yaqiao",
+     "the-sword-roars"
     ]
    },
    "category": "places",
@@ -1795,7 +1849,8 @@
    "renderings": {
     "Dong Biwu": [
      "huang-mulan",
-     "wang-yaqiao"
+     "wang-yaqiao",
+     "the-sword-roars"
     ]
    },
    "category": "people",
@@ -1807,7 +1862,8 @@
      "huang-mulan",
      "juntong",
      "thousand-li",
-     "wang-yaqiao"
+     "wang-yaqiao",
+     "the-sword-roars"
     ]
    },
    "category": "people",
@@ -1829,7 +1885,8 @@
    "renderings": {
     "Hongkou": [
      "midnight",
-     "the-whistling-wind"
+     "the-whistling-wind",
+     "the-sword-roars"
     ]
    },
    "category": "places",
@@ -1875,7 +1932,8 @@
    "renderings": {
     "He Long": [
      "huang-mulan",
-     "midnight"
+     "midnight",
+     "the-sword-roars"
     ]
    },
    "category": "people",
@@ -1886,7 +1944,8 @@
     "the Racecourse": [
      "midnight",
      "on-a-hair-trigger",
-     "the-whistling-wind"
+     "the-whistling-wind",
+     "the-sword-roars"
     ]
    },
    "category": "places",
@@ -1897,7 +1956,8 @@
    "renderings": {
     "Deng Yanda": [
      "huang-mulan",
-     "thousand-li"
+     "thousand-li",
+     "the-sword-roars"
     ]
    },
    "category": "people",
@@ -1918,7 +1978,8 @@
    "renderings": {
     "Guo Moruo": [
      "huang-mulan",
-     "juntong"
+     "juntong",
+     "the-sword-roars"
     ]
    },
    "category": "people",
@@ -1928,7 +1989,8 @@
    "renderings": {
     "Chongqing": [
      "huang-mulan",
-     "the-whistling-wind"
+     "the-whistling-wind",
+     "the-sword-roars"
     ],
     "Chungking": [
      "juntong"
@@ -2043,7 +2105,8 @@
    "renderings": {
     "Chen Duxiu": [
      "huang-mulan",
-     "juntong"
+     "juntong",
+     "the-sword-roars"
     ]
    },
    "category": "people",
@@ -2056,7 +2119,8 @@
      "huang-mulan",
      "juntong",
      "thousand-li",
-     "wang-yaqiao"
+     "wang-yaqiao",
+     "the-sword-roars"
     ]
    },
    "category": "people",
@@ -2067,7 +2131,8 @@
    "renderings": {
     "Chen Geng": [
      "huang-mulan",
-     "thousand-li"
+     "thousand-li",
+     "the-sword-roars"
     ]
    },
    "category": "people",
@@ -2081,7 +2146,8 @@
      "midnight",
      "on-a-hair-trigger",
      "the-whistling-wind",
-     "wang-yaqiao"
+     "wang-yaqiao",
+     "the-sword-roars"
     ]
    },
    "category": "places",
@@ -2095,7 +2161,8 @@
      "midnight",
      "the-whistling-wind",
      "thousand-li",
-     "wang-yaqiao"
+     "wang-yaqiao",
+     "the-sword-roars"
     ]
    },
    "category": "places",
@@ -2131,7 +2198,8 @@
     "Jing'an Temple": [
      "the-whistling-wind",
      "thousand-li",
-     "wang-yaqiao"
+     "wang-yaqiao",
+     "the-sword-roars"
     ]
    },
    "category": "places",
@@ -2145,7 +2213,8 @@
     ],
     "Bubbling Well Road": [
      "on-a-hair-trigger",
-     "the-whistling-wind"
+     "the-whistling-wind",
+     "the-sword-roars"
     ]
    },
    "category": "places",
@@ -2168,7 +2237,8 @@
     "Gu Shunzhang": [
      "huang-mulan",
      "juntong",
-     "on-a-hair-trigger"
+     "on-a-hair-trigger",
+     "the-sword-roars"
     ]
    },
    "category": "people",
@@ -2180,7 +2250,8 @@
     "Hong Kong": [
      "huang-mulan",
      "midnight",
-     "the-whistling-wind"
+     "the-whistling-wind",
+     "the-sword-roars"
     ]
    },
    "category": "places",
@@ -2205,6 +2276,9 @@
     ],
     "Massenet Road": [
      "thousand-li"
+    ],
+    "Rue Massenet": [
+     "the-sword-roars"
     ]
    },
    "category": "places",
@@ -2215,7 +2289,8 @@
    "renderings": {
     "Lu Xun": [
      "the-whistling-wind",
-     "thousand-li"
+     "thousand-li",
+     "the-sword-roars"
     ]
    },
    "category": "people",
@@ -2261,7 +2336,8 @@
      "on-a-hair-trigger"
     ],
     "the Huangpu River": [
-     "thousand-li"
+     "thousand-li",
+     "the-sword-roars"
     ]
    },
    "category": "places",
@@ -2272,7 +2348,8 @@
    "renderings": {
     "Huang Jinrong": [
      "huang-mulan",
-     "wang-yaqiao"
+     "wang-yaqiao",
+     "the-sword-roars"
     ]
    },
    "category": "people",
@@ -2283,7 +2360,8 @@
    "renderings": {
     "Longhua": [
      "huang-mulan",
-     "thousand-li"
+     "thousand-li",
+     "the-sword-roars"
     ]
    },
    "category": "places",

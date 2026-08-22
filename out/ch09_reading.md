@@ -160,7 +160,7 @@ Tang Hongqiang was Wang Dingnan's wife. The "cadre who came from the Center (Sha
 
 Huang Mulan says that after Xiang Zhongfa's arrest and defection, Zhou Enlai "at once notified Li Fuchun, Cai Chang, and other Central figures, arranging to move to the Metropole Hotel and lie low for a time." "Around eleven that night, these leaders, all in Western suits, playing the part of big business bosses, strolled openly into the French-run Metropole Hotel without rousing the least suspicion." (Huang Mulan, 2012)
 
-In step with Huang Mulan is Mu Xin. Mu Xin says that after Zhou Enlai "destroyed some confidential documents kept at home," he "moved with Deng Yingchao into the foreign-run Metropole Hotel on Fourth Avenue (at the corner of today's Fuzhou Road and Jiangxi Road)." (Mu Xin, 2013)
+In step with Huang Mulan is Mu Xin. Mu Xin says that after Zhou Enlai "destroyed some confidential documents kept at home," he "moved with Deng Yingchao into the foreign-run Metropole Hotel on Sima Road (at the corner of today's Fuzhou Road and Jiangxi Road)." (Mu Xin, 2013)
 
 But Zhou Huinian says that in those days Zhou Enlai stayed at her home.
 

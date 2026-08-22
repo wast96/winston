@@ -2,6 +2,77 @@
 
 The running per-batch log. Written as we go.
 
+## B18 — FINAL: front & back matter, reconciliation, completion (2026-08-22)
+
+**THE BOOK IS COMPLETE.** 18/18 units built; qa_epub PASS; epubcheck 5.1.0
+0/0/0/0. Deliverable `out/sword-roars.epub` committed. Full report in
+`COMPLETION.md`; term ledger `out/term_ledger.md`; deep audit `out/deep_audit.md`.
+
+- **Branch.** Harness started on stray `claude/fervent-cannon-grzuhd` (same
+  commit as origin/canonical, no remote ref). Consolidated onto
+  `claude/the-sword-roars`; stray deleted local (no remote to delete).
+- **Preface (ch00)**, "History Must Not Be Made a Monster", PDF 6-10 (own
+  roman-numeral folios i-v; pp 11-15 are the TOC, handled by the generated
+  Contents). 24 paragraphs, 15 notes. Hand-transcribed off data/png. Checks:
+  parity 24=24; numbers 0 unresolved (noise: 双百, 老百姓 — 百 carries no count);
+  content/entities clean; register within tolerance of ch01; apparatus clean.
+- **Works Cited (ch16)**, 参考文献, PDF 338-347. Rendered as its own reading
+  unit `out/ch16_reading.md` (bibliography, so NOT added to content_config or
+  parity-checked). 178 entries in three groups (Books / Periodicals /
+  Newspapers), each an English rendering with the Chinese original following;
+  transcribed entry by entry off the page images. Every work cited in the
+  notes resolves here (the June 3 1932 Comintern report, the August First
+  Declaration, Xia Yan's Lazily Seeking Old Dreams, the 中共特工 1996 book the
+  Preface derides, the author's own Unsolved Cases of the Republic, Wakeman's
+  Policing Shanghai, Byron and Pack's Claws of the Dragon, Ma Haide on Song
+  Qingling, Chen Bangben 2004, Sun Shipu 1995, and the rest).
+- **Afterword (ch17)**, "守住清贫，耐住寂寞 / Keep to Poverty, Endure the Silence",
+  PDF 348-350 (folios 333-335). 18 paragraphs, 5 notes. Hand-transcribed; the
+  dense genealogical acknowledgements list (children and grandchildren of the
+  Special Branch figures) read name by name off the scan. Six new glossary
+  people rows (Yang Tianshi, Mao Zemin, Zhang Dingcheng, Li Maotang, Shi
+  Zhongquan, Wang Zhengming), verified absent from other reading files first.
+  Checks: parity 18=18; numbers 0 unresolved (noise: 千变万化, 一不买二不看,
+  两无声); content 67 name occurrences all placed; entities 0 misses; register
+  within tolerance.
+- **Reconciliation sweep** (check_reconcile, then targeted fixes):
+  - "Soong Ching-ling" -> **Song Qingling** in notes.json (the one outlier;
+    T.V. Soong / Soong Ai-ling / Soong Mei-ling keep their conventional forms).
+  - "Dapu" already clean; **Dabu** stands (confirmed by the 大埔 Works Cited
+    entry).
+  - ch01 Yang Du note **1875 -> 1874** (the B13/B14 open item, now closed).
+  - ch09 para 163 "Fourth Avenue" -> **Sima Road** for 四马路.
+  - **Title italics unified book-wide.** ch10-ch13 had rendered book/film/
+    periodical titles PLAIN; scripted them to italic (`*...*`) to match
+    ch01/08/09/14/15 and the STYLE rule. Four note anchors that quoted a title
+    were updated in the same pass (China Weekly Review, Red Flag Weekly,
+    Independent Critic, L'Impartial). check_apparatus stays clean.
+  - **Spelling locale:** "Grand Theatre" -> **Grand Theater** (notes.json +
+    glossary). The three "China Defence League" instances KEEP the British
+    spelling (the organization's own name); this is a deliberate proper-name
+    exception, recorded so it is not "fixed" later.
+  - **Latent caption double-escape bug FIXED (do not revert).** The builder
+    passes figure captions and alt text through html.escape, which
+    double-escapes numeric character references; captions in ch02/ch13/ch14
+    held `&#8217;`/`&#8220;`/`&#8212;` and would have rendered the literal
+    entity text. Fixed at the DATA layer: 16 caption/alt fields converted to
+    plain ASCII quotes (which the render layer's typographize() curls) and
+    literal em/en dashes. Verified in the built EPUB (figcaption shows curly
+    quotes, no `&amp;#`). Do not put numeric entities back into captions/alt.
+  - epithet drift 0; 1123/1140 decided forms present (the unused remainder are
+    note-only terms or short-form variants, all legitimate per the kickoff).
+- **Cover.** `data/figs/cover.png` (1000x1425 RGB PNG, the source's front-cover
+  painting) present; embedded byte-identical in the EPUB (cmp confirmed).
+- **Completion artifacts.** `scripts/make_ledger.py` (new) renders
+  `out/term_ledger.md` (1140 rows: people 757, orgs 115, places 227, terms 41).
+  `out/deep_audit.md` written (fixed seed 1837, 5% = 101 paragraphs).
+  `authority.json` updated with this book's decided renderings (slug appended
+  to 66 existing renderings; 4 new; 2 newly flagged `reconcile` for a later
+  shelf pass: 三马路 Sanma Road, 四马路 Sima Road, 伍豪 Wuhao, 马斯南路 Rue
+  Massenet). `book.json` gained `"build_complete": true`.
+- **Totals after B18:** 425 notes, 77 figures, 1140 glossary rows, 2015 body
+  paragraphs across 18 units.
+
 ## B17 — Chapter Fifteen "最后的努力 / The Last Effort" (ch15)
 
 - **Scope.** PDF 324-337, printed 309-322. THE BOOK'S LAST BODY CHAPTER (ch16 Works

@@ -337,3 +337,17 @@
 俞三元
 # Mizuban Saburo (水番三郎), Pan Hannian's ship alias — rendered "Mizuban Saburo"
 水番三郎
+#
+# --- B18 (ch00 Preface) block: name/idiom numerals ---
+# the "Double Hundred" honorees (双百人物) — a campaign name, 百 carries no count
+双百
+# laobaixing / the common people (老百姓) — 百 carries no count
+老百姓
+#
+# --- B18 (ch17 Afterword) block: idiom numerals ---
+# 千变万化 "a thousand changes" (endlessly variable) — idiom, not a count
+千变万化
+# 一不买二不看 "won't buy it, won't read it" — enumerative 一/二, not counts
+一不买二不看
+# 心摧两无声 / 两无声 "both fall silent" — 两 = "both", not a counted group
+两无声
