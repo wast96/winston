@@ -1,0 +1,87 @@
+<!-- blind voice-gate critique | unit=ch08 | round=1 | reader was context-blind (no source, no STYLE, no project) -->
+
+Findings on Chapter 8, in reading order. Quote / problem / fix.
+
+- "a case broke that shook the heavens" (¶2) — calqued hyperbole (惊天动地). "a stunning case broke."
+- "The curriculum chilled the blood." — calque, melodramatic. "The curriculum was chilling."
+- "political detection ... seizing-and-grappling ... the lore of the haidi" — wooden calques. "political surveillance"; "unarmed combat / close-quarters grappling."
+- "you surrendered your personal freedom to the discipline of the body" / "the body is the family" — "the body" = the organization (团体). "the discipline of the organization" / "the group is your family."
+- "Juntong's 'house style' was anti-Communism" — odd calque for ethos. "Juntong's whole ethos was anti-Communism."
+- "He feigned a willing heart and studied hard" — translationese (假意). "He faked enthusiasm and studied hard."
+- "even reported to his instructor that he had come precisely to work against the Communists, so if he went back now he could still say he had failed his entrance exams and returned—but any longer and the story would not hold." — overstacked run-on, muddled logic, mid-sentence dash-gloss. Split.
+- "carried on his secret-ink correspondence with Xi'an, and Zhang Linghan, disguised as a cloth peddler, carried it" — "carried ... carried" echo. second verb → "delivered it."
+- "and Wu Nanshan's heart settled" — calque (心里踏实). "and Wu Nanshan felt reassured."
+- "headed off its mischief effectively" — "mischief" too light for sabotage. "effectively thwarted it."
+- "was riding high within Juntong" — modern-idiom register clash. "stood high in Juntong's favor."
+- "at his home town of Wenzhou" — preposition. "in his home town of Wenzhou."
+- "and its staff was strong" — calque (阵容强大). "and it was heavily staffed."
+- "Beyond the moral rousing, Dai Li had cash rewards too" — clumsy nominalization. "Beyond the exhortations, there were cash rewards too."
+- "live so the heavens shake and die a hero's death" — calque (轰轰烈烈). "live gloriously and die a hero."
+- "set his mind on making something of himself against the Party Center" — "against" confusing. "set his mind on scoring a coup against the Party Center."
+- "could not act as a body" — awkward. "could not act in concert."
+- "so each liaison could learn the situation of the agents lying in wait" — translationese (了解情况). "learn about the agents lying in wait."
+- "for now it would not do to startle the snake in the grass" — calque idiom (打草惊蛇). "it would not do to tip him off" (or keep literal with a note).
+- "keep Qi Sanyi under inside surveillance and Tu Zhankui under outside surveillance" — parallel implies Tu is watched; actually Tu does the outside watch. "watch Qi Sanyi from within and have Tu Zhankui watch from without."
+- "only his repeated pressing of Wu Nanshan for when he could arrange the papers" — clumsy nominalization. "only his repeatedly pressing Wu Nanshan to arrange the papers for Yan'an."
+- "one could not help but suspect the Nationalists meant to work some great sabotage" — wrong verb. "carry out some major act of sabotage."
+- "The short of it was that" — incomplete idiom. "In short," / "The long and short of it was."
+- "this could not but command the closest attention" — fake-formal (不能不). "was bound to command the closest attention."
+- "put ... Bu Lu ... and others on cracking the case with all their strength" — awkward. "set ... to work cracking the case with all their strength."
+- "judged it a rather important one" — "rather" undersells 相当. "judged it quite a significant one."
+- "the wavering and deceived were to be met with one blow and one pull" — opaque calque (一打一拉); giant semicolon pile-up. Gloss ("pressure and persuasion together") and break up.
+- "'high-grade special-intelligence blitz competition'" — "blitz competition" odd for 突击竞赛. "crash intelligence drive."
+- "judged the case one of real reach, a great case" — doubled/flat apposition. "judged it a case of real reach."
+- "had not only intelligence but a sabotage side" — parallel mismatch. "covered not only intelligence but sabotage."
+- "none minding only its own patch" — awkward idiom. "none working in isolation."
+- "the thing must be pursued to the bottom" — calque (追到底). "pursued to the end."
+- "now that the leadership had spoken, in principle and in detail both" — trailing "both" inversion. "both in principle and in detail."
+- "the agents in Yang Chao's hands were duly reported through to Qi Sanyi—turning up Fan Jinzhong..." — "reported through to" awkward; dangling "turning up." "...were passed to Qi Sanyi, which turned up Fan Jinzhong..."
+- "every one of them had a tangled heart" — calque (心事重重). "each of them was troubled."
+- "the real, genuine article" — doubled synonym (真正). "the genuine article."
+- "I set out to paint a tiger and made a cur" (poem) — opaque for 画虎类犬. "meant to paint a tiger and drew a dog."
+- "once back in Yan'an was persuaded ... to give himself up, and gave up Yang Chengzhang" — "give himself up / gave up" pun-echo. "to turn himself in, and he then informed on Yang Chengzhang."
+- "were all within the Border Security's field of watch" — coinage. "were all under the Border Security's watch."
+- "where Bu Lu and Li Qiming worked him over" / "Under the assault of policy on his mind" — "worked him over" implies a beating (contradicts stated no-torture); "assault of policy on his mind" calque (政治攻心). "worked on him" / "Worn down by their persistent policy work."
+- Same ¶: "persuade ... persuasion failed ... persuade ... persuade" — five near-repetitions. Vary: talk round, win over, bring over.
+- "filing into the ground with a party of men" — "into the ground" reads like burial. "filing onto the parade ground."
+- "How to storm this last stronghold without letting the thing leak out?" — "the thing" vague. "without letting word leak out."
+- "Making use of the liaisons could not identify every hidden agent" — dangling gerund. "The liaisons could not identify every hidden agent."
+- "the man surnamed Hu was of student stock" — "stock" implies lineage. "had a student background."
+- "nowhere was there this man surnamed Hu" — stilted inversion. "but there was no such man."
+- "the three, Hu Yaonan, Yang Xiaowei, and Xia Bingshu, had come together" — awkward (走到一起). "three of his classmates ... had grown close."
+- "leaving Wang Jun a good impression" — wrong direction. "making a good impression on Wang Jun."
+- "pose a vast threat to the Border Region's security" — collocation off. "a grave threat."
+- "cracked entire" — archaic. "cracked in full."
+- "a vast victory for Yan'an's counter-espionage work" — off. "a huge / resounding victory."
+- "Five men were now out of control, one after another" — 失控 misreads as behaving wildly. "Five men had now slipped the net, one after another."
+- "Who could put them to living use?" — calque (用活). "Who could put them to active use?"
+- "The high stroke ... lay in 'counter-use'" — not idiomatic (高招). "The masterstroke."
+- "in reverse, have him reconnoiter the enemy's own intelligence for us" — you don't reconnoiter intelligence. "turn him to gather intelligence on the enemy for us."
+- "From which one may say that the brilliance ... lay precisely in this 'counter-use.'" — near-verbatim repeat of the masterstroke sentence; and "From which one may say" stilted. Cut or merge.
+- "a thing dangerous in the extreme and hard in the extreme" — doubled "in the extreme." "extraordinarily dangerous and difficult."
+- "How to dare take the political risk and give men a free hand?" — ungrammatical as a question. "How could they dare take the risk and give men a free hand?" (recurs across the five "How to..." headings — recast each.)
+- "Cast the mind back to the purges" — fake-formal. "Recall the purges."
+- "could a security cadre help fearing it would fix a political label on him?" — "help fearing" awkward. "could a security cadre help fearing he'd be tarred with a political label?"
+- "might this not be a performance of the self-injury ruse?" — opaque calque (苦肉计). "might it not be the old self-inflicted-wound stratagem?"
+- "this eatery ... was that day booked out entire, no outside guests admitted" — "eatery" clashes; "booked out entire" ungrammatical. "the restaurant was booked out entirely that day."
+- "The honor of it exceeded any ceremony the Security Office had ever given new recruits" — honor-vs-ceremony mismatch. "It was a greater honor than the Security Office had ever shown new recruits."
+- "meaning to muddle Cheng Muyi's mind" — awkward (扰乱). "meaning to sow confusion in Cheng Muyi's mind."
+- "Zhao Xiu only turned the more listless" — archaic inversion. "grew only more listless."
+- "he dissolved besides the Northwest Station's subordinate groups" — misplaced "besides." "he also dissolved the Northwest Station's subordinate groups."
+- "moved heaven and earth" (memorial) — calque again (惊天动地); third instance of this hyperbole family. "stirred all who heard them."
+- "Dai Li turned around and issued a nationwide wanted order" — "turned around and" modern filler. "Dai Li then issued a nationwide wanted order."
+- "the exact opposite, for the first time he confessed his past, Ma Wenrui affirmed to his face that he had been deceived" — comma-splice run-on; muddled. "the exact opposite: the very first time he confessed his past, Ma Wenrui told him to his face that he had been deceived."
+- "was what worked at the root" — calque (起根本作用). "was what made the fundamental difference."
+- "kept their grievances shut in their bellies" — calque (憋在肚子里). "kept their grievances bottled up."
+- "the Border Security was skilled at the Party's security policy" — collocation off. "well versed in the Party's security policy."
+- "far beyond still the 55 captured" — inversion. "and further still beyond the 55 captured."
+- "the Communists' greatest counter-espionage fruit of the War of Resistance" — "fruit" for 成果 recurring calque. "the Communists' greatest counter-espionage success."
+- "If to call it 'China's first...' is not yet sure, to call it 'Yan'an's first...' is beyond dispute" — "is not yet sure" awkward predicate. "If calling it 'China's first great counter-espionage case' is uncertain, calling it 'Yan'an's first' is beyond dispute."
+- "Who would have thought that a Juntong case cracked in 1942 would reach all the way into the 1960s." — rhetorical question set with a period. End with "?"
+
+Recurring patterns worth a single global pass:
+- 惊天动地 hyperbole: "shook the heavens" (¶2), "A Case to Shake the Heavens!" (§3 heading), "moved heaven and earth" (memorial). Pick one tone.
+- "could not but / cannot help but / could not help" stilted formality repeatedly. Prune.
+- "come/came face to face with" recurs. Vary the second.
+- "vast" mis-collocated with threat/victory. grave/huge.
+- The five section-heading rhetorical questions all begin "How to..." — none is grammatical as a standalone question; recast each.
