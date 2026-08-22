@@ -1925,3 +1925,114 @@ registers, so the flag is left standing by design.
 **For R03-R04:** R01+R02 diffs are the exemplar; match the restraint. The
 REVISED out/ch01_reading.md remains the register reference. No new STYLE.local
 rules were needed this batch.
+
+## R03 — voice/register pass, batch 3 of 4 (2026-08-22)
+
+**Scope:** ch06 + ch07 + ch08, per REVISION_PLAN §5. The three heaviest
+question-mark units (qst 29/31/29 at calibration). English-to-English
+re-voicing, content FROZEN (every NEW preserves its OLD's propositional
+content; no fact/name/number/date/claim changed, no paragraph merged or split,
+no name re-romanized, no note added or removed). One commit per unit; all
+pushed. R01's committed diff read first as the exemplar for depth and
+restraint. Blind context-free critique run per unit (archived
+review/voice_gate/chNN_round1).
+
+**The R03 priority, the docent question:** converted the self-answering
+rhetorical questions and the intrusive second-person quizzes; kept the genuine
+ones. What was KEPT as genuine (not docent narration): free-indirect
+reveal/incredulity fragments ("A 'double agent'?", "A devil who was a good
+man?", "Yang Hongchao subverting Zhou Chongde?"), investigative and interior
+questions ("did it mean a whole nest of agents lay hidden there?", "did the
+Communists truly trust me?"), the section cliffhangers ("would the Communists
+of Longdong take him in?", "Were there still Hanzhong agents lying in wait?"),
+the North?/South? analytic toggles, the ventriloquized taunts and quoted
+popular cries, and the chapter-frame hooks and codas (ch06's opening "Was
+there... any country...? / There was: China." and its closing coda; ch07's
+"Could an agent's heart... be turned toward the Communists too?"). ch08's five
+"How to X?" problem-headers were genuine open problems but ungrammatical as
+questions, so they were made grammatical ("How could they X?"), not flattened.
+
+**Edits applied (edits/<id>_edits.md + apply_edits.py):**
+- ch06: 35 edits over ~350 paragraphs. Eleven docent questions converted; four
+  "reconnoiter intelligence" miscollocations fixed (the correct intransitive
+  "reconnoiter on the spot" kept); three fronted-object/dangling inversions;
+  two de-nominalizations; three litotes/could-not-but calques; an Englished
+  source date-code ("six-two-two" to June 22); a garbled reported command; an
+  unintended pun ("this time it took"). Two authorial exclamations kept (only
+  two in 17k words, within budget).
+- ch07: 36 edits over ~230 paragraphs. Docent questions and second-person
+  quizzes converted, a mixed second/third-person double-agent passage made
+  consistent; the one question carrying a figure `before` anchor left to avoid
+  a figures.json move. Authorial reveal-bangs rationed (11 exclamations to 3,
+  all quoted/ventriloquized). Calques, a number-disagreement, a false-praise
+  reading ("great men" to "prominent men" for collaborators), and an illogic
+  ("a disaster passed from mouth to mouth") fixed.
+- ch08: 50 edits over ~190 paragraphs (the most wooden baseline of the batch).
+  Docent questions converted; the five "How to X?" problem-headers made
+  grammatical; the section-heading bang dropped and the 惊天动地 hyperbole
+  grounded (exclamations to zero). A run of clear calque-errors fixed: 失控
+  misread ("out of control"), a dangling gerund, a comma-splice, "worked him
+  over" (which wrongly implied the torture the chapter elsewhere forbids),
+  "eatery ... booked out entire", the wooden curriculum calques ("political
+  detection", "seizing-and-grappling"), several mis-collocations.
+
+**Note correction (ch07, corrupt-glyph, not a content change):** the note on
+"the Anti-Traitor Department" carried two OCR-corrupt hanzi, the glyphs for
+chujian and hanjian printed as 锂奶 and 汉奇; corrected to 除奸 and 汉奸,
+verifiable from the romanizations the note itself gives. Done directly in
+notes.json (not via apply_edits), the note's meaning unchanged. The blind
+reader also flagged the "Ma Xiwu (马锡武) / documented 马锡五, the same
+romanization" note as confusing; it is in fact correct (武 and 五 both romanize
+wu) and was LEFT.
+
+**Exit checklist (REVISION_PLAN §8):**
+- [x] every edited unit: apply_edits clean, build + qa_epub PASS (all three).
+- [x] anchor_check run BEFORE apply, per unit; no collisions, no anchor moves
+  needed. One would-be figure collision (ch07 "If even renegades could be
+  used, what taboos were left") was avoided by LEAVING that question
+  unconverted. Book-wide note total unchanged at 251; all anchors placed.
+  Reproducibility re-checked: every OLD in all three edit files occurs exactly
+  once in the committed pre-pass file (35/36/50 OLDs, 0 fail).
+- [x] tic batteries re-run; near-zero batteries stayed near zero. Residual
+  hits are deliberate keeps: "the founding of the state" (idiomatic), the
+  deductive/idiomatic "could only be for"/"could only wait" and the acceptable
+  "cannot help growing suspicious", the object-position "praised the cracking
+  of the case", the genuine relative clause "the others he had met in
+  Shanghai", the one kept authorial bang in ch06, the quoted popular
+  exclamations in ch07, and the quoted-document >90-word sentences.
+- [x] OLD/NEW propositional spot-check: every NEW re-read against its OLD via
+  the committed diff; all content-preserving (numbers, names, dates, claims
+  intact). No contractions added inside quoted documents or formal-by-design
+  speakers.
+- [x] KEEP-list grep over the batch diff: quoted documents, slogans, and Dai
+  Li's exhortation kept unwooden but uncontracted; partisan terms kept (汉奸/
+  傀儡/我党); the 对仗 and allusion set-pieces intact; *tewu*-class italics and
+  the "lore of the *haidi*" note anchor untouched.
+- [x] blind critiques archived under review/voice_gate/ (ch06/ch07/ch08
+  round1), each from a context-blind subagent (no source, no STYLE, no
+  glossary).
+- [x] one commit per unit, pushed; EPUB rebuilt each; epubcheck 0/0/0/0 at
+  batch end.
+
+**check_register (informational, ref = REVISED ch01):** ch06 4.2/1k (2.06x,
+healthy dialogue rate), ch07 0.9/1k and ch08 0.0 (both little-dialogue, noisy
+by §2, judged on narration by ear and reading modern-neutral); em-dash rates
+4.2 to 4.5/1k, within tolerance; the tool reports "register within tolerance
+of the reference."
+
+**Logged for the corrections/R04 sweeps (out of scope for a register pass):**
+- ch07: the "certain He"/"the certain Xiao" withheld-name renderings (某何/某萧)
+  are consistent but read as legalese; a corrections-pass call on whether to
+  give them tags. The pervasive-tic motifs ("intricate and profound",
+  "tangled", "burrow/worm into") were left as thematic (tied to the chapter's
+  title concept) except where an outright error; R04 reconciliation may want a
+  light thinning pass.
+- ch08: the quoted slogan "the body is the family" (团体是家庭) renders 团体 as
+  "the body," defensible as a collective body and kept as a quoted slogan; flag
+  for a corrections-pass check against the source. The "fruit" (成果) rendering
+  survives in the Principal-Sources apparatus (body instances fixed to
+  "success"); a reconciliation-sweep item.
+
+**For R04:** R01+R02+R03 diffs are the exemplar; match the restraint. The
+REVISED out/ch01_reading.md remains the register reference. No new STYLE.local
+rules were needed this batch.

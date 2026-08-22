@@ -3,19 +3,41 @@
 ## Message to paste into the next chat
 
 ```
-China's Secret War R03 (register pass)
+China's Secret War R04 (register pass, final)
 
 Read CLAUDE.md, then HANDOFF.md, then REVISION_PLAN.md, then STYLE.md and
 STYLE.local.md. Run ./setup.sh. Branch claude/chinas-secret-war only.
 
-Do revision batch R03 = ch06 + ch07 + ch08 per REVISION_PLAN.md §5. Read the
-R01 diff first as the exemplar. These are the heaviest question-mark units:
-convert the docent questions, keep the real ones (interrogation scenes ask
-real questions). Content frozen; anchor_check before every apply; blind
-critique per unit; one commit per unit; build + qa_epub each; do not pause
-for approval. Deliver the EPUB in chat and paste the R04 kickoff from
-REVISION_PLAN.md §9.
+Do revision batch R04 = ch10 + ch11 + ch12 + ch13 per REVISION_PLAN.md §5
+(read the R01 diff first), THEN the closing sweep per §7: apparatus checks
+(§6), whole-book tic regression, check_register table, epubcheck, CHANGELOG
+entry, COMPLETION.md addendum, and rewrite HANDOFF.md to post-pass state
+(remove the kickoff section so the Stop hook stands down). Content frozen;
+anchor_check before every apply; blind critique per unit; one commit per
+unit. Deliver the final EPUB in chat with a summary of the whole pass
+(edits per unit, classes, anything left for a corrections pass).
 ```
+
+## R03 DONE (register pass, batch 3 of 4) — 2026-08-22
+
+R03 = ch06 + ch07 + ch08 complete, one commit per unit, all pushed to
+claude/chinas-secret-war (35/36/50 edits). These were the three heaviest
+question-mark units; the docent questions were converted and the genuine ones
+kept (free-indirect reveals, investigative and interior questions, section
+cliffhangers, ventriloquized/quoted cries, the chapter-frame hooks). ch08's
+five ungrammatical "How to X?" problem-headers were made grammatical rather
+than flattened. Content frozen; R01's diff stayed the exemplar and the
+restraint held (most paragraphs LEFT). Authorial reveal-bangs rationed
+(ch07 11 exclamations to 3, ch08 to 0). epubcheck 0/0/0/0 at batch end;
+check_register within tolerance. See PROGRESS.md "R03" for the full exit
+checklist and the items logged for the corrections/R04 sweeps.
+
+ONE-OFF CORRECTION MADE IN R03 (not register work): two OCR-corrupt hanzi in
+the ch07 note on "the Anti-Traitor Department" were fixed in notes.json,
+锂奶/汉奇 -> 除奸/汉奸 (the note's own romanizations chujian/hanjian confirm
+the intended characters). Meaning unchanged; logged here so R04's apparatus
+sweep does not re-flag it. Next: R04, the FINAL batch (kickoff above), which
+also runs the whole-book closing sweep per REVISION_PLAN §7.
 
 ## R02 DONE (register pass, batch 2 of 4) — 2026-08-22
 
