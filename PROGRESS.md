@@ -1413,3 +1413,61 @@ batches.
 - Snapshotted `out/ch01_reading.pre-R.md` (34450 bytes, identical to a8dda4c)
   as the frozen register reference for check_register through R2-R5.
 - `pgrep -c tesseract` == 0 after every OCR run.
+
+## R1 (register revision) — Tier A globals + ch15 exemplar (2026-08-22)
+
+Batch R1 complete. Edits only via edits/<id>_edits.md + apply_edits.py (dates
+scripted by scripts/recovery/gen_date_edits.py); Politburo done as a global
+cascade per CLAUDE.md. Content frozen; no paragraph merged/split; no facts or
+hedges changed.
+
+### Tier A globals
+- **Dates:** all 95 day-month dates -> month-day (ch00-ch05, ch09-ch12); 0
+  day-month dates remain book-wide. 5 NOTE-ANCHOR pairs (ch00, ch02 x3, ch12)
+  and 3 figures.json `before` anchors (ch01, ch02, ch11) re-synced to the
+  post-edit prose. House style matched: "Month DD, YYYY," mid-sentence.
+- **Politburo:** 政治局/中央政治局 -> "the Politburo" book-wide (51 reading-file
+  hits + 3 note bodies), the redundant "Central" dropped to match ch19-ch20's
+  existing form; "Politburos" plural and "Politburo Standing Committee" handled.
+  Recorded in glossary.json (organizations: 中央政治局, 政治局) and authority.json
+  (中央政治局 -> the Politburo [zhou-enlai]).
+- **Ledger residuals:** "in good time" -> "in time/promptly" at 14 narration
+  sites (ch03 x2, ch04, ch07 x2, ch09 x3, ch11, ch12, ch16, ch17, ch18, ch23);
+  ch07 "driving into the heart of the enemy" -> "planted inside the heart of
+  the enemy" (打入). The only surviving "in good time" are ch15's three, all in
+  quoted testimony (see below).
+
+### ch15 exemplar (the R2-R5 calibration target)
+Full aligned zh-en read of all 75 paragraphs; 12 narration edits (litotes
+calques "no little/no small" x5, trailing "besides" x1, "given to startling
+acts", redundant "in his lifetime", 只好/"could only", a calqued "one after
+another", "besides"->"apart from", de-inverted "broke free at last of"). 63
+paragraphs left untouched — restraint is the point.
+
+**Surviving tics, all defended aloud:**
+- "Before long" x5 (不久/其后): defensible modern English, not antique ("ere
+  long"); one is inside Feng Yuxiang's quote.
+- connective "besides X" x6 + "Besides, ..." sentence-initial: modern usage;
+  two are inside quotes (Liu Ding, Liu Qizhen/Chen Yangshan).
+- litotes "no little work" (Wang Ruofei quote) + "no small quarter" (来头不小
+  idiom, quote-marked): KEEP-list (quoted / idiom).
+- "one after another" (¶4): inside the Yang Xianzhen memorial inscription.
+- "in good time" x3 (及时): all inside quoted testimony (Pan Hannian's report,
+  Chen Yangshan's essay) — KEEP-list (quoted documents untouched).
+KEPT untouched throughout: the memorial inscription (¶3-5), the Mao and Zhou
+letters, the Edgar Snow / Feng Yuxiang / Liu Ding / Pan Hannian / Liu Qizhen /
+Chen Yangshan / Li Yimang quotes. No narration sentence > 90 words (no spine
+split).
+
+### QC
+- verify_unit green on all edited good-parity units; the only NUMBERS "fails"
+  are the three PINNED zh regen artifacts (ch04 pair 37, ch15 pair 36, ch16
+  pair 2) — en correct. ch01/ch03 (pinned parity limits) anchors 0 broken.
+- check_apparatus clean; typography clean (no curly quotes; pre-existing
+  quotation-abridgment ellipses unchanged).
+- Build: 28/28 chapters, 339 notes, 496 pagebreaks. qa_epub PASS. epubcheck
+  5.1.0: 0 errors, 0 warnings.
+- **10% spot-audit (15 edited paragraphs across all classes) vs source: zero
+  meaning drift.** Digits preserved on every date; 打进/钻进心脏 -> "planted
+  inside"; 及时 -> "in time"; 颇有威望 -> "considerable standing"; 只好 -> "had
+  no choice but to"; 政治局 -> "the Politburo". All faithful.

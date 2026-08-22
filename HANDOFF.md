@@ -2,19 +2,40 @@
 
 ## Message to paste into the next chat
 
-The book is COMPLETE (see below); what follows next is the REGISTER REVISION
-pass planned in `REVISION_PLAN.md` (2026-08-22, five batches R1-R5). Where
-that plan and this handoff disagree, the plan wins. The R1 kickoff:
+The book is COMPLETE; the REGISTER REVISION pass (`REVISION_PLAN.md`, five
+batches R1-R5) is under way. **R1 is DONE** (Tier A globals: 95 dates
+normalized, Politburo cascaded, ledger residuals fixed; ch15 exemplar applied
+as the calibration target; build/qa/epubcheck clean; see PROGRESS.md and
+CHANGELOG.md). Where the plan and this handoff disagree, the plan wins. Next is
+R2. The R2 kickoff:
 
 ```
-Zhou Enlai R1 (revision)
+Zhou Enlai R2 (revision)
 
-Read CLAUDE.md, then REVISION_PLAN.md (it governs this pass; where HANDOFF.md disagrees, the plan wins), then STYLE.md and review/REGISTER_PASS_ASSESSMENT.md. All work on branch claude/zhou-enlai only; if the session starts on a stray branch, fold it per CLAUDE.md rule 2. Content is FROZEN: English-surface edits at flagged sites only, no paragraph merged or split, no facts or hedges changed, edits only via edits/<id>_edits.md + scripts/apply_edits.py.
+Read CLAUDE.md, then REVISION_PLAN.md (it governs; where HANDOFF.md disagrees, the plan wins), then STYLE.md. Branch claude/zhou-enlai only; fold any stray branch per CLAUDE.md rule 2. Content FROZEN; edits only via edits/<id>_edits.md + scripts/apply_edits.py. Before editing, read the committed R1 exemplar diff for ch15: every edit list in this batch must match its restraint.
 
-Do batch R1 end to end per REVISION_PLAN.md section 7: (a) setup.sh; regenerate data/zh for all 28 units per scripts/recovery/README.md and replay apply_fixes.py; verify_unit green on ALL units before any edit; pin known-benign warnings in the plan's section 2; snapshot out/ch01_reading.pre-R.md; (b) Tier A globals: normalize the 95 day-month dates to month-day, cascade the Politburo decision (plan section 3.2; default "the Politburo", record in glossary.json and authority.json), fix the "in good time" and "driving into" ledger residuals; (c) the ch15 exemplar: full tic sweep plus aligned zh-en read plus spine test, per plan sections 3-5; (d) rebuild, qa_epub, epubcheck, 10% spot-audit, PROGRESS and CHANGELOG entries, commit, push.
+Do batch R2 = tic sweep of ch00-ch08 per REVISION_PLAN.md sections 3-5: register_tics.sh plus the section 3.2 greps per unit, source consulted at every non-mechanical site, LEAVE/TOUCH/RECAST verdicts, spine test on the flagged long sentences, KEEP list respected (quoted documents and memoirs untouched). ch01 carries 28 note anchors; pair every broken anchor in the same edit list, and run check_register against out/ch01_reading.pre-R.md. If data/zh is missing (fresh container), regenerate per scripts/recovery/README.md and verify_unit green before editing.
 
-Do not pause for approval mid-batch. Cite printed folios in any new note text. Never invent bridging text. End the batch with the rebuilt EPUB attached in chat AND the R2 kickoff from REVISION_PLAN.md section 9 pasted verbatim in a fenced block.
+Per unit: apply, verify_unit, re-run tics, defend survivors in PROGRESS.md. Then rebuild, qa_epub (epubcheck if installed), 10% spot-audit (min 10), CHANGELOG, commit, push. Do not pause for approval. End with the rebuilt EPUB attached in chat AND the R3 kickoff from REVISION_PLAN.md section 9 pasted verbatim in a fenced block.
 ```
+
+### R1 carry-forward for R2 (ch00-ch08)
+- **data/zh parity limits (pinned, plan section 2):** ch01 (zh 32 vs en 38, 6
+  OCR welds; §3 ambiguous, not force-split) and ch03 (zh 38 vs en 37, p83
+  photo displacement) are NOT reproducible under this container's tesseract
+  5.3.4. ch00 and ch02 were recovered (b01_surgery.py; b02_surgery.py made
+  skip-and-warn). For ch01/ch03 use the zh-independent guard set (apply_edits +
+  notes.json anchor grep + builder anchor refusal + direct number/typography
+  grep + check_register). ch04 has one benign zh number artifact (pair 37).
+- **check_register ref:** always `out/ch01_reading.pre-R.md` (ch01 is being
+  edited; do not use its live state as the ref).
+- **Already edited in R1 within the ch00-ch08 range** (do not re-do): all dates
+  in ch00-ch05; Politburo in ch00,ch01,ch02,ch04; "in good time" in ch03,ch04,
+  ch07; ch07 "driving into"->"planted inside". R2 is the TIER B tic sweep on
+  top of these.
+- **Anchor discipline lesson from R1:** date/term edits can break BOTH
+  notes.json anchors (handle via NOTE-ANCHOR in the edit list) AND figures.json
+  `before` anchors (the builder refuses; fix figures.json by hand). Check both.
 
 ## THE BOOK IS COMPLETE
 

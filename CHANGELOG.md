@@ -2,6 +2,24 @@
 
 Dated record of what changed and, for global corrections, what cascaded where.
 
+## 2026-08-22 — R1 register pass: Tier A globals + ch15 exemplar
+Reading text edited via edits/<id>_edits.md + apply_edits.py; Politburo via a
+global cascade (CLAUDE.md). Content frozen (no para merged/split, no facts or
+hedges changed).
+- **Dates:** 95 day-month dates -> month-day (ch00-ch05, ch09-ch12). Cascaded
+  to 5 note anchors (ch00, ch02 x3, ch12) and 3 figures.json `before` anchors
+  (ch01, ch02, ch11).
+- **Politburo:** 政治局/中央政治局 -> "the Politburo" book-wide (51 reading + 3
+  note bodies); recorded in glossary.json and authority.json.
+- **Ledger residuals:** "in good time" -> "in time/promptly" (14 narration
+  sites); ch07 "driving into the heart of the enemy" -> "planted inside..."
+  (打入). Three quoted "in good time" in ch15 kept (quoted testimony).
+- **ch15 exemplar:** 12 narration edits (litotes calques, trailing "besides",
+  "given to startling acts", "in his lifetime", 只好, a calqued "one after
+  another"); quoted material untouched; the R2-R5 calibration target.
+- Build 28/28, 339 notes, 496 pagebreaks; qa_epub PASS; epubcheck 5.1.0 clean;
+  10% spot-audit (15 paras) vs source: zero meaning drift.
+
 ## 2026-08-22 — R1 pre-flight: data/zh regeneration + recovery tooling (no reading text changed)
 - Regenerated `data/zh/` for all 28 units; verify_unit GREEN on 26/28.
 - TOOLING (do not revert): added `scripts/recovery/b01_surgery.py` (ch00
