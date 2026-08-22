@@ -120,6 +120,11 @@
 # 第二天 "the next day/morning" (a next-day reference, not a counted quantity);
 # real term-day counts (限期第一天/第二天) are carried as "first/second" in English.
 第二天
+# Elided-tens myriad range 五、六十万 "five or six hundred thousand" (ch41): 五十万、
+# 六十万 telescoped; the shorter 五、六十 rule below would strip 五、六十 and orphan
+# the 万 as 10000, so this longer form must precede it (longest-first). English
+# carries "five or six hundred thousand."
+五、六十万
 # Elided-tens approximation 五、六十(步) "fifty or sixty (paces)": the leading 五
 # stands for 五十, and the 六十 carries the range; English "fifty or sixty".
 五、六十
@@ -982,3 +987,25 @@
 # Idiom 接二连三 "one after another, in quick succession" (ch40): the 二 (2) and 三 (3)
 # are part of the set phrase, not the counts 2 and 3.
 接二连三
+# Idiom 社会百态 "the myriad forms of society" (ch41): the 百 (100) is part of the
+# set phrase (all manner of scenes), not the count 100.
+百态
+# Counter-by-naming 大三轮 "motor-tricycle" (ch41): the 三 (3) names the three-wheeled
+# vehicle, not a count (rendered "motor-tricycle").
+大三轮
+# Place-name numeral 四明山 "the Siming Mountains" (ch41): the 四 (4) is part of the
+# mountain's proper name, not a count.
+四明山
+# Place-name numeral 百顺胡同 "Baishun Lane" (ch41): the 百 (100) is part of the lane's
+# proper name, not a count.
+百顺胡同
+# Regnal-year date with 〇 glitch 一四〇六 "1406" (ch41, Ming Yongle 4): the source
+# prints the year with 〇 (U+3007), which the checker cannot read as a digit-string;
+# the real value 1406 is carried in English.
+一四〇六
+# Regnal-year date with 〇 glitch 一四二〇 "1420" (ch41, Ming Yongle 18): as above; the
+# real value 1420 is carried in English.
+一四二〇
+# Periodical issue-number with 〇 glitch 三〇三 "no. 303" (ch41, Biographical Literature
+# issue 303): the 〇 (U+3007) breaks the digit-read; the real value 303 is in English.
+三〇三

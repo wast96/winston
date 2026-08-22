@@ -1006,6 +1006,45 @@ UNITS = {
         "glued": {}, "glued_head": {},
         "standalone": [17, 31, 71, 127],
     },
+    "ch41": {
+        "file": "42_index-split-000-0040.txt",
+        "title": "第九章 痛定思痛 来者可追",
+        # drop=2: running header 英雄无名-陈恭澍 + <h2> chapter title. Confirmed
+        # byte-exact p-by-p against the source XHTML: 1 <h2> + 4 <h3> (the four
+        # section headings 一、/二、/三、/四、) + 200 <p>, ZERO mismatches; no
+        # <h1>, no <br/>, no <img>, no [\d+] note markers, 0 images. The file
+        # has NO trailing newline, so it is 206 lines (wc -l counts 205
+        # newlines); after drop=2 the txt has 204 body lines = 4 <h3> heading
+        # lines (raw 1-based L8/L40/L100/L171) + 200 <p>. The four <h3> are
+        # their OWN elements -> standalone (### ), not glued. NO
+        # source-duplication artifact (near-duplicate scan found nothing >0.6;
+        # no heading text fused mid-<p>).
+        # NO severed-<p> boundaries. Every body line ends on a terminal glyph
+        # (no non-terminal enders). All ！/？/》-ending candidates are complete
+        # terminal sentences, NOT mid-predicate severs (verified each ending's
+        # next line begins a new sentence, e.g. L22 噢！, L25 韶光流转的好快呵！,
+        # L85 妄想！, L104 假定为四与一吧？, L142 过太平日子吧！, L170 也写不完呵！,
+        # L181 生命与前途！). NO glitch-masked severs.
+        # INNER enumerations stay as BODY lines per parity: section 3 (三、围城
+        # 期间...) carries a numbered run-in topic list 一/二/三/四/五/六/七
+        # (L104 一、一般市况与日常生活 fused after the intro colon; L113 二、金圆券
+        # 和通行货币; L122 三、城内抢修飞机场 fused mid-line after item 二's tail;
+        # L134 四、当铺开门营业; L138 五、炮声隆隆居民不惊; L145 六、市集庙会多半
+        # 如常; L150 七、事理之外与人情之常) -- each is body text, rendered with an
+        # arabic run-in number the checker reads. Section 2 (二、余痛犹在...)
+        # carries unnumbered thematic run-in labels (L62 以军事为主的天津攻防战,
+        # L87 失去存在价値塘沽弃守, L91 围困下的心战政战与统战) and a glitched
+        # defense-zone roster (L56-L59: 凵/口 for 一/二, （。1/（）2 for the two
+        # sub-zones), all body lines. Section 4 carries 其一/其二 sub-points
+        # (L178/L179). Judged by function, not by leading numeral.
+        # Digitization glitches (rendered to plain sense, listed in PROGRESS):
+        # see PROGRESS.md B34 glitch list. All rendered to plain sense; only
+        # genuine reading uncertainty footnoted.
+        "drop": 2,
+        "merges": [],
+        "glued": {}, "glued_head": {},
+        "standalone": [8, 40, 100, 171],
+    },
 }
 
 

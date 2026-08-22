@@ -4007,3 +4007,132 @@ Miaofeng temple-fair reverie and the aborted transfer to the North China Bandit-
 - Name variant (NOT a glitch): 王紫斌 = 王智斌 Wang Zhibin ("also named," L25); 齐枕萍 (L17+) = 齐枕平 of
   ch33/ch35, one man (Qi Zhenping). 侯飞霞 = the courtesy name of 侯腾 Hou Teng (L169, one man).
 - Redaction: xx公司 (L110, a redacted company name) kept as "XX Company."
+
+## Batch B34 - ch41 (第九章 痛定思痛 来者可追), the NINTH Part-Four narrative chapter
+
+"Chapter 9. Reflecting on Past Pain, the Future Still to Redeem" - the brigade's move south
+(Beiping -> Tanggu by ship -> Shanghai -> Shaoxing -> Ningbo -> Xiamen -> Penghu, its
+dissolution, Wang Hongzhu's account of the sea passage and the funeral-parlor billet in Shanghai);
+the fall of Beiping and Tianjin (Fu Zuoyi's fatal irresolution, the severing of the Beiping-Tianjin
+railway, the defense-zone order of battle, the month-long defense of Tianjin and Chen Changjie's
+capture, the sea withdrawal from Tanggu, the peace-movement and Fu's surrender through Deng Baoshan);
+the besieged-city street scenes of Chen's Beiping (a numbered topic-list: market and daily life,
+the currency, the airfields inside the city incl. the Temple of Heaven, the pawnshops, the guns and
+the unafraid townsfolk, the markets and temple fairs, the Eight Great Lanes, and a walk across the
+whole city); and the final flight out with Zheng Jiemin (the booklet of stay-behind personnel,
+the classmate's parting pistol, and Deng Baoshan's no-show at the plane).
+
+- **Structure (CONFIRMED byte-exact p-by-p vs index_split_000_0040.xhtml):** 1 <h2> + 4 <h3>
+  (section heads 一/二/三/四 at RAW 1-based L8/L40/L100/L171) + 200 <p>; NO <h1>, <br/>, <img>,
+  or [\d+] note markers; 0 images. drop=2. Raw txt = 206 lines (no trailing newline; wc -l 205);
+  206 - 2 = 204 body = 4 h3 + 200 p. clean_batch.py spec: drop=2, merges=[], glued/glued_head={},
+  standalone=[8,40,100,171]. Source conserved OK. data/zh/ch41.txt = 205 lines (1 title + 4 heads
+  + 200 body).
+- **NO severed-<p> boundaries** (every body line ends terminal; all ！/？/》-enders verified complete
+  sentences whose next line begins anew - L22 噢！, L25 好快呵！, L85 妄想！, L104 四与一吧？, L142
+  太平日子吧！, L170 也写不完呵！, L181 生命与前途！). NO glitch-masked severs.
+- **Inner enumerations kept as BODY lines per parity** (judged by function): section 3 carries a
+  numbered run-in topic-list 一/二/三/四/五/六/七/八 (L104 一、一般市况 fused after the intro colon;
+  L113 二、金圆券; L122 三、城内抢修飞机场 fused mid-line after item 二's tail; L134 四、当铺; L138 五、
+  炮声; L145 六、市集庙会; L150 七、事理之外; L159 八、走遍全城 fused mid-line), rendered with arabic
+  run-in numbers (1)-(8). Item 八 carries sub-items glitched 工/口/曰 for 一/二/三 (L160/L163/L165)
+  plus a real 四 (L168), rendered (1)-(4). Section 2 carries unnumbered thematic run-in labels (L62
+  以军事为主的天津攻防战, L87 失去存在价値塘沽弃守, L91 围困下的心战政战与统战) and a glitched
+  defense-zone roster (L56-L59: 凵/口 for 一/二, （。1/（）2 for the two sub-zones). Section 4 carries
+  其一/其二 sub-points (L178/L179).
+- **⚠ ch36-class SOURCE-DUPLICATION artifact (ONE, minor):** at L5 (pair 4, the "文件中" document
+  excerpt) a running-header/TOC fragment 内容提要第九章痛定思痛来者可追 is fused MID-WORD, splitting
+  大军作战 into 大军作[...]战. Rendered to plain sense (restored "In large-army warfare"; the injection
+  dropped as a mechanical artifact, NOT footnoted). Near-duplicate scan otherwise found nothing >0.6;
+  no whole-paragraph duplication.
+
+### Checks (all green)
+- **verify_unit ch41:** parity 200/200 pairs; numbers 0 unresolved (with data/noise.txt auto-found);
+  anchors 9 ok.
+- **check_align ch41:** 200 source / 200 translation, median ratio 5.37 en/han (in the ch33-ch40
+  band); no pair strays >2.2x from median.
+- **check_structure (41 units):** ALL STRUCTURAL CHECKS PASS; parity 200/200; anchors 361 notes,
+  0 unresolved; headings OK.
+- **check_content (41 units):** ch41 = 196 name occurrences, 1 DISPLACED = the NEW documented
+  keyed-substring FALSE POSITIVE 河内/Hanoi (河内 = the place Haiphong... no: 河内 Hanoi keyed; here it
+  is the substring of 护城河|内墙 "the moat's inner wall" at pair 60). Translation correctly renders
+  "moat's inner wall," no Hanoi; translation stands. All other units unchanged (pre-existing ch08 x3,
+  ch09 x1, ch13 x9, ch26 x2, ch38 海防/Haiphong x1).
+- **qc_entities (reconstructed bilingual):** 1 miss = the same 河内/Hanoi false positive. Census: 北平
+  x78, 天津 x40, 傅作义 x26, 塘沽 x17, 林彪 x12, 邓宝珊 x7, 张家口 x4, 陈长捷 x4, 绍兴 x3, 汪鸿翥 x3,
+  安春山 x3, 孙兰峰 x3. 绥靖 rendered the noun "pacification" (not the verb); 侯镜如 Hou Jingru clean.
+- **check_register --ref reference/B01_frozen.md:** within tolerance (contr 0.0, shall 40% [the
+  deliberate narrating "shall," informational], em-dash 6.9/1k vs ref 8.3, rhythm CV 0.60 = ref).
+- **Tail verified** against source (pairs 194-200, the Deng-Baoshan-no-show ending): faithful, no
+  fabrication.
+- **qa_epub:** PASS (43 documents, 5931 paragraphs; 361 note refs / 361 bodies / 361 backlinks; 57
+  files, all links resolve). **epubcheck 5.1.0:** 0 fatals / 0 errors / 0 warnings / 0 infos.
+- **EPUB now 41/43 chapters, 361 notes.**
+
+### Notes (9 new; 361 cumulative) - first-appearance, NOT re-noted
+1. **the Beiping copper-cash system** (铜子儿/大枚/毛票/官钱局) - the tangled subsidiary coinage under
+   the silver dollar (the dollar and gold-yuan already noted ch06/ch40).
+2. **the Donglaishun** (东来顺) and instant-boiled mutton (涮锅子) - Beijing's famous Hui mutton house.
+3. **the Temple of Heaven / Altar of Land and Grain error** - Chen conflates 天坛 and 社稷坛 (two
+   different sites); factual correction, source error stays visible.
+4. **Hademen** (哈德门/崇文门) - the folk etymology (a foreign general of 1900) vs the actual Yuan-era
+   origin; Chen's own self-correction, citing 传记文学.
+5. **mixed-grain flour** (杂合面) - poverty staple of coarse grains.
+6. **the Eight Great Lanes** (八大胡同) - old Beijing's licensed pleasure quarter near Qianmen; the
+   three grades incl. 清吟小班.
+7. **the five-colored flag / white-sun flag** (五色旗 / 青天白日满地红) - the two national flags and
+   the regime succession (Duan Qirui already noted ch07).
+8. **John Leighton Stuart** (司徒雷登) - the US Ambassador; Yenching University; 傅泾波 his secretary.
+9. **drawing the firewood from under the cauldron** (釜底抽薪) - the proverb / Thirty-Six Stratagems.
+
+### Glossary - B34 (3 net-new keyed rows, all people, provisional)
+- **邓宝珊 Deng Baoshan** - deputy commander-in-chief of the North China Bandit-Suppression HQ, Fu
+  Zuoyi's secret negotiating rep, and (proved afterward) the broker of Fu's surrender; the no-show at
+  Zheng Jiemin's plane. GRADUATED from inline (rendered "Deng Baoshan" once in ch36).
+- **陈长捷 Chen Changjie** - Tianjin garrison commander; refused the break-out to Tanggu, fought a
+  month, taken alive.
+- **侯镜如 Hou Jingru** - commander of the 17th Army Group; carried out the Tanggu sea withdrawal.
+- Kept INLINE (glossary-key discipline): the defense-zone roster commanders 周北峰/李文/骆振韶/袁朴/
+  黄翔/李士林/林伟俦/刘云瀚/王治熙/段沄/朱致一; the Qi-Qingbin sub-story kin 张树德/张廷谔/江韵清/江灏/
+  江振寰 (rendered as in ch06/ch35: Jiang Yunqing/Jiang Hao/Jiang Zhenhuan); the peace-movement
+  name-list 张荫梧/许惠东/何思源/吕复/康同璧/刘鸿瑞/郭树棠; comrades 邹仪/魏宁/林立/毛一鹭/冯志俊;
+  one-mention 傅泾波 Fu Jingbo, 司徒雷登 John Leighton Stuart, 李秋生 Li Qiusheng. Places inline:
+  上海/绍兴/宁波/厦门/海澄/漳州/澎湖/青岛/太原/大同/杨村/豆张庄/喜峰口/山海关/冷口/唐山/芦台/军粮城/
+  张贵庄 and the Beiping gates/landmarks (崇文门/宣武门/天坛/东来顺 etc.). 张垣 -> "Zhangyuan" inline
+  (whole-book reconciliation item; ch08 renders it Zhangjiakou). 西直门 Xizhimen keyed (from B33).
+
+### data/noise.txt - B34 additions (8)
+- **五、六十万** (elided-tens myriad range "500,000-600,000"; placed BEFORE the shorter 五、六十 rule,
+  which would strip 五、六十 and orphan the 万 as 10000 - longest-first).
+- **社会百态 -> 百态** (idiom "the myriad forms of society"; 百 = 100 part of the set phrase).
+- **大三轮** (counter-by-naming "motor-tricycle"; the 三 names the three-wheeled vehicle. NOT bare
+  三轮, which occurs in ch22's 二三轮).
+- **四明山** (place-name numeral "the Siming Mountains"; the 四 part of the name).
+- **百顺胡同** (place-name numeral "Baishun Lane"; the 百 part of the name).
+- **一四〇六 / 一四二〇** (Ming Yongle regnal-year dates 1406 / 1420 printed with 〇 (U+3007); the
+  checker cannot read the digit-string - real values carried in English).
+- **三〇三** (Biographical Literature issue no. 303 printed with 〇; real value in English).
+- All REAL quantities carried as DIGITS/words: 180,000 (Beiping zone) / 150,000 (Tanggu zone) /
+  36,000 (Tanggu withdrawal) / 5,000,000 residents / a million (besiegers) / 1,700 & 1,600 m (Temple
+  of Heaven perimeter) / 380 & 1,000-odd blockhouses / 9:35 (departure) etc.; ROC years 36-40 by
+  ordinal or +1911.
+
+### Digitization glitches (rendered to plain sense; none footnoted - mechanical)
+- **ch36-class TOC injection** (see above): 内容提要第九章痛定思痛来者可追 fused mid-word in 大军作战 (L5).
+- Stray glyphs for a dash / colon / closing 」: ︸ at head of L28 (万万想不到); | for a dash in
+  失去存在价値塘沽弃守| (L87), c|47 (L124, = C-47), 四、当铺开门营业| (L134); |‖ in 一、一般市况...|‖
+  (L104); ‖ in 有答案‖ (L156); the roster/list markers 凵/口 for 一/二 (L57/L58) and （。1/（）2 for the
+  two sub-zones (L58/L59), 工/口/曰 for 一/二/三 in the item-八 sub-list (L160/L163/L165).
+- ！ standing for a closing 」: 接受﹃改编！ (L98), 东单夜市！。 (L146), 与共匪有勾结！ (L200).
+- Single-char substitutions rendered to sense: 匪车 for 匪军 (L92, "bandit army"); 一雨天 for 一两天
+  (L53, "a day or two"); 李秋生先生天作 for 大作 (L164, "esteemed article"); 摸不着头，脑 stray 、 in
+  头脑 (L198).
+- Dittography: 毛一一鹭 for 毛一鹭 Mao Yilu (L184).
+- ○/〇 (U+25CB / U+3007) redaction/code/date artifacts (real value in English, mis-read glyph noised):
+  〇七六〇部队 (unit code 0760, L53); 一〇一军/二〇五师/二〇八师 (unit numbers, L27/L56); 一四〇六/一四二〇
+  (Ming years, L127); 三〇三期 (issue no., L164).
+- × redaction: 陈xx (a redacted personal name in Zhu Zhankui's loudspeaker call, L53) rendered "Chen
+  so-and-so."
+- Doubled/stray punctuation: 目前；，(L147). Mismatched guillemets ﹁﹂﹃﹄ pervasive (rendered to sense).
+- Name variants (NOT glitches): 邓某 = 邓宝珊 Deng Baoshan; 玉林兄 = 李玉林 Li Yulin; 原深兄 = 刘原深 Liu
+  Yuanshen; 鲁颖兄 = 张鲁颖 Zhang Luying; 介民先生 = 郑介民 Zheng Jiemin; 老齐 = 齐庆斌 Qi Qingbin.
