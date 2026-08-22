@@ -16,11 +16,11 @@ The account above is a conclusion we worked out from the mutual corroboration of
 
 Our working guideline was drawn up precisely against this conclusion.
 
-Still, the “Beiping Station” was not large in scale, and what it could do, as it bore upon the larger situation, was in proportion very limited; besides “intelligence gathering,” listed as our basic task, we added a further line of work, “boring in and drawing out.” By “boring in” is meant finding a way, contriving a means, to get inside the seditious organizations that were plotting mischief; “drawing out” is to move those engaged in seditious activity to turn from their evil and come back to the right road, to return from a road once lost.
+Still, the Beiping Station was not large in scale, and what it could do, as it bore upon the larger situation, was in proportion very limited; besides “intelligence gathering,” listed as our basic task, we added a further line of work, “boring in and drawing out.” By “boring in” is meant finding a way, contriving a means, to get inside the seditious organizations that were plotting mischief; “drawing out” is to move those engaged in seditious activity to turn from their evil and come back to the right road, to return from a road once lost.
 
-This task the “Beiping Station” assigned to Qi Nanpu. In Qi Nanpu's work report he mentioned that he set about it first by joining the secret societies. At that time the Beiping Branch of the Military Affairs Commission had issued orders to all the military, police, and gendarmerie organs within its jurisdiction to enforce precautionary measures—strict guarding against troublemaking by petty criminals, the banning of assemblies and marches, and the like. Little though we understood, this much was enough to reflect how uneasy and unsettled the times were.
+This task the Beiping Station assigned to Qi Nanpu. In Qi Nanpu's work report he mentioned that he set about it first by joining the secret societies. At that time the Beiping Branch of the Military Affairs Commission had issued orders to all the military, police, and gendarmerie organs within its jurisdiction to enforce precautionary measures—strict guarding against troublemaking by petty criminals, the banning of assemblies and marches, and the like. Little though we understood, this much was enough to reflect how uneasy and unsettled the times were.
 
-At this juncture the head of the “Tianjin Station,” Wang Tianmu, who went under the cover name Zheng Shisong, moved his whole household to live in Beiping so that his daughter might attend school, and so our chances of contact with him grew more frequent than before. Once we were all well acquainted, we changed our address for him and called him “Elder Brother Wang.”
+At this juncture the head of the Tianjin Station, Wang Tianmu, who went under the cover name Zheng Shisong, moved his whole household to live in Beiping so that his daughter might attend school, and so our chances of contact with him grew more frequent than before. Once we were all well acquainted, we changed our address for him and called him “Elder Brother Wang.”
 
 During his time in Beiping he often found the time to instruct us. He once said: “A man in secret-service work need not be a specialist, but he must be an all-rounder. For in the course of the work he must often place himself amid all sorts of different surroundings; must come into contact with persons of every different station; and will meet with all manner of different mishaps. So he must be widely informed and rich in common knowledge, that he may adapt to each turn as it comes and meet every case with ease.”
 
@@ -100,9 +100,9 @@ As Elder Brother Wang came out, he drew out two ten-dollar notes and laid them o
 
 The style of Feilong's place, set beside Hanchun's, was a good deal poorer.
 
-My mind was a bellyful of cares; I could scarcely wait to leave at once, and had no patience even to sit and drink a mouthful of tea. But Elder Brother Wang had his plan well formed; he pulled me down to sit and said: “I have a way; only keep your nerve.”
+My mind was a bellyful of cares; I could scarcely wait to leave at once, and had no patience even to sit and drink a mouthful of tea. But Elder Brother Wang had his plan well formed; he pulled me down to sit and said: “I've got a way; only keep your nerve.”
 
-Elder Brother Wang turned again to Feilong: “We should like to ask you out for a bite to eat, and see you back once we've done; what do you say?” For all that Feilong spoke soft and limp, she answered crisply enough; she said in the Beiping dialect: “Good—I'll go with you anywhere, what of it? Only wait a moment for me, gentlemen, while I tell my mother and throw on a cloak; I'll be right along.” Elder Brother Wang, with Hanchun standing there, feared she would feel slighted, and had to smooth it over, saying this was all to bring us two together, and that he would surely come another day to show his support.
+Elder Brother Wang turned again to Feilong: “We'd like to take you out for a bite to eat, and see you back once we're done—what do you say?” For all that Feilong spoke soft and limp, she answered crisply enough; she said in the Beiping dialect: “Good—I'll go with you anywhere, what of it? Only wait a moment for me, gentlemen, while I tell my mother and throw on a cloak; I'll be right along.” Elder Brother Wang, with Hanchun standing there, feared she would feel slighted, and had to smooth it over, saying this was all to bring us two together, and that he would surely come another day to show his support.
 
 By now it was already twelve, deep in the night; out on the road beyond the lane there were still one or two little Jiangsu-Zhejiang eating-houses that catered to the late-supper trade, their lamps still bright, doors open and not yet shut. We ordered a few things at random, unable to fathom what fine scheme Elder Brother Wang was hatching.
 
@@ -112,11 +112,11 @@ And he said to me: “I mean to make a trip there right now; if by chance I can 
 
 What views could I have? Had I been sent to take a room, I would not even have known how to walk in at the door of the Grand Hôtel des Wagons-Lits, let alone go probing for anything.
 
-Then Elder Brother Wang set out his concrete plan more fully: “It is not that your elder brother lacks self-respect—and you mustn't take it amiss—but it would be best if Miss Feilong here would put herself out and, quite openly, come along with me. Think: a single man at this hour taking a room without luggage is bound to draw suspicion; but a man and a woman—that is far, far better.”
+Then Elder Brother Wang set out his concrete plan more fully: “It's not that your elder brother has no self-respect—and don't take it amiss—but it'd be best if Miss Feilong here would put herself out and come along with me, quite openly. Think: a single man at this hour taking a room without luggage is bound to draw suspicion; but a man and a woman—that's far, far better.”
 
-At this Elder Brother Wang turned to Feilong again: “Just now Hanchun would not agree to come out, and there was nothing I could do; now I ask you to lend a hand this once. Afterward you will know what a deed of hidden merit it was!”
+At this Elder Brother Wang turned to Feilong again: “Just now Hanchun wouldn't come out, and there was nothing I could do; now I'm asking you to lend a hand this once. Later you'll know what a deed of hidden merit it was!”
 
-And pointing at me he said to Feilong: “He is my younger brother, and you shall be my younger sister-in-law; your elder brother here would never do a thing to wrong a friend—you have only to come along with me this once. As for whatever rules you have, you say how it is to be done and I'll do just that.”
+And pointing at me he said to Feilong: “He's my younger brother, and you'll be my younger sister-in-law; your elder brother here would never do a friend wrong—you've only to come along with me this once. As for whatever rules you have, you tell me how it's done and I'll do just that.”
 
 Feilong looked at me, hesitated a while, and asked me, her face reddening: “And what do you say?” “I say do as our elder brother says; every word of his is the plain truth.” Feilong signaled her assent, only she must have a word with her mother.
 
@@ -126,9 +126,9 @@ The hour was late and there was no delaying further, so Elder Brother Wang took 
 
 Brother Shiwei and I said nothing for a good while. I was reckoning how I might be of use, and meaning as well to send first thing in the morning for brother Qi Nanpu, to talk it over and arrange the many things that would need doing.
 
-Brother Shiwei sat alone in a chair, smoking hard, neither sleeping nor speaking. When he had made up his mind, he rose all at once and asked me: “Brother Gongshu, tell me—would it be well for me to be the one to do it?”
+Brother Shiwei sat alone in a chair, smoking hard, neither sleeping nor speaking. When he had made up his mind, he rose all at once and asked me: “Brother Gongshu, tell me—should I be the one to do it?”
 
-I too was fretting over just this. For the “Beiping Station” had as yet no action-work section, and all told there were but three of us—Yang Ying, Old Qi, and I; Wang Yunsun, newly come to the work, handled the paperwork and naturally could not manage such a thing; brother Shiwei dealt with intelligence material, and I had never thought to set him to action work. Our closeness came of getting on well together and finding each other good company, so that we often went out and came in together, with nothing else behind it. Had I asked him on my own initiative, it would have squared with neither feeling nor reason, and had there been the least reluctance it would have been more awkward still. Now that brother Shiwei had volunteered of himself, it was of course the very thing I could have wished.
+I too was fretting over just this. For the Beiping Station had as yet no action-work section, and all told there were but three of us—Yang Ying, Old Qi, and I; Wang Yunsun, newly come to the work, handled the paperwork and naturally could not manage such a thing; brother Shiwei dealt with intelligence material, and I had never thought to set him to action work. Our closeness came of getting on well together and finding each other good company, so that we often went out and came in together, with nothing else behind it. Had I asked him on my own initiative, it would have squared with neither feeling nor reason, and had there been the least reluctance it would have been more awkward still. Now that brother Shiwei had volunteered of himself, it was of course the very thing I could have wished.
 
 I said: “Good—the very best.” I wanted to find a fitting word or two more to show what was in my heart, but I truly did not know how best to put it.
 
@@ -136,13 +136,13 @@ Bai Shiwei, courtesy name Zilian, was a Shandong man, long since settled in Beip
 
 When brother Shiwei joined the work, we had just gathered a batch of material on the Northeastern Army and the volunteer forces beyond the passes, and we asked him to help put it in order for the time being, to be assigned other suitable work later.
 
-Now, with this chance come up all of a sudden, I naturally hoped our “Beiping Station” might show what it could do—the more so as the matter bore upon the larger situation. That brother Shiwei feared no hardship or danger and dared to press bravely to the fore was, win or lose, our glory.
+Now, with this chance come up all of a sudden, I naturally hoped our Beiping Station might show what it could do—the more so as the matter bore upon the larger situation. That brother Shiwei feared no hardship or danger and dared to press bravely to the fore was, win or lose, our glory.
 
 What with our tangled feelings and our over-excitement, Shiwei and I never slept easy that night.
 
 Before seven the next morning I telephoned and asked brother Nanpu over. When we met, I gave him in brief the matter Mr. Zheng had charged us with the night before, and asked him at the same time to make a solid reconnaissance of Zhang Jingyao's movements as fast as he could.
 
-I knew that at the west end of the Legation Quarter—that is, entering the Quarter's west mouth from Hubu Street and turning left—there stood a row of three-story houses, among them an apartment-style hotel that, in grade, could rank no higher than second-rate; on my judgment, it was most unlikely Zhang would put up in such a place. Still, to avoid regret afterward, one ought to go and see for certain. I put this notion to brother Nanpu.
+I knew that at the west end of the Legation Quarter—that is, entering the Quarter's west mouth from Hubu Street and turning left—there stood a row of three-story houses, among them an apartment-style hotel that, in grade, could rank no higher than second-rate; on my judgment, it was most unlikely Zhang would put up in such a place. Still, to avoid regret afterward, we ought to go and see for certain. I put this notion to brother Nanpu.
 
 Another matter, also urgent, was to have brother Nanpu find the driver Mr. Dai had hired for his car, get the car out of the repair shop, and give it a trial run—it might come in useful.
 
@@ -162,9 +162,9 @@ Brother Tianmu added that, since in the hours from deep night to morning ordinar
 
 What brother Tianmu thought most troublesome was the question of whether Zhang Jingyao might be hidden inside the Japanese Legation. On this point none of us could pass judgment offhand.
 
-The first thing I reported was that Comrade Bai Shiwei had offered himself and would willingly undertake the “execution”; before the “Beiping Station” had any dedicated action personnel, this solved the greatest difficulty. As to whether he was equal to it, there was no need to worry at all, for he had every qualification and was willing and glad.
+The first thing I reported was that Comrade Bai Shiwei had offered himself and would willingly undertake the “execution”; before the Beiping Station had any dedicated action personnel, this solved the greatest difficulty. As to whether he was equal to it, there was no need to worry at all, for he had every qualification and was willing and glad.
 
-The second thing concerned the disposition of the work, divided into two steps: what was necessary beforehand—that is, what we should set about now—and what would be fixed once the target was found; for both the “Beiping Station” could take full charge.
+The second thing concerned the disposition of the work, divided into two steps: what was necessary beforehand—that is, what we should set about now—and what would be fixed once the target was found; for both the Beiping Station could take full charge.
 
 We who lacked experience would, of course, seek instruction at every turn from Elder Brother Wang at Tianjin.
 
@@ -176,7 +176,7 @@ Mr. Zheng disclosed to us what he himself understood: “The source of the intel
 
 ### 2. Reconnaissance Deployed with All Our Might
 
-At its founding the “Beiping Station” was truly starting from nothing; not only were hands few, but much of the equipment it should have had was wanting—to take our conveyances, for one, we had but a single bicycle.
+At its founding the Beiping Station was truly starting from nothing; not only were hands few, but much of the equipment it should have had was wanting—to take our conveyances, for one, we had but a single bicycle.
 
 In this there was no special reason; our early work, from the Bureau headquarters at Nanjing down to the units in every province and city, high and low, was all pinched for want of funds.
 
@@ -190,33 +190,33 @@ brother Shiwei to go with Elder Brother Wang to the Grand Hôtel des Wagons-Lits
 
 I to arrange with brother Nanpu the necessary further preparations.
 
-All that needed doing had to be done; having arranged to meet brother Nanpu, we went first to “make a round” of Beiping's special district, the “Legation Quarter.”
+All that needed doing had to be done; having arranged to meet brother Nanpu, we went first to “make a round” of Beiping's special district, the Legation Quarter.
 
 The “Legation Quarter” in Beiping might be reckoned a land “beyond the pale,” a humiliating brand left by the Boxer Protocol, commonly called the “legation district.” By 1933, though many foreign legations had already moved to Nanjing, this place still kept its special status, and our government could not exercise all the powers the law conferred.
 
 Hence those harboring evil designs and plotting mischief made use of this speck of ground, sheltering under the wing of foreign power, to carry on their unlawful doings.
 
-The “Legation Quarter” was not large; its whole area was only about two square kilometers. It lay between Beiping's Zhengyangmen (Qianmen) and Chongwenmen (Hademen).
+The Legation Quarter was not large; its whole area was only about two square kilometers. It lay between Beiping's Zhengyangmen (Qianmen) and Chongwenmen (Hademen).
 
 Its bounds on the four sides were these: the eastern entrance was on Chongwenmen Street; the western entrance on Hubu Street; to the north it fronted East Chang'an Street, and between East Chang'an Street and the entrance lay a great parade ground where foreigners often played football. As a boy I would often ride my bicycle through here by a shortcut, and the memory is with me yet. On the south stood an old city wall in which, near the Grand Hôtel des Wagons-Lits, a gap had been opened, with no formal name; it was generally called the “Water Gate.” In truth, a hole opened in a city wall may well be called a gate, but there was not so much as a ditch hereabouts, and where the “water” came from, no one knew.
 
-Out of the “Water Gate” was the platform of the East Railway Station, and further on there were rails, but no level-crossing gear, so vehicles could not pass. The East Station was the starting point of the Beining line and the terminus of the Beiping-Tianjin through trains. Foreigners getting off the train mostly entered the Legation Quarter by the “Water Gate,” and all sorts of mysterious personages could take this hidden byway too.
+Out of the Water Gate was the platform of the East Railway Station, and further on there were rails, but no level-crossing gear, so vehicles could not pass. The East Station was the starting point of the Beining line and the terminus of the Beiping-Tianjin through trains. Foreigners getting off the train mostly entered the Legation Quarter by the Water Gate, and all sorts of mysterious personages could take this hidden byway too.
 
 Within the “Legation Quarter,” besides the resident units of the several nations' legations and their attached organs—the “counselors' offices,” the “military attachés' offices,” and so on—there were a few troops stationed as well. These were generally called “barracks,” though in fact they were the legations' “guard detachments.” As of 1933 there were still the two, the American barracks and the Japanese barracks; whether there were also others, British, French, and the like, I cannot at the moment say.
 
 There were police within the district too, few in number, seldom to be seen on the street, one or two at most. As to what uniform they wore, my impression is now blurred; but I remember they carried only truncheons and no firearms. There seemed to be one loitering about at the door of the Grand Hôtel des Wagons-Lits, who would sometimes vanish again.
 
-Within the “Legation Quarter” all the roads were asphalt, and the most unforgettable was that east-west trunk road. To my mind, wherever in the world a road may be, the smoother the better; only this one had been deliberately worked to be uneven, with a raised ridge running across the road-face about a hundred meters apart—a perfectly good road turned into a wave-pattern, a marvel indeed. Turning it over, one supposes it was to check speeding vehicles to good effect, and at the same time it reflected the shortage of police. By 1938, when I again walked the “Legation Quarter” in Beiping, this queer road had already been paved smooth.
+Within the Legation Quarter all the roads were asphalt, and the most unforgettable was that east-west trunk road. To my mind, wherever in the world a road may be, the smoother the better; only this one had been deliberately worked to be uneven, with a raised ridge running across the road-face about a hundred meters apart—a perfectly good road turned into a wave-pattern, a marvel indeed. Turning it over, one supposes it was to check speeding vehicles to good effect, and at the same time it reflected the shortage of police. By 1938, when I again walked the Legation Quarter in Beiping, this queer road had already been paved smooth.
 
-Of vehicles running in the “Legation Quarter,” about three kinds were commonly seen: motorcars, rickshaws, and bicycles. These vehicles coming and going did not all necessarily belong within the district; some merely borrowed the way to pass through, and in such cases they were let through, no one minding. Within the “Legation Quarter” it was hard to hail a taxi; to telephone into the city took a special arrangement, and to have one come at call was a matter of luck. The rickshaws within the “Legation Quarter” were licensed by the district itself and had a good many points of difference. For instance: the bodies were all painted the plain color of the wood, and every cushion was white bordered with blue, so that they looked very clean. The pullers, though they wore no uniform, were all neatly dressed. They had fixed stands and never touted for passengers about the streets. At the door of the Grand Hôtel des Wagons-Lits there were regularly three or five waiting for hire. I rode in them too; the fares were much dearer than outside the boundary. The pullers here seemed to have a foreigner-flattering turn of mind: the moment a foreigner got in, they showed themselves specially hard-working, whereas to pull a Chinese was as though they had suffered a wrong. Motorbicycles were not many in those days; the odd one seen was nineteen in twenty of military use. Bicycles were plenty, mostly used by the district residents' servants or by the schoolchildren.
+Of vehicles running in the Legation Quarter, about three kinds were commonly seen: motorcars, rickshaws, and bicycles. These vehicles coming and going did not all necessarily belong within the district; some merely borrowed the way to pass through, and in such cases they were let through, no one minding. Within the Legation Quarter it was hard to hail a taxi; to telephone into the city took a special arrangement, and to have one come at call was a matter of luck. The rickshaws within the Legation Quarter were licensed by the district itself and had a good many points of difference. For instance: the bodies were all painted the plain color of the wood, and every cushion was white bordered with blue, so that they looked very clean. The pullers, though they wore no uniform, were all neatly dressed. They had fixed stands and never touted for passengers about the streets. At the door of the Grand Hôtel des Wagons-Lits there were regularly three or five waiting for hire. I rode in them too; the fares were much dearer than outside the boundary. The pullers here seemed to have a foreigner-flattering turn of mind: the moment a foreigner got in, they showed themselves specially hard-working, whereas to pull a Chinese was as though they had suffered a wrong. Motorbicycles were not many in those days; the odd one seen was nineteen in twenty of military use. Bicycles were plenty, mostly used by the district residents' servants or by the schoolchildren.
 
-At the two boundaries between the Beiping city district and the “Legation Quarter” there were wooden barriers, but no one guarding them. For a spell, at twelve sharp, midnight, the northern barrier-gate onto East Chang'an Street would be closed, leaving only the east-west way open; but at other times it was thrown open all night, passage unhindered.
+At the two boundaries between the Beiping city district and the Legation Quarter there were wooden barriers, but no one guarding them. For a spell, at twelve sharp, midnight, the northern barrier-gate onto East Chang'an Street would be closed, leaving only the east-west way open; but at other times it was thrown open all night, passage unhindered.
 
-Brother Nanpu and I, seated in that car not yet taken away, driven by Mr. Dai's driver Old Zhang, went round and round several times on the few roads there were within the “Legation Quarter”; we not only learned the lay of the roads but also readied ourselves in mind.
+Brother Nanpu and I, seated in that car not yet taken away, driven by Mr. Dai's driver Old Zhang, went round and round several times on the few roads there were within the Legation Quarter; we not only learned the lay of the roads but also readied ourselves in mind.
 
 I worried that once there was a stir—a gunshot, say—the wooden barriers at the several entrances might suddenly be shut and block our way. Then again I thought: why should this be a worry? Barriers merely for form's sake like these, with a car like ours, one press of the accelerator would smash them to bits; how could they hold us?
 
-Going along the “Water Gate” wall, we suddenly found there was yet another road one could take. Coming out of the Grand Hôtel des Wagons-Lits and going south thirty to fifty paces, one reached the “Water Gate”; a turn to the right and one was on this newly discovered road, driving straight west, the high city wall on the left and, on the right, mostly the back doors of the buildings on that main street in front. Where we passed there was a sentry gate—the back gate of the “Japanese barracks”; and one or two hundred feet on, another American sentry post, the back gate of the “American barracks.” Reaching the end, one could only turn right, go on, then turn left, and one was at the exit. The main road out was Hubu Street, already outside the bounds of the “Legation Quarter.”
+Going along the Water Gate wall, we suddenly found there was yet another road we could take. Coming out of the Grand Hôtel des Wagons-Lits and going south thirty to fifty paces, one reached the Water Gate; a turn to the right and one was on this newly discovered road, driving straight west, the high city wall on the left and, on the right, mostly the back doors of the buildings on that main street in front. Where we passed there was a sentry gate—the back gate of the Japanese barracks; and one or two hundred feet on, another American sentry post, the back gate of the American barracks. Reaching the end, we could only turn right, go on, then turn left, and one was at the exit. The main road out was Hubu Street, already outside the bounds of the Legation Quarter.
 
 This was a trial run, and also a first survey of the ground and its features.
 
@@ -258,9 +258,9 @@ Brother Nanpu's reconnaissance arrangements outside the Grand Hôtel des Wagons-
 
 After we parted, I made a telephone call and reported briefly to Mr. Zheng.
 
-On the first day of the term, a full twenty-four hours' floundering brought no result; on the second, though we knew for certain Zhang Jingyao must be staying in the not-large Grand Hôtel des Wagons-Lits, we still could not find a trace of him.
+On the first day of the term, a full twenty-four hours' floundering brought no result; on the second, though we knew for certain Zhang Jingyao must be staying in the small Grand Hôtel des Wagons-Lits, we still could not find a trace of him.
 
-A thing that looks easy—only in the doing does one taste how it is not simple; or else we were too stupid.
+A thing that looks easy—only in the doing do you taste how it is not simple; or else we were too stupid.
 
 I fretted alone that, should the term run out and we not lay hold of so much as a shadow of the man, that would be to lose face indeed.
 
@@ -270,7 +270,7 @@ Mr. Dai wired his reply to Mr. Zheng, and did not telegraph us directly—this, 
 
 By noon of the third day, when I met with Elder Brother Wang and the others, we still looked at one another blankly, still far from reaching a happy pass.
 
-Elder Brother Wang counseled us: “In a matter like this one can only fret inwardly and must not let it show. If we stay on and still cannot make out any thread of it, I am half of a mind to risk startling the snake and go to the front desk to inquire once more; but perhaps that would be too clever by half and turn out ill instead.”
+Elder Brother Wang counseled us: “In a thing like this you can only fret inwardly and mustn't let it show. If we stay on and still can't make out any thread of it, I'm half of a mind to risk startling the snake and ask at the front desk once more; but maybe that would be too clever by half and turn out badly instead.”
 
 At this point Elder Brother Wang suddenly recalled that the day before, going upstairs, he had once seen the back of a man very like Zhao Tinggui, who had been Zhang Jingyao's chief of staff; but in the blink of an eye the man had gone up, and he had not seen clearly, so he could not yet be sure it was he.
 
@@ -286,19 +286,19 @@ I thought this was all gain; though we had not yet found the target, it could no
 
 Elder Brother Wang wanted to make a trip home to change his clothes and shave. He asked brother Shiwei too to find a place to rest a while, and when he came back they would go together to the Grand Hôtel des Wagons-Lits again. He charged us as well to study the thing over well once more.
 
-Elder Brother Wang went home, and brother Shiwei had meant to take a nap to refresh himself, but not only could he not sleep, he could not so much as close his eyes, and so he sat up to talk; and thus we came again to speak of the “Grand Hôtel des Wagons-Lits.”
+Elder Brother Wang went home, and brother Shiwei had meant to take a nap to refresh himself, but not only could he not sleep, he could not so much as close his eyes, and so he sat up to talk; and thus we came again to speak of the Grand Hôtel des Wagons-Lits.
 
-The “Grand Hôtel des Wagons-Lits” was of no small fame in Beiping, but not large in scale, being no more than a four-story old-style building. In its appointments it fell far short of the “Hôtel de Pékin”; in value for money it was no match for the “Central Hotel” or the “Chang'anchun Hotel”; only, being the one such hotel in the “Legation Quarter,” it seemed a rarity—especially to those Chinese who had their own peculiar uses for it.
+The Grand Hôtel des Wagons-Lits was very well known in Beiping, but not large in scale, being no more than a four-story old-style building. In its appointments it fell far short of the “Hôtel de Pékin”; in value for money it was no match for the “Central Hotel” or the “Chang'anchun Hotel”; only, being the one such hotel in the Legation Quarter, it seemed a rarity—especially to those Chinese who had their own peculiar uses for it.
 
-The “Grand Hôtel des Wagons-Lits” faced west with its back to the east, its main door on the street; to go in and out one climbed a dozen or more stone steps. What left the deeper impression was that revolving door, turning round and round.
+The Grand Hôtel des Wagons-Lits faced west with its back to the east, its main door on the street; to go in and out one climbed a dozen or more stone steps. What left the deeper impression was that revolving door, turning round and round.
 
-In at the door was a spacious lobby, the floor laid with a scarlet woolen carpet; set off so, it gave one all at once a sense of the high-class—the imported foreign gimmick, just that.
+In at the door was a spacious lobby, the floor laid with a scarlet woolen carpet; set off so, it gave you all at once a sense of the high-class—the imported foreign gimmick, just that.
 
 Along the long counter was the reception clerk who managed the cars, in a Chinese-style long gown and sleeveless jacket and a black-satin skullcap with a red knot—the ugly getup by which the “imperialists” looked down on Chinese as slaves, offensive to see.
 
 As for this ground floor, what else was set out here I no longer clearly remember—probably there were no guest rooms.
 
-The “Grand Hôtel des Wagons-Lits” had no elevator, perhaps because it was only four stories. But the staircase was broad, wide enough for four abreast going up and down. The width of the second-floor passage was much the same as the staircase, all carpeted, so that unless one skipped and hopped, no footstep could be heard.
+The Grand Hôtel des Wagons-Lits had no elevator, perhaps because it was only four stories. But the staircase was broad, wide enough for four abreast going up and down. The width of the second-floor passage was much the same as the staircase, all carpeted, so that unless one skipped and hopped, no footstep could be heard.
 
 The second floor was shaped like an inverted U—that is, there were rooms on only three sides, and the side near the stair-head was just a passage. On the passage stood a small counter, the central point where a steward was on duty, waiting for guests to call.
 
@@ -308,7 +308,7 @@ And to see further their cringing, knee-bending image as they waited on foreigne
 
 Elder Brother Wang's room was in a corner of the second floor, some fifty or sixty paces from the staircase, at the end of the right-hand corridor. Going further in, there was a row of transverse rooms, and turning round them one came to the left-hand corridor—hence its being called an inverted-U shape.
 
-This room was not large, but the bed was; the mattress and sheets laid on it ran to several layers, thin and thick. Brother Shiwei told me: “That pistol—it is not convenient to carry on one's person going in and out, so sometimes it is tucked under the pillow, and Elder Brother Wang knows it too, so that if any sudden chance should come, either of us could take it up and use it.”
+This room was not large, but the bed was; the mattress and sheets laid on it ran to several layers, thin and thick. Brother Shiwei told me: “That pistol—it's not handy to carry on you going in and out, so sometimes it's tucked under the pillow; Elder Brother Wang knows it too, so if any sudden chance comes, either of us can grab it and use it.”
 
 Brother Shiwei was an attentive man; he heard a steward say: “There's a fire escape at the back too, unused for years now, all crammed with old broken things.” So said, the fire escape that might have served as a way out had fallen into disuse, and need not be reckoned with.
 
@@ -326,7 +326,7 @@ Elder Brother Wang asked Manager Ying: “What brings you here?” Manager Ying,
 
 They gave up going to eat and hurried to Beichang Street to tell me what had just happened.
 
-Elder Brother Wang explained: “The one with a tuft of hair on his chin is Zhang Jingyao; just now in the hotel it was not convenient to ask much; let's go eat something first, and by the time we've done, Manager Ying will be back too, and we'll go find him and ask him the whole thing in detail.”
+Elder Brother Wang explained: “The one with a tuft of hair on his chin is Zhang Jingyao; just now in the hotel it wasn't convenient to ask much; let's go eat first, and by the time we're done Manager Ying will be back too, and we'll go find him and ask him the whole thing in detail.”
 
 We three came again, as usual, to the South Street of Dongsi Pailou, where Manager Ying's Yingyuantai tailor shop was. This tailor shop had but a single frontage, rustic and unadorned, with nothing to draw a customer if one were not an acquaintance. But at the craft of cutting he was a first-rate hand.
 
@@ -342,9 +342,9 @@ For now, though Zhang Jingyao's whereabouts were had, close on their heels came 
 
 Zhang had taken three rooms—he lodged in one, the chief of staff in one, and the other was the aide's. The so-called aide might well be a guard. Manager Ying had not said how many aides; there might be more than one, and reckoning them all up, at the least three, at the most five or six—could brother Bai Shiwei, “single spear and lone horse,” deal with them? Even if Elder Brother Wang joined the fighting line, it was still no match in numbers.
 
-Their rooms, three in a row—leaving aside for the moment which one Zhang Jingyao lodged in—at the first stir would surely rouse those to left and right at once; with the strength we now had, we could send in at most two men and a single gun, and if the other side put up the least resistance or drag, then to get clear of the scene became a problem; that is, in a case of the few against the many, only a surprise blow would serve, and once it came to a standoff, we were bound to be at a disadvantage.
+Their rooms, three in a row—leaving aside for the moment which one Zhang Jingyao lodged in—at the first stir would surely rouse those to left and right at once; with the strength we now had, we could send in at most two men and a single gun, and if the other side put up the least resistance or drag, then to get clear of the scene became a problem. In a case of the few against the many, only a surprise blow would serve; once it came to a standoff, we were bound to be at a disadvantage.
 
-Furthermore, they were on the third floor, we on the second; reckoning from the moment of mounting to the third floor, one had first to cross a corridor scores of paces long; supposing no obstruction, there was still the door to be got open by ruse or by force, the target to be found; even if one pushed the door and came upon him and fired at once, then, the shots sounded, even granting no one dared come near, one had still to make from the third-floor corridor straight for the staircase and down again by the second. At the most hopeful estimate, the time exposed was still too long. So whether one could safely walk out the main door needed yet closer planning.
+Furthermore, they were on the third floor, we on the second; reckoning from the moment of mounting to the third floor, we had first to cross a corridor scores of paces long; supposing no obstruction, there was still the door to be got open by ruse or by force, the target to be found; even if we pushed the door and came upon him and fired at once, then, the shots sounded, even granting no one dared come near, we had still to make from the third-floor corridor straight for the staircase and down again by the second. At the most hopeful estimate, the time exposed was still too long. So whether we could safely walk out the main door needed yet closer planning.
 
 That revolving door was the sole way out; should an accident occur, would it not shut of itself? I believe there must be such a device—this was the more worth special heed.
 
@@ -370,11 +370,11 @@ Elder Brother Wang and brother Shiwei were to go back to the Grand Hôtel des Wa
 
 I decided to go first and seek out brother Qi Nanpu. I meant to ask him whether he could at once find one or two men to be brother Shiwei's helpers; and I hoped too that he could contrive to get hold of a gun over there—borrowed or bought, no matter which.
 
-When I had seen brother Nanpu and explained my purpose, what he said had reason in it too. He said: “In the past we simply had no plan for action work, nor had the higher-ups given the least hint of it; and now, to do a thing the moment it is said, to have a thing the moment it is wanted—where, in a flash, is one to find usable men? One cannot just drag in one or hire one. Now, since it is to lend Shiwei a hand, for the public good and the private alike I have a duty I cannot shirk; so I am willing to join the scene, and as for which task I take, only assign it to me.”
+When I had seen brother Nanpu and explained my purpose, what he said had reason in it too. He said: “In the past we simply had no plan for action work, nor had the higher-ups given the least hint of it; and now, to do a thing the moment it's said, to have a thing the moment it's wanted—where, on the spur of the moment, are we to find usable men? You can't just drag one in or hire one. Now, since it is to lend Shiwei a hand, for the public good and the private alike I have a duty I cannot shirk; so I am willing to join the scene, and as for which task I take, only assign it to me.”
 
 Hearing him declare himself so, I was very glad at heart—here indeed was a timely rain, a fresh reinforcement.
 
-I raised the matter of borrowing a gun again; he said: “Borrow—where's one to borrow? Buy a knife; is it not just as serviceable?”
+I raised the matter of borrowing a gun again; he said: “Borrow—where would we borrow one? Buy a knife; isn't it just as good?”
 
 Brother Nanpu and I agreed that from now on we would keep in touch at all times, and as for how the work was to be shared, I would let him know once I had conferred with Elder Brother Wang and reached a decision.
 
@@ -384,7 +384,7 @@ I returned alone to Beichang Street, and it came to me all at once that four day
 
 ### 3. The Old Saw Proved True: Heaven's Net Is Wide
 
-This day was 7 May 1933.
+This day was May 7, 1933.
 
 Early in the morning the courtyard and the rooms were all quiet, without the least disturbance. My whole heart hung on brother Shiwei and Elder Brother Wang and the others in the Grand Hôtel des Wagons-Lits, not knowing whether they were still in a hard case or had made some new progress. I thought: before long they must telephone.
 
@@ -402,7 +402,7 @@ Elder Brother Wang set forth the two courses he had already worked out ripe:
 
 He held that the surest way was to fetch to Beiping from Tianjin an old friend of his close enough to count on, a man surnamed Hou, a Henan man, who had knocked about the rivers-and-lakes many years and had now washed his hands of it; if this man would nod his consent and join hands with brother Shiwei, then however many the other side numbered, it would be no matter.
 
-Elder Brother Wang added: “I know he has a piece—a gun—in hand, so we need not trouble over that; whether he agrees or not, I mean to send your elder sister-in-law over—she'll catch a train before noon and be back before supper; even if he won't, it will hold up nothing of ours.”
+Elder Brother Wang added: “I know he has a piece—a gun—in hand, so we needn't trouble over that; whether he agrees or not, I mean to send your elder sister-in-law over—she'll catch a train before noon and be back before supper; even if he won't, it'll hold up nothing of ours.”
 
 Excellent. True enough, I had once met this man at Elder Brother Wang's house, a little over forty, solidly built; by his dress and gear he seemed well-off, and the fear was only that he would not care to run the risk again. Still, this at least was a plan.
 
@@ -454,7 +454,7 @@ From the night before until now I had eaten nothing, and I asked Yang Ying to go
 
 A little after noon, at three quarters past twelve, the telephone rang; I took up the receiver and listened. It was Shiwei calling. His voice was a little different from usual, thick and clipped; he said: “The thing's done; Old Qi and I are upstairs at the Qinghuayuan.” I said: “Good, good, I'll come at once.”
 
-For a moment I did not know where best to set down the receiver in my hand, and my heart was pounding hard. I told Yang Ying: “The thing we planned may already be done; please stay here for the time being, while I go to hear the news, and when I have it clear I'll let you know.”
+For a moment I did not know where best to set down the receiver in my hand, and my heart was pounding hard. I told Yang Ying: “The thing we planned may already be done; stay here for now while I go and hear the news, and once I've got it clear I'll let you know.”
 
 I meant to report to Mr. Zheng at once, but on second thought—no. I should understand it clearly first; to report just now the one line “the thing's done” would not do, the more so as, before I had seen Elder Brother Wang, for me alone to report first to Mr. Zheng was not fitting either. Since it was done, to report a little late did not much matter.
 
@@ -464,9 +464,9 @@ The Qinghuayuan was one of the first-rank bathhouses in Beiping, and for that da
 
 Shiwei answered from within the room; the attendant lifted the door-curtain, and I saw them wrapped in big towels, resting on the beds. Shiwei was smoking, Old Qi kneading his feet.
 
-I stepped in and first made them a round-arm bow, left and right, by way of congratulation, and they answered smiling. Though we had said nothing yet, one could already be sure how the thing stood: at this my heart was greatly settled.
+I stepped in and first made them a round-arm bow, left and right, by way of congratulation, and they answered smiling. Though we had said nothing yet, we could already be sure how the thing stood: at this my heart was greatly settled.
 
-Shiwei said: “Elder Brother Wang went down first, and is probably home by now.” I was eager to know how the thing had gone, but here one could not speak one's fill; better first to telephone Elder Brother Wang, and once the four of us were gathered, go together to Fuyou Street and tell it all before Mr. Zheng—would that not save a deal of to-and-fro?
+Shiwei said: “Elder Brother Wang went down first, and is probably home by now.” I was eager to know how the thing had gone, but here we could not speak our fill; better first to telephone Elder Brother Wang, and once the four of us were gathered, go together to Fuyou Street and tell it all before Mr. Zheng—would that not save a deal of to-and-fro?
 
 The telephone was a long while ringing through; I asked Elder Brother Wang: “We'll wait at the door of the Qinghuayuan, right here on Bamiancao Street; if your car is at home, best come and fetch us to go together to Fuyou Street. What do you say?”
 
@@ -478,7 +478,7 @@ Mr. Zheng Jiemin, seeing the four of us come together, was not surprised, but he
 
 When brother Tianmu, on our behalf, had first reported the general course of it, Mr. Zheng was overjoyed indeed; he grasped Shiwei's hand and shook it many times over. He drew brother Tianmu too to sit at his side, and shook hands again with me and with Nanpu, and then gravely declared: first, on behalf of the higher command, he gave us comfort and cheer and offered his hearty congratulations. After hearing a fuller report, besides wiring Mr. Dai at Nanjing, he would at once go up to see the Beiping authorities and report back.
 
-The development and shifting of events lay not within our original plan, and one may say it went far more smoothly than we had foreseen; only, the one point not to be blotted out is this: had there been no plan beforehand, the later good fortune would not have come about either. The whole true course of it was thus:
+The development and shifting of events lay not within our original plan, and it went, you could say, far more smoothly than we had foreseen; only, the one point not to be blotted out is this: had there been no plan beforehand, the later good fortune would not have come about either. The whole true course of it was thus:
 
 We had settled our plan at Beichang Street and resolved to work in full concert and strike upstairs.
 
@@ -502,17 +502,17 @@ This newly booked room was on the transverse stretch, at the meeting-point of th
 
 When Elder Brother Wang and brother Shiwei had looked over the booked room, they still grudged its being too far from the staircase—for us it was really too inconvenient; but for the moment there was no better plan.
 
-The room seen, the steward handed Elder Brother Wang the room key and, with repeated thanks, went off ahead. Elder Brother Wang, as if not master of himself, followed behind the steward and went on forward too; Shiwei, at a loss to know why, could not but follow Elder Brother Wang's steps and go forward as well.
+The room seen, the steward handed Elder Brother Wang the room key and, with repeated thanks, went off ahead. Elder Brother Wang, as if not master of himself, followed behind the steward and went on forward too; Shiwei, at a loss to know why, had no choice but to follow Elder Brother Wang and go forward too.
 
 By now they were already walking along this opposite corridor.
 
-A dozen paces on, among a row of rooms on the left of the corridor, there was one with a half-leaf of window open, and inside a man was seen, seated sideways on the edge of the bed, his head tilted back, facing the window, fiddling in his hands with some small object that could not be made out clearly. This man had a long rectangular face, a high-tilted nose-tip, thin hollow cheeks, two little wisps of mustache, and under his chin a tuft of long hair besides. Elder Brother Wang's eyes lit up, as though a flash had struck—why, was that not Zhang Jingyao!
+A dozen paces on, among a row of rooms on the left of the corridor, there was one with a half-leaf of window open, and inside a man was seen, seated sideways on the edge of the bed, his head tilted back, facing the window, fiddling in his hands with some small object that could not be made out clearly. This man had a long rectangular face, a high-tilted nose-tip, thin hollow cheeks, two little wisps of mustache, and, under his chin, a tuft of long hair as well. Elder Brother Wang's eyes lit up, as though a flash had struck—why, was that not Zhang Jingyao!
 
 Fearing his eyes had played him false, Elder Brother Wang stopped his steps, turned his body, and took another glance, coming just face to face with the man—not the least mistake, it was he!
 
 Brother Shiwei, seeing Elder Brother Wang pause, followed his line of sight and turned to look leftward too, and saw only a man sitting there. Turning his head again to look at Elder Brother Wang, he saw him pointing with his hand into the room, nodding again and again, saying under his breath: “That's him.” Then he walked with quick steps toward the stair-head.
 
-Shiwei had already caught his meaning, and now heard it plain besides; he planted his feet firm, lifted the skirt of his lined gown, drew out the gun, aimed at the chest of the man in the room who had just half risen; bang, bang, bang—he fired three shots in a row.
+Shiwei had already caught his meaning, and now heard it clearly too; he planted his feet firm, lifted the skirt of his lined gown, drew out the gun, aimed at the chest of the man in the room who had just half risen; bang, bang, bang—he fired three shots in a row.
 
 In an instant, the sliver of a scene caught at the corner of his eye: the man was toppling down.
 
@@ -530,17 +530,17 @@ Elder Brother Wang went down the stone steps, beckoned and hired a rickshaw, spr
 
 Nanpu perceived that Elder Brother Wang was deliberately not greeting him, and, thinking things amiss, gave the driver a few words and in two or three strides darted up the steps; he first pushed the door with his hand—still turning—then carefully watched the stir within.
 
-Just at this juncture Shiwei was coming out the door. With one hand he seized Nanpu's arm and, without a word, made straight for the roadside. The two of them, one left and one right, opened the car doors severally; before they were well seated, the driver pressed the accelerator, and in an instant they had left the spot, driving off toward the “Water Gate,” then, with a sharp turn hard after, sped west along the foot of the city wall.
+Just at this juncture Shiwei was coming out the door. With one hand he seized Nanpu's arm and, without a word, made straight for the roadside. The two of them, one left and one right, opened the car doors severally; before they were well seated, the driver pressed the accelerator, and in an instant they had left the spot, driving off toward the Water Gate, then, with a sharp turn hard after, sped west along the foot of the city wall.
 
 On this road there was not a single vehicle; save this one of ours, none came toward us, and none trailed behind.
 
-As this car passed the back gate of the “Japanese barracks,” the great fear was that they would come out and stop us; Shiwei kept a bit of caution, laying the gun on his knee and covering it with the hem of his lined gown against mishap. But the Japanese soldier standing guard with his rifle did not stir and made no response at all.
+As this car passed the back gate of the Japanese barracks, the great fear was that they would come out and stop us; Shiwei kept a bit of caution, laying the gun on his knee and covering it with the hem of his lined gown against mishap. But the Japanese soldier standing guard with his rifle did not stir and made no response at all.
 
-On some hundreds of paces, passing the back gate of the “American barracks,” there was no need for worry: that neatly turned-out American soldier, acting as traffic policeman, signaled us through with a wave of his hand.
+On some hundreds of paces, passing the back gate of the American barracks, there was no need for worry: that neatly turned-out American soldier, acting as traffic policeman, signaled us through with a wave of his hand.
 
 Following the road, a turn right and then a turn left, was a memorial archway—this was the boundary. Entering Hubu Street, we had come onto land where we held sovereignty.
 
-From the finding of the target to this moment, the whole course had taken, all told, less than five minutes.
+From the moment we found the target to now, the whole course had taken, all told, less than five minutes.
 
 Brother Nanpu told driver Zhang to drive first to the Dong'an Market on Wangfujing Street; he and brother Shiwei got out of the car, telling driver Zhang to drive the car back as before to the repair shop for servicing, and to rest a day first—any business could wait till tomorrow. Getting out, brother Shiwei patted driver Zhang twice by way of thanks; but this driver Zhang perhaps still did not understand what it was all about.
 
@@ -554,7 +554,7 @@ This scene ran off at flying speed, with rhythm and with measure, every thread f
 
 At this there remained one suspense urgently to be understood: what had become of Zhang Jingyao?
 
-Besides, there were of course many after-matters that needed to be made clear.
+There were, of course, many other after-matters that needed clearing up.
 
 When Mr. Zheng Jiemin had heard everyone's report, he at once drafted a telegram and wired it to Mr. Dai Yunong at Nanjing; and, dressing meanwhile, went straight to Zhongnanhai to lay the matter before acting deputy chairman He in person. As he rose to go, he made an appointment to gather with us that evening.
 
@@ -570,13 +570,13 @@ The whole passage was but the fifth day of the one-week term.
 
 ### 4. What I Call a Flawless Piece of Work
 
-In the daily paper of 8 May 1933, the news printed ran in substance thus: “The great merchant Chang Shigu was shot dead within the Grand Hôtel des Wagons-Lits in the Legation Quarter; the assassin fled without a trace.” Some also printed the name “Chang Shiwu”; only the three characters “Zhang Jingyao” were nowhere to be seen.
+In the daily paper of May 8, 1933, the news printed ran in substance thus: “The great merchant Chang Shigu was shot dead within the Grand Hôtel des Wagons-Lits in the Legation Quarter; the assassin fled without a trace.” Some also printed the name “Chang Shiwu”; only the three characters “Zhang Jingyao” were nowhere to be seen.
 
 “Chang Shigu” and “Chang Shiwu” were two cover names, close in sound but different in characters, very likely a foreign transliteration used in the Grand Hôtel des Wagons-Lits register.
 
 I dimly recall that in the news feature of the time Zhang's family were still covering the thing up, spreading it about that he had died of an accidental electric shock.
 
-In fact Zhang had taken two bullets, both about the diaphragm in the chest and belly; he did not die at once, and the hotel called an ambulance and sent him for emergency aid to the nearby German Hospital; but his wounds being grave, with too much blood lost besides, he lingered until three in the afternoon and died.
+In fact Zhang had taken two bullets, both about the diaphragm in the chest and belly; he did not die at once, and the hotel called an ambulance and sent him for emergency aid to the nearby German Hospital; but his wounds being grave, and having lost too much blood, he lingered until three in the afternoon and died.
 
 We knew that the “Chang Shigu” the paper printed was the former military governor of Hunan Zhang Jingyao—there could be no mistake.
 
@@ -594,7 +594,7 @@ I have not looked up how many years it was, but suddenly people were again discu
 
 Later intelligence confirmed that Zhang Jingyao had indeed taken three rooms on the third floor; besides the chief of staff Zhao, there were an aide and a groom-orderly, one each, and counting Zhang himself in, four persons in all. They had been staying in the Grand Hôtel des Wagons-Lits over half a month, with a fair amount of contact with the outside; though they did not come and go often, their goings and comings were not few. It shows how far short our reconnaissance still fell. As to whether Zhang's attendants carried weapons, that was left a riddle needing no answer now.
 
-Zhang Jingyao had an opium habit, and no small one; he was fond of little antiques—jade carvings, snuff bottles, and the like; and he had one more failing, laziness: too lazy to sleep at night, too lazy to rise in the morning, too lazy even to see a caller. His taking a small extra room on the second floor was, to put it in today's terms, to possess a little world wholly his own; beyond that, it is hard to find any other reason.
+Zhang Jingyao had a heavy opium habit; he was fond of little antiques—jade carvings, snuff bottles, and the like; and he had one more failing, laziness: too lazy to sleep at night, too lazy to rise in the morning, too lazy even to see a caller. His taking a small extra room on the second floor was, to put it in today's terms, to possess a little world wholly his own; beyond that, it is hard to find any other reason.
 
 It cannot be said that Zhang Jingyao himself had no wariness, for all he did were things that wronged his conscience; but he never dreamed that his hour had come, that the end of his life was before his eyes. As the saying goes: “Did one know the death-pit lay there, one would not sleep the whole night through.”
 
@@ -602,7 +602,7 @@ To tell the truth, not only did Zhang Jingyao's side not foresee it; our side to
 
 From composite intelligence material it was further learned: among those who meant to raise a rebellion and plotted with Zhang Jingyao was the former “commander-in-chief of the Five-Province Allied Army,” Sun Chuanfang, who was at that time also in the Grand Hôtel des Wagons-Lits.
 
-Sun Chuanfang, courtesy name Xinyuan, was called “Marshal Xin” in his days in power. During the Northern Expedition of the National Revolutionary Army, Sun held Jiangsu, Zhejiang, Anhui and the rest, five provinces, in check, and styled himself “commander-in-chief of the Five-Province Allied Army.” When the Northern Expedition succeeded, Sun withdrew into seclusion at Tianjin, and though he chanted sutras and worshiped the Buddha and repented his former wrongs, he never laid down the butcher's knife.
+Sun Chuanfang, courtesy name Xinyuan, was called “Marshal Xin” in his days in power. During the Northern Expedition of the National Revolutionary Army, Sun held five provinces—Jiangsu, Zhejiang, Anhui among them—in check, and styled himself “commander-in-chief of the Five-Province Allied Army.” When the Northern Expedition succeeded, Sun withdrew into seclusion at Tianjin, and though he chanted sutras and worshiped the Buddha and repented his former wrongs, he never laid down the butcher's knife.
 
 It was said that Sun Chuanfang lodged on the fourth floor of the Grand Hôtel des Wagons-Lits, with attendants; between Sun and Zhang there was not only frequent coming and going, but they often held “secret councils” together.
 
@@ -614,7 +614,7 @@ Speaking with the correct attitude in handling intelligence, neither of the abov
 
 In 1934 Sun Chuanfang, while performing a Buddhist service at a certain “lay Buddhists' grove” in Tianjin, was at last killed by Miss Shi Jianqiao. Everyone knows it was a filial daughter avenging her father. Her filial deed was like that of Shisanmei, He Yufeng, in “A Tale of Heroic Sons and Daughters”; a cut above He Yufeng in that He Yufeng plotted but did not carry it out, whereas Miss Shi had already fulfilled her heart's wish. The affair came about because Miss Shi Jianqiao's father, Shi Congbin, had once been a division commander under Sun and had been shot dead by Sun Chuanfang at Bengbu, Anhui, and so a “blood-feud for a slain father” was formed; there may have been no political factor in it.
 
-There is a book that says Shi Jianqiao was a working member of the “Juntong,” acting under orders. The present writer was then at work in Beiping and Tianjin and knew nothing of this; and lately, having asked round all my old friends, none knew of it either; nor, besides, is there any concrete material to confirm it. Still, if Miss Shi could be at once loyal and filial, that would naturally be all the better.
+There is a book that says Shi Jianqiao was a working member of the Juntong, acting under orders. The present writer was then at work in Beiping and Tianjin and knew nothing of this; and lately, having asked round all my old friends, none knew of it either; nor, besides, is there any concrete material to confirm it. Still, if Miss Shi could be at once loyal and filial, that would naturally be all the better.
 
 Now to the question of the intelligence source in the Zhang Jingyao case: as already made clear above, the intelligence that Zhang Jingyao was staying in the Grand Hôtel des Wagons-Lits in the Legation Quarter, fomenting revolt and plotting mischief, was handed down from the Beiping Military Branch. My own guess is that whoever furnished the intelligence to acting deputy chairman He of the Military Branch must have had contact with Zhang Jingyao—very likely was one Zhang meant to win over, or even one to whom Zhang had made some promise. Otherwise he could not have known the inside of it, seen it as clear as fire. In the jargon of intelligence work, this kind of source is called an “inside line.”
 
@@ -632,13 +632,13 @@ We cite this passage to give the reader something to refer to.
 
 We have not gone deeply into the reliability of this passage.
 
-According to the book's “editorial principles,” material quoted from official documents is set within “……”; on this basis, the passage in Itagaki's secret wire to the Kwantung Army—“Zhang Jingyao is set to launch a coup on 21 April, Song Zheyuan responding at the same time”—is quoted from an official document, that is, one may verify that Itagaki did indeed send such a wire. As for why it was not later realized—whether Zhang Jingyao was boasting, or someone within changed his mind—that is very hard to say.
+According to the book's “editorial principles,” material quoted from official documents is set within “……”; on this basis, the passage in Itagaki's secret wire to the Kwantung Army—“Zhang Jingyao is set to launch a coup on 21 April, Song Zheyuan responding at the same time”—is quoted from an official document, that is, we can be sure Itagaki did indeed send such a wire. As for why it was not later realized—whether Zhang Jingyao was boasting, or someone within changed his mind—that is very hard to say.
 
 Does it hint that the one who furnished the intelligence to the Beiping Military Branch was Song Zheyuan? Impossible; for on the strength of the above passage alone, it is not yet enough to pass such a judgment offhand.
 
 After the event, who it was that furnished the intelligence had ceased to matter; but what people Zhang Jingyao had in fact won over—how weighty a matter that was at the time—how could it not be pursued?
 
-It is learned that—leaving aside for now how Zhang Jingyao boasted to Itagaki Seishirō—if one is willing to believe he had “secured an inside response” within the two great military and political organs, the “North China Political Affairs Council” and the “Beiping Military Branch,” then luckily, once Zhang Jingyao was dead, these people lost their prop all at once and ceased to have any effect. And the military and political authorities, having already cut off the chief culprit and dissolved a great upheaval that might have occurred, held it best, in adapting to their hard circumstances, not to probe too deeply.
+It is learned that—leaving aside for now how Zhang Jingyao boasted to Itagaki Seishirō—if we are willing to believe he had “secured an inside response” within the two great military and political organs, the “North China Political Affairs Council” and the “Beiping Military Branch,” then luckily, once Zhang Jingyao was dead, these people lost their prop all at once and ceased to have any effect. And the military and political authorities, having already cut off the chief culprit and dissolved a great upheaval that might have occurred, held it best, in adapting to their hard circumstances, not to probe too deeply.
 
 This belongs to matters of high-level “political maneuvering,” and should not be set out further in depth.
 
@@ -648,7 +648,7 @@ The above assessment may be taken as a self-examination of the gains and losses 
 
 In the Zhang Jingyao case we received a double commendation, from the highest military and political authorities in Beiping and from Mr. Dai Yunong of the Nanjing Special Services Department (the Second Department).
 
-What gladdened me and gave me a very great sense of ease was more than this alone; for I had always looked on the “Grand Hôtel des Wagons-Lits” as a symbol of imperialism, and to sanction a traitor within the “Grand Hôtel des Wagons-Lits” I reckoned to be a killing of two birds with one stone—both smashing “that” and ridding us of “this.” Such a notion cannot but betray a touch of childishness; then let me be allowed my own quiet pleasure in it.
+What gladdened me and gave me a very great sense of ease was more than this alone; for I had always looked on the Grand Hôtel des Wagons-Lits as a symbol of imperialism, and to sanction a traitor within the Grand Hôtel des Wagons-Lits I reckoned to be a killing of two birds with one stone—both smashing “that” and ridding us of “this.” Such a notion cannot but betray a touch of childishness; then let me be allowed my own quiet pleasure in it.
 
 Though brother Shiwei, in describing the scene afterward, showed himself quite excited, thereafter he seldom spoke of the matter again, and was even unwilling to touch on such questions any more. I understand: this is a kind of dead-knot of the mind; one who has never done action work, never with his own hand killed a man, can hardly appreciate the taste of it.
 
@@ -668,13 +668,13 @@ What left the deeper impression was that every cell meeting was a serious affair
 
 Writing to this point, there is a remark I have kept bottled up in my belly for decades, and I think it best to speak it out. Just after the Zhang Jingyao case had succeeded, Mr. Dai came to Beiping again, and as we spoke of “Lixingshe” matters he once instructed me: “What matters is still the work of the ‘Beiping Station’; I hope you will not spend too much time taking part in ‘organizational activity.’”
 
-As to the meaning of this remark, I could not press him deeply; the result of my own working-out was an eight-character reading, namely: “One's own post above all; cooperate and divide the labor.”
+As to the meaning of this remark, I could not press him deeply; the result of my own working-out was an eight-character reading: “One's own post above all; cooperate and divide the labor.”
 
-This was the situation then. In some years after, I heard some “idle talk” too: it was said that among the senior cadres inside the “Lixingshe” there was no avoiding a “striving for the upper hand” and a “contending for mastery.” In truth, this sort of thing happens in any body whatever, and really counts for nothing.
+This was the situation then. In some years after, I heard some “idle talk” too: it was said that among the senior cadres inside the Lixingshe there was no avoiding a “striving for the upper hand” and a “contending for mastery.” In truth, this sort of thing happens in any body whatever, and really counts for nothing.
 
-On this northern trip of Mr. Dai's, he decided to enlarge the establishment of the “Beiping Station”: an “Action Group” dealing solely with action work was set up, with Comrade Bai Shiwei as its group leader. Social activity was strengthened too, with Comrade Qi Nanpu in charge of it. Afterward, more basic cadres were sent to Beiping to strengthen our force.
+On this northern trip of Mr. Dai's, he decided to enlarge the establishment of the Beiping Station: an “Action Group” dealing solely with action work was set up, with Comrade Bai Shiwei as its group leader. Social activity was strengthened too, with Comrade Qi Nanpu in charge of it. Afterward, more basic cadres were sent to Beiping to strengthen our force.
 
-The Zhang Jingyao case here came to a stage's end; in the work of the “Juntong,” it had already been entered on the first page.
+The Zhang Jingyao case here came to a stage's end; in the work of the Juntong, it had already been entered on the first page.
 
 What remained was one small loose end, rich enough in human feeling that it must be set down.
 
@@ -690,7 +690,7 @@ That a tradesman could be so bold and open-hearted was rare indeed.
 
 In 1938, when Beiping had fallen, I came to Beiping again on a mission; though I passed his door, I dared not go in, for fear of implicating him.
 
-In 1948 I was again, amid storm and stress, quartered with my troops at Beiping, and had a Zhongshan tunic and a military uniform made at his shop. I remember that at the Spring Festival of that year Manager Ying invited a few of us to a meal of the rather famous “Tan-family cuisine.” Present, about then, was brother Bai Shiwei; at that time brother Shiwei was deputy chief of the Beiping Municipal Police Bureau, his charge being to keep local order. At this juncture the “Legation Quarter” was still the “legation district” as before.
+In 1948 I was again, amid storm and stress, quartered with my troops at Beiping, and had a Zhongshan tunic and a military uniform made at his shop. I remember that at the Spring Festival of that year Manager Ying invited a few of us to a meal of the rather famous “Tan-family cuisine.” Present, about then, was brother Bai Shiwei; at that time brother Shiwei was deputy chief of the Beiping Municipal Police Bureau, his charge being to keep local order. At this juncture the Legation Quarter was still the “legation district” as before.
 
 In the twinkling of an eye it is thirty-odd years again; I do not know whether old Mr. Ying Yuanxun is well. I wish him much blessing and long life, food and drink enough. Yet I always worry that, fine a hand though he was at cutting, he too would have no business left to do.
 
@@ -704,23 +704,23 @@ Now that a matter of a human life had occurred, Feilong must be in the know; sho
 
 And so we chose a day when business was slack, and at the hour when the bright lamps first came on, the three of us again went in company to the “Flower-Cultivating House.” When Feilong saw the three of us, before a word she kept pressing her lips in a smile, as if to say: “A fine thing you've done.”
 
-Elder Brother Wang drew her aside, meaning, I suppose, to give her a word of caution, but before he could open his mouth she got in first: “Set your minds at rest, gentlemen; little schooling though I have had, I would never be so wanting in sense.”
+Elder Brother Wang drew her aside, meaning, I suppose, to give her a word of caution, but before he could open his mouth she got in first: “Set your minds at rest, gentlemen; I may not have had much schooling, but I'm not so foolish as all that.”
 
 She was clever indeed; that evening we quite openly made her a “flower-tip,” which was, as it were, to give her a small bonus.
 
-From then on she and I had a good deal to do with each other. When I moved to Bicai Hutong and shared a rented house with brother Shiwei, this girl often came to linger, and we even spoke of marrying; only, because her mother demanded a sum of old-age keep that could not be met, it fell through—which too, one may say, was a matter of fate.
+From then on she and I had a good deal to do with each other. When I moved to Bicai Hutong and shared a rented house with brother Shiwei, this girl often came to linger, and we even spoke of marrying; only, because her mother demanded a sum of old-age keep that could not be met, it fell through—which too, you might say, was a matter of fate.
 
 As it turned out, this girl was under a lucky star; had she really married me, she would have known fright and fear and suffered a lifetime's misery. A year later someone redeemed her from the register—an officer, it was said; man and woman took their joy, bore sons and daughters, and so she left the life for good and became “a decent household's woman.”
 
-At this the case leaves but a very little regret, namely that when elder sister-in-law Wang Tianmu went to Tianjin to fetch reinforcements, Mr. Hou, being ill, could not come.
+At this the case leaves but a very little regret: that when elder sister-in-law Wang Tianmu went to Tianjin to fetch reinforcements, Mr. Hou, being ill, could not come.
 
-Of course, among the factors of success there is no avoiding some measure of luck; or one may say, it too was half of “Heaven's” will and half of man's!
+Of course, among the factors of success there is no avoiding some measure of luck; or you might say, it too was half of “Heaven's” will and half of man's!
 
 Looking back over the whole, the case's smooth completion cost no sacrifice and suffered no mishap; it implicated no one and failed no one. Truly it was a piece of work perfect and complete, whole from head to tail.
 
 In the ten years thereafter, among the more than two hundred acts of action-and-sabotage work under my command, never again was there one so flawless.
 
-The bizarre shooting-death that occurred on 9 November 1934 within the Guomin Hotel in the French Concession of Tianjin was the first close-quarters clash between the work units under the “Juntong's” leadership and the Communist Party in the North China region.
+The bizarre shooting-death that occurred on November 9, 1934, within the Guomin Hotel in the French Concession of Tianjin was the first close-quarters clash between the work units under the Juntong's leadership and the Communist Party in the North China region.
 
 This was of course no ordinary killing, nor a simple piece of traitor-rooting work; in substance it should be reckoned a piece of armed political struggle, banners clear and battle-lines sharply drawn.
 
