@@ -6032,3 +6032,54 @@ commissioner directive, R9 does NOT declare the book complete: it serves the
 F0 FOOTNOTE-DENSITY pass kickoff. HANDOFF.md's next-chat message is now the F0
 kickoff (§12.5), and the R9 reply serves that kickoff in place of a completion
 notice.
+
+---
+
+# F0 — FOOTNOTE-DENSITY PASS (single wave, whole book) — IN PROGRESS
+
+Authority: REVISION_PLAN.md §12. Content FROZEN; notes only. Baseline at
+start of F0: 375 translator notes (per-chapter start counts recorded below).
+Method per chapter (§12.3): read shipped English against the Chinese source
+in aligned chunks; list every term/person/place/event/institution/allusion a
+non-specialist Western reader would miss; check glossary.json + existing
+notes.json FIRST (no duplicates; first-appearance discipline — grep earlier
+occurrences); draft with real sources and stated verdicts; author via
+apparatus_merge.py; check_apparatus clean; rebuild + qa_epub (+ epubcheck);
+commit AND PUSH at every chapter boundary.
+
+**RESUME POINT:** see the "F0 chapter ledger" line below for the last COMPLETE
+chapter. An interrupted session resumes from the next chapter with the SAME F0
+kickoff (REVISION_PLAN §12.5). Do not spawn a new batch id.
+
+## F0 chapter ledger (last COMPLETE chapter = ch01)
+
+- **ch01 (Foreword) — DONE.** Notes 6 -> 10 (+4). New notes span all four
+  kinds/domains:
+  - `the storyteller's embroidery` — 演义 <i>yanyi</i>, the historical-romance
+    genre (literary culture; e.g. *Romance of the Three Kingdoms*). Chen
+    disclaims writing a yanyi. Source: standard literary reference
+    (Wikipedia, "Romance of the Three Kingdoms" / the yanyi genre).
+    Verdict: corroborated.
+  - `a martyr's death` — 成仁 <i>chengren</i>, allusion to *Analects* 15.9
+    (卫灵公, 杀身成仁); the set phrase 成功成仁. Source: Chinese Text Project
+    (ctext.org, Wei Ling Gong 9) + Legge translation. Verdict: corroborated
+    (canonical).
+  - `a scale and half a claw` — 一鳞半爪 idiom; a dragon glimpsed in cloud,
+    hence any fragmentary view. Source: Baidu Baike 一鳞半爪 (earliest attr.
+    Tang, 高仲武《中兴间气集》; poetics locus 赵执信《谈龙录》, variant 一鳞一爪).
+    Verdict: corroborated.
+  - `the thread that stitches the pages together` — 钉书的线 / 线装
+    (thread-bound books), material culture. Source: standard reference on
+    Chinese traditional bookbinding (线装书). Verdict: corroborated.
+  - NOT re-noted in ch01 (already covered by the 6 pre-F0 notes): War of
+    Resistance; 特务工作 tewu gongzuo; 活口 huokou; 忠烈祠 Martyrs' Shrine /
+    奉祀忠烈; the title 英雄无名; the five-part plan. Considered and DECLINED
+    (would be padding): 可歌可泣, 故神其说, 二三十年代 (decade explicit in the
+    English), 名节, 自我标榜.
+  - ch01 is the book's least concrete chapter (an abstract, reflective
+    foreword); downstream narrative chapters carry far more concrete
+    references (people, places, units, weapons, currency, geography) and will
+    be much denser. +4 here is the honest density for a foreword.
+
+Book note total after ch01: **379** (qa_epub PASS; epubcheck 5.1.0 0/0/0/0).
+
