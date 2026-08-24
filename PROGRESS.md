@@ -6051,7 +6051,7 @@ commit AND PUSH at every chapter boundary.
 chapter. An interrupted session resumes from the next chapter with the SAME F0
 kickoff (REVISION_PLAN §12.5). Do not spawn a new batch id.
 
-## F0 chapter ledger (last COMPLETE chapter = ch30)
+## F0 chapter ledger (last COMPLETE chapter = ch31)
 
 - **ch01 (Foreword) — DONE.** Notes 6 -> 10 (+4). New notes span all four
   kinds/domains:
@@ -6514,6 +6514,15 @@ qa_epub carry the per-chapter risk).
   stores incl. Sincere (ch28). Declined: "Brother Yuanshen" narrator alias
   (uncertain + author's own device, revealed in-text), Yunfei hire-car (uncertain),
   Lyceum Theater (minor). Total after ch30: **553**. [epubcheck 0/0/0/0]
+
+- **ch31 (Part Three, Written Before the Third Volume Went to Press — errata) —
+  DONE.** Short. Notes ? -> +4. New: `Central Supervisory Committee` (KMT
+  oversight organ); `Pear Garden` (梨园, opera-world metonym, Tang Xuanzong);
+  `Legislative Yuan` (立法院, parallel to the Executive Yuan glossed ch09); `Chen
+  Gongbo` (陈公博 1892-1946, Wang-regime leader, executed 1946). Standard;
+  corroborated. NOT re-noted: Yang Zaixing + Xiaoshang River (ch24 Xin Yanqiu
+  note), Yue Fei (ch16 twelve-gold-tablets note), Executive Yuan (ch09), No.76.
+  Declined: The Tale of Hongfu (uncertain opera title). Total after ch31: **557**.
 
 <!-- F0_LEDGER_APPEND -->
 
