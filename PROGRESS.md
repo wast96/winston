@@ -6051,7 +6051,7 @@ commit AND PUSH at every chapter boundary.
 chapter. An interrupted session resumes from the next chapter with the SAME F0
 kickoff (REVISION_PLAN §12.5). Do not spawn a new batch id.
 
-## F0 chapter ledger (last COMPLETE chapter = ch03)
+## F0 chapter ledger (last COMPLETE chapter = ch04)
 
 - **ch01 (Foreword) — DONE.** Notes 6 -> 10 (+4). New notes span all four
   kinds/domains:
@@ -6118,6 +6118,27 @@ qa_epub carry the per-chapter risk).
   action team. Declined as padding: "Let Me Give One Example" (Wang's essay —
   prose characterizes it), 穿房越脊/飞檐走壁 (martial-skill phrase, transparent).
   Total after ch03: **388**.
+
+- **ch04 (Introduction: Renown Won in a Hundred Battles + the essay on secret
+  service work) — DONE.** Notes 24 -> 26 (+2). Already the densest intro; added
+  only genuine gaps. New: `cooking the hound once the hare is caught` (兔死狗烹,
+  Sima Qian, *Records of the Grand Historian* / 越王勾践世家, Fan Li's letter;
+  allusion, source Baidu Baike; corroborated); `air-dropping our working comrades
+  one by one into the mainland` (the early-1950s US/CIA covert airdrops of
+  Nationalist agents from Taiwan under Western Enterprises Inc.; Downey–Fecteau
+  1952 Manchuria shoot-down; kind-4 author-as-witness + reference; sources:
+  CIA.gov "Extraordinary Fidelity," globalsecurity.org/formosa, FRUS 1952-54
+  v14 — NOT the Grokipedia hit, excluded per rule 5; corroborated).
+  NOT re-noted (already covered): Three Tycoons / Green Gang (in Zhang Xiaolin
+  note); Nie Rongzhen (in Lin Biao note); Mao Renfeng + Bureau of Confidential
+  Investigation/保密局 (in Zheng Jiemin note); Juntong, Kempeitai, Tokkō, Ume
+  Kikan, Ōtsuka, Li Shiqun, Special Operations HQ, Fu Xiao'an, Zhang Xiaolin,
+  Zeng Zhongming, striking-the-wrong-carriage, Mencius 富贵不能淫 ("riches and
+  honor cannot corrupt"), Zhongnan shortcut, unequal treaties, International
+  Settlement, Gang of Four, Liu Shaoqi, Lin Biao, Mao Zedong, Kaohsiung 1979.
+  Declined as padding: 借刀杀人 (transparent, inside a rhetorical list), Tao Zhu
+  (list member), Xin Shen Bao / Zhonghua Ribao (newspaper titles), Gestapo/CIA
+  (Western readers know them). Total after ch04: **390**.
 
 <!-- F0_LEDGER_APPEND -->
 
