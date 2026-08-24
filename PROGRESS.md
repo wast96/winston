@@ -6051,7 +6051,7 @@ commit AND PUSH at every chapter boundary.
 chapter. An interrupted session resumes from the next chapter with the SAME F0
 kickoff (REVISION_PLAN §12.5). Do not spawn a new batch id.
 
-## F0 chapter ledger (last COMPLETE chapter = ch23)
+## F0 chapter ledger (last COMPLETE chapter = ch24)
 
 - **ch01 (Foreword) — DONE.** Notes 6 -> 10 (+4). New notes span all four
   kinds/domains:
@@ -6437,6 +6437,17 @@ qa_epub carry the per-chapter risk).
   NOT re-noted: Japanese gendarmerie=Kempeitai (ch04), No.76/sanction/为虎作伥
   (covered). Declined: New Asia Peace Promotion Assoc. + Yu Yefeng (uncertain).
   Total after ch23: **515**.
+
+- **ch24 (Part Three §4, Beset on Three Sides — No.76 / opera-testimony chapter)
+  — DONE.** Notes 24 -> 27 (+3). New: `eight mou` (亩 land unit ~1/6 acre);
+  `Chen Diaoyuan` (陈调元 1886-1943, general; his Jessfield Rd estate became No.76 —
+  verified as real NRA general, chairmanships per memoir); `too many for the bamboo
+  to record` (罄竹难书). Corroborated.
+  NOT re-noted (covered): Ding Mocun (ch17 No.76 note), Huang/Du/Zhang Green Gang
+  triumvirate (ch04 Zhang Xiaolin note), the three operas Yutangchun/Xiaoshang
+  River/Tiaohuache + Peking opera/pihuang (ALL in ch24 Xin Yanqiu note), No.76/
+  Badlands/Loyal & Patriotic Army/Tama Force/Yuan Shu/Wu Peifu/Wan Molin (covered).
+  Total after ch24: **518**. [epubcheck 0/0/0/0 checkpoint]
 
 <!-- F0_LEDGER_APPEND -->
 
