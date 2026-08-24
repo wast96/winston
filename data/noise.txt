@@ -1084,3 +1084,13 @@
 # 、二 (2) has no English match once the pair renders as "1962 or 1963" (the old
 # "fifty-second" was coincidentally supplying it; RULE R1-3). Strip the pair.
 五十一、二
+#
+# --- R6 (register revision, ch24) entries ---
+#
+# R6 (ch24 p121/p123): Room number 四○七号 = "Room 407". The full-width zero ○
+# breaks the CJK numeral run, so the checker reads 四 and 七 as bare 4 and 7
+# rather than 407; the real quantity 407 IS fixed in the English ("Room 407").
+# The old wording's spelled ordinals "twenty-fourth"/"twenty-seventh" had been
+# coincidentally supplying those 4 and 7; converting the narration date to
+# "June 24, 1938" orphaned them (RULE R1-3). Strip the mis-parsed room number.
+四○七
