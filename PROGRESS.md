@@ -6051,7 +6051,7 @@ commit AND PUSH at every chapter boundary.
 chapter. An interrupted session resumes from the next chapter with the SAME F0
 kickoff (REVISION_PLAN §12.5). Do not spawn a new batch id.
 
-## F0 chapter ledger (last COMPLETE chapter = ch11)
+## F0 chapter ledger (last COMPLETE chapter = ch12)
 
 - **ch01 (Foreword) — DONE.** Notes 6 -> 10 (+4). New notes span all four
   kinds/domains:
@@ -6296,6 +6296,23 @@ qa_epub carry the per-chapter risk).
   Kempeitai, Republican dating, sworn-brother address, ancestral hall/Traitor-
   Killing Corps/Luan-Yu/Kongming cart/Gao Zongwu-Mei Siping/Jing-Wei (ch11 pre-F0).
   Total after ch11: **449**.
+
+- **ch12 (Part Two §2, Unfathomable Hearts — the diplomatic-history chapter) —
+  DONE.** Notes 16 -> 24 (+8). Already dense with diplomatic notes; added only
+  gaps. New (standard/verified; corroborated): `the cangue` (枷, neck-board
+  punishment); `the eighteenth level of hell` (十八层地狱); `the dagger showing at
+  the map's end` (图穷匕见, Jing Ke assassination allusion); `Virtue is not left an
+  orphan; it must have neighbors` (德不孤必有邻, Analects 4.25); `the European war`
+  (= WWI, not WWII); `reaching Yu only toward evening` (渝 = Chongqing; one-char
+  city tags 平/津/沪/渝 convention); `Chairman Lin presided` (Lin Sen 林森, titular
+  ROC Chairman 1931-43); `the stair heard creaking...` (只闻楼梯响不见人下来 proverb).
+  NOT re-noted: Annam/Annamese (ch11), Chen Bulei (ch11), Double Seventh (=Marco
+  Polo Bridge, glossed), Kagesa (ch10), plus the 16 pre-F0 diplomatic notes
+  (Eighteen Arhats, Tai'erzhuang, Long Yun, New Order in East Asia, Shina, Five
+  Ministers' Conference, Kōain, Twenty-One Demands, Nine-Power Treaty,
+  Shimonoseki, Zhanggufeng, Tanaka Memorial, Party Leader's Memorial Week, Jin
+  Xiongbai, Hirota's Three Principles). Declined: "Duke Chiang" honorific (Chiang
+  obvious from context). Total after ch12: **457**.
 
 <!-- F0_LEDGER_APPEND -->
 
