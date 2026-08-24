@@ -6051,7 +6051,7 @@ commit AND PUSH at every chapter boundary.
 chapter. An interrupted session resumes from the next chapter with the SAME F0
 kickoff (REVISION_PLAN §12.5). Do not spawn a new batch id.
 
-## F0 chapter ledger (last COMPLETE chapter = ch19)
+## F0 chapter ledger (last COMPLETE chapter = ch20)
 
 - **ch01 (Foreword) — DONE.** Notes 6 -> 10 (+4). New notes span all four
   kinds/domains:
@@ -6399,6 +6399,15 @@ qa_epub carry the per-chapter risk).
   Declined: Republican date-span (convention already glossed ch08; per-instance
   conversion = padding), "Prefatory Candour" (uncertain earlier-section title).
   Total after ch19: **501**.
+
+- **ch20 (Part Three, Author's Preface — Shanghai) — DONE.** Thin preface;
+  2 -> 5 (+3). New: `the great fallen city of Shanghai` (沦陷 "fallen" = under
+  Japanese occupation, recurring); `our Party...` (= Kuomintang, not the
+  Communists — orientation); `the result plain the moment the pole is raised`
+  (立竿见影). Declined: part-titles (structure glossed ch01/TOC), "Wang puppets"
+  (Nanjing regime glossed ch03), Zhonghua Ribao/newspaper titles (context-clear),
+  "give the enemy some color" (colloquial/semi-transparent). Total after ch20:
+  **504**.
 
 <!-- F0_LEDGER_APPEND -->
 
