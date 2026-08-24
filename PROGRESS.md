@@ -5613,3 +5613,254 @@ CAUTION); the already-colloquial Zhu-Min dialogue (ch29 p051) LEFT as rendered.
   which is precisely what that test inverts. Benign; not a tooling regression, not
   fixed. All other checker regression tests green (including check_numbers after
   the three new noise entries).
+
+## R8 (ch30, ch31, ch32, ch33, ch34, ch35) — register revision pass
+
+Eighth batch of the register pass (REVISION_PLAN.md §3/§5). The Third-Part close
+plus the whole FIFTH Part opening: Chapter 10 Part 2 — Liu Yuanshen's own arrest
+account and Chen's capture (ch30); the Third-Volume front matter — "Written
+Before the Third Volume Went to Press" (ch31) and the "Author's Preface" (ch32);
+and the Fifth Part's first three chapters — the Lizhi Class / Pacification Corps
+and Chen's return to Beiping (ch33), the corps organization and the three
+"briefings" (ch34), and the Li-Mingqiu / Lin-Biao / Tao-Zhu strategic-intelligence
+case (ch35). **141 edits total** (ch30 31, ch31 4, ch32 20, ch33 46, ch34 18,
+ch35 27) via `edits/<id>_edits.md` + `apply_edits.py`; ch30's last 5 are the
+blind-critique ACCEPTs (below).
+
+Dominated, as R3-R7, by **DATE accessibility**: the Fifth-Part chapters are
+mission-chronology and career-recap chapters saturated with Republic-year
+NARRATION dates -> Gregorian (number-check-safe: Republic year N -> N+1911, which
+`check_numbers.py` resolves natively via `(m+1911) in target`; month names carry
+the month numeral). ~86 date phrases converted across the six. **ALL
+quoted-document dates LEFT** (§3.1): Chiang's opening-ceremony addresses (ch33
+p004/p017), the Liu Peichu memoir *Fleeting Glimpses of a Floating Life* (ch33
+p014/p021/p027, ch34 p032, ch35 p017/p087), the Luo Jing autobiographical excerpt
+(ch33 p118-p134 — a bracketed 兹摘录如下 EXCERPT of another man's first-person
+life-account, treated as a QUOTED DOCUMENT and LEFT WHOLE, its many dates
+untouched — distinct from the Liu Yuanshen ch30/ch29 account, an un-quoted
+contributed narrative section that IS edited), the Li Yulin 事略 (ch33 p111),
+the self-quoted Book-1 telegram (ch33 p108), the US-spokesman statement (ch33
+p001), Wang Zhaofen's account (ch34 p029-p030), Tao Zhu's and Li Mingqiu's
+reported speech (ch35 p130/p161-p185). ch30's opening section 3 IS Liu Yuanshen's
+own arrest account "set down in his own hand" — EDITABLE contributed prose per
+the R6/R7 (Mao Wanli / Liu Yuanshen) precedent — its dates converted; sections
+4-5 are Chen's own capture narrative. The remainder: T1 kill-list
+(of-a-sudden->suddenly/all-at-once ×6 in ch30; bethought/bethinking; no-help-for-
+it / nothing-for-it; in-this-wise; adverbial "besides"); T2 could-not-but /
+could-only recasts and a couple of 失信背约 / 兼-doubling de-doublings (RULE R1-5);
+T6 impersonal "one" thinned to I/you/which-shows WHERE it renders a generic
+self, the **essayist "one" KEPT** (ch34/ch35 are heavily reflective; §3.2 T6
+CAUTION); RULE R1-1 wrong-image fix 硬着头皮 "harden my scalp" -> "steel myself"
+(ch30). A very few T5: 2 contractions for the casual young speaker Zhou (ch30).
+
+### Tic battery, before -> after (classes that moved; DATE work is not visible here)
+
+| class | ch30 | ch31 | ch32 | ch33 | ch34 | ch35 |
+|---|---|---|---|---|---|---|
+| T1 of-a-sudden | 6->0 | 0 | 0 | 3->2 | 1->0 | 0 |
+| T1 nothing-for-it | 0 | 0 | 0 | 1->0 | 0 | 2->0 |
+| T1 besides (adv) | 8->8 | 1->0 | 5->4 | 11->10 | 8->8 | 8->8 |
+| T1 day-month dates | 0->0 | 0 | 0 | 0 | 0 | 0 |
+| T2 could-not-but/only | 6->3 | 0 | 1->0 | 2->2 | 3->3 | 11->10 |
+| T2 litotes | 5->5 | 1->0 | 1->1 | 2->1 | 3->3 | 5->5 |
+| T6 impersonal "one" | 4->1 | 0 | 2->0 | 12->9 | 8->8 | 15->15 |
+| T4 >60 / >90 words | 30/6 | 2/0 | 12/1 | 48/16->47/15 | 47/12->45/12 | 43/13->43/12 |
+| T3 quoted pairs | 0 | 0 | 73 | 0 | 0 | 0 |
+
+The **"day-month dates" battery row stays 0 because the Republic-year narration
+dates this batch converts are of the "the thirtieth year of the Republic" /
+"the seventh month" FORM, which that grep (built for "10 November" numeric
+day-month) never counted; the ~86 conversions are the batch's real bulk and are
+invisible to the battery** (the number gate, 0 unresolved across all six, is
+their proof). Residual T1/T2/T6 counts are dominated by (a) essayist "one" in the
+reflective chapters (ch34/ch35 — KEPT, §3.2 T6 CAUTION), (b) "besides" that is
+prepositional/tail, not the sentence-adverb (T1 CAUTION), and (c) faithful
+"could only" (只好/只有) and grave litotes inside Chen's/Liu's deliberate register.
+T4 barely moves: the long sentences are quoted documents (stay long) and Chen's
+periodic set-pieces that LAND (T4 CAUTION); the two ACCEPTED splits (ch30 #233,
+and the ch33/ch34 seams) are the only topology touches.
+
+### T3 quote policy applied
+
+Near-zero strips, per the R5/R6/R7 precedent. ch32's 73 quoted pairs are the
+Fifth-Part org/plan/term-of-art names ("Committee of Three", "Lizhi Plan",
+"Pacification Corps", the rail lines, "pacification"/"intelligence"/"action"/
+"assault", etc.) and the quoted Liu Peichu memoir; ch33/ch34/ch35 carry the same
+decided org names with the source's 「」 in plain narration. The book-wide strip
+decision remains DEFERRED to R9 (see reconciliation flags); KEPT this batch for
+consistency with the adjacent Part-3/Fifth-Part chapters. Quotes otherwise KEPT
+at naming/anatomizing sites, marked irony, titles, code/cover names, quoted
+documents, dialogue, and note-anchor sites.
+
+### Spot-audit (>=10% of edited paragraphs per chapter, against the source)
+
+Audited each chapter's substantive edits against the zh (all date conversions,
+the R1-1 fix, the recasts, the impersonal thinning, and each chapter's tail). All
+preserve propositional content exactly; every +1911 mapping verified and
+confirmed by the 0-unresolved number gate. Sample: ch30 p001 (June 28, 1941),
+p021/p085 (Oct 29-30, 1941), p014 硬着头皮->"steel myself"; ch31 p010 (Dec 27,
+1939 martyrdom date); ch32 p005 (1946), p018/p024 (Sept 1947), p031 (1950-51),
+p034 (end Jan 1949); ch33 p002/p011 (1946), p013 (mid-Mar 1946), p017 (July 20,
+1947), p030 (1914), p083 (1933/1939/1947), p107 (1938-39; 民前七年 LEFT), p145
+(Aug 1945); ch34 p006 (spring-summer 1949), p054 (1986 = year of writing), p060
+(1924-25; 1938), p089 (Apr 1933), p115 (Jan-Aug 1939); ch35 p028 (late autumn
+1947), p051 (spring 1926), p091 (1947-48), p102 (1936), p125 (Apr 1927), p128
+(summer 1930), p155 (end 1947-autumn 1948), p191 (1949; 1951). Per-chapter
+number checks all reconcile (parity by construction; ch30 108 / ch31 14 / ch32 35
+/ ch33 151 / ch34 127 / ch35 194 pairs, 0 unresolved). Tails re-read against zh:
+all faithful and intact.
+
+### SECOND blind critique (§8/§9.2) — revised ch30, adjudicated ACCEPT/REJECT-by-class
+
+The verbatim §5.6 blind-reader prompt was run on the REVISED ch30 (alone, no
+source, no plan, no repo context) by a context-blind reader. It returned **354
+findings** — an aggressive modern-neutral read that, as predicted by RULE R1-4,
+flags Chen's persona and deliberate gravity wholesale.
+
+**ACCEPTED (5) — genuine errors, none of them persona; folded into ch30:**
+- #5 (p002): participle-to-finite tense shift "first riding two stops... then got
+  off" -> "first rode... then got off".
+- #54 (p008, dialogue): RULE R1-1 wrong-image "call this Mr. Zhang a Yangzhou
+  fried rice" (叫 = order food; "call sb a X" = insult) -> "order".
+- #104 (p014): dangling participle "My heart was uneasy, not knowing what I
+  waited for" -> "Uneasy, I had no idea what I was waiting for" (RULE R1-2).
+- #233 (p063): syntactic ambiguity "neither of them tall, thick-set and stoutly
+  built" -> "Neither of them was tall; both were thickset and solidly built".
+- #300 (p087): opaque archaism "two possible bournes" -> "two possible
+  destinations".
+
+**REJECTED-by-class (the other ~349), with reason (RULE R1-4):**
+- *Deliberate grave/formal register = the §3.1 TARGET, not a defect* (~150+):
+  "wretched past telling", "past all bearing", "beyond all looking-for", "at the
+  very pass of life and death", "in the broad, brazen light of day", "a thing not
+  to be borne thinking of", "how should I not be grateful?", the narrating "shall",
+  the periodic build-ups. The read-aloud test keeps these: a grave old officer CAN
+  say them; they are Chen's/Liu's persona (content), which this pass modulates, not
+  razes. The blind reader is calibrated to modern-neutral, which §3.1 explicitly
+  rejects for Chen's voice.
+- *Rendered chengyu / idiom-images to KEEP for their picture (§3.3) and annotate
+  in F0, NOT smooth away* (~40): 刀山火海 "mountains of knives and seas of fire",
+  粉身碎骨 "dashed to powder and bits", 釜底抽薪 "take the firewood from under the
+  cauldron", 死不瞑目 "eyes that could close", 狗急跳墙 "a cornered dog will leap the
+  wall", 生死关头, 察言观色, 衣冠禽兽 "a beast in man's clothes", 疑心生暗鬼 "suspicion
+  breeds its phantoms".
+- *Cultural terms / character-decompositions left in scare-quotes pending the F0
+  FOOTNOTE pass — not the register pass's job* (~25): "pig-cage van" (猪笼车),
+  "three-stripe head" (三道头), the 立早章 Zhang name-decomposition, "turtle's egg"
+  (王八蛋), "Second Master" (二爷), "rice-bowl" as livelihood (饭碗), 久仰 "I have
+  long admired the name", the 老同事/新同事 pun. These are FLAGGED for F0 (§12), not
+  changed here.
+- *Faithful renderings whose "fix" would distort the source* (~30): #235 "they
+  liked to shove and jostle" (source 喜欢 = were fond of); #188 "a black glass bead
+  glinting in the crack" (the source keeps Liu's not-sure-what-it-is ambiguity);
+  #242 "open-handed" (a defensible reading of the author's ironic 「大方」); the
+  emotion-lists and the deliberate 坐南朝北-type source repetitions.
+- *Recurring-tic observations logged as a RULE R1-5 WATCH for R9's book-wide
+  sweep, not chased in a spot-checked chapter* (see below): #89 the "no little /
+  no few / not a few / no small" litotes family; "of set purpose" for 故意; "as I
+  recall" hedges; "one sheet of" for 一片; the rhetorical-question deduction habit.
+
+**Verdict:** the blind critique confirms the pass is on target for its own brief
+— the reader stops at register only where the register is Chen's DELIBERATE
+persona (RULE R1-4 exactly as R1 found: the great bulk of flags name the
+protected furniture), and the genuinely actionable errors it surfaced (5) were
+real and are fixed. This is the register pass's success signal, not a defect
+signal (§10: "a blind reader should stop flagging register within two spot
+checks" — the residue is persona/idiom/footnote-pass, which by design it will
+keep naming until F0 annotates the idioms and the register is read WITH its
+persona in mind).
+
+### New §3.5 rule (append to REVISION_PLAN.md at R9 if it recurs)
+
+- **RULE R8-1 (proposed): the "no little / no few / not a few / no small" litotes
+  family is a recurring tic to sweep book-wide in R9.** WHY: the R8 blind read
+  named it "the single most pervasive translationese tic" in ch30 (a dozen-plus
+  instances). It is already on the T2 kill-list ("litotes counting"), but the
+  QUALITY-litotes form ("a man of no little depth") reads as grave register and
+  was left case-by-case; the QUANTITY form ("no small number", "no few comrades")
+  should be thinned. FIX: R9's whole-book pass greps `no (little|few|small)\b` and
+  `not a few` and thins the quantity instances to "a good many / quite a few /
+  considerable", keeping a grave quality-litotes only where it genuinely lands.
+  CHECK: the grep count drops materially book-wide.
+
+### Noise entries added (data/noise.txt) — do-not-revert
+
+- `郑、毛两位` (ch33 p083): counter-by-naming "Messrs. Zheng and Mao, the two of
+  them"; both named in the English, so 两 (2) is a counter, not a tracked value
+  (cf. 陈、齐两位 / 周、朱两人). RULE R1-3 latent match: the old date wording
+  "twenty-second year" matched `\bsecond\b`->2 and had been covering this 两;
+  converting to "1933" orphaned it.
+- `三十六、七` (ch35 p091): elided Republic-year pair 三十六、七年 = 1947-48; 、七
+  elides 三十七, so the checker reads 三十六 (36) and a bare 七 (7). Rendered "1947
+  or 1948" (+1911); the old "thirty-seventh" carried the 7 via `\bseventh\b`.
+  Strip the whole elided pair (English carries the years). Same class as 二十七、八.
+- `卅二` (ch35 p059): 卅二年 = the 32nd Republic year (1943); 卅 (a variant of 三十)
+  is NOT in the checker's CJK-numeral charset, so 卅二 reads as a bare 二 (2) that
+  the old "thirty-second year" covered via `\bsecond\b`. Rendered "1943" orphaned
+  it (RULE R1-3). Strip the mis-parsed pair.
+- All R1-R7 entries stand.
+
+### RULE R1-3 latent matches surfaced (documented, not contorted)
+
+- ch33 p083 (`郑、毛两位`), ch35 p091 (`三十六、七`), ch35 p059 (`卅二`) above — all
+  three are the R1-3 class: a spelled ordinal or elided form in the old date had
+  been silently covering a counter / elided-tens / variant-glyph numeral, fixed by
+  a documented noise entry, not by contorting the date. The `卅二` case adds a new
+  sub-species: a VARIANT NUMERAL GLYPH (卅 for 三十) outside the checker's charset;
+  watch for 卅/廿 forms on every date edit.
+
+### R9 / whole-book reconciliation flags (NOT changed in R8)
+
+- **T3 org-name quotes now span ch19-ch35** all KEEP the source's 「」 on the
+  recurring decided org names in plain narration; R9 makes the book-wide strip
+  call (ch32's 73 pairs are the densest single-chapter instance — org/plan names).
+- **Rail-line rendering drift:** 津浦(铁路) appears as "Jin-Pu Railway" (ch33
+  p035/p109, ch35) AND "Tianjin-Pukou line" (ch32 p019); 平汉 as "Ping-Han" and
+  "Beiping-Hankou line"; 北宁 as "Bei-Ning" and "Beiping-Liaoning line" (a note
+  anchor at ch34 p019). R9 reconcile the line names book-wide (anchor sites keep
+  their form).
+- **第二处 rendering:** "Second Section" (ch33 p075/p099, ch34, ch35) vs the earlier
+  §R3 flag "Second Bureau"(ch09)/"Second Department"(ch05); and 第二厅 "Second
+  Bureau"(ch33 p013). R9 decide 处/厅 (Section/Bureau/Department) book-wide.
+- **民前 forms LEFT unconverted** (ch33 p107 民前七年 "the seventh year before the
+  Republic" = 1905; +1911 does not apply to 民前, per the §R5 ch18 precedent).
+- **Contributed-account boundary ruling (R8):** an embedded first-person account
+  is EDITABLE narration when it is an un-quoted narrative SECTION written for the
+  book (Liu Yuanshen ch29/ch30, Mao Wanli ch21) but a QUOTED DOCUMENT, left whole,
+  when it is a bracketed 摘录 EXCERPT of the person's own writing (Luo Jing ch33
+  p118-p134). R9 note the distinction.
+- **RULE R8-1 litotes sweep** (above) — the whole-book quantity-litotes thin.
+- All carried R1-R7 flags still stand (为虎作伥 four+ variants; 沐猴而冠 three
+  variants; the ch23 为虎作伥 NOTE ANCHOR to move; the ch26 p116-p122 SOURCE GARBLE;
+  the ch28->ch29 seam doubling; 爪牙 vs 为虎作伥 image overlap).
+
+### check_register (documentary/narration false positive, NOT chased)
+
+All six flag STILTED — the documented ch08/ch12/ch17/ch21/ch26-class false
+positive for narration-and-quoted-document-dominated chapters (contractions ~0
+because Chen's/Liu's narration is uncontracted by persona; ch33 shall% 80% is
+document-borne — Chiang's/Liu Peichu's quoted addresses; ch34/ch35 are
+essay+narration with almost no dialogue). NOT chased (the dialogue that exists —
+captors, officials, Chen concealing identity — is formal BY DESIGN; ch30 added 2
+Zhou contractions where a casual young speaker genuinely warranted them).
+
+### Fidelity gates (all green)
+
+Parity by construction (make_bilingual refuses a count mismatch); numbers 0
+unresolved across all six (108/14/35/151/127/194 pairs); note anchors all resolve
+(ch30 5 / ch31 3 / ch32 10 / ch33 6 / ch34 3 / ch35 8); check_align OK on all six;
+check_content (--config checks.json) shows all six "all in the paired paragraph"
+(no displacement; the DISPLACED units ch08/ch09/ch13/ch26 are the documented
+benign homograph/substring false positives, none in R8 scope). Build: qa_epub
+PASS (57 files, 50 documents, 375 refs/375 bodies/375 backlinks, all links
+resolve); epubcheck 5.1.0 **0 fatals / 0 errors / 0 warnings / 0 infos** (EPUB
+3.3). Committed and pushed at every chapter boundary (six commits) plus this
+close.
+
+### Setup note
+
+- setup.sh regression: the ONE known false alarm ("hook stands down on template
+  stub") still FAILS as documented at R2-R7 — the kickoff_guard Stop hook is
+  correctly ENFORCING because HANDOFF.md carries a real (non-template) kickoff,
+  which is exactly what that test inverts. Benign; all other checker regression
+  tests green (including check_numbers after the three new R8 noise entries).

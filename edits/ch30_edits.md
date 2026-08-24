@@ -163,3 +163,36 @@ WHY: 还差五分钟，不到十点 (Zhou, boyish/clumsy). A nervous young comra
 OLD: and said with a smile, “I have another appointment as well; let me walk out with the brigade commander.”
 NEW: and said with a smile, “I’ve another appointment too; let me walk out with the brigade commander.”
 WHY: 我也另有约会，跟大队长一起走吧 (Zhou, easy/social). T5 living speech for the casual young speaker.
+
+# ==== R8 blind-critique ACCEPTs (§5.6/§9.2; adjudication in PROGRESS §R8) ====
+# The blind read (verbatim §5.6 prompt on revised ch30) returned 354 findings;
+# the great majority REJECT-by-class (RULE R1-4): Chen's/Liu's deliberate grave
+# memoir register (the §3.1 target, §3.3 KEEP), cultural terms/idiom-images for
+# the F0 footnote pass, and faithful renderings whose "fixes" distort the source.
+# These five are the genuine errors ACCEPTED — grammatical, wrong-image, or opaque
+# — none of them persona.
+
+### p002 [T2] TOUCH
+OLD: On Avenue Joffre I boarded a tram, first riding two stops in the wrong direction, then got off
+NEW: On Avenue Joffre I boarded a tram, first rode two stops in the wrong direction, then got off
+WHY: blind #5 ACCEPT — participle-to-finite tense shift ("riding... got off"); make the series consistent finite verbs.
+
+### p008 [T5] TOUCH
+OLD: “Go and call this Mr. Zhang a Yangzhou fried rice, and bring a bowl of egg-drop soup.”
+NEW: “Go and order this Mr. Zhang a Yangzhou fried rice, and bring a bowl of egg-drop soup.”
+WHY: blind #54 ACCEPT — RULE R1-1 wrong-image: 叫 = "order" (food); "call sb a X" reads as an insult in English. Dialogue.
+
+### p014 [RULE R1-2] RECAST
+OLD: leaving two men to guard me, the rest went upstairs. My heart was uneasy, not knowing what I waited for.
+NEW: leaving two men to guard me, the rest went upstairs. Uneasy, I had no idea what I was waiting for.
+WHY: blind #104 ACCEPT — dangling participle (the heart "not knowing"); RULE R1-2, give the clause its real subject.
+
+### p063 [T4] TOUCH
+OLD: These two men were neither of them tall, thick-set and stoutly built, and from first to last never opened their mouths
+NEW: Neither of them was tall; both were thickset and solidly built, and from first to last they never opened their mouths
+WHY: blind #233 ACCEPT — syntactic ambiguity ("neither... tall, thick-set" reads as negating all three); split the clause so the sense is plain.
+
+### p087 [T1] TOUCH
+OLD: The car had but two possible bournes: one, the gendarmerie at Zhabei; the other, “No. 76” in western Shanghai.
+NEW: The car had but two possible destinations: one, the gendarmerie at Zhabei; the other, “No. 76” in western Shanghai.
+WHY: blind #300 ACCEPT — "bournes" is opaque archaism (fails the read-aloud test); "destinations" carries 去向 plainly.
