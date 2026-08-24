@@ -6051,7 +6051,7 @@ commit AND PUSH at every chapter boundary.
 chapter. An interrupted session resumes from the next chapter with the SAME F0
 kickoff (REVISION_PLAN §12.5). Do not spawn a new batch id.
 
-## F0 chapter ledger (last COMPLETE chapter = ch05)
+## F0 chapter ledger (last COMPLETE chapter = ch06)
 
 - **ch01 (Foreword) — DONE.** Notes 6 -> 10 (+4). New notes span all four
   kinds/domains:
@@ -6154,6 +6154,38 @@ qa_epub carry the per-chapter risk).
   Association; courtesy-name convention (noted ch02). Declined as padding:
   "green striplings," "thorns and brambles" (transparent). Total after ch05:
   **391**. [epubcheck 0/0/0/0 checkpoint]
+
+- **ch06 (Part One §1, A Heavy Charge — the Zhang Jingyao assassination; R1
+  frozen exemplar) — DONE.** Notes 24 -> 36 (+12). Long (655-line),
+  reference-dense narrative. New (all first-appearance, standard historical
+  facts unless noted; verdicts corroborated): `the fight against the bandits`
+  (匪/共匪 = the Communists — key recurring euphemism, unlocks all later
+  "bandit-suppression"); `after the move to Taiwan` (1949 Nationalist retreat,
+  the book's now/then frame; "the late President" = Chiang, d. 1975); `at
+  Nanjing and Mount Lu` (庐山 Lushan, Chiang's summer HQ); `Fuyou Street near
+  Zhongnanhai` (中南海); `also a fellow provincial from Sichuan` (同乡 native-place
+  ties, recurring social bond); `ranked with Li Dazhao and Chen Duxiu` (CCP
+  co-founders, 1921); `In the party purge of 1927` (清党 / White Terror, Apr
+  1927 KMT-CCP split); `announced his retirement by open telegram` (通电 circular
+  telegram, Republican practice); `startle all with its first cry` (一鸣惊人,
+  Han Feizi 喻老 / Shiji 滑稽列传 — verified ctext/Sohu/BJ Daily); `was struggled
+  to death by the Chinese Communists` (斗争/批斗 struggle session, CR); `Miss Zhu
+  the Ninth` (排行 birth-rank naming); `into the Northeast...to organize a
+  Volunteer Army` (义勇军; Gen. Li Du 李杜 1880-1956, Jilin Self-Defense Army —
+  verified zh.wikipedia/People's Daily/Baidu; corroborated).
+  NOT re-noted (covered earlier or by ch06's own 24): War of Resistance (ch01);
+  Whampoa/Three Principles/Sept18/Jan28/Lixingshe/Special Services Dept/Bureau-
+  Juntong (ch04-05); Feng Yuxiang/Northwest Army/Legation Quarter/courtesy-name/
+  Beiping/Dai Li/Zhang Jingyao/Zheng Jiemin/Chahar (ch02); thread-bound books
+  (ch01); He Yingqin/Fenghua (noted later at ch09/ch32 — first-appearance
+  imperfection left as-is, not duplicated); the prescribed Neo-Confucian works
+  (Wang Yangming/Lu Xiangshan/Zeng Guofan/Qi Jiguang — in ch06 "prescribed
+  books" note); Green/Hong Gang (in ch06 Sandianhui note); Zhang Zuolin (in ch06
+  Huanggutun note); Xi'an Incident/Zhang Xueliang (ch06). Declined as padding:
+  Zhang Zhizhong, "New Kuomintang," Fuxingshe/Renaissance Society (Lixingshe
+  layer, covered), Youth Corps, Sun Yat-sen Mausoleum, Luoyang move, Beihai/
+  Zhongshan Park, jiao unit, Dong'an/Dangui bookstalls, Nanjing standalone.
+  Total after ch06: **403**.
 
 <!-- F0_LEDGER_APPEND -->
 
