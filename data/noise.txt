@@ -1098,3 +1098,8 @@
 # the 、二 elides 四十二 (42), so the checker reads 四十一 (41) and a bare 二 (2). English
 # renders "1952 or 1953"; the lone 2 has no English match. Same class as 五十一、二 (R5).
 四十一、二
+# R7 (ch28 p146): the personal name 李圣五 (Li Shengwu) ends in 五 (5); the old
+# narration date "the twenty-fifth of the tenth month" had been supplying that 5
+# via "fifth", so converting to "October 25" orphaned it (RULE R1-3). The 五 is
+# part of the name, not a quantity; strip it.
+李圣五
