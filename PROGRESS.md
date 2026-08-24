@@ -6051,7 +6051,7 @@ commit AND PUSH at every chapter boundary.
 chapter. An interrupted session resumes from the next chapter with the SAME F0
 kickoff (REVISION_PLAN §12.5). Do not spawn a new batch id.
 
-## F0 chapter ledger (last COMPLETE chapter = ch29)
+## F0 chapter ledger (last COMPLETE chapter = ch30)
 
 - **ch01 (Foreword) — DONE.** Notes 6 -> 10 (+4). New notes span all four
   kinds/domains:
@@ -6505,6 +6505,15 @@ qa_epub carry the per-chapter risk).
   while pelting the rat` (投鼠忌器); `counter-penalty` (反坐 legal principle).
   NOT re-noted: department stores/"the Sun Company" (ch28), Du Fu "dead before the
   campaign was won" (ch29 pre-F0), Mauser (ch08). Total after ch29: **550**.
+
+- **ch30 (Part Three §10 pt2 — Chen's capture) — DONE.** Notes 5 -> 8 (+3). Most
+  candidates were covered/minor Shanghai place-names. New: `Avenue Joffre` (French
+  Concession main avenue = Huaihai Rd); `three-stripe head` (police sergeant
+  chevrons); `two zhang` (丈 length unit ~3.3m). Standard; corroborated.
+  NOT re-noted: Bubbling Well Rd (ch25), Hongkou/Kempeitai (ch28/ch04), department
+  stores incl. Sincere (ch28). Declined: "Brother Yuanshen" narrator alias
+  (uncertain + author's own device, revealed in-text), Yunfei hire-car (uncertain),
+  Lyceum Theater (minor). Total after ch30: **553**. [epubcheck 0/0/0/0]
 
 <!-- F0_LEDGER_APPEND -->
 
