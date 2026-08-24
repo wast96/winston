@@ -6051,7 +6051,7 @@ commit AND PUSH at every chapter boundary.
 chapter. An interrupted session resumes from the next chapter with the SAME F0
 kickoff (REVISION_PLAN §12.5). Do not spawn a new batch id.
 
-## F0 chapter ledger (last COMPLETE chapter = ch15)
+## F0 chapter ledger (last COMPLETE chapter = ch16)
 
 - **ch01 (Foreword) — DONE.** Notes 6 -> 10 (+4). New notes span all four
   kinds/domains:
@@ -6353,6 +6353,22 @@ qa_epub carry the per-chapter risk).
   NOT re-noted: Mauser/box-cannon (ch08), Wang Jingwei/Dai Li/sanction/Zeng
   Zhongming (covered). Declined: Banque de l'Indochine (context landmark).
   Total after ch15: **475**.
+
+- **ch16 (Part Two §6, Vile Treachery — Chen's denunciation of Wang as traitor)
+  — DONE.** Notes 8 -> 18 (+10). Allusion-dense; traitor/martyr archetypes are
+  load-bearing. New (verified/standard; corroborated): `a pair of mandarin ducks
+  sharing one fate` (鸳鸯 couple emblem); `the Canton rising of the twenty-ninth of
+  the third month` (Huanghuagang Uprising, 27 Apr 1911, 72 martyrs — distinct from
+  the 1927 Guangzhou Uprising at ch35); `the hour of the ox` (十二时辰 double-hour
+  timekeeping); `son of the Yellow Emperor` (黄帝子孙); `the Nanhua Ribao` (南华日报,
+  Wang's HK peace-faction organ — verified wangjingwei.org/zh.wikipedia); `Wen
+  Shengcai` (温生才 1870-1911, killed Manchu general Fu Qi 1911, martyr — verified);
+  `Yi Wan-yong` (李完用, signed 1910 Korea annexation, byword for traitor); `Puyi`
+  (last Qing emperor / Manchukuo puppet); `Wu Sangui of the Ming` (opened Shanhai
+  Pass to the Qing 1644); `Sun Wukong` (Monkey King's untellable tail).
+  NOT re-noted: Wang Zhaoming (ch15), Qin Hui + Yue Fei (in the ch16 "twelve gold
+  tablets" note — West Lake kneeling-statue image declined to avoid re-gloss),
+  Manchukuo. Total after ch16: **485**.
 
 <!-- F0_LEDGER_APPEND -->
 
