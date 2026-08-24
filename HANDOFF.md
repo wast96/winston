@@ -9,7 +9,7 @@ session updates the kickoff block below for the next one.**
 ## Message to paste into the next chat
 
 ```
-Nameless Heroes R6: register revision pass
+Nameless Heroes R7: register revision pass
 
 Branch: claude/nameless-heroes ONLY. First acts: git fetch origin
 claude/nameless-heroes && git checkout claude/nameless-heroes && git
@@ -20,7 +20,7 @@ Never read any other branch.
 Read CLAUDE.md, then REVISION_PLAN.md IN FULL (it is the authority for
 this pass), then run ./setup.sh.
 
-Scope this batch: ch19, ch20, ch21, ch22, ch23, ch24. Content is frozen;
+Scope this batch: ch25, ch26, ch27, ch28, ch29. Content is frozen;
 English-to-English register edits only, per REVISION_PLAN.md §3 (defect
 classes T1–T6, KEEP list) and §5 (method, exactly). Edits via
 edits/<id>_edits.md + apply_edits.py; verify_unit + tic battery
@@ -36,28 +36,37 @@ approval stops.
 ```
 
 
-## Revision pass state (after R5)
+## Revision pass state (after R6)
 
 - **DONE:** R1 (ch06, exemplar, frozen as `reference/R1_frozen.md`). R2 (ch07,
   ch08: 86 + 65 edits). R3 (ch01-ch05, ch09, ch10: 85 edits). R4 (ch11, ch12,
-  ch13: 217 edits). **R5 (ch14, ch15, ch16, ch17, ch18): 170 edits total**
-  (ch14 5, ch15 39, ch16 25, ch17 36, ch18 61) via `edits/<id>_edits.md` +
-  `apply_edits.py`. The opening of the Shanghai sub-book: dominated again by DATE
-  accessibility (ch15/ch17/ch18 are mission-chronology chapters — Republic-year
-  and spelled day-month narration dates -> Gregorian/American across 1925-1984),
-  plus T6 impersonal "one", T5 dialogue naturalization (the canonical §3.2 Bingxi
-  example at ch16 p034; Mr. Xu, Chunfeng, Luqiao, Tang), a few T1/T2, and three
-  RULE R1-1 opaque/broken-idiom fixes (为虎作伥; "Had is had..."; 背黑锅;
-  "first come, first master"). All fidelity gates green (parity ch14 5 / ch15 225
-  / ch16 116 / ch17 147 / ch18 138; numbers 0; anchors ch14 0 / ch15 11 / ch16 8
-  / ch17 9 / ch18 6 all resolve; align OK). qa_epub PASS + epubcheck 0/0/0/0.
-  **check_register: ch14/ch15/ch16 within tolerance; ch17 flags STILTED and ch18
-  "little dialogue — noisy" — the ch08/ch12-class documentary false positive
-  (quoted-document mass + Dai Li's deliberately-formal mission-instruction
-  dialogue), NOT chased.** Ran the R5 blind-critique spot check on revised ch16
-  §1 (150 findings; 2 ACCEPTed and applied, ~148 REJECT-by-class per RULE R1-4).
-  Full tic tables + adjudication + findings in PROGRESS.md §R5.
-- **Carry-forward for R5+:** voice sheets in REVISION_PLAN.md §3.4; T3 rule as
+  ch13: 217 edits). R5 (ch14, ch15, ch16, ch17, ch18: 170 edits). **R6 (ch19,
+  ch20, ch21, ch22, ch23, ch24): 181 edits total** (ch19 3, ch20 21, ch21 52,
+  ch22 66, ch23 1, ch24 38) via `edits/<id>_edits.md` + `apply_edits.py`. The
+  front and opening of the Third Part (Shanghai): the author's notice (ch19) and
+  preface (ch20), then Chapters 1-4 — arrival + unit inventory (ch21); the Cheng
+  Haitao/Wan-Lilang/Fan-Xing/Chen-Mingchu chapter (ch22); the reverent intro on
+  the three foes (ch23); the police/gendarmerie/No.76/Yu-Yefeng chapter (ch24).
+  Dominated again by DATE accessibility (ch20-ch24 are mission-chronology
+  chapters — Republic-year and spelled day-month narration dates ->
+  Gregorian/American across 1925-1983, +1911, number-check-safe; ALL quoted-
+  document dates LEFT). Plus T6 impersonal "one" thinned where it renders a
+  concrete 你/我/我们; adverbial "besides"/"aught"/"still less"/"withal"/"making
+  bold" (T1); a few T2 could-not-but/litotes/inversion; light T5 naturalization
+  of Mao Wanli's monologue (ch21); recurring "severally" and "one may say/see"
+  varied (RULE R1-5); and three RULE R1-1/R1-2 fixes ("all but the executors";
+  大显身手 "shown his hand" -> "prowess"; a dangling participle). All fidelity
+  gates green (parity by construction; numbers 0 — ch19 4 / ch20 26 / ch21 155 /
+  ch22 286 / ch23 7 / ch24 161 pairs; anchors ch19 0 / ch20 2 / ch21 8 / ch22 7
+  / ch23 1 / ch24 6 all resolve; align OK; check_content all six "in the paired
+  paragraph"). qa_epub PASS + epubcheck 0/0/0/0. **check_register: ch19/ch20/ch23
+  within tolerance; ch21/ch22/ch24 flag STILTED — the ch08/ch12/ch17-class
+  documentary false positive (large quoted-document/roster mass + Wanli's
+  deliberately-analytical monologue; shall% 33-36% the deliberate narrating
+  "shall"), NOT chased.** No blind critique this batch (R5 carried one; the
+  second is scheduled for R8, §8). Full tic tables + spot-audit + flags in
+  PROGRESS.md §R6.
+- **Carry-forward for R7+:** voice sheets in REVISION_PLAN.md §3.4; T3 rule as
   practiced — recurring decided proper names/orgs plain in narration after
   book-first use; quotes stay at naming/anatomizing sites, marked irony, titles,
   code names, quoted documents, dialogue, and **note-anchor sites (preserve the
@@ -67,10 +76,11 @@ approval stops.
   skip whole quoted-document/dialogue paragraphs. Spelled-ordinal AND 民國-year
   dates in narration -> American/Gregorian (accessibility); day-only ordinals
   and dates inside quoted documents stay.
-- **New noise.txt entries (R5):** `五十一、二` (ch18 elided Republic-year pair
-  1962-63; the lone 、二 lost its coincidental "fifty-second" match, RULE R1-3)
-  — do-not-revert. Earlier R4 `二十二、三`, `二○七`, R3 `四、五千`, `二十一、二`,
-  `二十七、八`, R2 `三、四两`, R1 `五官`, `四个大字` also stand.
+- **New noise.txt entries (R6):** `四○七` (ch24 Room 407; the full-width zero ○
+  breaks the CJK run so the checker read bare 4/7 which the old spelled ordinals
+  covered, RULE R1-3; the real 407 is fixed in English as "Room 407") —
+  do-not-revert. R5 `五十一、二`, earlier R4 `二十二、三`, `二○七`, R3 `四、五千`,
+  `二十一、二`, `二十七、八`, R2 `三、四两`, R1 `五官`, `四个大字` all stand.
   `scripts/align_dump.py` (QC-only aligned zh|en dumper) stands.
 - **R5 RULE R1-3 latent matches (surfaced by date edits, documented):** ch17 p054
   "twenty-second" had been supplying the 2 for 两周 -> fixed by carrying the real
@@ -90,7 +100,12 @@ approval stops.
   drift ch14 "cat's-paw to the tiger" vs ch17 "the tiger's lackey"; 虎头蛇尾 drift
   ch15 "a tiger's head, a snake's tail" vs ch18 p052 "...trailing off to a snake's
   tail"; ch18 p103 民前四年 = 1908 LEFT unconverted, +1911 does not apply to 民前
-  forms; 沐猴而冠 ch18 p010 "play the monkey in a hat" — verify/note in R9/F0).**
+  forms; 沐猴而冠 ch18 p010 "play the monkey in a hat"), and **§R6 (为虎作伥 now
+  FOUR variants, + ch22 p016 "the tiger's accomplice" and ch23 p006 "playing
+  jackal to the tiger" [ch23's is a NOTE ANCHOR, R9 must move it]; 沐猴而冠 also
+  ch24 p098 "a monkey crowned and gowned"; ch24 p085 gendarme-roster 二十/二十七
+  SOURCE typo LEFT era-year; ch22 p266 桓/恒 bystander-name source glitch; 爪牙
+  "cat's-paw" overlaps the 为虎作伥 image, keep the two idioms visibly separate).**
 
 ## ⚠ COMMISSIONER DIRECTIVE (2026-08-22): a FOOTNOTE-DENSITY pass (F0) AFTER R9
 
