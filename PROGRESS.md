@@ -6051,7 +6051,7 @@ commit AND PUSH at every chapter boundary.
 chapter. An interrupted session resumes from the next chapter with the SAME F0
 kickoff (REVISION_PLAN §12.5). Do not spawn a new batch id.
 
-## F0 chapter ledger (last COMPLETE chapter = ch36)
+## F0 chapter ledger (last COMPLETE chapter = ch37)
 
 - **ch01 (Foreword) — DONE.** Notes 6 -> 10 (+4). New notes span all four
   kinds/domains:
@@ -6579,6 +6579,14 @@ qa_epub carry the per-chapter risk).
   source of English "brainwashing"); `grievance-airing assemblies` (诉苦
   speak-bitterness). NOT re-noted: Nie Rongzhen (ch04), Double Seventh/Marco Polo
   Bridge (covered), Shijiazhuang/Shimen (covered). Total after ch36: **592**.
+
+- **ch37 (Part Four §5, War Unending) — DONE.** Notes 8 -> 12 (+4). New: `smearing
+  our lips with blood` (歃血为盟 blood oath); `a dozen catties and more` (斤 catty
+  ~0.5kg, 100=1 picul); `hold a mass wedding` (collective weddings, New Life
+  Movement); `the God of Wealth on the second of the first month` (财神 firecracker
+  welcome). Standard; corroborated. NOT re-noted: Shimen=Shijiazhuang (ch36),
+  Cheng Yanqiu (ch37 Four Great Dan note), Renaissance Society (Lixingshe),
+  Hongmen/Hong Gang (ch06). Total after ch37: **596**.
 
 <!-- F0_LEDGER_APPEND -->
 
