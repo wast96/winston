@@ -1094,3 +1094,7 @@
 # coincidentally supplying those 4 and 7; converting the narration date to
 # "June 24, 1938" orphaned them (RULE R1-3). Strip the mis-parsed room number.
 四○七
+# R7 (ch26 p084): elided Republic-year pair 民国四十一、二年 = 1952-53;
+# the 、二 elides 四十二 (42), so the checker reads 四十一 (41) and a bare 二 (2). English
+# renders "1952 or 1953"; the lone 2 has no English match. Same class as 五十一、二 (R5).
+四十一、二
