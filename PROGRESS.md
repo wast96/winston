@@ -6051,7 +6051,7 @@ commit AND PUSH at every chapter boundary.
 chapter. An interrupted session resumes from the next chapter with the SAME F0
 kickoff (REVISION_PLAN §12.5). Do not spawn a new batch id.
 
-## F0 chapter ledger (last COMPLETE chapter = ch16)
+## F0 chapter ledger (last COMPLETE chapter = ch17)
 
 - **ch01 (Foreword) — DONE.** Notes 6 -> 10 (+4). New notes span all four
   kinds/domains:
@@ -6369,6 +6369,18 @@ qa_epub carry the per-chapter risk).
   NOT re-noted: Wang Zhaoming (ch15), Qin Hui + Yue Fei (in the ch16 "twelve gold
   tablets" note — West Lake kneeling-statue image declined to avoid re-gloss),
   Manchukuo. Total after ch16: **485**.
+
+- **ch17 (Part Two §7, Treading Thin Ice) — DONE.** Notes 9 -> 16 (+7). New
+  (standard/verified; corroborated): `Eurasia Aviation Company` (欧亚航空 Sino-German
+  airline + CNAC); `prisoner beneath the steps` (阶下囚); `Inukai Tsuyoshi, once
+  premier of Japan` (assassinated May 15 Incident 1932; son Inukai Ken in the Wang
+  affair); `you turtle's egg` (王八蛋 wangbadan, vulgar curse); `Central Training
+  Corps` (中央训练团); `the songs of Chu on four sides` (四面楚歌, Xiang Yu at Gaixia);
+  `the cry of a crane or the rustle of the wind` (风声鹤唳, Fei River — companion of
+  草木皆兵 at ch08, cross-referenced).
+  NOT re-noted: Kagesa/Ume Kikan/Itagaki/Blue Shirt/Five Ministers' Conference/
+  Yan Telegram/sanction/Wang Kemin-Liang Hongzhi (covered/self-glossed). Total
+  after ch17: **492**.
 
 <!-- F0_LEDGER_APPEND -->
 
