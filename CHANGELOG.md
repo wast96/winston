@@ -2,6 +2,33 @@
 
 Dated record of what changed and, for global corrections, what cascaded where.
 
+## 2026-08-24 — FN4 footnote-density pass, ch18-ch22 (FOOTNOTE_PASS.md batch 4)
+Fourth batch of the commissioner's footnote-density pass (the radio men and cipher
+work; the Gu Shunzhang defection and its averting; the Yun Daiying, Cai Hesen, and
+Xiang Zhongfa betrayals; the Chen Geng and Wang Genying manhunts; the Ding Ling
+abduction and the Yang Xingfo assassination). Content FROZEN: notes ADDED and
+reconciled only; no prose/number/name/date/paragraph change (git diff touches only
+notes.json + data/fn4_notes.json + docs + the rebuilt EPUB; no out/ch*_reading.md
+edited).
+- **+14 footnotes. Book 427 -> 441; ch18-ch22 57 -> 71.** Per unit:
+  ch18 15->19, ch19 9->10, ch20 12->14, ch21 11->14, ch22 10->14.
+- Classes swept per FOOTNOTE_PASS.md 2-6: people (Gu Zhenghong, Deng Zhongxia,
+  Qiu Jin, Agnes Smedley, Zhang Wentian, Yang Shangkun); places/institutions (the
+  Naigai Cotton Mill, Wayaobao, Academia Sinica); orgs (the Comintern's Far Eastern
+  Bureau, the Young China Association); units/offices (the 19th Route Army, the
+  Eighth Route Army, the Executive Yuan). Cross-references placed to existing notes
+  (May Thirtieth ch01, Canton-Hong Kong strike ch10, Noulens ch21, Jan 28 Incident
+  ch20, New Fourth Army ch04).
+- Reconciliation (first-appearance discipline, mandated by the FN4 kickoff): the
+  Agnes Smedley ID note trimmed at ch23 to a cross-ref to chapter 22 (her first
+  appearance).
+- Fact-check: every claim checked against real scholarship (Wikipedia, Cambridge/
+  academic histories, official CCP-history and PRC-foreign-ministry sources); verdict
+  stated in each note. NO Grok/Grokipedia or AI-written reference used (Grokipedia
+  surfaced in result lists and was rejected each time).
+- QC: check_apparatus.py 0/0; build 28/28, 441 notes; qa_epub PASS; epubcheck
+  5.1.0 0 fatals/0 errors/0 warnings.
+
 ## 2026-08-24 — FN3 footnote-density pass, ch12-ch17 (FOOTNOTE_PASS.md batch 3)
 Third batch of the commissioner's footnote-density pass (the Bai Xin manhunt and
 Avenue Joffre gunfight aftermath; the Ren Bishi and Guan Xiangying rescues; the

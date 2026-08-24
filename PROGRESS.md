@@ -2214,3 +2214,139 @@ U+FFFD byte-matches in the EPUB are inside PNG image binaries.
   errors / 0 warnings.
 - Every new anchor verified a unique verbatim substring of its reading file before
   merge (all 18 count==1). No prose/number/paragraph change (notes-only pass).
+
+## FN4 — footnote-density pass, ch18-ch22 (FOOTNOTE_PASS.md batch 4)
+
+Fourth batch of the commissioner's footnote-density pass (the radio men and cipher
+work; the Gu Shunzhang defection and its averting; the Yun Daiying, Cai Hesen, and
+Xiang Zhongfa betrayals; the Chen Geng and Wang Genying manhunts; the Ding Ling
+abduction and the Yang Xingfo assassination). Content FROZEN: notes ADDED and
+reconciled only. No prose, number, name, date, or paragraph change (verified: git
+diff touches only notes.json + data/fn4_notes.json + docs + the rebuilt EPUB; no
+out/ch*_reading.md edited).
+
+### Branch
+Session opened on stray branch `claude/zhou-enlai-fn4-footnotes-2kwtag` (== origin/
+claude/zhou-enlai at FN3's HEAD, 0/0 divergence). Per CLAUDE.md rule 2 the canonical
+working branch is `claude/zhou-enlai`; checked it out, reset to origin, did all FN4
+work there. Stray branch carried no unique commits, so nothing to fold; deleted at
+close.
+
+### data/zh decision
+Not regenerated (parity scaffold, not needed for a notes-only pass; same rationale
+as FN1/FN2/FN3). Anchors verified unique verbatim substrings of out/<id>_reading.md
+by apparatus_merge (all 14 count==1); hanzi taken from glossary.json (gloss_hanzi.py)
+and emitted as numeric character references generated programmatically from the
+glossary string; fact-checking against external scholarship.
+
+### Notes added (before -> after)
+- ch18 15 -> 19 (+4): the Naigai Cotton Mill (place/institution), Gu Zhenghong
+  (person; May Thirtieth trigger, x-ref ch01), Deng Zhongxia (person; x-ref the
+  Canton-Hong Kong strike ch10), Wayaobao (place; the Dec 1935 conference and CC
+  seat).
+- ch19 9 -> 10 (+1): the Comintern's Far Eastern Bureau (org; x-ref the Noulens
+  note ch21).
+- ch20 12 -> 14 (+2): Qiu Jin (person), the Young China Association (org).
+- ch21 11 -> 14 (+3): the 19th Route Army (unit; x-ref the Jan 28 Incident ch20),
+  the Eighth Route Army (unit; x-ref the New Fourth Army ch04), the Executive Yuan
+  (office).
+- ch22 10 -> 14 (+4): Agnes Smedley (person; reconciled from ch23 — see below),
+  Academia Sinica (org), Zhang Wentian (person), Yang Shangkun (person).
+- **FN4 total: +14 notes. Book 427 -> 441. ch18-ch22: 57 -> 71.**
+
+### Reconciliation (mandated by the FN4 kickoff; pre-existing later note trimmed)
+- **Agnes Smedley:** first appears ch22 ("its American members Agnes Smedley and
+  Harold Isaacs"); the full ID note sat at ch23. Added the ID at ch22 (first
+  appearance) and trimmed the ch23 note to a cross-reference to chapter 22.
+
+### NOT re-noted (already placed earlier — cross-referenced, no second note)
+- **People:** Li Lisan (ch01), Li Qiang (ch00), Zhou Enlai/Chiang Kai-shek/Mao
+  Zedong (early), Gu Shunzhang, Chen Geng, Zhang Guotao (ch01/ch05), Wang Ming
+  (ch02), Pavel Mif, Qian Zhuangfei, Li Kenong, Hu Di, Xu Enzeng, Cai Mengjian,
+  Zhang Daofan (ch06), Chen Lifu (ch06), Kang Sheng, Pan Hannian, Nie Rongzhen,
+  Chen Yun (ch12), Yun Daiying (ch02, full bio kept at ch20 where he is the
+  subject), Cai Hesen (ch04, full bio kept at ch20 as subject), Xiang Jingyu
+  (ch20), Xiang Zhongfa (ch20 as subject), Bukharin (ch20), Ren Bishi (ch13),
+  Guan Xiangying (ch13), Deng Yingchao (ch00), Zou Taofen (ch07), Cai Yuanpei
+  (ch14), Song Qingling (ch03), Lu Xun (ch14), Ding Ling/Pan Zinian/Ying
+  Xiuren/Hu Yepin (ch22 existing), Dai Li/Juntong/Zhongtong (ch07), Edgar Snow
+  (ch15), Liu Ding (ch04), Liu Bocheng (ch01), Zhang Xueliang (ch07), Zhang
+  Huizan ("Butcher Zhang," ch18 existing), Yang Zhihua (ch09), Tang Enbo (ch18
+  existing), Seeckt/Sorge (ch18 existing), Xia Yan (ch18 existing), Yang Quan
+  (full bio at ch22, his first substantive treatment; the glancing ch14/ch21
+  mentions left as-is, per the Ren Bishi pattern).
+- **Places/orgs/events/terms:** May Thirtieth (ch01), May Fourth (ch04),
+  April 12 coup, Northern Expedition (ch01), Whampoa (ch03), Green Gang, French
+  Concession/International Settlement, Avenue Joffre, Red Squad/Dog-Beating Squad,
+  Songhu Garrison Command (ch03), Sixth Congress / Fifth Congress, August 7
+  Conference (ch02), Comintern (ch00), Central Soviet (ch00/ch02), Fourth Plenum
+  of the Sixth CC (ch19 existing), Cheka (ch00) and GPU (ch19), work-study-in-
+  France movement (ch04), Reorganizationists (ch04), the "Third Party" (folded
+  into the Deng Yanda note ch04), Long March / Zunyi (ch04), 1911 Revolution /
+  Tongmenghui (ch04), Fourth Front Army (Zhang Guotao's, ch01/ch19), Hilaire
+  Noulens / Pan-Pacific Trade Union Secretariat (ch21 existing), China Forum /
+  Harold Isaacs (ch21 existing), SACO (ch22 existing), New Fourth Army (ch04),
+  Red China News Agency -> Xinhua (ch15), League of Left-Wing Writers / Longhua
+  Martyrs (ch02/ch09/ch20), January 28 Incident (ch20 existing), Renaissance
+  Society/Blue Shirts (ch15), Canton-Hong Kong strike (ch10), Barbusse (named in
+  the ch21 Noulens note).
+- **Deliberately left unfootnoted** (prose gives a full placement, or too minor/
+  self-glossed): Shen Zemin and Chen Changhao (the ch19 prose gives their Party
+  posts; both peripheral to the defection narrative), He Chengjun, Yang Qingshan,
+  Zhang Chong, Gu Jianzhong, Zhang Wen/Guodong, Meng Zhen, Lou Zhendan, Yang
+  Yuqing (KMT/memoirist figures the prose places), Tan Renfeng / Song Jiaoren /
+  Huang Xing (1911 figures the ch21 prose glosses in full), Lampson, Gu Zhenglun,
+  Deng Wenyi, Wu Zhongxin, Yu Xuezhong (prose-covered KMT men), the women political
+  prisoners given prose bios (Shuai Mengqi, Xia Zhixu, Qian Ying, Tan Guofu, Wang
+  Genying herself), He Xiangning, Liu Yazi, Ye Shengtao, Israel Epstein, Feng
+  Xuefeng, the Barbusse/Rolland/Vaillant-Couturier list of foreign supporters, and
+  the string of one-appearance agents, cover names, streets, hotels, and venues.
+
+### Items flagged for FN5 whole-book reconciliation (first appearance precedes FN4 scope)
+- **E-Yu-Wan / Hubei-Henan-Anhui Soviet:** the full base-area note sits at ch19,
+  but the base is first named ("E-Yu-Wan") at ch15 (also ch17). A placement nicety
+  for FN5 (move to ch15 or cross-ref); the note itself is good and correct.
+- **Li Mingrui** (warlord-general who joined the Deng Xiaoping Bose Uprising): first
+  appears ch17, un-noted book-wide. Note at ch17 in FN5 if judged a reader-need.
+- **Third Plenum of the Eleventh Central Committee** (the 1978 reform turning point):
+  recurs from ch04 (also ch18, ch22), un-noted as an event. Note at ch04 in FN5.
+- **Hu Yepin** is touched by notes at ch09 (Oriental Hotel meeting), ch20 (Longhua
+  Martyrs collective), and ch22 (his individual ID as Ding Ling's companion). First
+  appearance ch09. The three are complementary, not duplicative, but FN5 should
+  confirm the collective-vs-individual split reads cleanly.
+- (Carried from FN3, still open: shikumen first at ch02; Shen Bao noted ch17, first
+  ch10; Sun Chuanfang first ch05; Baoding Academy first ch03; Sun Yat-sen University
+  Moscow noted ch18, first ch03; the 互济会 "China Relief Society" vs "China Mutual
+  Aid Society" rendering drift.)
+
+### Fact-checking
+Every added identification checked against real scholarship (English Wikipedia,
+Cambridge/academic histories, official CCP-history sites, the PRC foreign-ministry
+biography for Zhang Wentian) before authoring; verdict stated in each note. NO
+Grok/Grokipedia or any AI-written reference used (Grokipedia surfaced in result
+lists for Gu Zhenghong/May Thirtieth, Zhang Wentian, the 19th Route Army, and the
+Far Eastern Bureau, and was rejected each time). Dates cross-checked: Gu Zhenghong
+killed 15 May 1925 (No. 7 Naigai mill); Deng Zhongxia shot Nanjing 21 Sept 1933;
+Wayaobao Conference 17 Dec 1935; 19th Route Army — Jan 28 1932 Shanghai defense,
+Fujian People's Government proclaimed 22 Nov 1933, crushed Jan 1934; Zhang Wentian
+head of the CC from Zunyi (Jan 1935) to 1943, purged at Lushan 1959; Yang Shangkun
+PRC president 1988-1993.
+
+### Hanzi discipline
+People notes (Gu Zhenghong, Deng Zhongxia, Qiu Jin, Agnes Smedley, Zhang Wentian,
+Yang Shangkun) carry NO hanzi. Two term/place notes carry hanzi as numeric character
+references generated programmatically from glossary.json strings (never hand-typed):
+瓦窑堡 (Wayaobao, places) and 少年中国学会 (Young China Association, organizations);
+each byte-matched to the glossary (both "attested") and verified intact and singular
+in the built XHTML. The Naigai mill, the Far Eastern Bureau, the 19th/Eighth Route
+Armies, the Executive Yuan, and Academia Sinica use pinyin/English (the glossary
+lacks those terms; per FOOTNOTE_PASS 6, pinyin is preferred to a hand-typed glyph).
+No U+FFFD in any text file or in the EPUB xhtml.
+
+### QC
+- check_apparatus.py: 0 failures, 0 warnings.
+- Build: 28/28 chapters, **441 notes**, 496 pagebreaks. qa_epub PASS (441
+  refs/bodies/backlinks resolve, sequential). epubcheck 5.1.0: 0 fatals / 0
+  errors / 0 warnings.
+- Every new anchor verified a unique verbatim substring of its reading file before
+  merge (all 14 count==1). No prose/number/paragraph change (notes-only pass).

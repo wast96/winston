@@ -2,20 +2,23 @@
 
 The book is COMPLETE and the register pass (R1-R5) is CLOSED. We are now in the
 **footnote-density pass** (FOOTNOTE_PASS.md). FN1 (ch00-ch05), FN2 (ch06-ch11),
-and **FN3 (ch12-ch17) are done; FN4 (ch18-ch22) is next.** One batch = one fresh
+FN3 (ch12-ch17), and **FN4 (ch18-ch22) are done; FN5 (ch23-ch27 + whole-book
+apparatus reconciliation and close-out) is next and LAST.** One batch = one fresh
 chat, started by pasting the block below. (FN1 stopped at a light annotation-depth
 gate; FN2 onward runs straight through, no gate.)
 
 ## Message to paste into the next chat
 
 ```
-Zhou Enlai FN4 (footnote-density pass)
+Zhou Enlai FN5 (footnote-density pass — final batch + whole-book close-out)
 
-Read CLAUDE.md, then FOOTNOTE_PASS.md (it governs this pass), then STYLE.md ("Apparatus" and the partisan-source discipline), then this HANDOFF and PROGRESS.md's FN1/FN2/FN3 sections. Branch claude/zhou-enlai only; fold any stray branch per CLAUDE.md rule 2. Content is FROZEN: this pass ADDS and enriches footnotes only, no prose/number/name/paragraph change. Notes are authored as a JSON file and merged with scripts/apparatus_merge.py (never a heredoc); anchors are verbatim UNIQUE substrings of out/<id>_reading.md; note bodies are XHTML with numeric character references only; people notes carry no hanzi, term/place/event notes carry glossary-verified hanzi decoded and checked; cite printed folios where a note cites a page; never invent; fact-check every claim against real scholarship (Wikipedia/Baidu Baike/academic, NEVER Grok/Grokipedia/AI) with the verdict stated in the note. Use scripts/fa_check.py (first-appearance grep across notes.json + reading files) before every note and scripts/gloss_hanzi.py for hanzi. data/zh is a parity scaffold not needed for a notes-only pass; do not regenerate it unless a check requires it.
+Read CLAUDE.md, then FOOTNOTE_PASS.md (it governs this pass; FN5 is section 7's last bullet), then STYLE.md ("Apparatus" and the partisan-source discipline), then this HANDOFF and PROGRESS.md's FN1/FN2/FN3/FN4 sections (esp. the "Items flagged for FN5" lists in the FN3 and FN4 sections). Branch claude/zhou-enlai only; fold any stray branch per CLAUDE.md rule 2. Content is FROZEN: this pass ADDS and enriches footnotes only, no prose/number/name/paragraph change. Notes are authored as a JSON file and merged with scripts/apparatus_merge.py (never a heredoc); anchors are verbatim UNIQUE substrings of out/<id>_reading.md; note bodies are XHTML with numeric character references only; people notes carry no hanzi, term/place/event notes carry glossary-verified hanzi decoded and checked; cite printed folios where a note cites a page; never invent; fact-check every claim against real scholarship (Wikipedia/Baidu Baike/academic, NEVER Grok/Grokipedia/AI) with the verdict stated in the note. Use scripts/fa_check.py (first-appearance grep across notes.json + reading files) before every note and scripts/gloss_hanzi.py for hanzi. data/zh is a parity scaffold not needed for a notes-only pass; do not regenerate it unless a check requires it.
 
-Do batch FN4 = greatly increase footnote density on ch18-ch22 (the radio men and cipher work, the Gu Shunzhang defection and its averting, the Xiang Zhongfa and Noulens arrests, the manhunts — testimony-dense, so many quoted figures to place) per FOOTNOTE_PASS.md sections 2-6: sweep every chapter for people, places, events, institutions/offices/ranks/units, terms and period vocabulary, and allusions/idioms/quotations, and annotate every instance a non-specialist Western reader would miss AT ITS FIRST appearance book-wide. Density is coverage, not quota: every note carries real checked content and answers a real reader question; add nothing just to add it. Run the first-appearance check before every note and keep the "NOT re-noted" list in PROGRESS. RECONCILE any pre-existing later-chapter note whose subject first appears in ch18-ch22 by trimming the later note to a cross-reference at the first appearance (check each with fa_check). Then rebuild, check_apparatus.py, qa_epub (epubcheck if installed), PROGRESS + CHANGELOG, commit, push.
+Do batch FN5 = greatly increase footnote density on ch23-ch27 (the manhunt survivors and the radio-line reconstruction; the Wu Hao Notice affair; the Conclusion and Afterword) per FOOTNOTE_PASS.md sections 2-6: sweep every chapter for people, places, events, institutions/offices/ranks/units, terms and period vocabulary, and allusions/idioms/quotations, and annotate every instance a non-specialist Western reader would miss AT ITS FIRST appearance book-wide. Density is coverage, not quota: every note carries real checked content and answers a real reader question; add nothing just to add it. Run the first-appearance check before every note and keep the "NOT re-noted" list in PROGRESS. RECONCILE any pre-existing later-chapter note whose subject first appears in ch23-ch27 by trimming the later note to a cross-reference at the first appearance (check each with fa_check).
 
-End with the rebuilt EPUB attached in chat AND the FN5 kickoff pasted verbatim in a fenced block (same form as this one, ch23-ch27 + whole-book apparatus reconciliation and close-out per FOOTNOTE_PASS.md section 7). Do not pause for approval mid-batch.
+THEN do the whole-book apparatus reconciliation and close-out (FOOTNOTE_PASS.md section 7): (1) clear the "Items flagged for FN5" backlog from the FN3 and FN4 PROGRESS sections — shikumen (first ch02), Shen Bao (first ch10, noted ch17), Sun Chuanfang (first ch05), Baoding Academy (first ch03), Sun Yat-sen University Moscow (first ch03, noted ch18), the E-Yu-Wan/Hubei-Henan-Anhui Soviet placement (note at ch19, first named ch15), Li Mingrui (first ch17), the Third Plenum of the Eleventh CC (first ch04), and the 互济会 "China Relief Society"/"China Mutual Aid Society" rendering drift; (2) re-grep the whole book for un-noted first appearances the per-batch sweeps missed; (3) confirm no subject is double-noted (Hu Yepin's ch09/ch20/ch22 cluster included); (4) verify every note's folio; (5) refresh out/term_ledger.md; (6) update COMPLETION.md with the new note count and the density record. Then rebuild, check_apparatus.py, qa_epub (epubcheck if installed), PROGRESS + CHANGELOG, commit the final EPUB with git add -f, push.
+
+End with the rebuilt EPUB attached in chat AND, since this is the LAST FN batch, a short closing note in place of a next-batch kickoff (the footnote pass is COMPLETE; further work is a corrections pass). Do not pause for approval mid-batch.
 ```
 
 ## What is DONE (do not redo)
@@ -24,15 +27,17 @@ End with the rebuilt EPUB attached in chat AND the FN5 kickoff pasted verbatim i
 - **FN1 footnote-density pass, ch00-ch05: +46 notes (339 -> 385).** Details in
   PROGRESS.md's FN1 section. Merged via `data/fn1_notes_a.json` (ch00-01) and
   `data/fn1_notes_b.json` (ch02-05).
-- **FN2 footnote-density pass, ch06-ch11: +24 notes (385 -> 409; ch06-ch11
-  70 -> 94).** Per-unit counts, the full "NOT re-noted" list, fact-check
-  verdicts, and reconciliations are in PROGRESS.md's FN2 section. Merged via
-  `data/fn2_notes.json`. FN2 also did three reconciliations.
-- **FN3 footnote-density pass, ch12-ch17: +18 notes (409 -> 427; ch12-ch17
-  65 -> 83).** Per-unit counts, the full "NOT re-noted" list, the FN5 flag list,
-  fact-check verdicts, and the two reconciliations are in PROGRESS.md's FN3
-  section. Merged via `data/fn3_notes.json`. Reconciliations: Chen Yun ch23 ->
-  cross-ref ch12; Renaissance Society ch21 -> cross-ref ch15.
+- **FN2 footnote-density pass, ch06-ch11: +24 notes (385 -> 409).** Per-unit counts,
+  the full "NOT re-noted" list, fact-check verdicts, and three reconciliations are in
+  PROGRESS.md's FN2 section. Merged via `data/fn2_notes.json`.
+- **FN3 footnote-density pass, ch12-ch17: +18 notes (409 -> 427).** Per-unit counts,
+  the "NOT re-noted" list, the FN5 flag list, and two reconciliations (Chen Yun ch23
+  -> cross-ref ch12; Renaissance Society ch21 -> cross-ref ch15) are in PROGRESS.md's
+  FN3 section. Merged via `data/fn3_notes.json`.
+- **FN4 footnote-density pass, ch18-ch22: +14 notes (427 -> 441; ch18-ch22
+  57 -> 71).** Per-unit counts, the full "NOT re-noted" list, the added FN5 flags,
+  fact-check verdicts, and the one reconciliation (Agnes Smedley ch23 -> cross-ref
+  ch22) are in PROGRESS.md's FN4 section. Merged via `data/fn4_notes.json`.
 
 ## Carry-forward for the footnote pass
 
@@ -43,21 +48,15 @@ End with the rebuilt EPUB attached in chat AND the FN5 kickoff pasted verbatim i
 - **Reconciliations already done (do NOT redo):** Liu Bocheng ch07 -> cross-ref
   ch01; Qian Dajun ch10 -> cross-ref ch03; Canton-Hong Kong Strike ch11 -> ch10
   (FN2). Chen Yun ch23 -> cross-ref ch12; Renaissance Society/Blue Shirts ch21 ->
-  cross-ref ch15 (FN3).
-- **For FN4 (ch18-ch22):** check each pre-existing later-chapter note whose
-  subject first appears in ch18-ch22 with fa_check and trim it to a cross-ref at
-  the first appearance. These are testimony-dense chapters (the Gu Shunzhang
-  defection, Xiang Zhongfa's and the Noulens couple's arrests, the manhunts) with
-  many quoted witnesses; expect a large people class. Watch for figures whose full
-  note may sit later than ch18-ch22 (run fa_check, do not assume) and for the
-  Noulens/Xiang Zhongfa clusters, which already carry notes at ch21 — verify
-  placement before adding.
-- **Flagged for FN5 (first appearance precedes the batch that hit them):** shikumen
-  (recurs from ch02, un-noted book-wide — note at ch02); Shen Bao (noted ch17,
-  first appears ch10); Sun Chuanfang (first ch05); Baoding Academy (first ch03,
-  contextualized in ch16 note); Sun Yat-sen University Moscow (noted ch18, first
-  ch03); the 互济会 "China Relief Society" vs "China Mutual Aid Society" rendering
-  drift (glossary/prose, not a note fix). See PROGRESS.md FN3 for the full list.
+  cross-ref ch15 (FN3). Agnes Smedley ch23 -> cross-ref ch22 (FN4).
+- **Items flagged for FN5** (first appearance precedes the batch that hit them):
+  shikumen (first ch02); Shen Bao (noted ch17, first ch10); Sun Chuanfang (first
+  ch05); Baoding Academy (first ch03, contextualized in ch16 note); Sun Yat-sen
+  University Moscow (noted ch18, first ch03); the E-Yu-Wan/Hubei-Henan-Anhui Soviet
+  (note at ch19, first named ch15); Li Mingrui (first ch17); the Third Plenum of the
+  Eleventh Central Committee (first ch04); the 互济会 "China Relief Society" vs "China
+  Mutual Aid Society" rendering drift (glossary/prose, not a note fix). See the FN3
+  and FN4 sections of PROGRESS.md for the full lists.
 - **Hanzi:** people notes carry none. Term/org/place/event notes carry hanzi as
   numeric character references, taken verbatim from `glossary.json` (use
   `scripts/gloss_hanzi.py`) and generated programmatically from the glossary
@@ -80,14 +79,14 @@ End with the rebuilt EPUB attached in chat AND the FN5 kickoff pasted verbatim i
 ## State / environment
 
 - Deliverable: `out/zhou-enlai.epub` (committed with `git add -f`). 28/28
-  chapters, **427 notes**, 36 figures, 496 pagebreaks. qa_epub PASS; epubcheck
+  chapters, **441 notes**, 36 figures, 496 pagebreaks. qa_epub PASS; epubcheck
   5.1.0 0/0/0.
-- Ledgers: `glossary.json` (847 rows), `notes.json` (427), `figures.json`,
+- Ledgers: `glossary.json` (847 rows), `notes.json` (441), `figures.json`,
   `book.json`, `authority.json`; `out/term_ledger.md` and `out/deep_audit.md`
   are from the register close (refresh term_ledger only at FN5).
 - `data/zh` is absent on a fresh checkout (untracked/regenerable) and was NOT
-  regenerated for FN1/FN2/FN3 (parity scaffold, not needed for a notes-only pass).
-  Regenerate per `scripts/recovery/README.md` only if a later batch needs
+  regenerated for FN1/FN2/FN3/FN4 (parity scaffold, not needed for a notes-only
+  pass). Regenerate per `scripts/recovery/README.md` only if a later batch needs
   qc_entities/parity.
 - Body offset constant 44 (printed = PDF - 44). `OMP_THREAD_LIMIT=1` for
   tesseract; `pgrep -c tesseract` must read 0 after a run. One pre-existing
