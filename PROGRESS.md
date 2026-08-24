@@ -6051,7 +6051,7 @@ commit AND PUSH at every chapter boundary.
 chapter. An interrupted session resumes from the next chapter with the SAME F0
 kickoff (REVISION_PLAN §12.5). Do not spawn a new batch id.
 
-## F0 chapter ledger (last COMPLETE chapter = ch04)
+## F0 chapter ledger (last COMPLETE chapter = ch05)
 
 - **ch01 (Foreword) — DONE.** Notes 6 -> 10 (+4). New notes span all four
   kinds/domains:
@@ -6139,6 +6139,21 @@ qa_epub carry the per-chapter risk).
   Declined as padding: 借刀杀人 (transparent, inside a rhetorical list), Tao Zhu
   (list member), Xin Shen Bao / Zhonghua Ribao (newspaper titles), Gestapo/CIA
   (Western readers know them). Total after ch04: **390**.
+
+- **ch05 (Prefatory Note, Part One) — DONE.** Notes 8 -> 9 (+1). Already
+  thoroughly noted; added the one real gap: `the Military Affairs Commission of
+  the National Government` (军事委员会, Chiang Kai-shek's supreme military organ,
+  the wartime command center of the Nationalist state; recurs in ~15 chapters,
+  previously only named in passing inside other notes; wound up 1946 → Ministry
+  of National Defense, consistent with the book's own later references). Standard
+  institutional fact; verdict corroborated.
+  NOT re-noted (covered by the 8 pre-F0 notes): September 18th / Mukden Incident,
+  January 28th / Shanghai Incident, Whampoa, Three Principles of the People,
+  Lixingshe (Blue Shirts already in its note), Special Services Department,
+  Bureau of Investigation and Statistics, Revolutionary Soldiers' Comrades
+  Association; courtesy-name convention (noted ch02). Declined as padding:
+  "green striplings," "thorns and brambles" (transparent). Total after ch05:
+  **391**. [epubcheck 0/0/0/0 checkpoint]
 
 <!-- F0_LEDGER_APPEND -->
 
