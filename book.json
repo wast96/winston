@@ -1,9 +1,9 @@
 {
   "_README": "The single source of the book's structure; the build is driven ENTIRELY by this file. Chapter ids start with 'ch'. A chapter is treated as translated once out/<id>_reading.md exists.",
-  "deliverable": "out/nameless-heroes.epub",
-  "_deliverable_note": "[SET PER PROJECT] The EPUB filename. Builder, qa_epub and the Stop hook all read this.",
-  "title_en": "Nameless Heroes",
-  "subtitle_en": "The Memoirs of a Nationalist Secret Agent",
+  "deliverable": "out/Nameless Heroes, The Memoirs of a Nationalist Secret Agent.epub",
+  "_deliverable_note": "[SET PER PROJECT] The EPUB filename. Builder, qa_epub and the Stop hook all read this. A comma stands in for the colon of the display title, which a filename cannot carry.",
+  "title_en": "Nameless Heroes: The Memoirs of a Nationalist Secret Agent",
+  "subtitle_en": "",
   "title_zh": "英雄无名",
   "title_file_as": "Nameless Heroes",
   "author_en": "Chen Gongshu",

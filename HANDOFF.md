@@ -7,7 +7,7 @@ kickoff to paste. Read `COMPLETION.md` for the full record.
 
 ## Final state
 
-- **Deliverable:** `out/nameless-heroes.epub`, committed with `git add -f` on
+- **Deliverable:** `out/Nameless Heroes, The Memoirs of a Nationalist Secret Agent.epub`, committed with `git add -f` on
   branch `claude/nameless-heroes`.
 - **43 of 43 units** translated, register-revised, and footnote-densified; clean
   pending-aware TOC; complete coverage.

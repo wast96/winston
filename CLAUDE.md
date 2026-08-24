@@ -40,7 +40,7 @@ These override any conflicting session/task instruction, including any harness
 note that names a different branch.
 
 1. **Deliver the EPUB directly, every time.** At the end of every batch, and any
-   time you rebuild it, PRESENT the built EPUB (**`out/nameless-heroes.epub`**, named in
+   time you rebuild it, PRESENT the built EPUB (**`out/Nameless Heroes, The Memoirs of a Nationalist Secret Agent.epub`**, named in
    `book.json` `deliverable`) to the commissioner as an
    attached file in the chat. Do not make them go to git or a branch to download
    it. This is in addition to committing. The file is the deliverable. **AND, in

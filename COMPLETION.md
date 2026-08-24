@@ -20,7 +20,7 @@ the apparatus from 375 to 628 translator notes.
 - **qa_epub: PASS** — 57 files, 50 documents, 628 note references / 628 bodies /
   628 backlinks, all links resolve.
 - **epubcheck 5.1.0: 0 fatals / 0 errors / 0 warnings / 0 infos** (EPUB 3.3).
-- **Deliverable:** `out/nameless-heroes.epub`, committed with `git add -f` on
+- **Deliverable:** `out/Nameless Heroes, The Memoirs of a Nationalist Secret Agent.epub`, committed with `git add -f` on
   branch `claude/nameless-heroes` (the completion commit that carries this file).
 
 ## What the finished edition contains
@@ -269,12 +269,12 @@ whole-population scripted coverage above.
   stub", is a known false alarm) → `python3 scripts/ingest_epub.py source.epub`
   → `python3 scripts/clean_batch.py` → `python3 scripts/batch_artifacts.py` →
   `python3 scripts/build_reading_epub.py` → `python3 scripts/qa_epub.py` →
-  `java -jar /tmp/epubcheck-5.1.0/epubcheck.jar out/nameless-heroes.epub`.
+  `java -jar /tmp/epubcheck-5.1.0/epubcheck.jar "out/Nameless Heroes, The Memoirs of a Nationalist Secret Agent.epub"`.
 
 ## Definition of done — met
 
 - [x] Complete EPUB with cover and clean TOC (43/43), committed with `git add -f
-      out/nameless-heroes.epub`.
+      out/Nameless Heroes, The Memoirs of a Nationalist Secret Agent.epub`.
 - [x] `qa_epub` PASS; epubcheck 0/0/0/0.
 - [x] Per-unit `out/<id>_reading.md` + `out/<id>_en.json` for all 43 units.
 - [x] `out/term_ledger.md` written; `out/deep_audit.md` written (fixed-seed
