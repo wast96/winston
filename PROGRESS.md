@@ -6051,7 +6051,7 @@ commit AND PUSH at every chapter boundary.
 chapter. An interrupted session resumes from the next chapter with the SAME F0
 kickoff (REVISION_PLAN §12.5). Do not spawn a new batch id.
 
-## F0 chapter ledger (last COMPLETE chapter = ch06)
+## F0 chapter ledger (last COMPLETE chapter = ch07)
 
 - **ch01 (Foreword) — DONE.** Notes 6 -> 10 (+4). New notes span all four
   kinds/domains:
@@ -6186,6 +6186,32 @@ qa_epub carry the per-chapter risk).
   layer, covered), Youth Corps, Sun Yat-sen Mausoleum, Luoyang move, Beihai/
   Zhongshan Park, jiao unit, Dong'an/Dangui bookstalls, Nanjing standalone.
   Total after ch06: **403**.
+
+- **ch07 (Part One §2, A Startling Debut — courtesan-quarter cover + the
+  killing) — DONE.** Notes 11 -> 21 (+10). Texture-rich; existing notes already
+  covered the pleasure-quarter (Eight Great Hutongs / pure-singing houses /
+  Pingkangli / beating-the-tea-circle) and the Cai E–Xiao Fengxian and Shi
+  Jianqiao stories, so I added only NON-duplicative items. New: `Kwantung Army`
+  (関東軍, IJA Manchuria garrison — previously only named inside other notes);
+  `Northern Expedition of the National Revolutionary Army` (1926–28, Nationalist
+  reunification); `rivers-and-lakes` (江湖 jianghu); `Heaven's Net Is Wide`
+  (天网恢恢, Dao De Jing ch.73); `bamboo already formed in his breast` (胸有成竹,
+  Su Shi on Wen Tong); `a mute eating goldthread` (哑巴吃黄连, goldthread=bitter);
+  `never laid down the butcher's knife` (放下屠刀立地成佛, Buddhist); `memorial
+  archway` (牌楼 pailou, recurring); `a round-arm bow` (作揖/拱手 salute,
+  recurring); `redeemed her from the register` (从良 courtesan buy-out). All
+  standard cultural/historical facts; verdicts corroborated.
+  NOT re-noted (covered): Xiao Fengxian (in Cai E note), Pingkangli/清吟小班/
+  pure-singing (in Eight Great Hutongs note), Shisanmei/He Yufeng & Shi Congbin
+  (in the novel + Shi Jianqiao notes), Beiping, Legation Quarter, Grand Hôtel des
+  Wagons-Lits (ch06), Sun Chuanfang/Shi Jianqiao/Ji Hongchang/Northwest Army/
+  Chahar/courtesy-name (ch02), Itagaki/Zhang Zuolin/Zhongnanhai (ch06), He
+  Yingqin (ch09), Juntong (ch04), Rehe/second Manchukuo/Duan Qirui/Song Zheyuan/
+  Boxer Protocol/Zhang Zongchang (ch07 pre-F0). Declined as padding: Water Gate,
+  Qianmen, spirit-wall, snuff bottles, bathhouse, Tan-family cuisine, Hôtel de
+  Pékin, German Hospital, "single spear and lone horse," "beating the grass to
+  startle the snake" (English conveys it), flower-name/procuress-mother/mounting-
+  the-tray (district economy already glossed). Total after ch07: **413**.
 
 <!-- F0_LEDGER_APPEND -->
 
