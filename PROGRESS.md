@@ -6051,7 +6051,7 @@ commit AND PUSH at every chapter boundary.
 chapter. An interrupted session resumes from the next chapter with the SAME F0
 kickoff (REVISION_PLAN §12.5). Do not spawn a new batch id.
 
-## F0 chapter ledger (last COMPLETE chapter = ch10)
+## F0 chapter ledger (last COMPLETE chapter = ch11)
 
 - **ch01 (Foreword) — DONE.** Notes 6 -> 10 (+4). New notes span all four
   kinds/domains:
@@ -6276,6 +6276,26 @@ qa_epub carry the per-chapter risk).
   Jing Ke, War of Resistance, Chongqing. Declined (uncertain/minor, not guessed):
   Ye Jiqing (Li Shiqun's wife — unverifiable role, minor), Wang Luqiao (Dai Li
   subordinate — unidentifiable). Total after ch10: **440**.
+
+- **ch11 (Part Two §1, Bloodshed Against the Enemy) — DONE.** Notes 10 -> 19
+  (+9). New: `life and death are decreed by fate` (死生有命, Analects/Zixia);
+  `Jardine, Matheson` (with Butterfield & Swire — the two great British hongs);
+  `the chief city of Annam` (Annam = old name for Vietnam; "Annamese" throughout);
+  `anti-Comintern agreement` (Comintern + the 1936/37 Anti-Comintern Pact);
+  `Imai Takeo` (今井武夫, IJA China-section chief, co-negotiator of Wang's
+  defection — Wikipedia, not the Grokipedia hit); `South Manchuria Railway
+  Company` (Mantetsu, intelligence vehicle); `shokutaku` (嘱託 commissioned
+  employee); `Shaoxing clerk` (绍兴师爷 pettifogger allusion); `Chen Bulei` (陈布雷,
+  Chiang's secretary/"brush," d.1948). All standard/verified; corroborated.
+  **TRAP (recorded):** an anchor containing a literal `&` (`Butterfield & Swire`)
+  BREAKS the build — the builder matches anchors against XHTML-escaped text
+  (`&amp;`), while apparatus_merge only checks the raw reading.md (which has the
+  literal `&`), so it passes the merge but fails the build. Fixed by re-anchoring
+  to `Jardine, Matheson`. RULE: never use `&`, `<`, or `>` in an anchor.
+  NOT re-noted: Kagesa (ch10), Marco Polo Bridge, Hanoi/Vietnam (ch03), Manchukuo,
+  Kempeitai, Republican dating, sworn-brother address, ancestral hall/Traitor-
+  Killing Corps/Luan-Yu/Kongming cart/Gao Zongwu-Mei Siping/Jing-Wei (ch11 pre-F0).
+  Total after ch11: **449**.
 
 <!-- F0_LEDGER_APPEND -->
 
