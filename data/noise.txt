@@ -1118,3 +1118,15 @@
 # "second" of the old date wording "twenty-second year" (which matched
 # \bsecond\b -> 2 and covered this 两) was converted to "1933" (RULE R1-3).
 郑、毛两位
+# R8 (ch35 p091): elided Republic-year pair 三十六、七年 = 1947-48; the 、七 elides
+# 三十七 (37), so the checker reads 三十六 (36) and a bare 七 (7). Rendered
+# Gregorian "1947 or 1948" (+1911), which removes the incidental 7 the old
+# "thirty-seventh" wording carried (\bseventh\b->7); strip the whole elided pair
+# (English carries the years). Same class as 二十七、八 / 二十二、三.
+三十六、七
+# R8 (ch35 p059): 卅二年 = the 32nd year of the Republic (1943); 卅 is a variant
+# of 三十 (30) that is NOT in the checker's CJK-numeral charset, so it reads a
+# bare 二 (2) from 卅二. The old "thirty-second year" wording covered that 2 via
+# \bsecond\b->2; rendering "1943" (+1911) orphaned it (RULE R1-3). Not a real
+# quantity — strip the mis-parsed pair (English carries 1943).
+卅二
