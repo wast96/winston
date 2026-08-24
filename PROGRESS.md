@@ -6051,7 +6051,7 @@ commit AND PUSH at every chapter boundary.
 chapter. An interrupted session resumes from the next chapter with the SAME F0
 kickoff (REVISION_PLAN §12.5). Do not spawn a new batch id.
 
-## F0 chapter ledger (last COMPLETE chapter = ch27)
+## F0 chapter ledger (last COMPLETE chapter = ch28)
 
 - **ch01 (Foreword) — DONE.** Notes 6 -> 10 (+4). New notes span all four
   kinds/domains:
@@ -6484,6 +6484,18 @@ qa_epub carry the per-chapter risk).
   (ch04), generation-rank "22nd remove" (ch08), Liang Hongzhi + Chen Qun (in ch27
   Reformed Government note), August Thirteenth/solitary island (covered). Total
   after ch27: **536**.
+
+- **ch28 (Part Three §9, Fearsome Renown) — DONE.** Notes 15 -> 23 (+8). New
+  (standard; corroborated): `piculs` (担 dan ~60kg grain measure); `enemy garrison
+  zone of Hongkou` (虹口 Japanese quarter); `Japanese Naval Landing Party` (海軍陸戦隊
+  Rikusentai); `Hanyeping` (汉冶萍 iron/steel/coal combine); `bureaucrat-cum-comprador`
+  (买办 comprador); `the fox grieving over the dead hare` (兔死狐悲); `Sun Sun, Dah
+  Sun, Wing On, Sincere` (four Nanjing Rd department stores — covers ch29/ch30);
+  `Federal Reserve Bank` (North China puppet bank, not the US Fed).
+  NOT re-noted: Central Reserve Bank (ch26), Chu Minyi (ch28 pre-F0 anchor),
+  Reformed/Great Way govts (covered). Declined: Yangjingbang Regulations
+  (uncertain), Saionji/Inukai (uncertain; Inukai father ch17). Total after ch28:
+  **544**.
 
 <!-- F0_LEDGER_APPEND -->
 
