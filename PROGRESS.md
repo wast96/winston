@@ -5036,3 +5036,185 @@ Wang's death).
   stub") still fails as documented — the kickoff_guard Stop hook correctly
   ENFORCING because HANDOFF.md carries a real (non-template) kickoff. All other
   checker regression tests green.
+
+## R5 (ch14, ch15, ch16, ch17, ch18) — register revision pass
+
+Fifth batch of the register pass (REVISION_PLAN.md §3/§5). The opening of the
+Shanghai sub-book: the Wang-case prologue (ch14), the botched Bolang assault and
+the mistaken killing of Zeng Zhongming (ch15), the essayistic/documentary
+post-mortem (ch16), the flight back to Chongqing and the new Shanghai mission
+(ch17), and taking over the Shanghai District plus the fates of the nineteen
+Hanoi comrades (ch18). **170 edits total** (ch14 5, ch15 39, ch16 25, ch17 36,
+ch18 61) via `edits/<id>_edits.md` + `apply_edits.py`.
+
+This batch is dominated by **DATE accessibility**: ch15/ch17/ch18 are
+mission-chronology chapters (like R4's ch11-13), so the bulk is Republic-year and
+spelled day-month NARRATION dates -> Gregorian/American across 1925-1984
+(number-check-safe: Republic year N -> N+1911 per check_numbers.py L327; month
+names carry the month numeral). Quoted-document dates, day-only ordinals, one
+lunar reference (ch17 p027 Qiantang tidal bore, "eighth month"), and a recorded
+death-time (ch18 p079 "sixteen o'clock", carries 十六时) are LEFT. The remainder
+is T6 impersonal "one" thinned where concrete, T5 dialogue naturalization
+(the canonical §3.2 Bingxi example at ch16 p034; Mr. Xu, Chunfeng, Luqiao, Tang),
+a handful of T1/T2 antique/calque, and three RULE R1-1 opaque/broken-idiom fixes.
+
+### Tic battery, before -> after (key classes)
+
+| class | ch14 | ch15 | ch16 | ch17 | ch18 |
+|---|---|---|---|---|---|
+| T1 besides (adv) | 0->0 | 8->7 | 7->7 | 9->9 | 10->10 |
+| T1 of-a-sudden/morning | 0->0 | 9->3 | 2->2 | 3->1 | 0->0 |
+| T1 nothing-for-it | 0->0 | 2->0 | 1->0 | 2->1 | 0->0 |
+| T2 could-not-but/only | 0->0 | 8->8 | 5->5 | 5->5 | 0->0 |
+| T2 pivots (that-is-to-say) | 0->0 | 5->3 | 2->1 | 1->1 | 1->1 |
+| T2 litotes (no small/few) | 0->0 | 6->5 | 0->0 | 1->1 | 1->1 |
+| T5 contractions | 0->0 | 6->7 | 0->4 | 0->0 | 0->0 |
+| T6 impersonal "one" | 0->0 | 21->17 | 13->10 | 8->8 | 8->8 |
+| T4 >60 / >90 words | 1/1 | 59/14->58/14 | 61/15->59/14 | 47/12->45/12 | 37/3->34/2 |
+| T3 quoted pairs | 2 | 151 | 92 | 170 | 131 |
+
+The residual T1/T2/T6 counts are dominated by QUOTED DOCUMENTS and the formal
+announcements, which legitimately hit the battery (§3.1) and are not chased:
+ch15 is ~1/3 quoted material (the Chiang/Dai/Zhu excerpts, the p054-p061 order),
+ch16 ~60% (Wang's "Account"/"To Cite One Instance", the committee minutes,
+Chiang's Q&A, Wu Zhihui's essay), ch17 ~50% (the "six leads", Wang's Long-Yun
+letter, Kagesa's memoir, Chiang's Secret Records, Zheng's True Record), ch18
+several long excerpts (Liu Shoufa's memoir, Dai's telegram, Tang's letters).
+The remaining narration "besides" are prepositional/"in addition" uses (T1
+CAUTION); the surviving "could only/not but" and "one" are essayist generalizing
+in Chen's reflective codas (T6 CAUTION).
+
+### T3 quote policy applied
+
+Near-zero strips this batch (contrast R4's org-name strips). The quoted pairs
+here are legitimately KEPT: live dialogue, book/paper/episode titles (several are
+note-anchor sites), author-coined terms anatomized on the page ("soft/hard
+action", "loud/silent weapon", "combat readiness", the definitional
+"Juntong Bureau"/"Juntong" at ch17 p183), quoted-document fragments, and marked
+irony ("advocacy of peace"/"suing for surrender"). "Hanoi work" (河内工作)
+project-name quoting stays for the R9 book-wide decision (per the R4 handoff).
+
+### Blind-critique spot check (R5, §5.6/§8) — adjudicated by class (RULE R1-4)
+
+Ran the verbatim blind-reader prompt on the revised **ch16 §1** (the narration +
+reported-dialogue span, p001-p045, no source/plan) — 150 findings returned. The
+reader was calibrated to a MODERN-NEUTRAL target; this book's target is
+deliberately GRAVE-FORMAL (§3.1, which departs from the shelf's modern-neutral
+default). Adjudication:
+
+- **ACCEPTED (2), applied to ch16 in a follow-up commit** — findings that cross
+  even the grave-living line: (a) ch16 p012 "set the record of having,
+  single-handed, cut down with his own hand..." — garbled, doubled
+  单枪匹马/手刃; tightened. (b) ch16 p023 "'first come, first master'" (先入为主)
+  — not an English idiom, opaque (RULE R1-1) -> "'first impressions rule'"
+  (the concept is already glossed as the "law of primacy" at p014).
+- **REJECT-by-class (~148)**, with the KEEP-list reason as the record:
+  1. **Deliberate grave/formal register** (~55): "that we might", "by rights",
+     "brooks no", "vaunt", "come what may", uncontracted narration, grave
+     periodic sentences that LAND. This IS the target voice (§3.1 read-aloud
+     tiebreaker: a grave, precise, old-fashioned but LIVING narrator). REJECT.
+  2. **笔者 / "the writer"** persona formula (RULE R1-4): deliberate, KEEP.
+  3. **Rendered chengyu kept for their image** (§3.3): 养虎遗患, 按图索骥,
+     虎头蛇尾, 空穴来风, 出这口气, "scale and half a claw" — the reader wants
+     them all de-imaged; KEEP the ones that land in context (the two that read
+     genuinely broken/opaque were the ACCEPTs above).
+  4. **"in truth"/topic-comment/clause-stacking** flagged as translationese:
+     these are Chen's cadence; the >90-word two-spine cases are triaged under
+     T4, not razed. REJECT as a class, watch under RULE R1-5.
+  The blind reader stopped short of the quoted documents (they weren't in the
+  excerpt); on the register itself, the two real defects it caught are exactly
+  the RULE R1-1 class the pass exists to fix, and they fed back in.
+
+### Recurring-tic watch (RULE R1-5)
+
+The blind critique confirmed two live repetition tics to thin as met: "in truth"
+/ "to speak truly" (Chen's filler doublet), and "talk over" (x3 in ch16 §1).
+Handled where they clustered; flagged for the remaining batches.
+
+### Spot-audit (>=10% of edited paragraphs per chapter, against the source)
+
+Meaning preserved in every sampled edit; the register pass makes only in-paragraph
+English changes (no text moved between paragraphs — check_align confirms).
+- **Dates (the bulk):** verified the Republic->Gregorian arithmetic (N+1911) on a
+  fixed sample spanning the range — ch15 p047 (28->1939), p124 (30->1941), p190
+  (37/38->1948/49); ch17 p002 (20->1931), p108 (15->1926), p112 (28->1939);
+  ch18 p001 (28->1939), p079 (24->1935, 32->1943, 33->1944), p098 (50->1961),
+  p138 (73->1984). All correct; day/month numerals preserved.
+- **Recasts / idiom fixes (re-read zh against en):** ch14 p002 为虎作伥 ->
+  "playing cat's-paw to the tiger"; ch15 p079 Mr. Xu's legal opinion (naturalized,
+  content intact), p114 (nothing-for-it + one->we); ch16 p034 Bingxi
+  尽管放心走好了...由我负责料理 -> "Don't worry, go. I'll take care of things
+  here."; ch17 p017 有就是有，没有就没有 -> "What was, was; what was not, was
+  not."; p002 背黑锅 -> "made the scapegoat". All propositionally faithful.
+- **Tails** re-read against zh: ch15 p225, ch16 p116, ch17 p147, ch18 p138 — all
+  match; no drift or invention.
+
+### Checks (all green)
+
+- `verify_unit.py`: parity ch14 5 / ch15 225 / ch16 116 / ch17 147 / ch18 138;
+  numbers 0 unresolved (each after resolving one RULE R1-3 latent match:
+  ch17 p054 "fortnight"->"two weeks" for 两周; ch18 p115 廿九 kept spelled);
+  anchors ch14 0 / ch15 11 / ch16 8 / ch17 9 / ch18 6 all resolve.
+- `check_align.py`: all five OK (no pair strays >2.2x from the chapter median).
+- `check_register.py --ref reference/R1_frozen.md`: ch14/ch15/ch16 within
+  tolerance. **ch17 flags STILTED (0.0 contr/1k, 43% shall)** and **ch18 the
+  script self-labels "little dialogue — noisy"** — both the ch08/ch12-class
+  DOCUMENTARY false positive (quoted-document mass + Dai Li's deliberately-formal
+  mission-instruction dialogue, which §3.4 keeps formal); NOT chased, matching
+  the R4 ch12 decision.
+- `check_content.py`: config-unavailable this batch (the plain book.json lacks the
+  docs/sources map it needs; it self-reports "NOTHING was checked"). The register
+  pass moves no text between paragraphs, so displacement is guarded by
+  check_align (passed) + verify_unit's number/anchor invariants; noted honestly.
+- Build + `qa_epub.py`: **PASS** (57 files, 50 documents, 375 refs/bodies/backlinks,
+  all links resolve). **epubcheck 5.1.0: 0 fatals / 0 errors / 0 warnings / 0 infos.**
+
+### Noise entries added (data/noise.txt) — do-not-revert
+
+- `五十一、二` — the elided Republic-year pair 民国五十一、二年 (1962-63, ch18
+  p123); the lone 、二 (2) has no English match once the pair renders "1962 or
+  1963" (the old "fifty-second" was coincidentally supplying it; RULE R1-3).
+  Same class as R4's `二十二、三`.
+
+### RULE R1-3 latent matches surfaced (documented, not contorted)
+
+Two date edits removed a coincidental ordinal sub-number match: ch17 p054's
+"twenty-second" was supplying the 2 that covered 两周 ("two weeks", rendered
+"fortnight") -> fixed by carrying the real quantity ("two weeks"); ch18 p115's
+"twenty-ninth" was supplying the 9 that the variant 廿九 needs -> kept spelled
+("twenty-ninth of April", month Anglicized only).
+
+### Rejected finding classes (RULE R1-4, by class) — standing calls held through R5
+
+Chen's persona furniture (笔者/"the writer", humility formulas, topic frames,
+the narrating "shall"); quoted documents (register, length, archaisms, quotes,
+等-tags, dates inside them); Chen's interested-witness heat ("the man Wang",
+"traitor", the reverent martyr set-pieces, 日本鬼子 "Japanese devils"); decided
+glossary renderings; set-off markers; note anchors; chengyu that land; the
+source's own faithful oddities. Dai Li's mission-instruction dialogue stays
+formal (§3.4: never contracts in anything quasi-official).
+
+### R9 / whole-book reconciliation flags (NOT changed in R5)
+
+- **为虎作伥 / 虎伥 rendering drift:** ch14 p002 "playing cat's-paw to the tiger"
+  vs ch17 p145 "play the tiger's lackey" — decide one book-wide in R9.
+- **虎头蛇尾 rendering drift:** ch15 p136 "a tiger's head, a snake's tail" vs
+  ch18 p052 "a tiger's head trailing off to a snake's tail" — reconcile in R9.
+- **民前四年 (ch18 p103):** "the fourth year before the Republic" (= 1908) LEFT
+  unconverted — the +1911 rule does not apply to 民前 (before-Republic) forms,
+  and the R4 handoff shows 民前 birth-years are error-prone (a 1883/1884 source
+  inconsistency in ch13). Convert/gloss in R9 or the F0 footnote pass.
+- **沐猴而冠 (ch18 p010) "play the monkey in a hat":** kept as mockery; verify it
+  reads for a Western reader in R9 (candidate for an F0 note).
+- Carried R1-R4 flags still stand ("Hanoi work"/hotel quoting; 第二处 "Second
+  Bureau"(ch09) vs "Second Department"(ch05); 四十年代 "the forties" possible
+  Minguo-40s=1950s; etc.).
+
+### Setup note
+
+- setup.sh regression: the ONE known false alarm ("hook stands down on template
+  stub") still FAILS as documented at R2-R4 — the kickoff_guard Stop hook is
+  correctly ENFORCING because HANDOFF.md carries a real (non-template) kickoff,
+  which is precisely what that test inverts. Benign; not a tooling regression, not
+  fixed (altering the guard to pass on a live branch would hide real regressions).
+  All other checker regression tests green.

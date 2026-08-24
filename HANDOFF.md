@@ -9,7 +9,7 @@ session updates the kickoff block below for the next one.**
 ## Message to paste into the next chat
 
 ```
-Nameless Heroes R5: register revision pass
+Nameless Heroes R6: register revision pass
 
 Branch: claude/nameless-heroes ONLY. First acts: git fetch origin
 claude/nameless-heroes && git checkout claude/nameless-heroes && git
@@ -20,15 +20,13 @@ Never read any other branch.
 Read CLAUDE.md, then REVISION_PLAN.md IN FULL (it is the authority for
 this pass), then run ./setup.sh.
 
-Scope this batch: ch14, ch15, ch16, ch17, ch18. Content is frozen;
+Scope this batch: ch19, ch20, ch21, ch22, ch23, ch24. Content is frozen;
 English-to-English register edits only, per REVISION_PLAN.md §3 (defect
 classes T1–T6, KEEP list) and §5 (method, exactly). Edits via
 edits/<id>_edits.md + apply_edits.py; verify_unit + tic battery
 before/after per chapter; spot-audit 10% of edited paragraphs;
 check_register --ref reference/R1_frozen.md; rebuild + qa_epub; commit
-and push at chapter boundaries. R5 also runs the blind-critique spot
-check on one revised chapter (§5 step 6, §8) — adjudicate ACCEPT/REJECT
-by class in PROGRESS.md.
+and push at chapter boundaries.
 
 End of batch: PROGRESS.md updated (tic tables, spot-audit, rejected
 findings), HANDOFF.md kickoff updated, and the reply carries BOTH chat
@@ -38,22 +36,27 @@ approval stops.
 ```
 
 
-## Revision pass state (after R4)
+## Revision pass state (after R5)
 
 - **DONE:** R1 (ch06, exemplar, frozen as `reference/R1_frozen.md`). R2 (ch07,
-  ch08: 86 + 65 edits). R3 (ch01-ch05, ch09, ch10: 85 edits). **R4 (ch11, ch12,
-  ch13): 217 edits total** (ch11 51, ch12 31, ch13 135) via `edits/<id>_edits.md`
-  + `apply_edits.py`. The opening of the Hanoi sub-book: dominated by DATE
-  accessibility (Republic-year and Republic-era "Nth month" narration dates ->
-  Gregorian across the mission chronology and the Wang Jingwei biography), plus
-  the usual T1/T2/T3/T5/T6 and one dropped-subject grammar fix (ch13 p189). All
-  fidelity gates green (parity ch11 87, ch12 131, ch13 262; numbers 0; anchors
-  ch11 10 / ch12 16 / ch13 21 all resolve; align OK bar the ch13 p163 verse-ratio
-  FP; content clean bar the documented ch13 diacritic/variant name FPs). qa_epub
-  PASS + epubcheck 0/0/0/0. **check_register: ch11 & ch13 within tolerance; ch12
-  flags STILTED (0.0 contr/1k) — the ch08-class documentary false positive
-  (~65% of its "speech" words are long quoted documents; no casual dialogue to
-  contract), NOT chased.** Full tic tables + findings in PROGRESS.md §R4.
+  ch08: 86 + 65 edits). R3 (ch01-ch05, ch09, ch10: 85 edits). R4 (ch11, ch12,
+  ch13: 217 edits). **R5 (ch14, ch15, ch16, ch17, ch18): 170 edits total**
+  (ch14 5, ch15 39, ch16 25, ch17 36, ch18 61) via `edits/<id>_edits.md` +
+  `apply_edits.py`. The opening of the Shanghai sub-book: dominated again by DATE
+  accessibility (ch15/ch17/ch18 are mission-chronology chapters — Republic-year
+  and spelled day-month narration dates -> Gregorian/American across 1925-1984),
+  plus T6 impersonal "one", T5 dialogue naturalization (the canonical §3.2 Bingxi
+  example at ch16 p034; Mr. Xu, Chunfeng, Luqiao, Tang), a few T1/T2, and three
+  RULE R1-1 opaque/broken-idiom fixes (为虎作伥; "Had is had..."; 背黑锅;
+  "first come, first master"). All fidelity gates green (parity ch14 5 / ch15 225
+  / ch16 116 / ch17 147 / ch18 138; numbers 0; anchors ch14 0 / ch15 11 / ch16 8
+  / ch17 9 / ch18 6 all resolve; align OK). qa_epub PASS + epubcheck 0/0/0/0.
+  **check_register: ch14/ch15/ch16 within tolerance; ch17 flags STILTED and ch18
+  "little dialogue — noisy" — the ch08/ch12-class documentary false positive
+  (quoted-document mass + Dai Li's deliberately-formal mission-instruction
+  dialogue), NOT chased.** Ran the R5 blind-critique spot check on revised ch16
+  §1 (150 findings; 2 ACCEPTed and applied, ~148 REJECT-by-class per RULE R1-4).
+  Full tic tables + adjudication + findings in PROGRESS.md §R5.
 - **Carry-forward for R5+:** voice sheets in REVISION_PLAN.md §3.4; T3 rule as
   practiced — recurring decided proper names/orgs plain in narration after
   book-first use; quotes stay at naming/anatomizing sites, marked irony, titles,
@@ -64,22 +67,30 @@ approval stops.
   skip whole quoted-document/dialogue paragraphs. Spelled-ordinal AND 民國-year
   dates in narration -> American/Gregorian (accessibility); day-only ordinals
   and dates inside quoted documents stay.
-- **New noise.txt entries (R4):** `二十二、三` (ch12 elided Republic-year pair
-  1933-34) and `二○七` (ch13 address No. 207 mis-parsed by the fullwidth circle)
-  — do-not-revert. Earlier R3 `四、五千`, `二十一、二`, `二十七、八`, R2 `三、四两`,
-  R1 `五官`, `四个大字` also stand. `scripts/align_dump.py` (QC-only aligned zh|en
-  dumper) stands.
+- **New noise.txt entries (R5):** `五十一、二` (ch18 elided Republic-year pair
+  1962-63; the lone 、二 lost its coincidental "fifty-second" match, RULE R1-3)
+  — do-not-revert. Earlier R4 `二十二、三`, `二○七`, R3 `四、五千`, `二十一、二`,
+  `二十七、八`, R2 `三、四两`, R1 `五官`, `四个大字` also stand.
+  `scripts/align_dump.py` (QC-only aligned zh|en dumper) stands.
+- **R5 RULE R1-3 latent matches (surfaced by date edits, documented):** ch17 p054
+  "twenty-second" had been supplying the 2 for 两周 -> fixed by carrying the real
+  quantity ("fortnight" -> "two weeks"); ch18 p115 "twenty-ninth" supplies the 9
+  the variant 廿九 needs -> kept spelled ("twenty-ninth of April", month only
+  Anglicized). Watch this class on every date edit that drops an ordinal word.
 - **Tooling do-not-revert:** kickoff_guard Stop hook; apply_edits.py OLD
   uniqueness contract; scripts/align_dump.py; the noise.txt entries above.
 - **R9 (whole-book close) reconciliation flags** logged in PROGRESS §R1
   (Baomiju, storey/story, "political operation"), §R2 (ch07 one-off hotel names;
   ch08 group-name / special-commissioner / inspectorate-system quoting), §R3
   (民國-year rendering; 第二处 "Second Bureau"(ch09) vs "Second Department"(ch05);
-  "the cook who does the cooking" tautology ch09), and **§R4 (project-name/hotel
+  "the cook who does the cooking" tautology ch09), §R4 (project-name/hotel
   quoting for "Hanoi work" and "Continental"/"Railway"; "Wang case" quoting;
-  ch13 p130 四十年代 rendered "the forties" — possible Minguo-40s=1950s value
-  error; ch13 民前 birth-year 1884 vs p134 1883 source inconsistency; ch13
-  p152/p155 二月 "February" vs "second month" split).**
+  ch13 p130 四十年代 "the forties" possible Minguo-40s=1950s; ch13 民前 birth-year
+  1884 vs p134 1883; ch13 p152/p155 二月 split), and **§R5 (为虎作伥/虎伥 rendering
+  drift ch14 "cat's-paw to the tiger" vs ch17 "the tiger's lackey"; 虎头蛇尾 drift
+  ch15 "a tiger's head, a snake's tail" vs ch18 p052 "...trailing off to a snake's
+  tail"; ch18 p103 民前四年 = 1908 LEFT unconverted, +1911 does not apply to 民前
+  forms; 沐猴而冠 ch18 p010 "play the monkey in a hat" — verify/note in R9/F0).**
 
 ## ⚠ COMMISSIONER DIRECTIVE (2026-08-22): a FOOTNOTE-DENSITY pass (F0) AFTER R9
 
