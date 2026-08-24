@@ -6051,7 +6051,7 @@ commit AND PUSH at every chapter boundary.
 chapter. An interrupted session resumes from the next chapter with the SAME F0
 kickoff (REVISION_PLAN §12.5). Do not spawn a new batch id.
 
-## F0 chapter ledger (last COMPLETE chapter = ch17)
+## F0 chapter ledger (last COMPLETE chapter = ch18)
 
 - **ch01 (Foreword) — DONE.** Notes 6 -> 10 (+4). New notes span all four
   kinds/domains:
@@ -6381,6 +6381,18 @@ qa_epub carry the per-chapter risk).
   NOT re-noted: Kagesa/Ume Kikan/Itagaki/Blue Shirt/Five Ministers' Conference/
   Yan Telegram/sanction/Wang Kemin-Liang Hongzhi (covered/self-glossed). Total
   after ch17: **492**.
+
+- **ch18 (Part Two §8, Renewed Effort — plus A Note from the Author) — DONE.**
+  Notes 6 -> 14 (+8). New (standard; corroborated): `Wu Peifu` (吴佩孚 1874-1939,
+  Jade Marshal, refused a Japanese puppet role — honorable counter to Wang;
+  proper first gloss, previously only named in passing); `play the monkey in a
+  hat` (沐猴而冠, Shiji/Xiang Yu); `the Vertical and Horizontal Alliances` (纵横
+  zongheng, Warring States); `a hundred ping` (坪, floor-area unit ~3.3 sq m,
+  Taiwan/Japan); `the Sick Man of East Asia` (东亚病夫); `gone hand in hand to the
+  Western Heaven` (西天 Pure Land / death euphemism); `rare threescore and ten`
+  (Du Fu 人生七十古来稀); `footfalls in an empty valley` (空谷足音, Zhuangzi).
+  NOT re-noted: Mauser/box-cannon (ch08). Total after ch18: **500**.
+  [epubcheck 0/0/0/0 checkpoint]
 
 <!-- F0_LEDGER_APPEND -->
 
