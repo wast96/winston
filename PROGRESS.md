@@ -6051,7 +6051,7 @@ commit AND PUSH at every chapter boundary.
 chapter. An interrupted session resumes from the next chapter with the SAME F0
 kickoff (REVISION_PLAN §12.5). Do not spawn a new batch id.
 
-## F0 chapter ledger (last COMPLETE chapter = ch34)
+## F0 chapter ledger (last COMPLETE chapter = ch35)
 
 - **ch01 (Foreword) — DONE.** Notes 6 -> 10 (+4). New notes span all four
   kinds/domains:
@@ -6557,6 +6557,16 @@ qa_epub carry the per-chapter risk).
   NOT re-noted: Baomiju (ch04), Renaissance Society (Lixingshe cluster), Duan
   Qirui (ch07), Fu Zuoyi (covered). Declined: Roosevelt serge + Victory Medal
   (uncertain). Total after ch34: **577**.
+
+- **ch35 (Part Four §3, A Spell of Storm) — DONE.** Notes 14 -> 20 (+6). New:
+  `Mr. Liu Peichu` (Pacification Corps commander & memoir author, per text);
+  `Mr. Huang Fu` (黄郛 1880-1936, diplomat, Tanggu Truce negotiator); `Luo Ronghuan`
+  (罗荣桓, Northeast commissar over Lin Biao, later marshal); `Three-Anti` (三反
+  1951-52); `Suppression of Counter-revolutionaries` (镇反 1950-51); `death penalty
+  with reprieve` (死缓 sihuan). Standard; corroborated.
+  NOT re-noted: Li Zongren/Zhou Enlai (ch32), Nie Rongzhen (ch04), Baomiju (ch04),
+  Lantern Festival (ch09 twelfth-moon note), Guangzhou Uprising/Party Purge
+  (covered). Total after ch35: **583**. [epubcheck 0/0/0/0 checkpoint]
 
 <!-- F0_LEDGER_APPEND -->
 
