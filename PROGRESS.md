@@ -6051,7 +6051,7 @@ commit AND PUSH at every chapter boundary.
 chapter. An interrupted session resumes from the next chapter with the SAME F0
 kickoff (REVISION_PLAN §12.5). Do not spawn a new batch id.
 
-## F0 chapter ledger (last COMPLETE chapter = ch22)
+## F0 chapter ledger (last COMPLETE chapter = ch23)
 
 - **ch01 (Foreword) — DONE.** Notes 6 -> 10 (+4). New notes span all four
   kinds/domains:
@@ -6431,6 +6431,12 @@ qa_epub carry the per-chapter risk).
   Pure Land (ch18 Western Heaven), Thirty-Six Stratagems collection (ch02/ch41).
   Declined: New Asia Peace Promotion Association (uncertain). Total after ch22:
   **514**.
+
+- **ch23 (Part Three §3, Patriotic Spirit, Moral Bounds) — short.** Notes 7 -> 8
+  (+1). New: `the storm-wind filling the tower` (山雨欲来风满楼, Xu Hun, Tang).
+  NOT re-noted: Japanese gendarmerie=Kempeitai (ch04), No.76/sanction/为虎作伥
+  (covered). Declined: New Asia Peace Promotion Assoc. + Yu Yefeng (uncertain).
+  Total after ch23: **515**.
 
 <!-- F0_LEDGER_APPEND -->
 
