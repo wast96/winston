@@ -6051,7 +6051,7 @@ commit AND PUSH at every chapter boundary.
 chapter. An interrupted session resumes from the next chapter with the SAME F0
 kickoff (REVISION_PLAN §12.5). Do not spawn a new batch id.
 
-## F0 chapter ledger (last COMPLETE chapter = ch13)
+## F0 chapter ledger (last COMPLETE chapter = ch14)
 
 - **ch01 (Foreword) — DONE.** Notes 6 -> 10 (+4). New notes span all four
   kinds/domains:
@@ -6334,6 +6334,13 @@ qa_epub carry the per-chapter risk).
   Caishikou execution ground, Jingwei-bird myth, Ninghan Split, tael, menke
   guest-retainer, dense poem-internal allusions (Yi River/Jing Ke, Xiang bamboo,
   Dong Zhuo). Total after ch13: **467**. [epubcheck 0/0/0/0 checkpoint]
+
+- **ch14 (Part Two §4, Beset on Three Sides) — DONE.** Short chapter (13 lines),
+  0 pre-F0 notes -> 2. New: `returned students` (留学生, foreign-educated elite);
+  `field-grade officers` (校官 tier; the 将/校/尉 rank system). Standard;
+  corroborated. Declined: "risen from the greenwood" (绿林 — near-duplicate of the
+  jianghu note, ch07); Wang case/Dai Li/sanction/为虎作伥 (covered). Total after
+  ch14: **469**.
 
 <!-- F0_LEDGER_APPEND -->
 
