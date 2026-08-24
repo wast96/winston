@@ -5394,3 +5394,222 @@ friend, blunt); Dai Li's telegrams and quasi-official utterances stay formal.
   which is precisely what that test inverts. Benign; not a tooling regression, not
   fixed. All other checker regression tests green (including check_numbers after
   the new noise entry).
+
+---
+
+## R7 (ch25, ch26, ch27, ch28, ch29) — register revision pass
+
+Seventh batch of the register pass (REVISION_PLAN.md §3/§5). The middle of the
+Third Part (Shanghai): Chapter 5 — the early-war Juntong-Bureau work-review
+through Dai Li's quoted work-directions, and the 144-Mauser gift + the Fan Xing
+intelligence line (ch25); Chapter 6 — the nameless martyrs, the Xiao family, the
+He-Xingjian/Communist-confession analysis, the Xu Shouxin martyrdom, the campaign
+to shoot uniformed Japanese soldiers, and the Anti-Japanese Traitor-Killing Corps
+(ch26); Chapter 8 — whether the Zhang Xiaolin sanction was really ours, and the
+refutation of a forged confession (ch27); Chapter 9 — the agent's state of mind
+on killing, the Fu Xiao'an axe-sanction, the Yu Yefeng talk, the seizure of the
+concession courts and the Central Reserve Bank (ch28); Chapter 10 Part 1 — the
+Liu Yuanshen story and Chen's capture (ch29). **193 edits total** (ch25 30, ch26
+56, ch27 17, ch28 65, ch29 25) via `edits/<id>_edits.md` + `apply_edits.py`.
+
+Dominated, as R5/R6, by **DATE accessibility**: these are mission-chronology and
+martyr-record chapters, so the bulk is Republic-year and spelled day-month
+NARRATION dates -> Gregorian/American (number-check-safe: Republic year N ->
+N+1911 per check_numbers.py; month names carry the month numeral). ch28 carries
+the heaviest load, including **two diary-paraphrase chronologies** (p145-p152
+court, p166-p185 bank) that Chen renders explicitly "以笔者的口气 / in my own voice"
+(so NARRATION, converted from the opaque "Xth of the Yth month" form); its
+genuinely-quoted Zhou-Fohai diary entries (p103-p104, p153-p154) keep their dates.
+**ALL quoted-document dates are LEFT** (§3.1): Dai Li's telegrams and work-orders
+(ch25 documents, ch26 p002-p003/p054-p059, ch28 p011); the embedded co-authored
+memoirs (Xu Wenqi's "One of the Nameless Heroes" ch26 p090-p103; Zhang Zhiyi's
+Communist confession ch26 p062; the forged "Lin Huaibu" letter ch27 p094-p101);
+the Japanese "Mainland Gendarmerie" record and its Japanese-language appendix
+(ch26 p213-p262); the casualty TABLE (ch26 p170-p206); all news reports (Ta Kung
+Pao, Xin Shen Bao, Chung Mei, etc.); the court-agreement article texts (ch28
+p131-p140); the Cao Song poem (ch28 p013). The remainder: T1 kill-list words
+("of a sudden"/"aught"/"had no wish"/"still less"/"nothing for it but"/"Let it be
+marked"/sentence-initial "Besides"); T2 "could not but"/"cannot but" recast to the
+plain modal or "could not help"; T6 impersonal "one may say/see/imagine" thinned
+where it renders a hedging 可以说/可见/照想 (essayist generalizing "one" kept, §3.2
+T6 CAUTION); RULE R1-1 "struck of a heap"->"gave a start"; RULE R1-5 "severally"
+thinned and a doubled "besides" de-doubled.
+
+ch29's embedded first-person account by Liu Yuanshen (p018-p062, written for the
+book at Chen's request) treated as EDITABLE contributed prose per the R6
+Mao-Wanli-monologue precedent — dates converted, clearest calques fixed; its
+genuinely-quoted bureau telegrams (p014/p029/p057) and the Chen/Zhu-Min dialogue
+LEFT. ch29 p063-p070 repeat ch28's ending verbatim (source doubling across the
+chapter seam, a faithful oddity KEPT visible; its dates rendered to MATCH the ch28
+R7 edits).
+
+### Tic battery, before -> after (key classes)
+
+| class | ch25 | ch26 | ch27 | ch28 | ch29 |
+|---|---|---|---|---|---|
+| T1 of-a-sudden | 3->0 | 4->4 | 0->0 | 0->0 | 3->2 |
+| T1 no-wish/made-bold/still-less | 1->0 | 3->3 | 3->3 | 3->3 | 0->0 |
+| T1 nothing-for-it | 1->0 | 0->0 | 0->0 | 0->0 | 2->2 |
+| T1 besides (adv) | 12->12 | 14->13 | 7->6 | 13->12 | 8->8 |
+| T1 day-month dates | 0->0 | 0->0 | 0->0 | 0->0 | 0->0 |
+| T2 could-not-but/only | 3->1 | 2->2 | 1->1 | 8->5 | 9->6 |
+| T6 impersonal "one" | 13->9 | 16->13 | 7->6 | 7->6 | 5->5 |
+| T4 >60 / >90 words | 45/13->44/13 | 116/33->112/31 | 39/14->38/14 | 55/18 | 39/7 |
+| T3 quoted pairs | 180 | 464 | 0 | 211 | 103 |
+
+The residual T1/T2/T6 counts are dominated by QUOTED DOCUMENTS, which
+legitimately hit the battery (§3.1) and are not chased: ch26's of-a-sudden (4) and
+no-wish/still-less (3) are inside the Xu Wenqi memoir and the quoted news reports;
+its "could not but" (2) likewise. The "day-month dates" battery hits go to 0
+everywhere (narration dates converted; quoted-document day-month dates the battery
+would flag sit in `>`-free quoted paragraphs it does not scan). "besides" barely
+moves because almost all hits are prepositional/tail "besides" (T1 CAUTION), not
+the sentence-adverb; the sentence-initial ones were fixed (ch27 p051, ch28 p045).
+**Residual note:** ch29's 2 "nothing for it but" (p053, p056) and 2 of the
+"could not but" (p053 "rail at myself", p056 "suspect") sit in Liu Yuanshen's
+embedded grave account and were LEFT (tic-battery-is-a-flag; the embedded account
+handled lightly on register-words, and hand-editing outside the apply_edits
+pipeline was declined to keep that do-not-revert contract clean). The T4 >60/>90
+counts barely move: the long sentences are quoted documents (stay long, §3.1) and
+Chen's periodic set-pieces that LAND (T4 CAUTION); not chased.
+
+### T3 quote policy applied
+
+Near-zero strips this batch, per the R5/R6 precedent (the immediate calibration
+target). These Part-3 chapters carry the omnipresent decided org names ("Shanghai
+District", "Juntong Bureau", "Beiping Station", "action brigade", etc.) with the
+source's 「」 quotes; the ADJACENT revised chapters ch19-ch24 KEEP those quotes in
+plain narration (verified: revised ch24 keeps 9 quoted "Shanghai District" in
+narration, ch22 keeps 28), so stripping them in ch25-ch29 would make R7 internally
+inconsistent with its own neighbours. KEPT for Part-3 consistency and FLAGGED for
+the R9 whole-book decision (see reconciliation flags). The quoted pairs otherwise
+KEPT are: quoted documents/memoirs/news/telegrams, live dialogue, author-
+anatomized terms, marked irony, titles-as-titles, code/cover names, and
+note-anchor sites.
+
+### RULE R1-1 / R1-5 fixes
+
+- ch25 p088: 为之一怔 was "I was struck of a heap" — a costume-drama idiom
+  (read-aloud test) -> "I gave a start" (RULE R1-1, register).
+- ch25 p002/p111: recurring "severally" (RULE R1-5) thinned to "each"/"apart"
+  (p057 "severally to four men" kept for variation).
+- ch26 p316: a doubled "besides" in one clause (尚且沽名钓誉) de-doubled ->
+  "besides gain, angled after name and fame too" (RULE R1-5).
+
+### Recurring-tic watch (RULE R1-5)
+
+"one may say/see/imagine" (ch25 p081/p098/p128/p150/p153, ch26 p007/p027/p069,
+ch27 p002, ch28 p043 — varied to "you might say/see", the hedge dropped, or the
+plain statement); "severally" (ch25). Watched, not eradicated.
+
+### Spot-audit (>=10% of edited paragraphs per chapter, against the source)
+
+Audited the substantive edits of each chapter against the zh (all date
+conversions, the R1-1 fix, the recasts, the impersonal thinning, and each
+chapter's tail). All preserve propositional content exactly; every +1911 mapping
+verified and confirmed consistent by the 0-unresolved number gate. Sample: ch25
+p001 (1937/1940), p050 (1935/1940/1950), p058/p088/p166 recasts; ch26 p084
+(1952-53), p136 (Sept 1940-Oct 1941), p231 (1939-40), p292 (Christmas Eve 1940),
+p301 (Dec 1983); ch27 p039 (1936/1940, lunar 五月初六 kept lunar), p113 (June
+1973/Jan 1976); ch28 p129 (Feb 27/Apr 1, 1930), p145/p166 chronology anchors
+(Oct 21/24, 1940), p181 (Jan 6, 1941); ch29 p021 (Changsha fire Nov 12, 1938),
+p036 (Dai Li death Mar 17, 1946). Per-chapter number checks all reconcile
+(parity by construction; ch25 183 / ch26 321 / ch27 133 / ch28 217 / ch29 70
+pairs, 0 unresolved).
+
+### Rejected finding classes (RULE R1-4, by class) — standing calls held through R7
+
+No blind critique this batch (R5 carried one spot check; the second is scheduled
+for R8, §8). Standing reject-by-class calls, cited once here: Chen's persona
+furniture (笔者 "the writer", humility formulas, the narrating "shall"); quoted
+documents, memoirs, telegrams, news, tables, and self-citations (register, length,
+archaisms, dates, era-year forms inside them); Chen's interested-witness heat (the
+traitor/martyr register, the anti-Communist verdicts, the reverence set-pieces —
+the "ground to powder" close ch25 p183, the "living sacrifice" ch26); decided
+glossary renderings; set-off markers; note anchors; chengyu that land; the
+source's own faithful oddities (the ch26 p116-p122 garble; the ch29 chapter-seam
+doubling). Chen's formal dialogue to superiors/subordinates stays formal (§3.2 T5
+CAUTION); the already-colloquial Zhu-Min dialogue (ch29 p051) LEFT as rendered.
+
+### Checks (all green)
+
+- Parity by construction; `verify_unit.py` per chapter: numbers 0 unresolved
+  (ch25 183 / ch26 321 / ch27 133 / ch28 217 / ch29 70 pairs), anchors all resolve
+  (ch25 10 / ch26 11 / ch27 6 / ch28 8 / ch29 9).
+- `check_align.py` per unit OK (no pair strays > 2.2x from the unit median).
+- `check_content.py`: no displacement flag on any R7 unit; the only failures are
+  the documented benign homograph/substring false positives (ch08 Shunde, ch09
+  Jize, ch13, ch26, ch38, ch41 — ch26's did not even fire this pass), unchanged.
+- `check_register.py --ref reference/R1_frozen.md`: **all five flag STILTED — the
+  ch08/ch12/ch17/ch21-class documentary false positive** (contractions ~0 because
+  the free speech is quoted documents/memoirs plus grave narration; shall% is
+  document-borne — ch26 83% is entirely Dai-Li-telegram + Xu-Wenqi-memoir + Zhang-
+  Zhiyi-confession + gendarmerie-record "shall", ch25 60% likewise; ch27 shall% 0%,
+  flagged only for near-zero dialogue in an analytical chapter). Confirmed
+  document-borne by inspection; NOT chased, consistent with R6 ch21/ch22/ch24.
+- Build + `qa_epub.py`: **PASS** (57 files, 50 documents, 6160 paragraphs, 375
+  refs / 375 bodies / 375 backlinks, all links resolve). **epubcheck 5.1.0: 0
+  fatals / 0 errors / 0 warnings / 0 infos** (EPUB 3.3).
+- Checker regression tests (setup.sh): green except the one documented benign
+  false alarm ("hook stands down on template stub", Setup note below); the three
+  new noise entries did not disturb check_numbers (pass-fixture OK, fail 5/5).
+
+### Noise entries added (data/noise.txt) — do-not-revert
+
+- `四十一、二` (ch26 p084): elided Republic-year pair 民国四十一、二年 = 1952-53; the
+  、二 elides 四十二 (42), so the checker reads 四十一 (41) and a bare 二 (2). English
+  "1952 or 1953"; the lone 2 has no match. Same class as R5's `五十一、二`.
+- `李圣五` (ch28 p146): the personal name 李圣五 (Li Shengwu) ends in 五 (5); the old
+  narration date "the twenty-fifth of the tenth month" had been supplying that 5
+  via "fifth", so converting to "October 25" orphaned it (RULE R1-3). The 五 is
+  part of the name, not a quantity.
+- `三十几` (ch29 p036): approximate age 三十几岁 "in his thirties" (thirtysomething);
+  the checker reads 三十 (30), which the old "the thirty-fifth year" supplied via
+  "thirty"; converting Dai Li's death to "March 17, 1946" orphaned it (RULE R1-3,
+  R5 latent-match class). Not a hard quantity.
+- Earlier R1-R6 entries all stand (incl. R6's `四○七`).
+
+### RULE R1-3 latent matches surfaced (documented, not contorted)
+
+- ch28 p146 (`李圣五`) and ch29 p036 (`三十几`) above — both are the canonical R1-3
+  case (a spelled ordinal in the old date had been silently covering a
+  name-numeral / approximate-age numeral), fixed by a documented noise entry, not
+  by contorting the date wording. Watch this class on every date edit that drops a
+  spelled ordinal near a name-with-digit or an approximate quantity.
+
+### R9 / whole-book reconciliation flags (NOT changed in R7)
+
+- **T3 Part-3 org-name quotes:** ch19-ch29 uniformly KEEP the source's 「」 quotes
+  on the recurring decided org names ("Shanghai District"/"Juntong Bureau"/etc.)
+  in plain narration (the T3 rule's letter would strip them, but ch06-ch12 already
+  stripped their own occurrences and the later Part-3 batches kept theirs for
+  volume/consistency). R9 must make the book-wide call and, if it strips, grep
+  every built unit and rebuild; note-anchor sites keep their quotes regardless.
+- **SOURCE GARBLE, ch26 p116-p122:** the ZH is OCR-corrupted (池区范国, 二十丸年,
+  甫眼虔, etc.) though the shipped English is clean; R7 avoided date edits in that
+  band (except p116, whose 二十九年初 is readable and orphan-safe). A digitization
+  glitch to record; nothing to correct in the English.
+- **沐猴而冠 drift widens:** ch28 p023 "a monkey dressed up as a man" — cf. ch18
+  p010 "play the monkey in a hat", ch24 p098 "a monkey crowned and gowned". Now
+  THREE variants; reconcile in R9 (candidate for an F0 note).
+- **为虎作伥/tiger-cat's-paw:** ch28 p072 (in the quoted Ta Kung Pao report) renders
+  为虎作伥 as "played the tiger's cat's-paw" — a QUOTED-doc instance, LEFT; note it
+  alongside the four narration variants (ch14/ch17/ch22/ch23) for the R9 decision,
+  but it stays as quoted-source wording.
+- **Chapter-seam doubling (ch28 -> ch29):** ch29 p063-p070 repeat ch28 p210-p217
+  near-verbatim (the source overlaps the chapter boundary). Rendered identically
+  in R7 (same date edits); a faithful source structural repeat, not to be silently
+  merged. R9 note only.
+- **Xu-name / 圣五 etc.:** the ch28 p146 Li Shengwu name-numeral now noised (above).
+- All carried R1-R6 flags still stand (为虎作伥 four narration variants; 沐猴而冠;
+  ch24 p085 gendarme-roster 二十/二十七 source typo; ch22 p266 桓/恒; 爪牙 vs
+  为虎作伥 image overlap; the R1-R5 flags).
+
+### Setup note
+
+- setup.sh regression: the ONE known false alarm ("hook stands down on template
+  stub") still FAILS as documented at R2-R6 — the kickoff_guard Stop hook is
+  correctly ENFORCING because HANDOFF.md carries a real (non-template) kickoff,
+  which is precisely what that test inverts. Benign; not a tooling regression, not
+  fixed. All other checker regression tests green (including check_numbers after
+  the three new noise entries).

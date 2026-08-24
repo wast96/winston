@@ -9,7 +9,7 @@ session updates the kickoff block below for the next one.**
 ## Message to paste into the next chat
 
 ```
-Nameless Heroes R7: register revision pass
+Nameless Heroes R8: register revision pass
 
 Branch: claude/nameless-heroes ONLY. First acts: git fetch origin
 claude/nameless-heroes && git checkout claude/nameless-heroes && git
@@ -20,13 +20,15 @@ Never read any other branch.
 Read CLAUDE.md, then REVISION_PLAN.md IN FULL (it is the authority for
 this pass), then run ./setup.sh.
 
-Scope this batch: ch25, ch26, ch27, ch28, ch29. Content is frozen;
+Scope this batch: ch30, ch31, ch32, ch33, ch34, ch35. Content is frozen;
 English-to-English register edits only, per REVISION_PLAN.md §3 (defect
 classes T1–T6, KEEP list) and §5 (method, exactly). Edits via
 edits/<id>_edits.md + apply_edits.py; verify_unit + tic battery
 before/after per chapter; spot-audit 10% of edited paragraphs;
 check_register --ref reference/R1_frozen.md; rebuild + qa_epub; commit
-and push at chapter boundaries.
+and push at chapter boundaries. R8 also runs the SECOND blind-critique
+spot check (§8/§9.2): the verbatim blind-reader prompt on one revised
+chapter, adjudicated ACCEPT/REJECT-by-class in PROGRESS.md.
 
 End of batch: PROGRESS.md updated (tic tables, spot-audit, rejected
 findings), HANDOFF.md kickoff updated, and the reply carries BOTH chat
@@ -36,52 +38,62 @@ approval stops.
 ```
 
 
-## Revision pass state (after R6)
+## Revision pass state (after R7)
 
 - **DONE:** R1 (ch06, exemplar, frozen as `reference/R1_frozen.md`). R2 (ch07,
   ch08: 86 + 65 edits). R3 (ch01-ch05, ch09, ch10: 85 edits). R4 (ch11, ch12,
-  ch13: 217 edits). R5 (ch14, ch15, ch16, ch17, ch18: 170 edits). **R6 (ch19,
-  ch20, ch21, ch22, ch23, ch24): 181 edits total** (ch19 3, ch20 21, ch21 52,
-  ch22 66, ch23 1, ch24 38) via `edits/<id>_edits.md` + `apply_edits.py`. The
-  front and opening of the Third Part (Shanghai): the author's notice (ch19) and
-  preface (ch20), then Chapters 1-4 — arrival + unit inventory (ch21); the Cheng
-  Haitao/Wan-Lilang/Fan-Xing/Chen-Mingchu chapter (ch22); the reverent intro on
-  the three foes (ch23); the police/gendarmerie/No.76/Yu-Yefeng chapter (ch24).
-  Dominated again by DATE accessibility (ch20-ch24 are mission-chronology
-  chapters — Republic-year and spelled day-month narration dates ->
-  Gregorian/American across 1925-1983, +1911, number-check-safe; ALL quoted-
-  document dates LEFT). Plus T6 impersonal "one" thinned where it renders a
-  concrete 你/我/我们; adverbial "besides"/"aught"/"still less"/"withal"/"making
-  bold" (T1); a few T2 could-not-but/litotes/inversion; light T5 naturalization
-  of Mao Wanli's monologue (ch21); recurring "severally" and "one may say/see"
-  varied (RULE R1-5); and three RULE R1-1/R1-2 fixes ("all but the executors";
-  大显身手 "shown his hand" -> "prowess"; a dangling participle). All fidelity
-  gates green (parity by construction; numbers 0 — ch19 4 / ch20 26 / ch21 155 /
-  ch22 286 / ch23 7 / ch24 161 pairs; anchors ch19 0 / ch20 2 / ch21 8 / ch22 7
-  / ch23 1 / ch24 6 all resolve; align OK; check_content all six "in the paired
-  paragraph"). qa_epub PASS + epubcheck 0/0/0/0. **check_register: ch19/ch20/ch23
-  within tolerance; ch21/ch22/ch24 flag STILTED — the ch08/ch12/ch17-class
-  documentary false positive (large quoted-document/roster mass + Wanli's
-  deliberately-analytical monologue; shall% 33-36% the deliberate narrating
-  "shall"), NOT chased.** No blind critique this batch (R5 carried one; the
-  second is scheduled for R8, §8). Full tic tables + spot-audit + flags in
-  PROGRESS.md §R6.
-- **Carry-forward for R7+:** voice sheets in REVISION_PLAN.md §3.4; T3 rule as
-  practiced — recurring decided proper names/orgs plain in narration after
-  book-first use; quotes stay at naming/anatomizing sites, marked irony, titles,
-  code names, quoted documents, dialogue, and **note-anchor sites (preserve the
-  quotes on any anchor substring; the ch09 generator auto-skipped the "first
-  taste of defeat" Beiping-Station anchor)**. Generate T3 quote-strips
-  programmatically (byte-exact OLD, uniqueness pre-checked, anchor-aware) and
-  skip whole quoted-document/dialogue paragraphs. Spelled-ordinal AND 民國-year
-  dates in narration -> American/Gregorian (accessibility); day-only ordinals
-  and dates inside quoted documents stay.
-- **New noise.txt entries (R6):** `四○七` (ch24 Room 407; the full-width zero ○
-  breaks the CJK run so the checker read bare 4/7 which the old spelled ordinals
-  covered, RULE R1-3; the real 407 is fixed in English as "Room 407") —
-  do-not-revert. R5 `五十一、二`, earlier R4 `二十二、三`, `二○七`, R3 `四、五千`,
-  `二十一、二`, `二十七、八`, R2 `三、四两`, R1 `五官`, `四个大字` all stand.
-  `scripts/align_dump.py` (QC-only aligned zh|en dumper) stands.
+  ch13: 217 edits). R5 (ch14, ch15, ch16, ch17, ch18: 170 edits). R6 (ch19,
+  ch20, ch21, ch22, ch23, ch24: 181 edits). **R7 (ch25, ch26, ch27, ch28, ch29):
+  193 edits total** (ch25 30, ch26 56, ch27 17, ch28 65, ch29 25) via
+  `edits/<id>_edits.md` + `apply_edits.py`. The middle of the Third Part: Chapter
+  5 — the early-war work-review through Dai Li's quoted directions + the Mauser
+  gift + the Fan Xing line (ch25); Chapter 6 — the nameless martyrs, the Xiao
+  family, the He-Xingjian/Communist-confession analysis, the Xu Shouxin martyrdom,
+  the shoot-Japanese-soldiers campaign, and the Traitor-Killing Corps (ch26);
+  Chapter 8 — was the Zhang Xiaolin sanction really ours + the forged-confession
+  refutation (ch27); Chapter 9 — the agent's mind on killing, the Fu Xiao'an
+  axe-sanction, the concession-court + Central-Reserve-Bank seizures (ch28);
+  Chapter 10 Part 1 — the Liu Yuanshen story + Chen's capture (ch29). Dominated
+  again by DATE accessibility (Republic-year + spelled day-month NARRATION dates
+  -> Gregorian/American, +1911, number-check-safe; ALL quoted-document dates
+  LEFT). ch28 carried the heaviest load incl. TWO diary-paraphrase chronologies
+  rendered "in my own voice" (converted); ch26 is ~40% quoted documents (memoirs,
+  telegrams, gendarmerie record, news, casualty table — all LEFT). Plus T1
+  kill-list words (of-a-sudden/aught/no-wish/still-less/nothing-for-it/Let-it-be-
+  marked/sentence-initial-Besides); T2 could-not-but recast; T6 impersonal "one
+  may say/see/imagine" thinned; RULE R1-1 "struck of a heap"->"gave a start";
+  RULE R1-5 "severally" + a doubled "besides". ch29's embedded Liu-Yuanshen
+  first-person account (p018-p062) treated as EDITABLE contributed prose (R6
+  Mao-Wanli precedent); ch29 p063-p070 repeat ch28's ending (source doubling,
+  rendered identically). All fidelity gates green (parity by construction; numbers
+  0 — ch25 183 / ch26 321 / ch27 133 / ch28 217 / ch29 70 pairs; anchors ch25 10 /
+  ch26 11 / ch27 6 / ch28 8 / ch29 9 all resolve; align OK; check_content no R7
+  flag). qa_epub PASS + epubcheck 0/0/0/0. **check_register: all five flag STILTED
+  — the ch08/ch12/ch17/ch21-class documentary false positive (contractions ~0;
+  shall% document-borne — ch26 83% is all telegram/memoir/confession/gendarmerie
+  "shall", ch27 shall% 0% flagged only for near-zero dialogue), NOT chased.** No
+  blind critique this batch (scheduled for R8). Full tic tables + spot-audit +
+  flags in PROGRESS.md §R7.
+- **Carry-forward for R8+:** voice sheets in REVISION_PLAN.md §3.4. **T3 as
+  practiced through R7 — near-zero strips: the Part-3 chapters (ch19-ch29)
+  uniformly KEEP the source's 「」 quotes on recurring decided org names ("Shanghai
+  District"/"Juntong Bureau"/etc.) in plain narration, for consistency with each
+  other (ch06-ch12 stripped their own first-occurrences; the later batches kept
+  theirs); the book-wide strip decision is DEFERRED to R9.** Quotes otherwise stay
+  at naming/anatomizing sites, marked irony, titles, code names, quoted documents,
+  dialogue, and note-anchor sites. DATE accessibility is the dominant edit: Republic-
+  year (N+1911) AND spelled day-month narration dates -> American/Gregorian; ALL
+  quoted-document/table/news/memoir dates stay; watch RULE R1-3 (a dropped spelled
+  ordinal can orphan a name-numeral or approximate quantity — noise it). Embedded
+  co-authored accounts (memoirs written FOR the book, e.g. Liu Yuanshen ch29, Mao
+  Wanli ch21) are EDITABLE narration; reproduced published documents (Xu Wenqi
+  memoir ch26, news, telegrams) are quoted and LEFT.
+- **New noise.txt entries (R7):** `四十一、二` (ch26 p084 = 1952-53; elided 、二, same
+  class as R5 `五十一、二`), `李圣五` (ch28 p146 name ends in 五(5) which the old
+  "twenty-fifth" supplied; RULE R1-3), `三十几` (ch29 p036 "in his thirties" =30,
+  supplied by the old "thirty-fifth"; RULE R1-3) — all do-not-revert. R6 `四○七`,
+  R5 `五十一、二`, R4 `二十二、三`/`二○七`, R3 `四、五千`/`二十一、二`/`二十七、八`, R2
+  `三、四两`, R1 `五官`/`四个大字` all stand. `scripts/align_dump.py` stands.
 - **R5 RULE R1-3 latent matches (surfaced by date edits, documented):** ch17 p054
   "twenty-second" had been supplying the 2 for 两周 -> fixed by carrying the real
   quantity ("fortnight" -> "two weeks"); ch18 p115 "twenty-ninth" supplies the 9
@@ -105,7 +117,12 @@ approval stops.
   jackal to the tiger" [ch23's is a NOTE ANCHOR, R9 must move it]; 沐猴而冠 also
   ch24 p098 "a monkey crowned and gowned"; ch24 p085 gendarme-roster 二十/二十七
   SOURCE typo LEFT era-year; ch22 p266 桓/恒 bystander-name source glitch; 爪牙
-  "cat's-paw" overlaps the 为虎作伥 image, keep the two idioms visibly separate).**
+  "cat's-paw" overlaps the 为虎作伥 image, keep the two idioms visibly separate),
+  and **§R7 (T3 Part-3 org-name quotes ch19-ch29 all KEPT in narration — R9 makes
+  the book-wide strip call; ch26 p116-p122 SOURCE GARBLE with clean English; 沐猴而冠
+  THIRD variant ch28 p023 "a monkey dressed up as a man"; 为虎作伥 ch28 p072 "played
+  the tiger's cat's-paw" is a QUOTED-doc instance LEFT; ch28->ch29 chapter-seam
+  DOUBLING p063-p070 = ch28 p210-p217 verbatim, faithful).**
 
 ## ⚠ COMMISSIONER DIRECTIVE (2026-08-22): a FOOTNOTE-DENSITY pass (F0) AFTER R9
 
