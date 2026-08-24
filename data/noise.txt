@@ -845,6 +845,12 @@
 # this Republic-year pair as Gregorian ("1933 and 1934") for reader access; strip the whole
 # elided source pair so no phantom 3 (nor the incidental 22) is orphaned.
 二十二、三
+# Address No. 207 (陵园西路二○七号, ch13 p185): the fullwidth circle (U+25CB) in 二○七
+# breaks the positional-year parse, so the checker reads 二 and 七 as bare 2 and 7 instead
+# of the address 207. The English carries "No. 207"; strip the mis-parsed source form so no
+# phantom 2/7 is orphaned. (Surfaced in R4 when the incidental "twenty-seventh" wording that
+# had covered the stray 7 was converted to a Gregorian date.)
+二○七
 # Idiom 四壁 "the four bare walls / on every side" (剥落处四壁可见, ch34): the 四 is the
 # set idiom for "all around," not a tracked count of 4. English "on every side."
 四壁
