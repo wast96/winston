@@ -6051,7 +6051,7 @@ commit AND PUSH at every chapter boundary.
 chapter. An interrupted session resumes from the next chapter with the SAME F0
 kickoff (REVISION_PLAN §12.5). Do not spawn a new batch id.
 
-## F0 chapter ledger (last COMPLETE chapter = ch37)
+## F0 chapter ledger (last COMPLETE chapter = ch38)
 
 - **ch01 (Foreword) — DONE.** Notes 6 -> 10 (+4). New notes span all four
   kinds/domains:
@@ -6587,6 +6587,17 @@ qa_epub carry the per-chapter risk).
   welcome). Standard; corroborated. NOT re-noted: Shimen=Shijiazhuang (ch36),
   Cheng Yanqiu (ch37 Four Great Dan note), Renaissance Society (Lixingshe),
   Hongmen/Hong Gang (ch06). Total after ch37: **596**.
+
+- **ch38 (Part Four §6, Right and Wrong — the Zhu Zhankui defector case) — DONE.**
+  Notes 10 -> 16 (+6). New: `Lü Zhengcao` (吕正操 CCP central-Hebei commander);
+  `administrative inspector-commissioner` (专员 zhuanyuan, special-district tier);
+  `Shaan-Gan-Ning border region` (陕甘宁, Yan'an its seat — folds in Yan'an);
+  `Ren Zhuoxuan` (任卓宣/叶青 + Xu Fuguan 徐复观); `Ming Xiaoling` (明孝陵 Ming
+  founder's tomb); `Selected Grade` (简任 senior civil-service tier). Standard;
+  corroborated. NOT re-noted: Yan'an (ch36 Hu Zongnan note + here in Shaan-Gan-Ning
+  note), Pacification/pacification work (ch04), Double-Seventh=Marco Polo Bridge.
+  Declined: Tao Zhu (uncertain here — noted at ch42 where context is clear).
+  Total after ch38: **602**.
 
 <!-- F0_LEDGER_APPEND -->
 
