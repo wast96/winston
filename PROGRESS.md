@@ -6051,7 +6051,7 @@ commit AND PUSH at every chapter boundary.
 chapter. An interrupted session resumes from the next chapter with the SAME F0
 kickoff (REVISION_PLAN §12.5). Do not spawn a new batch id.
 
-## F0 chapter ledger (last COMPLETE chapter = ch32)
+## F0 chapter ledger (last COMPLETE chapter = ch33)
 
 - **ch01 (Foreword) — DONE.** Notes 6 -> 10 (+4). New notes span all four
   kinds/domains:
@@ -6536,6 +6536,17 @@ qa_epub carry the per-chapter risk).
   Central Training Corps (covered). Declined: "Fleeting Glimpses of a Floating
   Life" + People's Service Corps (obscure/uncertain — Liu Peichu noted at ch35).
   Total after ch32: **564**.
+
+- **ch33 (Part Four §1, Reviving the Ailing) — DONE.** Notes 12 -> 19 (+7). New
+  (standard; corroborated): `Eastern Expedition` (1925 Guangdong campaigns vs Chen
+  Jiongming, Whampoa); `Bai Chongxi` (白崇禧, Guangxi clique, Defense Minister 1946);
+  `Chen Cheng` (陈诚, Chief of General Staff, later ROC premier/VP); `Shanhaiguan`
+  (Great Wall/sea gateway to Manchuria); `farewell dinner at Yuhuatai` (a Beiping
+  restaurant — NOT the Nanjing execution ground of the same romanization);
+  `the national tongue` (国语 Mandarin); `Hebei Fellow-Townsmen` (同乡会 native-place
+  mutual-aid association).
+  NOT re-noted: Committee of Three/Ye Jianying (ch32), Northern Expedition (ch07),
+  Whampoa (ch05), tongxiang concept (ch06). Total after ch33: **571**.
 
 <!-- F0_LEDGER_APPEND -->
 
