@@ -6051,7 +6051,7 @@ commit AND PUSH at every chapter boundary.
 chapter. An interrupted session resumes from the next chapter with the SAME F0
 kickoff (REVISION_PLAN §12.5). Do not spawn a new batch id.
 
-## F0 chapter ledger (last COMPLETE chapter = ch41)
+## F0 chapter ledger (last COMPLETE chapter = ch42)
 
 - **ch01 (Foreword) — DONE.** Notes 6 -> 10 (+4). New notes span all four
   kinds/domains:
@@ -6626,6 +6626,17 @@ qa_epub carry the per-chapter risk).
   Standard; corroborated. NOT re-noted: Zhang Zuolin (ch06), Eight-Power/1900
   (ch41 Hademen note + Boxer Protocol ch07), John Leighton Stuart/gold-yuan note/
   fabi (covered). Total after ch41: **619**.
+
+- **ch42 (Part Four §10, Fallen Leaves Return to the Root — retreat to Taiwan) —
+  DONE.** Notes 20 -> 27 (+7). New: `Tao Zhu` (陶铸, CCP officer, CR-purged);
+  `Liu Jin` (刘瑾 Ming eunuch / 法门寺 opera); `covenant made beneath the city walls`
+  (城下之盟); `Tang Enbo` (汤恩伯, Shanghai defense 1949); `Southern Fujianese`
+  (Minnan/Hokkien); `Nemoto Hiroshi` (根本博, secret Japanese adviser to Tang Enbo,
+  Kinmen 1949 — verified Wikipedia/Taipei Times/WW2DB; acknowledged by ROC only
+  2009); `CAT flight` (Civil Air Transport, Chennault/CIA). Corroborated.
+  NOT re-noted: big-heads (袁大头 ch41), Penghu (ch32 Magong note), Xikou/Fenghua
+  (ch42 pre-F0 birthplace anchor), Fu Zuoyi/Lin Biao/Baomiju/Suppression of
+  Counter-revolutionaries (covered). Total after ch42: **626**.
 
 <!-- F0_LEDGER_APPEND -->
 
