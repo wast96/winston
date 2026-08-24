@@ -1103,3 +1103,9 @@
 # via "fifth", so converting to "October 25" orphaned it (RULE R1-3). The 五 is
 # part of the name, not a quantity; strip it.
 李圣五
+# R7 (ch29 p036): approximate age 三十几岁 "in his thirties" (thirtysomething); the
+# checker reads 三十 (30), but "in his thirties" carries no digit 30. The old date
+# "the thirty-fifth year" had been supplying it via "thirty"; converting to
+# "March 17, 1946" orphaned it (RULE R1-3, R5 latent-match class). Not a hard
+# quantity — strip the approximate.
+三十几
