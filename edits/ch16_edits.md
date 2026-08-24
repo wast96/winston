@@ -141,3 +141,18 @@ WHY: 也就是说; calque pivot "that is to say" -> "that is".
 OLD: Besides, there are not a few places of raillery in it
 NEW: Besides, there are quite a few places of raillery in it
 WHY: 文中调侃之处不少; litotes "not a few" -> "quite a few".
+
+# ---- Blind-critique (§5.6/§8) ACCEPTs applied to ch16: two genuine defects
+# that cross even the grave-formal register (opaque garble / redundancy).
+# The other ~148 findings were REJECT-by-class (deliberate grave persona,
+# 笔者, KEEP-list idioms, quoted documents) — adjudicated in PROGRESS §R5. ----
+
+### p012 [T2] TOUCH
+OLD: he had already set the record of having, single-handed, cut down with his own hand the most notorious of "professional killers," Wang So-and-so
+NEW: he had already, single-handed, cut down the most notorious of the "professional killers," Wang So-and-so
+WHY: 创下单枪匹马手刃...的记录; "set the record of having ... cut down with his own hand" doubles 单枪匹马(single-handed)+手刃 and reads garbled — tighten to the plain feat.
+
+### p023 [T2] TOUCH
+OLD: 'first come, first master'
+NEW: 'first impressions rule'
+WHY: 先入为主; "first come, first master" is not an English idiom and reads opaque (RULE R1-1). The concept is already glossed as the "law of primacy" at p014; here Luqiao's casual invocation reads clean as "first impressions rule".
