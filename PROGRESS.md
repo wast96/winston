@@ -6051,7 +6051,7 @@ commit AND PUSH at every chapter boundary.
 chapter. An interrupted session resumes from the next chapter with the SAME F0
 kickoff (REVISION_PLAN §12.5). Do not spawn a new batch id.
 
-## F0 chapter ledger (last COMPLETE chapter = ch20)
+## F0 chapter ledger (last COMPLETE chapter = ch21)
 
 - **ch01 (Foreword) — DONE.** Notes 6 -> 10 (+4). New notes span all four
   kinds/domains:
@@ -6408,6 +6408,18 @@ qa_epub carry the per-chapter risk).
   (Nanjing regime glossed ch03), Zhonghua Ribao/newspaper titles (context-clear),
   "give the enemy some color" (colloquial/semi-transparent). Total after ch20:
   **504**.
+
+- **ch21 (Part Three §1, Back in Shanghai) — DONE.** Notes 8 -> 12 (+4). New:
+  `the mouth of the Wusong` (Shanghai river geography: Wusong/Huangpu/Bund/Pudong);
+  `an amah who kept the house` (treaty-port loanword, safe-house cover); `Mr. Dai
+  was himself a man of Jiangshan` (江山, Dai Li's home county; native-place staffing
+  of trusted posts); `open all night through` (solitary-island cabaret culture as
+  operative cover). Standard; corroborated.
+  NOT re-noted: Ding Mocun (glossed in ch17 No.76 note), CNAC (in ch17 Eurasia
+  note), solitary island (ch26), native-place/tongxiang general concept (ch06),
+  French/Intl Concession/Green Gang/Du Yuesheng/No.76/Li Shiqun/fabi/tingzijian
+  (covered). Declined: bingge (uncertain), Iwai/Yokoyama (unverifiable). Total
+  after ch21: **508**.
 
 <!-- F0_LEDGER_APPEND -->
 
