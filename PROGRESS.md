@@ -6051,7 +6051,7 @@ commit AND PUSH at every chapter boundary.
 chapter. An interrupted session resumes from the next chapter with the SAME F0
 kickoff (REVISION_PLAN §12.5). Do not spawn a new batch id.
 
-## F0 chapter ledger (last COMPLETE chapter = ch35)
+## F0 chapter ledger (last COMPLETE chapter = ch36)
 
 - **ch01 (Foreword) — DONE.** Notes 6 -> 10 (+4). New notes span all four
   kinds/domains:
@@ -6567,6 +6567,18 @@ qa_epub carry the per-chapter risk).
   NOT re-noted: Li Zongren/Zhou Enlai (ch32), Nie Rongzhen (ch04), Baomiju (ch04),
   Lantern Festival (ch09 twelfth-moon note), Guangzhou Uprising/Party Purge
   (covered). Total after ch35: **583**. [epubcheck 0/0/0/0 checkpoint]
+
+- **ch36 (Part Four §4, Seizing the Initiative) — DONE.** Notes 8 -> 17 (+9).
+  Dense civil-war chapter. New (standard; corroborated): `Temple of the Medicine
+  King` (药王庙, Anguo herb market); `the vermilion brush the rescript` (朱批
+  imperial red-ink monopoly); `Liu Bocheng` (刘伯承, 2nd Field Army, marshal);
+  `settling-accounts struggles` (清算 land reform); `Jin-Cha-Ji Border Region`
+  (晋察冀 first CCP base behind Japanese lines); `Hu Zongnan` (胡宗南, took Yan'an
+  Mar 1947); `Fu Dongju` (傅冬菊, Fu Zuoyi's daughter, secret CCP, Beiping
+  surrender 1949); `washing of the brain and the changing of the heart` (洗脑, the
+  source of English "brainwashing"); `grievance-airing assemblies` (诉苦
+  speak-bitterness). NOT re-noted: Nie Rongzhen (ch04), Double Seventh/Marco Polo
+  Bridge (covered), Shijiazhuang/Shimen (covered). Total after ch36: **592**.
 
 <!-- F0_LEDGER_APPEND -->
 
