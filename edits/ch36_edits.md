@@ -258,3 +258,9 @@ WHY: 实不能不于事先予以严格的整肃也 — T2 "could not but" recast
 #    -> "in March 1947, drove straight to the"          [T1 date; p013/p029]
 # 3. "From the fourth month of that same year they began their fierce assault"
 #    -> "From April that same year they began their fierce assault"  [T1 date; p013/p029]
+
+# ==== R9 whole-book close: narration date missed in the per-chapter pass, caught by the Republic-year sweep ====
+### p062 [T1] TOUCH
+OLD: right down to the close of the thirty-seventh year, when Beiping
+NEW: right down to the close of 1948, when Beiping
+WHY: 三十七年的年底 = end of 1948 (+1911); Chen narration (Tao Zhu message follow-up)

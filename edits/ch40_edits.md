@@ -342,3 +342,9 @@ WHY: 不无...可能 — litotes thinned to plain; Chen narration.
 OLD: fellow student Sun Longguang did indeed no small labor
 NEW: fellow student Sun Longguang did indeed a great deal of labor
 WHY: 出力不小 — RULE R8-1 quantity-litotes swept; Chen narration.
+
+# ==== R9 whole-book close: narration date missed in the per-chapter pass, caught by the Republic-year sweep ====
+### p063 [T1] TOUCH
+OLD: is this: from the thirty-fifth year on, over two or three years
+NEW: is this: from 1946 on, over two or three years
+WHY: 三十五年 = 1946 (+1911); Chen narration (unit-designation confusion)

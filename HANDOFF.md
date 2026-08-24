@@ -1,15 +1,16 @@
-# HANDOFF: Nameless Heroes (英雄无名), Chen Gongshu. REGISTER REVISION PASS IN PROGRESS
+# HANDOFF: Nameless Heroes (英雄无名), Chen Gongshu. REGISTER PASS COMPLETE; FOOTNOTE PASS (F0) NEXT
 
-**The translation is COMPLETE (the record is preserved below), and the
-commissioner has ordered a whole-book REGISTER REVISION PASS. The authority
-for the pass is `REVISION_PLAN.md`; where it and this file disagree, the plan
-wins. Batches R1 through R9 run per the plan's §8 schedule; each batch
-session updates the kickoff block below for the next one.**
+**The translation is COMPLETE and the whole-book REGISTER REVISION PASS (R1
+through R9) is now COMPLETE. The book is NOT yet in its final state: the
+commissioner has ordered ONE further pass, the FOOTNOTE-DENSITY wave (F0), a
+single session over the whole book. The authority for F0 is `REVISION_PLAN.md`
+§12. The next-chat message below is the F0 kickoff, NOT a "book complete"
+notice. Only when the footnote pass is done is the book COMPLETE.**
 
 ## Message to paste into the next chat
 
 ```
-Nameless Heroes R9: register revision pass
+Nameless Heroes F0: footnote-density pass (single wave, whole book)
 
 Branch: claude/nameless-heroes ONLY. First acts: git fetch origin
 claude/nameless-heroes && git checkout claude/nameless-heroes && git
@@ -17,232 +18,107 @@ reset --hard origin/claude/nameless-heroes. If the harness started you
 on a stray branch, consolidate and delete it per CLAUDE.md rule 2.
 Never read any other branch.
 
-Read CLAUDE.md, then REVISION_PLAN.md IN FULL (it is the authority for
-this pass), then run ./setup.sh.
+Read CLAUDE.md (esp. "Footnotes — what earns one" and rule 5 on
+fact-checking), then REVISION_PLAN.md §12 IN FULL (the authority for this
+pass), then run ./setup.sh.
 
-Scope this batch: ch36, ch37, ch38, ch39, ch40, ch41, ch42, ch43 +
-whole-book close. Content is frozen; English-to-English register edits
-only, per REVISION_PLAN.md §3 (defect classes T1–T6, KEEP list) and §5
-(method, exactly). Edits via edits/<id>_edits.md + apply_edits.py;
-verify_unit + tic battery before/after per chapter; spot-audit 10% of
-edited paragraphs; check_register --ref reference/R1_frozen.md; rebuild +
-qa_epub; commit and push at chapter boundaries.
+Scope: the WHOLE BOOK, all 43 chapters, in one wave. Content is FROZEN —
+add footnotes only, no prose changes. GREATLY increase footnote density:
+explain every term, person, place, event, institution, and allusion a
+non-specialist Western reader would miss — but never add a note just to
+add one. Author notes via apparatus_merge.py (numeric character references
+only), anchors verified verbatim; check_apparatus.py clean; fact-check
+against real scholarship, never LLM-sourced, verdicts stated; respect
+first-appearance discipline (grep earlier occurrences) and keep a "NOT
+re-noted" ledger. Do ch01 FIRST as the density exemplar and pause once to
+present it (§12.4); then run to completion. Rebuild + qa_epub (+ epubcheck);
+commit and push AT EVERY CHAPTER BOUNDARY; record the resume point in
+PROGRESS.md so an interrupted session resumes with this same kickoff.
 
-R9 ADDITIONALLY runs the whole-book close (§8): check_reconcile.py; the
-whole-book tic battery with the final table into PROGRESS.md; a diff-grep
-for every KEEP-list item (§3.3); grep-count of ~20 decided renderings;
-the deep-audit re-run on 10 fresh pairs (§10); rebuild + qa_epub +
-epubcheck; an honest before/after prose-quality statement appended to
-COMPLETION.md. R9 then rewrites HANDOFF.md so its next-chat message is the
-F0 FOOTNOTE-PASS kickoff (§12), NOT a "book complete" notice (the book is
-not done until the footnote pass is), and the R9 reply serves up that F0
-kickoff in place of a completion notice.
-
-End of batch: PROGRESS.md updated (tic tables, spot-audit, rejected
-findings, whole-book close), HANDOFF.md kickoff = the F0 kickoff, and the
-reply carries BOTH chat deliverables: the rebuilt EPUB attached AND the F0
-kickoff pasted verbatim in a fenced code block. Run to completion; no
-mid-batch approval stops.
+End when the whole book is densified: PROGRESS.md updated (final note
+count, sources, NOT-re-noted ledger), COMPLETION.md rewritten, HANDOFF.md
+marked COMPLETE, and the reply carries the rebuilt EPUB attached.
 ```
 
 
-## Revision pass state (after R8)
+## Register pass state (COMPLETE, R1 through R9)
 
 - **DONE:** R1 (ch06, exemplar, frozen as `reference/R1_frozen.md`). R2 (ch07,
-  ch08: 86 + 65 edits). R3 (ch01-ch05, ch09, ch10: 85 edits). R4 (ch11, ch12,
-  ch13: 217 edits). R5 (ch14, ch15, ch16, ch17, ch18: 170 edits). R6 (ch19,
-  ch20, ch21, ch22, ch23, ch24: 181 edits). R7 (ch25, ch26, ch27, ch28, ch29:
-  193 edits). **R8 (ch30, ch31, ch32, ch33, ch34, ch35): 141 edits total**
-  (ch30 31 incl. 5 blind-critique ACCEPTs, ch31 4, ch32 20, ch33 46, ch34 18,
-  ch35 27) — the Third-Part close (ch30 = Liu Yuanshen's arrest + Chen's capture)
-  plus the whole FIFTH Part opening (ch31/ch32 front matter; ch33-ch35 = Lizhi
-  Class / Pacification Corps / the Lin-Biao-Tao-Zhu strategic-intelligence case).
-  ~86 +1911 Republic-year NARRATION dates (the batch's bulk; ALL quoted-document
-  dates LEFT, incl. the Luo Jing 摘录 excerpt ch33 p118-p134 left WHOLE as a
-  quoted doc); T1/T2/T6 kill-list; RULE R1-1 硬着头皮 fix. SECOND blind critique
-  run on revised ch30: 354 findings, 5 ACCEPTED (genuine errors), ~349
-  REJECT-by-class (RULE R1-4 — persona/gravity/idiom-image/F0-footnote). Three
-  new noise entries (郑、毛两位, 三十六、七, 卅二 — all RULE R1-3). All gates green
-  (numbers 0/108-14-35-151-127-194; anchors 5/3/10/6/3/8; align OK; content no
-  R8 flag; qa_epub PASS; epubcheck 0/0/0/0). check_register STILTED on all six =
-  the documentary/narration false positive, NOT chased. Full tables + spot-audit
-  + blind-critique adjudication in PROGRESS.md §R8. **NEXT: R9 (ch36-ch43 +
-  whole-book close), which serves the F0 footnote-pass kickoff.**
-- **[R7 detail, kept]** R7 (ch25, ch26, ch27, ch28, ch29): 193 edits total
-  (ch25 30, ch26 56, ch27 17, ch28 65, ch29 25) via
-  `edits/<id>_edits.md` + `apply_edits.py`. The middle of the Third Part: Chapter
-  5 — the early-war work-review through Dai Li's quoted directions + the Mauser
-  gift + the Fan Xing line (ch25); Chapter 6 — the nameless martyrs, the Xiao
-  family, the He-Xingjian/Communist-confession analysis, the Xu Shouxin martyrdom,
-  the shoot-Japanese-soldiers campaign, and the Traitor-Killing Corps (ch26);
-  Chapter 8 — was the Zhang Xiaolin sanction really ours + the forged-confession
-  refutation (ch27); Chapter 9 — the agent's mind on killing, the Fu Xiao'an
-  axe-sanction, the concession-court + Central-Reserve-Bank seizures (ch28);
-  Chapter 10 Part 1 — the Liu Yuanshen story + Chen's capture (ch29). Dominated
-  again by DATE accessibility (Republic-year + spelled day-month NARRATION dates
-  -> Gregorian/American, +1911, number-check-safe; ALL quoted-document dates
-  LEFT). ch28 carried the heaviest load incl. TWO diary-paraphrase chronologies
-  rendered "in my own voice" (converted); ch26 is ~40% quoted documents (memoirs,
-  telegrams, gendarmerie record, news, casualty table — all LEFT). Plus T1
-  kill-list words (of-a-sudden/aught/no-wish/still-less/nothing-for-it/Let-it-be-
-  marked/sentence-initial-Besides); T2 could-not-but recast; T6 impersonal "one
-  may say/see/imagine" thinned; RULE R1-1 "struck of a heap"->"gave a start";
-  RULE R1-5 "severally" + a doubled "besides". ch29's embedded Liu-Yuanshen
-  first-person account (p018-p062) treated as EDITABLE contributed prose (R6
-  Mao-Wanli precedent); ch29 p063-p070 repeat ch28's ending (source doubling,
-  rendered identically). All fidelity gates green (parity by construction; numbers
-  0 — ch25 183 / ch26 321 / ch27 133 / ch28 217 / ch29 70 pairs; anchors ch25 10 /
-  ch26 11 / ch27 6 / ch28 8 / ch29 9 all resolve; align OK; check_content no R7
-  flag). qa_epub PASS + epubcheck 0/0/0/0. **check_register: all five flag STILTED
-  — the ch08/ch12/ch17/ch21-class documentary false positive (contractions ~0;
-  shall% document-borne — ch26 83% is all telegram/memoir/confession/gendarmerie
-  "shall", ch27 shall% 0% flagged only for near-zero dialogue), NOT chased.** No
-  blind critique this batch (scheduled for R8). Full tic tables + spot-audit +
-  flags in PROGRESS.md §R7.
-- **New noise.txt entries (R8):** `郑、毛两位` (ch33 p083, counter-by-naming, RULE
-  R1-3 — old "twenty-second" gave the covering 2 via `\bsecond\b`), `三十六、七`
-  (ch35 p091, elided year pair 1947-48), `卅二` (ch35 p059, variant glyph 卅=30
-  outside the checker charset -> bare 二; new R1-3 sub-species: watch 卅/廿 forms
-  on date edits) — all do-not-revert. R7 `四十一、二`/`李圣五`/`三十几` and all
-  R1-R6 entries stand.
-- **Carry-forward for R9:** voice sheets in REVISION_PLAN.md §3.4. **RULE R8-1
-  (proposed): the "no little / no few / not a few / no small" litotes family is
-  a recurring tic — R9 sweeps the QUANTITY form ("no small number") book-wide,
-  keeping grave quality-litotes only where it lands (the R8 blind read named it
-  the most pervasive tic in ch30).** **Contributed-account ruling (R8):** an
-  embedded first-person account is EDITABLE narration when it is an UN-QUOTED
-  narrative section written for the book (Liu Yuanshen ch29/ch30, Mao Wanli
-  ch21), but a QUOTED DOCUMENT left whole when it is a bracketed 摘录 EXCERPT of
-  the person's own writing (Luo Jing ch33 p118-p134). **T3 as
-  practiced through R8 — near-zero strips: the Part-3/Fifth-Part chapters (ch19-ch35)
-  uniformly KEEP the source's 「」 quotes on recurring decided org names ("Shanghai
-  District"/"Juntong Bureau"/etc.) in plain narration, for consistency with each
-  other (ch06-ch12 stripped their own first-occurrences; the later batches kept
-  theirs); the book-wide strip decision is DEFERRED to R9.** Quotes otherwise stay
-  at naming/anatomizing sites, marked irony, titles, code names, quoted documents,
-  dialogue, and note-anchor sites. DATE accessibility is the dominant edit: Republic-
-  year (N+1911) AND spelled day-month narration dates -> American/Gregorian; ALL
-  quoted-document/table/news/memoir dates stay; watch RULE R1-3 (a dropped spelled
-  ordinal can orphan a name-numeral or approximate quantity — noise it). Embedded
-  co-authored accounts (memoirs written FOR the book, e.g. Liu Yuanshen ch29, Mao
-  Wanli ch21) are EDITABLE narration; reproduced published documents (Xu Wenqi
-  memoir ch26, news, telegrams) are quoted and LEFT.
-- **New noise.txt entries (R7):** `四十一、二` (ch26 p084 = 1952-53; elided 、二, same
-  class as R5 `五十一、二`), `李圣五` (ch28 p146 name ends in 五(5) which the old
-  "twenty-fifth" supplied; RULE R1-3), `三十几` (ch29 p036 "in his thirties" =30,
-  supplied by the old "thirty-fifth"; RULE R1-3) — all do-not-revert. R6 `四○七`,
-  R5 `五十一、二`, R4 `二十二、三`/`二○七`, R3 `四、五千`/`二十一、二`/`二十七、八`, R2
-  `三、四两`, R1 `五官`/`四个大字` all stand. `scripts/align_dump.py` stands.
-- **R5 RULE R1-3 latent matches (surfaced by date edits, documented):** ch17 p054
-  "twenty-second" had been supplying the 2 for 两周 -> fixed by carrying the real
-  quantity ("fortnight" -> "two weeks"); ch18 p115 "twenty-ninth" supplies the 9
-  the variant 廿九 needs -> kept spelled ("twenty-ninth of April", month only
-  Anglicized). Watch this class on every date edit that drops an ordinal word.
+  ch08). R3 (ch01-ch05, ch09, ch10). R4 (ch11-ch13). R5 (ch14-ch18). R6
+  (ch19-ch24). R7 (ch25-ch29). R8 (ch30-ch35). **R9 (ch36-ch43 plus the
+  whole-book close): ~229 edits** (ch36 47, ch37 11, ch38 10, ch39 32, ch40 66,
+  ch41 31, ch42 30, ch43 2). R9 covered Chapters 4-10 of the Fifth Part plus the
+  Afterword: dense military chronologies (ch39/ch40/ch41), the Zhu Zhankui
+  defector case (ch38), and the reflective coda (ch43). Dominant edit was DATE
+  accessibility (~230 Republic-year and spelled day-month narration dates ->
+  Gregorian/American, +1911); all quoted documents and reproduced comrade
+  accounts LEFT WHOLE with their internal dates. Full detail, tic tables,
+  spot-audit, deep audit, and whole-book close in PROGRESS.md §R9.
+- **Whole-book close (R9):** check_reconcile no hard failures (candidates only);
+  KEEP-list diff-grep net delta 0 for shall/sanction/traitor/Juntong/Beiping;
+  ~20 decided renderings consistent book-wide; rail-line drift (R8 flag)
+  resolved (prose uses Jin-Pu/Ping-Han/Bei-Ning/Ping-Sui uniformly); deep audit
+  10/10 faithful; qa_epub PASS + epubcheck 5.1.0 0/0/0/0. COMPLETION.md carries
+  the honest before/after prose-quality statement.
+- **Two mechanical catches this batch:** the number check flagged 三十五年 first
+  rendered 1936 (should be 1946, Republic 35 + 1911) in ch40; the whole-book
+  close caught three narration dates missed in the per-chapter passes (ch36 p062,
+  ch39 p041, ch40 p063). All five corrected and re-verified.
+- **New noise.txt entry (R9):** `三十八、九` (ch40 p101, elided 1949-50; RULE
+  R1-3). Do-not-revert. All prior R1-R8 noise entries stand.
 - **Tooling do-not-revert:** kickoff_guard Stop hook; apply_edits.py OLD
-  uniqueness contract; scripts/align_dump.py; the noise.txt entries above.
-- **R9 (whole-book close) reconciliation flags** logged in PROGRESS §R1
-  (Baomiju, storey/story, "political operation"), §R2 (ch07 one-off hotel names;
-  ch08 group-name / special-commissioner / inspectorate-system quoting), §R3
-  (民國-year rendering; 第二处 "Second Bureau"(ch09) vs "Second Department"(ch05);
-  "the cook who does the cooking" tautology ch09), §R4 (project-name/hotel
-  quoting for "Hanoi work" and "Continental"/"Railway"; "Wang case" quoting;
-  ch13 p130 四十年代 "the forties" possible Minguo-40s=1950s; ch13 民前 birth-year
-  1884 vs p134 1883; ch13 p152/p155 二月 split), and **§R5 (为虎作伥/虎伥 rendering
-  drift ch14 "cat's-paw to the tiger" vs ch17 "the tiger's lackey"; 虎头蛇尾 drift
-  ch15 "a tiger's head, a snake's tail" vs ch18 p052 "...trailing off to a snake's
-  tail"; ch18 p103 民前四年 = 1908 LEFT unconverted, +1911 does not apply to 民前
-  forms; 沐猴而冠 ch18 p010 "play the monkey in a hat"), and **§R6 (为虎作伥 now
-  FOUR variants, + ch22 p016 "the tiger's accomplice" and ch23 p006 "playing
-  jackal to the tiger" [ch23's is a NOTE ANCHOR, R9 must move it]; 沐猴而冠 also
-  ch24 p098 "a monkey crowned and gowned"; ch24 p085 gendarme-roster 二十/二十七
-  SOURCE typo LEFT era-year; ch22 p266 桓/恒 bystander-name source glitch; 爪牙
-  "cat's-paw" overlaps the 为虎作伥 image, keep the two idioms visibly separate),
-  and **§R7 (T3 Part-3 org-name quotes ch19-ch29 all KEPT in narration — R9 makes
-  the book-wide strip call; ch26 p116-p122 SOURCE GARBLE with clean English; 沐猴而冠
-  THIRD variant ch28 p023 "a monkey dressed up as a man"; 为虎作伥 ch28 p072 "played
-  the tiger's cat's-paw" is a QUOTED-doc instance LEFT; ch28->ch29 chapter-seam
-  DOUBLING p063-p070 = ch28 p210-p217 verbatim, faithful).**, and **§R8 (T3
-  org-name quotes now ch19-ch35 all KEPT — ch32's 73 pairs the densest single
-  chapter; RAIL-LINE drift 津浦 "Jin-Pu Railway" vs "Tianjin-Pukou line", 平汉
-  "Ping-Han" vs "Beiping-Hankou line", 北宁 "Bei-Ning" vs "Beiping-Liaoning line"
-  [a NOTE ANCHOR at ch34 p019]; 处/厅 rendering 第二处 "Second Section" vs the §R3
-  "Second Bureau/Department", 第二厅 "Second Bureau"; 民前七年 ch33 p107 = 1905
-  LEFT; RULE R8-1 litotes sweep; the contributed-account editable-vs-quoted
-  ruling — Luo Jing ch33 p118-p134 a quoted 摘录 EXCERPT left whole).**
+  uniqueness contract; scripts/align_dump.py; every noise.txt entry.
 
-## ⚠ COMMISSIONER DIRECTIVE (2026-08-22): a FOOTNOTE-DENSITY pass (F0) AFTER R9
+## ⚠ COMMISSIONER DIRECTIVE (2026-08-22): the FOOTNOTE-DENSITY pass (F0) IS NOW DUE
 
-The commissioner has ordered an additional final pass, **after the whole R1-R9
-register revision is complete**, to **greatly increase footnote density** across
-the EPUB: explain the little references, the people, places, terms, events, and
-allusions a non-specialist Western reader would miss. Density is a reader model,
-not a quota — **never add a note just to add one**, but be generous: terms,
-people, places, events, and references should be explained. This is authored as
-a single final wave, **F0** (one session over the whole book), with its
-canon in **REVISION_PLAN.md §12**. When R9 completes the register pass, the R9
-reply must serve up the **F0 kickoff** (not a "book complete" notice); the directive
-and its kickoff are transcribed in `CORRECTIONS.md` and REVISION_PLAN.md §12 so
-they survive every batch seam. Carry this note forward in every HANDOFF until
-the footnote pass is itself complete.
+With the register pass complete, F0 is the next and (per the current plan) final
+pass. It **greatly increases footnote density** across the EPUB: explain the
+little references, people, places, terms, events, and allusions a non-specialist
+Western reader would miss. Density is a reader model, not a quota — **never add
+a note just to add one**, but be generous. It is authored as a SINGLE final wave,
+F0, one session over the whole book, canon in **REVISION_PLAN.md §12** (also
+transcribed in `CORRECTIONS.md`). Do ch01 first as the density exemplar and pause
+once (§12.4) to present it; then run to completion. Only after F0 is the book
+COMPLETE, at which point COMPLETION.md is rewritten and this handoff is marked
+COMPLETE.
 
 ---
 
-# Completion record (pre-revision, preserved)
+# Completion record (translation + register pass, preserved)
 
-**THE TRANSLATION IS FINISHED. What follows is the completion notice from
-B36, kept for the record; the revision pass above supersedes its "no next
-batch" instruction. A correction pass, if ever needed, is still governed by
-`CORRECTIONS.md`.**
-
-The full completion report is `COMPLETION.md`; read that for the detail. This
-page is the one-screen summary.
+**THE TRANSLATION IS FINISHED and the R1-R9 REGISTER PASS IS FINISHED.** The full
+completion report is `COMPLETION.md` (read that for detail, including the register
+pass before/after assessment). This page is the one-screen summary.
 
 ## What was delivered
 
-- **`out/nameless-heroes.epub`** — the whole memoir, 43 of 43 units, committed
-  with `git add -f` on branch `claude/nameless-heroes`.
-- **43/43 chapters translated**, clean pending-aware TOC (no placeholder),
-  complete coverage.
+- **`out/nameless-heroes.epub`** — the whole memoir, 43 of 43 units, register-
+  revised, committed with `git add -f` on branch `claude/nameless-heroes`.
+- **43/43 chapters translated**, clean pending-aware TOC, complete coverage.
 - **375 translator notes**, 0 source notes (the source carries none of its own).
-- **Glossary: 708 rows** (people 479, organizations 71, places 132, terms 26).
-- **0 in-text figures**; the source's single image (its cover) is reused
+- **Glossary: 708 rows.** 0 in-text figures; the source's cover reused
   byte-identical.
 
-## Final gate results
+## Final gate results (after R9)
 
 - `qa_epub`: **PASS** — 57 files, 50 documents, 375 note references / 375 bodies
   / 375 backlinks, all links resolve.
 - epubcheck 5.1.0: **0 fatals / 0 errors / 0 warnings / 0 infos** (EPUB 3.3).
 - Whole-book scripted checks green: parity 6,160/6,160; numbers 0 unresolved;
-  register within tolerance of the frozen reference `reference/B01_frozen.md`;
-  content displacement limited to the documented homograph/substring false
-  positives (ch08 Shunde, ch09 Jize, ch13, ch26, ch38, ch41 — none real).
-- Deep audit (`out/deep_audit.md`): fixed-seed 45-pair sample, 44/45 fully
-  faithful, zero substantive errors; one title nuance found and fixed.
-
-## Completion work done in the final batch (B36)
-
-- Translated ch43, the Afterword (英雄无名 篇后续话) — a reflective coda over the
-  whole five-book memoir, 31 paragraphs, 3 notes, Chen's grave register with the
-  deliberate narrating "shall" preserved.
-- **Spelling locale unified to American** across prose, notes, and glossary
-  (was mixed 736:38; now 0 British / 774 American).
-- **张垣 / 张家口 reconciled** to Zhangyuan / Zhangjiakou book-wide, with a
-  first-appearance city note at ch08.
-- **`authority.json` fed back** under slug `nameless-heroes` (399 new terms, 43
-  agreements, 1 honestly-flagged disagreement).
-- Wrote `out/term_ledger.md`, `out/deep_audit.md`, and `COMPLETION.md`.
+  register within tolerance of `reference/R1_frozen.md` (documentary/near-zero-
+  dialogue chapters read STILTED, the known false positive); content displacement
+  limited to the documented homograph/substring false positives.
+- Deep audit: R9 re-ran the protocol on 10 fresh edited pairs, 10/10 faithful,
+  zero substantive errors; the pre-pass fixed-seed 45-pair sample was 44/45.
 
 ## Anything a later reader/commissioner should know
 
-- Two items were **documented, not silently changed** (see COMPLETION.md
-  "Findings that need the commissioner's eye"): 宋子文 rendered pinyin
-  "Song Ziwen" where the shelf uses "T. V. Soong" (glossary note bridges it);
-  and 制裁/sanction, used from ch02 but formally defined in the ch04 note.
-- **Provisional romanizations remain to firm up** (241 people, 19 places, 5
-  organizations), each flagged `provisional` in the glossary and marked in the
-  build; listed at the end of `out/term_ledger.md`.
-- **Tooling that must not be reverted** and the exact clean-checkout rebuild
-  commands are in COMPLETION.md ("Provenance and method").
+- The register pass converted narration dates book-wide to Gregorian/American;
+  quoted documents keep their period register and dates by design.
+- Provisional romanizations remain flagged `provisional` in the glossary
+  (listed at the end of `out/term_ledger.md`); F0 may firm some up as it
+  fact-checks, but that is not its main charge.
+- The clean-checkout rebuild commands are in COMPLETION.md ("Provenance and
+  method").
 
-*Do not edit this file further. The book is complete.*
+*Do not mark this file COMPLETE until the F0 footnote pass is finished.*

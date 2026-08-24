@@ -176,3 +176,9 @@ WHY: 作了相当程度的保留 — litotes thinned to plain; Chen narration.
 OLD: naturally cost us no little.
 NEW: naturally cost us a great deal.
 WHY: 自然吃亏不小 — RULE R8-1 quantity-litotes swept; Chen narration.
+
+# ==== R9 whole-book close: narration date missed in the per-chapter pass, caught by the Republic-year sweep ====
+### p041 [T1] TOUCH
+OLD: in the “Laishui campaign” of the thirty-seventh year
+NEW: in the “Laishui campaign” of 1948
+WHY: 三十七年 = 1948 (+1911); Chen narration

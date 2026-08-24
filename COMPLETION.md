@@ -250,3 +250,54 @@ whole-population scripted coverage above.
 - [x] Whole-book reconciliation run and applied (spelling locale; Zhangyuan/
       Zhangjiakou).
 - [x] `PROGRESS.md` maintained; `HANDOFF.md` rewritten to COMPLETE.
+
+## Register revision pass (R1 through R9) — complete; before/after assessment
+
+The whole-book REGISTER REVISION PASS ordered on 2026-08-22 (`REVISION_PLAN.md`)
+is finished. It ran R1 (ch06 exemplar, frozen as `reference/R1_frozen.md`)
+through R9 (ch36 through ch43 plus this whole-book close), English-to-English
+only, content frozen: no source line retranslated, no name re-romanized, no
+fact, number, date-value, or claim changed. Every gate stayed green throughout;
+the deep-audit protocol re-ran in R9 on 10 fresh edited pairs and found 10 of 10
+faithful, zero substantive errors, so the translation-quality axis (pre-pass
+9/10) was protected exactly as the plan intended.
+
+Honest before/after, by the axes the pass set out to move (pre-pass baseline:
+accessibility 5.5, translation quality 9, prose-vs-genre 6; composite ~6.5):
+
+- **Accessibility (the largest gain).** The single biggest reader-facing change
+  is dates. Across the whole pass, Republic-year narration dates and spelled
+  day-month dates in Chen's own voice were converted to Gregorian and American
+  order (N+1911), so a Western reader now reads "December 11, 1948," not "the
+  eleventh of the twelfth month of the thirty-seventh year." R9 alone converted
+  roughly 230 such dates over its eight chapters (ch39, ch40, ch41 are dense
+  military chronologies). The T1 antique kill-list (trailing "besides,"
+  "of a sudden," "nothing for it but," "forthwith") and the T2 calque set
+  (recast "could not but," swept the quantity-litotes "no small / no few / not
+  a few") were thinned in narration. This axis is materially improved.
+
+- **Prose-vs-genre.** T4 sentence topology, T5 living dialogue, and T6
+  impersonal-"one" modulation (earlier batches) plus R9's recasts bring Chen's
+  narration closer to a grave, modern, living memoir voice. The voice is
+  deliberately not razed: Chen's persona (the narrating "shall," the interested-
+  witness heat, the reflective essayist codas) is content and was preserved by
+  design, so a mechanical tic count still shows hits. Those hits are now
+  overwhelmingly (a) quoted documents and reproduced comrade accounts, which are
+  exempt and were left whole with their period register and internal dates
+  intact, and (b) the deliberate grave furniture. Improved, within the ceiling
+  the persona sets.
+
+- **Translation quality (unchanged by design, and verified).** Protected by the
+  parity, number, alignment, and content gates on every chapter and by the R9
+  deep audit. One class of substantive catch actually surfaced during R9: the
+  number check flagged two year errors in ch40 (三十五年 rendered 1936 instead
+  of 1946) and the whole-book close caught three narration dates missed in the
+  per-chapter passes (ch36 p062, ch39 p041, ch40 p063); all five were corrected
+  and re-verified. The mechanical gates did exactly the job they exist for.
+
+Net: the accessibility deficit that dominated the pre-pass composite is
+substantially closed, chiefly through the book-wide date conversion, while the
+9/10 translation quality is intact and the grave authorial voice is preserved
+rather than flattened. The book is not yet at its final state: the commissioner
+has ordered one further pass, the footnote-density wave (F0, `REVISION_PLAN.md`
+§12), after which the edition is complete.

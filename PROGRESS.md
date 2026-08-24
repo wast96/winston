@@ -5864,3 +5864,171 @@ close.
   correctly ENFORCING because HANDOFF.md carries a real (non-template) kickoff,
   which is exactly what that test inverts. Benign; all other checker regression
   tests green (including check_numbers after the three new R8 noise entries).
+
+---
+
+# R9 — ch36 through ch43 plus the whole-book close (register revision, FINAL register batch)
+
+Scope: ch36, ch37, ch38, ch39, ch40, ch41, ch42, ch43 (Chapters 4 through 10 of
+the Fifth Part plus the Afterword), then the whole-book close per REVISION_PLAN
+§8. English-to-English only, content frozen. About 229 edits total (ch36 47,
+ch37 11, ch38 10, ch39 32, ch40 66, ch41 31, ch42 30, ch43 2), of which the
+three-plus-two listed under "close" below were caught by the close rather than
+the per-chapter passes.
+
+## Dominant edit = DATE accessibility (Chen's narration only; +1911)
+
+R9's eight chapters are heavy with Chen's own narration (ch39, ch40, ch41 are
+military chronologies), so the batch converted roughly 230 Republic-year AND
+spelled day-month narration dates to Gregorian and American order. Quoted
+documents and reproduced comrade accounts were LEFT WHOLE with their internal
+dates and period register, per §3.1. The reproduced-account boundaries handled
+this batch:
+
+- **Left whole (quoted / reproduced accounts, dates and archaisms preserved):**
+  Xiao Runyu's and Niu Guangjin's essays (ch36); Lu Deming's, Chang Shaozeng's,
+  Tian Yingjie's combat memoir, and Bai Jiaqi's verse song (ch37); Wang Zhiyi's,
+  Wang Hongzhu's, Chang Shaozeng's, Wu Chunxiang's accounts (ch38); Wang
+  Zhaofen's, Meng Guangdi's, Zhang Luying's accounts, the Deng Wenyi report,
+  and the Dagong Bao chronology excerpt p129-p142 (ch39); the Nie Jining
+  telegram, the Guangming Ribao passage, the National-Defense week-report, the
+  Dagong Bao notice, and Chen's own Soliloquy self-citation (ch40); the
+  "lessons" staff document, Wang Hongzhu's withdrawal account, the Zhu Zhankui
+  intel report, the Lin/Luo surrender letter, and the dynastic reign-year dates
+  p123 which already carry their Gregorian year in parentheses (ch41); Zhang
+  Luying's, Wang Hongzhu's, Feng Zhijun's, Xiao Runyu's, Wu Chunxiang's accounts
+  (ch42).
+- **Editable contributed account (R8 precedent / HANDOFF names Liu Yuanshen):**
+  Liu Yuanshen's UN-QUOTED supplement (ch42 p093-p099) is editable narration;
+  its dates converted. Wang Zhaofen's numbered-section account (ch39, rendered
+  without per-paragraph quotes) was treated as a reproduced document and LEFT,
+  for consistency with the other comrade accounts.
+- **笔者附注 rule:** Chen's writer's-notes OUTSIDE a quoted block convert
+  (ch36 p108, ch39 p143 tail, ch40 p128); those embedded INSIDE a quoted block
+  stay with it (ch36 p113/p130, ch37 p018/p037, ch42 p073), for visual
+  uniformity within the reproduced text.
+
+## New noise.txt entry (RULE R1-3)
+
+- `三十八、九` (ch40 p101, elided 1949-50; the 、九 elides 三十九, so the checker
+  reads 三十八 and a bare 九). Do-not-revert. Same class as R8 三十六、七 and R7
+  二十七、八 / 四十一、二. The other elided forms this batch needed (九十月,
+  十一、二日, 十x redacted-day) were already noised.
+
+## Two genuine catches by the mechanical gates
+
+1. **check_numbers, ch40 p045/p048:** 三十五年 (Republic 35) was first rendered
+   1936; the checker flagged the orphaned 35, and 35+1911 = 1946 (the Marshall
+   cease-fire of January 1946, the PLA renaming of 1946). Both corrected to 1946
+   and re-verified. A confusion of 三十五 (35) with 二十五 (25); the number check
+   exists for exactly this.
+2. **Whole-book Republic-year sweep (the close):** three narration dates were
+   missed in the per-chapter passes and caught by the close: ch36 p062 (三十七年
+   年底 -> end of 1948), ch39 p041 (三十七年 -> 1948, the Laishui-campaign
+   sentence), ch40 p063 (三十五年 -> 1946, the unit-designation confusion). All
+   fixed, recorded in the edits files under an "R9 whole-book close" marker, and
+   re-verified.
+
+## Register (T1/T2), tic before -> after (R9 chapters)
+
+Selected classes; full battery saved during the pass. "besides" survivors are
+prepositional or quoted; "could only" survivors are natural English or quoted;
+"one" survivors are the essayist codas (T6 CAUTION). Quoted documents legitimately
+hit every class.
+
+| unit | could-not-but/only | litotes no small/few | impersonal one | sent >60/>90 |
+|---|---|---|---|---|
+| ch36 | 8->6 | 6->1 | 22->21 | 63/8 |
+| ch37 | 4->4 | 2->2 | 5->5 | 53/14 |
+| ch38 | 1->1 | 1->0 | 5->5 | 73/19 |
+| ch39 | 5->4 | 7->4 | 13->12 | 57/14 |
+| ch40 | 5->5 | 4->0 | 13->13 | 53/16 |
+| ch41 | 3->3 | 2->2 | 7->7 | 48/7 |
+| ch42 | 8->8 | 7->4 | 16->16 | 41/8 |
+| ch43 | 1->1 | 0->0 | 1->1 | 7/0 |
+
+T4 sentence topology was left essentially untouched (§3.2 T4 CAUTION: most long
+sentences are quoted documents or Chen's deliberate periodic build-ups that
+land; triage the >90-word two-spine narration cases only, of which R9 met none
+worth splitting). Litotes was the main register lever this batch (RULE R8-1
+quantity-form sweep), plus T1 trailing/adverbial "besides," "of a sudden,"
+"nothing for it but," and a handful of T2 "could not but" recasts.
+
+## Spot-audit (10% of edited paragraphs, and the R9 deep audit)
+
+Per-chapter spot audits were satisfied as the batch ran (parity by construction;
+numbers 0 unresolved per chapter, which is the mechanical proof that every date
+edit carried its source numerals). The whole-book close then ran the deep-audit
+protocol on 10 fresh EDITED pairs spanning every edit class (ch36 p086 litotes,
+ch37 p038 could-not-but, ch38 p038 litotes, ch39 p098 could-not-but, ch40 p045
+the 1946 date-fix, ch40 p012 of-a-sudden, ch41 p041 date+of-a-sudden, ch42 p024
+nothing-for-it, ch42 p093 Liu-Yuanshen date, ch43 p008 besides): 10 of 10
+faithful, zero substantive errors. Every register edit preserves the source's
+propositional content exactly.
+
+## Rejected / left-by-class (RULE R1-4)
+
+- The narrating "shall" (KEEP #1): net delta 0 across the whole R9 diff. Same
+  for "sanction," "traitor," "Juntong," "Beiping" (each net delta 0). The
+  mechanical date pass did not over-correct any KEEP-list item.
+- Quoted-document dates and archaisms: left whole (see the accounts listed
+  above). The remaining "the Nth year" forms in the R9 chapters (ch36 8, ch38
+  17, ch42 8, and the rest near zero) are, on classification, all quoted-account
+  dates, quoted-title dates, dynastic reign-years with parenthetical Gregorian,
+  or "the eight years" duration forms.
+- Essayist "one" (T6 CAUTION): the intelligence-value codas (ch36) and the
+  Afterword's grave reflective register (ch43) were left; the Afterword took
+  only two trailing-"besides" edits.
+
+## Whole-book close (REVISION_PLAN §8)
+
+- **check_reconcile.py:** no hard failures. Drift candidates are homograph/
+  substring anchor coincidences (热边区 vs 冀辽热; 奋鬪精神 near different year
+  numbers) and are not real rendering drift. Epithet drift 433 candidates flagged
+  for a human read (informational). Glossary forward 675/708 decided forms
+  present; the ~33 unused forms are pre-existing curation artifacts (glossary/
+  note-only long forms such as "the Tianjin-Pukou Railway," whose prose uses the
+  decided short form "Jin-Pu"). Spelling locale 0 British / 775 American.
+- **Rail-line drift (HANDOFF §R8 flag) resolved:** prose uses the hyphenated
+  short forms uniformly (Jin-Pu 18, Ping-Han 26, Bei-Ning 13, Ping-Sui 14); the
+  long descriptive forms are glossary-only. No prose drift.
+- **KEEP-list diff-grep (§3.3):** done, net delta 0 for shall/sanction/traitor/
+  Juntong/Beiping; set-off markers untouched.
+- **Grep-count of ~20 decided renderings:** consistent book-wide (Juntong 90,
+  Beiping Station 109, Bandit-Suppression Headquarters 91, Lizhi Class 64,
+  Fu Zuoyi 81, Lin Biao 76, Zhu Zhankui 86, etc.). "People's Liberation Army"
+  reads 0 only because the grep used a straight apostrophe against the text's
+  curly one; the term is present throughout.
+- **Deep audit re-run (§10):** 10/10 faithful (above).
+- **Build:** qa_epub PASS (57 files, 50 documents, 375 refs/375 bodies/375
+  backlinks, all links resolve); epubcheck 5.1.0 **0 fatals / 0 errors / 0
+  warnings / 0 infos** (EPUB 3.3). One note anchor moved (ch42 "no few old
+  soldiers" -> "a good many old soldiers") with its paired NOTE-ANCHOR; the note
+  body still resolves. notes.json book-wide total 375 (unchanged; R9 added no
+  notes).
+
+## Fidelity gates (all green)
+
+Per-chapter, as the batch ran: parity by construction; numbers 0 unresolved
+(ch36 187 / ch37 144 / ch38 135 / ch39 179 / ch40 169 / ch41 200 / ch42 200 /
+ch43 31 pairs); note anchors all resolve (8/8/8/8/9/9/10/3); check_align OK on
+all eight; check_register STILTED on the essay/chronicle chapters is the known
+documentary/near-zero-dialogue false positive (contractions ~0 because these
+chapters are narration and quoted accounts with almost no dialogue), consistent
+with R7/R8, not chased; ch37/ch39/ch41/ch42/ch43 read "within tolerance."
+
+## Setup note
+
+- setup.sh regression: the ONE known false alarm ("hook stands down on template
+  stub") still FAILS as documented since R2 (the kickoff_guard Stop hook is
+  correctly ENFORCING because HANDOFF.md carries a real, non-template kickoff,
+  which is exactly what that test inverts). Benign; all other checker regression
+  tests green (including check_numbers after the new 三十八、九 noise entry).
+
+## NEXT
+
+The R1-R9 register pass is COMPLETE. Per REVISION_PLAN §8/§12 and the standing
+commissioner directive, R9 does NOT declare the book complete: it serves the
+F0 FOOTNOTE-DENSITY pass kickoff. HANDOFF.md's next-chat message is now the F0
+kickoff (§12.5), and the R9 reply serves that kickoff in place of a completion
+notice.
