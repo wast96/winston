@@ -1080,3 +1080,7 @@
 # 四个大字) counts the characters of the phrase under discussion, same class as
 # the existing 两个字 rule. English keeps the phrase itself.
 四个大字
+# R5 (ch18 p123): elided Republic-year pair 民国五十一、二年 = 1962-63; the lone
+# 、二 (2) has no English match once the pair renders as "1962 or 1963" (the old
+# "fifty-second" was coincidentally supplying it; RULE R1-3). Strip the pair.
+五十一、二
