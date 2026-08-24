@@ -6051,7 +6051,7 @@ commit AND PUSH at every chapter boundary.
 chapter. An interrupted session resumes from the next chapter with the SAME F0
 kickoff (REVISION_PLAN §12.5). Do not spawn a new batch id.
 
-## F0 chapter ledger (last COMPLETE chapter = ch26)
+## F0 chapter ledger (last COMPLETE chapter = ch27)
 
 - **ch01 (Foreword) — DONE.** Notes 6 -> 10 (+4). New notes span all four
   kinds/domains:
@@ -6472,6 +6472,18 @@ qa_epub carry the per-chapter risk).
   NOT re-noted: Hong Gang (ch06 Sandianhui note), Mauser (ch08), solitary island
   (ch26 anchor pre-F0), Loyal & Patriotic Army/Ward Road Gaol/Ruby Queen (covered).
   Total after ch26: **530**.
+
+- **ch27 (Part Three §8, Death of a Tycoon — Zhang Xiaolin; concession history)
+  — DONE.** Notes 6 -> 12 (+6). New (standard; corroborated): `wash his hands in
+  the golden basin` (金盆洗手 jianghu retirement); `Sino-British Treaty of Nanjing`
+  (1842, root of the concessions); `daotai` (道台 circuit intendant); `Small Swords`
+  (小刀会 1853 Shanghai uprising); `Hong-Yang` (Taiping Rebellion by its leaders
+  Hong Xiuquan/Yang Xiuqing); `Gongbuju` (工部局 Shanghai Municipal Council vs
+  公董局 French council).
+  NOT re-noted: Central Reserve Bank (ch26), Huang Jinrong + Green Gang tycoons
+  (ch04), generation-rank "22nd remove" (ch08), Liang Hongzhi + Chen Qun (in ch27
+  Reformed Government note), August Thirteenth/solitary island (covered). Total
+  after ch27: **536**.
 
 <!-- F0_LEDGER_APPEND -->
 
