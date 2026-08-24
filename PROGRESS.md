@@ -6051,7 +6051,7 @@ commit AND PUSH at every chapter boundary.
 chapter. An interrupted session resumes from the next chapter with the SAME F0
 kickoff (REVISION_PLAN §12.5). Do not spawn a new batch id.
 
-## F0 chapter ledger (last COMPLETE chapter = ch39)
+## F0 chapter ledger (last COMPLETE chapter = ch40)
 
 - **ch01 (Foreword) — DONE.** Notes 6 -> 10 (+4). New notes span all four
   kinds/domains:
@@ -6607,6 +6607,16 @@ qa_epub carry the per-chapter risk).
   NOT re-noted: two-syllable rail-line names Ping-Han/Jin-Pu etc. (trunk-railway
   convention noted ch25), Pingjin Campaign + Fu Zuoyi surrender (ch39 Xinbao note
   + ch36 Fu Dongju note). Total after ch39: **608**.
+
+- **ch40 (Part Four §8, Musing on Past and Present) — DONE.** Notes 15 -> 21 (+6).
+  New: `crossed into Guandong` (闯关东 migration to Manchuria, NOT Guangdong);
+  `enslaving education of the Japanese` (奴化教育); `Waseda University` (Tokyo);
+  `Long March of 25,000 li` (长征 1934-35); `Zhu De and Peng Dehuai` (Red Army
+  C-in-C + deputy/Korea); `Miaofeng Mountains` (妙峰山 pilgrimage/temple fair).
+  Standard; corroborated. NOT re-noted: "certain great Western power" airdrops
+  (ch04 CIA/Western Enterprises note), Hundred Regiments/Xu-Bang/Fu Zuoyi/Lin
+  Biao/Nie Rongzhen/Luo Ronghuan/Liao Yaoxiang (covered), Marco Polo="Double
+  Seventh". Total after ch40: **614**. [epubcheck 0/0/0/0 checkpoint]
 
 <!-- F0_LEDGER_APPEND -->
 
