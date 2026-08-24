@@ -1,20 +1,24 @@
 # COMPLETION.md — Nameless Heroes (英雄无名), whole-book completion report
 
-Written on the final batch (B36) in place of another handoff. This is the
-document to read to know what the finished edition contains and how far to
-trust it.
+Written on the final batch (B36), then updated after the **F0 footnote-density
+pass** (a single wave over all 43 chapters, REVISION_PLAN §12) that followed the
+register revision. This is the document to read to know what the finished edition
+contains and how far to trust it. The translation and register are unchanged from
+the R1–R9 completion; F0 only **added footnotes** (content stayed frozen), taking
+the apparatus from 375 to 628 translator notes.
 
 ## Status at a glance
 
 - **43 of 43 units translated.** All prefaces, introductions, narrative
   chapters, and the Afterword are done; the pending-aware TOC is clean (no
   placeholder), the coverage is complete.
-- **375 translator notes**, 0 source notes (the source carries none of its own).
+- **628 translator notes** (375 before F0; +253 added in the footnote-density
+  pass), 0 source notes (the source carries none of its own).
 - **0 in-text figures.** The source holds a single image, its cover, reused
   byte-identical; there are no interior figures to place.
 - **Glossary: 708 rows** — people 479, organizations 71, places 132, terms 26.
-- **qa_epub: PASS** — 57 files, 50 documents, 375 note references / 375 bodies /
-  375 backlinks, all links resolve.
+- **qa_epub: PASS** — 57 files, 50 documents, 628 note references / 628 bodies /
+  628 backlinks, all links resolve.
 - **epubcheck 5.1.0: 0 fatals / 0 errors / 0 warnings / 0 infos** (EPUB 3.3).
 - **Deliverable:** `out/nameless-heroes.epub`, committed with `git add -f` on
   branch `claude/nameless-heroes` (the completion commit that carries this file).
@@ -41,60 +45,91 @@ trust it.
   file was written as a separate artifact (the per-claim verdicts live in the
   notes, as CLAUDE.md's scholarship-consistency contract requires).
 
+## The F0 footnote-density pass (added after R1–R9)
+
+After the register revision was complete, the commissioner ordered one further
+wave — **F0**, a single pass over all 43 chapters — to *greatly increase footnote
+density* so a non-specialist Western reader has every reference explained
+(REVISION_PLAN §12). It ran chapter by chapter, committing and pushing at every
+chapter boundary, and added **253 notes (375 → 628)**. Content stayed frozen:
+notes only, no prose word changed; every note attaches to a verbatim substring of
+the shipped text.
+
+- **What earned a note:** terms, people, places, events, institutions, and
+  classical/Buddhist allusions a reader with no Chinese would miss — swept across
+  material culture, social structure, customs and belief, and institutions and
+  money. Density is a reader model, not a quota: recurring "furniture" is glossed
+  **once at first appearance** and referenced thereafter, so the count is high in
+  the reference-dense narrative and survey chapters and naturally light in the
+  short prefaces and the reflective coda. ch01 (the abstract Foreword) was done
+  first as the density exemplar and approved before the rest.
+- **Fidelity:** every note fact-checked against real scholarship (ctext.org for
+  the classical loci; Baidu Baike / Zdic / Wikipedia and specialist sources for
+  figures and events), never LLM-sourced — the one Grokipedia link that surfaced
+  was excluded per CLAUDE.md rule 5. Verdicts are stated; disputed source-claims
+  (e.g. Wang Jingwei's deathbed essay 《最后之心情》) are footnoted **as** disputed
+  with the text left faithful. Uncertain identifications were footnoted as
+  uncertain or left un-noted, never guessed.
+- **Mechanics:** authored only via `apparatus_merge.py` (numeric character
+  references only), `check_apparatus` clean, the builder's refuse-on-unmatched-
+  anchor as the backstop. Whole-book reconciliation found no duplicate notes
+  across first-appearances. Full per-chapter counts, sources, and NOT-re-noted
+  ledgers are in `PROGRESS.md` (§ "F0 COMPLETE").
+
 ## Per-chapter tally
 
 | Unit | Ch | Title (short) | Paras | Notes |
 |---|---|---|---|---|
 | _Prefaces and Introductions_ | | | | |
-| ch01 | 1 | Foreword: The Conception of Nameless Heroes | 8 | 6 |
-| ch02 | 2 | Introduction to Rooting Out Traitors in the North | 18 | 20 |
-| ch03 | 3 | Introduction to Disgrace at Hanoi | 14 | 9 |
-| ch04 | 4 | Introduction to Renown Won in a Hundred Battles | 61 | 24 |
+| ch01 | 1 | Foreword: The Conception of Nameless Heroes | 8 | 10 |
+| ch02 | 2 | Introduction to Rooting Out Traitors in the North | 18 | 27 |
+| ch03 | 3 | Introduction to Disgrace at Hanoi | 14 | 11 |
+| ch04 | 4 | Introduction to Renown Won in a Hundred Battles | 61 | 26 |
 | _Part One. Rooting Out Traitors in the North_ | | | | |
-| ch05 | 5 | Prefatory Note | 8 | 8 |
-| ch06 | 6 | §1. A Heavy Charge, Pressing Onward | 322 | 24 |
-| ch07 | 7 | §2. A Startling Debut | 362 | 11 |
-| ch08 | 8 | §3. Tangled Roots, a Substitute Sacrifice | 461 | 13 |
-| ch09 | 9 | §4. Impatience Breeds a Grave Blunder | 332 | 9 |
+| ch05 | 5 | Prefatory Note | 8 | 9 |
+| ch06 | 6 | §1. A Heavy Charge, Pressing Onward | 322 | 36 |
+| ch07 | 7 | §2. A Startling Debut | 362 | 21 |
+| ch08 | 8 | §3. Tangled Roots, a Substitute Sacrifice | 461 | 22 |
+| ch09 | 9 | §4. Impatience Breeds a Grave Blunder | 332 | 23 |
 | _Part Two. Disgrace at Hanoi_ | | | | |
-| ch10 | 10 | Author's Preface: The Full Story of the Wang Case | 26 | 4 |
-| ch11 | 11 | Ch.1. Bloodshed Against the Enemy | 87 | 10 |
-| ch12 | 12 | Ch.2. Unfathomable Hearts, Hidden Designs | 131 | 16 |
-| ch13 | 13 | Ch.3. Treacherous Tides, a Gathering Storm | 262 | 21 |
-| ch14 | 14 | Ch.4. Beset on Three Sides, Ever Forward | 5 | 0 |
-| ch15 | 15 | Ch.5. A Blow at Bolang, the Wrong Carriage | 225 | 11 |
-| ch16 | 16 | Ch.6. Vile Treachery, Illusions Undone | 116 | 8 |
-| ch17 | 17 | Ch.7. Treading Thin Ice, Never Relenting | 147 | 9 |
-| ch18 | 18 | Ch.8. Renewed Effort, Wave upon Wave | 138 | 6 |
-| ch19 | 19 | A Note from the Author | 4 | 0 |
+| ch10 | 10 | Author's Preface: The Full Story of the Wang Case | 26 | 8 |
+| ch11 | 11 | Ch.1. Bloodshed Against the Enemy | 87 | 19 |
+| ch12 | 12 | Ch.2. Unfathomable Hearts, Hidden Designs | 131 | 24 |
+| ch13 | 13 | Ch.3. Treacherous Tides, a Gathering Storm | 262 | 31 |
+| ch14 | 14 | Ch.4. Beset on Three Sides, Ever Forward | 5 | 2 |
+| ch15 | 15 | Ch.5. A Blow at Bolang, the Wrong Carriage | 225 | 17 |
+| ch16 | 16 | Ch.6. Vile Treachery, Illusions Undone | 116 | 18 |
+| ch17 | 17 | Ch.7. Treading Thin Ice, Never Relenting | 147 | 16 |
+| ch18 | 18 | Ch.8. Renewed Effort, Wave upon Wave | 138 | 14 |
+| ch19 | 19 | A Note from the Author | 4 | 1 |
 | _Part Three. Renown Won in a Hundred Battles_ | | | | |
-| ch20 | 20 | Author's Preface: Shanghai Behind-the-Lines | 26 | 2 |
-| ch21 | 21 | Ch.1. Back in Shanghai, Our Might Restored | 155 | 8 |
-| ch22 | 22 | Ch.2. Spring Clouds Unfurl, the First Thrust | 286 | 7 |
-| ch23 | 23 | Ch.3. Patriotic Spirit, Moral Bounds | 7 | 1 |
-| ch24 | 24 | Ch.4. Beset on Three Sides, Ever Forward | 161 | 6 |
-| ch25 | 25 | Ch.5. A Full Reckoning: Remarkable People | 183 | 10 |
-| ch26 | 26 | Ch.6. Mount Tai or a Feather, All on One Throw | 321 | 11 |
-| ch27 | 27 | Ch.8. The Death of a Tycoon (ch.7 skipped in source) | 133 | 6 |
-| ch28 | 28 | Ch.9. Fearsome Renown, Waves of Blood | 217 | 8 |
-| ch29 | 29 | Ch.10 (上). Troubles Never Come Singly | 70 | 9 |
-| ch30 | 30 | Ch.10 (下). Troubles Never Come Singly | 108 | 5 |
-| ch31 | 31 | Written Before the Third Volume Went to Press | 14 | 3 |
+| ch20 | 20 | Author's Preface: Shanghai Behind-the-Lines | 26 | 5 |
+| ch21 | 21 | Ch.1. Back in Shanghai, Our Might Restored | 155 | 12 |
+| ch22 | 22 | Ch.2. Spring Clouds Unfurl, the First Thrust | 286 | 13 |
+| ch23 | 23 | Ch.3. Patriotic Spirit, Moral Bounds | 7 | 2 |
+| ch24 | 24 | Ch.4. Beset on Three Sides, Ever Forward | 161 | 9 |
+| ch25 | 25 | Ch.5. A Full Reckoning: Remarkable People | 183 | 16 |
+| ch26 | 26 | Ch.6. Mount Tai or a Feather, All on One Throw | 321 | 17 |
+| ch27 | 27 | Ch.8. The Death of a Tycoon (ch.7 skipped in source) | 133 | 12 |
+| ch28 | 28 | Ch.9. Fearsome Renown, Waves of Blood | 217 | 16 |
+| ch29 | 29 | Ch.10 (上). Troubles Never Come Singly | 70 | 15 |
+| ch30 | 30 | Ch.10 (下). Troubles Never Come Singly | 108 | 8 |
+| ch31 | 31 | Written Before the Third Volume Went to Press | 14 | 7 |
 | _Part Four. Pacification of the Beiping–Tianjin Region_ | | | | |
-| ch32 | 32 | Author's Preface | 35 | 10 |
-| ch33 | 33 | Ch.1. Reviving the Ailing, a Second Start | 151 | 6 |
-| ch34 | 34 | Ch.2. Self-Starting, of One Heart and Mind | 127 | 3 |
-| ch35 | 35 | Ch.3. A Spell of Storm, a Few Fallen Leaves | 194 | 8 |
-| ch36 | 36 | Ch.4. Seizing the Initiative, Spread Toils | 187 | 8 |
-| ch37 | 37 | Ch.5. War Unending, the People Destitute | 144 | 8 |
-| ch38 | 38 | Ch.6. Right and Wrong Made Plain | 135 | 8 |
-| ch39 | 39 | Ch.7. Looking Before and After | 179 | 8 |
-| ch40 | 40 | Ch.8. Musing on Past and Present | 169 | 9 |
-| ch41 | 41 | Ch.9. Reflecting on Past Pain | 200 | 9 |
-| ch42 | 42 | Ch.10. Fallen Leaves Return to the Root | 200 | 10 |
+| ch32 | 32 | Author's Preface | 35 | 17 |
+| ch33 | 33 | Ch.1. Reviving the Ailing, a Second Start | 151 | 13 |
+| ch34 | 34 | Ch.2. Self-Starting, of One Heart and Mind | 127 | 9 |
+| ch35 | 35 | Ch.3. A Spell of Storm, a Few Fallen Leaves | 194 | 14 |
+| ch36 | 36 | Ch.4. Seizing the Initiative, Spread Toils | 187 | 17 |
+| ch37 | 37 | Ch.5. War Unending, the People Destitute | 144 | 12 |
+| ch38 | 38 | Ch.6. Right and Wrong Made Plain | 135 | 14 |
+| ch39 | 39 | Ch.7. Looking Before and After | 179 | 14 |
+| ch40 | 40 | Ch.8. Musing on Past and Present | 169 | 15 |
+| ch41 | 41 | Ch.9. Reflecting on Past Pain | 200 | 14 |
+| ch42 | 42 | Ch.10. Fallen Leaves Return to the Root | 200 | 17 |
 | _Afterword_ | | | | |
-| ch43 | 43 | Afterword: Closing Remarks | 31 | 3 |
-| **Total** | | **43 units** | **6,160** | **375** |
+| ch43 | 43 | Afterword: Closing Remarks | 31 | 5 |
+| **Total** | | **43 units** | **6,160** | **628** |
 
 ## Batching as executed
 

@@ -6047,11 +6047,12 @@ occurrences); draft with real sources and stated verdicts; author via
 apparatus_merge.py; check_apparatus clean; rebuild + qa_epub (+ epubcheck);
 commit AND PUSH at every chapter boundary.
 
-**RESUME POINT:** see the "F0 chapter ledger" line below for the last COMPLETE
-chapter. An interrupted session resumes from the next chapter with the SAME F0
-kickoff (REVISION_PLAN §12.5). Do not spawn a new batch id.
+**RESUME POINT: NONE — F0 is COMPLETE (all 43 chapters densified, 628 notes).**
+The pass is finished; no resume needed. (Kept for provenance: an interrupted
+session would have resumed from the next chapter with the SAME F0 kickoff,
+REVISION_PLAN §12.5.)
 
-## F0 chapter ledger (last COMPLETE chapter = ch43)
+## F0 chapter ledger (ALL 43 CHAPTERS COMPLETE — F0 done)
 
 - **ch01 (Foreword) — DONE.** Notes 6 -> 10 (+4). New notes span all four
   kinds/domains:
@@ -6103,6 +6104,57 @@ Running total: ch01 **379**, ch02 **386** (qa_epub PASS each; epubcheck 5.1.0
 0/0/0/0 at ch01, ch02). Per-chapter policy: qa_epub every chapter; epubcheck at
 ~5-chapter checkpoints and the finale (note-only additions, so check_apparatus +
 qa_epub carry the per-chapter risk).
+
+## F0 COMPLETE — whole-book close
+
+**All 43 chapters densified. Translator notes 375 -> 628 (+253 new F0 notes).**
+Per-chapter counts and NOT-re-noted ledgers are in the per-chapter blocks below.
+
+- **Final gates (after ch43):** build PASS (628 notes); qa_epub PASS — 628 note
+  references / 628 bodies / 628 backlinks, all links resolve; epubcheck 5.1.0
+  **0 fatals / 0 errors / 0 warnings / 0 infos** (EPUB 3.3); check_apparatus 0/0.
+- **Whole-book note reconciliation:** no duplicate anchors within any chapter;
+  a mechanical scan for the same glossed Chinese term across two notes found only
+  two pre-F0 pairs (校长 ch06/ch11; 青帮 ch06/ch08), both benign and not
+  F0-introduced. First-appearance discipline held throughout: recurring
+  "furniture" (Beiping, li/tael/yuan/ping/mou/picul/zhang/catty, face, opium,
+  courtesy names, bandits=Communists, Republican/sexagenary/lunar dating,
+  warlord names, Kwantung Army, Northern Expedition, Juntong/Baomiju, Whampoa,
+  united front, hutong, jianghu, Annam, Sun Yat-sen, imperial exams, No.76,
+  solitary island, the Marshall-mediation figures, the trunk-railway naming,
+  etc.) glossed once at first appearance; every later occurrence recorded as
+  NOT-re-noted in the chapter block.
+- **Content stayed FROZEN** — notes only; no prose word changed. Notes attach to
+  verbatim substrings; where a wanted anchor was not present verbatim, a
+  different anchor was chosen (never the prose reworded).
+- **Method:** each chapter's candidates were inventoried (read-only helper
+  agents), deduped against the full existing-anchor list, curated by the reader
+  model (generous but never padding), fact-checked, and authored via
+  apparatus_merge.py (numeric character references only), with every anchor
+  verified as a verbatim substring at write time.
+- **Sources (real scholarship only; never LLM-sourced; verdicts stated in the
+  chapter blocks):** Chinese Text Project (ctext.org) for the classical
+  allusions (Analects, Mencius, Shiji, Dao De Jing, Book of Documents, etc.);
+  Baidu Baike / Zdic / zh.wikipedia for idiom origins and Chinese figures;
+  en.wikipedia and specialist sources for people and events — CIA.gov
+  ("Extraordinary Fidelity"), globalsecurity.org and FRUS for the 1950s
+  airdrops; generals.dk and the Pacific War Encyclopedia for Kagesa Sadaaki;
+  Taipei Times / WW2DB / en.wikipedia for Nemoto Hiroshi; wangjingwei.org and
+  民国网 for Wang-regime organs and the disputed 《最后之心情》. **The one
+  Grokipedia link that surfaced (for the CIA airdrops) was excluded per
+  CLAUDE.md rule 5; CIA.gov and FRUS were used instead.** Disputed or contested
+  source-claims (e.g. Wang Jingwei's deathbed essay) are footnoted AS disputed
+  with the text left faithful.
+- **TRAP recorded (ch11):** an anchor containing a literal `&`, `<`, or `>`
+  passes apparatus_merge (which checks the raw reading.md) but BREAKS the build
+  (which matches against XHTML-escaped text). Never use those characters in an
+  anchor; pick a different substring. (Fixed the one instance, `Butterfield &
+  Swire` -> `Jardine, Matheson`.)
+- **Setup regression:** the one known false alarm ("hook stands down on template
+  stub") still FAILS, as it has since R2 — the kickoff_guard Stop hook correctly
+  ENFORCES because HANDOFF.md carries a real, non-template kickoff, which is
+  exactly what that test inverts. Benign; all other checker regression tests
+  green.
 
 - **ch03 (Introduction: Disgrace at Hanoi) — DONE.** Notes 9 -> 11 (+2).
   New: `Rear a tiger and you leave yourself a calamity` (养虎遗患, Sima Qian,
