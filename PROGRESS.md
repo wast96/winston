@@ -6051,7 +6051,7 @@ commit AND PUSH at every chapter boundary.
 chapter. An interrupted session resumes from the next chapter with the SAME F0
 kickoff (REVISION_PLAN §12.5). Do not spawn a new batch id.
 
-## F0 chapter ledger (last COMPLETE chapter = ch21)
+## F0 chapter ledger (last COMPLETE chapter = ch22)
 
 - **ch01 (Foreword) — DONE.** Notes 6 -> 10 (+4). New notes span all four
   kinds/domains:
@@ -6420,6 +6420,17 @@ qa_epub carry the per-chapter risk).
   French/Intl Concession/Green Gang/Du Yuesheng/No.76/Li Shiqun/fabi/tingzijian
   (covered). Declined: bingge (uncertain), Iwai/Yokoyama (unverifiable). Total
   after ch21: **508**.
+
+- **ch22 (Part Three §2, Spring Clouds Unfurl) — DONE.** Notes 8 -> 13 (+5... +6).
+  New: `the muffled gourd` (闷葫芦 riddle); `He Yaozu` (贺耀组, titular Bureau
+  director; Dai Li held real command — verified Wikipedia/Baidu); `hoodwinking
+  heaven and crossing the sea` (瞒天过海, 1st of 36 Stratagems); `fifty steps to a
+  hundred` (五十步笑百步, Mencius); `peaceful night` (平安夜 = Christmas Eve wordplay);
+  `the brave man who severs his own wrist` (壮士断腕). Corroborated.
+  NOT re-noted: Ding Mocun (ch17 No.76 note), Chu Minyi (ch28), Land of Bliss /
+  Pure Land (ch18 Western Heaven), Thirty-Six Stratagems collection (ch02/ch41).
+  Declined: New Asia Peace Promotion Association (uncertain). Total after ch22:
+  **514**.
 
 <!-- F0_LEDGER_APPEND -->
 
