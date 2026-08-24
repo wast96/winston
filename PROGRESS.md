@@ -1884,3 +1884,108 @@ many inside quoted documents/memoirs, which are KEEP).
 "besides"×2 counted in the 6) + 28-site renegade collapse. The register pass
 (R1-R5) is COMPLETE. Further work is a corrections pass (CLAUDE.md), and the
 commissioner's requested footnote-density pass (FOOTNOTE_PASS.md), which is next.
+
+## FN1 — footnote-density pass, ch00-ch05 (FOOTNOTE_PASS.md batch 1)
+
+First batch of the footnote-density pass the commissioner asked for (increase
+note density; explain every person, place, event, term a non-specialist Western
+reader would miss, at first appearance book-wide, with real checked content).
+Content FROZEN: this pass ADDS notes only. No prose, number, name, or paragraph
+change (verified: `git diff` touches only notes.json + docs + the two merge
+files; no out/ch*_reading.md edited).
+
+### Branch
+Session opened on stray branch `claude/eloquent-fermat-yad3vr` (== origin/
+claude/zhou-enlai, all R1-R5 work). Folded per CLAUDE.md rule 2: checked out
+`claude/zhou-enlai`, reset to origin, deleted the stray (local + pruned remote).
+All FN1 work on `claude/zhou-enlai`.
+
+### data/zh decision
+`data/zh` was absent on this checkout (untracked/regenerable). NOT regenerated
+for this pass: it is a parity-QC scaffold for PROSE work, and FN1 changes no
+prose and runs no parity check. Anchors are verified against `out/<id>_
+reading.md` (present) by apparatus_merge; hanzi are proofread against
+`glossary.json` (present) and decoded from their numeric refs; fact-checking is
+against external scholarship, not the OCR. No source reading a note depends on
+required a fresh scan crop this batch. (If a later FN batch needs qc_entities
+first-appearance mapping, regenerate per scripts/recovery/README.md then.)
+
+### Notes added (before -> after)
+- ch00 12 -> 19 (+7): Zhou Enlai, Chiang Kai-shek, Great Revolution, Comintern,
+  Li Qiang, Deng Yingchao, Central Soviet.
+- ch01 28 -> 41 (+13): three Shanghai workers' uprisings, Northern Expedition,
+  Fifth National Congress, Borodin, Zhu De, He Long, Liu Bocheng, Zhao Shiyan,
+  Chen Yannian, Zhang Tailei, Li Weihan, Nov-1927 enlarged Provisional Politburo,
+  the "July 15" split (fills the dangling cross-ref from the ch00 Wang Jingwei note).
+- ch02 16 -> 22 (+6): Qu Qiubai, Su Zhaozheng, Liu Shaoqi, Xiang Ying,
+  He Mengxiong (+ the Longhua martyrs / Feb 7 1931), China Relief Society (+ MOPR).
+- ch03 13 -> 19 (+6): Eastern Expeditions (+ Chen Jiongming), He Yingqin,
+  Tang Shengzhi, Ye Jianying, Zhou Yiqun, Sun Yat-sen.
+- ch04 24 -> 34 (+10): May Fourth Movement, Tongmenghui, Yuan Shikai, Li Dazhao,
+  Cai Hesen, Xi'an Incident, Deng Yanda, Sun Bingwen, Reorganizationists (accuracy
+  note on the book's "under Hu Hanmin"), Yang Yin.
+- ch05 16 -> 20 (+4): Zhang Xun's 1917 restoration, Chen Diaoyuan (+ ticket-bandit
+  nuance + the author's uncorroborated 20-million-yuan figure), Kong Xiangxi, Li Fuchun.
+- **FN1 total: +46 notes. Book 339 -> 385. ch00-ch05: 109 -> 155.**
+
+### Fact-checking
+Every added identification checked against real scholarship (English/Chinese
+Wikipedia, Baidu Baike, Britannica, Maitron, official CCP-history sites). Verdict
+stated in each note. NO Grok/Grokipedia or any AI-written reference used (they
+surfaced in some result lists and were rejected). Research gathered by four
+sourced-dossier sweeps; findings verified before authoring. Notes that grade a
+book claim rather than just identify: Chen Diaoyuan (identity corroborated,
+20-million-yuan plunder = author's, uncorroborated; ticket-bandit nickname traces
+to the 1923 Lincheng case, not his own banditry); Reorganizationists ("under Hu
+Hanmin" is loose — the faction looked to Wang Jingwei; corrected in the note);
+Xiang Ying (birth year 1895 vs 1898 flagged).
+
+### Hanzi discipline
+People notes carry NO hanzi (house style; eliminates insertion risk). Term/org/
+event notes carry hanzi as NUMERIC character references, each decoded and
+cross-checked: 大革命, 共产国际, 中央苏区, 北伐 (ch00-01); 中国济难会, 孙中山,
+五四运动, 同盟会, 改组派 (ch02-05). 共产国际/中央苏区/孙中山/改组派/中国济难会
+match glossary.json exactly; 大革命/北伐/五四运动/同盟会 are the standard forms,
+decoded and eyeballed. No U+FFFD anywhere; build carries them intact.
+
+### NOT re-noted (already placed — cross-referenced, no second note)
+- Chiang Kai-shek: only ch00 (new) is the ID; recurs everywhere un-renoted.
+- Ren Bishi: ID kept at ch02 (arrest) + ch13 (full bio); ch00 preface mention
+  left un-noted (close, glancing).
+- Luo Yinong, Yun Daiying: IDs kept at ch02 (first substantive treatment);
+  ch01 list-mentions left un-noted.
+- Deng Xiaoping: ID kept at ch04; first appears ch02 (minutes-keeper) but
+  famous + close, left un-noted at ch02.
+- Chen Yangshan: ID kept at ch04; ch01 mention left un-noted.
+- Du Yuesheng, Yang Du: full treatments at ch14; ch04 first-appearances are
+  glancing and self-glossed ("that great Shanghai gangster"), left un-noted here.
+- Guangzhou Uprising: full note at ch11; ch04 mention self-dated ("of December
+  11"), left un-noted here (the Ye Jianying note at ch03 already names it).
+- Chen Guofu/Chen Lifu: ID at ch06 (one chapter on); ch05 "party bosses" partial
+  gloss, left un-noted here.
+- Nie Rongzhen, Chen Geng, Peng Pai, Wang Jingwei, Zhang Guotao, Gu Shunzhang,
+  Xiang Zhongfa, Pan Hannian, Ye Ting, Blyukher, Thalmann, Sano Manabu, Pavel
+  Mif, Xu Enzeng, Cai Mengjian, Li Kenong, Qian Zhuangfei, Hu Di, Li Bai, Zhao
+  Yiman: already noted (ch00-ch05), reused unchanged.
+- In-text self-glossed, deliberately un-footnoted (author supplies the gloss):
+  the elegy figures Fang Xuanling / Li Zuoche / Wei Zheng / Du Ruhui / Han Xin
+  (ch05 prose); "Three Great Policies" (listed in ch05 prose); Three Principles
+  of the People (covered by the Sun Yat-sen note); minor cover-family members,
+  shops, and schools named once (Xiong Jinding, Zhu Duansui, Li Yimang, Wing On,
+  Sincere, Nanyang/Zhejiang schools, West Lake Exposition), Butterfield & Swire,
+  Li Jishen (peripheral name-drop).
+
+### Reconciliation items for later FN batches / FN5 (cross-chapter, out of FN1 scope)
+Notes at a first appearance in ch00-ch05 that also have a note in ch06+; the
+later one should be trimmed to a cross-reference when its batch runs:
+- Liu Bocheng: new ID at ch01 (first appearance, Nanchang) + existing bio at ch07
+  (episode-specific). FN2: trim ch07 to a cross-ref to ch01.
+(All other FN1 additions have no ch06+ duplicate.)
+
+### QC
+- check_apparatus.py: 0 failures, 0 warnings (both merges).
+- Build: 28/28 chapters, **385 notes**, 496 pagebreaks. qa_epub PASS (385
+  refs/bodies/backlinks resolve, sequential). epubcheck 5.1.0: 0 fatals / 0
+  errors / 0 warnings.
+- Every anchor verified a unique verbatim substring of its reading file before
+  merge. No prose/number/paragraph change (notes-only pass).

@@ -2,6 +2,42 @@
 
 Dated record of what changed and, for global corrections, what cascaded where.
 
+## 2026-08-24 — FN1 footnote-density pass, ch00-ch05 (FOOTNOTE_PASS.md batch 1)
+First batch of the commissioner's footnote-density pass. Content FROZEN: notes
+ADDED only; no prose/number/name/date/paragraph change (git diff touches only
+notes.json + the two merge files + docs; no out/ch*_reading.md edited).
+- **+46 footnotes. Book 339 -> 385; ch00-ch05 109 -> 155.** Per unit:
+  ch00 12->19, ch01 28->41, ch02 16->22, ch03 13->19, ch04 24->34, ch05 16->20.
+- Classes swept per FOOTNOTE_PASS.md 2-6: people (largest class — the fast-
+  turning early cast: Zhu De, He Long, Liu Bocheng, Qu Qiubai, Li Lisan-line,
+  Zhao Shiyan, Chen Yannian, Zhang Tailei, Li Weihan, Su Zhaozheng, Liu Shaoqi,
+  Xiang Ying, He Mengxiong, Li Dazhao, Cai Hesen, Deng Yanda, Sun Bingwen, Yang
+  Yin, He Yingqin, Tang Shengzhi, Ye Jianying, Zhou Yiqun, Kong Xiangxi, Li
+  Fuchun, Chen Diaoyuan, Yuan Shikai, Sun Yat-sen, Borodin, Deng Yingchao, Li
+  Qiang, Zhou Enlai, Chiang Kai-shek); places/events (Great Revolution, Northern
+  Expedition, Eastern Expeditions, Guangzhou/three-Shanghai-uprisings, May Fourth,
+  Xi'an Incident, Zhang Xun's 1917 restoration, Fifth Congress, Nov-1927 enlarged
+  Politburo, "July 15" split, Central Soviet); institutions/terms (Comintern,
+  Tongmenghui, Reorganizationists, China Relief Society/MOPR).
+- Filled a dangling cross-reference: the ch00 Wang Jingwei note pointed to a
+  "July 15" note "in the next chapter" that did not exist; now added at ch01.
+- Accuracy/partisan-source notes (verdict in the note): Chen Diaoyuan (20-million
+  -yuan plunder = author's, uncorroborated; ticket-bandit nickname = 1923 Lincheng
+  case); Reorganizationists ("under Hu Hanmin" loose — looked to Wang Jingwei);
+  Xiang Ying birth year 1895/1898 flagged.
+- Fact-checked against real scholarship only (Wikipedia EN/ZH, Baidu Baike,
+  Britannica, Maitron, CCP-history sites); no Grok/Grokipedia/AI sources.
+- Every hanzi inserted as a numeric character reference, decoded and cross-checked
+  against glossary.json / standard forms; people notes carry no hanzi.
+- Merged via scripts/apparatus_merge.py (data/fn1_notes_a.json = ch00-01,
+  data/fn1_notes_b.json = ch02-05). check_apparatus clean; qa_epub PASS;
+  epubcheck 5.1.0 0/0/0. New helper scripts: scripts/fa_check.py (first-appearance
+  grep) and scripts/gloss_hanzi.py (glossary hanzi reverse-lookup).
+- data/zh not regenerated (parity scaffold, not needed for a notes-only pass;
+  rationale in PROGRESS.md FN1).
+- One cross-chapter reconciliation logged for FN2 (Liu Bocheng ch01 first-appearance
+  ID vs existing ch07 bio); see PROGRESS.md FN1.
+
 ## 2026-08-22 — R5 register pass: tail tic sweep, reconciliation, CLOSE (ch23-ch27 + whole book)
 Final register batch: tail tic sweep of ch23-ch27, then the whole-book
 reconciliation and close-out. Content frozen (no para merged/split, no fact/

@@ -1,81 +1,91 @@
 # HANDOFF — Zhou Enlai: Commander of the Hidden Front
 
-## THE BOOK IS COMPLETE, AND THE REGISTER PASS IS CLOSED
+The book is COMPLETE and the register pass (R1-R5) is CLOSED. We are now in the
+**footnote-density pass** (FOOTNOTE_PASS.md). FN1 (ch00-ch05) is done; **FN2
+(ch06-ch11) is next.** One batch = one fresh chat, started by pasting the block
+below. FN1 stopped at a light annotation-depth gate for the commissioner; do
+NOT begin FN2 until the commissioner has seen FN1's density and approved the
+depth.
 
-All 28 units are translated (ch00 Preface through ch27 Afterword), and the
-five-batch **register revision pass (R1-R5)** is now finished as well. There
-is no next register batch, so this file no longer carries a paste-ready
-kickoff section. Read `COMPLETION.md` first (its "Register revision pass
-(R1-R5)" section is the revision record); `PROGRESS.md` and `CHANGELOG.md`
-carry the per-batch detail.
+## Message to paste into the next chat
 
-Further work on this book is one of two things, in this order:
+```
+Zhou Enlai FN2 (footnote-density pass)
 
-1. **The footnote-density pass the commissioner requested** — greatly increase
-   footnote coverage across the whole book (people, places, events, offices,
-   terms, allusions: everything a non-specialist Western reader would miss),
-   without padding. This is a NEW initiative beyond the register pass. Its
-   plan and its paste-ready per-batch kickoffs live in **`FOOTNOTE_PASS.md`**
-   (start with its `## 9. Kickoff` block for FN1). Do this next.
-2. **A corrections pass** (CLAUDE.md corrections workflow) for anything the
-   commissioner files in `CORRECTIONS.md` or pastes in chat. A zero-item
-   corrections pass is still a clean-checkout regression run.
+Read CLAUDE.md, then FOOTNOTE_PASS.md (it governs this pass), then STYLE.md ("Apparatus" and the partisan-source discipline), then this HANDOFF and PROGRESS.md's FN1 section. Branch claude/zhou-enlai only; fold any stray branch per CLAUDE.md rule 2. Content is FROZEN: this pass ADDS and enriches footnotes only, no prose/number/name/paragraph change. Notes are authored as a JSON file and merged with scripts/apparatus_merge.py (never a heredoc); anchors are verbatim UNIQUE substrings of out/<id>_reading.md; note bodies are XHTML with numeric character references only; people notes carry no hanzi, term/place/event notes carry glossary-verified hanzi decoded and checked; cite printed folios where a note cites a page; never invent; fact-check every claim against real scholarship (Wikipedia/Baidu Baike/academic, NEVER Grok/Grokipedia/AI) with the verdict stated in the note. Use scripts/fa_check.py (first-appearance grep across notes.json + reading files) before every note and scripts/gloss_hanzi.py for hanzi. data/zh is a parity scaffold not needed for a notes-only pass; do not regenerate it unless a check requires it.
 
-## Final state
+Do batch FN2 = greatly increase footnote density on ch06-ch11 (Yang Dengying and the first counter-espionage tie; the tiger's den; Fengtian; the Action Section and the Red Squad; the Avenue Joffre gunfights) per FOOTNOTE_PASS.md sections 2-6: sweep every chapter for people, places, events, institutions/offices/ranks/units, terms and period vocabulary, and allusions/idioms/quotations, and annotate every instance a non-specialist Western reader would miss AT ITS FIRST appearance book-wide. Density is coverage, not quota: every note carries real checked content and answers a real reader question; add nothing just to add it. Run the first-appearance check before every note and keep the "NOT re-noted" list in PROGRESS. RECONCILE the FN1-logged item: trim the ch07 Liu Bocheng note to a cross-reference to the new ch01 first-appearance note. Then rebuild, check_apparatus.py, qa_epub (epubcheck if installed), PROGRESS + CHANGELOG, commit, push.
 
-- Deliverable: `out/zhou-enlai.epub`, committed with `git add -f` on branch
-  `claude/zhou-enlai`. 28/28 chapters, 339 notes, 36 figures, 496 pagebreaks.
-- `qa_epub.py`: PASS (all links resolve). `epubcheck` 5.1.0: 0 errors, 0 warnings.
-- Ledgers current: `glossary.json` (847 rows), `notes.json` (339),
-  `figures.json`, `book.json`; `authority.json` fed with this book's decided
-  renderings; `out/term_ledger.md` and `out/deep_audit.md` written;
-  `CHANGELOG.md` and `PROGRESS.md` current.
-- Register pass ledgers: `REVISION_PLAN.md` (the pass that governed R1-R5),
-  `review/REGISTER_PASS_ASSESSMENT.md`, `out/ch01_reading.pre-R.md` (the frozen
-  register reference), `STYLE.md` (the prose contract, with its calibrated
-  rulings ledger).
+End with the rebuilt EPUB attached in chat AND the FN3 kickoff pasted verbatim in a fenced block (same form as this one, ch12-ch17). Do not pause for approval mid-batch.
+```
 
-## Register-pass residuals recorded for a future corrections pass
+## What is DONE (do not redo)
 
-- **破坏 -> "wreck*"**: reviewed book-wide in R5 and left as contextually
-  appropriate (mass-arrest destruction = smash/wreck/destroy, not the
-  covert-subversion "sabotage"). If the commissioner ever wants a uniform
-  "sabotage", PROGRESS.md's R5 section has the full site inventory; note that
-  many sites sit inside quoted documents/memoirs (KEEP).
-- **4 unused glossary forms** (Chen Zhifei, Zhao Minlin, Jiang Baili, Guangming
-  Daily) are pre-existing and legitimate (referent rendered by given name or a
-  variant); left as-is.
+- Translation of all 28 units (ch00-ch27); register pass R1-R5 (see COMPLETION.md).
+- **FN1 footnote-density pass, ch00-ch05: +46 notes (339 -> 385; ch00-ch05
+  109 -> 155).** Per-unit counts, the full "NOT re-noted" list, the fact-check
+  verdicts, and the reconciliation item are in PROGRESS.md's FN1 section.
+  Merged via `data/fn1_notes_a.json` (ch00-01) and `data/fn1_notes_b.json`
+  (ch02-05).
+
+## Carry-forward for the footnote pass
+
+- **First-appearance discipline is the main guard against redundancy.** Before
+  every note run `python3 scripts/fa_check.py "Subject"`: it lists which reading
+  files mention it (in order) and any notes.json anchor/body that already covers
+  it. Note at the FIRST appearance book-wide; cross-reference, never re-note.
+- **RECONCILE (FN2):** Liu Bocheng has a new first-appearance ID at ch01
+  (Nanchang) and an existing episode note at ch07 — trim the ch07 note to a
+  cross-reference ("see the note at chapter 1"). No other FN1 addition has a
+  ch06+ duplicate.
+- **Pre-existing later-chapter notes whose subject first appears in ch06-ch11**
+  will surface in FN2; check each with fa_check and place the ID at first
+  appearance, trimming the later note. Known: Du Yuesheng (full at ch14, first
+  appears ch04 — glancing, left un-noted in FN1; if ch06-ch11 has a substantive
+  first appearance, note there); Yang Dengying (Bao Junfu) is a subject of ch06,
+  already noted at ch04's "first to discover... Yang Dengying" — enrich at ch06
+  only if the ch04 note is insufficient, else cross-ref.
+- **Hanzi:** people notes carry none. Term/org/place/event notes carry hanzi as
+  numeric character references (`&#20116;...`), each decoded with
+  `python3 -c "import html;print(html.unescape('...'))"` and cross-checked
+  against `scripts/gloss_hanzi.py` output or the scan. Never hand-type a glyph
+  you have not verified. Merge validates for U+FFFD and named entities.
+- **Voice of the notes:** concise, one referent per note; dates; role in the
+  1927-35 period AND later fate/how they died; verdict "(Corroborated.)" or a
+  graded claim. Match the existing note bodies (see ch00-ch05 for the model).
 
 ## Do not revert (accumulated tooling)
 
-- `data/ocr_fixes.json`: crop/context-verified readings for ch00&#8211;ch27;
-  replay with `apply_fixes.py` on any fresh regen.
-- `scripts/recovery/`: the b01_* through b14_* strip/surgery/pagemap/addfixes/
-  glossary scripts and the `b1X_rebuild.sh` drivers (b10&#8211;b14 rebuild
-  ch17&#8211;ch27 from `data/txt_backup_b1*` with no re-OCR); plus
-  `r5_collapse_renegade.py` (the 叛徒 reconciliation cascade) and
-  `gen_date_edits.py` (R1's date-normalization edit-list generator).
-- `data/noise.txt`: keep extending, never prune.
-- `data/check_config.json`: docs + sources for ch00&#8211;ch27.
-- Builder invariants (full pending-aware then cleaned TOC; note pop-ups with
-  endnotes fallback; refusal to build on an unmatched anchor or unplaced
-  figure; byte-identical cover copy; render-layer smart quotes).
+- `scripts/fa_check.py` (first-appearance grep) and `scripts/gloss_hanzi.py`
+  (glossary hanzi reverse-lookup) — added in FN1; keep for every FN batch.
+- `data/ocr_fixes.json`; `scripts/recovery/` (b01-b14 + r5/date generators);
+  `data/noise.txt` (extend, never prune); `data/check_config.json`; builder
+  invariants (pending-aware then cleaned TOC; note pop-ups with endnotes
+  fallback; refusal to build on an unmatched anchor or unplaced figure;
+  byte-identical cover copy; render-layer smart quotes).
 
-## How to rebuild from a clean checkout
+## State / environment
+
+- Deliverable: `out/zhou-enlai.epub` (committed with `git add -f` on
+  `claude/zhou-enlai`). 28/28 chapters, **385 notes**, 36 figures, 496
+  pagebreaks. qa_epub PASS; epubcheck 5.1.0 0/0/0.
+- Ledgers: `glossary.json` (847 rows), `notes.json` (385), `figures.json`,
+  `book.json`, `authority.json`; `out/term_ledger.md` and `out/deep_audit.md`
+  are from the register close (refresh term_ledger only at FN5).
+- `data/zh` is absent on a fresh checkout (untracked/regenerable) and was NOT
+  regenerated for FN1 (parity scaffold, not needed for a notes-only pass;
+  rationale in PROGRESS.md FN1). Regenerate per `scripts/recovery/README.md`
+  only if a later batch needs qc_entities/parity.
+- Body offset constant 44 (printed = PDF - 44). `OMP_THREAD_LIMIT=1` for
+  tesseract; `pgrep -c tesseract` must read 0 after a run. One pre-existing
+  failing regression test ("hook stands down on template stub"), template
+  maintenance only, unrelated to the book.
+
+## Environment / rebuild from clean checkout
 
 1. `./setup.sh`
-2. regenerate `data/zh/` with the `scripts/recovery/b*_rebuild.sh` drivers for
-   b10&#8211;b14 (ch17&#8211;ch27); b01&#8211;b09 re-OCR from `source.pdf` with
-   the recorded crops per `scripts/recovery/README.md`.
-3. `python3 scripts/build_reading_epub.py`
-4. `python3 scripts/qa_epub.py`
-5. `java -jar /tmp/epubcheck-5.1.0/epubcheck.jar out/zhou-enlai.epub`
-
-## Environment notes
-
-- Body offset is a constant 44 (printed = PDF minus 44). PaddleOCR's weights
-  host is usually unreachable; `scripts/ocr_dual.py` is the dual-tesseract
-  substitute. `OMP_THREAD_LIMIT=1` for tesseract; check `pgrep -c tesseract`
-  reads 0 after a run. There is one pre-existing failing regression test
-  ("hook stands down on template stub"), template maintenance only, unrelated
-  to the book.
+2. `python3 scripts/build_reading_epub.py`
+3. `python3 scripts/qa_epub.py`
+4. `java -jar /tmp/epubcheck-5.1.0/epubcheck.jar out/zhou-enlai.epub`
+(A notes-only FN batch does not need `data/zh`; regenerate it only if a check
+that reads the source requires it.)
