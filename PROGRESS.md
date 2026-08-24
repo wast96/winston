@@ -6051,7 +6051,7 @@ commit AND PUSH at every chapter boundary.
 chapter. An interrupted session resumes from the next chapter with the SAME F0
 kickoff (REVISION_PLAN §12.5). Do not spawn a new batch id.
 
-## F0 chapter ledger (last COMPLETE chapter = ch09)
+## F0 chapter ledger (last COMPLETE chapter = ch10)
 
 - **ch01 (Foreword) — DONE.** Notes 6 -> 10 (+4). New notes span all four
   kinds/domains:
@@ -6261,6 +6261,21 @@ qa_epub carry the per-chapter risk).
   (list member), Hebei-Chahar Council (covered by autonomy-movement note),
   plainclothes-corps (context-clear). Total after ch09: **436**. [epubcheck
   0/0/0/0 checkpoint]
+
+- **ch10 (Part Two, Author's Preface — the full Wang Jingwei/Hanoi story) —
+  DONE.** Notes 4 -> 8 (+4). New: `he sang in the market of Yan` (Wang Jingwei's
+  famous 1910 prison poem 慷慨歌燕市…, the Jing Ke / heroic-martyr allusion, ironic
+  vs his later collaboration — verified/standard); `Kagesa Sadaaki` (影佐禎昭
+  1893-1948, Ume/Plum agency head, architect of Wang's defection — generals.dk /
+  Wikipedia / Pacific War Encyc.); `the Intelligence Bureau of the Ministry of
+  National Defense` (国防部情报局, postwar Taiwan heir to Juntong, published the Dai
+  Li papers Chen cites); `delivered an address…resolve to resist` (Chiang's Lushan
+  Declaration, 17 Jul 1937, "last extremity" 最后关头 — chiculture/warhistory).
+  NOT re-noted / covered: Wang Jingwei, Dai Li, Juntong, Ume Kikan, Li Shiqun,
+  Chen Bijun, Yan Telegram, People's Political Council, Marco Polo Bridge/July 7,
+  Jing Ke, War of Resistance, Chongqing. Declined (uncertain/minor, not guessed):
+  Ye Jiqing (Li Shiqun's wife — unverifiable role, minor), Wang Luqiao (Dai Li
+  subordinate — unidentifiable). Total after ch10: **440**.
 
 <!-- F0_LEDGER_APPEND -->
 
