@@ -1109,3 +1109,12 @@
 # "March 17, 1946" orphaned it (RULE R1-3, R5 latent-match class). Not a hard
 # quantity — strip the approximate.
 三十几
+#
+# --- R8 (register revision) entries ---
+#
+# R8 (ch33 p083): counter-by-naming 郑、毛两位先生 "Messrs. Zheng and Mao, the
+# two of them"; both named in the English, so the 两 (2) is a counter, not a
+# tracked value (cf. 陈、齐两位 / 周、朱两人). Surfaced when the incidental
+# "second" of the old date wording "twenty-second year" (which matched
+# \bsecond\b -> 2 and covered this 两) was converted to "1933" (RULE R1-3).
+郑、毛两位
