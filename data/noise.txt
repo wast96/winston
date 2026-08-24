@@ -840,6 +840,11 @@
 # no phantom 2/8 is orphaned (same class as 十三、四 above).
 二十一、二
 二十七、八
+# Elided date-range years 民国二十二、三年 (1933-34) in ch12 (R4, same class as the two
+# above): the 、三 elides 二十三 (23), and the checker misreads it as a bare 3. R4 rendered
+# this Republic-year pair as Gregorian ("1933 and 1934") for reader access; strip the whole
+# elided source pair so no phantom 3 (nor the incidental 22) is orphaned.
+二十二、三
 # Idiom 四壁 "the four bare walls / on every side" (剥落处四壁可见, ch34): the 四 is the
 # set idiom for "all around," not a tracked count of 4. English "on every side."
 四壁
