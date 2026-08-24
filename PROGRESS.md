@@ -2350,3 +2350,168 @@ No U+FFFD in any text file or in the EPUB xhtml.
   errors / 0 warnings.
 - Every new anchor verified a unique verbatim substring of its reading file before
   merge (all 14 count==1). No prose/number/paragraph change (notes-only pass).
+
+## FN5 — footnote-density pass, ch23-ch27 + whole-book close-out (FOOTNOTE_PASS.md batch 5, LAST)
+
+Final batch of the commissioner's footnote-density pass (the manhunt survivors
+and the radio-line reconstruction; Gu Shunzhang's shameful end; the Wu Hao Notice
+affair; the Conclusion and Afterword), plus the whole-book apparatus
+reconciliation and close-out. Content FROZEN: notes ADDED and reconciled only. No
+prose, number, name, date, or paragraph change (verified: git diff touches only
+notes.json + data/fn5_notes.json + scripts/recovery/fn5_*.py + docs + the rebuilt
+EPUB; no out/ch*_reading.md edited).
+
+### Branch
+Session opened on stray branch `claude/zhou-enlai-fn5-footnotes-56c6dt` (== origin/
+claude/zhou-enlai at FN4's HEAD; the local claude/zhou-enlai was one commit behind
+and was reset to origin). Per CLAUDE.md rule 2 the canonical working branch is
+`claude/zhou-enlai`; checked it out, reset to origin, did all FN5 work there. Stray
+branch carried no unique commits beyond origin/claude/zhou-enlai, so nothing to
+fold; deleted at close (local + remote).
+
+### data/zh decision
+Not regenerated (parity scaffold, not needed for a notes-only pass; same rationale
+as FN1-FN4). Anchors verified unique verbatim substrings of out/<id>_reading.md by
+apparatus_merge (all 16 count==1); hanzi taken from glossary.json (gloss_hanzi.py)
+and emitted as numeric character references generated programmatically from the
+glossary string; fact-checking against external scholarship.
+
+### Notes added (before -> after) — the tail (ch23-ch27)
+- ch23 14 -> 17 (+3): the State Political Security Bureau (org; the Soviet's
+  GPU-modeled political police, Deng Fa its first head), Ma Haide/George Hatem
+  (person; the first foreigner in the CCP, met through the Smedley/Liu Ding circle
+  this chapter describes), the Dragon Boat Festival (custom/term).
+- ch24 8 -> 8 (+0): a genuine 0, not a skipped sweep. Dick Wilson (source) is noted
+  already; Yang Hu is noted at ch01 (the tiger-wolf pun); the Cheka/GPU, the C.C.
+  clique, and the string of Zhongtong/Juntong agents are either noted earlier or
+  given full prose placement inside the chapter's own quotations.
+- ch25 8 -> 10 (+2): Shi Liangcai (person; the Shen Bao publisher assassinated by
+  Dai Li's men in 1934), Tao Xingzhi (person; the Dewey-trained educator). The whole
+  Cultural-Revolution frame is already noted: Lin Biao / Jiang Qing / the Gang of
+  Four / the Cultural Revolution and the Tiananmen Incident all carry full notes at
+  ch25 (see below), and the Awakening Society / Nankai and Kang Sheng are noted here
+  too.
+- ch26 7 -> 8 (+1): Shen Anna (person; the Party's long-serving stenographer-mole in
+  the Kuomintang Central HQ). Yan Baohang + the Barbarossa-warning claim (graded),
+  Xiong Xianghui / Hu Zongnan / the "Three Later Heroes," and Zhang Kexia / the
+  Huaihai Campaign are already noted; Dimitrov is self-glossed in the prose.
+- ch27 1 -> 1 (+0): the Afterword needs nothing new (Mu Xin's own closing note).
+- **Tail subtotal: +6 notes.** The tail was already densely annotated during the
+  B13/B14 translation batches, so FN5's tail additions are modest by design.
+
+### Notes added (before -> after) — whole-book reconciliation (first appearance precedes ch23)
+Clearing the FN3/FN4 "Items flagged for FN5" backlog, each noted at its true
+book-wide first appearance:
+- ch02 22 -> 23 (+1): shikumen (Shanghai row-house type; recurs from ch02 on).
+- ch03 19 -> 20 (+1): Sun Yat-sen University in Moscow (first appears ch03, Zhang
+  Kexia; the full note had sat at ch18 -> trimmed to a cross-ref).
+- ch04 34 -> 35 (+1): the Third Plenary Session of the Eleventh Central Committee
+  (Dec 1978; the reform turning point the book dates rehabilitations from).
+- ch05 20 -> 21 (+1): Sun Chuanfang (warlord of the lower Yangzi; assassinated 1935).
+- ch10 12 -> 13 (+1): the Shen Bao (first appears ch10; the ID had sat at ch17 ->
+  ch17 trimmed to the author's-device note + cross-ref).
+- ch14 20 -> 22 (+2): the China Mutual Aid Society (bridged to the China Relief
+  Society note at ch02 — the same body, renamed in 1929; see the rendering note
+  below), and Ta Kung Pao (the Tianjin daily, first appears ch14).
+- ch15 24 -> 25 (+1): the E-Yu-Wan Soviet (first named "E-Yu-Wan" at ch15; the full
+  base-area note had sat at ch19 -> trimmed to a cross-ref keeping the ch19-specific
+  Zhang Guotao detail).
+- ch16 8 -> 9 (+1): the Baoding Army Officers' Academy (first appears ch16, Qian
+  Dajun — NOT ch03, whose "Baoding" is Baoding Road, a Shanghai street; the FN4 flag
+  was corrected on this point).
+- ch17 13 -> 14 (+1): Li Mingrui (Guangxi general, Bose/Longzhou uprisings; killed
+  1931).
+- **Reconciliation subtotal: +10 notes.**
+- **FN5 total: +16 notes. Book 441 -> 457. ch23-ch27: 38 -> 44.**
+
+### Reconciliations (pre-existing later notes trimmed to cross-references)
+- **Shen Bao:** ID added at ch10 (first appearance); ch17 note trimmed to the
+  author's-device observation + cross-ref to chapter 10.
+- **Sun Yat-sen University Moscow:** ID added at ch03 (first appearance); the ch18
+  "Study and work at 'Sun Yat-sen University'" note trimmed to a cross-ref.
+- **E-Yu-Wan / Hubei-Henan-Anhui Soviet:** ID added at ch15 (first appearance); the
+  ch19 note trimmed to a cross-ref, keeping the ch19-specific "driven out in 1932
+  under Zhang Guotao" detail.
+
+### 互济会 rendering "drift" — resolved as a historical rename, not an error
+The FN3 flag treated "China Relief Society" vs "China Mutual Aid Society" as a
+rendering drift. It is not: the glossary maps two DIFFERENT Chinese names
+consistently — 中国济难会 -> "China Relief Society" (the 1925 original, attested) and
+中国互济会 -> "China Mutual Aid Society" (the 1929 rename, decided). The prose is
+therefore correct and consistent, and content stays frozen. To spare the reader the
+two-name confusion, a bridging note at the first "China Mutual Aid Society" (ch14)
+ties it to the China Relief Society note at ch02. No glossary or prose change.
+
+### NOT re-noted (already placed earlier — cross-referenced or left, no second note)
+- **Cultural-Revolution personalities:** Lin Biao, Jiang Qing, the Gang of Four
+  first appear as glancing biographical asides at ch04 (Liu Ding's persecution; the
+  author's own imprisonment); the full identification note is kept at ch25, where the
+  Wu Hao affair makes them the subject (the Ren Bishi placement pattern). The
+  Cultural Revolution itself is noted early (ch01/ch02).
+- **Already noted, reused unchanged:** Chen Yun (ch12), Kang Sheng, Pan Hannian,
+  Chen Geng, Li Kenong/Qian Zhuangfei/Hu Di (Three Heroes of Longtan), Xu Enzeng,
+  Zhang Daofan, Chen Lifu/Chen Guofu (C.C. clique), Dai Li/Juntong/Zhongtong,
+  Cheka (ch00)/GPU (ch19), the Kwantung Army (in the ch08 Mukden note), the Chinese
+  Eastern Railway Incident (ch08), Yang Hu (ch01 pun note), Dick Wilson (ch24), the
+  Long March/Zunyi (ch04), Central Soviet/Chinese Soviet Republic (ch00/ch02),
+  Whampoa (ch03), Rewi Alley (ch23), Agnes Smedley (ch22), Fang Zhimin (ch23),
+  Xiong Xianghui/Hu Zongnan (ch05/ch26), Zhang Kexia/Huaihai Campaign (ch26), the
+  Nineteenth Route Army (ch21), Deng Xiaoping, Feng Yuxiang, Yan Xishan, Zhang
+  Xueliang, Song Qingling, Ding Ling, the New Fourth Army / Eighth Route Army.
+- **Hu Yepin cluster confirmed complementary (FN4 open item):** ch09 (the Oriental
+  Hotel arrest meeting), ch20 (the Longhua Martyrs collective), ch22 (his individual
+  bio as Ding Ling's companion). Three anchors, three local needs; reads cleanly, no
+  merge.
+- **Deliberately left unfootnoted** (prose gives a full placement, or too minor/self-
+  glossed, or inside a quoted memoir): The Voice of China (glancing, inside Alley's
+  quoted memoir, self-contextualized as a publication); Kuang Hui'an, Shen Shouya,
+  Zhang Qiuyang, Xu Qiang, Shao Fumin, Zhang Keyun, Old Ju, Wu Chengfang, Huang Ping,
+  Lu Weiliang, "Little Cantonese," Rewi Alley's household (Gumperson, Mike), Herbert
+  Wunsch, Erich Landauer, Bocic, Li Du, Zhou Zhirou, Li Jinde, Kang Ze (all prose-
+  placed or one-appearance); the crowd of self-glossed Zhongtong/Juntong agents in
+  ch24 (Huang Kai, Meng Zhen, Lin Jinsheng, Gu Jianzhong, Zhang Guodong, Chen Weiru,
+  Lin Chengyin, etc., each given a full prose obituary inside the chapter's own
+  quotations); Zhang Mutao; Wu Faxian, Xu Shiyou, Xie Fuzhi, Wang Dongxing, Zhang
+  Chunqiao/Yao Wenyuan (Cultural-Revolution figures the prose or the ch25 Gang-of-
+  Four note places); the Min-Zhe-Gan (Fujian-Zhejiang-Jiangxi) Soviet (covered by the
+  E-Yu-Wan and Fang Zhimin notes).
+
+### Fact-checking
+Every added identification checked against real scholarship (English/Chinese
+Wikipedia, Baidu Baike, Cambridge China Quarterly, University of Hawai'i Press,
+SHINE/China Daily, and academic biographies) before authoring; verdict stated in
+each note. NO Grok/Grokipedia or any AI-written reference used (Grokipedia surfaced
+in result lists for Ma Haide, the Longzhou Uprising, and the assassinations query,
+and was rejected each time). Dates cross-checked: Shen Anna (Shen Wan) 1915-2010,
+placed via Zhou Enlai; Shi Liangcai 1880-1934, killed 13 Nov 1934 by Dai Li's
+agents; Sun Chuanfang 1885-1935, shot 13 Nov 1935 by Shi Jianqiao; Li Mingrui
+1896-1931; Ma Haide (George Hatem) 1910-1988; Baoding Academy 1912-1923 (~11,000
+officers); Deng Fa first head of the State Political Security Bureau (Ruijin, 1931);
+Tao Xingzhi 1891-1946 (Dewey/Columbia); Third Plenary Session of the 11th CC, Dec
+1978.
+
+### Hanzi discipline
+People/place/event notes carry NO hanzi (Ma Haide, Shi Liangcai, Tao Xingzhi, Shen
+Anna, Sun Chuanfang, Li Mingrui, the State Political Security Bureau, the Third
+Plenary Session, Baoding Academy, E-Yu-Wan, shikumen, the Dragon Boat Festival, Sun
+Yat-sen University Moscow — all use pinyin/English, as the glossary lacks the term or
+house style forbids hanzi in people notes). Three org/work notes carry hanzi as
+numeric character references generated programmatically from glossary.json strings
+(never hand-typed): 申报 (Shen Bao, ch10), 中国互济会 (China Mutual Aid Society, ch14),
+大公报 (Ta Kung Pao, ch14). Each byte-matched to the glossary and verified intact and
+singular in the built XHTML. No U+FFFD in any text file or in the EPUB xhtml.
+
+### term_ledger.md
+FN5 added NO glossary rows (the glossary already held every hanzi the new notes
+needed), so glossary.json is byte-identical and out/term_ledger.md (847 decided
+renderings) is already current — no refresh needed.
+
+### QC
+- check_apparatus.py: 0 failures, 0 warnings.
+- Build: 28/28 chapters, **457 notes**, 496 pagebreaks. qa_epub PASS (457
+  refs/bodies/backlinks resolve, sequential). epubcheck 5.1.0: 0 fatals / 0 errors /
+  0 warnings (EPUB 3.3).
+- Every new anchor verified a unique verbatim substring of its reading file before
+  merge (all 16 count==1). No prose/number/paragraph change (notes-only pass).
+- **The footnote-density pass (FN1-FN5) is COMPLETE.** Further work is a corrections
+  pass.

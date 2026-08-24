@@ -1,103 +1,66 @@
 # HANDOFF — Zhou Enlai: Commander of the Hidden Front
 
-The book is COMPLETE and the register pass (R1-R5) is CLOSED. We are now in the
-**footnote-density pass** (FOOTNOTE_PASS.md). FN1 (ch00-ch05), FN2 (ch06-ch11),
-FN3 (ch12-ch17), and **FN4 (ch18-ch22) are done; FN5 (ch23-ch27 + whole-book
-apparatus reconciliation and close-out) is next and LAST.** One batch = one fresh
-chat, started by pasting the block below. (FN1 stopped at a light annotation-depth
-gate; FN2 onward runs straight through, no gate.)
+**The book is COMPLETE, and the footnote-density pass (FN1-FN5) is now also
+CLOSED.** There is no next batch. Further work on this book is a corrections
+pass per CLAUDE.md (`CORRECTIONS.md` is the ledger), not new translation and not
+another footnote batch. This file no longer carries a paste-ready kickoff,
+because there is nothing left to kick off.
 
-## Message to paste into the next chat
-
-```
-Zhou Enlai FN5 (footnote-density pass — final batch + whole-book close-out)
-
-Read CLAUDE.md, then FOOTNOTE_PASS.md (it governs this pass; FN5 is section 7's last bullet), then STYLE.md ("Apparatus" and the partisan-source discipline), then this HANDOFF and PROGRESS.md's FN1/FN2/FN3/FN4 sections (esp. the "Items flagged for FN5" lists in the FN3 and FN4 sections). Branch claude/zhou-enlai only; fold any stray branch per CLAUDE.md rule 2. Content is FROZEN: this pass ADDS and enriches footnotes only, no prose/number/name/paragraph change. Notes are authored as a JSON file and merged with scripts/apparatus_merge.py (never a heredoc); anchors are verbatim UNIQUE substrings of out/<id>_reading.md; note bodies are XHTML with numeric character references only; people notes carry no hanzi, term/place/event notes carry glossary-verified hanzi decoded and checked; cite printed folios where a note cites a page; never invent; fact-check every claim against real scholarship (Wikipedia/Baidu Baike/academic, NEVER Grok/Grokipedia/AI) with the verdict stated in the note. Use scripts/fa_check.py (first-appearance grep across notes.json + reading files) before every note and scripts/gloss_hanzi.py for hanzi. data/zh is a parity scaffold not needed for a notes-only pass; do not regenerate it unless a check requires it.
-
-Do batch FN5 = greatly increase footnote density on ch23-ch27 (the manhunt survivors and the radio-line reconstruction; the Wu Hao Notice affair; the Conclusion and Afterword) per FOOTNOTE_PASS.md sections 2-6: sweep every chapter for people, places, events, institutions/offices/ranks/units, terms and period vocabulary, and allusions/idioms/quotations, and annotate every instance a non-specialist Western reader would miss AT ITS FIRST appearance book-wide. Density is coverage, not quota: every note carries real checked content and answers a real reader question; add nothing just to add it. Run the first-appearance check before every note and keep the "NOT re-noted" list in PROGRESS. RECONCILE any pre-existing later-chapter note whose subject first appears in ch23-ch27 by trimming the later note to a cross-reference at the first appearance (check each with fa_check).
-
-THEN do the whole-book apparatus reconciliation and close-out (FOOTNOTE_PASS.md section 7): (1) clear the "Items flagged for FN5" backlog from the FN3 and FN4 PROGRESS sections — shikumen (first ch02), Shen Bao (first ch10, noted ch17), Sun Chuanfang (first ch05), Baoding Academy (first ch03), Sun Yat-sen University Moscow (first ch03, noted ch18), the E-Yu-Wan/Hubei-Henan-Anhui Soviet placement (note at ch19, first named ch15), Li Mingrui (first ch17), the Third Plenum of the Eleventh CC (first ch04), and the 互济会 "China Relief Society"/"China Mutual Aid Society" rendering drift; (2) re-grep the whole book for un-noted first appearances the per-batch sweeps missed; (3) confirm no subject is double-noted (Hu Yepin's ch09/ch20/ch22 cluster included); (4) verify every note's folio; (5) refresh out/term_ledger.md; (6) update COMPLETION.md with the new note count and the density record. Then rebuild, check_apparatus.py, qa_epub (epubcheck if installed), PROGRESS + CHANGELOG, commit the final EPUB with git add -f, push.
-
-End with the rebuilt EPUB attached in chat AND, since this is the LAST FN batch, a short closing note in place of a next-batch kickoff (the footnote pass is COMPLETE; further work is a corrections pass). Do not pause for approval mid-batch.
-```
-
-## What is DONE (do not redo)
+## Where the book stands
 
 - Translation of all 28 units (ch00-ch27); register pass R1-R5 (see COMPLETION.md).
-- **FN1 footnote-density pass, ch00-ch05: +46 notes (339 -> 385).** Details in
-  PROGRESS.md's FN1 section. Merged via `data/fn1_notes_a.json` (ch00-01) and
-  `data/fn1_notes_b.json` (ch02-05).
-- **FN2 footnote-density pass, ch06-ch11: +24 notes (385 -> 409).** Per-unit counts,
-  the full "NOT re-noted" list, fact-check verdicts, and three reconciliations are in
-  PROGRESS.md's FN2 section. Merged via `data/fn2_notes.json`.
-- **FN3 footnote-density pass, ch12-ch17: +18 notes (409 -> 427).** Per-unit counts,
-  the "NOT re-noted" list, the FN5 flag list, and two reconciliations (Chen Yun ch23
-  -> cross-ref ch12; Renaissance Society ch21 -> cross-ref ch15) are in PROGRESS.md's
-  FN3 section. Merged via `data/fn3_notes.json`.
-- **FN4 footnote-density pass, ch18-ch22: +14 notes (427 -> 441; ch18-ch22
-  57 -> 71).** Per-unit counts, the full "NOT re-noted" list, the added FN5 flags,
-  fact-check verdicts, and the one reconciliation (Agnes Smedley ch23 -> cross-ref
-  ch22) are in PROGRESS.md's FN4 section. Merged via `data/fn4_notes.json`.
+- **Footnote-density pass complete: 339 -> 457 footnotes** across FN1-FN5.
+  - FN1 ch00-ch05: 339 -> 385. FN2 ch06-ch11: 385 -> 409. FN3 ch12-ch17: 409 ->
+    427. FN4 ch18-ch22: 427 -> 441. **FN5 ch23-ch27 + whole-book reconciliation:
+    441 -> 457.** Per-batch detail, "NOT re-noted" lists, fact-check verdicts, and
+    reconciliations are in PROGRESS.md's FN1-FN5 sections. FN5 merged via
+    `data/fn5_notes.json` (authored by `scripts/recovery/fn5_authorel.py`) and the
+    three reconciliation trims applied by `scripts/recovery/fn5_trims.py`.
+- **All FN5 backlog cleared** (the FN3/FN4 "Items flagged for FN5" lists):
+  shikumen (ch02), Sun Yat-sen University Moscow (moved to ch03), the Third Plenum
+  of the Eleventh CC (ch04), Sun Chuanfang (ch05), Shen Bao (moved to ch10), the
+  China Mutual Aid Society / China Relief Society tie + Ta Kung Pao (ch14), the
+  E-Yu-Wan Soviet (moved to ch15), the Baoding Military Academy (ch16, corrected
+  from the mis-flagged ch03 which is Baoding Road), Li Mingrui (ch17). The 互济会
+  "rendering drift" was resolved as a historical rename, not an error (see PROGRESS
+  FN5). Hu Yepin's ch09/ch20/ch22 cluster confirmed complementary, not
+  double-noted.
 
-## Carry-forward for the footnote pass
+## Deliverable / state
 
-- **First-appearance discipline is the main guard against redundancy.** Before
-  every note run `python3 scripts/fa_check.py "Subject"`: it lists which reading
-  files mention it (in order) and any notes.json anchor/body that already covers
-  it. Note at the FIRST appearance book-wide; cross-reference, never re-note.
-- **Reconciliations already done (do NOT redo):** Liu Bocheng ch07 -> cross-ref
-  ch01; Qian Dajun ch10 -> cross-ref ch03; Canton-Hong Kong Strike ch11 -> ch10
-  (FN2). Chen Yun ch23 -> cross-ref ch12; Renaissance Society/Blue Shirts ch21 ->
-  cross-ref ch15 (FN3). Agnes Smedley ch23 -> cross-ref ch22 (FN4).
-- **Items flagged for FN5** (first appearance precedes the batch that hit them):
-  shikumen (first ch02); Shen Bao (noted ch17, first ch10); Sun Chuanfang (first
-  ch05); Baoding Academy (first ch03, contextualized in ch16 note); Sun Yat-sen
-  University Moscow (noted ch18, first ch03); the E-Yu-Wan/Hubei-Henan-Anhui Soviet
-  (note at ch19, first named ch15); Li Mingrui (first ch17); the Third Plenum of the
-  Eleventh Central Committee (first ch04); the 互济会 "China Relief Society" vs "China
-  Mutual Aid Society" rendering drift (glossary/prose, not a note fix). See the FN3
-  and FN4 sections of PROGRESS.md for the full lists.
-- **Hanzi:** people notes carry none. Term/org/place/event notes carry hanzi as
-  numeric character references, taken verbatim from `glossary.json` (use
-  `scripts/gloss_hanzi.py`) and generated programmatically from the glossary
-  string, never hand-typed; where the glossary lacks the term, prefer pinyin over
-  a hand-typed glyph. Merge validates for U+FFFD and named entities.
-- **Voice of the notes:** concise, one referent per note; dates; role in the
-  period AND later fate; verdict "(Corroborated.)" or a graded claim. Match the
-  existing note bodies (see ch00-ch11 for the model).
+- `out/zhou-enlai.epub` (committed with `git add -f`). 28/28 chapters, **457
+  notes**, 36 figures, 496 pagebreaks. qa_epub PASS (457 refs/bodies/backlinks);
+  epubcheck 5.1.0 0/0/0 (EPUB 3.3).
+- Ledgers: `glossary.json` (847 rows, unchanged by FN5), `notes.json` (457),
+  `figures.json`, `book.json`, `authority.json`; `out/term_ledger.md` current
+  (unchanged — FN5 added no glossary rows) and `out/deep_audit.md` from the
+  register close.
+- Branch: all work on `claude/zhou-enlai`. Body offset constant 44 (printed =
+  PDF - 44). `data/zh` is absent on a fresh checkout (regenerable parity scaffold,
+  not needed for a notes-only pass). `OMP_THREAD_LIMIT=1` for tesseract.
 
-## Do not revert (accumulated tooling)
-
-- `scripts/fa_check.py` (first-appearance grep) and `scripts/gloss_hanzi.py`
-  (glossary hanzi reverse-lookup) — added in FN1; keep for every FN batch.
-- `data/ocr_fixes.json`; `scripts/recovery/` (b01-b14 + r5/date generators);
-  `data/noise.txt` (extend, never prune); `data/check_config.json`; builder
-  invariants (pending-aware then cleaned TOC; note pop-ups with endnotes
-  fallback; refusal to build on an unmatched anchor or unplaced figure;
-  byte-identical cover copy; render-layer smart quotes).
-
-## State / environment
-
-- Deliverable: `out/zhou-enlai.epub` (committed with `git add -f`). 28/28
-  chapters, **441 notes**, 36 figures, 496 pagebreaks. qa_epub PASS; epubcheck
-  5.1.0 0/0/0.
-- Ledgers: `glossary.json` (847 rows), `notes.json` (441), `figures.json`,
-  `book.json`, `authority.json`; `out/term_ledger.md` and `out/deep_audit.md`
-  are from the register close (refresh term_ledger only at FN5).
-- `data/zh` is absent on a fresh checkout (untracked/regenerable) and was NOT
-  regenerated for FN1/FN2/FN3/FN4 (parity scaffold, not needed for a notes-only
-  pass). Regenerate per `scripts/recovery/README.md` only if a later batch needs
-  qc_entities/parity.
-- Body offset constant 44 (printed = PDF - 44). `OMP_THREAD_LIMIT=1` for
-  tesseract; `pgrep -c tesseract` must read 0 after a run. One pre-existing
-  failing regression test ("hook stands down on template stub"), template
-  maintenance only, unrelated to the book.
-
-## Environment / rebuild from clean checkout
+## Rebuild from a clean checkout
 
 1. `./setup.sh`
 2. `python3 scripts/build_reading_epub.py`
 3. `python3 scripts/qa_epub.py`
 4. `java -jar /tmp/epubcheck-5.1.0/epubcheck.jar out/zhou-enlai.epub`
-(A notes-only FN batch does not need `data/zh`; regenerate it only if a check
-that reads the source requires it.)
+
+## Do not revert (accumulated tooling)
+
+- `scripts/fa_check.py` (first-appearance grep) and `scripts/gloss_hanzi.py`
+  (glossary hanzi reverse-lookup); `scripts/recovery/fn5_authorel.py` and
+  `scripts/recovery/fn5_trims.py` (FN5 authoring + reconciliation).
+- `data/ocr_fixes.json`; `scripts/recovery/` (b01-b14 + r5/date generators);
+  `data/noise.txt` (extend, never prune); `data/check_config.json`; builder
+  invariants (pending-aware then cleaned TOC; note pop-ups with endnotes fallback;
+  refusal to build on an unmatched anchor or unplaced figure; byte-identical cover
+  copy; render-layer smart quotes).
+
+## If the commissioner files corrections
+
+Follow the corrections workflow in CLAUDE.md: transcribe into `CORRECTIONS.md`,
+apply GLOBAL changes with a glossary/style change plus a grep-driven cascade
+across ALL built units including note and glossary bodies, then rebuild and full
+QA; LOCAL changes are a single-spot fix. Every corrections batch ends with a
+rebuild, `qa_epub`, and a dated `CHANGELOG.md` entry.

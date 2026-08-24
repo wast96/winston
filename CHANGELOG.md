@@ -2,6 +2,42 @@
 
 Dated record of what changed and, for global corrections, what cascaded where.
 
+## 2026-08-24 — FN5 footnote-density pass, ch23-ch27 + whole-book close-out (FOOTNOTE_PASS.md batch 5, LAST)
+Final batch of the commissioner's footnote-density pass (the manhunt survivors and
+the radio-line reconstruction; Gu Shunzhang's shameful end; the Wu Hao Notice affair;
+the Conclusion and Afterword), plus whole-book apparatus reconciliation and close-out.
+Content FROZEN: notes ADDED and reconciled only; no prose/number/name/date/paragraph
+change (git diff touches only notes.json + data/fn5_notes.json + scripts/recovery/
+fn5_*.py + docs + the rebuilt EPUB; no out/ch*_reading.md edited).
+- **+16 footnotes. Book 441 -> 457.** Tail (ch23-27) +6: ch23 14->17 (State Political
+  Security Bureau, Ma Haide, Dragon Boat Festival), ch25 8->10 (Shi Liangcai, Tao
+  Xingzhi), ch26 7->8 (Shen Anna); ch24 and ch27 a genuine +0. Whole-book
+  reconciliation +10, each at true first appearance: ch02 shikumen, ch03 Sun Yat-sen
+  University Moscow, ch04 Third Plenary Session of the 11th CC, ch05 Sun Chuanfang,
+  ch10 Shen Bao, ch14 China Mutual Aid Society + Ta Kung Pao, ch15 E-Yu-Wan Soviet,
+  ch16 Baoding Military Academy, ch17 Li Mingrui.
+- Reconciliations (first-appearance discipline): three pre-existing later notes
+  trimmed to cross-references — Shen Bao (ch17 -> ch10), Sun Yat-sen University Moscow
+  (ch18 -> ch03), E-Yu-Wan Soviet (ch19 -> ch15).
+- 互济会 "rendering drift" resolved as a historical rename, not an error: 中国济难会 ->
+  "China Relief Society" (1925) and 中国互济会 -> "China Mutual Aid Society" (1929
+  rename) are two consistent glossary mappings; a bridging note at ch14 ties them. No
+  glossary or prose change.
+- Hu Yepin cluster (ch09/ch20/ch22) confirmed complementary, not double-noted.
+- COMPLETION.md per-chapter Notes column rebuilt from notes.json (it had carried the
+  stale translation-batch counts through FN1-FN4); density record added.
+- Fact-check: every claim checked against real scholarship (Wikipedia, Baidu Baike,
+  Cambridge China Quarterly, UH Press, SHINE/China Daily); verdict in each note. NO
+  Grok/Grokipedia or AI-written reference used (surfaced for Ma Haide / Longzhou /
+  assassinations queries and rejected).
+- Hanzi: three org/work notes carry numeric character references generated from
+  glossary strings (申报, 中国互济会, 大公报); all others use pinyin/English. 0 U+FFFD in
+  the EPUB xhtml.
+- QC: check_apparatus.py 0/0; build 28/28, 457 notes; qa_epub PASS; epubcheck 5.1.0
+  0 fatals/0 errors/0 warnings. Tooling added: scripts/recovery/fn5_authorel.py
+  (note authoring, glossary-driven hanzi) and scripts/recovery/fn5_trims.py (the
+  reconciliation trims). **The footnote-density pass (FN1-FN5) is COMPLETE.**
+
 ## 2026-08-24 — FN4 footnote-density pass, ch18-ch22 (FOOTNOTE_PASS.md batch 4)
 Fourth batch of the commissioner's footnote-density pass (the radio men and cipher
 work; the Gu Shunzhang defection and its averting; the Yun Daiying, Cai Hesen, and

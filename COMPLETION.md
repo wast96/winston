@@ -7,11 +7,12 @@ trust it.
 ## Status at a glance
 
 - **28 of 28 units translated** (ch00 Preface through ch27 Afterword).
-- **339 footnotes**; **36 figures** with captions and screen-reader alt text.
+- **457 footnotes** (after the FN1&#8211;FN5 footnote-density pass; 339 at the
+  register close); **36 figures** with captions and screen-reader alt text.
 - **847 glossary rows**: 634 people, 70 organizations, 92 places, 44 works, 7 terms.
 - **1,367 body paragraphs**, **496 printed-page markers** (folio-followable in the ebook).
-- **qa_epub.py: PASS** (78 files, 35 documents, all links resolve; 339 note
-  references / 339 bodies / 339 backlinks, all sequential).
+- **qa_epub.py: PASS** (78 files, 35 documents, all links resolve; 457 note
+  references / 457 bodies / 457 backlinks, all sequential).
 - **epubcheck 5.1.0: 0 fatals / 0 errors / 0 warnings** (EPUB 3.3 rules).
 - Deliverable: **`out/zhou-enlai.epub`**, committed to the repository with
   `git add -f` on branch `claude/zhou-enlai` (the final B14 commit).
@@ -40,33 +41,33 @@ errata table and no colophon (PDF page 582, after the Afterword, is blank), so
 
 | Unit | Title | Printed p. | Paragraphs | Notes | Figures |
 | --- | --- | --- | --- | --- | --- |
-| ch00 | Preface | 1 | 6 | 12 | 0 |
-| ch01 | The Birth of the Central Special Section | 1 | 38 | 28 | 2 |
-| ch02 | The Special Section's Structure and Duties | 16 | 40 | 16 | 2 |
-| ch03 | Intelligence Chief "Wang Yong" (Chen Geng) | 33 | 37 | 13 | 1 |
-| ch04 | Heroes of the Intelligence Front | 51 | 62 | 24 | 3 |
-| ch05 | The "Three Heroes of Longtan" | 79 | 41 | 16 | 2 |
-| ch06 | The First Counter-Espionage Asset (Yang Dengying) | 96 | 40 | 7 | 0 |
-| ch07 | Deep into the Tiger's Den | 110 | 54 | 14 | 0 |
-| ch08 | Fengtian Military Academy Instructor | 129 | 54 | 13 | 0 |
-| ch09 | The Action Section and the "Red Squad" | 154 | 53 | 16 | 1 |
-| ch10 | The Red Squad Draws Its Sword | 174 | 34 | 9 | 1 |
-| ch11 | Gunshots off Avenue Joffre (Part 1) | 187 | 39 | 11 | 1 |
-| ch12 | Gunshots off Avenue Joffre (Part 2) | 203 | 42 | 8 | 3 |
-| ch13 | Rescuing Ren Bishi and Guan Xiangying | 219 | 34 | 8 | 0 |
-| ch14 | Opening a New Chapter (Part 1) | 232 | 44 | 11 | 1 |
-| ch15 | Opening a New Chapter (Part 2) | 252 | 75 | 19 | 1 |
-| ch16 | Opening a New Chapter (Part 3) | 277 | 42 | 8 | 1 |
-| ch17 | Communications Chief "Zeng Peihong" (Li Qiang) | 289 | 74 | 11 | 5 |
-| ch18 | The Red Airwaves That Never Die | 320 | 59 | 15 | 2 |
-| ch19 | Averting a Catastrophe (Gu Shunzhang's Defection) | 345 | 42 | 9 | 0 |
-| ch20 | Betrayal to the Last Scrap | 362 | 64 | 12 | 0 |
-| ch21 | A Vicious Manhunt (Part 1) | 385 | 104 | 11 | 2 |
-| ch22 | A Vicious Manhunt (Part 2) | 414 | 47 | 10 | 2 |
-| ch23 | Concealment, Withdrawal, Relocation | 441 | 101 | 14 | 3 |
+| ch00 | Preface | 1 | 6 | 19 | 0 |
+| ch01 | The Birth of the Central Special Section | 1 | 38 | 41 | 2 |
+| ch02 | The Special Section's Structure and Duties | 16 | 40 | 23 | 2 |
+| ch03 | Intelligence Chief "Wang Yong" (Chen Geng) | 33 | 37 | 20 | 1 |
+| ch04 | Heroes of the Intelligence Front | 51 | 62 | 35 | 3 |
+| ch05 | The "Three Heroes of Longtan" | 79 | 41 | 21 | 2 |
+| ch06 | The First Counter-Espionage Asset (Yang Dengying) | 96 | 40 | 11 | 0 |
+| ch07 | Deep into the Tiger's Den | 110 | 54 | 20 | 0 |
+| ch08 | Fengtian Military Academy Instructor | 129 | 54 | 16 | 0 |
+| ch09 | The Action Section and the "Red Squad" | 154 | 53 | 21 | 1 |
+| ch10 | The Red Squad Draws Its Sword | 174 | 34 | 13 | 1 |
+| ch11 | Gunshots off Avenue Joffre (Part 1) | 187 | 39 | 14 | 1 |
+| ch12 | Gunshots off Avenue Joffre (Part 2) | 203 | 42 | 9 | 3 |
+| ch13 | Rescuing Ren Bishi and Guan Xiangying | 219 | 34 | 9 | 0 |
+| ch14 | Opening a New Chapter (Part 1) | 232 | 44 | 22 | 1 |
+| ch15 | Opening a New Chapter (Part 2) | 252 | 75 | 25 | 1 |
+| ch16 | Opening a New Chapter (Part 3) | 277 | 42 | 9 | 1 |
+| ch17 | Communications Chief "Zeng Peihong" (Li Qiang) | 289 | 74 | 14 | 5 |
+| ch18 | The Red Airwaves That Never Die | 320 | 59 | 19 | 2 |
+| ch19 | Averting a Catastrophe (Gu Shunzhang's Defection) | 345 | 42 | 10 | 0 |
+| ch20 | Betrayal to the Last Scrap | 362 | 64 | 14 | 0 |
+| ch21 | A Vicious Manhunt (Part 1) | 385 | 104 | 14 | 2 |
+| ch22 | A Vicious Manhunt (Part 2) | 414 | 47 | 14 | 2 |
+| ch23 | Concealment, Withdrawal, Relocation | 441 | 101 | 17 | 3 |
 | ch24 | The Traitor Gu Shunzhang's Shameful End | 483 | 63 | 8 | 1 |
-| ch25 | The "Wu Hao Notice": Its Fabrication and Its Collapse | 509 | 52 | 8 | 2 |
-| ch26 | Conclusion | 526 | 19 | 7 | 0 |
+| ch25 | The "Wu Hao Notice": Its Fabrication and Its Collapse | 509 | 52 | 10 | 2 |
+| ch26 | Conclusion | 526 | 19 | 8 | 0 |
 | ch27 | Afterword | 535 | 7 | 1 | 0 |
 
 The book runs to printed page 537 (PDF 553&#8211;581 for this final batch).
@@ -233,8 +234,27 @@ re-verified against source — zero meaning drift.** Build 28/28, qa_epub PASS,
 **epubcheck 5.1.0: 0 errors / 0 warnings** after the final rebuild.
 
 The register pass is CLOSED. The commissioner's requested **footnote-density
-pass** (`FOOTNOTE_PASS.md`) is the next initiative; everything else is a
-corrections pass per CLAUDE.md.
+pass** (`FOOTNOTE_PASS.md`) is now also CLOSED: FN1&#8211;FN5 carried the book
+from 339 footnotes to **457**, sweeping every chapter for the people, places,
+events, institutions, terms, and allusions a non-specialist Western reader
+would miss, at first appearance book-wide, each with real checked content and a
+fact-check verdict. FN5 (ch23&#8211;ch27 plus whole-book apparatus
+reconciliation) added 16 notes and cleared the standing backlog: shikumen
+(ch02), Sun Yat-sen University Moscow (moved to ch03), the Third Plenum of the
+Eleventh CC (ch04), Sun Chuanfang (ch05), the Shen Bao (moved to ch10), the
+China Mutual Aid Society / China Relief Society tie and Ta Kung Pao (ch14), the
+E-Yu-Wan Soviet (moved to ch15), the Baoding Military Academy (ch16), and Li
+Mingrui (ch17). Everything else on this book is now a corrections pass per
+CLAUDE.md.
+
+**Density record (footnotes at each pass close):** 339 (register close) &#8594;
+385 (FN1, ch00&#8211;05) &#8594; 409 (FN2, ch06&#8211;11) &#8594; 427 (FN3,
+ch12&#8211;17) &#8594; 441 (FN4, ch18&#8211;22) &#8594; **457 (FN5, ch23&#8211;27
++ whole-book reconciliation)**. The count tapers in the tail by design: the
+later chapters reuse a cast already introduced, and a note is placed once, at
+first appearance. No subject is double-noted; the Hu&#160;Yepin cluster
+(ch09 the arrest, ch20 the Longhua Martyrs, ch22 his individual bio) was
+confirmed complementary, not duplicative.
 
 ## Definition of done — met
 
