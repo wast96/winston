@@ -6051,7 +6051,7 @@ commit AND PUSH at every chapter boundary.
 chapter. An interrupted session resumes from the next chapter with the SAME F0
 kickoff (REVISION_PLAN §12.5). Do not spawn a new batch id.
 
-## F0 chapter ledger (last COMPLETE chapter = ch14)
+## F0 chapter ledger (last COMPLETE chapter = ch15)
 
 - **ch01 (Foreword) — DONE.** Notes 6 -> 10 (+4). New notes span all four
   kinds/domains:
@@ -6341,6 +6341,18 @@ qa_epub carry the per-chapter risk).
   corroborated. Declined: "risen from the greenwood" (绿林 — near-duplicate of the
   jianghu note, ch07); Wang case/Dai Li/sanction/为虎作伥 (covered). Total after
   ch14: **469**.
+
+- **ch15 (Part Two §5, A Blow at Bolang — the Hanoi assassination, wrong carriage
+  struck) — DONE.** Notes 11 -> 17 (+6). New: `till he reaches the Yellow River`
+  (不到黄河心不死); `the weight of a thousand jun` (钧 weight unit ~30 catties);
+  `Wang Zhaoming` (= Wang Jingwei's real given name, 汪兆铭 — resolves the
+  official-document alias, HIGH value); `Rue Colombert` (French street of Wang's
+  Hanoi house = Gao Lang St); `Zhu Zhixin` (朱执信 1885-1920, Sun Yat-sen's comrade
+  & martyr — verified Wikipedia/Baidu); `into the very wood three-tenths of an
+  inch deep` (入木三分, Wang Xizhi calligraphy). Corroborated.
+  NOT re-noted: Mauser/box-cannon (ch08), Wang Jingwei/Dai Li/sanction/Zeng
+  Zhongming (covered). Declined: Banque de l'Indochine (context landmark).
+  Total after ch15: **475**.
 
 <!-- F0_LEDGER_APPEND -->
 
