@@ -6051,7 +6051,7 @@ commit AND PUSH at every chapter boundary.
 chapter. An interrupted session resumes from the next chapter with the SAME F0
 kickoff (REVISION_PLAN §12.5). Do not spawn a new batch id.
 
-## F0 chapter ledger (last COMPLETE chapter = ch24)
+## F0 chapter ledger (last COMPLETE chapter = ch25)
 
 - **ch01 (Foreword) — DONE.** Notes 6 -> 10 (+4). New notes span all four
   kinds/domains:
@@ -6448,6 +6448,18 @@ qa_epub carry the per-chapter risk).
   River/Tiaohuache + Peking opera/pihuang (ALL in ch24 Xin Yanqiu note), No.76/
   Badlands/Loyal & Patriotic Army/Tama Force/Yuan Shu/Wu Peifu/Wan Molin (covered).
   Total after ch24: **518**. [epubcheck 0/0/0/0 checkpoint]
+
+- **ch25 (Part Three §5, A Full Reckoning) — DONE.** Notes 27 -> 33 (+6). New
+  (verified/standard; corroborated): `the Tianjin–Pukou line` (trunk-railway
+  naming by terminal cities; sabotage targets); `the Eighth War Zone` (numbered
+  Nationalist theaters; 8th = NW China, HQ Lanzhou, Zhu Shaoliang — verified
+  Wikipedia/ENP); `Bubbling Well Road` (Settlement road past Jing'an Temple =
+  Nanjing West Rd); `the Guangxi clique` (Li Zongren/Bai Chongxi faction);
+  `engaged as adviser...` (German military mission, von Seeckt/von Falkenhausen,
+  withdrawn 1938); `weighing as nine tripods` (一言九鼎, the Nine Tripods).
+  NOT re-noted: Mauser (ch08), Juntong structure/Dai Li/Mao Renfeng/No.76/fabi/
+  Loyal & Patriotic Army/He Yingqin (covered). Declined: "used man" (uncertain
+  term-of-art, text self-discusses). Total after ch25: **524**.
 
 <!-- F0_LEDGER_APPEND -->
 
