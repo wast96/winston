@@ -6051,7 +6051,7 @@ commit AND PUSH at every chapter boundary.
 chapter. An interrupted session resumes from the next chapter with the SAME F0
 kickoff (REVISION_PLAN §12.5). Do not spawn a new batch id.
 
-## F0 chapter ledger (last COMPLETE chapter = ch33)
+## F0 chapter ledger (last COMPLETE chapter = ch34)
 
 - **ch01 (Foreword) — DONE.** Notes 6 -> 10 (+4). New notes span all four
   kinds/domains:
@@ -6547,6 +6547,16 @@ qa_epub carry the per-chapter risk).
   mutual-aid association).
   NOT re-noted: Committee of Three/Ye Jianying (ch32), Northern Expedition (ch07),
   Whampoa (ch05), tongxiang concept (ch06). Total after ch33: **571**.
+
+- **ch34 (Part Four §2, Self-Starting) — DONE.** Notes 3 -> 9 (+6). New (standard;
+  corroborated): `Liao Yaoxiang` (廖耀湘, New 6th Army, captured Liao-Shen 1948);
+  `North China Bandit-Suppression Headquarters` (Fu Zuoyi's Beiping-Tianjin
+  command); `Provisional Executive Government` (Duan Qirui's Beijing regime
+  1924-26); `eating into a hollow hill` (坐吃山空); `Tan Family Cooking` (谭家菜
+  Tanjiacai); `Tang Lusun` (唐鲁孙 1908-85, food/old-Beijing essayist).
+  NOT re-noted: Baomiju (ch04), Renaissance Society (Lixingshe cluster), Duan
+  Qirui (ch07), Fu Zuoyi (covered). Declined: Roosevelt serge + Victory Medal
+  (uncertain). Total after ch34: **577**.
 
 <!-- F0_LEDGER_APPEND -->
 
