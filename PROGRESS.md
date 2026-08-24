@@ -6051,7 +6051,7 @@ commit AND PUSH at every chapter boundary.
 chapter. An interrupted session resumes from the next chapter with the SAME F0
 kickoff (REVISION_PLAN §12.5). Do not spawn a new batch id.
 
-## F0 chapter ledger (last COMPLETE chapter = ch12)
+## F0 chapter ledger (last COMPLETE chapter = ch13)
 
 - **ch01 (Foreword) — DONE.** Notes 6 -> 10 (+4). New notes span all four
   kinds/domains:
@@ -6313,6 +6313,27 @@ qa_epub carry the per-chapter risk).
   Shimonoseki, Zhanggufeng, Tanaka Memorial, Party Leader's Memorial Week, Jin
   Xiongbai, Hirota's Three Principles). Declined: "Duke Chiang" honorific (Chiang
   obvious from context). Total after ch12: **457**.
+
+- **ch13 (Part Two §3, Treacherous Tides — Wang Jingwei biography + long poem) —
+  DONE.** Notes 21 -> 31 (+10). New (standard/verified; corroborated): `a red
+  envelope` (喜丧 "happy funeral," red=joy/white=mourning); `not a man of Fujian
+  or Guangdong` (overseas-Chinese native-place origins); `the wheaten food
+  northerners eat` (north-wheat/south-rice divide); `her surname was Nguyễn`
+  (commonest Vietnamese surname); `a scholar who had failed of the examinations`
+  (imperial civil-service exams / 秀才-举人-进士 ladder, abolished 1905 — recurring
+  institution); `the Father of the Nation` (国父 = Sun Yat-sen, 1866-1925 — first
+  dedicated Sun gloss; honorific appears 18×); `the hen crowing at dawn` (牝鸡司晨,
+  Book of Documents — aimed at Chen Bijun); `served Qin in the morning and Chu at
+  night` (朝秦暮楚); `the gengxu year` (干支 sexagenary cycle; gengxu=1910, xinhai=
+  1911); `Song of the Golden Threads` (词牌 ci tune-patterns — titles name the
+  form, not the subject; unlocks the poem section).
+  NOT re-noted: Annam/Annamese (ch11), Marco Polo Bridge, plus the 21 pre-F0
+  notes (Trautmann, Hongxian, Zhongshan Warship, Borodin, Latter Ruler Li,
+  Classic of Mountains and Seas, Franco-Prussian War, Ryukyus, jiawu-year, the
+  four quatrains, etc.). Declined/self-glossed: the "three blindnesses,"
+  Caishikou execution ground, Jingwei-bird myth, Ninghan Split, tael, menke
+  guest-retainer, dense poem-internal allusions (Yi River/Jing Ke, Xiang bamboo,
+  Dong Zhuo). Total after ch13: **467**. [epubcheck 0/0/0/0 checkpoint]
 
 <!-- F0_LEDGER_APPEND -->
 
