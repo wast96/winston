@@ -4866,3 +4866,173 @@ audience speech, Wang Wen's substantive operational briefings).
   stub") still fails as documented — it is the kickoff_guard Stop hook correctly
   ENFORCING because HANDOFF.md carries a real (non-template) kickoff; the test
   assumes a template-stub HANDOFF. All other checker regression tests green.
+
+## R4 (ch11, ch12, ch13) — register revision pass
+
+Scope: the opening of the Hanoi sub-book. ch11 "Bloodshed Against the Enemy"
+(87 paras), ch12 "Unfathomable Hearts, Hidden Designs" (131 paras), ch13
+"Treacherous Tides, a Gathering Storm" (262 paras). 217 edits total (ch11 51,
+ch12 31, ch13 135), English-to-English per REVISION_PLAN.md §3/§5, content
+frozen. The dominant work was DATE accessibility (§10): these chapters carry
+the Hanoi-mission chronology and a long biographical essay on Wang Jingwei
+(1879-1945), so Republic-YEAR narration dates ("the twenty-eighth year of the
+Republic") and Republic-era month calques ("the eleventh month") were converted
+to Gregorian/American (year N = 1911+N; "sixth month" = June). Qing-era/ganzhi/
+lunar dates and every date INSIDE quoted material stay.
+
+### Tic battery, before -> after (key classes)
+
+| class | ch11 | ch12 | ch13 |
+|---|---|---|---|
+| T1 besides (adverbial) | 6 -> 4 | 6 -> 4 | 4 -> 4 |
+| T1 thereupon/whereupon | 0 -> 0 | 1 -> 0 | 3 -> 0 |
+| T1 forthwith/presently/at length | 4 -> 3 | 1 -> 0 | 0 -> 0 |
+| T1 of-a-morning/sudden | 0 -> 0 | 2 -> 1 | 1 -> 0 |
+| T1 wont/no-wish/still-less | 3 -> 0 | 1 -> 1 | 4 -> 3 |
+| T1 nothing for it | 3 -> 0 | 0 -> 0 | 1 -> 0 |
+| T2 could not but / could only | 1 -> 0 | 1 -> 0 | 7 -> 6 |
+| T2 pivots (that is to say/namely) | 0 -> 0 | 2 -> 1 | 3 -> 0 |
+| T2 litotes (no small/few) | 0 -> 0 | 3 -> 2 | 5 -> 4 |
+| T3 quoted-term pairs | 98 -> 86 | 242 -> 235 | 284 -> 284 |
+| T6 impersonal one | 11 -> 7 | 11 -> 10 | 34 -> 19 |
+| T4 semicolons | 117 -> 116 | 244 -> 244 | 437 -> 436 |
+| T4 sentences >60 / >90 | 26/7 -> 25/6 | 70/20 -> 69/20 | 78/25 -> 77/24 |
+
+Surviving hits, defended against the read-aloud test (§3.2):
+- **ch11 forthwith x3, of-a-morning:** all inside the Wang Jingwei "Yan
+  Telegram" (p070) and its re-quote (p077) — quoted document, exempt.
+- **ch12 besides/of-a-morning/that-is-to-say/litotes:** all inside Chiang's
+  ~9,000-char address (p036-056) or the Zhu Zijia excerpt (p104), or plain
+  prepositional "besides" (p086/p090, T1 CAUTION).
+- **ch13 still-less x3, could-not-but/could-only x6, litotes x4:** "still less"
+  (p087/p139) and "could only" (只有/只好 = had no recourse) are defensible
+  modern English; the litotes are mostly the false positive 小馆 ("no little
+  northern eatery" = a small restaurant, not a litotes) and the standard idiom
+  "no small feat"; "could not but lament/be torn" is Chen's grave register.
+- The T3 pair counts stay high because these chapters legitimately quote a great
+  deal (telegrams, statements, official documents, classical poems and ci).
+
+### T1 dates -> Gregorian/American (the bulk; §10, number-check-safe)
+
+- **ch11:** 16 narration dates (民國二十八年元月 -> January 1939; 九月二十七日 ->
+  September 27, 1939; etc.). Dates inside the Yan Telegram/expulsion resolution
+  stay.
+- **ch12:** ~15 narration dates. Konoe's 2nd/3rd statements, Chiang's address,
+  and the Chen Bulei / Wang Yunsun / Zhu Zijia / Yongwu quoted excerpts are all
+  exempt (§3.1) — their internal dates stay.
+- **ch13:** ~75 date conversions, including Republic-era month calques
+  ("the eleventh month" -> November) across the Wang Jingwei biography. Qing/
+  ganzhi/lunar dates (宣统/庚戌/民前/丙午 forms, p152/p155/p169/p172/p262 birth-
+  year) and dates inside the many quoted poems, ci, and diary excerpts stay.
+
+### T3 quote-thinning (recurring decided org names -> plain in narration)
+
+- **ch11:** stripped later occurrences of Tianjin Station, Luan-Yu Command,
+  Tianjin District, Beiping (First) Station, Anti-Japanese Traitor-Killing
+  Corps, action group / political department. Quotes KEPT at the note-anchor
+  first-appearance sites (Luan-Yu Guerrilla Command p004, Anti-Japanese
+  Traitor-Killing Corps p008), on the anatomized document title "Yan Telegram",
+  the verbatim telegram markings, and marked-irony terms.
+- **ch12:** stripped later occurrences of the Five Ministers' Conference (anchor
+  at p074 kept), Beiping Station and Aviation Inspection Office (p093).
+- **ch13:** no org-name strips needed — its recurring terms are either already
+  plain, or first-appearance/anatomizing sites (Special-Service Regiment, Yu
+  Special District, etc., all introduced and glossed in p086). Hotel names
+  ("Continental"/"Railway") and the project designation "Hanoi work" kept
+  quoted (R9 flag below).
+
+### T5 dialogue naturalization
+
+- **ch11:** Dai's fronted-object instruction un-inverted but kept uncontracted
+  (mission speech, §3.4); Luqiao contracts freely (爽朗); Chen-in-scene a light
+  contraction with a near-peer.
+- **ch13:** Mr. Xu (bold, worldly host) contracts in living speech; Mrs. Xu
+  (warm hostess), Wei Chunfeng (young, frank), and Bingxi's offhand asides
+  naturalized. Chen's earnest formal reply to Mr. Xu (p044) kept formal
+  (characterization, T5 CAUTION); Dai's and Cao's mission instructions kept
+  their weight.
+
+### T6 impersonal "one"
+
+Thinned where it renders a generic 人/谁 that is really I/we/you (his own
+sensation, their own predicament, or a reader address), and where 由此可见/可见/
+只能说是 read as a hedge ("this shows"/"plainly"/passive). Kept in the essayist
+codas and general maxims (ch13's "one must have a certain measure," "one who
+can neither advance nor retreat," the reflective generalizations). ch13's 34 ->
+19 is the largest single-chapter thinning of the pass so far.
+
+### One grammar fix (ch13 p189)
+
+个中利害，大家都看得清清楚楚: the shipped English "The gain and loss of it all
+could see clearly" dropped the subject 大家, leaving "gain and loss" impossibly
+"seeing". Restored to "The gain and loss of it all, everyone could see clearly"
+— content preserved, ungrammatical clause repaired (English-to-English).
+
+### Checks (all green)
+
+- verify_unit per chapter: parity ch11 87/87, ch12 131/131, ch13 262/262;
+  numbers 0 unresolved (ch11 87 pairs, ch12 131, ch13 262); all note anchors
+  resolve (ch11 10, ch12 16, ch13 21).
+- check_register --ref reference/R1_frozen.md: **ch11 within tolerance**
+  (2.3 contr/1k, 0.88x; "shall" 33% is the deliberate narrating shall — KEEP);
+  **ch13 within tolerance** (2.3/1k, 0.86x); **ch12 flags STILTED (0.0 contr/1k)
+  — the ch08-class documentary false positive**: of ~2,969 "speech" words the
+  measure counts, ~1,936 are long quoted documents and the rest quoted terms;
+  ch12 has essentially no casual dialogue to contract, so it was NOT chased (per
+  the R3 ruling; contracting quoted documents is forbidden).
+- check_align: ch11/ch12 OK; ch13 one flag (pair 163, ratio 10.5) is a `{p}`
+  verse line — a terse classical couplet expanded in English, a poem never
+  edited (benign verse-ratio FP).
+- check_content (--config checks.json): ch11/ch12 clean; ch13's 9 "displaced"
+  are the documented benign diacritic/variant name FPs (Nguyễn vs "Nguyen" x7,
+  Ōya vs "Oya", Yuan Yishan vs glossary "Yuan Haowen") — pre-existing, not
+  touched by R4.
+- Build + qa_epub: **PASS** (57 files, 50 documents, 375 refs/375 bodies/375
+  backlinks, all links resolve). epubcheck 5.1.0: **0 fatals / 0 errors / 0
+  warnings / 0 infos**.
+
+### Noise entries added (data/noise.txt) — do-not-revert
+
+- **二十二、三** (ch12 p093): elided Republic-year pair 民国二十二、三年 (1933-34);
+  the 、三 elides 二十三 and the checker misreads a bare 3. Same class as the R3
+  二十一、二 / 二十七、八 entries.
+- **二○七** (ch13 p185): the fullwidth circle (U+25CB) in address 二○七号 (No. 207)
+  breaks the positional-year parse, so the checker reads bare 2/7 instead of 207.
+  The English carries "No. 207"; surfaced in R4 only because the incidental
+  "twenty-seventh" wording that had covered the stray 7 was converted to a
+  Gregorian date.
+
+### Rejected finding classes (RULE R1-4, by class)
+
+Standing REJECT-by-class calls held through R4: Chen's persona furniture (笔者
+self-reference, humility formulas, topic frames), the deliberate narrating
+"shall" (KEEP-list, verified), his interested-witness heat ("traitor,"
+"sanction," the martyr reverence, the Wang-Jingwei indictment), quoted
+documents in full (telegrams, statements, Chiang's address, the diary/memoir
+excerpts, all the classical poems and ci), org terms of art, and source-carried
+doubling. No fabrication risk: content frozen, every NEW verified to preserve
+the OLD's propositional content (spot-audits recorded per chapter, tails checked
+— ch11 p083, ch12 p129/p131, ch13 p262 Aug-10-1945 surrender / Nov-10-1944
+Wang's death).
+
+### R9 / whole-book reconciliation flags (NOT changed in R4)
+
+- **Project-name quoting:** "Hanoi work"/"Hanoi operation" (河内工作) and the
+  hotel names ("Continental"/"Railway") are kept quoted as named
+  operations/places; decide book-wide in R9 whether to strip after first use.
+- **"Wang case" (汪案):** kept quoted (case designation); low frequency here.
+- **四十年代 (ch13 p130):** rendered "the forties"; in a Taiwan/ROC context 四十
+  年代 is Minguo 40s = the 1950s. Possible value error (frozen; flag for R9).
+- **民前 birth year (ch13 p262):** "twenty-eighth year before the Republic"
+  (= 1884) conflicts with p134's "1883" (光绪九年) — a source inconsistency left
+  visible; R9 to note.
+- **p152 vs p155 二月 (ch13):** the same Xuantong-2 date is "the twenty-first of
+  February" at p152 but "the twenty-first of the second month" (lunar) at p155;
+  pre-existing translator inconsistency, left as-is.
+
+### Setup note
+
+- setup.sh regression: the ONE known false alarm ("hook stands down on template
+  stub") still fails as documented — the kickoff_guard Stop hook correctly
+  ENFORCING because HANDOFF.md carries a real (non-template) kickoff. All other
+  checker regression tests green.

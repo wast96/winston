@@ -9,7 +9,7 @@ session updates the kickoff block below for the next one.**
 ## Message to paste into the next chat
 
 ```
-Nameless Heroes R4: register revision pass
+Nameless Heroes R5: register revision pass
 
 Branch: claude/nameless-heroes ONLY. First acts: git fetch origin
 claude/nameless-heroes && git checkout claude/nameless-heroes && git
@@ -20,13 +20,15 @@ Never read any other branch.
 Read CLAUDE.md, then REVISION_PLAN.md IN FULL (it is the authority for
 this pass), then run ./setup.sh.
 
-Scope this batch: ch11, ch12, ch13. Content is frozen; English-to-English
-register edits only, per REVISION_PLAN.md §3 (defect classes T1–T6,
-KEEP list) and §5 (method, exactly). Edits via edits/<id>_edits.md +
-apply_edits.py; verify_unit + tic battery before/after per chapter;
-spot-audit 10% of edited paragraphs; check_register --ref
-reference/R1_frozen.md; rebuild + qa_epub; commit and push at chapter
-boundaries.
+Scope this batch: ch14, ch15, ch16, ch17, ch18. Content is frozen;
+English-to-English register edits only, per REVISION_PLAN.md §3 (defect
+classes T1–T6, KEEP list) and §5 (method, exactly). Edits via
+edits/<id>_edits.md + apply_edits.py; verify_unit + tic battery
+before/after per chapter; spot-audit 10% of edited paragraphs;
+check_register --ref reference/R1_frozen.md; rebuild + qa_epub; commit
+and push at chapter boundaries. R5 also runs the blind-critique spot
+check on one revised chapter (§5 step 6, §8) — adjudicate ACCEPT/REJECT
+by class in PROGRESS.md.
 
 End of batch: PROGRESS.md updated (tic tables, spot-audit, rejected
 findings), HANDOFF.md kickoff updated, and the reply carries BOTH chat
@@ -36,19 +38,23 @@ approval stops.
 ```
 
 
-## Revision pass state (after R3)
+## Revision pass state (after R4)
 
 - **DONE:** R1 (ch06, exemplar, frozen as `reference/R1_frozen.md`). R2 (ch07,
-  ch08: 86 + 65 edits). **R3 (ch01-ch05, ch09, ch10): 85 edits total** (ch01 0,
-  ch02 1, ch03 1, ch04 3, ch05 4, ch09 65, ch10 11) via `edits/<id>_edits.md` +
-  `apply_edits.py`. All fidelity gates green (parity ch01 8, ch02 18, ch03 14,
-  ch04 61, ch05 8, ch09 332, ch10 26; numbers 0; all anchors resolve; align OK;
-  content clean bar the documented known-benign FPs). check_register all 7
-  within tolerance (**ch09 was STILTED before the T5 rough-speaker pass; after,
-  within tolerance** — do NOT chase STILTED by contracting formal/document
-  speech; it is the ch08-class documentary-density false positive). qa_epub PASS
-  + epubcheck 0/0/0/0. Full tic tables + findings in PROGRESS.md §R3.
-- **Carry-forward for R4+:** voice sheets in REVISION_PLAN.md §3.4; T3 rule as
+  ch08: 86 + 65 edits). R3 (ch01-ch05, ch09, ch10: 85 edits). **R4 (ch11, ch12,
+  ch13): 217 edits total** (ch11 51, ch12 31, ch13 135) via `edits/<id>_edits.md`
+  + `apply_edits.py`. The opening of the Hanoi sub-book: dominated by DATE
+  accessibility (Republic-year and Republic-era "Nth month" narration dates ->
+  Gregorian across the mission chronology and the Wang Jingwei biography), plus
+  the usual T1/T2/T3/T5/T6 and one dropped-subject grammar fix (ch13 p189). All
+  fidelity gates green (parity ch11 87, ch12 131, ch13 262; numbers 0; anchors
+  ch11 10 / ch12 16 / ch13 21 all resolve; align OK bar the ch13 p163 verse-ratio
+  FP; content clean bar the documented ch13 diacritic/variant name FPs). qa_epub
+  PASS + epubcheck 0/0/0/0. **check_register: ch11 & ch13 within tolerance; ch12
+  flags STILTED (0.0 contr/1k) — the ch08-class documentary false positive
+  (~65% of its "speech" words are long quoted documents; no casual dialogue to
+  contract), NOT chased.** Full tic tables + findings in PROGRESS.md §R4.
+- **Carry-forward for R5+:** voice sheets in REVISION_PLAN.md §3.4; T3 rule as
   practiced — recurring decided proper names/orgs plain in narration after
   book-first use; quotes stay at naming/anatomizing sites, marked irony, titles,
   code names, quoted documents, dialogue, and **note-anchor sites (preserve the
@@ -58,18 +64,22 @@ approval stops.
   skip whole quoted-document/dialogue paragraphs. Spelled-ordinal AND 民國-year
   dates in narration -> American/Gregorian (accessibility); day-only ordinals
   and dates inside quoted documents stay.
-- **New noise.txt entries (R3):** `四、五千` (ch09 four-or-five-thousand),
-  `二十一、二` / `二十七、八` (elided Republic-year pairs; also an age in ch26 and
-  a year in ch33) — do-not-revert. Earlier R2 `三、四两` and R1 `五官`, `四个大字`
-  also stand. `scripts/align_dump.py` (QC-only aligned zh|en dumper) added.
+- **New noise.txt entries (R4):** `二十二、三` (ch12 elided Republic-year pair
+  1933-34) and `二○七` (ch13 address No. 207 mis-parsed by the fullwidth circle)
+  — do-not-revert. Earlier R3 `四、五千`, `二十一、二`, `二十七、八`, R2 `三、四两`,
+  R1 `五官`, `四个大字` also stand. `scripts/align_dump.py` (QC-only aligned zh|en
+  dumper) stands.
 - **Tooling do-not-revert:** kickoff_guard Stop hook; apply_edits.py OLD
   uniqueness contract; scripts/align_dump.py; the noise.txt entries above.
 - **R9 (whole-book close) reconciliation flags** logged in PROGRESS §R1
   (Baomiju, storey/story, "political operation"), §R2 (ch07 one-off hotel names;
-  ch08 group-name / special-commissioner / inspectorate-system quoting), and
-  **§R3 (民國-year rendering — ch10 converted, confirm no other unrevised chapter
-  still renders Republic years literally; 第二处 "Second Bureau"(ch09) vs
-  "Second Department"(ch05); "the cook who does the cooking" tautology ch09).**
+  ch08 group-name / special-commissioner / inspectorate-system quoting), §R3
+  (民國-year rendering; 第二处 "Second Bureau"(ch09) vs "Second Department"(ch05);
+  "the cook who does the cooking" tautology ch09), and **§R4 (project-name/hotel
+  quoting for "Hanoi work" and "Continental"/"Railway"; "Wang case" quoting;
+  ch13 p130 四十年代 rendered "the forties" — possible Minguo-40s=1950s value
+  error; ch13 民前 birth-year 1884 vs p134 1883 source inconsistency; ch13
+  p152/p155 二月 "February" vs "second month" split).**
 
 ## ⚠ COMMISSIONER DIRECTIVE (2026-08-22): a FOOTNOTE-DENSITY pass (F0) AFTER R9
 
