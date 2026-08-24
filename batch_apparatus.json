@@ -1,41 +1,61 @@
 {
   "notes": {
-    "ch08": [
+    "ch09": [
       {
-        "anchor": "the eighth year before the Republic",
-        "note": "Chinese sources here reckon years from the founding of the Republic in 1912 (its Year 1). Dates are counted forward as 'the Nth year of the Republic' (民国, so Republic 23 = 1934) and backward as 'the Nth year before the Republic' (民前); 'the eighth year before the Republic' is 1904. Quoted documents in this book keep such dating; the running narration has been converted to Western years."
+        "anchor": "Executive Yuan",
+        "note": "The Executive Yuan (行政院), the cabinet or administrative branch of the Republic of China's government, the highest organ of ordinary civil administration under the president."
       },
       {
-        "anchor": "sixty-odd li",
-        "note": "The <i>li</i> (里), the standard Chinese unit of distance, is about half a kilometer (roughly a third of a mile), so sixty-odd <i>li</i> is some thirty kilometers. It recurs throughout for road and march distances."
+        "anchor": "struck dumb as cicadas in the cold",
+        "note": "The idiom <i>jin ruo han chan</i> (噤若寒蝉), 'silent as a cicada in the cold'—cicadas fall mute once the weather turns—for someone who keeps his mouth shut out of fear and dares not speak."
       },
       {
-        "anchor": "a great gated mansion of four courtyards",
-        "note": "A <i>siheyuan</i> (四合院), the classic northern Chinese dwelling: single-story halls ranged on four sides of an enclosed courtyard, entered through one gate. A compound of several courtyards in depth, as here, marks a large and wealthy household."
+        "anchor": "ox-devils and snake-spirits",
+        "note": "<i>Niu gui she shen</i> (牛鬼蛇神), 'ox-headed demons and snake-bodied spirits,' a Buddhist image for a rabble of monsters, hence any assortment of bad characters. The Communists made it a stock label of denunciation, notorious in the Cultural Revolution for the class enemies it condemned."
       },
       {
-        "anchor": "White Russians",
-        "note": "Anti-Bolshevik Russians who fled the 1917 Revolution and the ensuing civil war, many of them ending up stateless in the cities of North China—Harbin, Tianjin, Shanghai—where they worked as guards, musicians, tutors, and hired hands. 'White' here means counter-revolutionary, opposed to the Bolshevik 'Reds.'"
+        "anchor": "sworn brother in life and death",
+        "note": "Unrelated men could bind themselves as sworn brothers (拜把子 / 结义) in a formal oath before Heaven, pledging mutual loyalty 'in life and death.' The tie carried obligations as strong as blood kinship and runs all through this world of soldiers and secret men."
       },
       {
-        "anchor": "the cart ahead is a warning to the cart behind",
-        "note": "The proverb <i>qian che zhi jian</i> (前车之鉴), 'the overturned cart ahead is a lesson to the one behind'—learn caution from the disaster that befell those who went first."
+        "anchor": "the great smoke",
+        "note": "'The great smoke' (大烟) is opium; to be 'on the great smoke' is to be an opium addict. The drug, forced on China through the nineteenth-century Opium Wars and endemic well into the twentieth century, is a recurring mark of dissipation in these pages."
       },
       {
-        "anchor": "the woe of the pond-fish",
-        "note": "From the saying 'when the city gate catches fire, the woe reaches the fish in the moat' (城门失火，殃及池鱼): to put out the blaze the moat is drained, and the fish die—bystanders ruined by a calamity that was none of their doing."
+        "anchor": "Made in Taishō 15",
+        "note": "Japanese materiel was dated by the reigning emperor's era. The Taishō era ran 1912–1926, so 'Taishō 15' is 1926. (The following Shōwa era, mentioned elsewhere, began in 1926.)"
       },
       {
-        "anchor": "every bush and tree a soldier",
-        "note": "The idiom <i>cao mu jie bing</i> (草木皆兵), from the rout of Fu Jian at the Fei River in 383: his army in panic mistook the grass and trees on the hills for enemy troops—to be so gripped by fear that one sees threats everywhere."
+        "anchor": "Type 38s",
+        "note": "The Type 38 rifle (三八式, the 'Arisaka'), the standard bolt-action infantry rifle of the Imperial Japanese Army, adopted in 1905 (the 38th year of Meiji) and carried by Japanese troops throughout the war in China."
       },
       {
-        "anchor": "Tianjin Wei",
-        "note": "Tianjin's old full name, Tianjinwei (天津卫): a <i>wei</i> was a Ming-dynasty military garrison, and the city grew from the garrison post established here in the early fifteenth century to guard the river approach to Beijing."
+        "anchor": "Fengtian Special Service Agency",
+        "note": "A 'Special Service Agency' (特務機関, <i>tokumu kikan</i>) was a field intelligence and covert-operations office of the Japanese army. The one at Fengtian (Mukden, today Shenyang) ran subversion, bribery, and puppet-building across Manchuria and North China; the 'Ume Kikan' met later in the book was another such agency."
       },
       {
-        "anchor": "a man should make himself strong",
-        "note": "An echo of the <i>Book of Changes</i>: 'As Heaven moves ever with strength, so the noble man never ceases to strengthen himself' (天行健，君子以自强不息)—the classic Chinese ideal of tireless self-reliance and self-improvement."
+        "anchor": "using the barbarian to curb the barbarian",
+        "note": "<i>Yi yi zhi yi</i> (以夷制夷), 'use the barbarian to control the barbarian'—an old maxim of Chinese frontier statecraft, setting one outside power against another so they wear each other down rather than turn on China."
+      },
+      {
+        "anchor": "united front",
+        "note": "The 'united front' (统一战线) was the Communists' strategy of allying, for a time, with other parties and classes against a common enemy—twice, in the 1920s and again from 1937, with the Nationalists themselves. Chen uses the term with contempt, as a tactic of infiltration to be abandoned once its purpose was served."
+      },
+      {
+        "anchor": "the twelfth moon",
+        "note": "Chinese festivals and much daily reckoning followed the lunar calendar, whose months are counted as 'moons.' The twelfth moon is the last month of the lunar year, the depth of winter just before the New Year; the Lantern Festival that closes the New Year falls on the fifteenth of the first moon."
+      },
+      {
+        "anchor": "Anyuan Hutong",
+        "note": "A <i>hutong</i> (胡同) is one of the narrow residential lanes, formed by the walls of courtyard houses, that make up the old fabric of Beijing; the city's addresses and neighborhoods are largely named by them."
+      },
+      {
+        "anchor": "set great store by face",
+        "note": "'Face' (面子, <i>mianzi</i>) is one's standing, dignity, and reputation in the eyes of others—something to be given, saved, or lost. The regard for it governs much of the caution, courtesy, and maneuvering in this book, and here shapes how Dai Li must be handled."
+      },
+      {
+        "anchor": "Twenty-ninth Army",
+        "note": "The 29th Army (二十九军), Song Zheyuan's force garrisoning the Beiping–Tianjin region in the mid-1930s. Its troops fought the opening clash of the full war at the Marco Polo Bridge in July 1937 and are remembered for the big-sword companies that fought the Japanese at the Great Wall passes."
       }
     ]
   }

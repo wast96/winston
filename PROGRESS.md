@@ -6051,7 +6051,7 @@ commit AND PUSH at every chapter boundary.
 chapter. An interrupted session resumes from the next chapter with the SAME F0
 kickoff (REVISION_PLAN §12.5). Do not spawn a new batch id.
 
-## F0 chapter ledger (last COMPLETE chapter = ch08)
+## F0 chapter ledger (last COMPLETE chapter = ch09)
 
 - **ch01 (Foreword) — DONE.** Notes 6 -> 10 (+4). New notes span all four
   kinds/domains:
@@ -6236,6 +6236,31 @@ qa_epub carry the per-chapter risk).
   Nanchang HQ, Tada Hayao/Tashiro (one-off garrison commanders), "For whom does
   one toil" (uncertain Luo Yin attribution — not guessed). Total after ch08:
   **422**.
+
+- **ch09 (Part One §4, Impatience Breeds a Grave Blunder — the Shi Yousan
+  failure) — DONE.** Notes 9 -> 23 (+14). Long (678-line), reference-dense. New
+  (first-appearance; standard commonplaces, corroborated): `Executive Yuan`
+  (行政院); `struck dumb as cicadas in the cold` (噤若寒蝉); `ox-devils and
+  snake-spirits` (牛鬼蛇神, CR label); `sworn brother in life and death` (结义/拜把子,
+  recurring); `the great smoke` (大烟 opium); `Made in Taishō 15` (Japanese regnal
+  dating, era→1926); `Type 38s` (三八式 Arisaka rifle); `Fengtian Special Service
+  Agency` (特務機関 tokumu kikan); `using the barbarian to curb the barbarian`
+  (以夷制夷); `united front` (统一战线, CCP strategy); `the twelfth moon` (lunar
+  calendar / "moons"); `Anyuan Hutong` (胡同); `set great store by face` (面子);
+  `Twenty-ninth Army` (二十九军, Song Zheyuan, Marco Polo Bridge).
+  NOT re-noted / covered: Ji Hongchang/Shi Yousan(name)/Yin Rugeng/Zhang
+  Jingyao/Feng Yuxiang/Yan Xishan/Zhang Xueliang/Chahar-Suiyuan/Dairen(=Dalian)/
+  courtesy (ch02); Beiping/Taiwan/circular-telegram/bandits/Lushan (ch06);
+  Kwantung Army/Northern Expedition (ch07); li/Republican-dating (ch08); Nanjing/
+  Chongqing (ch03/04); Juntong/Kempeitai (ch04); Whampoa/Song Zheyuan/Doihara/
+  North China Autonomy Movement (ch05/07/09 pre-F0); Green Gang incense-hall
+  (ch08); Renaissance Society (Lixingshe layer); Marco Polo Bridge (ch01/ch13);
+  vajra/金刚 (ch12); "Tong" generation (ch09 pre-F0). Declined as padding/semi-
+  transparent: 弃暗投明, 水乳交融, 孤掌难鸣, 见风使舵, 各人自扫门前雪, 玉石俱焚,
+  杀一儆百, 跳进黄河洗不清, almond tea, hot-pot, "three-tile" cap, Sun Dianying
+  (list member), Hebei-Chahar Council (covered by autonomy-movement note),
+  plainclothes-corps (context-clear). Total after ch09: **436**. [epubcheck
+  0/0/0/0 checkpoint]
 
 <!-- F0_LEDGER_APPEND -->
 
