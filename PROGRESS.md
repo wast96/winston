@@ -6051,7 +6051,7 @@ commit AND PUSH at every chapter boundary.
 chapter. An interrupted session resumes from the next chapter with the SAME F0
 kickoff (REVISION_PLAN §12.5). Do not spawn a new batch id.
 
-## F0 chapter ledger (last COMPLETE chapter = ch40)
+## F0 chapter ledger (last COMPLETE chapter = ch41)
 
 - **ch01 (Foreword) — DONE.** Notes 6 -> 10 (+4). New notes span all four
   kinds/domains:
@@ -6617,6 +6617,15 @@ qa_epub carry the per-chapter risk).
   (ch04 CIA/Western Enterprises note), Hundred Regiments/Xu-Bang/Fu Zuoyi/Lin
   Biao/Nie Rongzhen/Luo Ronghuan/Liao Yaoxiang (covered), Marco Polo="Double
   Seventh". Total after ch40: **614**. [epubcheck 0/0/0/0 checkpoint]
+
+- **ch41 (Part Four §9, Reflecting on Past Pain — fall of Beiping/Tianjin) — DONE.**
+  Notes 14 -> 19 (+5). New: `Fourth Field Army` (四野, Lin Biao's army renamings);
+  `receive reorganization` (改编 absorbing surrendered troops); `Deng Baoshan`
+  (邓宝珊, brokered Beiping surrender 1949); `Yuan big-head` (袁大头 silver dollar —
+  covers ch42 "big-heads"); `food and sex are of nature` (食色性也, Mencius/Gaozi).
+  Standard; corroborated. NOT re-noted: Zhang Zuolin (ch06), Eight-Power/1900
+  (ch41 Hademen note + Boxer Protocol ch07), John Leighton Stuart/gold-yuan note/
+  fabi (covered). Total after ch41: **619**.
 
 <!-- F0_LEDGER_APPEND -->
 
