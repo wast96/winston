@@ -6051,7 +6051,7 @@ commit AND PUSH at every chapter boundary.
 chapter. An interrupted session resumes from the next chapter with the SAME F0
 kickoff (REVISION_PLAN §12.5). Do not spawn a new batch id.
 
-## F0 chapter ledger (last COMPLETE chapter = ch31)
+## F0 chapter ledger (last COMPLETE chapter = ch32)
 
 - **ch01 (Foreword) — DONE.** Notes 6 -> 10 (+4). New notes span all four
   kinds/domains:
@@ -6523,6 +6523,19 @@ qa_epub carry the per-chapter risk).
   corroborated. NOT re-noted: Yang Zaixing + Xiaoshang River (ch24 Xin Yanqiu
   note), Yue Fei (ch16 twelve-gold-tablets note), Executive Yuan (ch09), No.76.
   Declined: The Tale of Hongfu (uncertain opera title). Total after ch31: **557**.
+
+- **ch32 (Part Four, Author's Preface — postwar Beiping-Tianjin pacification) —
+  DONE.** Notes 10 -> 17 (+7). Introduces the 1946 Marshall-mediation phase. New
+  (standard; corroborated): `Committee of Three` (1946 Marshall/Zhang Qun/Zhou
+  Enlai truce body); `Zhang Qun` (张群 KMT rep); `Zhou Enlai` (周恩来, later PRC
+  Premier); `Military Mediation Executive Headquarters` (Beiping tripartite truce
+  HQ); `Ye Jianying` (叶剑英, CCP chief of staff, later PLA marshal/head of state);
+  `Li Zongren` (李宗仁, Beiping Field HQ; Acting President 1949); `Magong` (Penghu/
+  Pescadores). These recur in ch33/ch35 → noted here at first appearance.
+  NOT re-noted: Nie Rongzhen (ch04 Lin Biao note), Marshall/Fu Zuoyi/Zheng Jiemin/
+  Central Training Corps (covered). Declined: "Fleeting Glimpses of a Floating
+  Life" + People's Service Corps (obscure/uncertain — Liu Peichu noted at ch35).
+  Total after ch32: **564**.
 
 <!-- F0_LEDGER_APPEND -->
 
