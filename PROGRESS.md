@@ -2092,3 +2092,125 @@ Zhongshan suit). No U+FFFD; no named entities.
   errors / 0 warnings.
 - Every new anchor verified a unique verbatim substring of its reading file
   before merge. No prose/number/paragraph change (notes-only pass).
+
+## FN3 — footnote-density pass, ch12-ch17 (FOOTNOTE_PASS.md batch 3)
+
+Third batch of the commissioner's footnote-density pass (the Bai Xin manhunt
+aftermath and Avenue Joffre gunfight; the two Ren Bishi rescues and the Guan
+Xiangying rescue; the Yang Du / Du Yuesheng "new chapter" trio; Liu Shaobai, the
+pastors and lawyers, the Wu Hao counter-notice; the Songhu Garrison Command and
+Song Zaisheng; Li Qiang and the radio branch). Content FROZEN: notes ADDED and
+reconciled only. No prose, number, name, date, or paragraph change (verified:
+git diff touches only notes.json + data/fn3_notes.json + docs + the rebuilt
+EPUB; no out/ch*_reading.md edited).
+
+### Branch
+Session opened on stray branch `claude/zhou-enlai-fn3-footnotes-jrymzg` (== origin/
+claude/zhou-enlai at FN2's HEAD, 0/0 divergence). Per CLAUDE.md rule 2 the canonical
+working branch is `claude/zhou-enlai`; checked it out, reset to origin, did all FN3
+work there. Stray branch carried no unique commits, so nothing to fold; deleted at
+close.
+
+### data/zh decision
+Not regenerated (parity scaffold, not needed for a notes-only pass; same rationale
+as FN1/FN2). Anchors verified against out/<id>_reading.md by apparatus_merge; hanzi
+taken from glossary.json (gloss_hanzi.py) and emitted as numeric character
+references generated programmatically from the glossary string; fact-checking
+against external scholarship.
+
+### Notes added (before -> after)
+- ch12 8 -> 9 (+1): Chen Yun (reconciled from ch23; see below).
+- ch13 8 -> 9 (+1): Tilanqiao Prison (提篮桥, place).
+- ch14 11 -> 20 (+9): Kang Youwei, Song Meiling (+ morphine-plant charge graded),
+  Ji Yun/Xiaolan, Zhang Shizhao, Huang Jinrong, Lu Xun, Cai Yuanpei, the Four Great
+  Families (concept; IDs Song Ziwen = T.V. Soong), and the Civil Rights League
+  chronology flag (the League postdates Yang Du's 1931 death).
+- ch15 19 -> 24 (+5): Tan Sitong (+ Tang Caichang), Renaissance Society/Blue Shirts
+  (reconciled from ch21), Eugene Chen, Bo Gu, the Red China News Agency -> Xinhua.
+- ch16 8 -> 8 (+0): chapter already densely annotated at FN-batch level (Longhua
+  martyrs, Jiang Fangzhen+Baoding, Han Fuju, No. 76, Yang Fan clique); the Songhu
+  Garrison Command is noted at its first appearance (ch03), Qian Dajun at ch03,
+  Xiong Shihui/Song Zaisheng given full prose obituaries. No un-covered reader-need
+  first appearance found here — a genuine 0, not a skipped sweep.
+- ch17 11 -> 13 (+2): the Ningdu Uprising / Twenty-sixth Route Army (event, 宁都),
+  Long Yun.
+- **FN3 total: +18 notes. Book 409 -> 427. ch12-ch17: 65 -> 83.**
+
+### Reconciliations (mandated by the FN3 kickoff; pre-existing later notes trimmed)
+- **Chen Yun:** first appears ch12 ("Chen Yun led the Section"); the full ID note
+  sat at ch23. Added the ID at ch12 (first appearance) and trimmed the ch23 note to
+  a cross-reference to chapter 12.
+- **Renaissance Society / Blue Shirts:** first appears ch15; the definition sat at
+  ch21. Added the full note at ch15 (first appearance) and trimmed the ch21 note to
+  a cross-reference to chapter 15.
+
+### NOT re-noted (already placed earlier — cross-referenced, no second note)
+- Chiang Kai-shek, Gu Shunzhang, Chen Geng, Yang Dengying, Zhang Daofan, Chen Lifu,
+  Kang Sheng (ch09/ch12), Peng Pai, Ke Lin (ch04), Whampoa, Green Gang, Red Squad /
+  Dog-Beating Squad, Avenue Joffre, French Concession/International Settlement,
+  Songhu Garrison Command (ch03), Mixed Court (ch02), Qian Dajun (ch03) — ch12/ch16.
+- Ren Bishi (bio kept at ch13, first substantive treatment; ch02 arrest + ch12
+  glancing mention left as-is), Guan Xiangying (bio at ch13; ch12 glancing mention
+  left un-noted, per the Ren Bishi pattern), Wang Ming (ch02), Pavel Mif (ch00-05),
+  International Red Aid/MOPR (ch13), May Fourth (ch04), Fifth/Sixth Congresses,
+  August 7 Conference, Communist University of the Toilers of the East (ch04).
+- Yang Du + Du Yuesheng (full notes at ch14, correctly placed — first substantive
+  appearance), Political Study Clique + Reorganizationists + Qi Baishi + Cihai +
+  Yang Xianzhen + Zhang Xun's restoration (all noted ch14 already), Peace Planning
+  Society / "Six Gentlemen" / Hongxian (folded into the Yang Du note), China Mutual
+  Advancement Society (共进会, covered in the Du Yuesheng note), Song Qingling (ch03).
+- Fu Zuoyi, Wang Ruofei, Marco Polo Bridge Incident, March Eighteenth massacre,
+  Kang Sheng land reform, Edgar Snow / Red Star Over China, Dong Jianwu, Pu Huaren,
+  T.V. Soong (ch15 note kept; IDed again in the ch14 Four Great Families note),
+  Juntong, Xi'an Incident (ch04), Zhang Xueliang (ch07/ch08) — all noted already.
+- Li Qiang (ch00), May Thirtieth (ch01), Bose/Longzhou Uprising (ch17 existing),
+  Southern Bureau, Marconi, Zhang Huizan, He Yingqin (ch03), Zunyi/Long March (ch04),
+  Central Soviet / Chinese Soviet Republic (ch00/ch02) — all noted already.
+- Deliberately left unfootnoted (prose gives a full placement, or too minor/self-
+  glossed): Tan Zhongyu, Zhou Huinian, Hu Egong, Mei Baoji, Liu Shaobai, Song
+  Zaisheng/Song Qihua, Xiong Shihui, Chen Zhigao, Pan Zhenya, Huang Dinghui (all
+  given full prose bios in-text); Wang Jiaxiang (glancing, inside a quoted memoir);
+  Shen Junru, Yan Fu, Liu Shipei, Yu Dafu, Eugene Chen's colleagues, and the string
+  of one-appearance agents, detectives, cover names, streets, and venues.
+
+### Items flagged for FN5 whole-book reconciliation (first appearance precedes FN3 scope)
+- **shikumen** (Shanghai row-house type): recurs heavily from ch02 on; genuinely
+  un-noted book-wide. First appearance ch02 is out of FN3 scope; note it at ch02 in
+  FN5 (a real reader-need term).
+- **Shen Bao**: noted at ch17, but first appears ch10; the note is a chapter late.
+- **Sun Chuanfang** (warlord, first ch05), **Baoding Army Officers' Academy** (first
+  ch03, contextualized inside the ch16 Jiang Fangzhen note), **Sun Yat-sen University
+  Moscow** (noted ch18, first appears ch03) — all noted-or-glossed but not at their
+  true first appearance; FN5 nicety.
+- **互济会 rendering drift**: the same relief society is rendered "China Relief
+  Society" (ch02, where it is noted) and "China Mutual Aid Society" (ch14/ch15). A
+  glossary/prose-consistency item for FN5, not a footnote fix (prose is frozen).
+
+### Fact-checking
+Every added identification checked against real scholarship (English Wikipedia,
+China Daily, and academic biographies) before authoring; verdict stated in each
+note. NO Grok/Grokipedia or any AI-written reference used (both appeared in result
+lists for Bo Gu, Long Yun, and Eugene Chen and were rejected). Graded/flagged
+claims: the Song Meiling morphine-plant charge (the author's hostile assertion,
+uncorroborated); the Civil Rights League chronology (the League postdates Yang Du's
+death, so his "participation" cannot be literal — the discrepancy is the source's);
+the Four Great Families label (a partisan concept; the families' prominence real,
+the sweeping capital-control figures a partisan estimate). Long Yun birth year 1884
+per Wikipedia (a secondary source gives 1888; 1884 used).
+
+### Hanzi discipline
+People notes carry NO hanzi. Four term/place/event notes carry hanzi as numeric
+character references generated programmatically from glossary.json strings (never
+hand-typed): 提篮桥 (Tilanqiao, places), 复兴社 + 蓝衣社 (Renaissance Society / Blue
+Shirts, organizations), 宁都 (Ningdu, places). Each byte-matched to the glossary and
+verified intact in the built XHTML. Four Great Families, Red China News Agency /
+Xinhua use pinyin (glossary lacked the terms). No U+FFFD in any text file; the only
+U+FFFD byte-matches in the EPUB are inside PNG image binaries.
+
+### QC
+- check_apparatus.py: 0 failures, 0 warnings.
+- Build: 28/28 chapters, **427 notes**, 496 pagebreaks. qa_epub PASS (427
+  refs/bodies/backlinks resolve, sequential). epubcheck 5.1.0: 0 fatals / 0
+  errors / 0 warnings.
+- Every new anchor verified a unique verbatim substring of its reading file before
+  merge (all 18 count==1). No prose/number/paragraph change (notes-only pass).

@@ -2,6 +2,33 @@
 
 Dated record of what changed and, for global corrections, what cascaded where.
 
+## 2026-08-24 — FN3 footnote-density pass, ch12-ch17 (FOOTNOTE_PASS.md batch 3)
+Third batch of the commissioner's footnote-density pass (the Bai Xin manhunt and
+Avenue Joffre gunfight aftermath; the Ren Bishi and Guan Xiangying rescues; the
+Yang Du / Du Yuesheng "new chapter" trio; the Liu Shaobai, pastor, and lawyer
+connections; the Songhu Garrison Command and Song Zaisheng; Li Qiang and the
+radio branch). Content FROZEN: notes ADDED and reconciled only; no
+prose/number/name/date/paragraph change (git diff touches only notes.json +
+data/fn3_notes.json + docs + the rebuilt EPUB; no out/ch*_reading.md edited).
+- **+18 footnotes. Book 409 -> 427; ch12-ch17 65 -> 83.** Per unit:
+  ch12 8->9, ch13 8->9, ch14 11->20, ch15 19->24, ch16 8->8 (already dense),
+  ch17 11->13.
+- Classes swept per FOOTNOTE_PASS.md 2-6: people (Chen Yun, Kang Youwei, Song
+  Meiling, Ji Yun/Xiaolan, Zhang Shizhao, Huang Jinrong, Lu Xun, Cai Yuanpei, Tan
+  Sitong+Tang Caichang, Eugene Chen, Bo Gu, Long Yun); places (Tilanqiao Prison);
+  events/orgs (the Four Great Families, the Renaissance Society/Blue Shirts, the
+  Red China News Agency -> Xinhua, the Ningdu Uprising / 26th Route Army); source-
+  accuracy (the Civil Rights League postdates Yang Du's death; the Song Meiling
+  morphine-plant charge graded as the author's uncorroborated assertion).
+- Reconciliations (first-appearance discipline, both mandated by the FN3 kickoff):
+  Chen Yun ch23 note trimmed to a cross-ref to chapter 12 (his first appearance);
+  the Renaissance Society ch21 note trimmed to a cross-ref to chapter 15.
+- Fact-check: every claim checked against real scholarship (Wikipedia, China Daily,
+  academic sources); verdict stated in each note. NO Grok/Grokipedia or AI-written
+  reference used (both surfaced in result lists and were rejected).
+- QC: check_apparatus.py 0/0; build 28/28, 427 notes; qa_epub PASS; epubcheck
+  5.1.0 0 fatals/0 errors/0 warnings.
+
 ## 2026-08-24 — FN2 footnote-density pass, ch06-ch11 (FOOTNOTE_PASS.md batch 2)
 Second batch of the commissioner's footnote-density pass. Content FROZEN: notes
 ADDED and reconciled only; no prose/number/name/date/paragraph change (git diff
