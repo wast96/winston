@@ -2,6 +2,36 @@
 
 Dated record of what changed and, for global corrections, what cascaded where.
 
+## 2026-08-24 — FN2 footnote-density pass, ch06-ch11 (FOOTNOTE_PASS.md batch 2)
+Second batch of the commissioner's footnote-density pass. Content FROZEN: notes
+ADDED and reconciled only; no prose/number/name/date/paragraph change (git diff
+touches only notes.json + data/fn2_notes.json + docs; no out/ch*_reading.md
+edited).
+- **+24 footnotes. Book 385 -> 409; ch06-ch11 70 -> 94.** Per unit:
+  ch06 7->11, ch07 14->20, ch08 13->16, ch09 16->21, ch10 9->12, ch11 11->14.
+- Classes swept per FOOTNOTE_PASS.md 2-6: people (Zhang Daofan, Sun Ke, Li
+  Zongren, Liang Qichao, Yang Yuting, Wu Zhihui, Chen Yi, Yang Zhihua/Du Ning);
+  places/events/orgs (Fengtian city+clique, Nanyang College, Central Military
+  Academy, Green Gang, Sixth National Congress, League of Left-Wing Writers,
+  Northeast Anti-Japanese United Army, Hailufeng soviet, Canton-Hong Kong Strike);
+  terms (Sun Yat-sen tunic, Four Cardinal Principles, the 1927 vs 1966 "Red
+  Guards" caution); allusions/quotations/works (the Mao 1935 report source, Su
+  Shi's "true face of Mount Lu," Water Margin & Romance of the Three Kingdoms,
+  Zeng Guofan's Family Letters).
+- Reconciliations (first-appearance discipline): Liu Bocheng ch07 note trimmed to
+  a cross-ref to chapter 1 (mandated); Qian Dajun ch10 note trimmed to a cross-ref
+  to chapter 3; the Canton-Hong Kong Strike note moved from ch11 to its ch10 first
+  appearance, ch11 trimmed to a cross-ref.
+- Fact-check: every claim checked against real scholarship (Wikipedia/Baidu/
+  Britannica/academic/primary texts); verdict in each note; NO AI-sourced
+  references (Grok/Grokipedia results rejected). Flags: Yang Zhihua 1900/1901;
+  Fengtian naming history; Green Gang police-penetration stated to scholarship.
+- Hanzi: only 奉天 and 中国左翼作家联盟, both from glossary.json, emitted as numeric
+  refs generated from the glossary string (never hand-typed); people notes carry
+  none.
+- check_apparatus clean; build 409 notes / 496 pagebreaks; qa_epub PASS;
+  epubcheck 5.1.0 0/0/0.
+
 ## 2026-08-24 — FN1 footnote-density pass, ch00-ch05 (FOOTNOTE_PASS.md batch 1)
 First batch of the commissioner's footnote-density pass. Content FROZEN: notes
 ADDED only; no prose/number/name/date/paragraph change (git diff touches only

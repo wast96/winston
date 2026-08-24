@@ -1989,3 +1989,106 @@ later one should be trimmed to a cross-reference when its batch runs:
   errors / 0 warnings.
 - Every anchor verified a unique verbatim substring of its reading file before
   merge. No prose/number/paragraph change (notes-only pass).
+
+## FN2 — footnote-density pass, ch06-ch11 (FOOTNOTE_PASS.md batch 2)
+
+Second batch of the commissioner's footnote-density pass (Yang Dengying and the
+first counter-espionage tie; the tiger's den; Fengtian; the Action Section and
+the Red Squad; the Avenue Joffre gunfights). Content FROZEN: notes ADDED and
+reconciled only. No prose, number, name, or paragraph change (verified: git diff
+touches only notes.json + data/fn2_notes.json + docs; no out/ch*_reading.md
+edited).
+
+### Branch
+Session opened on stray branch `claude/zhou-enlai-fn2-footnotes-sowd3r` (per the
+harness). Per CLAUDE.md rule 2 the canonical working branch is `claude/zhou-enlai`;
+this session's commits are pushed to the harness-designated branch for delivery
+and can be folded onto `claude/zhou-enlai` per the usual recipe. All FN2 work is
+notes-only and additive.
+
+### data/zh decision
+Not regenerated (parity scaffold, not needed for a notes-only pass; same
+rationale as FN1). Anchors verified against out/<id>_reading.md by
+apparatus_merge; hanzi taken from glossary.json and emitted as numeric refs;
+fact-checking against external scholarship.
+
+### Notes added (before -> after)
+- ch06 7 -> 11 (+4): Zhang Daofan, Sun Ke, Zeng Guofan (+ the Family Letters as
+  a "molding" gift), the Mao 1935 quote source ("On Tactics Against Japanese
+  Imperialism," Wayaobao, 27 Dec 1935).
+- ch07 14 -> 20 (+6): Li Zongren (+ Guangxi clique; Bai Chongxi cross-ref),
+  Liang Qichao, the Sun Yat-sen tunic (Zhongshan suit), Nanyang College
+  (-> Shanghai Jiao Tong), Central Military Academy (Whampoa successor, cross-ref
+  ch03), the "true face of Mount Lu" allusion (Su Shi).
+- ch08 13 -> 16 (+3): Fengtian (place/clique + Zhang Zuolin; hanzi 奉天), Yang
+  Yuting (+ the Yang-Chang killing), the Four Cardinal Principles (Deng, 1979).
+- ch09 16 -> 21 (+5): the Green Gang (cross-ref Du Yuesheng ch14), Yang Zhihua
+  (Du Ning), the Sixth National Congress (Moscow 1928), the League of Left-Wing
+  Writers (hanzi; cross-ref the Longhua martyrs ch02), the Northeast Anti-
+  Japanese United Army.
+- ch10 9 -> 12 (+3): Wu Zhihui, Water Margin & Romance of the Three Kingdoms
+  (Four Great Classical Novels), and the Canton-Hong Kong Strike moved here to
+  its first appearance (see reconciliation below).
+- ch11 11 -> 14 (+3): Chen Yi (Lyon expulsion; later marshal/foreign minister),
+  the Hailufeng soviet (Peng Pai; China's first soviet), and a caution that the
+  1927 "Red Guards" (chiweidui) are NOT the 1966 Cultural Revolution Red Guards
+  (hongweibing).
+- **FN2 total: +24 notes. Book 385 -> 409. ch06-ch11: 70 -> 94.**
+
+### Reconciliations (pre-existing duplicate/misplaced notes trimmed)
+- **Liu Bocheng (mandated):** trimmed the ch07 episode note to a cross-reference
+  to the first-appearance note at chapter 1, keeping only the escort-through-
+  Nanjing detail.
+- **Qian Dajun:** first appears (and is fully noted) at chapter 3; the redundant
+  ch10 note trimmed to a cross-reference to chapter 3.
+- **Canton-Hong Kong Strike:** first appears at ch10 (Luo Yinong's bio); the note
+  had sat one chapter late at ch11. Added at ch10 (first appearance) and the ch11
+  note trimmed to a cross-reference to chapter 10.
+
+### Cut after fa_check — already covered, not re-noted (cross-referenced instead)
+Central Plains War, Feng Yuxiang, Yan Xishan (all in the ch07 "tangled war"
+note); Zhongtong, Juntong, Dai Li, Ren Zhuoxuan/Ye Qing (ch07); the Chen brothers
+/ CC Clique (ch04, ch06); Zou Taofen note already covers Zhang Naiqi, Li Gongpu,
+the Life Bookstore, and "Since the War of Resistance Began"; September 18
+(Mukden) Incident (ch08); August 7 Conference (ch02); Congress of Soviet Areas
+(ch02/ch09); Nanchang Uprising (ch00); Whampoa (ch03); Communist University of
+the Toilers of the East (ch04); Encirclement Campaigns (ch04); Songhu Garrison
+Command (ch03); Beiyang/Northern Warlords (ch01); New Youth, Cultural Revolution,
+Bai Chongxi, Lin Yunan (ch01/ch02); the Monkey King / Princess Iron Fan allusion
+(ch05); Zhang Zuolin (folded into the ch08 Fengtian note rather than a separate
+note); Chen Duxiu, Yuan Shikai, Peng Pai, Yang Yin, Zhang Tailei, Ye Ting, Sun
+Yat-sen, Li Weihan, Deng Xiaoping, Ye Jianying, Su Zhaozheng, Liu Shaoqi (all
+noted earlier). Deliberately left unfootnoted (prose-covered or too minor):
+Yang Jianhong and Lian Desheng (the prose introduces each fully and neither is
+independently attestable), Liu Ding (noted ch04), Cai Boxiang (fate noted ch08),
+Yan Changyi / Xing Shizhen / Zhang Jichun (the ch11 prose gives each a full
+obituary), and the string of one-appearance cover names, shops, streets, and
+minor warlords.
+
+### Fact-checking
+Every added identification checked against real scholarship (English/Chinese
+Wikipedia, Baidu Baike, Britannica, New World Encyclopedia, ANU/academic
+histories, and primary texts on Marxists.org for the Mao report and Su Shi poem).
+Verdict stated in each note. NO Grok/Grokipedia or any AI-written reference used
+(such results surfaced in searches and were rejected). Graded/flagged claims:
+Yang Zhihua birth year 1900 vs 1901 (flagged in the note); Fengtian rendered
+carefully (city officially Shenyang from 1914 but "Fengtian"/"Mukden" persisted
+and revived under Manchukuo; province -> Liaoning 1929); Green Gang police
+penetration stated at the level the scholarship supports.
+
+### Hanzi discipline
+People notes carry NO hanzi. Only two term notes carry hanzi, both taken
+verbatim from glossary.json and emitted as numeric character references generated
+programmatically from the glossary string (never hand-typed): 奉天 (Fengtian,
+places) and 中国左翼作家联盟 (League of Left-Wing Writers, organizations); each
+decoded and byte-matched against the glossary. All other term/allusion notes use
+pinyin/English to eliminate insertion risk (chiweidui/hongweibing, Qing Bang,
+Zhongshan suit). No U+FFFD; no named entities.
+
+### QC
+- check_apparatus.py: 0 failures, 0 warnings.
+- Build: 28/28 chapters, **409 notes**, 496 pagebreaks. qa_epub PASS (409
+  refs/bodies/backlinks resolve, sequential). epubcheck 5.1.0: 0 fatals / 0
+  errors / 0 warnings.
+- Every new anchor verified a unique verbatim substring of its reading file
+  before merge. No prose/number/paragraph change (notes-only pass).
