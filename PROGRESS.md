@@ -6051,7 +6051,7 @@ commit AND PUSH at every chapter boundary.
 chapter. An interrupted session resumes from the next chapter with the SAME F0
 kickoff (REVISION_PLAN §12.5). Do not spawn a new batch id.
 
-## F0 chapter ledger (last COMPLETE chapter = ch28)
+## F0 chapter ledger (last COMPLETE chapter = ch29)
 
 - **ch01 (Foreword) — DONE.** Notes 6 -> 10 (+4). New notes span all four
   kinds/domains:
@@ -6496,6 +6496,15 @@ qa_epub carry the per-chapter risk).
   Reformed/Great Way govts (covered). Declined: Yangjingbang Regulations
   (uncertain), Saionji/Inukai (uncertain; Inukai father ch17). Total after ch28:
   **544**.
+
+- **ch29 (Part Three §10 pt1, Troubles Never Come Singly) — DONE.** Notes 12 -> 18
+  (+6). New (standard; corroborated): `grand race meeting` (Shanghai Race Club
+  racecourse); `puppet Peace Army` (和平军 collaborationist troops, vs the Loyal &
+  Patriotic Army); `Ruijin` (瑞金, Jiangxi Soviet capital); `the Linggu Temple`
+  (灵谷寺 Nanjing, Dai Li's burial place among the martyrs); `breaking the vessel
+  while pelting the rat` (投鼠忌器); `counter-penalty` (反坐 legal principle).
+  NOT re-noted: department stores/"the Sun Company" (ch28), Du Fu "dead before the
+  campaign was won" (ch29 pre-F0), Mauser (ch08). Total after ch29: **550**.
 
 <!-- F0_LEDGER_APPEND -->
 
