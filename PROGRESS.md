@@ -6051,7 +6051,7 @@ commit AND PUSH at every chapter boundary.
 chapter. An interrupted session resumes from the next chapter with the SAME F0
 kickoff (REVISION_PLAN §12.5). Do not spawn a new batch id.
 
-## F0 chapter ledger (last COMPLETE chapter = ch18)
+## F0 chapter ledger (last COMPLETE chapter = ch19)
 
 - **ch01 (Foreword) — DONE.** Notes 6 -> 10 (+4). New notes span all four
   kinds/domains:
@@ -6393,6 +6393,12 @@ qa_epub carry the per-chapter risk).
   (Du Fu 人生七十古来稀); `footfalls in an empty valley` (空谷足音, Zhuangzi).
   NOT re-noted: Mauser/box-cannon (ch08). Total after ch18: **500**.
   [epubcheck 0/0/0/0 checkpoint]
+
+- **ch19 (Part Two, A Note from the Author, May 1983) — DONE.** Short note; 0
+  pre-F0 -> 1. New: `the tree rises from its root...` (树有根，水有源 proverb).
+  Declined: Republican date-span (convention already glossed ch08; per-instance
+  conversion = padding), "Prefatory Candour" (uncertain earlier-section title).
+  Total after ch19: **501**.
 
 <!-- F0_LEDGER_APPEND -->
 
