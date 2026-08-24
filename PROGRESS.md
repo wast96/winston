@@ -6051,7 +6051,7 @@ commit AND PUSH at every chapter boundary.
 chapter. An interrupted session resumes from the next chapter with the SAME F0
 kickoff (REVISION_PLAN §12.5). Do not spawn a new batch id.
 
-## F0 chapter ledger (last COMPLETE chapter = ch01)
+## F0 chapter ledger (last COMPLETE chapter = ch02)
 
 - **ch01 (Foreword) — DONE.** Notes 6 -> 10 (+4). New notes span all four
   kinds/domains:
@@ -6081,5 +6081,23 @@ kickoff (REVISION_PLAN §12.5). Do not spawn a new batch id.
     references (people, places, units, weapons, currency, geography) and will
     be much denser. +4 here is the honest density for a foreword.
 
-Book note total after ch01: **379** (qa_epub PASS; epubcheck 5.1.0 0/0/0/0).
+- **ch02 (Introduction: Rooting Out Traitors in the North) — DONE.** Notes 20 -> 27 (+7).
+  New: `courtesy name Yunong` (the <i>zi</i>/courtesy-name convention, social structure);
+  `the French Concession of Tianjin` (Tianjin's foreign concessions / extraterritoriality,
+  institutions); `the Northwest Army` (Feng Yuxiang's 西北军 warlord army, recurring
+  affiliation); `the plum tree withered in the peach tree's place` (李代桃僵 idiom, 11th
+  of the Thirty-Six Stratagems, Han yuefu 《鸡鸣》 — Baidu Baike; texture); `Dairen`
+  (Japanese-held Dalian / Kwantung Leased Territory); `a Japanese rōnin` (浪人 / 大陸浪人
+  continental adventurers); `give up his life for righteousness` (Mencius 6A.10 舍生取义,
+  ctext.org — allusion, companion to the foreword's 成仁 note).
+  NOT re-noted (forward-noted or already covered): Yan-Feng revolt of 1930 / Central Plains
+  War (noted at ch09); Marco Polo Bridge Incident (ch01 War-of-Resistance note names it;
+  full note at ch13); Du Fu "campaign not yet won / dead before the campaign was won" line
+  (noted at ch29); courtesy-name further instances (ch15, ch17); Dai Li, Legation Quarter
+  (extraterritoriality already there), Ji Hongchang, Feng Yuxiang, Sun Chuanfang, Shi
+  Jianqiao, bushidō, Shi Yousan, Yin Rugeng, Wang Kemin, Chahar, Beiping Station, etc.
+  (all among the 20 pre-F0 notes). Declined as padding: Mount Tai (retreat, not the
+  泰山鸿毛 allusion), Fang Zhenwu, "Blind Wang" (in the Wang Kemin note).
+
+Book note total after ch01: **379** -> after ch02: **386** (qa_epub PASS; epubcheck 5.1.0 0/0/0/0).
 
