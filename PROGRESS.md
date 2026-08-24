@@ -6051,7 +6051,7 @@ commit AND PUSH at every chapter boundary.
 chapter. An interrupted session resumes from the next chapter with the SAME F0
 kickoff (REVISION_PLAN §12.5). Do not spawn a new batch id.
 
-## F0 chapter ledger (last COMPLETE chapter = ch07)
+## F0 chapter ledger (last COMPLETE chapter = ch08)
 
 - **ch01 (Foreword) — DONE.** Notes 6 -> 10 (+4). New notes span all four
   kinds/domains:
@@ -6212,6 +6212,30 @@ qa_epub carry the per-chapter risk).
   Pékin, German Hospital, "single spear and lone horse," "beating the grass to
   startle the snake" (English conveys it), flower-name/procuress-mother/mounting-
   the-tray (district economy already glossed). Total after ch07: **413**.
+
+- **ch08 (Part One §3, Tangled Roots — the Ji Hongchang / Liu Shaorang case) —
+  DONE.** Notes 13 -> 22 (+9). New (all first-appearance; standard cultural/
+  historical commonplaces, verdicts corroborated): `the eighth year before the
+  Republic` (民国/民前 year-reckoning, unlocks quoted dates — Republic Year 1 =
+  1912); `sixty-odd li` (里 ≈ ½ km, recurring measure); `a great gated mansion of
+  four courtyards` (四合院 siheyuan); `White Russians` (post-1917 émigrés in North
+  China); `the cart ahead is a warning to the cart behind` (前车之鉴); `the woe of
+  the pond-fish` (城门失火殃及池鱼); `every bush and tree a soldier` (草木皆兵, Fei
+  River 383); `Tianjin Wei` (天津卫, Ming garrison origin of the city's name); `a
+  man should make himself strong` (自强不息, Book of Changes 乾卦象传).
+  NOT re-noted / covered: Mauser "box cannon" (in the "German-made" note),
+  generation-ranks + opening-the-incense-hall (in the Green Gang note), Beiping,
+  Zhang Jingyao, Grand Hôtel (ch06), Lixingshe/Whampoa (ch05), Feng Yuxiang/
+  Northwest Army/Chahar/Rehe/courtesy-name (ch02), circular telegram/bandits/
+  Taiwan (ch06), Northern Expedition/Kwantung Army (ch07), He Yingqin (ch09),
+  Chongqing (ch03), Kempeitai (ch04), Li Dazhao (ch06), Lin Biao/Gang-of-Four/
+  Jiang Qing (ch04/ch08 pre-F0), Wu Peifu (noted ch24), vajra/金刚 (ch12 Arhats),
+  spirit-tablet (near-dup of ch11 ancestral-hall note). Declined as padding:
+  regular-script calligraphy, Ming Tombs, cornbread/wowotou, Guominjun (=Northwest
+  Army), Zhili clique (Beiyang covered), greenwood (=jianghu, ch07), "cash"/wen,
+  Nanchang HQ, Tada Hayao/Tashiro (one-off garrison commanders), "For whom does
+  one toil" (uncertain Luo Yin attribution — not guessed). Total after ch08:
+  **422**.
 
 <!-- F0_LEDGER_APPEND -->
 
