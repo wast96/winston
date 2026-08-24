@@ -6051,7 +6051,7 @@ commit AND PUSH at every chapter boundary.
 chapter. An interrupted session resumes from the next chapter with the SAME F0
 kickoff (REVISION_PLAN §12.5). Do not spawn a new batch id.
 
-## F0 chapter ledger (last COMPLETE chapter = ch25)
+## F0 chapter ledger (last COMPLETE chapter = ch26)
 
 - **ch01 (Foreword) — DONE.** Notes 6 -> 10 (+4). New notes span all four
   kinds/domains:
@@ -6460,6 +6460,18 @@ qa_epub carry the per-chapter risk).
   NOT re-noted: Mauser (ch08), Juntong structure/Dai Li/Mao Renfeng/No.76/fabi/
   Loyal & Patriotic Army/He Yingqin (covered). Declined: "used man" (uncertain
   term-of-art, text self-discusses). Total after ch25: **524**.
+
+- **ch26 (Part Three §6, Mount Tai or a Feather / Gunfire on the Solitary Island)
+  — DONE.** Notes ? -> +6. New: `the puppet Reserve Bank` (中央储备银行, Wang regime
+  bank vs fabi — first appearance, covers ch27/ch28 recurrences); `took Lihua as a
+  goddaughter` (干亲 fictive kinship, not Christian); `the Pearl Harbor affair of
+  December 8, 1941` (Asia-time date; Japan seized the Shanghai concessions same
+  day, ending the solitary island); `the Zikawei Cathedral` (徐家汇/St Ignatius);
+  `the great rear` (大后方, unoccupied interior/Chongqing); `old Wang praising his
+  own melons` (老王卖瓜自卖自夸 — this Wang ≠ Wang Jingwei). Standard; corroborated.
+  NOT re-noted: Hong Gang (ch06 Sandianhui note), Mauser (ch08), solitary island
+  (ch26 anchor pre-F0), Loyal & Patriotic Army/Ward Road Gaol/Ruby Queen (covered).
+  Total after ch26: **530**.
 
 <!-- F0_LEDGER_APPEND -->
 
