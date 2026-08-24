@@ -6051,7 +6051,7 @@ commit AND PUSH at every chapter boundary.
 chapter. An interrupted session resumes from the next chapter with the SAME F0
 kickoff (REVISION_PLAN §12.5). Do not spawn a new batch id.
 
-## F0 chapter ledger (last COMPLETE chapter = ch38)
+## F0 chapter ledger (last COMPLETE chapter = ch39)
 
 - **ch01 (Foreword) — DONE.** Notes 6 -> 10 (+4). New notes span all four
   kinds/domains:
@@ -6598,6 +6598,15 @@ qa_epub carry the per-chapter risk).
   note), Pacification/pacification work (ch04), Double-Seventh=Marco Polo Bridge.
   Declined: Tao Zhu (uncertain here — noted at ch42 where context is clear).
   Total after ch38: **602**.
+
+- **ch39 (Part Four §7, Looking Before and After) — DONE.** Notes 14 -> 20 (+6).
+  New: `the gray zones` (灰色 divided-allegiance areas/figures); `Peace-Preservation
+  Battalion` (保安 baoan local militia); `bound-footed wife` (footbinding);
+  `the Nine Springs` (九泉 underworld); `a rich encoffining` (coffin-burial custom);
+  `sons-and-brothers troops` (子弟兵 zidibing). Standard; corroborated.
+  NOT re-noted: two-syllable rail-line names Ping-Han/Jin-Pu etc. (trunk-railway
+  convention noted ch25), Pingjin Campaign + Fu Zuoyi surrender (ch39 Xinbao note
+  + ch36 Fu Dongju note). Total after ch39: **608**.
 
 <!-- F0_LEDGER_APPEND -->
 
