@@ -1130,3 +1130,9 @@
 # \bsecond\b->2; rendering "1943" (+1911) orphaned it (RULE R1-3). Not a real
 # quantity — strip the mis-parsed pair (English carries 1943).
 卅二
+
+# R9 (ch40 p101): elided Republic-year pair 三十八、九年 = 1949-50; the 、九 elides
+# 三十九 (39), so the checker reads 三十八 (38) and a bare 九 (9). Rendered
+# "1949 and 1950" (English carries the years). Same class as R8 三十六、七 and
+# R7 二十七、八 / 四十一、二.
+三十八、九
