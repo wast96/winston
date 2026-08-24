@@ -6051,7 +6051,7 @@ commit AND PUSH at every chapter boundary.
 chapter. An interrupted session resumes from the next chapter with the SAME F0
 kickoff (REVISION_PLAN §12.5). Do not spawn a new batch id.
 
-## F0 chapter ledger (last COMPLETE chapter = ch02)
+## F0 chapter ledger (last COMPLETE chapter = ch03)
 
 - **ch01 (Foreword) — DONE.** Notes 6 -> 10 (+4). New notes span all four
   kinds/domains:
@@ -6099,5 +6099,26 @@ kickoff (REVISION_PLAN §12.5). Do not spawn a new batch id.
   (all among the 20 pre-F0 notes). Declined as padding: Mount Tai (retreat, not the
   泰山鸿毛 allusion), Fang Zhenwu, "Blind Wang" (in the Wang Kemin note).
 
-Book note total after ch01: **379** -> after ch02: **386** (qa_epub PASS; epubcheck 5.1.0 0/0/0/0).
+Running total: ch01 **379**, ch02 **386** (qa_epub PASS each; epubcheck 5.1.0
+0/0/0/0 at ch01, ch02). Per-chapter policy: qa_epub every chapter; epubcheck at
+~5-chapter checkpoints and the finale (note-only additions, so check_apparatus +
+qa_epub carry the per-chapter risk).
+
+- **ch03 (Introduction: Disgrace at Hanoi) — DONE.** Notes 9 -> 11 (+2).
+  New: `Rear a tiger and you leave yourself a calamity` (养虎遗患, Sima Qian,
+  *Records of the Grand Historian* / Xiang Yu annals — Zhang Liang & Chen Ping
+  to Liu Bang; allusion, source Baidu Baike / Zdic; verdict corroborated);
+  `My Final Frame of Mind` (汪精卫《最后之心情》 deathbed essay — authenticity
+  DISPUTED: surfaced 1964, provenance/handwriting doubts, Chen Bijun denied a
+  will existed; verdict uncorroborated/contested, text left faithful per rule 5;
+  sources: 民国网, 网易/163 feature on the 遗嘱 controversy).
+  NOT re-noted / already covered by the 9 pre-F0 notes: Wang Jingwei, Hanoi /
+  Tonkin / French Indochina, the yandian peace telegram, shuanghuang "two-man
+  act", Chongqing, Chen Bijun, the Nanjing puppet government, the eighteen-man
+  action team. Declined as padding: "Let Me Give One Example" (Wang's essay —
+  prose characterizes it), 穿房越脊/飞檐走壁 (martial-skill phrase, transparent).
+  Total after ch03: **388**.
+
+<!-- F0_LEDGER_APPEND -->
+
 
