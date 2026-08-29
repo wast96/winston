@@ -92,24 +92,24 @@ sections inside chapters** &mdash; each chapter is one continuous unit.
    spellings, the modern pinyin, and Chinese characters, so a name here can be
    matched to one in a present-day account.
 
-## Batch order (proposed) &mdash; one chapter per batch
+## Batch order (proposed) &mdash; grouped, ~8-10 batches
 
-The auto-table above lists the units by page count. I propose running them
-**one chapter per batch**, and putting **Chapter 1 first (Batch 1)** so it can
-serve as the format/annotation-style gate (the frozen reference for note
-density and voice), with the front matter (Foreword + Trotsky's Introduction)
-as Batch 2, once the style is set:
+The auto-table above (one row per chapter) is the *upper bound*, not the plan.
+The real driver is the ~65%-of-context cap plus generous footnoting, but the
+cast is **front-loaded**: almost every name, institution, and Comintern term
+gets its editorial note at first appearance and is never re-noted, so the early
+chapters are heavy and the later ones are light. So:
 
-- **B01 = ch01** Seeds of Revolt (the style/format gate, Step 0c)
-- **B02 = ch00a + ch00b** Foreword + Trotsky's Introduction
-- **B03&ndash;B21 = ch02 &hellip; ch20**, one chapter each.
+- **B01 = ch01** Seeds of Revolt &mdash; alone. It is the format/annotation gate
+  (Step 0c) **and** the calibration: once one chapter is fully annotated we know
+  how much context that costs, and size every later batch to fill (not exceed)
+  65%.
+- **B02 = ch00a + ch00b** Foreword + Trotsky's Introduction.
+- **ch02&ndash;ch20 grouped 2&ndash;4 per batch**, the exact grouping fixed from
+  Batch 1's measured cost. Provisional: ch02-03 / ch04-05 / ch06-08 / ch09-11 /
+  ch12-14 / ch15-17 / ch18-20.
 
-**Why one chapter per batch:** the commissioner's directive is *generous*
-footnoting (assume no background), so an early chapter alone runs to dozens of
-notes on top of converting Isaacs's own endnotes; and each batch is capped at
-~65% of the context window. One chapter per batch keeps every batch inside that
-cap with room for research and verification. Short adjacent chapters can be
-paired later if the annotation load proves lighter than expected.
+That lands around **8&ndash;10 batches total**, not 21.
 
 ## Open decisions for the commissioner
 

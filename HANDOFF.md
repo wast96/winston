@@ -56,6 +56,14 @@ to end:
    STYLE.local.md, and PRESENT ch01 to the commissioner for the format and
    note-density gate. STOP there.
 
+Batch 1 is also the CALIBRATION for batch sizing: in your wrap-up, report
+roughly how much of the context window this one fully-annotated chapter
+consumed (extraction + endnote conversion + editorial notes + research), so
+the following batches can be grouped to fill (not exceed) ~65%. Chapters 2+
+are lighter because the cast is front-loaded (most names get their note at
+first appearance here and are not re-noted), so later batches will group
+2-4 chapters. Propose the concrete grouping in your next kickoff.
+
 Cite printed folios (arabic). Deliver the EPUB in chat as an attached file and
 paste the next kickoff verbatim in the same reply.
 ```
@@ -121,8 +129,12 @@ paste the next kickoff verbatim in the same reply.
 ## What is NEXT
 
 - Batch 1 = ch01 "Seeds of Revolt" (PDF 24-41, printed 1-18). Ends at the Step
-  0c gate. Proposed order after: B02 = ch00a + ch00b (Foreword + Trotsky's
-  Introduction), then B03-B21 = ch02 through ch20, one chapter per batch.
+  0c gate, and also calibrates batch size. Proposed order after, GROUPED to fill
+  ~65% of context (target ~8-10 batches total, not one per chapter): B02 = ch00a
+  + ch00b (Foreword + Trotsky's Introduction); then ch02-ch20 in groups of about
+  2-4 (front-loaded cast makes later chapters lighter), the exact grouping set
+  from Batch 1's measured cost. A provisional grouping: ch02-03, ch04-05,
+  ch06-07-08, ch09-10-11, ch12-13-14, ch15-16-17, ch18-19-20.
 
 ## Open items for the read-through
 
