@@ -4,6 +4,15 @@ A project forked from this template should note here WHICH version it forked,
 so a mid-book "template upgrade pass" knows what fixes it predates. Keep this
 file when instantiating a project.
 
+## v2.4.1 — 2026-08-29
+
+- EPUB SIZE CAP (commissioner rule). Every EPUB either template produces
+  must be UNDER 30 MB, hard cap, ideally much less. `qa_epub.py` enforces
+  it: prints the size on every run, warns from 20 MB with the largest
+  archive members listed, fails the build at 30 MB. The budget lever is
+  image compression at ingest (figures ~150 KB, cover ~300 KB), not
+  shrinking a finished book. Encoded in both CLAUDE.md build sections.
+
 ## v2.4 — 2026-08-29
 
 The shelf-wide authority adjudication, the retrofit assessment template, and

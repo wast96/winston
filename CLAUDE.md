@@ -406,8 +406,13 @@ with the unified field vocabulary, valid deterministic UUIDv5, deterministic
 punctuation with popup semantics (`epub:type="noteref"` markers, `<aside
 epub:type="footnote">` bodies, so Apple Books and Kindle pop notes over the
 page), refuse-on-unmatched-anchor for BOTH note streams,
-figure-placement guard + alt text, series metadata. Run `qa_epub.py` after
-every build and epubcheck when available; a failure stops the line.
+figure-placement guard + alt text, series metadata. SIZE CAP (commissioner
+rule, 2026-08-29): the built EPUB must be UNDER 30 MB, hard cap, ideally much
+less; `qa_epub.py` fails at the cap and warns from 20 MB listing the largest
+members. The budget goes to images: recompress oversized source figures at
+ingest (a figure rarely needs more than ~150 KB, the cover ~300 KB). Run
+`qa_epub.py` after every build and epubcheck when available; a failure stops
+the line.
 
 ## The revision pass / HANDOFF / Corrections / Done
 
