@@ -4,6 +4,67 @@ A project forked from this template should note here WHICH version it forked,
 so a mid-book "template upgrade pass" knows what fixes it predates. Keep this
 file when instantiating a project.
 
+## v2.3 — 2026-08-29
+
+The first promotion pass, plus the register-pass tooling the books built.
+Harvested from the-sword-roars (the B09 commissioner register review),
+chinas-secret-war (the review adopted and applied, with measured
+calibration), chen-yangshan (voice-gate and revision rulings), the zhou-enlai
+register assessment, and the fiction-side revision plans. Every promoted rule
+carries a provenance comment in its layer.
+
+- LAYERS PROMOTED. `_base.md`: the read-aloud and modern-writer tests; the
+  keynote-register guard ("de-stiffen the machine, never the voice," from
+  the-rebel); the spine test for long sentences; kill-inversions; the antique
+  function-word kill list; scene-primed second meaning (moved from lang-ja,
+  it is language-independent); no sentence-initial numerals; date-format and
+  spelling-locale decided at setup; footnote shaping mechanics (one note =
+  one referent, marker placement, one gloss mechanism, density balance).
+  `lang-zh.md`: chengyu three-bin triage; de-nominalization; 等-tag and
+  one-after-another variation; interrogative "in the end"; the could-only
+  class; source-punctuation function (narration ellipses). `lang-ja.md`:
+  proofread every inserted character. `genre-nonfiction.md`: the
+  modern-neutral register baseline (three voices); the narration-contraction
+  DIAL with its recorded conflict (adopted on two books, declined on a
+  third); quotation attribution front-load and quote-tag variation; formula
+  fatigue.
+- PROMOTION MECHANICS. `styles/INDEX.md` defines `#adopted` (adoption is not
+  corroboration; surviving application is validation), records commissioner
+  declines against a rule, promotes contested rules as per-book DIALS, and
+  gives the harvest a trigger: COMPLETION.md now requires a style ledger
+  harvest section listing the book's `#promote` rules.
+- TOOLING. `scripts/register_tics.py`: the greppable tic battery both real
+  register passes had to build per-book, generalized (per-unit listing +
+  `--profile` calibration table + `data/register_tics.local.json` per-book
+  config), with a regression fixture in tests. `scripts/anchor_check.py`:
+  pre-flight anchor-collision check for edit lists. `check_register.py`
+  gains informational narration columns (contraction share, bangs/1k,
+  antique-word count): the second drift campaign was narration-side and the
+  dialogue metrics cannot see it (references/register-drift.md tells that
+  story).
+- FOOTNOTE DENSITY DIRECTIVE (commissioner, shelf-wide). Default to
+  footnoting, not omitting: assume a reader with no background for the
+  events, places, people, ideas, and items unique to the book's time and
+  place, note every such reference at first appearance with real content and
+  the fact-check verdict, and sweep the lost-in-translation layer (wordplay,
+  idiom images, register shifts, meaningful names, forms of address) with the
+  same generosity. The old "8-15 notes early" guide and the default
+  unfootnoted-discrepancy tier are retired; an early chapter now runs dozens
+  of notes (the directive's source book went 24 to 73 on chapter one at its
+  gate). Padding is still forbidden: a note must say something beyond the
+  name. Encoded in CLAUDE.md's footnote section and `_base.md`'s apparatus
+  section.
+- PROCESS. REVISION_PLAN.template: measured calibration baseline before any
+  editing; per-unit blind critique as the one sanctioned context-free
+  subagent; anchor_check before every apply; tics regression and KEEP-list
+  diff sweep in the exit checklist; the mid-book sequencing rule (freeze the
+  sheet, draft the back half congruous, sweep the front once); the optional
+  ANALYZE/EXECUTE role split. STYLE.local.template gains the KEEP list and
+  the consistency canon; the voice gate calibrates the register dials and the
+  critic-prompt file documents the known blind-critic false positives.
+  `tools/sync_shared.sh` now carries the new scripts, the register-drift
+  reference, and itself (it runs on the EPUB master, which did not have it).
+
 ## v2.2 — 2026-08-15
 
 The composable style system, plus the voice-gate auto-evolution loop.

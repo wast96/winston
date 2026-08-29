@@ -22,6 +22,16 @@ Punctuation rates (em-dash, semicolon, colon) are weaker signals: they vary
 legitimately with how much parenthetical material the source has. Treat a
 punctuation gap as a question, not a defect.
 
+Narration-side columns (contraction share of contractable negations,
+reveal-bangs per 1k narration words, antique-word count) were added after two
+whole-book register passes found the real fight was narration starch, which
+the dialogue metrics cannot see. They are informational, never failures: the
+narration dial is calibrated per book at the voice gate (genre layer +
+STYLE.local), and scripts/register_tics.py carries the full greppable battery.
+Chapters under ~1,200 speech words are flagged noisy here and skipped for the
+dialogue failure test (the reference doc's ~400-word floor is where the metric
+stops meaning anything at all; between the two, look before acting).
+
 Usage:
     check_register.py --ref reference/ch1.md out/ch*.md
 """
@@ -46,15 +56,36 @@ def words(t):
 def measure(path):
     t = load(path)
     speech = ' '.join(SPEECH.findall(t))
+    narration = SPEECH.sub(' ', t)
+    nw = len(words(narration)) or 1
     sw = len(words(speech)) or 1
     aw = len(words(t)) or 1
     shall = len(re.findall(r'\bshall\b', speech, re.I))
     will = len(re.findall(r'\bwill\b', speech, re.I))
+    # Narration-side formality: the shelf's later drift fights (two full
+    # register passes) were narration-side, not dialogue-side, so measure
+    # narration too. Contraction share of contractable negations, the
+    # reveal-bang rate, and the antique-word count are all INFORMATIONAL:
+    # report, never fail — the calibrated dial lives in the style contract
+    # (genre layer + STYLE.local), and quoted documents legitimately skew a
+    # documentary chapter. scripts/register_tics.py carries the full battery.
+    n_contr = len(re.findall(CONTRACTION, narration))
+    n_neg = len(re.findall(
+        r"\b(?:did|do|does|could|would|should|had|has|have|is|was|were|are|"
+        r"will|can) not\b|\bcannot\b", narration, re.I))
+    antique = len(re.findall(
+        r"\b(?:thereupon|whereupon|at length|presently|ere long|"
+        r"of a morning|of an evening|was wont to|had no wish to|"
+        r"made bold to|and no mistake|still less could|forthwith)\b",
+        narration, re.I))
     sents = [s for s in re.split(r'(?<=[.!?])["”]?\s+', t) if len(s.split()) > 1]
     return {
         'speech_words': sw,
         'contr_per_1k': 1000.0 * len(re.findall(CONTRACTION, speech)) / sw,
         'shall_share': 100.0 * shall / max(1, shall + will),
+        'narr_contr_share': 100.0 * n_contr / max(1, n_contr + n_neg),
+        'narr_bang_per_1k': 1000.0 * narration.count('!') / nw,
+        'antique_words': antique,
         'emdash_per_1k': 1000.0 * t.count('—') / aw,
         'semicolon_per_1k': 1000.0 * t.count(';') / aw,
         'sent_median': st.median([len(s.split()) for s in sents]) if sents else 0,
@@ -83,14 +114,18 @@ def main():
     ref = measure(a.ref)
     print("reference: %s" % a.ref)
     print("   dialogue contractions %.1f/1k   shall-share %.0f%%   "
-          "em-dash %.1f/1k   rhythm CV %.2f\n"
+          "em-dash %.1f/1k   rhythm CV %.2f"
           % (ref['contr_per_1k'], ref['shall_share'],
              ref['emdash_per_1k'], ref['sent_cv']))
+    print("   narration: contraction share %.0f%%   bangs %.1f/1k   "
+          "antique words %d   (informational)\n"
+          % (ref['narr_contr_share'], ref['narr_bang_per_1k'],
+             ref['antique_words']))
 
     hdr = ('file', 'contr/1k', 'vs ref', 'shall%', 'em-dash/1k', 'sent med',
-           'rhythm')
-    print('%-26s %9s %8s %7s %11s %9s %7s' % hdr)
-    print('-' * 86)
+           'rhythm', 'nar-c%', 'bang/1k', 'antq')
+    print('%-26s %9s %8s %7s %11s %9s %7s %7s %8s %5s' % hdr)
+    print('-' * 108)
 
     failures, warnings = [], []
     for f in a.files:
@@ -110,10 +145,15 @@ def main():
         if (m['sent_cv'] and ref['sent_cv'] and not flag
                 and m['sent_cv'] < 0.7 * ref['sent_cv']):
             flag = '  <-- rhythm flattening (read it aloud; informational)'
-        print('%-26s %9.1f %7.2fx %6.0f%% %11.1f %9.0f %7.2f%s'
+        print('%-26s %9.1f %7.2fx %6.0f%% %11.1f %9.0f %7.2f %6.0f%% %8.1f %5d%s'
               % (f.split('/')[-1], m['contr_per_1k'], ratio, m['shall_share'],
-                 m['emdash_per_1k'], m['sent_median'], m['sent_cv'], flag))
+                 m['emdash_per_1k'], m['sent_median'], m['sent_cv'],
+                 m['narr_contr_share'], m['narr_bang_per_1k'],
+                 m['antique_words'], flag))
 
+    print("\nnarration columns are informational (the dial is calibrated per "
+          "book at the voice gate);\nrun scripts/register_tics.py for the "
+          "full greppable battery with line numbers.")
     if warnings:
         print("\nNOTE: elevated \"shall\" in %s — verify it is a deliberately"
               " formal speaker before changing anything." % ', '.join(

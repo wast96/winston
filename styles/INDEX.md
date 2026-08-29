@@ -74,6 +74,29 @@ The discipline that prevents both staleness and over-generalization:
    tell a battle-tested rule from an over-generalized one and can trace a bad
    rule back. After a promotion, run `sync_shared.sh` on the EPUB master so both
    branches carry the identical layer.
+4. **What counts as corroboration.** Independent discovery corroborates: two
+   books whose own corrections reached for the same rule. Adoption does not: a
+   rule a book imported wholesale from a sibling's ledger is tagged
+   `#adopted` beside its `#promote`, and an adopted rule that then SURVIVES
+   application on that book (the pass ran, the rule held, the commissioner did
+   not push back) counts as validation, which is weaker than discovery but
+   still real. A commissioner DECLINE on any book is recorded against the rule
+   in the promoted provenance comment; a rule with both adoptions and a
+   decline is promoted as a per-book DIAL with a stated shelf default, never
+   as a flat rule (the narration-contraction dial in `genre-nonfiction.md` is
+   the worked example).
+5. **The harvest has a trigger.** COMPLETION.md's checklist requires the
+   finished book to list its `#promote` rules with their corroboration status.
+   The promotion pass itself runs between books, on `master`, reading those
+   lists plus the ledgers on the book branches
+   (`git show origin/claude/<book>:STYLE.local.md`). A pass with nothing
+   promotable still records that it ran, in `TEMPLATE_CHANGELOG.md`, so the
+   next reader knows the layers are current rather than stale.
+
+The first promotion pass ran as template v2.3 (see `TEMPLATE_CHANGELOG.md`),
+harvesting the-sword-roars, chinas-secret-war, chen-yangshan, and the
+zhou-enlai register assessment; every rule it moved carries a provenance
+comment in its layer.
 
 ## Auto-evolution at the voice gate
 

@@ -133,7 +133,13 @@ out, and footnotes that catch everything such a reader would miss.
 Before serving the Batch 1 kickoff, **compose the style contract**: once
 `book.json` is authored (with `source_language` and `subjects` set), run
 `python3 scripts/compose_style.py` and commit `STYLE.md` + `STYLE.local.md` so
-Batch 1 starts from them (see Register, formatting, glossary).
+Batch 1 starts from them (see Register, formatting, glossary). In the same
+sitting, make the two whole-book format decisions and write them into
+`STYLE.local.md`'s consistency canon: **date format** (shelf default
+"Month D, YYYY") and **spelling locale** (shelf default American). They bind
+body, notes, glossary, and `book.json` titles alike; three books shipped a
+mid-book format flip that cost a mechanical sweep each, and
+`scripts/register_tics.py` greps for drift against both defaults every batch.
 
 ## Step 0c: the first-chapter voice gate (SECOND approval gate)
 
@@ -159,6 +165,11 @@ because they know what it means. We want neither.
    Apply each to `out/<unit>_reading.md` and re-verify every changed line against
    the source as if it were new translation (rule 4: a repair invents nothing).
    Where the reader misread only for lack of the source, note why and skip it.
+   Known blind-critic false positives to check before accepting a finding (the
+   critic-prompt file lists them): load-bearing quoted verse and allusion read
+   as "vague/purple"; partisan epithets that are content; deliberate anaphora
+   and parity-locked one-line paragraphs; a gnomic present the author chose.
+   The ledger's KEEP list is the adjudication reference.
 4. **Evolve the style.** Cluster the corrections into CLASSES, ask WHY each
    happened, and write each as a RULE / WHY / FIX / CHECK entry in
    `STYLE.local.md`, tagged `#book` or `#promote`. The class-preventing rule is
@@ -171,7 +182,10 @@ because they know what it means. We want neither.
 
 Now the commissioner reads the chapter and judges voice, note density, and
 formatting; include a short summary of what the blind loop caught and how you
-tightened `STYLE.local.md`. On approval the chapter becomes the FROZEN REFERENCE
+tightened `STYLE.local.md`. Calibrate the per-book register DIALS here too (the
+narration-contraction dial in the genre layer is the type case) and write the
+settings into `STYLE.local.md`'s consistency canon; a dial left unset gets
+re-litigated every batch. On approval the chapter becomes the FROZEN REFERENCE
 for `check_register.py --ref` (never a running average; against a moving
 baseline, drift is invisible by construction). Every completed book that skipped
 this gate needed a whole-book revision pass.
@@ -282,7 +296,10 @@ Every chapter (scripted, cheap):
 4. **Alignment and content/displacement** — `check_align.py`,
    `check_content.py`.
 5. **Register vs the frozen reference** — `check_register.py --ref` (exempt
-   registers per `references/register-drift.md`).
+   registers per `references/register-drift.md`). `register_tics.py <id>` runs
+   in the same breath (one grep pass, informational): the narration-side
+   batteries the reference metrics cannot see; every hit faces its carve-outs
+   before it is a defect.
 6. **Tail verification** against the source.
 
 Once per book, bounded:
@@ -304,19 +321,31 @@ Once per book, bounded:
 ## Footnotes — what earns one (be generous; never invent)
 
 Identical contract to the scanned template, and it matters more than
-anything else in this file: **density is a reader model, not a quota**. The
-reader is a Westerner with no background in Chinese history, family
-structure, or custom; anything such a reader would miss earns a note, swept
-across four domains (material culture, social structure, customs and belief,
-institutions and money). Early chapters typically want 8-15; the count
-tapers naturally as the furniture gets covered; do not pad. Kinds: (1)
+anything else in this file: **density is a reader model, not a quota, and
+the model is GENEROUS: default to footnoting, not to omitting.**
+Commissioner directive, shelf-wide (2026-08-29): assume the reader has NO
+background for the events, places, people, ideas, and items unique to this
+book's time, place, and chain of events. Every named person, place,
+institution, event, office, journal, object, and period term such a reader
+might not place gets a note at its FIRST appearance (who/what/when, why it
+matters here, the fact-check verdict where checkable), swept across four
+domains (material culture, social structure, customs and belief,
+institutions and money). Skip only the genuinely universal and what the
+prose itself fully explains; a note must still SAY something beyond the
+name, and notes added just to add them are still the failure mode. Under
+this model an early chapter runs DOZENS of notes (the book that set the
+directive went 24 to 73 on chapter one); the count tapers late only because
+recurring furniture got its note at first appearance. Kinds: (1)
 translation uncertainty, (2) references a non-specialist won't catch, with
-the verdict stated, (3) texture lost in translation, (4) the author as
-interested witness. First-appearance discipline with the greps; the "NOT
-re-noted" ledger per batch; the glossary is the quarry and the footnote says
-MORE than the glossary row. Anchors verbatim, verified at write time; bodies
-XHTML with numeric character references only; a chapter H1 cannot carry a
-note; numbering is the builder's.
+the verdict stated, (3) texture lost in translation (idiom images,
+wordplay, register shifts, meaningful names, forms of address; be as
+generous here as with kind 2, this is the layer a reader cannot even know
+they are missing), (4) the author as interested witness. First-appearance
+discipline with the greps; the "NOT re-noted" ledger per batch; the
+glossary is the quarry and the footnote says MORE than the glossary row.
+Anchors verbatim, verified at write time; bodies XHTML with numeric
+character references only; a chapter H1 cannot carry a note; numbering is
+the builder's.
 
 ## Register, formatting, glossary
 

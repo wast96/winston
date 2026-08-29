@@ -2,9 +2,17 @@
 
 Copy this file to `REVISION_PLAN.md` when the commissioner's read of the
 finished book produces style or annotation feedback. Fill every section IN
-ORDER; the structure is the merged shape of the two revision passes that
-actually worked. Where `HANDOFF.md` disagrees with this plan, this plan wins;
-the handoff predates the revision.
+ORDER; the structure is the merged shape of the register passes that actually
+worked (the shelf has now run four). Where `HANDOFF.md` disagrees with this
+plan, this plan wins; the handoff predates the revision.
+
+MID-BOOK CASE. If the register feedback arrives while chapters remain
+untranslated, do NOT run this pass yet. Freeze the new rules into
+`STYLE.local.md`, draft every remaining chapter against them so the back half
+is congruous, and run ONE mechanical sweep over the earlier chapters at the
+end. Fixing drift and then re-introducing it while drafting doubles the work;
+this sequencing is a commissioner-stated process rule from the book that hit
+the case.
 
 ## 1. State of play — what is DONE, do not redo
 
@@ -29,6 +37,13 @@ merged or split, no name is re-romanized outside an explicit correction.>
   genuinely dropped closing quote.
 
 ## 3. The register target
+
+3.0 The measured calibration baseline, BEFORE any editing: run
+`python3 scripts/register_tics.py --profile`, date the table, and paste it
+here. Those counts are the state to improve, the sizing basis for the
+batches, and the regression baseline every batch is re-measured against.
+Both real register passes started here; a pass planned without measurement
+over-predicts defect density by an order of magnitude.
 
 3.1 A falsifiable voice test: <e.g. "could a good contemporary translator of
 Mo Yan have written this sentence?">. Quote the commissioner's brief verbatim.
@@ -62,18 +77,33 @@ to read that diff as the target.
 
 ## 5. Method per chapter (do it exactly like this)
 
-1. Read zh and en in ALIGNED chunks of 40-60 paragraphs. Do not skim only the
+1. `python3 scripts/register_tics.py <id>` for the grep candidates, each
+   adjudicated against the KEEP list and the read-aloud test.
+2. BLIND CRITIQUE, per unit: `python3 scripts/voice_gate_critique.py prepare
+   <id>`, hand `out/<id>_critique_prompt.md`'s contents to ONE fresh
+   context-free subagent (no source, no STYLE, no glossary, no project
+   context; the blindness is the point), archive with
+   `voice_gate_critique.py record <id> <file>`. The blind reader hunts what
+   greps cannot. This is the one sanctioned use of a subagent in the pass
+   (it must not share context by design); all editing stays in-session and
+   sequential. Where the blind reader misread only for lack of the source,
+   or flagged something on the KEEP list, record why and skip.
+3. Read zh and en in ALIGNED chunks of 40-60 paragraphs. Do not skim only the
    English; half the value is catching quiet fidelity drift (the only real
-   fidelity defects either revision pass found were invisible to an
+   fidelity defects any revision pass found were invisible to an
    English-only read).
-2. Write the edit list to `edits/<id>_edits.md` in the apply_edits.py grammar
+4. Write the edit list to `edits/<id>_edits.md` in the apply_edits.py grammar
    (OLD occurs exactly once; NOTE-ANCHOR pairs for any anchor an edit breaks;
    NOTE-ADD blocks for new notes). Collect footnote candidates in the SAME
    read, not a second one.
-3. Apply mechanically: `python3 scripts/apply_edits.py <id>`. If an edit
+5. `python3 scripts/anchor_check.py <id>`: fix every collision in the edit
+   list BEFORE applying (the builder's refusal is the backstop, not the
+   check).
+6. Apply mechanically: `python3 scripts/apply_edits.py <id>`. If an edit
    cannot apply cleanly, skip it and log why; never improvise a third wording.
-4. `python3 scripts/verify_unit.py <id>`. Next chapter.
-5. Spot-audit 10% of edited paragraphs (min 10) against the source for
+7. `python3 scripts/verify_unit.py <id>`, and `register_tics.py <id>` again
+   as the regression read against the 3.0 baseline. Next chapter.
+8. Spot-audit 10% of edited paragraphs (min 10) against the source for
    meaning drift; record in PROGRESS.md.
 
 ## 6. Footnote expansion protocol
@@ -90,16 +120,27 @@ to read that diff as the target.
 
 ## 7. Batch structure and contingency
 
-Batches balanced by paragraph count, not chapter count. NO subagent fan-out:
+Batches balanced by paragraph count, not chapter count. NO subagent fan-out
+(the per-unit blind critic in section 5 is the sole, context-free exception):
 a real attempt burned the session budget on agents re-reading shared context;
 sequential in-session work is cheaper and easier to keep uniform. If the
 session dies: stop at a chapter boundary, commit, push, deliver, and record
 the exact resume point ("polished through chNN; notes integrated through
 chNN").
 
+Optional role split for a long pass run across sessions: ANALYZE (reads a
+chapter against the source, produces the committed edit list) and EXECUTE
+(applies the list exactly, runs every check, rebuilds, delivers). One book ran
+its whole register pass this way; the split keeps the judgment work and the
+mechanical work separately auditable. Calibrate on an exemplar chapter first
+either way and require every later batch to read that diff as the target.
+
 ## 8. Exit checklist (copy into each batch log)
 
 - [ ] every edited chapter verify_unit green
+- [ ] anchor_check clean before every apply (no collision reached the builder)
+- [ ] register_tics re-measured against the 3.0 baseline; movement recorded
+- [ ] KEEP-list sweep of the diff (a mechanical pass WILL over-correct 2-3)
 - [ ] typography guard clean
 - [ ] build green, qa_epub PASS
 - [ ] spot-audit recorded

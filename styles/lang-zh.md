@@ -14,7 +14,16 @@ quoted examples.)
 7. **The 的-string / stacked pre-noun modifier.** Chinese piles modifiers before
    the noun with 的; traced literally it becomes a long adjective train or an
    "of ... of ..." chain. Unstack: head noun first, modifiers following as
-   clauses or after the noun.
+   clauses or after the noun. The nominal special case: 的-phrases and verbal
+   nouns tempt "the [gerund] of the [noun]" ("the scattering of exposed
+   cadres, the safeguarding of the Center's organs"); each forces an "of," and
+   strung together they make the committee-minutes trudge. Convert roughly
+   two-thirds to finite verbs ("scattering cadres who had been exposed,
+   safeguarding the Center's organs"); LEAVE the genuinely idiomatic set ("the
+   founding of the People's Republic," "the killing of these men"). Convert by
+   the read-aloud test, not by count.
+   <!-- de-nominalization: promoted v2.3, the-sword-roars (B09) +
+        chinas-secret-war (adopted, 114 hits measured) + zhou-enlai (42) -->
 8. **Topic-comment fronting as "As for ...".** Chinese fronts the topic
    (关于…方面, 在…上). Do not calque it as "As for X, ..."; fold the topic into
    the subject and let the sentence move.
@@ -33,13 +42,27 @@ quoted examples.)
 12. **Empty connective padding.** 所以说, 可以说, 这样一来, 换句话说 often add
     nothing. Cut them and let the fact stand.
 13. **成语 transplanted as a picture.** Translate the four-character idiom for
-    EFFECT. Keep the vivid literal image only where it lands in English ("kill
-    the chicken to warn the monkey" works); use the natural English idiom where
-    the image would not (臭不可闻 is "stank to high heaven," not "so smelly it
-    could not be smelled"; 鹤立鸡群 is "stood out," not "stood out like a crane
-    among chickens"). Footnote the ones whose flavour survives neither way.
-    Transplanting the picture where it does not land IS the chinoiserie effect;
-    avoid it.
+    EFFECT, by sorting every idiom into one of three bins BEFORE rendering:
+    <!-- three-bin triage: promoted v2.3, the-sword-roars (chengyu triage) +
+         chinas-secret-war (adopted) + chen-yangshan (idiom ruling) +
+         on-a-hair-trigger (T1 class of its register pass) -->
+    1. **Self-evident from the image: keep it literal.** "Kill the chicken to
+       warn the monkey," "the cliff's edge," "the tiger's mouth." The English
+       picture carries the sense on its own.
+    2. **Culturally load-bearing but opaque: keep it and FOOTNOTE.** 瓜田李下
+       ("keeps clear of the melon patch and the plum tree"), 近水楼台. The
+       image matters; the reader needs the note.
+    3. **No image an English reader can parse: silently naturalize to the
+       sense.** 臭不可闻 is "stank to high heaven," not "so smelly it could not
+       be smelled"; 鹤立鸡群 is "stood out"; 魂飞魄散 is "scared out of her
+       wits"; 竹篮打水 is "all for nothing." A raw bin-3 calque must never
+       reach the body; transplanting the picture where it does not land IS the
+       chinoiserie effect. When the source stacks several chengyu in one
+       sentence, keep at most the one that lands and naturalize the rest.
+    A bare one-clause "quoted-proverb" sentence dropped between two narrative
+    sentences is the tell that a calque got through; an idiom that is ONLY an
+    idiom needs folding into the surrounding sentence or an English frame ("as
+    the old saying runs, ...").
 14. **对仗 / balanced antithesis.** The source loves balanced phrases
     (枪杆子…刀把子, 一明一暗, 化敌为友、化友为我). Two failure modes, both
     directions: do not trace the parallel into wooden English, and do not
@@ -68,6 +91,31 @@ Word-for-word carries of specific Chinese constructions. Each is a find-and-fix.
 - **之至 / 极 ("of the very highest").** Recast: "exceptional," "considerable,"
   or restructure. Not "were of the very highest."
 - **确实 as a trailing "indeed."** Cut most.
+- **等 / 等人 after a name-list as the same tag every time.** "and the rest" /
+  "and the others" dozens of times per book is a tic (62 hits on one book, 87
+  on another). Vary ("among others"), restructure, or cut where the list is
+  complete or the tag re-lists names just given. Target: no single tag
+  dominating a unit, NOT zero. Leave a tag that sits inside a note anchor
+  alone; do not restructure anchored text for a tic.
+  <!-- promoted v2.3: the-sword-roars + chinas-secret-war + chen-yangshan +
+       zhou-enlai (all measured) -->
+- **纷纷 / 先后 / 相继 / 陆续 as "one after another" every time.** Vary by
+  sense: "in turn," "one by one," "in succession," "a few at a time," or cut.
+  Keep one instance where it reads best.
+  <!-- promoted v2.3: the-sword-roars + zhou-enlai (31 hits measured) -->
+- **到底 / 究竟 as "in the end" inside a question.** Native English does not
+  use "in the end" as an interrogative intensifier ("Did he, in the end,
+  perform magic or not?"). Use "actually" / "really," recast ("So did he or
+  didn't he?"), or cut. Narrative "in the end" meaning "ultimately" is fine;
+  only the interrogative use is the calque.
+  <!-- promoted v2.3: the-sword-roars + chinas-secret-war -->
+- **只能 / 不得不 / 不禁 / 不能不 as "could only / could not but / could not
+  help."** Part of the antique default (_base kill list). "He could only come
+  without a shadow and go without a trace" becomes "He had to move without a
+  trace"; "we cannot help asking" becomes "it is worth asking," or just ask
+  the question; 不禁 is often simply cut. Idiomatic hits ("could only watch")
+  stay.
+  <!-- promoted v2.3: the-sword-roars + chinas-secret-war + zhou-enlai -->
 - **Bare transliterations and coinages.** 工作网 is "network," not "work net";
   gloss anything a reader cannot picture (马兰纸 "malan-grass paper";
   顺风耳 "downwind ear" wants a gloss even inside a quote).
@@ -91,6 +139,18 @@ dash; render the sense, do not import a Chinese dash count. When a sentence
 would exceed the budget, swap a dash for a semicolon (a balanced second clause),
 a comma (a light aside), or a period (split it). `check_register.py --ref`
 tracks the em-dash rate against the frozen reference; a jump is a flag to look.
+
+## Source punctuation: render the FUNCTION, not the shape
+<!-- promoted v2.3: zhou-enlai (voice-gate ruling 8) + the-sword-roars +
+     chinas-secret-war (narration-ellipsis rule, both adopted) -->
+- **Trailing ...... in narration.** The source's six-dot ellipsis is an
+  atmospheric convention; carried into English narration it reads as pulp
+  ("the fellow screamed and let go..."). Close the sentence with a period, or
+  complete it. Keep "..." only inside a quotation whose speaker or text
+  genuinely breaks off.
+- **。…… (full stop plus ellipsis) marking an abridged litany or quotation.**
+  In running narrative, cut it; in a quotation, close on a single trailing
+  ellipsis.
 
 ## Romanization and units
 - **Pinyin**, one rendering per referent, decided in `glossary.json` and checked
