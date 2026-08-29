@@ -23,15 +23,21 @@ It is the only style file a session edits; read it at the start of every batch.
   (`labour`, `Soviet`, `centre` where he uses it), his punctuation, his
   capitalisation. His em dashes stay. Do not Americanize his text.
 
-## Two note layers, one stream
+## Two note layers, distinguished by NUMERAL SYSTEM (commissioner decision)
 
 - **Author's notes** = Isaacs's own numbered endnotes, moved to the point they
-  document. Body is his endnote text, verbatim. **Unmarked.**
-- **Editorial notes** = the new reader-facing layer. Each **opens with `Ed. `**
-  (rendered from the note body — put a leading `<i>Ed.</i>&#160;` in the note
-  text) so the reader always knows which voice is speaking.
-- Both share the builder's single continuous numbering (auto-assigned). The
-  notes page and popups distinguish them by the `Ed.` mark.
+  document. Body is his endnote text, verbatim. Marked in **arabic (1, 2, 3)**,
+  exactly as he numbered them.
+- **Editorial notes** = the new reader-facing layer. Marked in **roman
+  (i, ii, iii)** so the reader tells the two apart at a glance. Do NOT prefix
+  them with "Ed." (superseded); the roman numeral is the signal. (Isaacs uses
+  arabic, so editorial gets roman; had he used roman, editorial would be
+  arabic.)
+- **Numbering restarts each chapter** for both streams (keeps roman marks short
+  and matches Isaacs's per-chapter scheme). notes.json entries carry a kind:
+  editorial notes set `"ed": true`; author notes omit it. The builder keeps two
+  per-chapter counters and renders arabic vs lowercase-roman superscripts, with
+  distinct ref/backlink ids per stream. (Implemented and QA'd in Batch 1.)
 
 ## Editorial-note register and content
 
@@ -69,6 +75,13 @@ It is the only style file a session edits; read it at the start of every batch.
   fake them as body paragraphs.
 - Scene/section shifts inside a chapter (Isaacs uses white-space breaks, no
   titles): render as `***` where the source clearly breaks.
+- **Printed-page anchors for the linked index:** every batch writes
+  `data/pagemap/<unit>.json` (printed folio -> the body-paragraph index where
+  that page begins), so the builder emits `epub:type="pagebreak"` anchors. The
+  final batch parses the printed index and renders a back-matter **Index** page
+  whose folio references link to those anchors (commissioner wants the index
+  kept and navigable). Generate the pagemap during extraction, when the
+  PDF-page-to-paragraph boundaries are still in hand.
 - `check_register.py` / `check_reconcile.py` still apply to the **editorial**
   prose for consistency (name forms, spelling locale, date format), not to
   Isaacs's text.

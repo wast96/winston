@@ -35,7 +35,7 @@
   "note_heading": "A Note on This Edition",
   "translator_note": [
     "This is an annotated reading edition of <i>The Tragedy of the Chinese Revolution</i> by Harold R. Isaacs, reset from the Haymarket Books (2009) reprint of the first edition (Secker &#38; Warburg, London, 1938). Isaacs's text is reproduced as printed; nothing in the narrative has been rewritten, modernized, or abridged.",
-    "Two kinds of note appear at the foot of the page. Isaacs's own reference notes &#8212; the numbered citations he gathered at the back of the book &#8212; have been moved to the point in the text they document, so a reader can see the source without turning to the endmatter. To these has been added a second, editorial layer: brief notes identifying the people, places, institutions, offices, and party and Comintern terms that a reader without a background in modern Chinese history would not be expected to know, and flagging, where it is checkable, whether a claim is corroborated by later scholarship. Editorial notes are marked as such; every other note is Isaacs's own.",
+    "Two kinds of note appear at the foot of the page. Isaacs's own reference notes &#8212; the numbered citations he gathered at the back of the book &#8212; have been moved to the point in the text they document, so a reader can see the source without turning to the endmatter; these keep their arabic numbers (1, 2, 3). To these has been added a second, editorial layer, numbered in roman (i, ii, iii) to set it apart: brief notes identifying the people, places, institutions, offices, and party and Comintern terms that a reader without a background in modern Chinese history would not be expected to know, and flagging, where it is checkable, whether a claim is corroborated by later scholarship. The numbering restarts with each chapter.",
     "Isaacs wrote in the Wade-Giles romanization standard in the 1930s (Chiang Kai-shek, Borodin, Kuomintang, Wuhan). His spellings are kept in the text. The glossary and the notes give the modern pinyin form and, where useful, the Chinese characters, so that a name here can be matched to one in a present-day account.",
     "The book is a partisan work, written from a Trotskyist standpoint and carrying an introduction by Trotsky himself. The editorial notes try to mark where the account is shaped by that standpoint, and where its factual claims have held up, without arguing with the author."
   ],
@@ -50,7 +50,7 @@
   ],
   "toc_flags_resolved": [],
 
-  "_index_decision": "The printed index (printed 374 to end) references print page numbers that do not survive reflow. Recommendation, pending commissioner approval at the survey gate: OMIT the index rather than reproduce dead page references. Revisit only if a linked index is wanted.",
+  "_index_decision": "COMMISSIONER DECISION: build a LINKED index. The printed index (printed 374 to end) references print page numbers that do not survive reflow, so each page reference is converted to a hyperlink to that printed page's anchor. Mechanism: every batch generates data/pagemap/<unit>.json (printed folio -> body-paragraph index) during extraction, which the builder turns into epub:type=pagebreak anchors (id pg-<unit>-<folio>) plus a page-list nav; the final batch parses the printed index and renders it as a back-matter Index page whose every folio reference links to the matching pg- anchor, with 'see/see also' cross-references linked to the target index entry. Built and QA'd in the final batch (needs anchors from all chapters).",
 
   "pdf_end": 362,
   "printed_end": 339,

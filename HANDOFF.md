@@ -33,19 +33,28 @@ to end:
    digits from the prose (they become footnote anchors). Preserve paragraph
    breaks and Isaacs's own British 1938 spelling. Mark his block quotations.
    Never paraphrase or invent: this is his prose (rule 4 binds; verify the tail
-   against source.pdf before shipping).
-2. Add a block-quote marker to the builder (proposed prefix "{q} ", an indented
-   block) since Isaacs quotes documents at length; qa_epub and epubcheck must
-   stay clean after.
+   against source.pdf before shipping). ALSO write data/pagemap/ch01.json
+   (printed folio -> body-paragraph index where that page begins) while the
+   PDF-page boundaries are in hand; it feeds the pagebreak anchors the linked
+   index will target.
+2. Add two builder features (gate qa_epub AND epubcheck clean after both):
+   (a) a block-quote marker (proposed prefix "{q} ", an indented block) since
+   Isaacs quotes documents at length; (b) TWO-STREAM note numbering, since the
+   commissioner wants the two note layers told apart by numeral system, not an
+   "Ed." tag. Author notes render in arabic (1, 2, 3), editorial notes in
+   lowercase roman (i, ii, iii); BOTH restart per chapter; notes.json marks an
+   editorial note with "ed": true (author notes omit it); ref/backlink ids must
+   be unique per stream and per chapter (e.g. n-ch01-1 / en-ch01-i). Adapt
+   qa_epub's note check to the two per-chapter streams.
 3. Convert Isaacs's own chapter-1 endnotes (printed 340+, numbered per chapter)
    into anchored popup footnotes in notes.json: detect the 5.5pt superscript
    digits, anchor each to the phrase it follows, note body = his endnote text
-   verbatim. Leave these UNMARKED (author's notes).
+   verbatim. These are AUTHOR notes: arabic, no "ed" flag.
 4. Add the editorial footnote layer per CLAUDE.md's generous density model, each
-   note opening with "<i>Ed.</i>&#160;": who/what/when for every 1920s name,
-   place, institution, office, and party or Comintern term a non-specialist
-   would miss, with the fact-check verdict where checkable (real scholarship
-   only, never AI sources, rule 5).
+   marked "ed": true (renders as a roman numeral, NOT an "Ed." prefix):
+   who/what/when for every 1920s name, place, institution, office, and party or
+   Comintern term a non-specialist would miss, with the fact-check verdict where
+   checkable (real scholarship only, never AI sources, rule 5).
 5. Bootstrap glossary.json (key = hanzi; en = Isaacs's Wade-Giles form; pinyin =
    modern pinyin; note = identification); flag principals with "principal": true
    for the Principal Characters page.
@@ -135,13 +144,25 @@ paste the next kickoff verbatim in the same reply.
   2-4 (front-loaded cast makes later chapters lighter), the exact grouping set
   from Batch 1's measured cost. A provisional grouping: ch02-03, ch04-05,
   ch06-07-08, ch09-10-11, ch12-13-14, ch15-16-17, ch18-19-20.
+- The FINAL batch is kept light on chapters: it also builds the linked Index
+  from all the pagemaps, does the whole-book reconciliation sweep, and writes
+  COMPLETION.md.
+
+## Commissioner decisions (settled; no longer open)
+
+- LINKED index (not omitted): build it in the FINAL batch from per-chapter
+  pagemaps; each folio reference links to its pagebreak anchor. See book.json
+  _index_decision for the mechanism.
+- Two note layers told apart by NUMERAL SYSTEM: author notes arabic, editorial
+  notes roman, per-chapter; no "Ed." prefix. See STYLE.local.md.
+- 2009 Foreword KEPT as front matter (ch00a). Copyright: the 1938 text is very
+  likely still protected; the Foreword is separately Arnold Isaacs's; treated as
+  a derivative edition for private study.
 
 ## Open items for the read-through
 
-- Confirm at the gate: index omitted; single note stream with "Ed." marks; the
-  2009 Foreword kept as front matter (its copyright is separate from the 1938
-  text). Copyright: the 1938 text is very likely still protected; treated as a
-  derivative for private study.
+- Provisional romanizations and any history flags accumulate here as batches
+  run. None yet.
 
 ## Environment / traps state
 

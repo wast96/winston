@@ -111,22 +111,22 @@ chapters are heavy and the later ones are light. So:
 
 That lands around **8&ndash;10 batches total**, not 21.
 
-## Open decisions for the commissioner
+## Decisions (settled by the commissioner)
 
-1. **The printed index** (printed 374&ndash;end) references print page numbers
-   that do not survive reflow. **Recommendation: omit it** rather than reproduce
-   dead page references. (A linked index is possible but is a large separate
-   job.)
-2. **Note architecture** &mdash; combine Isaacs's citations and the new editorial
-   notes into **one continuous popup-footnote stream**, with editorial notes
-   marked *Ed.* This is what the skeleton already reflects. Alternative: keep two
-   separate marker series. Recommendation: the single stream.
-3. **Copyright note.** The 1938 text is very likely **still under copyright**
-   (UK life+70; US 95 years from publication), and the 2009 Foreword is
-   separately Arnold Isaacs's. The `rights` field states this honestly; this
-   edition is treated as a derivative prepared for private study.
-4. **The 2009 Foreword** (Arnold R. Isaacs) is included as front matter; say if
-   you would rather drop it and open with Trotsky's Introduction.
+1. **The index is KEPT and made navigable.** The printed index (printed
+   374&ndash;end) references print page numbers that do not survive reflow, so
+   every page reference becomes a **link to that printed page's anchor**. Each
+   batch writes a `data/pagemap/` for its chapters (feeding pagebreak anchors);
+   the final batch parses the index and renders it as a linked back-matter page.
+2. **Two note layers, told apart by numeral system.** Isaacs's own reference
+   notes stay **arabic (1, 2, 3)**; the editorial layer is **roman (i, ii,
+   iii)** &mdash; no *Ed.* tag. Numbering restarts each chapter. (Isaacs numbers
+   in arabic, so editorial takes roman.)
+3. **The 2009 Foreword is kept** as front matter (ch00a).
+4. **Copyright.** The 1938 text is very likely **still under copyright** (UK
+   life+70; US 95 years), and the 2009 Foreword is separately Arnold Isaacs's.
+   The `rights` field states this honestly; this edition is a derivative
+   prepared for private study.
 
 ## Build state
 

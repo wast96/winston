@@ -570,9 +570,11 @@ def render_body(md_path, section_ids, sub_ids, figures, notes, counter, doc,
 
 def render_notes_page(chapters, notes_by_chap):
     if _annotated():
-        headnote = ('Each number links back to its place in the text. Notes '
-                    'marked <i>Ed.</i> are editorial, added in this edition; '
-                    'every other note is the author\'s own.')
+        headnote = ('Each mark links back to its place in the text. The '
+                    'author\'s own reference notes are numbered in arabic '
+                    '(1, 2, 3); editorial notes, added in this edition, are '
+                    'numbered in roman (i, ii, iii). Numbering restarts each '
+                    'chapter.')
     else:
         headnote = ('Each number links back to its place in the text. Notes '
                     'are the translator\'s throughout; the source book carries '
