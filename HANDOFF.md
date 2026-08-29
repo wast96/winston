@@ -9,166 +9,177 @@ it into the chat.
 ## Message to paste into the next chat
 
 ```
-Tragedy of the Chinese Revolution B01
+Tragedy of the Chinese Revolution B02
 
 This is an ANNOTATED ENGLISH EDITION of Harold Isaacs, "The Tragedy of the
 Chinese Revolution" (Haymarket 2009 reprint of the Secker & Warburg 1938 first
-edition). It is NOT a translation: the source is already English and source.pdf
-(committed at the repo root, 409 pages) has a clean born-digital text layer, so
-there is no OCR and nothing to translate. The work is annotation and faithful
-resetting.
+edition). NOT a translation: source.pdf (repo root, 409 pages) has a clean
+born-digital text layer, so there is no OCR and nothing to translate. The work
+is annotation and faithful resetting. Batch 1 (ch01) is done and set the whole
+machinery; you are extending it, not inventing it.
 
-Read, in order: CLAUDE.md, then HANDOFF.md (it carries the full source
-characterization and the do-not-revert tooling list), then book.json, then
-STYLE.local.md (the whole style contract for this book; there is no composed
-STYLE.md here).
+Read, in order: CLAUDE.md, then HANDOFF.md (full source characterization and
+the do-not-revert tooling list), then book.json, then STYLE.local.md (the whole
+style contract; it now carries the Batch 1 voice-gate rulings — follow them).
+BEFORE writing any editorial notes, read out/ch01_reading.md's notes and a few
+of ch01's editorial notes in notes.json: they ARE the note voice to match.
 
-Do Batch 1 = ch01 "Seeds of Revolt" (PDF pages 24-41, printed folios 1-18) end
-to end:
+Do Batch 2 = the FRONT MATTER, ch00a "Foreword, by Arnold R. Isaacs" (PDF 8-11,
+printed vii-x) and ch00b "Introduction, by Leon Trotsky" (PDF 12-23, printed
+xi-xxii), end to end per the pipeline ch01 established:
 
-1. Extract Isaacs's text VERBATIM into out/ch01_reading.md, one paragraph per
-   line, with "## 1. Seeds of Revolt" as the h1. Mechanical fixes only: rejoin
-   hyphenated line-breaks, fold the drop-cap initial into its word, strip
-   running heads and folios, and remove the in-text superscript reference
-   digits from the prose (they become footnote anchors). Preserve paragraph
-   breaks and Isaacs's own British 1938 spelling. Mark his block quotations.
-   Never paraphrase or invent: this is his prose (rule 4 binds; verify the tail
-   against source.pdf before shipping). ALSO write data/pagemap/ch01.json
-   (printed folio -> body-paragraph index where that page begins) while the
-   PDF-page boundaries are in hand; it feeds the pagebreak anchors the linked
-   index will target.
-2. Add two builder features (gate qa_epub AND epubcheck clean after both):
-   (a) a block-quote marker (proposed prefix "{q} ", an indented block) since
-   Isaacs quotes documents at length; (b) TWO-STREAM note numbering, since the
-   commissioner wants the two note layers told apart by numeral system, not an
-   "Ed." tag. Author notes render in arabic (1, 2, 3), editorial notes in
-   lowercase roman (i, ii, iii); BOTH restart per chapter; notes.json marks an
-   editorial note with "ed": true (author notes omit it); ref/backlink ids must
-   be unique per stream and per chapter (e.g. n-ch01-1 / en-ch01-i). Adapt
-   qa_epub's note check to the two per-chapter streams.
-3. Convert Isaacs's own chapter-1 endnotes (printed 340+, numbered per chapter)
-   into anchored popup footnotes in notes.json: detect the 5.5pt superscript
-   digits, anchor each to the phrase it follows, note body = his endnote text
-   verbatim. These are AUTHOR notes: arabic, no "ed" flag.
-4. Add the editorial footnote layer per CLAUDE.md's generous density model, each
-   marked "ed": true (renders as a roman numeral, NOT an "Ed." prefix):
-   who/what/when for every 1920s name, place, institution, office, and party or
-   Comintern term a non-specialist would miss, with the fact-check verdict where
-   checkable (real scholarship only, never AI sources, rule 5).
-5. Bootstrap glossary.json (key = hanzi; en = Isaacs's Wade-Giles form; pinyin =
-   modern pinyin; note = identification); flag principals with "principal": true
-   for the Principal Characters page.
-6. Build, run qa_epub AND epubcheck (jar at /tmp/epubcheck-5.1.0/epubcheck.jar,
-   refetch per setup.sh if the container is fresh), both clean. Then run the
-   Step 0c gate: the blind-critique loop adapted for ANNOTATION (density, voice
-   of the notes, formatting; there is no translation register to grade), evolve
-   STYLE.local.md, and PRESENT ch01 to the commissioner for the format and
-   note-density gate. STOP there.
+1. Extract each unit VERBATIM with `python3 scripts/extract_isaacs.py ch00a`
+   and `... ch00b` (it is now offset-aware: front matter offset is 1, read from
+   book.json, so folios come out as their roman equivalents 7..22 = vii..xxii).
+   REVIEW the printed de-hyphenation report and the char-stream fidelity check
+   (the ch01 method: reduce both the extracted body and the PDF's own body spans
+   to a whitespace/hyphen/quote-stripped stream and confirm they are IDENTICAL).
+   The Foreword is Arnold Isaacs's 2009 prose; the Introduction is Trotsky's
+   1938 text. Keep each verbatim; never invent bridging text (rule 4).
+2. CHARACTERIZE the front matter's own apparatus first: does the Foreword or
+   Trotsky's Introduction carry its own footnotes/endnotes? (ch01's were 5.5pt
+   superscript digits + 8pt asterisk foot-notes; check whether the front matter
+   uses the same, and whether Trotsky's intro has back-of-book notes.) Convert
+   any author notes to the ARABIC stream exactly as in ch01 (scripts/
+   dump_endnotes.py + build pattern); if there are none, say so explicitly.
+3. Editorial notes (ROMAN stream, "ed": true) per CLAUDE.md's generous density
+   model AND the STYLE.local.md rulings from Batch 1 (no "Pinyin:" trailers;
+   verdict tag ONLY where an author claim is actually weighed; one subject one
+   note; don't gloss ordinary English; map old romanizations). Trotsky's
+   Introduction is dense Comintern/Bolshevik polemic — expect many first-
+   appearance notes (Stalin, Bukharin, the Comintern, "permanent revolution,"
+   the 1926-27 events he foreshadows). Fact-check against real scholarship only
+   (rule 5), verdict where checkable. NOTE: for the front matter, cite the ROMAN
+   folio (vii, xi, ...) in note prose, not arabic.
+4. Glossary: add new people/terms (key=hanzi where one exists; en=the form the
+   text uses; pinyin; note). Flag any genuine principal with "principal": true.
+5. Build (`scripts/build_reading_epub.py`), qa_epub AND epubcheck BOTH clean
+   (jar at /tmp/epubcheck-5.1.0/epubcheck.jar; refetch per setup.sh if the
+   container is fresh), check_apparatus clean. Run the Step 0c blind-critique
+   loop (annotation variant is automatic) on ch00b at least; evolve
+   STYLE.local.md with anything new.
+6. Deliver the built EPUB in chat as an attached file (stamp a chat copy with
+   `python3 scripts/stamp_deliverable.py B02`) and PASTE the next kickoff
+   verbatim in the same reply. Update PROGRESS.md and HANDOFF.md; commit.
 
-Batch 1 is also the CALIBRATION for batch sizing: in your wrap-up, report
-roughly how much of the context window this one fully-annotated chapter
-consumed (extraction + endnote conversion + editorial notes + research), so
-the following batches can be grouped to fill (not exceed) ~65%. Chapters 2+
-are lighter because the cast is front-loaded (most names get their note at
-first appearance here and are not re-noted), so later batches will group
-2-4 chapters. Propose the concrete grouping in your next kickoff.
-
-Cite printed folios (arabic). Deliver the EPUB in chat as an attached file and
-paste the next kickoff verbatim in the same reply.
+Do not pause for approval mid-batch. Cite printed folios (roman for the front
+matter). One branch only: claude/tragedy-of-the-chinese-revolution — expect a
+stray per-task branch at the top and reconcile onto the working branch.
 ```
 
 ## What is DONE (do not redo)
 
-- Survey session: book.json filled (Step 0a metadata + full verified structure),
-  builder adapted for an annotated (non-translation) edition, skeleton EPUB
-  built and validated (qa_epub PASS, epubcheck 5.1.0 clean), SURVEY.md written,
-  source.pdf committed. No chapters prepared yet (0 of 22 units).
+- Survey session: book.json filled, builder adapted for an annotated edition,
+  skeleton EPUB built and validated, SURVEY.md written, source.pdf committed.
+- **Batch 1 (ch01 "Seeds of Revolt"): COMPLETE.** out/ch01_reading.md (verbatim,
+  fidelity-verified byte-for-byte), data/pagemap/ch01.json, 85 notes (32 author
+  arabic + 53 editorial roman), glossary bootstrapped with the ch01 cast +
+  terms + places, Sun Yat-sen flagged principal. Builder features (block-quote,
+  two-stream notes) implemented, tested, and gated green (qa_epub + epubcheck +
+  check_apparatus). Step 0c blind-critique loop ran 3 rounds; STYLE.local.md
+  carries the distilled rulings. See PROGRESS.md for the full record.
+- 0 of 22 units remain besides the 21 not-yet-prepared (ch00a, ch00b, ch02-20).
 
-## Tooling in place (do not revert)
+## Tooling in place (DO NOT REVERT)
 
-- **scripts/build_reading_epub.py**: added `edition_kind` support. When
-  book.json `"edition_kind": "annotated"`, the builder drops translation chrome:
-  title page reads "Annotated edition" and omits the empty source-title line;
-  the notes page says editorial notes are marked "Ed." and the rest are the
-  author's own; coverage/skeleton wording says "prepared", not "translated";
-  the back-matter heading comes from book.json `note_heading` ("A Note on This
-  Edition"); the generated cover tagline is "Annotated Edition". All gated on
-  `_annotated()`, so the translation path is unchanged when the key is absent.
-- epubcheck 5.1.0 fetched to /tmp/epubcheck-5.1.0/ (java present at /usr/bin/java).
-- Pillow installed (typographic cover generates; Liberation fonts present).
-
-## Source characterization (verified against the scan)
-
-- Born-digital PDF (QuarkXPress/Quartz), clean text layer, ZERO page images on
-  text pages. No OCR needed. Bookmarks present and accurate (25 entries).
-- Fonts: body ACaslon-Regular ~10pt; chapter number 100pt, chapter title 21pt,
-  drop-cap 44pt; in-text reference marks are 5.5pt superscript ACaslon digits,
-  numbered PER CHAPTER (restart at 1 each chapter).
-- Offset: front matter runs roman i-xxii; the body restarts at arabic 1. Body
-  offset is CONSTANT 23: printed = (PDF page, 1-indexed) - 23, confirmed at all
-  20 chapter openers via bottom folios. Front-matter offset is 1 (roman).
-- No titled sections inside chapters; each chapter is one continuous unit.
-  Chapters DO carry internal white-space breaks (render as "***" where clear).
-- Body = chapters 1-20, PDF 24-362, printed 1-339. Endnotes printed 340-373;
-  index printed 374 to end (recommended OMITTED, see book.json / SURVEY.md).
-- TOC discrepancies flagged in book.json toc_flags_open (ch08/09/10/16 printed
-  TOC titles differ from the chapter openers; the opener forms are used).
+- **scripts/build_reading_epub.py**: `edition_kind: "annotated"` chrome (from the
+  survey), PLUS Batch 1: (a) the `{q} ` block-quote marker — consecutive `{q}`
+  lines group into one `<blockquote class="quote">`, each its own `<p>`; (b)
+  TWO-STREAM per-chapter note numbering — author notes arabic (ids n-<unit>-N /
+  ref-n-<unit>-N), editorial notes ("ed": true) lowercase roman (ids
+  en-<unit>-r / ref-en-<unit>-r), both restart each chapter; `to_roman()` helper;
+  render_notes_page groups author-then-editorial per chapter.
+- **scripts/qa_epub.py**: note check REWRITTEN for the two per-chapter streams
+  (parses ref-n-/ref-en- ids, checks refs=bodies=backlinks and per-(unit,stream)
+  1..k sequence, roman decoded).
+- **scripts/extract_isaacs.py** (NEW): faithful-reset extractor. De-hyphenation
+  by Isaacs's own dominant usage + system word lists; drop-cap fold; furniture
+  strip; superscript-ref removal with space repair; asterisk-footnote capture;
+  offset read per-unit from book.json (23 body, 1 front matter); writes reading
+  md + pagemap; prints a review report. USE IT for every chapter.
+- **scripts/dump_endnotes.py**, **build_ch01_notes.py**, **build_ch01_editorial.py**
+  (NEW): endnote-text dumper and the ch01 author/editorial note generators
+  (anchors resolved against reading.md, checked unique + non-colliding). The
+  editorial one is a good template to copy per chapter.
+- **review/voice_gate_critic_prompt_annotation.md** (NEW) + voice_gate_critique.py
+  is edition-aware (auto-selects the annotation prompt, labels notes
+  author/editorial). tests/run_tests.py has `annotation_test` covering {q} and
+  the two streams. check_structure/verify_unit/check_reconcile/voice_gate marker
+  regexes now include `q`.
+- epubcheck 5.1.0 at /tmp/epubcheck-5.1.0/; Pillow + wamerican/wbritish word
+  lists installed by setup.sh + apt.
 
 ## Renderings settled / carry-forward
 
-- Name policy: Isaacs's Wade-Giles forms STAY in the body; pinyin + hanzi go in
-  the glossary and the first-appearance editorial note. One form per referent;
-  check authority.json before deciding.
-- Note architecture: author's notes (his endnotes) unmarked; editorial notes
-  prefixed "Ed."; single continuous builder numbering.
+- Name policy: Isaacs's Wade-Giles (or conventional English) forms STAY in the
+  body; pinyin + hanzi go in the glossary and the first-appearance editorial
+  note. One form per referent; check authority.json (孙中山→Sun Yat-sen,
+  国民党→Kuomintang confirmed shelf-wide).
+- Note architecture: author notes arabic, editorial roman, per-chapter restart,
+  NO "Ed." prefix. All of Isaacs's own notes (numbered endnotes AND asterisked
+  footnotes) go in the arabic stream, numbered by position — so the arabic
+  numbers are the edition's sequence, not his printed endnote numbers.
 - Spelling: Isaacs's British 1938 spelling verbatim in the body; American
   English in editorial prose; dates "Month D, YYYY".
-
-## Voice sheets
-
-- Not applicable (no dialogue to voice; this is a documented history). The
-  "voice" to protect is the register of the EDITORIAL notes: concise, factual,
-  non-partisan; set at the Batch 1 gate.
+- Editorial-note voice (the "voice" this book protects; set at the ch01 gate):
+  concise, factual, modern American English; who/what/when + why-it-matters-here;
+  verdict tag ONLY where an author claim is weighed; no padding, no "Pinyin:"
+  trailer, one subject one note. Full rulings in STYLE.local.md.
 
 ## Where the book stands
 
-- Nothing prepared yet. Batch 1 sets the annotation style, the endnote-conversion
-  mechanism, and the block-quote rendering, then holds the format/density gate.
+- ch01 establishes the machinery and the note voice. The cast is front-loaded:
+  most 19th/early-20th-c. figures got their note in ch01 and are NOT re-noted
+  (grep notes.json + earlier reading files before adding a note; keep a "NOT
+  re-noted" list per batch). The 1925-27 principals (Chiang, Borodin, Chen
+  Tu-hsiu, Stalin, Trotsky, Mao, Wang Ching-wei) mostly arrive in ch02+ /
+  Trotsky's Introduction.
 
-## What is NEXT
+## What is NEXT (grouping calibrated on Batch 1)
 
-- Batch 1 = ch01 "Seeds of Revolt" (PDF 24-41, printed 1-18). Ends at the Step
-  0c gate, and also calibrates batch size. Proposed order after, GROUPED to fill
-  ~65% of context (target ~8-10 batches total, not one per chapter): B02 = ch00a
-  + ch00b (Foreword + Trotsky's Introduction); then ch02-ch20 in groups of about
-  2-4 (front-loaded cast makes later chapters lighter), the exact grouping set
-  from Batch 1's measured cost. A provisional grouping: ch02-03, ch04-05,
-  ch06-07-08, ch09-10-11, ch12-13-14, ch15-16-17, ch18-19-20.
-- The FINAL batch is kept light on chapters: it also builds the linked Index
-  from all the pagemaps, does the whole-book reconciliation sweep, and writes
-  COMPLETION.md.
+- B02 = front matter (ch00a Foreword + ch00b Trotsky Introduction). Front matter
+  is roman-foliated (offset 1) and Trotsky's intro is annotation-heavy; sized as
+  ~one batch.
+- Then the body, GROUPED to fill (not exceed) ~65% of context. ch01 (front-
+  loaded, 53 first-appearance editorial notes, 3 critique rounds) was about one
+  full working-context's worth; later chapters inherit the cast and run lighter.
+  Provisional: B03 = ch02-03 (theory-heavy, keep to 2); B04 = ch04-05; B05 =
+  ch06-07-08; B06 = ch09-10-11; B07 = ch12-13-14; B08 = ch15-16-17; B09 =
+  ch18-19-20. Adjust as later chapters prove lighter.
+- The FINAL batch stays light on chapters: it also builds the LINKED index from
+  all the per-chapter pagemaps (see book.json _index_decision), does the
+  whole-book reconciliation sweep (check 12), and writes COMPLETION.md.
 
 ## Commissioner decisions (settled; no longer open)
 
-- LINKED index (not omitted): build it in the FINAL batch from per-chapter
-  pagemaps; each folio reference links to its pagebreak anchor. See book.json
-  _index_decision for the mechanism.
-- Two note layers told apart by NUMERAL SYSTEM: author notes arabic, editorial
-  notes roman, per-chapter; no "Ed." prefix. See STYLE.local.md.
-- 2009 Foreword KEPT as front matter (ch00a). Copyright: the 1938 text is very
-  likely still protected; the Foreword is separately Arnold Isaacs's; treated as
-  a derivative edition for private study.
+- LINKED index (not omitted): built in the FINAL batch from per-chapter
+  pagemaps; each folio reference links to its pagebreak anchor.
+- Two note layers told apart by NUMERAL SYSTEM: author arabic, editorial roman,
+  per-chapter; no "Ed." prefix.
+- 2009 Foreword KEPT as front matter (ch00a). Treated as a derivative edition
+  for private study (see book.json rights).
 
-## Open items for the read-through
+## Open items / traps for the next session
 
-- Provisional romanizations and any history flags accumulate here as batches
-  run. None yet.
+- Front matter offset is 1, not 23 (extractor handles it from book.json). Cite
+  ROMAN folios (vii..xxii) in front-matter note prose.
+- CHARACTERIZE the front matter's own note apparatus before converting: it may
+  differ from ch01's (Trotsky's intro may carry footnotes and/or its own
+  numbered notes).
+- The pagemap "printed" field is arabic; for the front matter it holds the
+  arabic equivalents (7..22). If you want roman page-list labels in the built
+  nav, that is a builder tweak to consider at the linked-index (final) batch;
+  ch01's arabic pagemap is unaffected.
+- Known non-issue: `tests/run_tests.py` "hook stands down on template stub"
+  FAILS because the test restores the real HANDOFF (with a live kickoff) and
+  then asserts the hook does NOT fire — with a real kickoff it correctly does.
+  The hook works; the test's premise lapsed when the kickoff was filled in. Do
+  not "fix" the hook.
 
 ## Environment / traps state
 
-- pymupdf, Pillow available; java + epubcheck 5.1.0 ready. No tesseract/OCR
-  needed. Build target under 30 MB is trivial (text-only + one small cover).
-- Batches capped at ~65% of the context window (commissioner directive): one
-  chapter per batch keeps inside it.
+- pymupdf, Pillow, java + epubcheck 5.1.0, wamerican/wbritish word lists ready.
+  No tesseract/OCR needed. Build is text-only + one small generated cover, well
+  under the 30 MB cap (0.1 MB).
 - Stray-branch check every batch per CLAUDE.md rule 2 (working branch
   claude/tragedy-of-the-chinese-revolution).

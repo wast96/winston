@@ -28,6 +28,15 @@ import sys
 from pathlib import Path
 
 PROMPT_FILE = Path("review/voice_gate_critic_prompt.md")
+ANNOTATION_PROMPT_FILE = Path("review/voice_gate_critic_prompt_annotation.md")
+
+
+def _annotated():
+    try:
+        book = json.loads(Path("book.json").read_text(encoding="utf-8"))
+        return book.get("edition_kind") == "annotated"
+    except Exception:
+        return False
 
 
 def die(msg):
@@ -49,7 +58,7 @@ def render_reading(text):
             out.append(m.group(2))          # heading text, no ATX marks
             continue
         # set-off markers: drop the leading token, keep the content
-        s = re.sub(r"^\{[vdgp]\}\s?", "", s)
+        s = re.sub(r"^\{[vdgpq]\}\s?", "", s)
         out.append(s)
     return "\n".join(out)
 
@@ -75,15 +84,28 @@ def cmd_prepare(args):
             die("%s is not valid JSON: %s" % (notes_path, e))
         unit_notes = notes.get(args.unit, [])
         if unit_notes:
-            lines = ["", "", "---", "", "NOTES (these are prose too; judge them):", ""]
+            annotated = _annotated()
+            if annotated:
+                header = ("NOTES. Each is labelled (author) — the original "
+                          "author's own reference note — or (editorial) — added "
+                          "for this edition. Judge ONLY the (editorial) notes.")
+            else:
+                header = "NOTES (these are prose too; judge them):"
+            lines = ["", "", "---", "", header, ""]
             for n in unit_notes:
                 anchor = n.get("anchor", "")
-                lines.append("- [%s] %s" % (anchor, detag(n.get("note", ""))))
+                tag = ""
+                if annotated:
+                    tag = "(editorial) " if n.get("ed") else "(author) "
+                lines.append("- %s[%s] %s"
+                             % (tag, anchor, detag(n.get("note", ""))))
             notes_block = "\n".join(lines)
 
-    if not PROMPT_FILE.is_file():
-        die("missing blind-critic prompt at %s" % PROMPT_FILE)
-    prompt_full = PROMPT_FILE.read_text(encoding="utf-8")
+    prompt_file = (ANNOTATION_PROMPT_FILE if _annotated()
+                   and ANNOTATION_PROMPT_FILE.is_file() else PROMPT_FILE)
+    if not prompt_file.is_file():
+        die("missing blind-critic prompt at %s" % prompt_file)
+    prompt_full = prompt_file.read_text(encoding="utf-8")
     # everything after the first '---' rule is the prompt handed to the reader
     parts = prompt_full.split("\n---\n", 1)
     prompt = (parts[1] if len(parts) == 2 else prompt_full).strip()

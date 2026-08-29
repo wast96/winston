@@ -91,8 +91,71 @@ It is the only style file a session edits; read it at the start of every batch.
 - Reading text: **Isaacs's own British 1938 spelling and Wade-Giles**, verbatim.
 - Editorial apparatus: **American English**, dates **Month D, YYYY**, pinyin for
   modern name forms.
-- Footnote marks sit after closing punctuation; editorial notes carry the
-  `Ed.` prefix; numbering is continuous, builder-assigned.
+- Footnote marks sit after closing punctuation. The two streams are told apart
+  by NUMERAL SYSTEM, not a prefix: author notes arabic (1, 2, 3), editorial
+  notes roman (i, ii, iii); both restart each chapter and are builder-assigned.
+- Author notes = ALL of Isaacs's own notes: his numbered back-of-book endnotes
+  AND his occasional asterisked page-foot footnotes, folded into one arabic
+  stream and numbered by position. This means the arabic numbers are the
+  edition's own sequence, not Isaacs's printed endnote numbers (his asterisks
+  were unnumbered, and ch01's back matter even carries an orphan note 31 with
+  no in-text mark, recorded as an editorial note). Do not promise the reader
+  the numbers match the 1938 back matter.
 
 _(Voice-gate rulings from the Batch 1 critique loop accumulate below, in the
 RULE / WHY / FIX / CHECK form.)_
+
+### Batch 1 voice-gate rulings (blind-critique loop) #book
+
+**RULE: No "Pinyin: X" trailer.** Give the modern (pinyin) form once, inside
+the identification, not as an appended tag.
+- WHY: the notes led with the pinyin form ("Zeng Guofan (1811&#8211;1872)&#8230;")
+  and then repeated it ("Pinyin: Zeng Guofan"). The glossary already carries the
+  pinyin too, so the trailer was triply redundant; where WG and pinyin coincide
+  (Wang Mang) it said nothing.
+- FIX: open the note with the modern form and dates; drop every "Pinyin:"
+  trailer. If a WG&#8594;pinyin bridge is worth spelling out, do it once inline
+  ("the Kuang-hs&#252;, or Guangxu, Emperor").
+- CHECK: `grep -c "Pinyin:" ` the editorial notes returns 0.
+
+**RULE: The fact-check verdict tag is for checkable claims only.** Put
+(corroborated / uncorroborated / contradicted) only on a real, checkable or
+contested assertion &#8212; a date, a figure, one of Isaacs's specific claims.
+- WHY: a bare "(corroborated)" on "Cathay is an old European name for China"
+  reads as mechanical filler, and applying it to some plain glosses but not
+  others (the zemstvos analogy) looked arbitrary.
+- FIX: no verdict tag on a definitional gloss, an etymology, or an analogy;
+  keep it where a claim is actually being checked.
+- CHECK: every "(corroborated)" sits on a sentence a reader could in principle
+  verify.
+
+**RULE: One subject, one note.** An event and its protagonist may each get a
+note, but they must not duplicate the same dates/fate/epithets.
+- WHY: the Taiping note, the Hung note, and a third "Tien Wang" note each
+  repeated Hong's dates, "brother of Jesus," "Heavenly King," and his 1864
+  death.
+- FIX: event note = the event (span, scale, God-worshippers, capital); person
+  note = the person (the idiosyncratic spelling, his role); fold one-line
+  restatements (Tien Wang) into the person note.
+- CHECK: no two editorial notes in a unit state the same birth/death or title.
+
+**RULE: Don't gloss ordinary English.** Note period, foreign, or technical
+terms; never define a word an educated general reader knows ("pauperized").
+- FIX: keep the framing content, cut the dictionary definition.
+
+**RULE: Apparatus housekeeping is not a reader footnote.** Source
+note-numbering quirks, orphan back-notes, and the like go in PROGRESS /
+COMPLETION, not a popup hung on an unrelated body phrase.
+- WHY: the ch01 orphan-endnote-31 note was anchored to "increases in transport
+  and shipping," which has nothing to do with it (a misleading anchor), and the
+  duplicated citation it preserved is already in the edition.
+- FIX: log the discrepancy in PROGRESS's source-discrepancy list; no reader
+  note.
+
+**RULE: Map the old romanizations for the reader.** A general reader cannot map
+Isaacs's pre-1949 spellings (Canton, Kwangsi, Tientsin, Hupeh, Annam) to modern
+China. Gloss the load-bearing places at first appearance, and orient the reader
+once that the book keeps period spellings with modern forms in the glossary.
+- CHECK: every place that carries narrative weight has a first-appearance note
+  or a glossary row; the trivial one-off locations are named as a deliberate
+  skip tier in PROGRESS.

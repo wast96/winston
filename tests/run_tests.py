@@ -105,6 +105,74 @@ def hook_test(failures):
           if "block" not in out else "FAIL")
 
 
+def annotation_test(failures):
+    """The annotated-edition builder features (added for The Tragedy of the
+    Chinese Revolution): the {q} block-quote marker, and TWO note streams
+    numbered by numeral system (author arabic / editorial roman) restarting
+    per chapter. ch01 has no block quotes, so {q} is only exercised here."""
+    import importlib.util, tempfile, re
+    import xml.etree.ElementTree as ET
+    spec = importlib.util.spec_from_file_location(
+        "brepub", os.path.join(ROOT, "scripts", "build_reading_epub.py"))
+    m = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(m)
+    m.EDITION = "annotated"
+    md = ("## Ch\n\n"
+          "First para with an author cite here and a term here.\n\n"
+          "{q} Quoted line one.\n"
+          "{q} Quoted line two.\n\n"
+          "After the quote, another author cite.\n")
+    fx = tempfile.NamedTemporaryFile("w", suffix=".md", delete=False)
+    fx.write(md)
+    fx.close()
+    notes = [
+        {"anchor": "author cite here", "note": "Author note A."},
+        {"anchor": "a term here", "note": "Editorial note.", "ed": True},
+        {"anchor": "another author cite", "note": "Author note B."},
+    ]
+    ctr = {"a": 0, "e": 0}
+    body, _ = m.render_body(fx.name, [], [], [], notes, ctr, "chX", "chX.xhtml")
+    os.unlink(fx.name)
+
+    bq_ok = (body.count("<blockquote") == 1 and body.count("</blockquote>") == 1)
+    if bq_ok:
+        seg = body[body.find("<blockquote"):body.find("</blockquote>")]
+        bq_ok = seg.count("<p>") == 2
+    if not bq_ok:
+        failures.append("annotation: {q} did not group into one blockquote of "
+                        "two paragraphs")
+    print("builder {q} block-quote:", "OK" if bq_ok else "FAIL")
+
+    au = re.findall(r'id="ref-n-chX-\d+"[^>]*><sup>(\d+)</sup>', body)
+    ed = re.findall(r'id="ref-en-chX-[ivxlcdm]+"[^>]*><sup>([ivxlcdm]+)</sup>',
+                    body)
+    two_ok = au == ["1", "2"] and ed == ["i"]
+    if not two_ok:
+        failures.append("annotation: two-stream labels wrong: author=%s "
+                        "editorial=%s" % (au, ed))
+    print("builder two-stream note numbering:", "OK" if two_ok else "FAIL")
+
+    try:
+        ET.fromstring('<x xmlns:epub="http://www.idpf.org/2007/ops">%s</x>'
+                      % body)
+        wf = True
+    except Exception as exc:
+        wf = False
+        failures.append("annotation: rendered body not well-formed: %s" % exc)
+    print("builder annotation body well-formed:", "OK" if wf else "FAIL")
+
+    page = m.render_notes_page([{"id": "chX", "title_en": "Ch"}],
+                               {"chX": notes})
+    bodies = set(re.findall(
+        r'<aside[^>]*\bid="((?:n|en)-chX-[0-9ivxlcdm]+)"', page))
+    want = {"n-chX-1", "n-chX-2", "en-chX-i"}
+    if bodies != want:
+        failures.append("annotation: notes-page bodies %s != %s"
+                        % (sorted(bodies), sorted(want)))
+    print("builder notes-page two-stream bodies:",
+          "OK" if bodies == want else "FAIL")
+
+
 def builder_test(failures):
     """Build the stub skeleton twice: qa_epub must PASS and the OPF must be
     byte-identical (deterministic dcterms:modified). Then verify the builder
@@ -388,6 +456,7 @@ def main():
           % (flagged, expected, "OK" if flagged >= expected else "FAIL"))
 
     hook_test(failures)
+    annotation_test(failures)
     builder_test(failures)
     style_test(failures)
     tics_test(failures)

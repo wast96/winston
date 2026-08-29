@@ -68,7 +68,7 @@ def body_lines(path, skip_heads=True):
             continue
         if skip_heads and s.startswith('#'):
             continue
-        out.append(re.sub(r'^\{[vdgp]\} ', '', s))
+        out.append(re.sub(r'^\{[vdgpq]\} ', '', s))
     return out
 
 

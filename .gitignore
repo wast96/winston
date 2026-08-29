@@ -41,3 +41,8 @@ out/*_bilingual.md
 # Keep source.pdf and committed figure crops (data/figs/*.png) TRACKED.
 # If your scan is very large and you would rather not commit it, add:
 #   source.pdf
+
+# Voice-gate critique prompt (regenerable QC artifact, like bilinguals; never ships)
+out/*_critique_prompt.md
+# Session scratch dir
+scratch/

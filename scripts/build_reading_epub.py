@@ -94,6 +94,8 @@ dl.gloss dt { font-weight: bold; margin-top: 0.7em; }
 dl.gloss dd { margin: 0 0 0 1.2em; }
 a.noteref { text-decoration: none; }
 a.noteref sup { font-size: 0.72em; color: #7a1f1f; padding-left: 1px; }
+blockquote.quote { margin: 0.9em 1.8em; padding: 0; }
+blockquote.quote p { text-indent: 0; font-size: 0.95em; margin: 0 0 0.55em; }
 div.endnote { margin: 0 0 1.05em; }
 div.endnote p { text-indent: 0; font-size: 0.94em; }
 a.backref { text-decoration: none; font-weight: bold; color: #7a1f1f; }
@@ -252,19 +254,38 @@ def load_json(name, default):
     return json.load(open(path))
 
 
-def insert_notes(paragraph, notes, counter, doc):
+def to_roman(n):
+    """Lowercase roman numeral for the editorial note stream."""
+    vals = [(1000, "m"), (900, "cm"), (500, "d"), (400, "cd"), (100, "c"),
+            (90, "xc"), (50, "l"), (40, "xl"), (10, "x"), (9, "ix"),
+            (5, "v"), (4, "iv"), (1, "i")]
+    out = []
+    for v, s in vals:
+        while n >= v:
+            out.append(s)
+            n -= v
+    return "".join(out)
+
+
+def insert_notes(paragraph, notes, ctr, unit, doc):
     """Attach a superscript reference after each note's anchor phrase.
+
+    TWO NOTE STREAMS, distinguished by numeral system (commissioner decision):
+    Isaacs's own notes ("ed" unset) are AUTHOR notes, numbered in arabic
+    (1, 2, 3); the added editorial notes ("ed": true) are numbered in
+    lowercase roman (i, ii, iii). Both streams restart each chapter -- ctr is
+    a fresh {"a":0, "e":0} per unit -- and every ref/body/backlink id carries
+    the stream and the unit so ids stay unique across the whole spine
+    (ref-n-ch01-1 / n-ch01-1 ; ref-en-ch01-i / en-ch01-i). qa_epub re-derives
+    all of this from the built files.
 
     Candidates are ordered by where their reference will actually LAND -- the
     end of the anchor, not its start. Sorting by start position looks right
     until one anchor contains another: the containing anchor starts first but
     ends last, so its marker renders after the shorter one's and the numbering
     runs backwards. Sorting by end position makes the numbers follow the
-    reader's eye in every case; the counter is monotonic, so numbers ascend
-    across the whole spine (qa_epub re-checks this from the built files).
-
-    Matching happens on the escaped text BEFORE markup substitution (the
-    substitutions would otherwise eat the anchors).
+    reader's eye. Matching happens on the escaped text BEFORE markup
+    substitution (the substitutions would otherwise eat the anchors).
     """
     hits = []
     for note in notes:
@@ -274,13 +295,27 @@ def insert_notes(paragraph, notes, counter, doc):
         if pos >= 0:
             hits.append((pos + len(note["anchor"]), note))
     for _, note in sorted(hits, key=lambda h: h[0]):
-        counter[0] += 1
-        note["n"] = counter[0]
+        ed = bool(note.get("ed"))
+        if ed:
+            ctr["e"] += 1
+            label = to_roman(ctr["e"])
+            note["num"] = ctr["e"]
+            bodyid = "en-%s-%s" % (unit, label)
+        else:
+            ctr["a"] += 1
+            label = str(ctr["a"])
+            note["num"] = ctr["a"]
+            bodyid = "n-%s-%d" % (unit, ctr["a"])
+        refid = "ref-" + bodyid
+        note["ed"] = ed
+        note["label"] = label
+        note["bodyid"] = bodyid
+        note["refid"] = refid
         note["used"] = True
         note["doc"] = doc
-        ref = ('<a class="noteref" epub:type="noteref" id="ref%d" '
-               'href="notes.xhtml#note%d"><sup>%d</sup></a>'
-               % (note["n"], note["n"], note["n"]))
+        ref = ('<a class="noteref%s" epub:type="noteref" id="%s" '
+               'href="notes.xhtml#%s"><sup>%s</sup></a>'
+               % (" ed" if ed else "", refid, bodyid, label))
         # The marker follows any closing punctuation right after the anchor
         # (convention: superscript after the period/comma/quote), but an
         # apostrophe followed by a letter is a possessive, not punctuation.
@@ -472,8 +507,8 @@ def load_pagemap(unit):
     return {e["body_paragraph"]: e["printed"] for e in json.load(open(p))}
 
 
-def render_body(md_path, section_ids, sub_ids, figures, notes, counter, doc,
-                ids=None, pagemap=None, unit=None, page_index=None):
+def render_body(md_path, section_ids, sub_ids, figures, notes, ctr, unit, doc,
+                ids=None, pagemap=None, page_index=None):
     """Render one chapter's reading markdown to XHTML.
 
     section_ids / sub_ids are the chapter's book.json section and subsection ids,
@@ -481,56 +516,82 @@ def render_body(md_path, section_ids, sub_ids, figures, notes, counter, doc,
     page can deep-link each section and subsection. Either list may be empty,
     in which case the matching heading gets no id (linked at the coarser level).
 
-    pagemap maps body-paragraph indices to printed folios; where present, an
-    EPUB 3 pagebreak marker is emitted before that paragraph and recorded in
-    page_index for the page-list nav. Body paragraphs are every rendered
-    paragraph line, set-off ({v}/{d}/{g}/{p}) lines included; headings and the
-    '***' scene break are not paragraphs and are not counted.
+    ctr is this unit's fresh {"a":0,"e":0} two-stream note counter (see
+    insert_notes). pagemap maps body-paragraph indices to printed folios; where
+    present, an EPUB 3 pagebreak marker is emitted before that paragraph and
+    recorded in page_index for the page-list nav. Body paragraphs are every
+    rendered paragraph line, set-off ({v}/{d}/{g}/{p}) and block-quote ({q})
+    lines included; headings and the '***' scene break are not paragraphs and
+    are not counted.
+
+    Block quotations: consecutive '{q} ' lines (Isaacs quotes documents,
+    speeches and resolutions at length) are grouped into one <blockquote>, each
+    source line its own <p>, so a multi-paragraph quotation renders as a single
+    indented block.
     """
     out, first = [], True
     ids = ids if ids is not None else set()
     sids, ssids = list(section_ids), list(sub_ids)
     pagemap = pagemap or {}
     body_n = 0
+    quote_open = False
+
+    def close_quote():
+        nonlocal quote_open
+        if quote_open:
+            out.append("</blockquote>")
+            quote_open = False
+
     for raw in open(md_path):
         line = raw.strip()
         if not line:
             continue
         if line.startswith("#### "):
+            close_quote()
             subid = ssids.pop(0) if ssids else None
             idattr = ' id="%s"' % esc(subid) if subid else ""
             if subid:
                 ids.add(subid)
             out.append("<h3%s>%s</h3>"
                        % (idattr,
-                          insert_notes(esc(line[5:]), notes, counter, doc)))
+                          insert_notes(esc(line[5:]), notes, ctr, unit, doc)))
             first = True
             continue
         if line.startswith("### "):
+            close_quote()
             sid = sids.pop(0) if sids else None
             idattr = ' id="%s"' % esc(sid) if sid else ""
             if sid:
                 ids.add(sid)
             out.append("<h2%s>%s</h2>"
-                       % (idattr, insert_notes(esc(line[4:]), notes, counter, doc)))
+                       % (idattr,
+                          insert_notes(esc(line[4:]), notes, ctr, unit, doc)))
             first = True
             continue
         if line.startswith("## "):
+            close_quote()
             out.append("<h1>%s</h1>" % esc(line[3:]))
             first = True
             continue
         if line.startswith("# "):
             continue
         if line == "***":
+            close_quote()
             out.append('<p class="brk">*&#160;*&#160;*</p>')
             first = True
             continue
         special = None
-        m = re.match(r"^\{([vdgp])\} ", line)
+        is_quote = False
+        m = re.match(r"^\{([vdgpq])\} ", line)
         if m:
-            special = {"v": "vignette", "d": "dateline",
-                       "g": "hourgloss", "p": "verse"}[m.group(1)]
+            if m.group(1) == "q":
+                is_quote = True
+            else:
+                special = {"v": "vignette", "d": "dateline",
+                           "g": "hourgloss", "p": "verse"}[m.group(1)]
             line = line[4:]
+        if not is_quote:
+            close_quote()
         for fig in figures:
             if not fig.get("placed") and fig["before"] in line[:80]:
                 out.append(
@@ -556,8 +617,15 @@ def render_body(md_path, section_ids, sub_ids, figures, notes, counter, doc,
         body_n += 1
         # notes first: the italic substitution below would otherwise eat any
         # anchor phrase containing the markup
-        text = insert_notes(esc(line), notes, counter, doc)
+        text = insert_notes(esc(line), notes, ctr, unit, doc)
         text = re.sub(r"\*([^*\n]+)\*", r"<i>\1</i>", text)
+        if is_quote:
+            if not quote_open:
+                out.append('<blockquote class="quote">')
+                quote_open = True
+            out.append("<p>%s</p>" % text)
+            first = False
+            continue
         if special:
             out.append('<p class="%s">%s</p>' % (special, text))
             first = True
@@ -565,6 +633,7 @@ def render_body(md_path, section_ids, sub_ids, figures, notes, counter, doc,
         cls = ' class="first"' if first else ""
         out.append("<p%s>%s</p>" % (cls, text))
         first = False
+    close_quote()
     return "\n".join(out), ids
 
 
@@ -582,17 +651,25 @@ def render_notes_page(chapters, notes_by_chap):
     parts = ['<h1>Notes</h1>', '<p class="note">%s</p>' % headnote]
     any_used = False
     for chap in chapters:
-        used = sorted([n for n in notes_by_chap.get(chap["id"], [])
-                       if n.get("used")], key=lambda x: x["n"])
+        used = [n for n in notes_by_chap.get(chap["id"], []) if n.get("used")]
         if not used:
             continue
         any_used = True
         parts.append('<h3 class="notechap">%s</h3>' % esc(chap["title_en"]))
-        for note in used:
+        # Author notes (arabic) first, then editorial notes (roman); each
+        # stream in its own numeric order. The ids and labels were assigned by
+        # insert_notes and carry the stream + unit, so they are unique.
+        author = sorted([n for n in used if not n.get("ed")],
+                        key=lambda x: x["num"])
+        editorial = sorted([n for n in used if n.get("ed")],
+                           key=lambda x: x["num"])
+        for note in author + editorial:
+            cls = "endnote ed" if note.get("ed") else "endnote"
             parts.append(
-                '<aside class="endnote" id="note%d" epub:type="footnote">'
-                '<p><a class="backref" href="%s#ref%d">%d.</a> %s</p></aside>'
-                % (note["n"], note["doc"], note["n"], note["n"], note["note"]))
+                '<aside class="%s" id="%s" epub:type="footnote">'
+                '<p><a class="backref" href="%s#%s">%s.</a> %s</p></aside>'
+                % (cls, note["bodyid"], note["doc"], note["refid"],
+                   note["label"], note["note"]))
     if not any_used:
         parts.append("<p>No notes yet.</p>")
     return "\n".join(parts)
@@ -1031,7 +1108,9 @@ def main(epub_path):
     # ids_present[cid] records the section/subsection anchors actually emitted,
     # so the contents and nav link only anchors that exist (a chapter translated
     # a batch at a time emits only its finished sections).
-    counter = [0]
+    # Two note streams, each restarting per chapter (commissioner decision):
+    # a fresh counter per unit, and a running total for the final report.
+    total_notes = 0
     ids_present = {}
     page_index = []
     for chap in structure:
@@ -1040,12 +1119,14 @@ def main(epub_path):
             section_ids = [s["id"] for s in chap.get("sections", [])]
             sub_ids = [sub["id"] for s in chap.get("sections", [])
                        for sub in s.get("subsections", [])]
+            ctr = {"a": 0, "e": 0}
             body, ids = render_body(md_of(chap["id"]), section_ids, sub_ids,
                                     figspec.get(chap["id"], []),
                                     notes_by_chap.get(chap["id"], []),
-                                    counter, doc,
+                                    ctr, chap["id"], doc,
                                     pagemap=load_pagemap(chap["id"]),
-                                    unit=chap["id"], page_index=page_index)
+                                    page_index=page_index)
+            total_notes += ctr["a"] + ctr["e"]
         else:
             body, ids = render_skeleton(chap)
         ids_present[chap["id"]] = ids
@@ -1333,8 +1414,8 @@ def main(epub_path):
                 full = os.path.join(base, name)
                 z.write(full, os.path.relpath(full, BUILD),
                         compress_type=zipfile.ZIP_DEFLATED)
-    print("wrote %s (%d of %d chapters translated, %d notes, %d pagebreaks)"
-          % (epub_path, len(chapters), len(structure), counter[0],
+    print("wrote %s (%d of %d chapters prepared, %d notes, %d pagebreaks)"
+          % (epub_path, len(chapters), len(structure), total_notes,
              len(page_index)))
 
 

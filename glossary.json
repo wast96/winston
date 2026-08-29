@@ -1,15 +1,243 @@
 {
-  "_about": "Single source of truth for every rendering, and the auditable term ledger (check 5). ONE rendering per referent for the whole book. Before you romanize any name, check here. status per entry: 'attested' (form used in English scholarship, give the citation in note), 'provisional' (your romanization, not found in outside sources), 'decided' (a project style call). If you find a better attested form mid-book, change it here AND grep every built chapter for the old form, then rebuild. Sections are rendered as glossary headings; keys starting with '_' are ignored. Add/rename sections freely (people, organizations, places, terms, ...).",
+  "_about": "Single source of truth for every rendering, and the auditable term ledger (check 5). ONE rendering per referent for the whole book. This is an ANNOTATED edition of an English source: 'en' is the Wade-Giles (or conventional English) form Isaacs uses in the text and which STAYS in the body; 'pinyin' is the modern form; 'note' identifies. status: 'attested' (form standard in English scholarship), 'provisional' (romanization mine, not found outside; builder marks it), 'decided' (a project style call). Flag the recurring cast with 'principal': true for the Principal Characters page. Sections are rendered as glossary headings; keys starting with '_' are ignored.",
   "book": {},
-  "people": {},
-  "organizations": {},
-  "places": {},
-  "terms": {
-    "_example一": {
-      "en": "example rendering",
-      "pinyin": "lizi",
+  "people": {
+    "孙中山": {
+      "en": "Sun Yat-sen",
+      "pinyin": "Sun Zhongshan",
+      "status": "attested",
+      "principal": true,
+      "cast_order": 1,
+      "cast": "1866&#8211;1925. Revolutionary regarded as the founder of the Chinese Republic; founder of the Kuomintang, whose alliance with Moscow and the Communists after his death is the subject of this book.",
+      "note": "1866&#8211;1925. Canton-born, Hawaii- and Hong Kong-educated revolutionary; briefly first provisional president of the Republic (1912); founder and leader of the Kuomintang."
+    },
+    "洪秀全": {
+      "en": "Hung Tsui-chuen",
+      "pinyin": "Hong Xiuquan",
       "status": "decided",
-      "note": "Delete this example. Shape: hanzi key -> {en, pinyin, status, note}. For 'attested' entries put the citation in note; for 'provisional' the builder appends a visible 'romanization mine' marker automatically."
+      "note": "1814&#8211;1864. Leader of the Taiping Rebellion; the &#8220;Heavenly King.&#8221; Isaacs&#8217;s spelling &#8220;Hung Tsui-chuen&#8221; is idiosyncratic; standard Wade-Giles is Hung Hsiu-ch&#8217;&#252;an."
+    },
+    "曾国藩": {
+      "en": "Tseng Kuo-fan",
+      "pinyin": "Zeng Guofan",
+      "status": "attested",
+      "note": "1811&#8211;1872. Hunan official whose provincial army broke the Taiping Rebellion; pillar of the landed gentry."
+    },
+    "李鸿章": {
+      "en": "Li Hung-chang",
+      "pinyin": "Li Hongzhang",
+      "status": "attested",
+      "note": "1823&#8211;1901. The dominant Chinese official of the late Qing; founder of China&#8217;s first modern arsenals, steamship and mining enterprises; Isaacs&#8217;s &#8220;compradore-in-chief.&#8221;"
+    },
+    "康有为": {
+      "en": "Kang Yu-wei",
+      "pinyin": "Kang Youwei",
+      "status": "attested",
+      "note": "1858&#8211;1927. Scholar who recast Confucius as a reformer and led the 1898 Hundred Days; later an exile arguing for constitutional monarchy."
+    },
+    "梁启超": {
+      "en": "Liang Chi-chao",
+      "pinyin": "Liang Qichao",
+      "status": "attested",
+      "note": "1873&#8211;1929. Kang Youwei&#8217;s disciple and China&#8217;s most influential reformist journalist; fled abroad after the 1898 coup."
+    },
+    "光绪": {
+      "en": "Kwang Hsu",
+      "pinyin": "Guangxu",
+      "status": "attested",
+      "note": "The Guangxu Emperor (reigned 1875&#8211;1908), who backed the 1898 reforms and was placed under palace arrest by the Empress Dowager until his death."
+    },
+    "慈禧": {
+      "en": "the Empress Dowager",
+      "pinyin": "Cixi",
+      "status": "decided",
+      "note": "Cixi (1835&#8211;1908), the Empress Dowager who dominated the Qing court for nearly half a century; crushed the 1898 reforms and later backed the Boxers. Isaacs names her only by title."
+    },
+    "袁世凯": {
+      "en": "Yuan Shih-kai",
+      "pinyin": "Yuan Shikai",
+      "status": "attested",
+      "note": "1859&#8211;1916. The Qing army&#8217;s strongest general; supplanted Sun Yat-sen as president in 1912 and ruled as dictator, briefly proclaiming himself emperor."
+    },
+    "溥仪": {
+      "en": "Hsuan Tung",
+      "pinyin": "Puyi",
+      "status": "decided",
+      "note": "Puyi (1906&#8211;1967), the last Qing emperor (reign name Hsuan Tung / Xuantong, 1908&#8211;1912); &#8220;Henry Pu Yi&#8221;; later the Japanese puppet emperor of Manchukuo (reign name Kang Teh / Kangde, 1934&#8211;1945)."
+    },
+    "王莽": {
+      "en": "Wang Mang",
+      "pinyin": "Wang Mang",
+      "status": "attested",
+      "note": "c. 45 BCE&#8211;23 CE. Usurped the Han throne and ruled as the Xin dynasty (9&#8211;23 CE), decreeing a nationalization of land."
+    },
+    "王安石": {
+      "en": "Wang An-shih",
+      "pinyin": "Wang Anshi",
+      "status": "attested",
+      "note": "1021&#8211;1086. Song chief councillor whose New Policies (from 1069) included state farm loans and price stabilization."
+    }
+  },
+  "organizations": {
+    "国民党": {
+      "en": "Kuomintang",
+      "pinyin": "Guomindang",
+      "status": "attested",
+      "note": "The Nationalist Party, formed in 1912 out of Sun Yat-sen&#8217;s Revolutionary Alliance; the central actor in this book (KMT)."
+    },
+    "太平天国": {
+      "en": "Taiping",
+      "pinyin": "Taiping Tianguo",
+      "status": "attested",
+      "note": "The &#8220;Heavenly Kingdom of Great Peace,&#8221; the Taiping regime (1851&#8211;1864); its rebellion was among the deadliest wars in history."
+    },
+    "义和团": {
+      "en": "I Ho Chuan",
+      "pinyin": "Yihequan",
+      "status": "attested",
+      "note": "The &#8220;Boxers United in Righteousness,&#8221; the martial-arts movement behind the anti-foreign Boxer Rising of 1900."
+    },
+    "天地会": {
+      "en": "Triads",
+      "pinyin": "Tiandihui",
+      "status": "attested",
+      "note": "The &#8220;Heaven and Earth Society,&#8221; sworn brotherhoods with an anti-Manchu, &#8220;restore the Ming&#8221; tradition."
+    }
+  },
+  "places": {
+    "广州": {
+      "en": "Canton",
+      "pinyin": "Guangzhou",
+      "status": "attested",
+      "note": "The great southern port; before 1842 the only city where Westerners could trade; cradle of the overseas-Chinese and revolutionary movements."
+    },
+    "南京": {
+      "en": "Nanking",
+      "pinyin": "Nanjing",
+      "status": "attested",
+      "note": "City on the lower Yangtze; the Taipings&#8217; &#8220;Heavenly Capital&#8221; (1853&#8211;1864) and later the Nationalist capital."
+    },
+    "北京": {
+      "en": "Peking",
+      "pinyin": "Beijing",
+      "status": "attested",
+      "note": "The Qing imperial capital."
+    },
+    "长江": {
+      "en": "the Yangtze",
+      "pinyin": "Chang Jiang",
+      "status": "attested",
+      "note": "China&#8217;s central river and richest region; control of the Yangtze valley is strategically decisive throughout the book."
+    },
+    "广西": {
+      "en": "Kwangsi",
+      "pinyin": "Guangxi",
+      "status": "attested",
+      "note": "Southern province where the Taiping movement began."
+    },
+    "满洲": {
+      "en": "Manchuria",
+      "pinyin": "Manzhou",
+      "status": "attested",
+      "note": "The northeastern region, homeland of the Manchus; contested by Russia and Japan and seized by Japan in 1931."
+    },
+    "江苏": {
+      "en": "Kiangsu",
+      "pinyin": "Jiangsu",
+      "status": "attested",
+      "note": "The wealthy lower-Yangtze province around Shanghai and Nanking; a center of the silk trade."
+    },
+    "云南": {
+      "en": "Yunnan",
+      "pinyin": "Yunnan",
+      "status": "attested",
+      "note": "The far-southwestern province bordering French Indochina; a base of the militarists Isaacs describes."
+    },
+    "汉口": {
+      "en": "Hankow",
+      "pinyin": "Hankou",
+      "status": "attested",
+      "note": "Commercial city at the Han&#8211;Yangtze junction, part of modern Wuhan; later the seat of the left-Kuomintang government central to this book."
+    },
+    "长沙": {
+      "en": "Changsha",
+      "pinyin": "Changsha",
+      "status": "attested",
+      "note": "Capital of Hunan province, on a projected trunk railway."
+    },
+    "成都": {
+      "en": "Chengtu",
+      "pinyin": "Chengdu",
+      "status": "attested",
+      "note": "Capital of Szechwan province in the west."
+    },
+    "武昌": {
+      "en": "Wuchang",
+      "pinyin": "Wuchang",
+      "status": "attested",
+      "note": "Yangtze city, part of modern Wuhan; the 1911 garrison revolt there began the Xinhai Revolution."
+    }
+  },
+  "terms": {
+    "清": {
+      "en": "Ch‘ing",
+      "pinyin": "Qing",
+      "status": "attested",
+      "note": "The Manchu dynasty (1644&#8211;1912), China&#8217;s last."
+    },
+    "明": {
+      "en": "Ming",
+      "pinyin": "Ming",
+      "status": "attested",
+      "note": "The last Han-Chinese dynasty (1368&#8211;1644) before the Manchu conquest."
+    },
+    "汉": {
+      "en": "Han",
+      "pinyin": "Han",
+      "status": "attested",
+      "note": "China&#8217;s second imperial dynasty (206 BCE&#8211;220 CE); also the name of the majority Chinese people."
+    },
+    "唐": {
+      "en": "T‘ang",
+      "pinyin": "Tang",
+      "status": "attested",
+      "note": "The dynasty of 618&#8211;907, a cultural high point."
+    },
+    "宋": {
+      "en": "Sung",
+      "pinyin": "Song",
+      "status": "attested",
+      "note": "The dynasty of 960&#8211;1279; setting of Wang An-shih&#8217;s reforms."
+    },
+    "买办": {
+      "en": "compradore",
+      "pinyin": "maiban",
+      "status": "attested",
+      "note": "The Chinese manager and go-between for a foreign firm; for Isaacs, the type of the class serving foreign capital."
+    },
+    "公行": {
+      "en": "co-hong",
+      "pinyin": "gonghang",
+      "status": "attested",
+      "note": "The Canton guild of licensed merchants that monopolized trade with Westerners before 1842."
+    },
+    "两": {
+      "en": "tael",
+      "pinyin": "liang",
+      "status": "attested",
+      "note": "A Chinese unit of silver by weight (customs tael about 37.8 g), not a coin; used for large sums."
+    },
+    "担": {
+      "en": "picul",
+      "pinyin": "dan",
+      "status": "attested",
+      "note": "A unit of weight; Isaacs notes one picul equals 133&#8531; pounds (about 60 kg)."
+    },
+    "辫子": {
+      "en": "queue",
+      "pinyin": "bianzi",
+      "status": "attested",
+      "note": "The shaved forehead and braid imposed on Chinese men by the Manchus; cutting it off was an act of rebellion."
     }
   }
 }

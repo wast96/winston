@@ -174,19 +174,57 @@ def main(path):
     notes_doc = [d for d in docs if d.endswith("notes.xhtml")]
     if notes_doc:
         nt = z.read(notes_doc[0]).decode()
-        order = []
+        # TWO NOTE STREAMS, distinguished by numeral system and both restarting
+        # per chapter (commissioner decision): author notes arabic, editorial
+        # roman. Every id carries stream (n|en) and unit, e.g. ref-n-ch01-1,
+        # ref-en-ch01-i, so ids stay unique across the spine. The in-text refs
+        # are collected in reading order; bodies and backlinks come from the
+        # notes page; the two must agree, and each (unit, stream) must number
+        # 1..k in reading order.
+        ref_re = re.compile(r'id="(ref-(n|en)-([A-Za-z0-9]+)-([0-9ivxlcdm]+))"')
+        ordered = []
         for doc in content_docs:
-            order += re.findall(r'id="ref(\d+)"', z.read(doc).decode())
-        refs = set(order)
-        bodies = set(re.findall(r'id="note(\d+)"', nt))
-        backs = set(re.findall(r'href="[^"#]+#ref(\d+)"', nt))
-        print("notes: %d references, %d bodies, %d backlinks" % (len(refs), len(bodies), len(backs)))
-        if refs != bodies:
-            fails.append("note references and bodies do not match: %s" % sorted(refs ^ bodies))
-        if backs != bodies:
-            fails.append("note backlinks incomplete: %s" % sorted(backs ^ bodies))
-        if order != [str(i) for i in range(1, len(order) + 1)]:
-            fails.append("note numbering is not sequential in reading order")
+            for m in ref_re.finditer(z.read(doc).decode()):
+                ordered.append((m.group(1), m.group(2), m.group(3), m.group(4)))
+        refids = [o[0] for o in ordered]
+        ref_bodies = set(r[len("ref-"):] for r in refids)
+        bodies = set(re.findall(
+            r'<aside[^>]*\bid="((?:n|en)-[A-Za-z0-9]+-[0-9ivxlcdm]+)"', nt))
+        backs = set(re.findall(
+            r'href="[^"#]*#(ref-(?:n|en)-[A-Za-z0-9]+-[0-9ivxlcdm]+)"', nt))
+        print("notes: %d references, %d bodies, %d backlinks"
+              % (len(refids), len(bodies), len(backs)))
+        if len(refids) != len(set(refids)):
+            fails.append("duplicate note reference ids in the text")
+        if ref_bodies != bodies:
+            fails.append("note references and bodies do not match: %s"
+                         % sorted(ref_bodies ^ bodies))
+        if backs != set(refids):
+            fails.append("note backlinks incomplete: %s"
+                         % sorted(backs ^ set(refids)))
+
+        def roman_to_int(s):
+            vals = {"i": 1, "v": 5, "x": 10, "l": 50,
+                    "c": 100, "d": 500, "m": 1000}
+            total, prev = 0, 0
+            for ch in reversed(s):
+                v = vals.get(ch, 0)
+                if v < prev:
+                    total -= v
+                else:
+                    total += v
+                    prev = v
+            return total
+
+        seq = {}
+        for _id, stream, unit, label in ordered:
+            val = int(label) if stream == "n" else roman_to_int(label)
+            seq.setdefault((unit, stream), []).append(val)
+        for (unit, stream), vals in sorted(seq.items()):
+            kind = "author/arabic" if stream == "n" else "editorial/roman"
+            if vals != list(range(1, len(vals) + 1)):
+                fails.append("%s %s note numbering is not sequential in "
+                             "reading order: %s" % (unit, kind, vals))
 
     if fails:
         print("FAIL")

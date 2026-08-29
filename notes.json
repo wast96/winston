@@ -1,1 +1,397 @@
-{}
+{
+  "ch01": [
+    {
+      "anchor": "capacity for self-renewal",
+      "note": "Karl Wittfogel, <i>Wirtschaft und Gesellschaft Chinas,</i> Leipzig, 1931, is still reputed the most scholarly discussion of this subject. Some Russian studies exist, but most of the facts needed for a thorough analysis apparently have yet to be dug out of Chinese records. Chao Ting-chi, <i>Key Economic Areas in Chinese History,</i> New York, 1936, is a recent contribution to one aspect of the problem."
+    },
+    {
+      "anchor": "Chinese tea and silk",
+      "note": "C. F. Remer, <i>The Foreign Trade of China,</i> Shanghai, 1926, p. 26. For tables on the opium trade see Joshua Rowntree, <i>The Imperial Drug Trade,</i> London, 1908, p. 344; H. B. Morse, <i>International Relations of the Chinese Empire,</i> London, 1910–18, v. I, pp. 209–10."
+    },
+    {
+      "anchor": "at the cannon’s mouth",
+      "note": "Cf. Wen-tsao, Wu, <i>The Chinese Opium Question in British Opinion and Action,</i> New York, 1928, pp. 59–60."
+    },
+    {
+      "anchor": "legalized the trade in opium",
+      "note": "“To the Chinese they (opium and Christianity) came together, have been fought for together, and were finally legalized together.” —Rowntree, <i>Imperial Drug Trade,</i> p. 242."
+    },
+    {
+      "anchor": "shortage of cultivable land",
+      "note": "The population rose, according to one estimate, by 237,000,000 or about 190 percent, between 1712 and 1822. —S. Wells Williams, <i>The Middle Kingdom,</i> New York, 1882, v. I, p. 283. Another estimate for 1741–1851 showed a rise from 143,000,000 to 432,000,000, or about 200 percent. —E. H. Parker, <i>China, Her History, Diplomacy, and Commerce,</i> London, 1901, p. 190. Dynastic records for 1661–1833 indicated an increase of cultivable land of only about 35 percent from 549,357,000 mow to 742,000,000 mow. —Chen Shao-kwan, <i>System of Taxation in the Ch‘ing Dynasty,</i> New York, 1914, p. 51."
+    },
+    {
+      "anchor": "contraction of the internal market",
+      "note": "“Memorial of Lin Tse-hsu to the Emperor,” 1838, tr. by P. C. Kuo, <i>A Critical Study of the First Anglo-Chinese War,</i> Shanghai, 1935, pp. 82–84."
+    },
+    {
+      "anchor": "coinage came into use",
+      "note": "Prices rose 200 percent from 1830 to 1848 and 470 percent between 1849 and 1851, according to one Russian study. —<i>Problemi Kitai,</i> Moscow, No. 1, 1929."
+    },
+    {
+      "anchor": "in the three subsequent decades",
+      "note": "H. D. Fong, “Cotton Industry and Trade in China,” <i>Chinese Social and Political Science Review,</i> Peiping, October, 1932. Table 33."
+    },
+    {
+      "anchor": "back to Europe and the United States",
+      "note": "H. B. Morse claims that $500,000,000 in silver was brought to China prior to 1830. —“The Foreign Trade of China,” <i>China and the Far East,</i> G. H. Blakeslee, ed., New York, 1910, p. 97."
+    },
+    {
+      "anchor": "port merchants and mandarins",
+      "note": "G. E. Taylor, “The Taiping Rebellion,” <i>Chinese Social and Political Science Review,</i> Peiping, January, 1933, p. 558."
+    },
+    {
+      "anchor": "in return for their benevolent support",
+      "note": "W. C. Hunter, <i>The Fan Kwae at Canton before Treaty Days,</i> 1825–44, London, 1882, p. 48."
+    },
+    {
+      "anchor": "expropriation of petty landholders",
+      "note": "Taylor, “Taiping Rebellion,” pp. 555–56."
+    },
+    {
+      "anchor": "in the eyes of the subject Chinese",
+      "note": "T. T. Meadows, <i>The Chinese and Their Rebellions,</i>London, 1856, p. 33."
+    },
+    {
+      "anchor": "the smuggling of opium",
+      "note": "J. S. Hill, <i>The Indo-Chinese Opium Trade,</i> London, 1884, p. 51."
+    },
+    {
+      "anchor": "collective sharing of landed property",
+      "note": "Taylor, “Taiping Rebellion,” pp. 597–99."
+    },
+    {
+      "anchor": "antagonized the influential classes",
+      "note": "K. Latourette, <i>The Chinese, their History and Culture,</i> New York, 1934, v. I, p. 379."
+    },
+    {
+      "anchor": "the immediate interests of the foreigners",
+      "note": "It is of interest to note that foreign firms engaged in handling commodities other than opium continued to favor the Taipings against the Manchus. They were not yet dominant enough, however, to determine the ultimate policies of the powers. Cf. A. Lindley (Lin-li), <i>Ti Ping Tien Kwoh,</i> London, 1866."
+    },
+    {
+      "anchor": "control of the customs administration",
+      "note": "J. K. Fairbank, “The Provisional System at Shanghai in 1853-4,” <i>Chinese Social and Political Science Review,</i> Peiping, October 1934 and April 1935, gives an account, based on self-justifying British official records, of how this control was assumed."
+    },
+    {
+      "anchor": "carrying out of the new agreement",
+      "note": "Taylor, “Taiping Rebellion,” p. 612."
+    },
+    {
+      "anchor": "The industrialization of China had begun",
+      "note": "H. D. Fong, <i>China’s Industrialization, a Statistical Survey,</i> Shanghai, 1933, p. 2."
+    },
+    {
+      "anchor": "an uninterrupted growth",
+      "note": "Fong, “Cotton Industry,” Tables 26, 30, 34."
+    },
+    {
+      "anchor": "the reformers were helpless",
+      "note": "For useful documents of this period see M. E. Cameron, <i>The Reform Movement in China,</i> 1898–1912, Stanford University, 1931."
+    },
+    {
+      "anchor": "one power after another",
+      "note": "For brief summary see Latourette, <i>The Chinese,</i> v. I, p. 404 ff."
+    },
+    {
+      "anchor": "Long Live the Imperial Dynasty",
+      "note": "Cf. R. Wilhelm, <i>The Soul of China,</i> New York, 1928, p. 26."
+    },
+    {
+      "anchor": "driving the Court toward concessions",
+      "note": "A Peking dispatch to the London <i>Times</i> of November 10, 1906, referred, for example, to “the events in Russia and the alarmist telegrams of the Chinese minister in St. Petersburg.”"
+    },
+    {
+      "anchor": "of the present century",
+      "note": "For accounts of these boycotts see C. F. Remer, <i>A Study of Chinese Boycotts,</i> Baltimore, 1933, Chaps. IV and V."
+    },
+    {
+      "anchor": "underground revolutionary societies",
+      "note": "For a picture of these societies at work, see the early chapters of S. Tretiakov, <i>A Chinese Testament,</i> New York, 1934."
+    },
+    {
+      "anchor": "“popular” elections",
+      "note": "In Shantung, property and literacy qualifications allowed votes only to 119,549 persons out of a population of about 38,000,000. In Hupeh, 113,233 out of 34,000,000 voted. —See <i>North China Herald,</i> February 18, 1910."
+    },
+    {
+      "anchor": "a chance to leap forward",
+      "note": "Fong, <i>China’s Industrialization,</i> Tables 1a and 1b."
+    },
+    {
+      "anchor": "grew to 182 by 1927",
+      "note": "C. H. Lowe, <i>Facing Labour Issues in China,</i> Shanghai, 1933, Tables 6, 7, 8, 10."
+    },
+    {
+      "anchor": "238 piculs",
+      "note": "1 picul equals 133⅓ pounds."
+    },
+    {
+      "anchor": "emperor Hsuan Tung",
+      "note": "Otherwise known as Henry Pu Yi, destined to become Emperor Kang Teh of Japan’s puppet state, Manchukuo."
+    },
+    {
+      "anchor": "toward a solution on the battlefields of the class struggle",
+      "note": "Isaacs writes as a Marxist, and specifically from the Trotskyist opposition to Stalin; the framing of Chinese history as a sequence of class struggles driving toward revolution is his lens throughout, and later notes flag where it shapes a factual claim.",
+      "ed": true
+    },
+    {
+      "anchor": "the “Asiatic mode of production,”",
+      "note": "Karl Marx’s term for societies in which a centralized state, controlling irrigation and public works, extracts surplus from largely self-sufficient villages, supposedly leaving them static for centuries. It was debated among Marxists in the 1920s&#8211;30s, later suppressed in the USSR, and is rejected by most historians today (a real term of Marx’s; its application to China is contested).",
+      "ed": true
+    },
+    {
+      "anchor": "the attempted reforms of Wang Mang",
+      "note": "Wang Mang (c. 45 BCE&#8211;23 CE) seized the throne from the Han dynasty (206 BCE&#8211;220 CE, China’s formative empire) and ruled as the Xin dynasty (9&#8211;23 CE), decreeing a sweeping nationalization of land before he was overthrown. His usurpation fell between the Western and Eastern Han, not strictly &#8220;after the fall of the Han&#8221; as Isaacs has it (broadly corroborated; the dating is loose).",
+      "ed": true
+    },
+    {
+      "anchor": "those advocated by Wang An-shih",
+      "note": "Wang Anshi (1021&#8211;1086), chief councillor of the Song, whose New Policies of 1069 included state farm loans and price stabilization. They came more than a century into the Song (Isaacs’s &#8220;Sung,&#8221; 960&#8211;1279), not at its rise after the T&#8217;ang (618&#8211;907) (a real reformer; the timing is compressed).",
+      "ed": true
+    },
+    {
+      "anchor": "The Manchus came to power",
+      "note": "The Manchus, a people from beyond the Great Wall in the northeast, conquered China in 1644 and ruled as the Ch&#8217;ing (Qing) dynasty until 1912 &#8212; the last imperial dynasty. As non-Han rulers they imposed the queue and were the target of the anti-dynastic, ethnic-nationalist feeling Isaacs describes.",
+      "ed": true
+    },
+    {
+      "anchor": "European contacts with Cathay",
+      "note": "&#8220;Cathay&#8221; is an old European name for China, from the Khitan people; by the twentieth century it was archaic and literary.",
+      "ed": true
+    },
+    {
+      "anchor": "divided the Celestial Empire",
+      "note": "&#8220;The Celestial Empire&#8221; was a nineteenth-century Western epithet for imperial China, echoing the emperor’s title as the Son of Heaven; Isaacs uses it with irony.",
+      "ed": true
+    },
+    {
+      "anchor": "the Opium Wars of 1842 and 1858",
+      "note": "The two wars Britain (joined by France in the second) fought to force open the China trade and protect the opium traffic: the First Opium War (1839&#8211;42), ended by the Treaty of Nanking, and the Second, or &#8220;Arrow,&#8221; War (1856&#8211;60), whose Treaties of Tientsin were signed in 1858. Isaacs dates them by those treaties, not by the fighting (corroborated).",
+      "ed": true
+    },
+    {
+      "anchor": "Chinese woven cloth (nankeens)",
+      "note": "A durable yellowish cotton cloth woven in China and named for Nanking, once a staple export until British machine-made cottons destroyed the trade.",
+      "ed": true
+    },
+    {
+      "anchor": "set up the system of extraterritoriality",
+      "note": "The treaty privilege by which foreigners in China answered to their own countries’ laws and courts, not Chinese law, and were exempt from Chinese taxation &#8212; a central grievance of the nationalist movement, not abolished until 1943.",
+      "ed": true
+    },
+    {
+      "anchor": "the different foreign “spheres of influence,”",
+      "note": "Regions where one power claimed priority for its railways, loans, and mines &#8212; Britain in the Yangtze valley, Japan in the northeast, France in the far south, Russia in Manchuria &#8212; stopping short of outright colonies.",
+      "ed": true
+    },
+    {
+      "anchor": "arrived at Canton laden with silver",
+      "note": "Canton (modern Guangzhou), the great southern port and, before 1842, the only city where Westerners could trade; later the base of the overseas-Chinese and revolutionary movements. (On the older spellings Isaacs uses throughout &#8212; Canton, Peking, Nanking &#8212; see the note on this edition; the modern pinyin forms are in the glossary.)",
+      "ed": true
+    },
+    {
+      "anchor": "the port merchants and mandarins",
+      "note": "&#8220;Mandarin,&#8221; from Portuguese, was the Western name for a Chinese scholar-official of the imperial bureaucracy, ranked by examination degree and by the colored button on his cap (the &#8220;mandarin’s button&#8221; Isaacs mentions below).",
+      "ed": true
+    },
+    {
+      "anchor": "Members of the co-hongs",
+      "note": "The Cohong (<i>gonghang</i>) was the guild of licensed Chinese merchant houses at Canton that, before 1842, monopolized all trade with Westerners; its members grew immensely rich and buffered the government from the foreigners.",
+      "ed": true
+    },
+    {
+      "anchor": "worth as much as 200,000 taels",
+      "note": "The tael (abbreviated Tls. in the trade tables later in the chapter) was a Chinese unit of silver by weight &#8212; the customs, or Haikwan, tael was about 37.8 grams &#8212; not a coin, used for large sums and government accounts; 200,000 taels denotes a very great fortune.",
+      "ed": true
+    },
+    {
+      "anchor": "the class of compradores",
+      "note": "A comprador (from Portuguese, &#8220;buyer&#8221;) was the Chinese manager who ran a foreign firm’s dealings with the local market. Isaacs makes this class &#8212; brokers for foreign capital, often also landlords &#8212; central to his account of how imperialism fastened onto Chinese society (a real social category; the emphasis is his).",
+      "ed": true
+    },
+    {
+      "anchor": "crystallized during the Taiping Rebellion",
+      "note": "The Taiping Rebellion (1850&#8211;1864), a quasi-Christian mass uprising that grew from the &#8220;God-worshippers&#8221; of the far south, took Nanking in 1853 as its &#8220;Heavenly Capital,&#8221; and held much of the Yangtze valley until 1864. With some 20&#8211;30 million dead it was among the deadliest wars in history; Isaacs’s &#8220;eleven years&#8221; counts from the Nanking capital to the fall (corroborated).",
+      "ed": true
+    },
+    {
+      "anchor": "swept northward from Kwangsi",
+      "note": "Kwangsi (modern Guangxi), the far-southern province where Hung’s God-worshippers first rose.",
+      "ed": true
+    },
+    {
+      "anchor": "Hung Tsui-chuen",
+      "note": "Hong Xiuquan (1814&#8211;1864), the Taiping leader, who after a series of visions proclaimed himself the younger brother of Jesus and, at Nanking, &#8220;Heavenly King&#8221; (<i>Tianwang</i>); he died as the city fell in 1864. Isaacs’s spelling &#8220;Hung Tsui-chuen&#8221; is idiosyncratic even for the 1930s (standard Wade-Giles: Hung Hsiu-ch&#8217;&#252;an).",
+      "ed": true
+    },
+    {
+      "anchor": "the old Ming costumes restored",
+      "note": "The Ming (1368&#8211;1644) was the last Han-Chinese dynasty before the Manchu conquest; restoring Ming dress and letting the hair grow (rejecting the queue) proclaimed a Han restoration against the Manchus.",
+      "ed": true
+    },
+    {
+      "anchor": "the queue, badge of subjection",
+      "note": "The queue &#8212; shaved forehead and long braid &#8212; was imposed on Chinese men by the Manchus after 1644 on pain of death; cutting it off was itself an act of rebellion, which is why the Taipings and the 1911 revolutionaries did so.",
+      "ed": true
+    },
+    {
+      "anchor": "The Christian General Gordon",
+      "note": "Charles George &#8220;Chinese&#8221; Gordon (1833&#8211;1885), the British officer who led the Western-officered &#8220;Ever-Victorious Army&#8221; against the Taipings and was later killed at Khartoum. Isaacs’s sardonic phrasing underscores that Christian powers crushed the Taipings’ own Christianity.",
+      "ed": true
+    },
+    {
+      "anchor": "Tseng Kuo-fan",
+      "note": "Zeng Guofan (1811&#8211;1872), the Hunan official whose provincial army broke the Taiping Rebellion; a pillar of the landed gentry and of the &#8220;self-strengthening&#8221; movement (the post-1860 drive to adopt Western arms and industry while preserving the old order) that followed.",
+      "ed": true
+    },
+    {
+      "anchor": "and Li Hung-chang",
+      "note": "Li Hongzhang (1823&#8211;1901), the most powerful Chinese official of the late Qing: Taiping-war commander, founder of arsenals, steamship and mining companies, and negotiator of the treaties ending the wars with Japan and the Boxers. Isaacs casts him as the &#8220;compradore-in-chief&#8221; who launched China’s first modern industries.",
+      "ed": true
+    },
+    {
+      "anchor": "the anti-Manchu Triads",
+      "note": "The Triads (<i>Tiandihui</i>, &#8220;Heaven and Earth Society&#8221;) were sworn brotherhoods, part secret society and part criminal fraternity, with a standing &#8220;oppose the Qing, restore the Ming&#8221; tradition. Their Small Sword Society held the walled Chinese city of Shanghai from 1853; the foreign guns Isaacs mentions intervened in 1854.",
+      "ed": true
+    },
+    {
+      "anchor": "the Summer Palace",
+      "note": "The Yuanmingyuan, the emperors’ vast garden-palace outside Peking, looted and burned by British and French troops in October 1860 to force China’s submission &#8212; a byword for imperialist vandalism.",
+      "ed": true
+    },
+    {
+      "anchor": "occupied Cambodia and Annam",
+      "note": "Annam is an old Western name for central Vietnam; with Cambodia and Tonkin it became part of French Indochina in the 1880s.",
+      "ed": true
+    },
+    {
+      "anchor": "with the Meiji Restoration",
+      "note": "The Meiji Restoration of 1868 overthrew Japan’s shogunate and launched rapid, state-led industrialization and military modernization; within a generation Japan defeated China (1895) and Russia (1905). Isaacs contrasts Japan’s success with China’s blocked development.",
+      "ed": true
+    },
+    {
+      "anchor": "established in North Manchuria",
+      "note": "Manchuria is the northeastern region of China (the Manchu homeland), rich in land and minerals and coveted by both Russia and Japan; Japan would seize it in 1931.",
+      "ed": true
+    },
+    {
+      "anchor": "In 1894 the new island power",
+      "note": "The First Sino-Japanese War (1894&#8211;95), fought chiefly over Korea, ended in a crushing Chinese defeat that exposed the failure of Qing &#8220;self-strengthening&#8221; and set off the scramble for concessions.",
+      "ed": true
+    },
+    {
+      "anchor": "The Treaty of Shimonoseki",
+      "note": "The treaty of April 17, 1895 ending the Sino-Japanese War: China recognized Korea’s independence, ceded Taiwan and the Liaotung Peninsula (soon returned under Russian, French, and German pressure), paid a 200-million-tael indemnity, and &#8212; as Isaacs stresses &#8212; opened China to foreign-owned factories, a right extended to all the powers by most-favored-nation clauses (corroborated).",
+      "ed": true
+    },
+    {
+      "anchor": "Adam Smith, John Stuart Mill, Herbert Spencer, and Thomas Huxley",
+      "note": "These British liberal and evolutionary thinkers reached Chinese reformers mainly through the celebrated translations of Yen Fu (Yan Fu) around 1900; the social-Darwinist ideas of Spencer and Huxley &#8212; struggle, adaptation, survival &#8212; especially marked the reform generation.",
+      "ed": true
+    },
+    {
+      "anchor": "gained the ear of the young emperor Kwang Hsu",
+      "note": "The Kuang-hs&#252;, or Guangxu, Emperor (reigned 1875&#8211;1908) backed the 1898 reforms and was placed under palace arrest by the Empress Dowager for the rest of his life; he died in 1908, a day before her (forensic tests in 2008 confirmed arsenic poisoning).",
+      "ed": true
+    },
+    {
+      "anchor": "the famous “Hundred Days” of reform",
+      "note": "The Hundred Days’ Reform (June&#8211;September 1898): a burst of modernizing edicts under Guangxu, ended by the Empress Dowager’s coup. Isaacs uses it to show the impotence of reform imposed from above.",
+      "ed": true
+    },
+    {
+      "anchor": "resistance to the reforms crystallized around the Empress Dowager",
+      "note": "Cixi (1835&#8211;1908), the Empress Dowager who dominated the Qing court for nearly half a century. She crushed the 1898 reforms, later backed the Boxers, and only then conceded halting constitutional change &#8212; Isaacs’s &#8220;last vigorous representative&#8221; of the dynasty.",
+      "ed": true
+    },
+    {
+      "anchor": "Kang Yu-wei and Liang Chi-chao",
+      "note": "Kang Youwei (1858&#8211;1927), the scholar who recast Confucius as a reformer and led the 1898 &#8220;Hundred Days,&#8221; and his brilliant disciple Liang Qichao (1873&#8211;1929), China’s most influential journalist-reformer. Both fled abroad after the coup and thereafter argued for constitutional monarchy, not revolution &#8212; which is why Isaacs later shows students turning away from Kang.",
+      "ed": true
+    },
+    {
+      "anchor": "the I Ho Chuan (Fists for the Protection of Public Peace)",
+      "note": "The Yihequan, &#8220;Boxers United in Righteousness,&#8221; a north-China martial-arts movement whose anti-foreign, anti-Christian rising the court turned outward in 1900; Isaacs’s gloss &#8220;Fists for the Protection of Public Peace&#8221; is a loose rendering of the name.",
+      "ed": true
+    },
+    {
+      "anchor": "under the Boxer Protocol of 1901",
+      "note": "The settlement of September 7, 1901 imposed by the powers after the Boxer Rising: an indemnity of 450 million taels (about US $333 million, payable with interest over 39 years), foreign legation guards, and razed forts. Isaacs’s &#8220;U.S. $350,000,000&#8221; rounds the figure up slightly (substantially corroborated).",
+      "ed": true
+    },
+    {
+      "anchor": "a war fought across Chinese territory by Russia and Japan",
+      "note": "The Russo-Japanese War (1904&#8211;05), fought largely in Manchuria &#8212; Chinese soil &#8212; over rival claims to Manchuria and Korea; Japan’s victory was sealed by the Treaty of Portsmouth without China’s consent.",
+      "ed": true
+    },
+    {
+      "anchor": "Russia’s 1905 revolution",
+      "note": "The 1905 revolution against the Russian tsar, touched off partly by defeat by Japan; its example encouraged constitutional agitation in China and pushed the Qing court toward concessions.",
+      "ed": true
+    },
+    {
+      "anchor": "resembling the zemstvos under the czar in Russia",
+      "note": "The zemstvos were elected local assemblies in tsarist Russia with real but tightly limited powers; Isaacs likens the Qing’s 1910 provincial assemblies to them for his mostly Western readers.",
+      "ed": true
+    },
+    {
+      "anchor": "another exile, Sun Yat-sen",
+      "note": "Sun Yat-sen (1866&#8211;1925), the Canton-born, Hawaii- and Hong Kong-educated revolutionary regarded as the founder of the Chinese Republic. His Revolutionary Alliance (Tungmenghui) led the anti-Manchu movement; he was briefly first provisional president in 1912 and later rebuilt the Kuomintang, whose fate is the subject of this book.",
+      "ed": true
+    },
+    {
+      "anchor": "the Miao tribes in the southwest and the Muslims in the northwest",
+      "note": "The Miao (Hmong) are a non-Han hill people of south and southwest China; the &#8220;Muslims&#8221; are the Hui and other Muslim communities of the northwest. Both mounted major revolts in the mid-nineteenth century amid the general upheaval.",
+      "ed": true
+    },
+    {
+      "anchor": "especially in Hunan, Hupeh, and Szechwan",
+      "note": "Three central and western provinces &#8212; modern Hunan, Hubei, and Sichuan &#8212; where the campaign to keep the railways in Chinese hands was strongest, and where the 1911 revolt would break out.",
+      "ed": true
+    },
+    {
+      "anchor": "The revolution of 1911",
+      "note": "The Xinhai Revolution of 1911, which toppled the Qing and founded the Republic on January 1, 1912. Isaacs’s theme is that it was a &#8220;tiny push&#8221; that changed the label but not the social order, leaving power to provincial militarists (a real revolution; the dismissive reading is his own).",
+      "ed": true
+    },
+    {
+      "anchor": "power passed into the hands of provincial or regional satraps",
+      "note": "The warlords: after Yuan Shih-kai’s death in 1916 China fragmented among regional militarists with their own armies and taxes, often backed by rival foreign powers &#8212; the &#8220;warlord era&#8221; (c. 1916&#8211;1928) that is the backdrop to the revolution Isaacs will describe.",
+      "ed": true
+    },
+    {
+      "anchor": "compelled to give way to Yuan Shih-kai",
+      "note": "Yuan Shikai (1859&#8211;1916), the Qing army’s strongest general, who secured the emperor’s abdication and then supplanted Sun as president in 1912, ruling as a dictator and briefly proclaiming himself emperor (1915&#8211;16). His maneuvering is Isaacs’s prime example of the 1911 revolution’s betrayal.",
+      "ed": true
+    },
+    {
+      "anchor": "his party, the Kuomintang",
+      "note": "The Kuomintang (Guomindang, Nationalist Party), formed in 1912 out of Sun Yat-sen’s Revolutionary Alliance. It is the central actor in this book: allied with the Communists and Moscow from 1923, it turned on them in 1927 &#8212; the &#8220;tragedy&#8221; of Isaacs’s title.",
+      "ed": true
+    },
+    {
+      "anchor": "a direct result of the Great War",
+      "note": "The First World War (1914&#8211;18). With the industrial powers absorbed in Europe, foreign competition in Chinese markets eased and native industry surged, as Isaacs details in the figures that follow.",
+      "ed": true
+    },
+    {
+      "anchor": "A telegraph line was laid between Shanghai and Tientsin",
+      "note": "Tientsin (modern Tianjin), the great treaty port and gateway to Peking on the northern coast.",
+      "ed": true
+    },
+    {
+      "anchor": "the revolt of the garrison at Wuchang",
+      "note": "The Wuchang Uprising of October 10, 1911 &#8212; a mutiny of the New Army garrison at Wuchang, on the Yangtze &#8212; touched off the Xinhai Revolution; the date is still marked as the Republic’s &#8220;Double Tenth.&#8221;",
+      "ed": true
+    },
+    {
+      "anchor": "silk from the Kiangsu districts",
+      "note": "Kiangsu (modern Jiangsu), the wealthy lower-Yangtze province around Shanghai and Nanking, long a center of silk production.",
+      "ed": true
+    },
+    {
+      "anchor": "the Canton-Hankow Railway",
+      "note": "Hankow (part of modern Wuhan, with Hanyang and Wuchang), the great commercial city where the Han river meets the Yangtze; the projected Canton&#8211;Hankow trunk line would tie south China to the Yangtze. Hankow later becomes the seat of the left-Kuomintang government at the center of this book.",
+      "ed": true
+    }
+  ]
+}
