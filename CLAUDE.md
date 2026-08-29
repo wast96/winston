@@ -41,10 +41,17 @@ note that names a different branch.
 
 1. **Deliver the EPUB directly, every time.** At the end of every batch, and any
    time you rebuild it, PRESENT the built EPUB (**[SET PER PROJECT]**, named in
-   `book.json` `deliverable`, e.g. `out/book.epub`) to the commissioner as an
-   attached file in the chat. Do not make them go to git or a branch to download
-   it. This is in addition to committing. If your surface has a send-file tool,
-   use it; the file is the deliverable. **AND, in the SAME final chat reply,
+   `book.json` `deliverable`) to the commissioner as an attached file in the
+   chat. Do not make them go to git or a branch to download it. This is in
+   addition to committing. If your surface has a send-file tool, use it; the
+   file is the deliverable. NAMING (commissioner directive, 2026-08-29): the
+   deliverable carries the book's FULL English title, with any colon replaced
+   by a comma (colons do not survive in filenames), and the copy attached in
+   chat carries the round's marker, made with
+   `python3 scripts/stamp_deliverable.py B<nn>`: for Batch 5 of *The Longest
+   Day In Chang'an*, attach `The Longest Day In Chang'an B5.epub`. The
+   unstamped file is the canonical build target and the one committed on
+   completion. **AND, in the SAME final chat reply,
    paste the next batch's kickoff message VERBATIM inside a fenced code block.**
    Writing it into `HANDOFF.md` is not enough; saying "it's in the handoff" is
    not enough. Every batch ends with two things in the chat: the attached EPUB
@@ -121,6 +128,12 @@ in the EPUB's OPF package and are what Kindle and Apple Books display:
   refuse to open a finished book.
 - `deliverable` — the EPUB filename (**[SET PER PROJECT]**). Builder, QA and
   the Stop hook all read it; never rely on the `out/book.epub` default.
+  Naming policy (rule 1): `out/<full English title>.epub`, colons replaced by
+  commas (a subtitle after a colon becomes ", Subtitle"); e.g. `title_en`
+  "Midnight: A Romance of China" gives
+  `out/Midnight, A Romance of China.epub`. Verify with
+  `python3 scripts/stamp_deliverable.py --check`; per-round chat copies get
+  their `B<nn>` marker from the same script.
 - `cover_image` — path to a cover file if the scan yields one; otherwise the
   builder generates a typographic cover.
 - `modified` — optional fixed timestamp. The builder never stamps wall-clock
@@ -598,6 +611,14 @@ decisions back into `authority.json`.
   stops the line until fixed.
 
 ## The revision pass (after completion, on commissioner feedback)
+
+For a book finished under an OLDER template (or whenever the question is
+"does this book still meet the current standard"), start one step earlier:
+copy `ASSESSMENT.template.md` to `ASSESSMENT.md` on the book's branch and
+fill it in as a read-only inspection (measurements, gap sizing, verdict);
+the commissioner decides from that whether a pass runs at all. Its step 0
+(upgrade the branch's template files before measuring or editing) is
+mandatory for any pass on a pre-current-template book.
 
 When the commissioner's read produces style/annotation feedback rather than
 itemized corrections, run a structured whole-book pass: copy

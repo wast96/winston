@@ -4,6 +4,45 @@ A project forked from this template should note here WHICH version it forked,
 so a mid-book "template upgrade pass" knows what fixes it predates. Keep this
 file when instantiating a project.
 
+## v2.4 — 2026-08-29
+
+The shelf-wide authority adjudication, the retrofit assessment template, and
+the deliverable naming policy.
+
+- AUTHORITY.JSON ADJUDICATED SHELF-WIDE. Every branch's copy (fourteen
+  carried the file; each had drifted independently since 2026-08-05) merged
+  into one 2,596-term file with full book provenance. All 72 real cross-book
+  conflicts adjudicated: 64 carry a binding `decided` form (earlier books'
+  other forms stand as recorded deviations), 8 are `context-dependent` with
+  the rule in the note (a hanzi naming different things in different books
+  or languages). Status vocabulary normalized (agreed / agreed-article-varies
+  / single-book / decided / context-dependent / reconcile); adjudication
+  rationale recorded per entry. Decisions follow the shelf's own canons:
+  concession-era names keep period English forms (the Garden Bridge, Avenue
+  Haig, Jessfield Park, Bubbling Well Road, the Louza station), pinyin is the
+  default elsewhere (Chongqing, Guilin, Yan'an), conventional English forms
+  for established figures (the Soong family set: T. V. Soong, Soong
+  Ching-ling, Soong Mei-ling, H. H. Kung), one handle per organization
+  (Juntong, the Baomiju, the Central Special Branch, the Renaissance
+  Society).
+- ASSESSMENT.template.md (new, shared): read-only retrofit inspection of a
+  completed book against the CURRENT standard: template-version archaeology,
+  measured tic profile and register state, footnote density vs the directive
+  (benchmark: roughly 40-60 notes per chapter-sized unit; words-per-note
+  swing under ~2-3x), authority.json deviation check, tiered defect
+  inventory, and a commissioning verdict. Its step 0 (upgrade the branch's
+  template files before measuring or editing) is mandatory for any pass on a
+  pre-current-template book; CLAUDE.md's revision-pass section points here.
+- DELIVERABLE NAMING POLICY (commissioner, 2026-08-29). The deliverable
+  carries the book's FULL English title with any colon replaced by a comma
+  ("Midnight, A Romance of China.epub"), and every per-round chat copy
+  carries the round marker ("The Longest Day In Chang'an B5.epub"), made by
+  scripts/stamp_deliverable.py (new, shared; also validates the name with
+  --check). The canonical unstamped file remains the build target, the
+  qa_epub target, and the file committed on completion. kickoff_guard now
+  matches the deliverable STEM so stamped names still satisfy the wrap-up
+  signal.
+
 ## v2.3 — 2026-08-29
 
 The first promotion pass, plus the register-pass tooling the books built.
