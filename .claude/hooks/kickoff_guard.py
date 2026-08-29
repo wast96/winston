@@ -45,7 +45,13 @@ def wrap_signals():
         book = json.load(open(os.path.join(ROOT, "book.json"), encoding="utf-8"))
         d = book.get("deliverable")
         if d:
-            sigs.append(os.path.basename(d).lower())
+            # Match on the stem, not the full basename: delivery copies carry
+            # a round marker ("<Title> B5.epub", scripts/stamp_deliverable.py),
+            # and the stem is a substring of both the canonical and the
+            # stamped name.
+            base = os.path.basename(d)
+            stem = base[:-5] if base.lower().endswith(".epub") else base
+            sigs.append(stem.lower())
         else:
             sigs.append(".epub")
     except Exception:

@@ -13,8 +13,8 @@ SHARED=(
   scripts/apparatus_merge.py scripts/smart_quotes.py scripts/reflow.py
   scripts/compose_style.py scripts/check_style_freshness.py
   scripts/voice_gate_critique.py scripts/register_tics.py
-  scripts/anchor_check.py
-  tools/sync_shared.sh
+  scripts/anchor_check.py scripts/stamp_deliverable.py
+  tools/sync_shared.sh ASSESSMENT.template.md
   .claude/skills/scanned-book-translation/references/register-drift.md
   tests/run_tests.py data/noise.txt authority.json COLLECTION.md
   REVISION_PLAN.template.md COMPLETION.template.md review/PROTOCOL.md

@@ -41,9 +41,16 @@ note that names a different branch.
 
 1. **Deliver the EPUB directly, every time.** At the end of every batch, and any
    time you rebuild it, PRESENT the built EPUB (**[SET PER PROJECT]**, named in
-   `book.json` `deliverable`, e.g. `out/book.epub`) to the commissioner as an
-   attached file in the chat. Do not make them go to git or a branch to download
-   it. This is in addition to committing. The file is the deliverable. **AND, in
+   `book.json` `deliverable`) to the commissioner as an attached file in the
+   chat. Do not make them go to git or a branch to download it. This is in
+   addition to committing. The file is the deliverable. NAMING (commissioner
+   directive, 2026-08-29): the deliverable carries the book's FULL English
+   title, with any colon replaced by a comma (colons do not survive in
+   filenames), and the copy attached in chat carries the round's marker, made
+   with `python3 scripts/stamp_deliverable.py B<nn>`: for Batch 5 of *The
+   Longest Day In Chang'an*, attach `The Longest Day In Chang'an B5.epub`.
+   The unstamped file is the canonical build target and the one committed on
+   completion; validate the name with `stamp_deliverable.py --check`. **AND, in
    the SAME final chat reply, paste the next batch's kickoff message VERBATIM
    inside a fenced code block.** Writing it into `HANDOFF.md` is not enough;
    saying "it's in the handoff" is not enough. Every batch ends with two things
@@ -116,7 +123,9 @@ out, and footnotes that catch everything such a reader would miss.
    of the scanned template applies verbatim: title/author/file-as forms,
    translator_en, publisher, description, subjects list, rights, source_ref,
    series/series_index per `COLLECTION.md`, source_language, source_script,
-   `deliverable` **[SET PER PROJECT]**, cover_image — the source's own cover
+   `deliverable` **[SET PER PROJECT]** (naming policy in rule 1: full English
+   title, colons as commas; `stamp_deliverable.py --check` validates),
+   cover_image — the source's own cover
    reused byte-identical — and a valid or absent uid; a malformed urn:uuid made
    Apple Books refuse a book).
 4. **Run `scripts/survey.py`**; plan the FINAL batch light (it also carries
@@ -407,7 +416,10 @@ from these files:
 
 - **Revision pass:** `REVISION_PLAN.template.md` (content frozen; most
   paragraphs LEAVE; edits via `edits/<id>_edits.md` + `apply_edits.py`; read
-  zh against en; no subagent fan-out).
+  zh against en; no subagent fan-out). For a book finished under an older
+  template, start one step earlier with `ASSESSMENT.template.md` (read-only
+  inspection, gap sizing, commissioning verdict); its step 0 (upgrade the
+  branch's template files first) is mandatory before any pass on such a book.
 - **HANDOFF.md** stores the kickoff; the CHAT delivers it (top-of-file
   banner). Contents: kickoff first (label line `<Book> B<nn>`), DONE ledger,
   tooling do-not-revert list, settled renderings + carry-forward, story
