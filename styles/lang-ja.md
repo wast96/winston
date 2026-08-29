@@ -59,17 +59,17 @@ geographic asides to the narrative past. The mix of gnomic present (standing
 geography) and past (the action, and habitual "the sun sank ... cloud
 gathered") is deliberate and correct.
 
-## Idioms and phrasal verbs: no scene-primed second meaning
-Before using an idiom or phrasal verb, test it against the immediate scene. If
-the setting activates a different literal sense of the phrase, choose a
-single-sense wording instead. This matters most in terse interior thoughts,
-which lack the surrounding words that would disambiguate. (Real case: in a
-pitch-dark scene, "I cannot make her out" read as eyesight, not comprehension;
-render わからぬ as "cannot make sense of," never "make out.") Watch list, where
-a scene can supply the second sense: "make out" (see / understand) in darkness;
-"take in" (grasp / inhale) around breath or smoke; "lost" (bewildered / asleep
-/ dead) around sleep or death; "strike" (hit / occur to) in a fight. When two
-senses are live, pick the wording that leaves only one.
+## Proofread every character you insert
+Proofread every Japanese character (kanji or kana) you put into a note or
+gloss, character by character, against the glossary or the source. The zh
+layer carries this rule from two glosses that shipped wrong characters on a
+real book: the romanization was right, the inserted character was not, and an
+English-only read cannot catch that. The failure mode is identical in
+Japanese. Never trust your own character insertion; verify it.
+
+(The scene-primed second-meaning rule for idioms and phrasal verbs, learned on
+a Japanese book, now lives in `_base.md`: the failure is English-side and
+language-independent.)
 
 ## Romanization and units
 - Japanese names in **Hepburn with macrons**; conventional English forms as

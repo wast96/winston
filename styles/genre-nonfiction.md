@@ -26,6 +26,73 @@ atmospheric may be added (see enrichment, below), and the book is a primary
 source whose slant is itself part of what the reader must see (see the
 interested-witness discipline).
 
+## The register baseline: modern-neutral, three voices
+<!-- promoted v2.3 from the-sword-roars ("THE REGISTER REBASELINE," B09
+     commissioner review) + chinas-secret-war (adopted at the commissioner's
+     direction, applied in its revision pass); zhou-enlai was measured
+     against it and already sat near the targets -->
+
+**Modern-neutral is the DEFAULT register for everything, narration included.**
+Period flavour comes from the content, never from antique syntax (the
+modern-writer test in `_base.md`). Three voices, three registers, and the line
+between them is bright:
+
+- **Documents sound like documents.** Quoted period communiqués, resolutions,
+  court verdicts, telegrams, and formal official language MAY stay starchy and
+  formal. That is period work, and it is correct. They take no contractions
+  and their shapes are kept.
+- **The narrator sounds like a smart writer today**, explaining this history
+  to an intelligent friend who is not in the field. Not a magistrate, not a
+  costume-drama butler. The `_base.md` kill list, spine test, and
+  de-nominalization rule apply hardest here.
+- **People sound like people.** Speakers in scenes talk plainly; an author's
+  latter-day interviewees talk like people on camera now, contractions and
+  all, unless a voice sheet marks a speaker formal by design.
+
+What this does NOT modernize: the author's genuine rhetorical architecture
+(anaphora, one-line punch paragraphs, his epithets and political vocabulary)
+reads as deliberate style in modern prose too, and the keynote-register guard
+in `_base.md` still governs. The baseline changes the narrator's SYNTAX and
+FUNCTION-WORD register, not the author's structural devices or his voice.
+
+**The narration-contraction dial.** Uniform "did not / could not / would not"
+at 100% frequency is a large part of the starch; two books settled on
+contracting roughly 10-15% of narration's negated auxiliaries, by ear,
+wherever the rhythm wants it, with documents and formal speakers contracting
+not at all. RECORDED CONFLICT: a third book's commissioner declined the
+general narration-contraction program while keeping the rest of the baseline.
+So the 10-15% figure is the shelf DEFAULT, and the dial is calibrated per book
+at the voice gate; write the calibrated setting into `STYLE.local.md`'s
+consistency canon and do not re-litigate it mid-book.
+<!-- dial provenance: adopted the-sword-roars + chinas-secret-war; declined
+     chen-yangshan (tier 3 of its revision plan) -->
+
+## Quotations and quote tags
+<!-- promoted v2.3: the-sword-roars + chinas-secret-war (both adopted) -->
+- **Front-load the attribution when a quote shifts tense or person.** A quote
+  that opens cold in another tense or person reads as an error until the
+  trailing citation lands three sentences later. Signal the speaker first ("As
+  Zhou Enlai reported in 1929: ..."); the trailing (Name, year) citation can
+  stay as the precise reference.
+- **Modernize and vary the quote tags.** "Said in his lifetime," "recalled in
+  his later years," "disclosed many years later" every time is a tic and an
+  archaism at once. Vary: "later recalled," "said in a 2007 interview," "wrote
+  decades later," or plain "said."
+
+## Formula fatigue: ration the recurring set-phrase
+<!-- promoted v2.3: chen-yangshan (heroic set-phrases, impression formula) +
+     the-sword-roars (ornate atmosphere-epithets) -->
+Partisan and reportage sources run on stock formulas: a fixed virtue-phrase
+(went bravely to his death, carried it off brilliantly, left a deep
+impression), a fixed atmosphere-epithet. Rendered one-for-one, the SAME
+English phrase lands three to five times a chapter and reads as boilerplate;
+the fifth martyrdom is flatter than the first. Vary the verb and drop the
+intensifier; keep ONE emphatic instance per passage for the source's heat and
+plain the rest. Rule of thumb: the same rendered stock phrase at most twice
+per chapter, and no two figurative images of the same family in adjacent
+sentences. This is rationing, not flattening; the understatement doctrine's
+direction test still governs.
+
 ## Enrichment is OFF; only exactness remains
 In fiction, enriching the rendering of atmosphere the source already fixed is
 craft. In nonfiction it is NOT permitted. You do not add sensory detail,
@@ -154,8 +221,9 @@ Measure every unit against the FROZEN reference chapter, never a running
 average. The primary signal is the dialogue contraction rate; but reportage
 units vary wildly in how much quoted speech they carry, so in a unit with only
 a handful of dialogue sentences the contraction rate is noise. Judge those units
-on the narratorial signals (sentence-length spread, question and exclamation
-retention, em-dash and semicolon rates) and SAY in PROGRESS that the dialogue
-metric was quiet. Do not blanket-contract: the exempt registers (quoted
-documents, slogans and set-piece phrases, a speaker formal by design, the
-author's own formal passages) keep their form.
+on the narratorial signals (`check_register.py` reports narration contraction
+share, narration exclamations, and antique-word hits alongside the dialogue
+metrics, and `scripts/register_tics.py` greps the full battery) and SAY in
+PROGRESS that the dialogue metric was quiet. Do not blanket-contract: the
+exempt registers (quoted documents, slogans and set-piece phrases, a speaker
+formal by design, the author's own formal passages) keep their form.

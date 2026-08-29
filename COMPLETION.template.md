@@ -61,8 +61,18 @@ written separately.>
 run, builder features that must not be reverted, environment notes for any
 future rebuild (exact build + qa commands with the real deliverable name).>
 
+## Style ledger harvest (feeds the between-books promotion pass)
+
+<list every `#promote` rule in this book's STYLE.local.md, one line each:
+the rule, whether it was discovered here or `#adopted` from a sibling, and
+anything the commissioner declined or dialed differently on this book. This
+list is what the promotion pass on master reads (styles/INDEX.md, promotion
+rule step 5); a book that ships without it leaves its general lessons
+stranded on its branch. "No #promote rules" is itself a recordable answer.>
+
 ## Definition of done — met
 
 <walk the CLAUDE.md definition-of-done list and check each item, including:
 final EPUB committed (`git add -f`), authority.json fed back, term ledger
-rendered, CHANGELOG current, HANDOFF rewritten to COMPLETE.>
+rendered, style ledger harvest written (above), CHANGELOG current, HANDOFF
+rewritten to COMPLETE.>

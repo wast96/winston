@@ -12,7 +12,10 @@ SHARED=(
   scripts/check_reconcile.py scripts/verify_unit.py scripts/apply_edits.py
   scripts/apparatus_merge.py scripts/smart_quotes.py scripts/reflow.py
   scripts/compose_style.py scripts/check_style_freshness.py
-  scripts/voice_gate_critique.py
+  scripts/voice_gate_critique.py scripts/register_tics.py
+  scripts/anchor_check.py
+  tools/sync_shared.sh
+  .claude/skills/scanned-book-translation/references/register-drift.md
   tests/run_tests.py data/noise.txt authority.json COLLECTION.md
   REVISION_PLAN.template.md COMPLETION.template.md review/PROTOCOL.md
   review/voice_gate_critic_prompt.md

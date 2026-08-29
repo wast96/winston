@@ -262,6 +262,68 @@ def style_test(failures):
         shutil.rmtree(tmp, ignore_errors=True)
 
 
+def tics_test(failures):
+    """register_tics.py: every battery family fires on a seeded fixture, the
+    profile table renders, and a clean file stays clean."""
+    import shutil, tempfile
+    tics = os.path.join(ROOT, "scripts", "register_tics.py")
+    if not os.path.isfile(tics):
+        return
+    tmp = tempfile.mkdtemp(prefix="ticstest_")
+    try:
+        out = os.path.join(tmp, "out")
+        os.makedirs(out)
+        seeded = (
+            "### Chapter One\n\n"
+            "He was wont to walk of an evening, and got a reward besides.\n\n"
+            "Thereupon he could not but agree; the guarding of the city was "
+            "hard.\n\n"
+            "Zhou Enlai, Li Weihan, and the others left one after another.\n\n"
+            "Did he, in the end, perform magic in Hankou?\n\n"
+            "350,000 is no small figure! It happened on 14 November 1927, in "
+            "full colour...\n")
+        # names chosen so the seeded unit sorts FIRST in the profile columns
+        open(os.path.join(out, "aseed_reading.md"), "w").write(seeded)
+        open(os.path.join(out, "zclean_reading.md"), "w").write(
+            "### Chapter Two\n\nHe walked in the evening. \"Don't worry,\" "
+            "she said, on November 14.\n")
+        p = subprocess.run([sys.executable, tics, "--profile", "--out", out,
+                            "--local", os.path.join(tmp, "none.json")],
+                           capture_output=True, text=True)
+        must_fire = ("antique-fn-words", "trailing-besides", "could-only",
+                     "nominalization", "deng-tag", "one-after-another",
+                     "in-the-end-question", "sentence-initial-numeral",
+                     "day-month-date", "british-spelling", "litotes",
+                     "narration-ellipsis", "narration-bang")
+        # the profile table: seed column must be nonzero for each battery row
+        missing = []
+        for name in must_fire:
+            row = next((l for l in p.stdout.splitlines()
+                        if l.strip().startswith(name)), "")
+            cols = row.split()
+            # name, seed-count, clean-count, total
+            if len(cols) < 4 or int(cols[-1]) < 1:
+                missing.append(name)
+        ok = p.returncode == 0 and not missing
+        if not ok:
+            failures.append("register_tics: batteries did not fire on the "
+                            "seeded fixture: %s\n%s"
+                            % (", ".join(missing) or "(rc!=0)", p.stdout))
+        print("register_tics seeded batteries:", "OK" if ok else "FAIL")
+        clean_row_ok = True
+        for l in p.stdout.splitlines():
+            cols = l.split()
+            if cols and cols[0] in must_fire and len(cols) >= 4:
+                if int(cols[2]) != 0:  # clean column
+                    clean_row_ok = False
+        if not clean_row_ok:
+            failures.append("register_tics: false positives on the clean "
+                            "fixture:\n" + p.stdout)
+        print("register_tics clean fixture:", "OK" if clean_row_ok else "FAIL")
+    finally:
+        shutil.rmtree(tmp, ignore_errors=True)
+
+
 def main():
     failures = []
 
@@ -287,6 +349,7 @@ def main():
     hook_test(failures)
     builder_test(failures)
     style_test(failures)
+    tics_test(failures)
 
     if failures:
         print("\n" + "\n".join(failures))

@@ -135,6 +135,14 @@ never hand-edit it; this book's own rulings go in `STYLE.local.md`. Read BOTH
 before drafting a word. The full system, selection, and the promotion rule are
 in `styles/INDEX.md` and the Register section below.
 
+In the same sitting, make the two whole-book format decisions and write them
+into `STYLE.local.md`'s consistency canon: **date format** (shelf default
+"Month D, YYYY") and **spelling locale** (shelf default American). They bind
+body, notes, glossary, and `book.json` titles alike. Three books shipped a
+mid-book format flip that cost a mechanical sweep each; deciding before
+Batch 1 makes the class impossible, and `scripts/register_tics.py` greps for
+drift against both defaults every batch.
+
 ## Step 0b: the structural survey (FIRST approval gate)
 
 Before a single word is translated, deliver a survey of the whole book so the
@@ -197,7 +205,12 @@ the English because they know what it means. We want neither.
    Apply each correction to `out/<unit>_reading.md`, and re-verify every changed
    line against the source as if it were new translation (rule 4: a repair must
    be re-verified, and invents nothing). Where the blind reader misread only
-   because it lacked the source, record why and skip that one.
+   because it lacked the source, record why and skip that one. Known blind-
+   critic false positives to check before accepting a finding (the critic
+   prompt's own notes list them): load-bearing quoted verse and allusion read
+   as "vague/purple"; partisan epithets that are content; deliberate anaphora
+   and parity-locked one-line paragraphs; a gnomic present the author chose.
+   The ledger's KEEP list is the adjudication reference.
 4. **Evolve the style.** Cluster the corrections into CLASSES, ask WHY each class
    happened, and write each as a RULE / WHY / FIX / CHECK entry in
    `STYLE.local.md`, tagged `#book` or `#promote`. This is exactly how every
@@ -219,7 +232,10 @@ natural English), the **note density** (is everything they'd miss covered,
 without padding), and the **formatting**. Include a short summary of what the
 blind loop caught and how you tightened `STYLE.local.md`, so their read begins
 from the evolved chapter, not the raw one. This is the one point where their
-reading changes the whole book downstream.
+reading changes the whole book downstream. Calibrate the per-book register
+DIALS here too (the narration-contraction dial in the genre layer is the type
+case) and write the settings into `STYLE.local.md`'s consistency canon; a dial
+left unset gets re-litigated every batch.
 
 On approval, the Batch 1 chapter becomes the FROZEN REFERENCE: register is
 measured against it for the rest of the book
@@ -366,7 +382,10 @@ Every chapter (all scripted, all cheap):
    displacement is where fabrications hide).
 5. **Register vs the frozen reference** — `check_register.py --ref`. The four
    exempt registers are listed in `references/register-drift.md`; do not
-   mechanically "fix" them.
+   mechanically "fix" them. `register_tics.py <id>` runs in the same breath
+   (one grep pass, informational): its batteries catch the narration-side
+   starch the reference metrics cannot see, and every hit faces its carve-outs
+   before it is a defect.
 6. **Tail verification** — read the unit's final paragraphs against the scan
    (rule 4's corollary).
 7. **Crop-verify** names/numbers/low-confidence spans (targeted, via the
@@ -408,14 +427,28 @@ the builder's refusal is the backstop, not the check). Anchors may sit on
 section headings. Note bodies are XHTML: `<i>` for emphasis, NUMERIC character
 references only (`&#160;`, `&#8212;`), never named entities.
 
-**Density is a reader model, not a quota.** The reader is a Westerner with no
-background in Chinese history, family structure, or custom; anything such a
-reader would miss earns a note. Four coverage domains to sweep deliberately:
-material culture (objects, food, clothing, money), social structure (kinship,
-address, hierarchy), customs and belief, institutions and offices. Early
-chapters typically want 8-15 notes; the count TAPERS naturally as the book's
-furniture gets covered, and a late chapter with 0-2 new notes is healthy, not
-starved. Do not pad to a number.
+**Density is a reader model, not a quota, and the model is GENEROUS: default
+to footnoting, not to omitting.** Commissioner directive, shelf-wide
+(2026-08-29, first issued at a real book's voice gate): assume the reader has
+NO background for the events, places, people, ideas, and items unique to this
+book's time, place, and chain of events. Every named person, place,
+institution, event, office, journal, object, and period term that a well-read
+Western reader without that background might not place gets a note at its
+FIRST appearance: who/what/when, why it matters here, and the fact-check
+verdict where a claim is checkable. The only things to skip: genuinely
+universal knowledge (Shanghai, Beijing, the Yangtze), and anything the
+surrounding prose already fully explains. A note must still SAY something (a
+date-span, a fate, a significance) beyond the name; a bare "X was a person"
+is the padding the directive forbids, and notes added just to add them are
+still the failure mode. Four coverage domains to sweep deliberately: material
+culture (objects, food, clothing, money), social structure (kinship, address,
+hierarchy), customs and belief, institutions and offices. Sweep the
+LOST-IN-TRANSLATION layer with the same generosity (kind 3 below): the reader
+must not silently lose wordplay, an idiom's image, a register shift, or a
+name whose meaning matters. Under this model an early chapter runs DOZENS of
+notes (the book that set the directive went from 24 to 73 on chapter one);
+the count still tapers naturally in late chapters, but only because recurring
+furniture got its note at first appearance, never because the model relaxed.
 
 Four kinds earn a note:
 1. **Translation uncertainty** — damaged-scan readings with the alternates
@@ -423,11 +456,15 @@ Four kinds earn a note:
    State what the scan shows and why you chose your reading.
 2. **References a non-specialist won't catch** — who a person is, what an
    institution / place / object / term is, with real checked content and the
-   verdict stated (corroborated / uncorroborated / contradicted). There is
-   also a tier of minor low-stakes discrepancies deliberately left
-   unfootnoted; name that tier in PROGRESS so you don't over-annotate.
+   verdict stated (corroborated / uncorroborated / contradicted). Under the
+   density directive above the default is to note these, not to skip them; if
+   a genuinely trivial tier is left unfootnoted (a passing shop name that
+   never returns), name that tier explicitly in PROGRESS so the omission is a
+   decision, not a drift.
 3. **Texture lost in translation** — idioms with their literal image, classical
-   allusions, register shifts, names whose meaning matters.
+   allusions, wordplay and puns, register shifts, names whose meaning matters,
+   forms of address and their weight. Be as generous here as with kind 2: this
+   is the layer a reader cannot even know they are missing.
 4. **The author as interested witness** — where the account is self-serving or
    shaped by its political moment, say so, with evidence.
 

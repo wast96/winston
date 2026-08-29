@@ -43,6 +43,31 @@ The test (from CLAUDE.md, sharpened): could {{VOICE_TARGET}} have written this
 sentence, unprompted, as original English? If it sounds like a careful,
 faithful decoding, it fails. If it sounds like a book someone wrote, it passes.
 
+Two companion tests, promoted from finished books:
+<!-- provenance: the-sword-roars (B09 commissioner review) + chinas-secret-war
+     (adopted, applied); measured against zhou-enlai in its register assessment -->
+- **The read-aloud test, the everyday tiebreaker.** Say the sentence aloud. If
+  you can hear a costume-drama butler saying it, rewrite it. If you can hear
+  yourself saying it to a smart friend who is not in the field, it is done.
+- **The modern-writer test.** A first-rate writer working today covers this
+  same material in wholly contemporary prose and loses nothing. A book about
+  1929 does not have to be written as if published in 1929: period flavour
+  comes from the CONTENT (the offices, arms, money, ranks, and streets of the
+  period), never from antique syntax or antique function words.
+
+### De-stiffen the machine, never the voice
+<!-- provenance: the-rebel; the standing counterweight to the modern-writer
+     test, so a deliberately cool register does not get "modernized" warm -->
+Every book has a keynote register: cool and restrained, warm and expansive,
+dry, ornate, comic. That register is the thing to protect. Stiffness in a
+draft is almost never the register; it is the machinery (long sentences,
+dash-glosses, comma trains, calques, antique function words). Strip the
+machinery and leave the voice. The trap to name explicitly: when a restrained,
+analytical voice reads a little stiff, the cure is NOT to warm it up, not to
+make the narration chatty, lush, or emotive. A cool voice that reads slightly
+austere is working as intended; loosen its sentences, not its temperature.
+De-stiffen the HOW, never the WHO.
+
 ## What "stilted" means: the universal failure modes to eliminate
 
 These six are shelf-wide, source-language-independent. The language layer adds
@@ -88,6 +113,26 @@ the tells specific to this book's source language.
 - **Prefer active, transitive verbs and real agents.** Let people, things, and
   institutions act. Avoid strings of linking verbs and the reflexive passive
   the source invites.
+- **Split long sentences by the SPINE TEST, not by word count.** Length is not
+  the problem; LOAD is. Count the finite spines the reader must track: one
+  spine reads fine at almost any length; two or more, split at the spine
+  boundaries. The main verb should land within the first ~20 words; an
+  appositive over ~15 words between subject and verb (a second person's whole
+  biography is the type specimen) becomes its own sentence, placed before or
+  after, with nothing lost. Over three coordinated predicates, split. Two
+  exemptions at any length: the colon-plus-list (once the reader hits the
+  colon they stop parsing syntax and start scanning items, and the pile-up IS
+  the effect; never break a list to shorten a sentence), and quoted documents
+  (evidence, not narration).
+  <!-- provenance: the-sword-roars (B09) + chinas-secret-war (adopted) +
+       zhou-enlai (assessment tier C); worked example in the sword ledger -->
+- **Kill inversions and fronted objects in narration; zero survivors.** A
+  fronted object or a late-arriving subject ("His guilty scheme he saw through
+  at a glance"; "Most rare and precious of all: ...") is the single loudest
+  "old book" signal. Ordinary subject-verb-object, unless the inversion is
+  doing real, deliberate emphatic work.
+  <!-- provenance: the-sword-roars (B09) + chinas-secret-war (adopted) +
+       chen-yangshan (unstack-the-fronted-sentence ruling) -->
 
 ### Paragraphing
 - **Break at every shift of focus.** One paragraph should hold one image, one
@@ -112,6 +157,37 @@ the tells specific to this book's source language.
 - **Never send the reader to a dictionary.** Prefer the common word to the
   exact but arcane one, unless the precision is the whole point (then keep it
   and footnote).
+- **Retire the antique function-word set; each has a plain modern equivalent.**
+  No single one is wrong; collectively they are the mothball smell, a narrator
+  defaulting to 1893. The KILL LIST, greppable (`scripts/register_tics.py`
+  mechanizes it; a hit is a candidate, not automatically a defect, and each
+  must survive the read-aloud test or be replaced): "thereupon" and
+  "whereupon" (then; at that); "at length," "presently," "ere long"
+  (eventually; soon); "of a morning / of an evening" (in the morning); "was
+  wont to" (used to); "had no wish to" (did not want to); "made bold to,"
+  "come what may," "and no mistake," "still less could," "forthwith," "let
+  slip" (plain equivalents or cut); the trailing "...and a reward besides"
+  (as well; too; or cut); the archaic "could only / could not but / could not
+  help / cannot help" class (had to, or just the plain verb; genuinely
+  idiomatic hits stay). Quoted documents and formal-by-design speakers are
+  exempt, as always.
+  <!-- provenance: the-sword-roars (B09 kill list) + chinas-secret-war
+       (adopted; regression battery) + zhou-enlai (87 trailing "besides"
+       measured) + the-longest-day-in-changan (fiction classes A/B) -->
+- **Idioms and phrasal verbs: no scene-primed second meaning.** Before using
+  an idiom or phrasal verb, test it against the immediate scene. If the
+  setting activates a different literal sense of the phrase, choose a
+  single-sense wording instead. This matters most in terse interior thoughts,
+  which lack the surrounding words that would disambiguate. (Real case: in a
+  pitch-dark scene, "I cannot make her out" read as eyesight, not
+  comprehension; the fix was "I can't make sense of her.") Watch list, where a
+  scene can supply the second sense: "make out" (see / understand) in
+  darkness; "take in" (grasp / inhale) around breath or smoke; "lost"
+  (bewildered / asleep / dead) around sleep or death; "strike" (hit / occur
+  to) in a fight. When two senses are live, pick the wording that leaves only
+  one.
+  <!-- provenance: burn-o-sword; formerly in lang-ja, moved here v2.3: the
+       failure is English-side and language-independent -->
 
 ### Punctuation
 - **Use the full toolkit for rhythm.** The period chops and isolates for
@@ -149,6 +225,18 @@ the tells specific to this book's source language.
   twenty."
 - **Keep period money and measures** with a first-use gloss where a modern
   reader would miss the sense; the language layer lists this source's units.
+- **No sentence-initial numerals.** "350,000 is no small figure." reads as raw
+  data. Recast ("A figure of 350,000..."), spell it out, or reorder so the
+  sentence does not open on a digit.
+  <!-- provenance: the-sword-roars (B09) + chinas-secret-war (battery) -->
+- **Decide date format and spelling locale ONCE, at setup, and record both in
+  `STYLE.local.md`'s consistency canon.** The shelf default is "Month D, YYYY"
+  and American spelling; whatever a book decides, the decision binds body,
+  notes, glossary, AND `book.json` titles. Three books shipped a mid-book
+  format flip (day-month in the early chapters, month-day later) that cost a
+  mechanical sweep each; deciding it before Batch 1 makes the class impossible.
+  <!-- provenance: the-sword-roars + chen-yangshan + zhou-enlai (95/609
+       split found at assessment) -->
 
 ## Names and pronouns
 
@@ -249,6 +337,14 @@ layer names this book's specific modes; the constants are:
   Flattening it into neutral exposition loses the book's signature.
 
 ## Apparatus, in the same spirit (two heuristics; full policy in CLAUDE.md)
+
+The density default is GENEROUS, by standing commissioner directive
+(2026-08-29, in CLAUDE.md's footnote section): assume a reader with no
+background for the events, places, people, ideas, and items unique to this
+book's time and place, default to footnoting rather than omitting, and cover
+the lost-in-translation layer with the same generosity. A note must still say
+something beyond the name; padding is still the failure mode.
+
 - **Footnote the invisible logic.** When a character acts on a belief the
   original audience shared silently (an omen, a point of etiquette, why an
   office or a crest carries the weight it does), the English reader needs the
@@ -258,6 +354,32 @@ layer names this book's specific modes; the constants are:
   customs, money, geography, and (in nonfiction) the fact-check verdict earn
   notes. The book's own coinages, codenames, and invented props get a glossary
   line at most.
+
+Shaping mechanics, shelf-wide (CLAUDE.md's reader model decides WHAT earns a
+note; these decide HOW a note is shaped and placed, and they matter as much to
+the reader):
+<!-- provenance: the-sword-roars (B09 apparatus review) + chinas-secret-war
+     (adopted; run as a final-batch sweep) -->
+- **One note = one referent; do not bundle.** A single marker glossing several
+  things puts the marker far from most of what it explains and makes the note
+  long. Split by referent, marker AT that referent. A tight single-location
+  list read in one breath may keep one note, but the marker then goes at the
+  END of the list. Splitting raises the count and shortens each note; that is
+  the goal, not a cost. A note body that says "named just above" is a bundle.
+- **Marker placement: sentence end, or the end of the clause holding the
+  referent. Never mid-phrase.** When a sentence needs two notes, each goes at
+  the end of its own clause. Choose the anchor phrase to sit there; when an
+  edit moves an anchor, update `notes.json` / `figures.json` in the same pass.
+- **One gloss mechanism per term, decided by a fixed boundary.** Inline
+  appositive when the gloss is under ~8 words AND the sentence needs it to
+  parse; footnote when the gloss is context the sentence does not need; back
+  glossary when the term RECURS (note it once at first appearance and let the
+  glossary carry the rest). A term glossed twice by two mechanisms is the
+  defect.
+- **Balance note density across the book.** Words-per-note per chapter should
+  not swing more than roughly 2-3x across the book; the front door is not a
+  dissertation, and the back half is not a desert. Even coverage, tapering
+  naturally as the furniture gets covered.
 
 ## The one-line summary
 Cut the scaffolding. Break the walls. Trust the short sentence. Hide the machine.

@@ -12,6 +12,17 @@ is a translation and can say where the prose does not read right.
 writes this prompt above it into `out/<unit>_critique_prompt.md`, ready to hand
 to the blind subagent. Do not add project context to that agent.
 
+ADJUDICATING THE RETURN (for the session, never for the blind reader): the
+blindness that makes the critic honest also produces known false positives.
+Before accepting a finding, check it against the book's KEEP list in
+`STYLE.local.md`. The recurring classes, learned on real books: load-bearing
+quoted verse and allusion read to a blind critic as "vague" or "purple" (they
+are quotations); partisan epithets and the institutional first person are
+content, not defects; deliberate anaphora and parity-locked one-line
+paragraphs are the author's structural devices; a gnomic present in standing
+description is the author's tense, not an error. Record why each skipped
+finding was skipped; the critic was not wrong to flag what it could not know.
+
 ---
 
 Read this. It is a chapter of an English translation. I want you to tell me, in

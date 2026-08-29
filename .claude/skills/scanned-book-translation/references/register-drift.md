@@ -98,6 +98,33 @@ parenthetical structure will legitimately take more dashes.
 
 Report the spread. If the user wants it closed, it needs a human pass.
 
+## The second campaign: narration starch (what dialogue metrics cannot see)
+
+The dialogue metrics above caught the first drift the shelf ever measured.
+The next two whole-book register passes found the bigger fight was
+NARRATION-side, invisible to every dialogue metric: antique function words
+("thereupon," "was wont to," the trailing "besides"), nominalization chains
+("the [gerund] of the"), uniform uncontracted negation ("did not / could not"
+at 100%), reveal-bang exclamations, and archaic quote tags. One book measured
+87 antique "besides" and 42 nominalizations after every dialogue metric read
+clean.
+
+So measure narration too, every chapter:
+
+- `check_register.py` now reports narration contraction share, narration
+  bangs per 1k, and an antique-word count beside the dialogue columns. All
+  three are INFORMATIONAL: the narration-contraction dial is calibrated per
+  book at the voice gate (one commissioner set 10-15%, another declined the
+  program entirely), and a documentary chapter legitimately runs starchy.
+- `scripts/register_tics.py <unit>` greps the full battery with line numbers;
+  `--profile` prints the whole-book calibration table a revision plan starts
+  from. Every hit is a candidate that faces its carve-outs (quoted documents,
+  slogans, formal-by-design speakers, note anchors), never an automatic
+  defect.
+
+The four exempt registers below apply to the narration sweeps exactly as they
+do to contraction fixes.
+
 ## Other markers worth watching
 
 Weaker but occasionally informative:
