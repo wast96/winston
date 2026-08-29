@@ -2,7 +2,7 @@
 
 Ling Wen was woken by a clamor of noise, though she had scarcely fallen asleep before the small hours. First came a shrill bugle-call, cutting through the thin mist of dawn; then, without pause, a repeated clang-clang, and only after a long while did she realize it was the crash of iron doors being opened and shut. She was in a lockup. In Longhua.
 
-The morning before, a black prison van had carried her from the Laozha Police Station to Nanshi; in the afternoon she was put aboard another, and it was not until dusk that she was delivered here, the van full of the people taken at the meeting that day. Once it had crossed Fenglin Bridge, someone in the van said under his breath that it looked to be Longhua. Sure enough, the van drove into the Songhu Garrison Command and stopped before a small building, and someone muttered again: the Judge Advocate's office. At the least sound of talk the military escort began to bellow.
+The morning before, a black prison van had carried her from the Louza police station to Nanshi; in the afternoon she was put aboard another, and it was not until dusk that she was delivered here, the van full of the people taken at the meeting that day. Once it had crossed Fenglin Bridge, someone in the van said under his breath that it looked to be Longhua. Sure enough, the van drove into the Songhu Garrison Command and stopped before a small building, and someone muttered again: the Judge Advocate's office. At the least sound of talk the military escort began to bellow.
 
 Inside the little building they had stood a long time by the windows, the dusk gathering outside, every one of them heavy-hearted. Only after dark were they pushed one by one into the cells, and she had eaten nothing to this moment.
 

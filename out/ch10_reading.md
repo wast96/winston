@@ -72,7 +72,7 @@ Assistant Manager Wu Zuomin, for your esteemed perusal:
 
 We had arranged to meet with you on the tenth of this month, but a matter prevented my coming. I further learned by telephone that the renewal of the safe-deposit box was to be conveyed by letter. As follows:
 
-I beg to state: safe-deposit box No. 279 is hereby to be kept in use until the eleventh of March, all the several charges pertaining thereto to be settled together before the term expires. I trust you will at once receive and approve this. With respect, I remain.
+I beg to state: safe-deposit box No. 279 is hereby to be kept in use until March 11, all the several charges pertaining thereto to be settled together before the term expires. I trust you will at once receive and approve this. With respect, I remain.
 
 Qin Chuan'an read the letter and said nothing. Tian Fei took it, finished reading, and at once let out a soft cry: “Just as I thought.”
 

@@ -49,14 +49,27 @@ accepting such a finding._
 
 ## Consistency canon (ONE decision, book-wide; decide at setup or the gate)
 
-_Decisions that bind body, notes, glossary, and book.json titles alike. At
-minimum: date format (shelf default "Month D, YYYY") and spelling locale
-(shelf default American), decided BEFORE Batch 1 per `_base.md`; the
-narration-contraction dial calibrated at the voice gate (shelf default in
-`genre-nonfiction.md`); organization handles (one per organ, forever);
-capitalization of named events. Three books shipped a mid-book date-format
-flip because this canon did not exist yet; write the decision down here the
-moment it is made._
+_Decisions that bind body, notes, glossary, and book.json titles alike._
+
+- **Date format: "Month D, YYYY."** Shelf default. Adopted as a Tier A
+  conformance in the R1 retrofit; the R1 range (ch02-ch10, body and notes) is
+  conformed, and `register_tics.py`'s `day-month-date` battery reads 0 over
+  that range. NOT YET SWEPT book-wide: ch11 and up still carry day-first note
+  dates ("28 January 1932") from the pre-retrofit batches; R2 through R4
+  normalize their own ranges, and the book is uniform only after R4.
+- **Spelling locale: American.** Shelf default. Real venue names keep their
+  own spelling ("the Lyceum Theatre," "the Grand Theatre," "the Carlton
+  Theatre") and are exempt from the `british-spelling` battery.
+- **Organization handles:** one rendering per organ, in `glossary.json`
+  (the term ledger). Named real events keep their attested capitalization
+  (the May Thirtieth Movement, the January 28 Incident, the Great Revolution).
+- **First appearance:** a recurring referent is footnoted at its FIRST
+  appearance in the book. The pre-retrofit batches sometimes noted a referent
+  at a later recurrence; R1 relocated the clean cases whose first appearance
+  falls in ch02-ch10 (political tutelage moved ch18 -> ch05) and added fresh
+  first-appearance notes for referents only mentioned in passing later
+  (Suzhou Creek, Nanshi, the silver dollar, the boycott of Japanese goods).
+  Remaining inversions are logged in HANDOFF for a whole-book reconciliation.
 
 ## Calibrated rulings (grows through the book)
 
@@ -72,4 +85,11 @@ _Empty until the first-chapter voice gate. Each entry:_
 
 _One rendering per recurring item, like the glossary but for diction and
 function words. Wrong form on the left, decided form on the right. Grows through
-the book._
+the book. Full ledger in `glossary.json`; the authority conformances land here._
+
+- 老闸捕房: "the Laozha Police Station" -> **"the Louza police station"** (R1,
+  authority name; Louza is the attested English of the SMP station).
+- 吴淞口: "the Wusong bar" -> **"the mouth of the Wusong River"** (R1, authority).
+- Authority conformances not yet in range (later rounds): 马斯南路 Massenet Road
+  -> Route Massenet (first appears ch11); 大美晚报 -> the Shanghai Evening Post
+  and Mercury; 老闸巡捕房 handled above.

@@ -1119,3 +1119,83 @@ ch35 = 5; class="dateline": ch35 = 1; ch34/36/37 = 0/0).
 scripts/build_reading_epub.py out/thousand-li.epub: 37 of 37 units translated (the whole book),
 217 notes. qa_epub.py: PASS (50 files, 44 documents; 217 references = 217 bodies = 217 backlinks;
 numbering sequential 1-217 in reading order; all links resolve). THE BOOK IS COMPLETE.
+
+## Retrofit round R1 (ASSESSMENT.md section 6): ch02-ch10 densification
+
+### Step 0: doctrine upgrade to v2.4
+
+Adopted the shelf-wide v2.4 doctrine on this branch (commit "R1 step 0"). Copied the
+current CLAUDE.md, the whole styles/ layers, REVISION_PLAN.template.md, and every shared
+script the branch lacked (anchor_check, apparatus_merge, apply_edits, apply_format_markers,
+check_align, check_apparatus, check_content, check_reconcile, check_register,
+check_style_freshness, compose_style, qc_entities, reflow, register_tics, smart_quotes,
+stamp_deliverable, verify_unit, voice_gate_critique). Composed STYLE.md (zh + fiction) with
+compose_style.py and seeded STYLE.local.md. Added book.json "deliverable" (the full English
+title per the naming policy), plus source_language and genre. The branch's own patched
+check_numbers, check_structure and build_reading_epub were left untouched. No reading text
+was touched in step 0.
+
+Note: ASSESSMENT.md is not present on this branch (never committed). The R1 task instructions
+were self-contained and were followed as given.
+
+### R1 = ch02-ch10 (nine units), thinnest-first
+
+Densified nine chapters, 73 new notes added (book-wide 217 -> 290). Per-chapter totals now:
+ch02 27 (+17), ch03 10 (+6), ch04 14 (+9), ch05 18 (+15), ch06 7 (+3), ch07 21 (+10),
+ch08 14 (+4), ch09 12 (+4), ch10 10 (+5). ch05 (thinnest at 3) got the most new notes (15),
+as directed.
+
+Candidates were sourced from glossary.json's referents, CLAUDE.md's four coverage domains,
+and the lost-in-translation idiom/allusion layer. Every new note carries a real-vs-fiction
+and corroborated/uncorroborated/invention verdict. Fact-checking was done by three research
+subagents against Wikipedia (EN/ZH), Baidu Baike, and academic/government/museum sources
+(never Grok/Grokipedia). Findings that changed a note: the secret-service book You Tianxiao
+carries (ch03) is a light rename of a REAL Gu Shunzhang text, not an invention; the garrison's
+German "electric-torture apparatus" (ch05) is the novel's, on a real German-military backdrop;
+the Louza station (ch04) is the very SMP station of the May 30, 1925 shooting; Baiyunguan (ch02)
+really did host a garrison detective-squad lock-up; Park Road is today Huanghe Road (not
+Huangpi); Pu'enjishi Road is today Jinxian Road. Xiaobangwan (ch07) could not be verified and
+was not given a note.
+
+HONEST NOTE ON DENSITY. The directive band is ~30-40 notes per chapter; the R1 chapters land
+at ~14 average (ch02 and ch07 near the low end of the band, the short/interior ch03/ch06/ch09
+well under it). Two reasons, both faithful rather than lazy: (1) the no-pad rule -- these are
+short, dialogue-heavy chapters, and several are almost pure cell-dialogue (ch06) or interior
+monologue (ch09) with few un-noted external referents; (2) first-appearance discipline -- many
+obvious early-chapter referents were already footnoted at a LATER recurrence by the original
+batches (Garrick and the silver-dollar concept at ch23, tram at ch29, the Central Liaison
+Bureau and boycott-as-strike at ch15, Nanshi-as-police-force at ch17), so re-noting them in
+ch02-ch10 would duplicate. Those inversions are logged for a whole-book reconciliation.
+
+### Tier A conformances folded (ch02-ch10 only)
+
+- Names (authority.json decided renderings appearing in range), with glossary.json in lockstep:
+  ch04 "the Laozha Police Station" -> "the Louza police station"; ch07 "the Wusong bar" ->
+  "the mouth of the Wusong River". (Massenet Road/Route Massenet first appears ch11; Da Mei Wan
+  Bao does not appear in range; both are later rounds.)
+- Dates -> "Month Day, Year": reading text, ch10 "the eleventh of March" -> "March 11" (the only
+  day-first date in the range's body; the ch07 "eighteenth year of the Republic" is Republican
+  reckoning, left as period voice and footnoted). Note bodies, ch02-ch10: nine day-first dates
+  reordered ("31 January 1931" -> "January 31, 1931", etc.). ch11+ note dates are NOT swept this
+  round (later rounds).
+- First-appearance relocation: the political-tutelage gloss moved from the ch18 note to a
+  focused note at ch05 (its first appearance); the ch18 note trimmed to avoid a duplicate.
+
+### Checks run (R1)
+
+- anchor_check.py per unit before apply_edits.py: no collisions. apply_edits.py applied 3 prose
+  conformances and 73 notes across the nine units.
+- check_structure.py --pairs data/zh/<id>.txt: paragraph parity OK for all nine (edits were 1:1).
+- check_numbers.py --noise check_noise.txt on regenerated bilinguals for ch06-ch10: 0 unresolved.
+  ch02-ch05 numerals unchanged in range (only ch04 edited, a non-numeric name conformance).
+- register_tics.py --profile ch02-ch10: day-month-date battery reads 0 over the range;
+  british-spelling hits are real venue names (Theatre) and are exempt; the remaining
+  narration-side batteries are pre-existing candidates in the FROZEN reading text (content is
+  frozen this round), informational only.
+- Build: build_reading_epub.py "out/A Thousand Li of Rivers and Mountains.epub" (the new
+  deliverable name), 37/37 units, 290 notes. qa_epub.py: PASS (50 files, 44 documents; 290
+  references = 290 bodies = 290 backlinks; numbering sequential 1-290; all links resolve). One
+  numbering-order failure was caught and fixed mid-round: the ch02 "Judge Advocate's office"
+  anchor had contained the existing "Longhua Garrison Command" anchor and shared its end
+  position, inverting two note numbers; shortening the anchor fixed it.
+- Deliverable stamped with stamp_deliverable.py R1.
