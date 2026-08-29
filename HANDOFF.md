@@ -9,8 +9,10 @@ one range at a time. R1 (ch02-ch10) is DONE. Next is R2.
 
 ```
 Read CLAUDE.md in full (it is now the v2.4 doctrine; the working rules at the
-top are non-negotiable), then STYLE.md and STYLE.local.md together, then
-HANDOFF.md, then book.json. We are in the annotation retrofit of 《千里江山图》
+top are non-negotiable), then ASSESSMENT.md (the commissioning brief; section 6
+is the four-round plan, section 2 is the authority-deviation table), then
+STYLE.md and STYLE.local.md together, then HANDOFF.md, then book.json. We are in
+the annotation retrofit of 《千里江山图》
 (A Thousand Li of Rivers and Mountains, Sun Ganlu, 2022), an already-complete
 annotated English EPUB. The working branch is claude/thousand-li (ONE branch;
 move any stray work onto it and delete the stray). The deliverable is
@@ -29,7 +31,13 @@ counts from notes.json and give the currently-thinnest chapters the most new
 notes. Do NOT pad: a note must say something a no-background reader needs, and
 "notes added just to add them" is the failure mode. Where a short or heavily
 interior chapter genuinely caps below the band, say so honestly in PROGRESS.md
-rather than padding (R1 landed ~14/chapter for exactly this reason).
+rather than padding (R1 landed ~15/chapter for exactly this reason; see the
+"HONEST NOTE ON DENSITY" in PROGRESS.md). DENSITY POLICY FOR R2: if the
+commissioner has said (in the chat that launches you, or in CORRECTIONS.md) to
+push harder toward the band, the levers are to accept more light
+material-culture/texture notes at the margin and to relocate EVERY later-noted
+first-appearance referent into this round; absent that instruction, hold to
+no-pad as R1 did.
 
 Sourcing and fact-checking (identical to R1):
 - Source first-appearance candidates from glossary.json (the term ledger) and
@@ -71,15 +79,21 @@ Note mechanics (match the existing bodies exactly):
   json.dump, verifies each new anchor against the post-edit reading text, and
   refuses named entities and duplicates).
 
-Fold the Tier A conformances that fall in ch11-ch19, content otherwise FROZEN:
-- Names (authority conformances), with glossary.json updated in lockstep and a
-  NOTE-ANCHOR move for any existing note whose anchor the rename breaks:
-  马斯南路 Massenet Road -> Route Massenet (first appears ch11; the ch11 note is
-  anchored "Massenet Road", so move the anchor in the same pass). GREP the
-  range for the other authority names and conform any that appear:
-  大美晚报 Da Mei Wan Bao -> the Shanghai Evening Post and Mercury; and confirm
-  the R1 conformances (老闸 Louza, 吴淞口 the mouth of the Wusong River) do not
-  recur unconformed.
+Fold the Tier A conformances that fall in ch11-ch19, content otherwise FROZEN.
+The authority-deviation table is ASSESSMENT.md section 2 and the binding forms
+are in authority.json (keyed under "thousand-li"); GREP ch11-ch19 for each and
+conform any that appear, with glossary.json in lockstep and a NOTE-ANCHOR move
+for any existing note whose anchor a rename breaks:
+- 马斯南路 Massenet Road -> Route Massenet (first appears ch11, 2 occurrences; the
+  ch11 note is anchored "Massenet Road", so MOVE that anchor in the same pass).
+- 海格路 Haige Road -> Avenue Haig; 大美晚报 Da Mei Wan Bao -> the Shanghai Evening
+  Post and Mercury; 反省院 the Reflection Institute -> reflection institute (a case
+  fix, at ch22, so R3, but grep anyway); 白区 "the White area" -> "the White
+  areas" (a number fix, ~13 occurrences book-wide). Grep the range and conform
+  those that fall in it.
+- 吴淞口 recurs: the R1 range had one ("the Wusong bar", ch07, done), but the term
+  appears about seven times book-wide, so more "the Wusong bar" occurrences wait
+  in ch11+; conform each in its round.
 - Dates -> "Month Day, Year": normalize any day-first date in the reading text
   AND in the ch11-ch19 note bodies (the pre-retrofit note bodies carry
   day-first forms like "28 January 1932"; reorder them to "January 28, 1932").
@@ -114,11 +128,11 @@ the kickoff only into HANDOFF.md does NOT satisfy this; it must be in the chat.
 - Retrofit Step 0: doctrine upgraded to v2.4 (CLAUDE.md, styles/, STYLE.md +
   STYLE.local.md, REVISION_PLAN.template.md, all shared scripts the branch
   lacked). book.json gained deliverable/source_language/genre. See PROGRESS.md.
-- Retrofit R1 = ch02-ch10: 73 new fact-checked notes (book-wide 217 -> 290),
+- Retrofit R1 = ch02-ch10: 79 new fact-checked notes (book-wide 217 -> 296),
   thinnest-first (ch05 +15). Tier A conformances in range folded (Louza,
   Wusong, dates). political-tutelage note relocated ch18 -> ch05. qa green.
-  Per-chapter totals now: ch02 27, ch03 10, ch04 14, ch05 18, ch06 7, ch07 21,
-  ch08 14, ch09 12, ch10 10.
+  Per-chapter totals now: ch02 28, ch03 11, ch04 14, ch05 18, ch06 8, ch07 22,
+  ch08 15, ch09 12, ch10 11.
 
 ## What is NEXT
 

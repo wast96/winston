@@ -1135,15 +1135,21 @@ title per the naming policy), plus source_language and genre. The branch's own p
 check_numbers, check_structure and build_reading_epub were left untouched. No reading text
 was touched in step 0.
 
-Note: ASSESSMENT.md is not present on this branch (never committed). The R1 task instructions
-were self-contained and were followed as given.
+Note on ASSESSMENT.md: this session cloned the branch at d453d63, before ASSESSMENT.md and
+authority.json had been pushed to the remote; they arrived on origin/claude/thousand-li
+mid-round and were integrated by rebasing the R1 commits onto them. R1 matches ASSESSMENT.md
+section 6 exactly (R1 = ch02-ch10, R2 = ch11-ch19, R3 = ch20-ch28, R4 = ch29-ch37,
+thinnest-first, reading text frozen). The six authority deviations in section 2 were
+cross-checked: only 老闸捕房 (Louza, ch04) and 吴淞口 (Wusong, ch07) fall in the R1 range and are
+both conformed; 海格路/Avenue Haig, 马斯南路/Route Massenet, 大美晚报/the Shanghai Evening Post and
+Mercury, 反省院/reflection-institute-case, and 白区/the White areas are all in ch11+ (R2-R4).
 
 ### R1 = ch02-ch10 (nine units), thinnest-first
 
-Densified nine chapters, 73 new notes added (book-wide 217 -> 290). Per-chapter totals now:
-ch02 27 (+17), ch03 10 (+6), ch04 14 (+9), ch05 18 (+15), ch06 7 (+3), ch07 21 (+10),
-ch08 14 (+4), ch09 12 (+4), ch10 10 (+5). ch05 (thinnest at 3) got the most new notes (15),
-as directed.
+Densified nine chapters, 79 new notes added (book-wide 217 -> 296), in two passes. Per-chapter
+totals now: ch02 28 (+18), ch03 11 (+7), ch04 14 (+9), ch05 18 (+15), ch06 8 (+4), ch07 22 (+11),
+ch08 15 (+5), ch09 12 (+4), ch10 11 (+6). ch05 (thinnest at 3) got the most new notes (15),
+as directed; the thinnest chapters were lifted first.
 
 Candidates were sourced from glossary.json's referents, CLAUDE.md's four coverage domains,
 and the lost-in-translation idiom/allusion layer. Every new note carries a real-vs-fiction
@@ -1157,15 +1163,28 @@ really did host a garrison detective-squad lock-up; Park Road is today Huanghe R
 Huangpi); Pu'enjishi Road is today Jinxian Road. Xiaobangwan (ch07) could not be verified and
 was not given a note.
 
-HONEST NOTE ON DENSITY. The directive band is ~30-40 notes per chapter; the R1 chapters land
-at ~14 average (ch02 and ch07 near the low end of the band, the short/interior ch03/ch06/ch09
-well under it). Two reasons, both faithful rather than lazy: (1) the no-pad rule -- these are
-short, dialogue-heavy chapters, and several are almost pure cell-dialogue (ch06) or interior
-monologue (ch09) with few un-noted external referents; (2) first-appearance discipline -- many
-obvious early-chapter referents were already footnoted at a LATER recurrence by the original
-batches (Garrick and the silver-dollar concept at ch23, tram at ch29, the Central Liaison
-Bureau and boycott-as-strike at ch15, Nanshi-as-police-force at ch17), so re-noting them in
-ch02-ch10 would duplicate. Those inversions are logged for a whole-book reconciliation.
+HONEST NOTE ON DENSITY (matters for the commissioner's R2-R4 calibration). ASSESSMENT.md
+section 6 targets the directive band (~30-40 notes/chapter, ~290-460 new/round) or, at the
+moderate tier, ~25/chapter (~160 new/round). R1 lands well under that: 79 new, ~15/chapter
+total, with only the two content-rich chapters (ch07 22, ch02 28) reaching the moderate tier
+and the short/interior ones (ch03 11, ch06 8, ch09 12, ch10 11) below it. This is a judgment
+call under two binding constraints, made deliberately rather than by omission:
+(1) The no-pad rule (CLAUDE.md: "notes added just to add them are still the failure mode").
+    These are short narrative chapters -- several almost pure cell-dialogue (ch06) or interior
+    monologue (ch09) -- and even ch02, the densest, at 28 notes over ~1,000 words of English is
+    already about one note per two sentences; pushing a narrative novel to 40/chapter would
+    read as padding, not annotation. The band appears calibrated for denser (nonfiction /
+    documentary) material than these particular chapters carry.
+(2) First-appearance discipline. Many obvious early referents were already footnoted at a LATER
+    recurrence by the original batches, so re-noting in ch02-ch10 would duplicate: the Garrick
+    brand (a deliberate identity-reveal note at ch23), the Central Liaison Bureau's courier
+    lines (ch15). R1 relocated the clean cases (political tutelage ch18 -> ch05) and added fresh
+    first-appearance notes where the later mention was only incidental (Suzhou Creek, Nanshi,
+    the silver dollar, the boycott, the tram). Remaining inversions are logged in HANDOFF.
+If the commissioner wants R2-R4 pushed harder toward the band, the levers are: accept more
+light texture/material-culture notes at the margin, and relocate every later-noted
+first-appearance referent into its round (a broader move than R1 made). Flagged for the R2
+kickoff decision; R1 held to no-pad.
 
 ### Tier A conformances folded (ch02-ch10 only)
 
