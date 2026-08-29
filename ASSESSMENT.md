@@ -263,19 +263,29 @@ warranted:** the register and fidelity are already at standard, and the one real
 gap against the current template is footnote density. This is a "densification"
 pass in the section-4 taxonomy, not a "full register plus densification."
 
-**Batch plan.** Run the densification on the book's own approved 12-batch spine
-(B01 to B12, about 13k source characters each) as revision rounds R1 to R12, two
-to five chapters per round, thinnest-chapter-first WITHIN the reading order so
-the worst-served chapters lift earliest. Target the directive band; if the
-commissioner buys the moderate tier instead, target about 25 notes per chapter.
-Each round: source first-appearance candidates from `glossary.json` and the four
-coverage domains, fact-check every new note against real scholarship (never an
-AI-written source), verify every anchor is a verbatim substring with
+**Batch plan.** This is a densification-only pass: the reading text is frozen,
+so there is no re-translation, no blind double-translation, and no
+back-translation, and the per-chapter work is additive apparatus that batches
+well. It therefore does NOT need the twelve-round translation cadence; run it in
+**four consolidated rounds R1 to R4, about nine units each**, thinnest-chapter-first
+WITHIN each round so the worst-served chapters lift earliest:
+
+- **R1: ch02 to ch10** (Dice through The Clinic)
+- **R2: ch11 to ch19** (The Tenant through February)
+- **R3: ch20 to ch28** (The Xingchang Apothecary through Xiaotaoyuan)
+- **R4: ch29 to ch37** (The Dyeworks Drying Ground through the Appendix, with the
+  unsigned letter ch36 and the two-part appendix ch37)
+
+Target the directive band; if the commissioner buys the moderate tier instead,
+target about 25 notes per chapter. That is roughly +160 new notes per round at the
+moderate target (+640 total) or +290 to +460 per round to the band (+1,150 to
++1,830 total). Each round: source first-appearance candidates from `glossary.json`
+and the four coverage domains, fact-check every new note against real scholarship
+(never an AI-written source), verify every anchor is a verbatim substring with
 `anchor_check.py` before applying, fold the Tier A conformances that fall in the
 round's chapters, rebuild the cumulative EPUB, run the full check battery and
 `qa_epub` to green, deliver the stamped EPUB in chat with the next kickoff, and
-commit. Roughly +1,150 to +1,830 new notes to the band, or +640 at the moderate
-target, over the twelve rounds.
+commit. A round is large but low-risk, since none of it touches the frozen prose.
 
 **Explicitly out of scope:** rewriting any existing note; re-translating any
 paragraph (the reading text is FROZEN except the Tier A conformances, which
@@ -310,23 +320,26 @@ Compose STYLE.md with compose_style.py. Add "deliverable":
 "A Thousand Li of Rivers and Mountains.epub" to book.json. Commit as
 "R1 step 0: doctrine upgrade to v2.4". Do NOT touch reading text in this step.
 
-THEN R1 = B01 = ch02 Dice, ch03 Longhua, ch04 Miss Tao, ch05 Xuanwu Lake.
-Densify to the directive band (aim ~30-40 notes per chapter; ch05 is thinnest
-at 3 notes and gets the most). Source first-appearance candidates from
-glossary.json (its 370 referents are the quarry) and CLAUDE.md's four coverage
-domains, plus the lost-in-translation idiom/allusion layer. Every new note:
-fact-checked against real scholarship (Wikipedia, Baidu Baike, academic and
-museum sources; NEVER Grok/Grokipedia or any AI-written source), with its
-real-vs-fiction and corroborated/uncorroborated/invention verdict; anchor a
-verbatim substring of the English prose, verified with anchor_check.py before
-apply_edits.py runs; note bodies XHTML with numeric character references.
+THEN R1 = ch02 Dice, ch03 Longhua, ch04 Miss Tao, ch05 Xuanwu Lake, ch06
+Identity, ch07 Old Fang, ch08 The Race Ticket, ch09 The Photograph, ch10 The
+Clinic (nine units; four consolidated rounds cover the whole book). Densify to
+the directive band (aim ~30-40 notes per chapter), thinnest-chapter-first within
+the round (ch05 is thinnest at 3 notes and gets the most, then ch03 and ch06).
+Source first-appearance candidates from glossary.json (its 370 referents are the
+quarry) and CLAUDE.md's four coverage domains, plus the lost-in-translation
+idiom/allusion layer. Every new note: fact-checked against real scholarship
+(Wikipedia, Baidu Baike, academic and museum sources; NEVER Grok/Grokipedia or
+any AI-written source), with its real-vs-fiction and
+corroborated/uncorroborated/invention verdict; anchor a verbatim substring of the
+English prose, verified with anchor_check.py before apply_edits.py runs; note
+bodies XHTML with numeric character references.
 
-Fold the Tier A conformances that fall in ch02-ch05: normalize any date to
+Fold the Tier A conformances that fall in ch02-ch10: normalize any date to
 "Month Day, Year"; conform authority.json decided names appearing here
-(e.g. Massenet Road -> Route Massenet in ch04/ch05 if present, Da Mei Wan Bao
--> the Shanghai Evening Post and Mercury, the Wusong bar -> the mouth of the
-Wusong River) with glossary.json updated in lockstep; leave every other
-paragraph's sense untouched (content is frozen).
+(e.g. Massenet Road -> Route Massenet, Da Mei Wan Bao -> the Shanghai Evening
+Post and Mercury, the Wusong bar -> the mouth of the Wusong River, the Laozha
+Police Station -> the Louza police station) with glossary.json updated in
+lockstep; leave every other paragraph's sense untouched (content is frozen).
 
 Run check_numbers.py, check_structure.py, register_tics.py, anchor_check.py,
 then rebuild the cumulative EPUB and run qa_epub.py until green. Do not invent
