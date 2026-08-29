@@ -64,6 +64,16 @@ BUILD = os.path.join(ROOT, "build")
 # simplified-character book (or vice versa) mislabels every span.
 SRC_LANG = "zh"
 
+# "translation" (default) or "annotated". An annotated edition reproduces an
+# already-English source with an added apparatus, so the builder's chrome must
+# not call it a translation ("English translation", "Not yet translated",
+# "Notes are the translator's throughout"). Set from book.json "edition_kind".
+EDITION = "translation"
+
+
+def _annotated():
+    return EDITION == "annotated"
+
 CSS = """\
 body { font-family: serif; line-height: 1.6; margin: 1em 1.2em; }
 h1 { font-size: 1.5em; margin: 1.4em 0 0.6em; font-weight: normal; }
@@ -147,7 +157,8 @@ SERIF_BOLD = "/usr/share/fonts/truetype/liberation/LiberationSerif-Bold.ttf"
 CJK_FONT = "/usr/share/fonts/truetype/wqy/wqy-zenhei.ttc"
 
 
-def make_cover(dest, title_en, title_zh, author_en, author_zh):
+def make_cover(dest, title_en, title_zh, author_en, author_zh,
+               tagline="Annotated English Translation"):
     """Generate a simple, clean typographic cover (1600x2560, Kindle/Books
     friendly ratio). Returns True on success, False if PIL or the fonts are
     unavailable -- the build then simply ships without a cover."""
@@ -201,7 +212,7 @@ def make_cover(dest, title_en, title_zh, author_en, author_zh):
     centered([author_en], font(SERIF, 74), by, ink, 0)
     if author_zh:
         centered([author_zh], font(CJK_FONT, 60), by + 96, ink, 0)
-    centered(["Annotated English Translation"], font(SERIF, 52), H - 360,
+    centered([tagline], font(SERIF, 52), H - 360,
              gold, 0)
     d.rectangle([margin, H - 216, W - margin, H - 210], fill=gold)
     img.save(dest, format="PNG", optimize=True)
@@ -433,8 +444,9 @@ def render_skeleton(chap):
     ids = set()
     out = ['<h1>%s</h1>' % esc(chap["title_en"])]
     sl = span_label(chap)
-    out.append('<p class="note"><span class="pending">Not yet translated.</span>'
-               '%s</p>' % (" Source&#160;" + sl if sl else ""))
+    pending = "Not yet prepared." if _annotated() else "Not yet translated."
+    out.append('<p class="note"><span class="pending">%s</span>'
+               '%s</p>' % (pending, " Source&#160;" + sl if sl else ""))
     for sec in chap.get("sections", []):
         ids.add(sec["id"])
         out.append('<h2 id="%s">%s</h2>' % (esc(sec["id"]), esc(sec["title_en"])))
@@ -557,10 +569,15 @@ def render_body(md_path, section_ids, sub_ids, figures, notes, counter, doc,
 
 
 def render_notes_page(chapters, notes_by_chap):
-    parts = ['<h1>Notes</h1>',
-             '<p class="note">Each number links back to its place in the '
-             'text. Notes are the translator\'s throughout; the source book '
-             'carries none of its own.</p>']
+    if _annotated():
+        headnote = ('Each number links back to its place in the text. Notes '
+                    'marked <i>Ed.</i> are editorial, added in this edition; '
+                    'every other note is the author\'s own.')
+    else:
+        headnote = ('Each number links back to its place in the text. Notes '
+                    'are the translator\'s throughout; the source book carries '
+                    'none of its own.')
+    parts = ['<h1>Notes</h1>', '<p class="note">%s</p>' % headnote]
     any_used = False
     for chap in chapters:
         used = sorted([n for n in notes_by_chap.get(chap["id"], [])
@@ -795,12 +812,13 @@ def translator_note(meta, n_chapters):
     named entities). If that field is absent, a generic note describing the
     method is used, with the title/year/chapter-count filled in.
     """
+    heading = esc(meta.get("note_heading") or "Translator's Note")
     paras = meta.get("translator_note_paragraphs")
     if paras:
         body = "".join('<p class="note">%s</p>' % p for p in paras)
-        return "<h1>Translator's Note</h1>" + body
+        return "<h1>%s</h1>" % heading + body
     return (
-        '<h1>Translator\'s Note</h1>'
+        '<h1>%s</h1>' % heading +
         '<p class="note">This is an English translation of '
         '<i>%(title_zh)s</i> (<i>%(title_en)s</i>), from an image-only scan '
         'with no digital text layer.</p>'
@@ -828,17 +846,19 @@ def coverage_sentence(structure, translated):
     """The honesty line on the title page: is this the finished book, an
     interim build, or the pre-translation survey skeleton, and what is in it."""
     n = len(structure)
+    done_word = "prepared" if _annotated() else "translated"
+    progress = "in progress" if _annotated() else "a translation in progress"
     if not translated:
         return ('<p class="note">Survey skeleton: the full structure of the '
-                'book, nothing yet translated.</p>')
+                'book, nothing yet %s.</p>' % done_word)
     if len(translated) == n:
         return ('<p class="note">This edition contains the complete book: '
                 'all %d chapter%s.</p>' % (n, "" if n == 1 else "s"))
     names = [c["title_en"] for c in structure if c["id"] in translated]
-    return ('<p class="note">This is an interim build of a translation in '
-            'progress. It contains %d of the book\'s %d chapters: %s. The '
+    return ('<p class="note">This is an interim build, %s. '
+            'It contains %d of the book\'s %d chapters: %s. The '
             'rest follow in later builds.</p>'
-            % (len(names), n, "; ".join(esc(x) for x in names)))
+            % (progress, len(names), n, "; ".join(esc(x) for x in names)))
 
 
 def write(path, body, title):
@@ -904,7 +924,11 @@ def main(epub_path):
         # books to readers' libraries.
         "modified": book.get("modified", "2026-01-01T00:00:00Z"),
         "translator_note_paragraphs": book.get("translator_note"),
+        "note_heading": book.get("note_heading",
+                                 "Translator's Note"),
     }
+    global EDITION
+    EDITION = book.get("edition_kind", "translation")
     SRC_LANG = meta["source_script"]
     structure = [c for c in book.get("structure", []) if c.get("id", "").startswith("ch")]
     if not structure:
@@ -967,9 +991,12 @@ def main(epub_path):
             sys.exit("book.json cover_image not found: %s" % meta["cover_image"])
     else:
         cover_name = "cover.png"
+        tagline = ("Annotated Edition" if _annotated()
+                   else "Annotated English Translation")
         have_cover = make_cover(os.path.join(oebps, "images", cover_name),
                                 meta["title_en"], meta["title_zh"],
-                                meta["author_en"], meta["author_zh"])
+                                meta["author_en"], meta["author_zh"],
+                                tagline=tagline)
     if have_cover:
         write(os.path.join(oebps, "cover.xhtml"),
               '<div class="cover"><img src="images/%s" alt="Cover: %s"/></div>'
@@ -983,13 +1010,18 @@ def main(epub_path):
     yr = (' <p class="note">%s</p>' % esc(str(meta["year"]))) if meta["year"] else ""
     sub = ('<p class="subtitle">%s</p>' % esc(meta["subtitle_en"])
            if meta["subtitle_en"] else "")
+    # The source-title line only makes sense for a translation; an annotated
+    # English edition has no separate source title, and title_zh is empty.
+    zh_line = ('<p lang="%s">%s</p>' % (SRC_LANG, esc(meta["title_zh"]))
+               if meta["title_zh"] else "")
+    edition_line = ('<p class="note">Annotated edition</p>' if _annotated()
+                    else '<p class="note">English translation</p>')
     write(os.path.join(oebps, "titlepage.xhtml"),
-          '<div class="tp"><h1>%s</h1>%s'
-          '<p lang="%s">%s</p>'
-          '<p>%s</p>%s'
-          '<p class="note">English translation</p>%s</div>'
-          % (esc(meta["title_en"]), sub, SRC_LANG, esc(meta["title_zh"]),
-             byline, yr, coverage_sentence(structure, translated)),
+          '<div class="tp"><h1>%s</h1>%s%s'
+          '<p>%s</p>%s%s%s</div>'
+          % (esc(meta["title_en"]), sub, zh_line,
+             byline, yr, edition_line,
+             coverage_sentence(structure, translated)),
           meta["title_en"])
 
     # chapter bodies: EVERY chapter gets a page -- real content if translated,
@@ -1045,11 +1077,13 @@ def main(epub_path):
     write(os.path.join(oebps, "notes.xhtml"),
           render_notes_page(chapters, notes_by_chap), "Notes")
 
+    backmatter_title = "%s and Glossary" % (meta.get("note_heading")
+                                             or "Translator's Note")
     write(os.path.join(oebps, "backmatter.xhtml"),
           translator_note(meta, len(chapters))
           + "<h1>Glossary of Names and Terms</h1>"
           + render_glossary(gloss),
-          "Translator's Note and Glossary")
+          backmatter_title)
 
     back_matter = load_json("back_matter.json", {})
     have_backmatter = bool(back_matter.get("errata_rows") or
@@ -1074,7 +1108,7 @@ def main(epub_path):
     docs += [("contents.xhtml", "Contents")]
     docs += [(c["id"] + ".xhtml", c["title_en"]) for c in structure]
     docs += [("notes.xhtml", "Notes"),
-             ("backmatter.xhtml", "Translator's Note and Glossary")]
+             ("backmatter.xhtml", backmatter_title)]
     if have_backmatter:
         docs += [("errata.xhtml", "Errata"), ("colophon.xhtml", "Colophon")]
 
@@ -1121,8 +1155,8 @@ def main(epub_path):
         else:
             nav_items.extend(chap_lis)
     nav_items += ['<li><a href="notes.xhtml">Notes</a></li>',
-                  '<li><a href="backmatter.xhtml">Translator\'s Note and '
-                  'Glossary</a></li>']
+                  '<li><a href="backmatter.xhtml">%s</a></li>'
+                  % esc(backmatter_title)]
     if have_backmatter:
         nav_items += ['<li><a href="errata.xhtml">Errata</a></li>',
                       '<li><a href="colophon.xhtml">Colophon</a></li>']

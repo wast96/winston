@@ -1,93 +1,192 @@
 {
-  "_README": "This is the single source of the book's structure. The build is driven ENTIRELY by this file. Fill in every field, delete the _comment/_README keys or leave them (the builder ignores unknown keys). Chapter ids MUST start with 'ch' (ch01, ch02, ...). A chapter is treated as translated once out/<id>_reading.md exists. Cite the book's own PRINTED FOLIO in notes, never the PDF page.",
+  "_README": "Single source of the book's structure; the build is driven entirely by this file. This is NOT a translation: the source (Harold Isaacs, The Tragedy of the Chinese Revolution, Haymarket Books 2009, a reprint of the Secker & Warburg 1938 first edition) is already in English, with a clean born-digital text layer. The job is an ANNOTATED ENGLISH EDITION: Isaacs's own text preserved verbatim in out/<id>_reading.md, his own numbered endnotes converted to popup footnotes, PLUS a new reader-facing footnote layer, a glossary of names/terms, and a Principal Characters page. 'edition_kind' below switches the builder's chrome from translation wording to edition wording. Cite the book's PRINTED FOLIO in notes (arabic in the body, roman in the front matter), never the PDF page.",
 
-  "deliverable": "out/book.epub",
-  "_deliverable_note": "[SET PER PROJECT] The EPUB filename. Builder, qa_epub and the Stop hook all read this; never rely on the default.",
+  "edition_kind": "annotated",
 
-  "title_en": "English Title of the Book",
-  "title_zh": "中文書名",
-  "author_en": "Author Name (pinyin)",
-  "author_zh": "作者",
-  "year": 1933,
-  "uid": "urn:uuid:my-book-slug-1",
+  "deliverable": "out/The Tragedy of the Chinese Revolution.epub",
 
-  "_metadata_note": "EPUB metadata for e-reader compatibility (Kindle, Apple Books). All values should be in English. publisher is the original publisher; description is a short blurb; subject is a list of genre/topic strings; language defaults to 'en'. publication_date is ISO format (YYYY-MM-DD) of the original publication; if only the year is known, use YYYY-01-01. If uid is missing, or is a urn:uuid whose tail is not a real UUID (like this stub's), the builder substitutes a deterministic UUIDv5 of title_en; a malformed urn:uuid once made Apple Books refuse a book.",
-
-  "_metadata_schema": "OPTIONAL richer fields the builder also reads: subtitle_en; title_file_as / author_file_as (sort keys; default to the display forms); translator_en (dc:contributor, MARC role trl); rights; source_ref (dc:source, e.g. the scanned edition or a library call number); subjects (list; preferred over the legacy 'subject', which is still honored); series + series_index (calibre metas plus EPUB3 belongs-to-collection); source_language (BCP-47 of the original, emitted as dcterms:language); source_script (lang tag for source-script spans, e.g. 'zh-Hant' or 'zh-Hans'; default 'zh'); cover_image (path under data/figs/ or data/png/, copied byte-identical; without one a typographic cover is generated when Pillow and fonts allow); modified (RFC-3339 dcterms:modified stamp; defaults to a FIXED value so rebuilds are byte-identical — bump it when you ship a meaningfully new edition).",
-  "publisher": "",
-  "description": "",
-  "subject": [],
+  "title_en": "The Tragedy of the Chinese Revolution",
+  "title_zh": "",
+  "subtitle_en": "",
+  "title_file_as": "Tragedy of the Chinese Revolution, The",
+  "author_en": "Harold R. Isaacs",
+  "author_zh": "",
+  "author_file_as": "Isaacs, Harold R.",
+  "translator_en": "",
+  "year": 1938,
+  "publication_date": "1938-01-01",
+  "publisher": "Haymarket Books",
+  "description": "Harold Isaacs's classic history of the second Chinese revolution of 1925-1927 and its defeat. Written by a young American journalist who had lived and worked in China, and first published in London in 1938 with an introduction by Leon Trotsky, it is a documented, polemical account of the alliance between the Communists and the Kuomintang, its bloody collapse at Shanghai and Wuhan, and the role of the Communist International under Stalin. This annotated edition preserves Isaacs's 1938 text and its own reference notes, and adds a reader-facing layer of explanatory footnotes, a glossary of names and terms in the Wade-Giles romanization Isaacs used (with pinyin), and a guide to the principal figures, for readers with no background in modern Chinese history.",
+  "subjects": [
+    "HISTORY / Asia / China",
+    "HISTORY / Modern / 20th Century",
+    "POLITICAL SCIENCE / Political Ideologies / Communism, Post-Communism & Socialism",
+    "HISTORY / Revolutionary"
+  ],
   "language": "en",
-  "publication_date": "",
+  "source_language": "",
+  "source_script": "zh-Hans",
+  "rights": "Text © Harold Isaacs and Arnold Isaacs, 1938 (first published by Secker &#38; Warburg, London); Foreword © Arnold R. Isaacs, 2009; this reprint © Haymarket Books, 2009. This is a derivative annotated reading edition prepared for private study; the added apparatus (footnotes, glossary, editorial matter) is new.",
+  "source_ref": "Haymarket Books, Chicago, 2009 (reprint of Secker & Warburg, London, 1938); ISBN 9781608461097",
 
-  "_translator_note": "Optional. A list of paragraph strings rendered verbatim as the Translator's Note back-matter page. Inline <i>...</i> is honored; use NUMERIC character references (&#8212; em dash, &#160; nbsp), never named entities. If omitted, a generic method note is generated.",
+  "cover_image": "",
+
+  "_note_heading": "Heading for the book.json translator_note block. For an annotated (non-translation) edition it is an editor's note, not a translator's note.",
+  "note_heading": "A Note on This Edition",
   "translator_note": [
-    "This is an English translation of <i>中文書名</i>, from an image-only scan with no digital text layer.",
-    "Say here how the text was recovered and verified, what the register decisions were, who the author is and how to read the source, and how any damaged or missing passages were handled. Keep it honest about method and provenance."
+    "This is an annotated reading edition of <i>The Tragedy of the Chinese Revolution</i> by Harold R. Isaacs, reset from the Haymarket Books (2009) reprint of the first edition (Secker &#38; Warburg, London, 1938). Isaacs's text is reproduced as printed; nothing in the narrative has been rewritten, modernized, or abridged.",
+    "Two kinds of note appear at the foot of the page. Isaacs's own reference notes &#8212; the numbered citations he gathered at the back of the book &#8212; have been moved to the point in the text they document, so a reader can see the source without turning to the endmatter. To these has been added a second, editorial layer: brief notes identifying the people, places, institutions, offices, and party and Comintern terms that a reader without a background in modern Chinese history would not be expected to know, and flagging, where it is checkable, whether a claim is corroborated by later scholarship. Editorial notes are marked as such; every other note is Isaacs's own.",
+    "Isaacs wrote in the Wade-Giles romanization standard in the 1930s (Chiang Kai-shek, Borodin, Kuomintang, Wuhan). His spellings are kept in the text. The glossary and the notes give the modern pinyin form and, where useful, the Chinese characters, so that a name here can be matched to one in a present-day account.",
+    "The book is a partisan work, written from a Trotskyist standpoint and carrying an introduction by Trotsky himself. The editorial notes try to mark where the account is shaped by that standpoint, and where its factual claims have held up, without arguing with the author."
   ],
 
-  "_source_note": "Free-text provenance: where the scan came from, how many PDF pages, seal/artifact warnings, whether the PDF has bookmarks. Informational only.",
-  "source_note": "Image-only PDF scan; NN pages; no text layer. Note any library seal, dark-edge artifacts, or embedded bookmarks here.",
+  "source_note": "Born-digital PDF (Haymarket 2009), 409 pages, clean embedded text layer (QuarkXPress/Quartz), no OCR needed. Bookmarks present and accurate. Front matter runs a roman-numeral sequence (i-xxii); the body restarts at arabic 1. Body offset is constant: printed = (PDF page, 1-indexed) - 23, verified at every chapter opener. In-text reference marks are 5.5pt superscript digits, numbered per chapter; the endnotes run printed 340-373, the index 374 to the end.",
 
-  "_offset_note": "The PDF-page-to-printed-folio offset usually DRIFTS as unpaginated plates accumulate. Do NOT use a constant formula. Record per-section pdf_page/printed_page anchors below and READ the folio off the scan at each opener.",
+  "toc_flags_open": [
+    "ch08: printed TOC reads 'The Prodigal Returns'; the chapter opener (used here) reads 'The Prodigal's Return'.",
+    "ch09: printed TOC reads 'Conspiracy of Silence'; the chapter opener (used here) reads 'The Conspiracy of Silence'.",
+    "ch10: printed TOC reads 'The Coup of April 12'; the chapter opener (used here) reads 'The Coup of April 12, 1927'.",
+    "ch16: printed TOC reads 'The Autumn Harvest'; the chapter opener (used here) reads 'Autumn Harvest'."
+  ],
+  "toc_flags_resolved": [],
 
-  "_end_note": "The last PDF page and printed folio of the body text. Set these so the LAST chapter's/section's page length is known in the survey; without them its length shows as '?'.",
-  "pdf_end": 292,
-  "printed_end": 236,
+  "_index_decision": "The printed index (printed 374 to end) references print page numbers that do not survive reflow. Recommendation, pending commissioner approval at the survey gate: OMIT the index rather than reproduce dead page references. Revisit only if a linked index is wanted.",
 
-  "_structure_note": "One entry per chapter, in reading order. Each chapter: id (ch01..), chapter (int), title (zh), title_en, pdf_page + printed_page of its opener, and a sections list. OPTIONAL 'part': a label like 'Part One. ...' — consecutive chapters sharing a part are grouped under it in the TOC. Each section: id (ch01s01..), section (int), title (zh), title_en, pdf_page, printed_page, and an OPTIONAL 'subsections' list (id ch01s01x1.., title, title_en, pdf_page, printed_page). The reading markdown uses '## ' for the chapter (h1), '### ' per section (h2, matched to these section ids in order), '#### ' per subsection (h3, matched to the subsection ids in order). Fill in the WHOLE structure up front (from the TOC or PDF bookmarks): the survey and the skeleton EPUB are built from it before any translation.",
+  "pdf_end": 362,
+  "printed_end": 339,
+
   "structure": [
     {
-      "level": 1,
-      "id": "ch01",
-      "chapter": 1,
-      "part": "Part One. English Part Title (optional; omit if the book has no parts)",
-      "title": "第一章 章名",
-      "title_en": "Chapter 1. English Chapter Title",
-      "pdf_page": 27,
-      "printed_page": 1,
-      "sections": [
-        {
-          "id": "ch01s01",
-          "section": 1,
-          "title": "第一節 節名",
-          "title_en": "Section 1. English Section Title",
-          "pdf_page": 27,
-          "printed_page": 1,
-          "subsections": [
-            {
-              "id": "ch01s01x1",
-              "title": "一 小節名",
-              "title_en": "i. English Subsection Title (optional; omit the whole list if none)",
-              "pdf_page": 27,
-              "printed_page": 1
-            }
-          ]
-        },
-        {
-          "id": "ch01s02",
-          "section": 2,
-          "title": "第二節 節名",
-          "title_en": "Section 2. English Section Title",
-          "pdf_page": 33,
-          "printed_page": 7
-        }
-      ]
-    }
-  ],
-
-  "_batches_note": "Your work plan: split the book into batches (a chapter, or a run of sections) and do each end to end. Informational, but keeping it here lets a fresh session see the plan. first_section/last_section are section ids.",
-  "batches": [
+      "level": 1, "id": "ch00a", "chapter": 0,
+      "title": "", "title_en": "Foreword, by Arnold R. Isaacs",
+      "pdf_page": 8, "printed_page": 7,
+      "sections": []
+    },
     {
-      "batch": "B01",
-      "title": "ch1",
-      "pdf_range": [27, 42],
-      "printed_range": [1, 16],
-      "first_section": "ch01s01",
-      "last_section": "ch01s02"
+      "level": 1, "id": "ch00b", "chapter": 0,
+      "title": "", "title_en": "Introduction, by Leon Trotsky",
+      "pdf_page": 12, "printed_page": 11,
+      "sections": []
+    },
+    {
+      "level": 1, "id": "ch01", "chapter": 1,
+      "title": "", "title_en": "1. Seeds of Revolt",
+      "pdf_page": 24, "printed_page": 1,
+      "sections": []
+    },
+    {
+      "level": 1, "id": "ch02", "chapter": 2,
+      "title": "", "title_en": "2. Problems of the Chinese Revolution",
+      "pdf_page": 42, "printed_page": 19,
+      "sections": []
+    },
+    {
+      "level": 1, "id": "ch03", "chapter": 3,
+      "title": "", "title_en": "3. The New Awakening",
+      "pdf_page": 63, "printed_page": 40,
+      "sections": []
+    },
+    {
+      "level": 1, "id": "ch04", "chapter": 4,
+      "title": "", "title_en": "4. Canton: To Whom the Power?",
+      "pdf_page": 83, "printed_page": 60,
+      "sections": []
+    },
+    {
+      "level": 1, "id": "ch05", "chapter": 5,
+      "title": "", "title_en": "5. Canton: The Coup of March 20, 1926",
+      "pdf_page": 98, "printed_page": 75,
+      "sections": []
+    },
+    {
+      "level": 1, "id": "ch06", "chapter": 6,
+      "title": "", "title_en": "6. From Canton to the Yangtze",
+      "pdf_page": 117, "printed_page": 94,
+      "sections": []
+    },
+    {
+      "level": 1, "id": "ch07", "chapter": 7,
+      "title": "", "title_en": "7. The Shanghai Insurrection",
+      "pdf_page": 133, "printed_page": 110,
+      "sections": []
+    },
+    {
+      "level": 1, "id": "ch08", "chapter": 8,
+      "title": "", "title_en": "8. The Prodigal's Return",
+      "pdf_page": 143, "printed_page": 120,
+      "sections": []
+    },
+    {
+      "level": 1, "id": "ch09", "chapter": 9,
+      "title": "", "title_en": "9. The Conspiracy of Silence",
+      "pdf_page": 155, "printed_page": 132,
+      "sections": []
+    },
+    {
+      "level": 1, "id": "ch10", "chapter": 10,
+      "title": "", "title_en": "10. The Coup of April 12, 1927",
+      "pdf_page": 173, "printed_page": 150,
+      "sections": []
+    },
+    {
+      "level": 1, "id": "ch11", "chapter": 11,
+      "title": "", "title_en": "11. Wuhan: “The Revolutionary Center”",
+      "pdf_page": 183, "printed_page": 160,
+      "sections": []
+    },
+    {
+      "level": 1, "id": "ch12", "chapter": 12,
+      "title": "", "title_en": "12. The “Revolutionary Center” at Work",
+      "pdf_page": 197, "printed_page": 174,
+      "sections": []
+    },
+    {
+      "level": 1, "id": "ch13", "chapter": 13,
+      "title": "", "title_en": "13. The Struggle for the Land",
+      "pdf_page": 216, "printed_page": 193,
+      "sections": []
+    },
+    {
+      "level": 1, "id": "ch14", "chapter": 14,
+      "title": "", "title_en": "14. Moscow and Wuhan",
+      "pdf_page": 235, "printed_page": 212,
+      "sections": []
+    },
+    {
+      "level": 1, "id": "ch15", "chapter": 15,
+      "title": "", "title_en": "15. The Wuhan Debacle",
+      "pdf_page": 250, "printed_page": 227,
+      "sections": []
+    },
+    {
+      "level": 1, "id": "ch16", "chapter": 16,
+      "title": "", "title_en": "16. Autumn Harvest",
+      "pdf_page": 269, "printed_page": 246,
+      "sections": []
+    },
+    {
+      "level": 1, "id": "ch17", "chapter": 17,
+      "title": "", "title_en": "17. The Canton Commune",
+      "pdf_page": 284, "printed_page": 261,
+      "sections": []
+    },
+    {
+      "level": 1, "id": "ch18", "chapter": 18,
+      "title": "", "title_en": "18. Fruits of Defeat",
+      "pdf_page": 303, "printed_page": 280,
+      "sections": []
+    },
+    {
+      "level": 1, "id": "ch19", "chapter": 19,
+      "title": "", "title_en": "19. The Rise and Fall of “Soviet China”",
+      "pdf_page": 317, "printed_page": 294,
+      "sections": []
+    },
+    {
+      "level": 1, "id": "ch20", "chapter": 20,
+      "title": "", "title_en": "20. The New “National United Front”",
+      "pdf_page": 339, "printed_page": 316,
+      "sections": []
     }
-  ],
-
-  "_back_matter_note": "Optional. If the book has a publisher's errata table or a colophon you want reproduced as translator's back matter, put the data in back_matter.json (see that file). This list is just a human record of what exists.",
-  "back_matter": []
+  ]
 }

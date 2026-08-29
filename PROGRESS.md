@@ -1,17 +1,43 @@
-# PROGRESS — <book title>
+# PROGRESS — The Tragedy of the Chinese Revolution (annotated edition)
 
-The running per-batch log. Write it as you go, not at the end. One section per
-batch: what was translated (unit ids, PDF and printed ranges), which checks ran
-and what they found, notes added (count and numbering), glossary rows added with
-status, figures, and anything flagged for the read-through (uncertain readings,
-contradictions with scholarship, choices you were unsure of).
+Per-batch log. Written as the work happens, not at the end.
 
-## Setup
+## Setup / survey (this session)
 
-- Source: <provenance, page count, seal/artifact notes>.
-- Page furniture measured: crop box <l/r/t/b>, model <lang/psm>, running head <...>.
-- Offset at chapter 1: <printed = pdf - N>; note that it drifts.
+- Source: born-digital PDF, Haymarket Books 2009 reprint of the Secker &
+  Warburg 1938 first edition of Harold Isaacs, "The Tragedy of the Chinese
+  Revolution". 409 pages, clean embedded text layer (QuarkXPress/Quartz), zero
+  page images on text pages. No OCR and no translation needed. Committed as
+  source.pdf.
+- This is an ANNOTATED ENGLISH EDITION, not a translation. Pipeline adapted:
+  the reading files hold Isaacs's own text verbatim; the apparatus is his own
+  endnotes (converted to footnotes) plus a new editorial footnote layer, a
+  glossary, and a Principal Characters page.
+- Page furniture: no cropping needed (text layer is clean). Running heads
+  ("TRAGEDY OF THE CHINESE REVOLUTION" / chapter title) and folios strip
+  textually during extraction. In-text reference marks are 5.5pt superscript
+  digits, per-chapter numbering.
+- Offset: front matter roman i-xxii; body restarts arabic 1; body offset a
+  constant 23 (printed = PDF-page-1indexed - 23), verified at all 20 chapter
+  openers. Recorded per unit in book.json.
+- Structure: 20 chapters + Foreword (Arnold R. Isaacs, 2009) + Introduction
+  (Leon Trotsky); no titled sections within chapters. Full structure in
+  book.json, spot-verified against the scan and the printed TOC. 4 TOC-vs-opener
+  title discrepancies flagged (ch08/09/10/16); opener forms used.
+- book.json metadata (Step 0a) complete: title, author, publisher (Haymarket),
+  1938 date, subjects (BISAC), rights (honest copyright note, not public
+  domain), source_ref, edition_kind "annotated", note_heading "A Note on This
+  Edition".
+- Builder adapted for edition_kind "annotated" (see HANDOFF "Tooling in place").
+- Checks run this session: skeleton EPUB build OK; qa_epub PASS (22 documents,
+  all links resolve, cover generated, 0.1 MB); epubcheck 5.1.0 clean (0 errors /
+  0 warnings, EPUB 3.3). SURVEY.md written to out/.
+- Flagged for the read-through / gate: omit the printed index (dead page refs);
+  confirm single note stream with "Ed." marks; confirm the 2009 Foreword is
+  kept.
+- STOP: survey presented for approval; Batch 1 kickoff served (ch01). No chapter
+  prepared yet.
 
-## B01 = <scope>
+## B01 = ch01 "Seeds of Revolt" (pending)
 
 - (fill in per the batch)
