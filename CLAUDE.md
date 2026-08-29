@@ -606,6 +606,12 @@ decisions back into `authority.json`.
   the notes are followable in the ebook.
 - Optional back matter (errata, colophon) renders from `back_matter.json`;
   apply each erratum to the affected translation too, and say so.
+- SIZE CAP (commissioner rule, 2026-08-29): the built EPUB must be UNDER
+  30 MB, hard cap, and ideally much less. `qa_epub.py` fails the build at
+  the cap and warns from 20 MB, listing the largest archive members. The
+  budget goes to images: recompress figures at ingest (a grayscale figure
+  rarely needs more than ~150 KB, a cover ~300 KB) rather than shrinking a
+  finished book at the end.
 - Run `qa_epub.py` after EVERY build; run epubcheck when available (it is
   what catches the store-blocking defects qa_epub cannot see). A failure
   stops the line until fixed.

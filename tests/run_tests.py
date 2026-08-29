@@ -262,6 +262,47 @@ def style_test(failures):
         shutil.rmtree(tmp, ignore_errors=True)
 
 
+def size_test(failures):
+    """qa_epub size gate: a skeleton build passes and prints its size; a copy
+    padded past 30 MB fails with the cap message and lists largest members."""
+    import shutil, tempfile, zipfile
+    build = os.path.join(ROOT, "scripts", "build_reading_epub.py")
+    qa = os.path.join(ROOT, "scripts", "qa_epub.py")
+    tmp = tempfile.mkdtemp(prefix="sizetest_")
+    try:
+        small = os.path.join(tmp, "small.epub")
+        p = subprocess.run([sys.executable, build, small],
+                           capture_output=True, text=True)
+        if p.returncode != 0:
+            failures.append("size_test: skeleton build failed:\n" + p.stderr)
+            print("qa_epub size gate: FAIL (no build)")
+            return
+        p = subprocess.run([sys.executable, qa, small],
+                           capture_output=True, text=True)
+        ok = p.returncode == 0 and "size:" in p.stdout
+        if not ok:
+            failures.append("size_test: small epub should pass and print "
+                            "its size:\n" + p.stdout)
+        print("qa_epub size line on small build:", "OK" if ok else "FAIL")
+
+        big = os.path.join(tmp, "big.epub")
+        shutil.copyfile(small, big)
+        with zipfile.ZipFile(big, "a") as z:
+            z.writestr(zipfile.ZipInfo("OEBPS/_pad.bin"),
+                       os.urandom(31 * 1024 * 1024),
+                       compress_type=zipfile.ZIP_STORED)
+        p = subprocess.run([sys.executable, qa, big],
+                           capture_output=True, text=True)
+        capped = (p.returncode != 0 and "hard cap" in p.stdout
+                  and "largest:" in p.stdout)
+        if not capped:
+            failures.append("size_test: 31 MB epub did not fail the size "
+                            "cap:\n" + p.stdout)
+        print("qa_epub 30 MB hard cap:", "OK" if capped else "FAIL")
+    finally:
+        shutil.rmtree(tmp, ignore_errors=True)
+
+
 def tics_test(failures):
     """register_tics.py: every battery family fires on a seeded fixture, the
     profile table renders, and a clean file stays clean."""
@@ -350,6 +391,7 @@ def main():
     builder_test(failures)
     style_test(failures)
     tics_test(failures)
+    size_test(failures)
 
     if failures:
         print("\n" + "\n".join(failures))

@@ -12,7 +12,13 @@ Checks, in order of how badly each one breaks a reader:
 
 Usage: qa_epub.py out/book.epub
 Exit 1 on any failure.
+
+Size gate (commissioner rule, 2026-08-29): the built EPUB must be UNDER 30 MB,
+hard cap, and ideally much less. qa fails the build at the cap and warns from
+20 MB up, listing the largest archive members so the fix (usually recompressing
+oversized figure images) is obvious.
 """
+import os
 import posixpath
 import re
 import sys
@@ -23,11 +29,33 @@ OPF = "{http://www.idpf.org/2007/opf}"
 CN = "{urn:oasis:names:tc:opendocument:xmlns:container}"
 XH = "{http://www.w3.org/1999/xhtml}"
 
+SIZE_HARD_MB = 30.0   # absolute cap: fail
+SIZE_WARN_MB = 20.0   # early warning: shrink before it becomes a cap problem
+
 
 def main(path):
     fails = []
     z = zipfile.ZipFile(path)
     names = z.namelist()
+
+    size_mb = os.path.getsize(path) / (1024.0 * 1024.0)
+    print("size: %.1f MB (warn at %.0f, hard cap %.0f)"
+          % (size_mb, SIZE_WARN_MB, SIZE_HARD_MB))
+    if size_mb >= SIZE_WARN_MB:
+        biggest = sorted(z.infolist(), key=lambda i: -i.compress_size)[:5]
+        for i in biggest:
+            print("  largest: %-40s %6.1f MB stored (%.1f raw)"
+                  % (i.filename, i.compress_size / (1024.0 * 1024.0),
+                     i.file_size / (1024.0 * 1024.0)))
+        if size_mb >= SIZE_HARD_MB:
+            fails.append("EPUB is %.1f MB; the hard cap is %.0f MB "
+                         "(recompress the largest members above; figures "
+                         "rarely need more than ~150 KB each)"
+                         % (size_mb, SIZE_HARD_MB))
+        else:
+            print("  WARNING: over %.0f MB; shrink the largest members "
+                  "before this reaches the %.0f MB cap"
+                  % (SIZE_WARN_MB, SIZE_HARD_MB))
 
     infos = z.infolist()
     if not infos or infos[0].filename != "mimetype":
