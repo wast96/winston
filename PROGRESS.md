@@ -141,3 +141,130 @@ white-space scene breaks in this chapter.
 - Front-loaded chapters are the expensive ones: ch01 alone needed 53
   first-appearance editorial notes. Later body chapters inherit most of the cast
   and run lighter. Grouping recommendation carried into HANDOFF.
+
+## B02 = front matter (ch00a Foreword + ch00b Trotsky Introduction) (DONE)
+
+ch00a (Foreword, Arnold R. Isaacs, 2009): PDF 8-11, printed folios vii-x, 11
+body paragraphs. ch00b (Introduction, Leon Trotsky, 1938): PDF 12-23, printed
+folios xi-xxii, 33 body paragraphs. Front-matter offset is 1 (roman sequence),
+read from book.json; extractor is offset-aware.
+
+### Extraction (faithful reset, no OCR)
+- `extract_isaacs.py ch00a` / `... ch00b` wrote the reading files and pagemaps
+  (ch00a 4 folios, ch00b 11 folios). De-hyphenation clean: only real compounds
+  kept (truth-tellers, so-called, standard-bearer); everything else fused by
+  Isaacs's own dominant usage + the system word lists.
+- **Two ch00a mechanical fixes the size-based extractor could not make, done by
+  hand and re-verified:** (1) the opening drop cap is `"F` (curly quote + F at
+  44.6pt), which the single-letter drop-cap test rejected, so the paragraph came
+  out "acts are stubborn things"; restored to `"Facts are stubborn things,"`.
+  (2) A centered ZapfDingbats ornament ("N N N", 8.0pt) mid-Foreword is a SCENE
+  BREAK, which the 7.6-8.4pt foot-band classifier mis-captured as a footnote;
+  restored as a `***` scene break in the body and dropped from the note capture.
+  The signature block was split back to two lines ("Arnold R. Isaacs" /
+  "September 2009").
+- **Fidelity verified byte-for-byte** with the new `scripts/check_fidelity.py`
+  (reduces both the reading body and the PDF's prose spans to a letters+digits
+  stream and confirms identical; drop-cap included, running heads/folios/title/
+  8pt footnote/superscripts/ZapfDingbats excluded, `***`/`{q}`/markdown stripped):
+  ch00a 8,249 chars match, ch00b 27,706 chars match. This also confirms the three
+  ch00a hand fixes are exactly right (the streams match only with them applied).
+
+### Front-matter apparatus (CHARACTERIZED)
+- **ch00a has ONE author note** (arabic 1): Arnold Isaacs's single asterisked
+  page-foot footnote on printed viii, explaining that "Guomindang" appears in the
+  reprinted 1938 text as "Kuomintang" (Wade-Giles). Anchored on "Guomindang
+  (Nationalist) government" where the source asterisk sat. No numbered endnotes.
+- **ch00b (Trotsky) has NO apparatus of its own**: no superscript reference
+  digits, no footnotes, no back-of-book notes. Confirmed by span scan. All ch00b
+  notes are therefore editorial.
+
+### Editorial notes (roman stream)
+- ch00a: 16 editorial notes (roman i-xvi). ch00b: 30 editorial notes (roman
+  i-xxx). Generous first-appearance density on the Comintern/Bolshevik cast the
+  front matter introduces for the FIRST time in reading order (front matter reads
+  before ch01): Harold Isaacs, Trotsky, Lenin, Stalin, Bukharin, Plekhanov, the
+  Bolsheviks/Mensheviks/SRs/Narodniks, Mao, Deng, Jiang Qing, the Comintern, CCP,
+  permanent revolution, the bloc of four classes, historical materialism, the
+  dialectic, semi-colonial/bourgeois/proletariat concepts, the People's/Popular
+  Front, revolutionary defeatism, the three Russian revolutions, the April Theses,
+  Sun Yat-sen's Three Principles, plus texture notes (Abyssinia, the Mikado,
+  actuel, the labor aristocracy, the Third Estate, the English Revolution).
+- Fact-checks against standard scholarship (Britannica/Wikipedia and standard
+  Soviet/Chinese histories): Trotsky 1879-1940 (assassinated Mexico), Lenin
+  1870-1924, Stalin 1878-1953, Bukharin 1888-1938 (executed 1938, the year of the
+  intro), Plekhanov 1856-1918, Mao 1893-1976, Deng 1904-1997, Jiang Qing
+  1914-1991, Second Sino-Japanese War from July 1937, Boxer/Comintern dates,
+  April Theses April 1917, Popular Front 1935, anti-Rightist 1957, Cultural
+  Revolution 1966-76, Nixon Feb 1972. Verdict tags reserved for weighed claims;
+  the two interested-witness notes (one per unit) mark the partisan standpoint of
+  each author without arguing the politics.
+
+### Glossary (6 rows added, into their sections)
+- people: Chiang Kai-shek (蒋介石, principal, cast_order 2), Mao Tse-tung
+  (毛泽东; en = Isaacs's WG body form, pinyin Mao Zedong), Deng Xiaoping (邓小平),
+  Jiang Qing (江青). organizations: Chinese Communist Party (中国共产党),
+  Comintern (共产国际). All forms agree with authority.json (蒋介石→Chiang
+  Kai-shek, 毛泽东→Mao Zedong, etc., all "agreed" shelf-wide).
+- **TOOLING TRAP (logged for the next session):** `apparatus_merge.py` assumes a
+  FLAT glossary and appended these rows at the TOP LEVEL; this book's glossary is
+  SECTIONED (people/organizations/places/terms), which the builder's
+  render_glossary + Principal Characters walk require. Rows were moved into their
+  sections post-merge. For this book, add glossary rows straight into their
+  section (Write/Edit) or move them after merging; notes/figures merge is fine.
+
+### Step 0c blind-critique loop (annotation variant) — ran on BOTH units
+- Round 1 (two fresh context-blind readers, one per unit): fixes applied and
+  re-verified against source. ch00a: cut the John Adams editorializing tail and a
+  padding Harold-Isaacs byline restatement; trimmed a Stalin/Comintern cross-note
+  repeat; dropped two dangling opaque references ("permanent revolution," left to
+  ch00b) and the print-folio parentheticals; glossed the Northern Expedition
+  inside the Chiang note; recast an overloaded Mao clause. ch00b: cut the
+  interested-witness note's editorial-policy tail and a historical-materialism
+  restatement; ADDED three notes the unit genuinely lacked (Kuomintang at first
+  in-unit appearance, Abyssinia, "labor aristocracy"); moved two note anchors onto
+  the term they gloss (the April Theses and *actuel*, which had sat one word
+  short). Cross-unit "gaps" the blind readers flagged (Chiang, Comintern,
+  Bolsheviks in ch00b) are FALSE POSITIVES: those are noted in ch00a, which reads
+  first. Rulings distilled into STYLE.local.md (5 new RULE/WHY/FIX/CHECK entries).
+  Critiques archived under review/voice_gate/ch00a_round*, ch00b_round*.
+- Round 2 (fresh reader) run on ch00b to confirm convergence (see checks).
+
+### Note-density decisions / cross-unit overlaps (for the final reconciliation sweep)
+- The KUOMINTANG is now touched three times as the reader moves through the book:
+  ch00a (a phrase inside the Chiang note + the author spelling note), ch00b (a
+  standalone first-in-unit note), ch01 (the full note). SUN YAT-SEN: the Principal
+  Characters page (front matter) + ch00b (Three Principles) + ch01 (full). These
+  are deliberate first-appearance-per-context notes under the generous model; the
+  whole-book reconciliation sweep (final batch) should confirm none is redundant
+  or trim the weakest.
+- "proletarian dictatorship" in ch00a is left to the body's own inline gloss plus
+  the adjacent Lenin note; the concept note lives in ch00b ("upon the colonial
+  proletariat"). Deliberate, not an omission.
+
+### Checks run
+- build: 3 of 22 chapters, 132 notes (85 ch01 + 47 front matter), 33 pagebreaks.
+- qa_epub PASS (29 documents, 132 refs=bodies=backlinks, 33 page-list = 33
+  markers, 0.1 MB). epubcheck 5.1.0: 0 fatals / 0 errors / 0 warnings (EPUB 3.3).
+  check_apparatus: 0 failures. Two-stream rendering verified in the built XHTML
+  (ch00a: roman i-xvi editorial + arabic 1 author, landing in reading order;
+  ch00b: roman i-xxx, no author stream). The `***` scene break renders (class
+  "brk") and the drop cap is styled (class "first").
+- Fidelity check (new, scripts/check_fidelity.py) green on both units.
+- The translation-only checks (numbers/parity/qc_entities/register) do not apply
+  to an annotated edition, as recorded for B01.
+
+### Environment / tooling notes
+- Fresh container: setup installed pymupdf, pillow, wamerican/wbritish; epubcheck
+  5.1.0 refetched to /tmp/epubcheck-5.1.0/. Regression suite green except the
+  pre-existing "template stub stand-down" hook test (documented non-issue in B01).
+- NEW SCRIPT (do not revert): `scripts/check_fidelity.py` — the whole-unit
+  letters+digits fidelity check, reusable for every chapter.
+
+### Source artifacts preserved (kept visible, not repaired)
+- ch00b: Trotsky's "*Theses of April 4*, *1917*" is typeset in the source with
+  the title's comma set roman between two italic runs (verified in the PDF
+  spans). Faithful reset preserves the printed italics; not normalized to a
+  single italic run. No text altered.
+- ch00a: the Foreword's one section break is a centered ZapfDingbats ornament in
+  the source, rendered here as a `***` scene break.

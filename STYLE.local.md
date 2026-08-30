@@ -159,3 +159,56 @@ once that the book keeps period spellings with modern forms in the glossary.
 - CHECK: every place that carries narrative weight has a first-appearance note
   or a glossary row; the trivial one-off locations are named as a deliberate
   skip tier in PROGRESS.
+
+### Batch 2 voice-gate rulings (front-matter blind-critique loop) #book
+
+**RULE: The note marker lands ON the term it defines.** Anchor a definitional
+note at (the end of) the exact phrase being glossed, not on a filler word short
+of it.
+- WHY: the April-Theses note was anchored to "up to his famous" and the *actuel*
+  gloss to "acquires thereby the most," so both markers sat one word before the
+  term the note explains and read like misplaced flags.
+- FIX: when the term is italicized (rendered `*...*` in the reading), the anchor
+  may include the asterisks (`*actuel*`, `*Theses of April 4*, *1917*`); the
+  builder matches anchors before markup substitution, so this is safe.
+- CHECK: read each note's anchor phrase; the glossed word is its last content
+  word.
+
+**RULE: A content note explains the text, not the edition.** Keep editorial
+method (what the notes "flag," how the apparatus works) out of the note bodies;
+that belongs in the edition note, PROGRESS, or COMPLETION.
+- WHY: the interested-witness note ended "the notes below flag his theory where
+  it shapes a claim, without arguing the politics" &#8212; a policy statement the
+  reader does not need mid-note.
+- FIX: state the fact (this introduction is itself partisan) and stop.
+
+**RULE: Don't restate the body.** A note must add what the prose does not
+already say; do not paraphrase the sentence it hangs on.
+- WHY: the historical-materialism note's second sentence ("Trotsky opens by
+  insisting that the label alone guarantees nothing") merely re-said the
+  paragraph; the John Adams note closed by restating "central to his character."
+- FIX: cut the restatement; give an outside fact (dates, fate, origin, framework)
+  or nothing.
+
+**RULE: No printed-folio parentheticals in note prose.** Roman page ranges like
+"(vii&#8211;x)" are meaningless in a reflowable EPUB and were used in only two
+notes.
+- WHY: front-matter kickoffs say cite ROMAN not arabic folios &#8212; but that
+  governs WHICH system when a citation is genuinely needed, not a license to drop
+  bare page ranges into identifications. The linked index (final batch) is the
+  mechanism that makes folios navigable.
+- FIX: drop the parenthetical; if a cross-reference is wanted, name the unit
+  ("the introduction that follows"), not a page range.
+
+**RULE: One note per subject, book-wide, at the earliest reading appearance.**
+The front matter READS before ch01, so shared cast (Kuomintang, Sun Yat-sen,
+Chiang, the Comintern, the Bolsheviks) first appears here, not in ch01. A blind
+per-unit critic will flag these as "undefined" because it cannot see the other
+units; that is a cross-unit false positive when the term is already noted in an
+EARLIER-READING unit (ch00a) or on the Principal Characters page.
+- FIX: note at the first reading appearance; do not re-note a thing already
+  covered by an earlier-reading unit &#8212; add a within-unit note only where the
+  term is genuinely first met in THIS unit (the ch00b Kuomintang note).
+- CHECK: before adding a note, grep notes.json AND remember reading order is
+  ch00a &#8594; ch00b &#8594; ch01 &#8594; ...; log residual cross-unit overlaps in
+  PROGRESS for the final reconciliation sweep.

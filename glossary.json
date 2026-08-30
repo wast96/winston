@@ -76,6 +76,33 @@
       "pinyin": "Wang Anshi",
       "status": "attested",
       "note": "1021&#8211;1086. Song chief councillor whose New Policies (from 1069) included state farm loans and price stabilization."
+    },
+    "蒋介石": {
+      "en": "Chiang Kai-shek",
+      "pinyin": "Jiang Jieshi",
+      "status": "attested",
+      "principal": true,
+      "cast_order": 2,
+      "cast": "1887&#8211;1975. Sun Yat-sen&#8217;s successor as head of the Kuomintang and its armies; led the 1926&#8211;28 Northern Expedition, turned on his Communist allies in April 1927, and ruled Nationalist China until his 1949 defeat and retreat to Taiwan. The book&#8217;s central figure.",
+      "note": "1887&#8211;1975. Head of the Kuomintang after Sun Yat-sen; commander of the Northern Expedition; author of the 1927 anti-Communist purge that is the &#8220;tragedy&#8221; of the title; later president of Nationalist China on the mainland and, from 1949, on Taiwan."
+    },
+    "毛泽东": {
+      "en": "Mao Tse-tung",
+      "pinyin": "Mao Zedong",
+      "status": "attested",
+      "note": "1893&#8211;1976. A secondary figure in the events of 1925&#8211;27, later the founder and ruler of the People&#8217;s Republic of China. Isaacs&#8217;s 1938 text spells him &#8220;Mao Tse-tung&#8221; (Wade-Giles); Arnold Isaacs&#8217;s 2009 foreword uses the modern &#8220;Mao Zedong.&#8221;"
+    },
+    "邓小平": {
+      "en": "Deng Xiaoping",
+      "pinyin": "Deng Xiaoping",
+      "status": "attested",
+      "note": "1904&#8211;1997. China&#8217;s paramount leader after Mao&#8217;s death; launched the market reforms and opening to the West that transformed the country. Named only in the 2009 foreword; he post-dates Isaacs&#8217;s narrative."
+    },
+    "江青": {
+      "en": "Jiang Qing",
+      "pinyin": "Jiang Qing",
+      "status": "attested",
+      "note": "1914&#8211;1991. Mao&#8217;s wife and a leader of the Cultural Revolution; with the &#8220;Gang of Four&#8221; she was arrested after his death in 1976. Named only (as Mao&#8217;s &#8220;widow&#8221;) in the 2009 foreword."
     }
   },
   "organizations": {
@@ -102,6 +129,18 @@
       "pinyin": "Tiandihui",
       "status": "attested",
       "note": "The &#8220;Heaven and Earth Society,&#8221; sworn brotherhoods with an anti-Manchu, &#8220;restore the Ming&#8221; tradition."
+    },
+    "中国共产党": {
+      "en": "Chinese Communist Party",
+      "pinyin": "Zhongguo Gongchandang",
+      "status": "attested",
+      "note": "Founded 1921; joined the Kuomintang in a united front from 1923 at Comintern direction, was nearly destroyed in Chiang&#8217;s 1927 purge, and won national power in 1949 (CCP)."
+    },
+    "共产国际": {
+      "en": "Comintern",
+      "pinyin": "Gongchan Guoji",
+      "status": "attested",
+      "note": "The Communist International (1919&#8211;1943), the Moscow-directed federation of the world&#8217;s Communist parties; its China policy is the target of both Isaacs&#8217;s book and Trotsky&#8217;s introduction."
     }
   },
   "places": {

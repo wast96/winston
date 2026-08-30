@@ -1,0 +1,57 @@
+[
+  {
+    "printed": 11,
+    "pdf": 12,
+    "body_paragraph": 0
+  },
+  {
+    "printed": 12,
+    "pdf": 13,
+    "body_paragraph": 3
+  },
+  {
+    "printed": 13,
+    "pdf": 14,
+    "body_paragraph": 5
+  },
+  {
+    "printed": 14,
+    "pdf": 15,
+    "body_paragraph": 10
+  },
+  {
+    "printed": 15,
+    "pdf": 16,
+    "body_paragraph": 14
+  },
+  {
+    "printed": 16,
+    "pdf": 17,
+    "body_paragraph": 18
+  },
+  {
+    "printed": 17,
+    "pdf": 18,
+    "body_paragraph": 20
+  },
+  {
+    "printed": 18,
+    "pdf": 19,
+    "body_paragraph": 22
+  },
+  {
+    "printed": 19,
+    "pdf": 20,
+    "body_paragraph": 25
+  },
+  {
+    "printed": 20,
+    "pdf": 21,
+    "body_paragraph": 28
+  },
+  {
+    "printed": 21,
+    "pdf": 22,
+    "body_paragraph": 30
+  }
+]
