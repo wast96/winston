@@ -1336,3 +1336,137 @@ hard). NO new breaks or datelines were warranted:
   numbering sequential; all links resolve). Scene breaks re-verified by grepping the built chapter
   xhtml (class="brk"/"dateline") -- counts unchanged, as intended.
 - Deliverable stamped with stamp_deliverable.py R2.
+
+## Retrofit round R3 (ASSESSMENT.md section 6): ch20-ch28 densification
+
+R3 densifies the third range (ch20 The Xingchang Apothecary through ch28 Xiaotaoyuan), thinnest-first,
+and folds the Tier A conformances that fall in it. 13 new fact-checked notes were added and one note
+relocated to its first appearance, taking the book from 319 to 331 notes. Per chapter (new notes):
+ch20 0, ch21 2, ch22 1, ch23 1, ch24 3, ch25 1, ch26 3 (one relocated in), ch27 2, ch28 0. Resulting
+counts: ch20 13, ch21 11, ch22 8, ch23 8, ch24 8, ch25 8, ch26 9, ch27 7, ch28 8.
+
+Thinnest-first was honored against the R2-handoff thinnest in range (ch24 5, ch27 5, ch26 6): ch24
+lifted to 8 (+3), ch27 to 7 (+2), ch26 to 9 (+3). The words-per-note swing across the range tightened
+from 5-13 notes/chapter to 7-13.
+
+The new notes, all fact-checked against real scholarship (Wikipedia EN/ZH, Baidu Baike, Britannica,
+museum/government/academic sources; never an AI-written source; Grokipedia results that surfaced were
+excluded by rule 5), each carrying its real-vs-fiction and corroboration verdict:
+- ch21: Jardine, Matheson (怡和洋行, the Ewo firm) and its Indo-China Steam Navigation Company coastal
+  line (real; the ships Fusheng/Guisheng are the novel's, built on Jardine's genuine "-生/-sang" naming
+  series); the Xiguan newspaper street / Guangfu Road (renamed 1931) / Guangzhou Press Association
+  (1908) apparatus (street and association corroborated; a press-association back-number clipping
+  service plausible but not independently attested, so hedged).
+- ch22: the Tanka / 疍家 boat people (real, corroborated: sampans, creek-side stilt-huts, the bar from
+  living ashore and the imperial exams, Yongzheng's 1729 emancipation).
+- ch23: the Beginning of Spring / 立春, first of the twenty-four solar terms (corroborated); placed on
+  the chapter's opening dateline (the builder attaches the marker inside the centered dateline, verified
+  in the built ch23.xhtml).
+- ch24: the comprador / 买办 (corroborated); Canton embroidery / 广绣, one of China's four famous
+  embroidery traditions, gold-couched on opera costume (corroborated); the Dashatou airfield / 大沙头机场,
+  one of China's first airfields, chiefly military/official flying in the 1920s (corroborated, with the
+  honest note that scheduled civil air service on the Shanghai-Guangzhou line dates only from 1929).
+- ch25: the idiom 咸鱼翻身 ("the salted fish turns over") behind "flip like a salted fish come back to
+  life" (texture; the image is the point).
+- ch26: the Qinhuai River / 秦淮河, old Nanjing's pleasure quarter (corroborated); Minnan tangerine-red
+  cakes / 橘红糕 (corroborated, with the honest note that the sweet's regional attribution varies by
+  source); and the osmanthus-sugared taro shoots / 桂花糖芋苗 note RELOCATED from ch31 to ch26, its true
+  first appearance (the ch31 duplicate removed; see inversions below).
+- ch27: the Zhoushan Archipelago / 舟山群岛 as a reef-strewn navigation hazard (corroborated); the idiom
+  瞒天过海 ("deceiving heaven and crossing the sea"), first of the Thirty-Six Stratagems (corroborated).
+
+HONEST NOTE ON DENSITY (R3). Like R1 (~15/chapter of new notes) and R2 (~2.6/chapter), R3 lands well
+under the directive band: 13 new notes across nine units, ~1.4/chapter. The launching chat gave no
+"push-harder-toward-the-band" instruction and CORRECTIONS.md carries only the scene-break directive, so
+R3 held to no-pad exactly as the kickoff's density policy directs. The reason is real and structural,
+not effort: these middle chapters are Guangzhou/Nanjing-history-heavy and were already annotated
+generously in B06-B08 (ch20 alone carries 13 notes, ch28 8), and their big referents (the concessions
+and their police, the Songhu Garrison, the Special Operations Headquarters / Party Affairs Investigation
+Section, the Guangzhou Uprising, the Canton-Hong Kong Strike, Shen Bao, the Bund, the Nineteenth Route
+Army / January 28, the Zhanyuan, Whampoa, Manchukuo, the ABC of Communism, the April Twelfth purge, Dai
+Jitao, Chen Guofu, Zhu Huiri) are ALL already footnoted at their first appearance in earlier rounds; a
+second note would duplicate. Three chapters are honestly capped: ch20 (+0, all referents pre-noted; the
+densest in range at 13), ch28 (+0, likewise saturated at 8), and ch25 (+1, largely Cui Wentai's interior
+flight, its geography already noted). The genuine first-appearance gaps that remained (a firm, a craft,
+an airfield, two Guangzhou institutions, a boat people, a river, two sweets, a solar term, two idioms)
+were filled thinnest-first.
+
+### Tier A conformances folded (ch20-ch28 only)
+
+- 大美晚报 "Da Mei Wan Bao" -> "the Shanghai Evening Post and Mercury" (authority.json decided form; ch22,
+  1 reading occurrence). The existing ch22 note anchored "Da Mei Wan Bao" was moved to the English
+  masthead and its body reglossed to lead with the masthead and gloss 大美晚报/Da Mei Wan Bao once;
+  glossary.json 大美晚报 flipped to status "decided". out/ch22_en.json synced.
+- 反省院 "the Reflection Institute" -> "the reflection institute" (a CASE fix; ch22, 1 reading occurrence).
+  Generic institution lowercased; the proper "Capital Reflection Institute" in the note body kept its
+  caps. The ch22 note anchor moved to "the reflection institute in Nanjing" and its body opening
+  lowercased; glossary.json 反省院 flipped to "decided". out/ch22_en.json synced.
+- 吴淞口 "the Wusong bar" -> "the mouth of the Wusong River" (authority.json decided form; ch27, 1 reading
+  occurrence, "The Guisheng came in across the Wusong bar"). That exact phrase is ALSO the ch27
+  scene-break anchor in scenes.json, so the reading text, the scenes.json ch27 "breaks" string, and
+  out/ch27_en.json were conformed in the same pass; the built ch27.xhtml still shows class="brk" = 1.
+  (吴淞口 was already glossed at ch07/ch13, so a name conformance only, no new note.)
+- Locale spelling: "a piece of theatre" -> "a piece of theater" (x2, ch27), the only genuine common-noun
+  locale strays ASSESSMENT flagged; the real concession venue names (the Lehua Theatre etc.) keep their
+  period "Theatre" spelling and are exempt (ch20/ch26 british-spelling hits are those exempt venues).
+  out/ch27_en.json synced.
+- 海格路 Avenue Haig, 马斯南路 Route Massenet, 白区 the White areas: grepped ch20-ch28, NONE appear in range
+  (done in R2 / not in range).
+- Dates -> "Month D, YYYY": the ch20-ch28 reading text carried NO day-first dates (register_tics
+  day-month-date reads 0 over the range). Seven day-first dates in pre-retrofit note bodies were
+  reordered via scripts/patch_note_bodies_r3.py: ch20 "23 June 1925" -> "June 23, 1925"; ch22 "16
+  January 1933" -> "January 16, 1933", "20 August 1925" -> "August 20, 1925", "23 October" -> "October
+  23", "13 November" -> "November 13"; ch24 "20 March 1926" -> "March 20, 1926"; ch28 "30 November 1931"
+  -> "November 30, 1931". Republican-reckoning and lunar dates left as period voice.
+
+### Scene-break review (commissioner directive; ch20-ch28)
+
+Reviewed all nine units against the calibrated principle (add only at a genuine jump in place, time AND
+vantage where the new scene stands apart; leave camera-flips inside a continuous cross-cut and
+causally/aurally sutured cuts hard). NO new breaks or datelines were warranted:
+- Genuinely single continuous scenes, left with 0 breaks: ch20 (one arrival-to-apothecary sequence
+  across one afternoon, Mrs. Mo's courier story braided in as recollection, not a new scene); ch22
+  (teahouse -> chase -> Tanka boat is one continuous pursuit, and Yi Junnian's recruitment backstory is
+  interior reflection in the same boat scene, closed by "The scull stirred the river water", so no hard
+  cut); ch24 (a single dressing-room conversation, Little Phoenix's monologue).
+- Already segmented at their genuine scene changes, left unchanged: ch21 (2 breaks), ch23 (1 dateline +
+  2 breaks), ch25 (1 break: the lake killing -> the Zhengyuan Hotel report), ch26 (2 breaks: the ship
+  present -> the Ye Tao flashback), ch27 (1 break: shipboard night -> the wharf arrival), ch28 (2 breaks:
+  the car/advertisement -> the previous-evening flashback -> Xiaotaoyuan). The built EPUB renders exactly
+  these counts (grep class="brk"/"dateline"). This matches R2's outcome (no new breaks in ch11-ch19): a
+  legitimate result, not a failure to look.
+
+### First-appearance relocation and inversions (for the whole-book reconciliation)
+
+- RELOCATED: the osmanthus-sugared taro shoots note (桂花糖芋苗) was placed at ch31 in B11, but its FIRST
+  appearance is ch26 (the Zhanyuan-gate peddler / Mafu Street). R3 adds the note at ch26 and removes the
+  ch31 duplicate (ch31 now 3 notes). The body is the same; the tie to Mafu Street holds at ch26 too.
+- STILL OPEN (out of R3 range, logged for reconciliation): Zhonghui Trust Bank (中汇银行) unnoted, first
+  appears ch10; the tram, note at ch29 but first appears ch07; the Garrick brand first appears ch08 with
+  its dedicated identity-reveal note kept at ch23 (a deliberate plot-payoff, checked and left); the
+  Central Liaison Bureau first named ch07, note at ch15; the Peach Blossom Spring / Tao Yuanming allusion
+  first glances by in a ch22 opera lyric but is dedicatedly noted at ch28 (the Xiaotaoyuan title payoff,
+  left).
+
+### Checks run (R3)
+
+- anchor_check.py per unit before apply_edits.py: only the expected ch22 collisions (the Da Mei and
+  Reflection TOUCH/NOTE-ANCHOR pairs), handled by the moves. A tooling trap was caught and fixed here:
+  apply_edits' 5-line OLD/NEW scan window bled between tightly-spaced TOUCH/NOTE-ANCHOR blocks, so ch22
+  and ch27 edit files were re-spaced with two blank lines between blocks; the first (aborted) run left
+  ch22_reading.md half-edited and was reverted with git checkout before the clean re-run (notes.json is
+  written only at the end, so it was untouched).
+- apply_edits.py: 5 prose conformances (ch22 x2, ch27 x3), 2 anchor moves (ch22), 13 notes across seven
+  units. scripts/patch_note_bodies_r3.py: 9 note-body edits (7 date normalizations + the Da Mei regloss
+  + the Reflection case fix) and 1 note removal (the ch31 osmanthus relocation), each guarded.
+- check_structure.py --pairs data/zh/<id>.txt: paragraph parity OK for all nine (88/161/56/63/71/55/50/56/109).
+- check_numbers.py --noise check_noise.txt on regenerated bilinguals for the two units whose reading
+  changed (ch22, ch27): 0 unresolved.
+- register_tics.py --profile ch20-ch28: day-month-date 0 over the range; british-spelling reduced to the
+  exempt venue "Theatre" names (ch27's "piece of theatre" strays cleared); the remaining narration-side
+  batteries are pre-existing candidates in the FROZEN reading text (informational this round).
+- Build: build_reading_epub.py "out/A Thousand Li of Rivers and Mountains.epub", 37/37 units, 331 notes.
+  qa_epub.py: PASS (50 files, 44 documents; 331 references = 331 bodies = 331 backlinks; numbering
+  sequential; all links resolve). Scene typography re-verified in the built xhtml (ch27 brk=1, ch23
+  dateline=1 with its new note marker inside).
+- Deliverable stamped with stamp_deliverable.py R3.

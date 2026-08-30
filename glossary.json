@@ -731,16 +731,16 @@
       "note": "Real. Nationalist newspaper founded 1923, an early KMT party organ; renamed the Zhongshan Daily in 1937."
     },
     "大美晚报": {
-      "en": "Da Mei Wan Bao",
+      "en": "the Shanghai Evening Post and Mercury",
       "pinyin": "Da Mei Wan Bao",
-      "status": "attested",
-      "note": "Real. The Shanghai Evening Post and Mercury, American-owned and foreign-registered; Chinese edition from 16 Jan 1933."
+      "status": "decided",
+      "note": "Real. The Shanghai Evening Post and Mercury, American-owned and foreign-registered; Chinese edition from 16 Jan 1933. Reading text uses the English masthead (authority.json decided form, conformed in R3); Da Mei Wan Bao glossed once in the ch22 note."
     },
     "反省院": {
-      "en": "the Reflection Institute",
+      "en": "reflection institute",
       "pinyin": "fanxingyuan",
-      "status": "attested",
-      "note": "Real. Nationalist prison for 'reforming' captured Communists (from c.1929; Nanjing's Capital Reflection Institute chartered 1931)."
+      "status": "decided",
+      "note": "Real. Nationalist prison for 'reforming' captured Communists (from c.1929; Nanjing's Capital Reflection Institute chartered 1931). Lowercase as the generic institution (authority.json decided form, conformed in R3); capitalized only in a proper name."
     },
     "国华报": {
       "en": "the Guohua Bao",

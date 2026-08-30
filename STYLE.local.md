@@ -95,7 +95,18 @@ the book. Full ledger in `glossary.json`; the authority conformances land here._
   occurrences, the ch11 note anchor moved and its body reglossed).
 - 海格路: "Haige Road" -> **"Avenue Haig"** (R2, authority; ch11, 1 occurrence,
   the ch11 'Zhaozhujiao Road' note body reglossed).
-- Authority conformances not yet in range (later rounds): 大美晚报 -> the Shanghai
-  Evening Post and Mercury (does not appear in ch11-ch19); 反省院 -> reflection
-  institute (case, ch22, R3); 白区 -> the White areas (number; does not appear
-  in ch11-ch19 reading text).
+- 大美晚报: "Da Mei Wan Bao" -> **"the Shanghai Evening Post and Mercury"** (R3,
+  authority; ch22, 1 occurrence, the ch22 note anchor moved to the English masthead
+  and its body reglossed; glossary flipped to "decided").
+- 反省院: "the Reflection Institute" -> **"reflection institute"** (R3, authority
+  CASE fix; ch22, 1 occurrence, generic lowercased, the proper "Capital Reflection
+  Institute" kept capitalized; the ch22 note anchor moved and its body opening
+  lowercased; glossary flipped to "decided").
+- 吴淞口: the ch27 occurrence conformed in R3 ("The Guisheng came in across the
+  mouth of the Wusong River"); the scenes.json ch27 break string updated in the
+  same pass so the divider still renders.
+- "a piece of theatre" -> **"a piece of theater"** (R3, American-spelling locale
+  conformance; ch27, x2). Real concession venue names (the Lehua Theatre etc.)
+  keep their period "Theatre" spelling and stay exempt.
+- Authority conformances not yet in range (R4): 白区 -> the White areas (number;
+  did not appear in the ch11-ch28 reading text; grep ch29-ch37).
