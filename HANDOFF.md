@@ -101,6 +101,31 @@ for any existing note whose anchor a rename breaks:
   them. register_tics.py's day-month-date battery should read 0 over the range
   when done.
 
+Scene-break review (COMMISSIONER DIRECTIVE, added after R1; it overrides the
+densification pass's "frozen typography" scope for this one task, and applies to
+R2, R3 and R4). As part of each round, review every unit in the round for SCENE
+CHANGES that lack a divider and add them to scenes.json. The principle,
+calibrated with the commissioner on the ch02 raid:
+- ADD a break at a genuine scene change: a real jump in place, time AND vantage,
+  where the new scene stands apart from the last (the establishing vignettes of
+  ch02, each character at a different place at the same hour, are the model).
+- Do NOT add a break at a camera-flip inside a continuous cross-cut sequence, or
+  where the cut is causally or aurally sutured (an order and its immediate
+  consequence, one scene hearing what another does). Those stay hard cuts; a
+  divider there over-segments and is "too much." A perspective change ALONE is
+  not enough; it must be a new SCENE. When in doubt, leave it hard.
+- Mechanics: add to the unit's scenes.json entry a "breaks" string = the opening
+  words of the paragraph that begins the new scene, VERBATIM from the reading
+  file (include the leading curly quote if the paragraph opens on dialogue; the
+  builder matches startswith), or a "datelines" string = a terse time/place
+  header line, verbatim, rendered centered. Verify each string against
+  out/<id>_reading.md; after building, grep the chapter xhtml for class="brk" /
+  class="dateline" to confirm the counts. Record in PROGRESS.md what you added
+  per chapter and, for borderline cuts, why you left them hard. Several chapters
+  have NO breaks yet (ch06, ch08-ch12, ch20, ch22, ch24, ch29, ch34, ch36-ch37);
+  some are genuinely single-scene, so do NOT force breaks on them. Carry this
+  scene-break directive forward into the R3 and R4 kickoffs you write.
+
 Run scripts/check_structure.py --pairs data/zh/<id>.txt out/<id>_reading.md
 (parity) and, on regenerated bilinguals where out/<id>_en.json exists,
 scripts/check_numbers.py out/<id>_bilingual.md --noise check_noise.txt; run
