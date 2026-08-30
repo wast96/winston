@@ -1470,3 +1470,176 @@ causally/aurally sutured cuts hard). NO new breaks or datelines were warranted:
   sequential; all links resolve). Scene typography re-verified in the built xhtml (ch27 brk=1, ch23
   dateline=1 with its new note marker inside).
 - Deliverable stamped with stamp_deliverable.py R3.
+
+## Retrofit round R4 (ASSESSMENT.md section 6): ch29-ch37 densification -- FINAL ROUND
+
+R4 densifies the last range (ch29 The Dyeworks Drying Ground through ch37 the two-part Appendix),
+thinnest-first, folds the Tier A conformances that fall in it, and, as the closing round, does the
+whole-book reconciliation and final QA and writes the completion report (COMPLETION.md) instead of a
+next-round kickoff. 7 new fact-checked notes were added (one of them a whole-book first-appearance fix
+at ch13), taking the book from 331 to 338 notes. Per chapter (new notes): ch29 +1, ch30 +1, ch31 0,
+ch32 +1, ch33 0, ch34 +1, ch35 +2, ch36 0, ch37 0, plus ch13 +1 (reconciliation). Resulting R4-range
+counts: ch29 3, ch30 10, ch31 3, ch32 4, ch33 2, ch34 5, ch35 4, ch36 1, ch37 6.
+
+Thinnest-first was honored against the R3-handoff thinnest in range (ch36 1, ch29 2, ch33 2, ch35 2):
+ch35 lifted to 4 (+2) and ch29 to 3 (+1); ch33 and ch36 genuinely capped (see the honest note). The new
+notes, all fact-checked against real scholarship (Wikipedia EN/ZH, Baidu Baike, museum/government/
+academic sources; never an AI-written source; Grok/Grokipedia excluded by rule 5), each carrying its
+real-vs-fiction and corroboration verdict:
+
+- ch13 (RECONCILIATION, first appearance): Dongjiadu / 董家渡, the old-city riverside wharf quarter south
+  of the Bund, with St. Francis Xavier's Church (董家渡天主堂, 1853), the oldest surviving church in
+  Shanghai (real; corroborated). Dongjiadu first appears at ch13 (a car destination) but becomes the
+  operational hub of the ch32-ch35 river escape, and was unnoted book-wide; the note is placed at first
+  appearance and covers all later uses.
+- ch29: Laoximen / 老西门, the "Old West Gate" locality of the old walled city, named for the Ming Yifeng
+  Gate (仪凤门, 1553), "old" since a smaller west gate opened nearby in 1908; wall pulled down 1912-13
+  for the ring road, the name surviving for the crowded market quarter (real; corroborated).
+- ch30: the Settlement Volunteers / Shanghai Volunteer Corps (万国商团), the International Settlement's
+  multinational citizen militia (founded 1853; ~20 companies by the early 1930s, a Japanese company from
+  1907), with a rifle range by Hongkou Park for live-fire drill (real; corroborated -- the exact
+  range specifics rest on a single memoir source, so those were left out and only the corroborated
+  outline kept).
+- ch32: the Great Stage / 大舞台 on Second Avenue (二马路, today Jiujiang Road), a real Peking-opera house
+  (opened c.1909 as 文明大舞台; bought 1919 by Huang Jinrong / 黄金荣, renamed 荣记大舞台; today the
+  People's Grand Stage / 上海人民大舞台), distinct from the Tianchan on Fuzhou Road (real; corroborated).
+- ch34: the numbered wharf "share gangs" / 股党 (the Six-, Eight-, Sixteen-, Thirty-Two-, Seventy-Two-
+  Gang) -- the Green-Gang-tied dock-labor system, hiring through contract bosses (包工头); the system and
+  the "eight-share" naming (Du Yuesheng's 小八股党) are real and corroborated, but the graded ascending
+  series the novel lists is its own extrapolation, not a documented set of gangs (flagged as
+  uncorroborated).
+- ch35: the New Stage / 新舞台 (real, corroborated: opened 1908 by Pan Yuejiao / 潘月樵 and the Xia
+  brothers, China's first Western-proscenium playhouse and a home of 文明戏) -- BUT its documented sites
+  were Shiliupu and the Nine-Mu Field, and it had closed by the late 1920s, so a working theater on
+  Penglai Road in 1933 answers rather to the later Penglai Grand Theater / 蓬莱大戏院; the note flags the
+  novel's placement on Penglai Road as uncorroborated, likely a conflation (a translation-uncertainty
+  note, kept honest per rule 4). And the two rival Nationalist secret services / 中统 vs 军统: Ye
+  Qinian's party-run Special Operations Headquarters (the 中统 lineage) versus the military bureau Mu
+  Chuan is joining (Dai Li's / 戴笠 Special Services Department, 1932, later nicknamed 军统 only from
+  1938 -- so the novel's descriptive phrasing is period-accurate; corroborated).
+
+### Tier A conformances folded (in the ch29-ch37 range + whole-book reconciliation)
+
+- Dates -> "Month D, YYYY" (the BIG R4 Tier A job). The ch37 appendix reading text carried all 11 of the
+  book's remaining day-first dates; scripts/conform_r4.py normalized them in out/ch37_reading.md AND in
+  out/ch37b_en.json (Material Two): "10 January 1933" -> "January 10, 1933", "16 January 1933" ->
+  "January 16, 1933", "2 February 1933" -> "February 2, 1933", "8 February 1933" -> "February 8, 1933",
+  and the seven byte-identical "4 April 1933 at Longhua Prison" lines -> "April 4, 1933, at Longhua
+  Prison" (a global replace-all, done in a guarded script rather than apply_edits because seven lines are
+  identical and TOUCH requires OLD unique). register_tics day-month-date now reads 0 over the whole
+  ch29-ch37 range. Day-first dates in existing note bodies were reordered via
+  scripts/patch_note_bodies_r4.py: ch30 Ma Zhenhua "17 March 1928" -> "March 17, 1928"; ch33 Zhabei
+  "28-29 January" -> "January 28-29"; ch35 Vallon "6 May 1911" -> "May 6, 1911"; ch37 frame "4 April
+  1933" -> "April 4, 1933", "5 April in 1933" -> "April 5 in 1933", "7 February 1931" -> "February 7,
+  1931"; ch37 Anonymous "10 January 1933" -> "January 10, 1933". Republican-reckoning and lunar dates
+  left as period voice.
+- 吴淞口 "the Wusong bar" -> "the mouth of the Wusong River" (authority.json decided form). This was the
+  one authority stray still in the reading text book-wide: ch34 (x2) and ch35 (x2). Conformed in the
+  reading text via apply_edits TOUCH (edits/ch34_edits.md, edits/ch35_edits.md) and in out/ch34_en.json /
+  out/ch35_en.json via conform_r4.py. (吴淞口 was already glossed at ch07/ch13/ch27, so a name
+  conformance only, no new note; glossary.json already carried the conformed en.)
+- 白区 "the White area" -> "the White areas" (authority.json decided form, number). It does NOT appear in
+  the reading text anywhere book-wide (grepped); it survived only in one pre-retrofit note body (ch11
+  "Red China"), conformed to plural via patch_note_bodies_r4.py (the ch06 body already read plural).
+  glossary.json 白区 flipped to status "decided" with en "the White areas".
+- Anchor move: normalizing the ch37 reading broke the frame note's anchor "4 April 1933 at Longhua
+  Prison"; patch_note_bodies_r4.py moved it to "April 4, 1933, at Longhua Prison" (verified a substring
+  of the post-conform reading; qa_epub confirms it resolves).
+- 海格路 Avenue Haig, 马斯南路 Route Massenet, 大美晚报, 反省院: grepped ch29-ch37, NONE recur in range
+  (done in earlier rounds). Whole-book stray grep for every authority OLD form (Haige Road, Massenet
+  Road, Laozha Police, Da Mei Wan Bao, the Wusong bar, the Reflection Institute, "a piece of theatre"):
+  0 remaining after R4.
+
+### Scene-break review (commissioner directive; ch29-ch37)
+
+Reviewed all nine units against the calibrated principle (add only at a genuine jump in place, time AND
+vantage where the new scene stands apart; leave camera-flips inside a continuous cross-cut and
+causally/aurally sutured cuts hard). NO new breaks or datelines were warranted, matching R2 (ch11-ch19)
+and R3 (ch20-ch28):
+- Left with 0 breaks as genuinely single continuous scenes: ch29 (one continuous chase following Chen
+  Qianli from the Laoximen teahouse across the dyeworks to the Maochang coal-yard trap -- a journey, one
+  vantage, one day, no hard cut); ch34 (the whole chapter is one continuous night intercut between two
+  rooms of one building -- Wei Dafu's interrogation and the Ye Qinian/Lu Zhongde conference; a break was
+  weighed at the Wei-Dafu-room -> conference-room shift, para 49, but left hard: it is a causally
+  sutured cross-cut, Lu Zhongde carrying what Wei Dafu said straight into the next room, and a vantage
+  change alone is not enough); ch36 (a single continuous letter); ch37 (documentary lists -- the H3
+  section headings do the structural work, and the "......" marks are abridgment, not scene cuts).
+- Already segmented at their genuine scene changes, left unchanged: ch30 (3 breaks: park -> the "first
+  meeting" flashback -> Scotto Cup -> the Dong home), ch31 (1 dateline + 1 break: cemetery confrontation
+  -> the Caohejing phone call; the long Ye Tao death flashback is dialogue-embedded, not a cut), ch32 (2
+  breaks: tavern -> Fahua dairy shed -> next-morning Shen Bao), ch33 (1 break: the North Station
+  interrogation -> the Zhengyuan Hotel), ch35 (5 breaks across the cross-cut climax). The built EPUB
+  renders exactly these counts (grep class="brk" = 56, class="dateline" = 7 book-wide, unchanged by R4).
+
+### Whole-book reconciliation (final-round task) -- inversions resolved
+
+- Zhonghui Trust Bank (中汇银行): logged as "unnoted, add at ch10" -- found ALREADY noted at ch10 (a real
+  Du Yuesheng 1929 bank with a trust department; also glossed at ch17). RESOLVED: no action needed; the
+  handoff item was stale.
+- The tram (first appears ch07; note at ch29): DECIDED to LEAVE the ch29 note as specifically the French
+  Concession tram company (Compagnie Francaise, with the first/third-no-second class characterization);
+  the ch07 tram is a generic Settlement tram named in passing, and a general Settlement-tram note there
+  would be low-value padding. No ch07 note added.
+- The Central Liaison Bureau / 中央交通局 (first named ch07; courier-lines note at ch15): DECIDED to LEAVE
+  the note at ch15. The dedicated note is about the clandestine courier-line apparatus, whose substantive
+  first treatment is ch15; at ch07 the bureau is only named in passing. Relocating a rich courier-lines
+  note away from where the courier lines are the topic would serve the reader worse.
+- The Peach Blossom Spring / Tao Yuanming allusion (ch22 opera lyric; dedicated note at ch28 Xiaotaoyuan
+  title payoff): LEFT at ch28 (a deliberate plot-payoff, per the handoff).
+- Dongjiadu (董家渡): first appears ch13, unnoted book-wide -> fresh first-appearance note added at ch13
+  (see the new-notes list). CLOSED.
+- Women's Normal University (北京女子师范大学): checked -- already noted at ch26 (its first appearance, the
+  Duan Qirui 1925 dissolution, Lu Xun), covering the ch31 and ch37 recurrences. No action.
+- The Central Statistics Bureau / 中统 (ch37) and the Party Affairs Investigation Section (党务调查科): the
+  ch03 note already names 党务调查科 as "the forerunner of the wartime Bureau of Investigation and
+  Statistics (中统)", so ch37's "Central Statistics Bureau" is covered; the new ch35 note adds the 军统
+  side of the pair.
+- Decided-rendering drift grep: 97 "decided" glossary renderings grep-counted across all 37 built units;
+  each referent carries one rendering, no drift. TOC links all 37 units; note numbering sequential 1-338
+  end to end (qa_epub enforces both).
+
+### Checks run (R4)
+
+- anchor_check.py per unit before apply_edits.py (ch13, ch29, ch30, ch32, ch34, ch35): no anchor
+  collisions. Edit-parse pre-verified (parse_edits + count each OLD/anchor == 1; named-entity scan
+  clean) before applying, per the R3 window-bleed lesson; two blank lines between every TOUCH block.
+- apply_edits.py: 4 prose conformances (ch34 x2, ch35 x2, all the Wusong-bar TOUCH) and 7 new notes
+  across six units (ch13, ch29, ch30, ch32, ch34, ch35). conform_r4.py: ch37 reading + ch37b_en.json
+  date normalization and ch34/ch35 en.json Wusong sync, all exact-count guarded. patch_note_bodies_r4.py:
+  8 note-body edits (7 date normalizations + the ch11 White-areas number fix), 1 anchor move, and the
+  glossary 白区 update, each guarded.
+- check_structure.py --pairs data/zh/<id>.txt: paragraph parity OK for all nine
+  (46/68/71/74/102/58/79/11/38).
+- check_numbers.py --noise check_noise.txt on regenerated bilinguals for the units whose reading/en.json
+  changed (ch34, ch35, ch37 via assemble_ch37.py): 0 unresolved (the date reorderings preserve every
+  numeral value).
+- register_tics.py --profile ch29-ch37: day-month-date 0 and british-spelling 0 over the range; the
+  remaining narration-side batteries (could-only, trailing-besides, nominalization, narration-ellipsis)
+  are pre-existing candidates in the FROZEN reading text (informational this round, not touched).
+- Build: build_reading_epub.py "out/A Thousand Li of Rivers and Mountains.epub", 37/37 units, 338 notes.
+  qa_epub.py: PASS (50 files, 44 documents; 338 references = 338 bodies = 338 backlinks; numbering
+  sequential 1-338; all links resolve). Spot-read of the built xhtml: all 7 new note markers present,
+  the moved ch37 anchor and the normalized ch37 dates render, no double-encoded entities, scene
+  typography intact (brk=56, dateline=7).
+- Deliverable stamped with stamp_deliverable.py R4.
+
+HONEST NOTE ON DENSITY (R4). Like R1 (~15/chapter of new notes), R2 (~2.6/chapter) and R3 (~1.4/chapter),
+R4 lands well under the directive band: 7 new notes across nine units (~0.8/chapter). The launching chat
+and CORRECTIONS.md gave no "push harder toward the band" instruction, so the standing no-pad policy
+governs (a note must say something a no-background reader needs; padding is the failure mode). R4's range
+is the most recycled of all: it is the resolution, revisiting places, people and organizations already
+footnoted at their first appearance across R1-R3 (Longhua and its Bao'en Pagoda and peach blossoms at
+ch03; the Zhanyuan/瞻园, Party Affairs Investigation Section, Special Operations Headquarters, Shence Gate
+and soldiers' shelter-vault; the Nineteenth Route Army and the January 28 Incident with the Commercial
+Press burning; Hongkou Park, Nekrasov, China Merchants, jianren rank, Suzhou Creek, the courier lines and
+the painting the mission is named for -- all already noted). It also contains the book's two shortest
+units: ch36 (a 553-character interior letter, whose real referents are all covered at ch03 -- capped at
+1) and ch37 (the documentary appendix, already carrying the round's densest and most careful apparatus:
+the Longhua Twenty-Four / 7 Feb 1931 anchor and the Qingming-dated invention, the 死间 "dead agent" from
+Sun Tzu, the 践/praxis character, 拨乱反正, the unnamed informant -- capped at 6). ch33 (a single-room
+interrogation) genuinely capped at 2, its real referents (North Station/Zhabei/January 28, the
+self-surrender/reflection-institute machinery) all noted. This is the same recycling the three prior
+HONEST NOTE ON DENSITY entries record, not a failure to look: every unit was read in full and grepped
+against the whole notes.json and the ch01-ch28 reading files before any note was written.
+
+The book is COMPLETE. See COMPLETION.md for the full completion report.

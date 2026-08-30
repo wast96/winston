@@ -108,5 +108,13 @@ the book. Full ledger in `glossary.json`; the authority conformances land here._
 - "a piece of theatre" -> **"a piece of theater"** (R3, American-spelling locale
   conformance; ch27, x2). Real concession venue names (the Lehua Theatre etc.)
   keep their period "Theatre" spelling and stay exempt.
-- Authority conformances not yet in range (R4): 白区 -> the White areas (number;
-  did not appear in the ch11-ch28 reading text; grep ch29-ch37).
+- 吴淞口: the ch34 (x2) and ch35 (x2) reading occurrences conformed in R4 ("the
+  Wusong bar" -> "the mouth of the Wusong River"), the last reading-text strays
+  book-wide; out/ch34_en.json and out/ch35_en.json synced.
+- 白区: "the White area" -> **"the White areas"** (R4, authority number). It does
+  NOT appear in the reading text anywhere book-wide; conformed only in the ch11
+  note body (ch06 already plural) and flipped to "decided" in glossary.json.
+- Dates -> "Month D, YYYY": the last day-first dates in the book (all 11 in the
+  ch37 appendix reading text, plus note-body dates in ch30/ch33/ch35/ch37) were
+  normalized in R4; register_tics day-month-date now reads 0 book-wide. The book
+  is uniform after R4. (COMPLETE across R1-R4.)

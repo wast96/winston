@@ -58,7 +58,7 @@ Lu Zhongde spoke with some feeling. Chen Qianli said no more; he thought quietly
 
 “I reckon that when the higher levels told Old Fang to make contact with Haohan on the day of the meeting, it was a decision that the Shanghai group should take charge of moving Comrade Haohan.
 
-“These last days the route of withdrawal has been arranged; indeed, this very evening a party of comrades will leave by ship. We have hired a freighter; at midnight tonight she will lie waiting at the Wusong bar, and we will use a steam-launch to carry the leading comrades out to her.
+“These last days the route of withdrawal has been arranged; indeed, this very evening a party of comrades will leave by ship. We have hired a freighter; at midnight tonight she will lie waiting at the mouth of the Wusong River, and we will use a steam-launch to carry the leading comrades out to her.
 
 “The assembly point is in Pudong; the steam-launch will put in there at ten in the evening.”
 
@@ -74,7 +74,7 @@ Lu Zhongde spoke with some feeling. Chen Qianli said no more; he thought quietly
 
 “Only on foot.”
 
-As they parted, Chen Qianli said to Wei Dafu: “I am about to go aboard that freighter and wait at the Wusong bar. You might come along with me and ride the great steamer.”
+As they parted, Chen Qianli said to Wei Dafu: “I am about to go aboard that freighter and wait at the mouth of the Wusong River. You might come along with me and ride the great steamer.”
 
 Wei Dafu smiled at Chen Qianli, and said that Old Yi here had the greater need of him.
 
