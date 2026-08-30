@@ -58,6 +58,7 @@ dl.cast dt { font-weight: bold; margin-top: 0.7em; }
 dl.cast dd { margin: 0 0 0.2em 1.2em; }
 dl.cast .also { font-weight: normal; color: #555; }
 dl.cast .zh { font-weight: normal; color: #888; font-size: 0.9em; padding-left: 0.3em; }
+dl.cast .pron { font-weight: normal; font-style: italic; color: #777; font-size: 0.9em; padding-left: 0.3em; }
 a.noteref { text-decoration: none; }
 a.noteref sup { font-size: 0.72em; color: #7a1f1f; padding-left: 1px; }
 div.endnote { margin: 0 0 1.05em; }
@@ -427,9 +428,10 @@ def render_glossary(gloss):
 
 def render_cast(cast):
     """A spoiler-free dramatis personae from cast.json, rendered as a
-    front-matter page. Each figure is described by the surface role in which
-    the reader first meets them; the data file carries no hidden identities,
-    deaths, or plot turns."""
+    front-matter page: the cast grouped by faction (each figure by the surface
+    role in which the reader first meets them, with a rough respelling), then a
+    names/forms-of-address note and a pinyin pronunciation guide. The data file
+    carries no hidden identities, deaths, or plot turns."""
     parts = ["<h1>Cast of Characters</h1>"]
     if cast.get("lead"):
         parts.append('<p class="note">%s</p>' % esc(cast["lead"]))
@@ -443,9 +445,55 @@ def render_cast(cast):
                     if m.get("also") else "")
             zh = (' <span class="zh" lang="zh-Hant">%s</span>' % esc(m["zh"])
                   if m.get("zh") else "")
-            parts.append('<dt>%s%s%s</dt><dd>%s</dd>'
-                         % (esc(m["en"]), also, zh, esc(m.get("blurb", ""))))
+            pron = (' <span class="pron">&#183; %s</span>' % esc(m["pron"])
+                    if m.get("pron") else "")
+            parts.append('<dt>%s%s%s%s</dt><dd>%s</dd>'
+                         % (esc(m["en"]), also, zh, pron, esc(m.get("blurb", ""))))
         parts.append("</dl>")
+
+    addr = cast.get("address")
+    if addr:
+        parts.append("<h3>%s</h3>" % esc(addr.get("title", "Names")))
+        for p in addr.get("paras", []):
+            parts.append('<p class="note">%s</p>' % p)
+
+    pr = cast.get("pronunciation")
+    if pr:
+        parts.append("<h3>%s</h3>" % esc(pr.get("title", "Pronunciation")))
+        if pr.get("intro"):
+            parts.append('<p class="note">%s</p>' % esc(pr["intro"]))
+        if pr.get("sounds"):
+            parts.append('<dl class="cast">')
+            for sym, desc in pr["sounds"]:
+                parts.append('<dt>%s</dt><dd>%s</dd>' % (esc(sym), esc(desc)))
+            parts.append("</dl>")
+        if pr.get("places_intro"):
+            parts.append('<p class="note">%s</p>' % esc(pr["places_intro"]))
+        if pr.get("places"):
+            parts.append('<dl class="cast">')
+            for en, zh, resp in pr["places"]:
+                parts.append('<dt>%s <span class="zh" lang="zh-Hant">%s</span></dt>'
+                             '<dd><span class="pron">%s</span></dd>'
+                             % (esc(en), esc(zh), esc(resp)))
+            parts.append("</dl>")
+    return "\n".join(parts)
+
+
+def render_orientation_page(page):
+    """A spoiler-free reader-orientation page from orientation.json: a title
+    (h1) then a list of blocks, each {"h": heading} or {"p": paragraph}.
+    Paragraphs are rendered VERBATIM so inline <i>...</i> and numeric character
+    references are honored (the data file carries no named entities)."""
+    parts = ['<h1>%s</h1>' % esc(page.get("title", ""))]
+    first = True
+    for blk in page.get("blocks", []):
+        if "h" in blk:
+            parts.append('<h3>%s</h3>' % esc(blk["h"]))
+            first = True
+        elif "p" in blk:
+            parts.append('<p%s>%s</p>'
+                         % (' class="first"' if first else "", blk["p"]))
+            first = False
     return "\n".join(parts)
 
 
@@ -546,6 +594,7 @@ def main(epub_path):
     scenes_by_chap = load_json("scenes.json", {})
     cast = load_json("cast.json", {})
     have_cast = bool(cast.get("groups"))
+    orient_pages = load_json("orientation.json", {}).get("pages", [])
 
     manifest_figs = []
     for chap in chapters:
@@ -634,6 +683,11 @@ def main(epub_path):
         write(os.path.join(oebps, "cast.xhtml"),
               render_cast(cast), "Cast of Characters")
 
+    # reader-orientation front-matter pages, if orientation.json supplies any
+    for pg in orient_pages:
+        write(os.path.join(oebps, "orient-%s.xhtml" % pg["id"]),
+              render_orientation_page(pg), pg["title"])
+
     # a note whose anchor never matched would be silently dropped; refuse.
     orphans = [(cid, n["anchor"]) for cid, lst in notes_by_chap.items()
                for n in lst if cid in translated and not n.get("used")]
@@ -668,6 +722,7 @@ def main(epub_path):
              ("contents.xhtml", "Contents")]
     if have_cast:
         docs += [("cast.xhtml", "Cast of Characters")]
+    docs += [("orient-%s.xhtml" % pg["id"], pg["title"]) for pg in orient_pages]
     docs += [(c["id"] + ".xhtml", c["title_en"]) for c in structure]
     docs += [("notes.xhtml", "Notes"),
              ("backmatter.xhtml", "Translator's Note and Glossary")]
@@ -701,6 +756,9 @@ def main(epub_path):
                  '<li><a href="contents.xhtml">Contents</a></li>']
     if have_cast:
         nav_items.append('<li><a href="cast.xhtml">Cast of Characters</a></li>')
+    for pg in orient_pages:
+        nav_items.append('<li><a href="orient-%s.xhtml">%s</a></li>'
+                         % (pg["id"], esc(pg["title"])))
     for part_label, chaps in part_groups(structure):
         chap_lis = []
         for chap in chaps:

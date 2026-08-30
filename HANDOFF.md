@@ -39,6 +39,14 @@ cascades via glossary/style + grep-driven edit across all built units, then
 rebuild + full QA; LOCAL is a one-spot fix). After a corrections batch: rebuild,
 run `qa_epub`, list every file touched, append a dated CHANGELOG.md entry.
 
+Front-matter reader aids are data-driven and spoiler-free (describe each figure
+only by the surface role in which the reader first meets them; no plot/identity
+reveals): `cast.json` (the Cast of Characters, the names/forms-of-address note,
+and the pinyin pronunciation guide) and `orientation.json` (the Divided City,
+Two Sides, and Reckoning-the-Days pages). The builder renders them via
+`render_cast()` and `render_orientation_page()`; front-matter spine order is
+cover, title page, contents, cast, the orientation pages, then the text.
+
 ## Tooling / traps (for any future corrections pass)
 
 - notes.json is written at indent=2 (apply_edits.py's format). Do not hand-reformat.

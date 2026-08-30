@@ -1,43 +1,77 @@
 {
-  "_about": "Spoiler-free dramatis personae rendered as a front-matter page by build_reading_epub.py (render_cast). Each figure is described by the role in which the reader first meets them: surface identities only, no hidden allegiances, deaths, romances-as-reveals, or plot turns. Keep blurbs short. The novel's characters are the author's invention (see the translator's note).",
-  "lead": "A guide to the principal figures, each described by the role in which the reader first meets them. All are the author's invention; their world is real.",
+  "_about": "Spoiler-free dramatis personae plus a names/forms-of-address note and a pinyin pronunciation guide, rendered as a front-matter page by build_reading_epub.py (render_cast). Each figure is described by the role in which the reader first meets them: surface identities only, no hidden allegiances, deaths, romances-as-reveals, or plot turns. 'pron' is a rough English respelling (approximate; the guide teaches the real sounds). Keep blurbs short. The novel's characters are the author's invention (see the translator's note).",
+  "lead": "A guide to the principal figures, each described by the role in which the reader first meets them, with a rough guide to saying the names below. All are the author's invention; their world is real.",
   "groups": [
     {
       "group": "The Communist underground",
       "note": "The secret action group in Shanghai and the Party leaders it answers to.",
       "members": [
-        {"en": "Chen Qianli", "zh": "陈千里", "blurb": "Sent from the Party's central leadership to take charge of the secret operation in Shanghai; the group's commander, and the story's center."},
-        {"en": "Fang Yunping", "zh": "方云平", "also": "‘Old Fang’", "blurb": "The seasoned head of the Shanghai action group, and the superior of most of its members."},
-        {"en": "Lin Shi", "zh": "林石", "blurb": "A special commissioner from the Party centre, working the operation alongside Chen Qianli."},
-        {"en": "Ling Wen", "zh": "凌汶", "blurb": "A woman cadre of the underground and a published writer; one of the group."},
-        {"en": "Wei Dafu", "zh": "卫达夫", "blurb": "A quick-witted, streetwise member who works the city as a house-letting agent."},
-        {"en": "Chen Qianyuan", "zh": "陈千元", "blurb": "The younger brother of Chen Qianli, and a member of the group. (Note the near-identical names.)"},
-        {"en": "Dong Huiwen", "zh": "董慧文", "blurb": "A young woman of the group, a schoolteacher and the daughter of a famous chef; close to Chen Qianyuan."},
-        {"en": "Li Han", "zh": "李汉", "blurb": "A member who labors at the Maochang coal yard as his cover."},
-        {"en": "Qin Chuan'an", "zh": "秦传安", "also": "‘Doctor Qin’", "blurb": "The group's physician, who keeps a clinic for a cover."},
-        {"en": "Liang Shichao", "zh": "梁士超", "blurb": "A Red Army commander recuperating in Shanghai who joins the underground work."},
-        {"en": "Tian Fei", "zh": "田非", "blurb": "A member of the Shanghai group."},
-        {"en": "Lu Zhongde", "zh": "卢忠德", "also": "‘Old Yi’", "blurb": "Keeps a painting-and-scroll shop and works within the Shanghai underground group."},
-        {"en": "Haohan", "zh": "浩瀚", "blurb": "The code name of a senior Party leader whom the operation must move safely out of Shanghai."}
+        {"en": "Chen Qianli", "zh": "陈千里", "pron": "chun chyen-lee", "blurb": "Sent from the Party's central leadership to take charge of the secret operation in Shanghai; the group's commander, and the story's center."},
+        {"en": "Fang Yunping", "zh": "方云平", "pron": "fahng yün-ping", "also": "‘Old Fang’", "blurb": "The seasoned head of the Shanghai action group, and the superior of most of its members."},
+        {"en": "Lin Shi", "zh": "林石", "pron": "lin shr", "blurb": "A special commissioner from the Party centre, working the operation alongside Chen Qianli."},
+        {"en": "Ling Wen", "zh": "凌汶", "pron": "ling wun", "blurb": "A woman cadre of the underground and a published writer; one of the group."},
+        {"en": "Wei Dafu", "zh": "卫达夫", "pron": "way dah-foo", "blurb": "A quick-witted, streetwise member who works the city as a house-letting agent."},
+        {"en": "Chen Qianyuan", "zh": "陈千元", "pron": "chun chyen-ywen", "blurb": "The younger brother of Chen Qianli, and a member of the group. (Note the near-identical names.)"},
+        {"en": "Dong Huiwen", "zh": "董慧文", "pron": "dong hway-wun", "blurb": "A young woman of the group, a schoolteacher and the daughter of a famous chef; close to Chen Qianyuan."},
+        {"en": "Li Han", "zh": "李汉", "pron": "lee hahn", "blurb": "A member who labors at the Maochang coal yard as his cover."},
+        {"en": "Qin Chuan'an", "zh": "秦传安", "pron": "chin chwahn-ahn", "also": "‘Doctor Qin’", "blurb": "The group's physician, who keeps a clinic for a cover."},
+        {"en": "Liang Shichao", "zh": "梁士超", "pron": "lyahng shr-chow", "blurb": "A Red Army commander recuperating in Shanghai who joins the underground work."},
+        {"en": "Tian Fei", "zh": "田非", "pron": "tyen fay", "blurb": "A member of the Shanghai group."},
+        {"en": "Lu Zhongde", "zh": "卢忠德", "pron": "loo joong-duh", "also": "‘Old Yi’", "blurb": "Keeps a painting-and-scroll shop and works within the Shanghai underground group."},
+        {"en": "Haohan", "zh": "浩瀚", "pron": "how-hahn", "blurb": "The code name of a senior Party leader whom the operation must move safely out of Shanghai."}
       ]
     },
     {
       "group": "The Nationalist secret service",
       "note": "The pursuers hunting the group for the Nanjing government.",
       "members": [
-        {"en": "Ye Qinian", "zh": "叶启年", "blurb": "The spymaster leading the hunt for the group; a senior officer of the party's secret service and a former professor. The chief adversary."},
-        {"en": "You Tianxiao", "zh": "游天啸", "blurb": "Captain of the detective squad and Ye Qinian's chief field man and enforcer."},
-        {"en": "Mu Chuan", "zh": "穆川", "also": "‘Section Chief Mu’", "blurb": "A garrison judge advocate who cooperates with Ye Qinian's operation."},
-        {"en": "Secretary Ma", "zh": "马秘书", "blurb": "Ye Qinian's aide and secretary."}
+        {"en": "Ye Qinian", "zh": "叶启年", "pron": "yeh chee-nyen", "blurb": "The spymaster leading the hunt for the group; a senior officer of the party's secret service and a former professor. The chief adversary."},
+        {"en": "You Tianxiao", "zh": "游天啸", "pron": "yoh tyen-shyow", "blurb": "Captain of the detective squad and Ye Qinian's chief field man and enforcer."},
+        {"en": "Mu Chuan", "zh": "穆川", "pron": "moo chwahn", "also": "‘Section Chief Mu’", "blurb": "A garrison judge advocate who cooperates with Ye Qinian's operation."},
+        {"en": "Secretary Ma", "zh": "马秘书", "pron": "mah", "blurb": "Ye Qinian's aide and secretary."}
       ]
     },
     {
       "group": "In Shanghai",
       "note": "Civilians and others who cross the characters' paths.",
       "members": [
-        {"en": "Master Dong", "zh": "董师傅", "blurb": "A celebrated Yangzhou chef, and Dong Huiwen's father."},
-        {"en": "Miss Tao", "zh": "陶小姐", "blurb": "A Shanghai socialite who drifts across the characters' paths."}
+        {"en": "Master Dong", "zh": "董师傅", "pron": "dong", "blurb": "A celebrated Yangzhou chef, and Dong Huiwen's father."},
+        {"en": "Miss Tao", "zh": "陶小姐", "pron": "tao, rhyming with ‘cow’", "blurb": "A Shanghai socialite who drifts across the characters' paths."}
       ]
     }
-  ]
+  ],
+  "address": {
+    "title": "Names and forms of address",
+    "paras": [
+      "Chinese names put the family name first: <i>Chen</i> Qianli is Mr. Chen, and his brother is <i>Chen</i> Qianyuan (the two share the family name Chen and differ only in the given name, so watch the last syllable).",
+      "The same person is often addressed, not by name, but by a warm tag: <i>Old</i> before a surname for a familiar senior or an equal (Old Fang is Fang Yunping, Old Yi is Lu Zhongde), <i>Little</i> or <i>Young</i> for a junior, and <i>Master</i> for a skilled tradesman (Master Dong the chef). Officials go by rank (Section Chief Mu, Secretary Ma, Director Ye, Captain You).",
+      "Both sides also use work names and code names as a matter of routine. A code name such as Haohan stands in for a person whose real identity is kept dark, and an operative may be known to different people by different names. When a name shifts, it is usually the same person under a new mask, not a new character."
+    ]
+  },
+  "pronunciation": {
+    "title": "Saying the names",
+    "intro": "Pinyin, the romanization used here, spells a few sounds in ways that surprise English readers. The respellings above and here are rough guides, not exact; these are the letters that trip people up.",
+    "sounds": [
+      ["q", "the ‘ch’ in cheese: Qianli is ‘chyen-lee.’"],
+      ["x", "the ‘sh’ in sheep: Xiaotaoyuan is ‘shyow-tao-ywen.’"],
+      ["zh", "the ‘j’ in jump: Zhabei is ‘jah-bay.’"],
+      ["z / c", "‘dz’ and ‘ts’: z as in ‘kids,’ c as in ‘cats.’"],
+      ["i (after zh, ch, sh, r, z, c)", "a buzzed vowel close to ‘r’: Lin Shi is ‘lin shr,’ Sinan is ‘sz-nahn.’"],
+      ["e (on its own)", "the ‘u’ in ‘cut’: -de is ‘duh.’"],
+      ["ian", "‘yen’: Qianyuan is ‘chyen-ywen.’"],
+      ["ao / ou / ui", "‘ow’ (cow) / ‘oh’ / ‘way’: hui is ‘hway.’"],
+      ["ü, and u after j, q, x, y", "‘ee’ said with rounded lips: yun is ‘yün.’"]
+    ],
+    "places_intro": "The same sounds carry the place names:",
+    "places": [
+      ["Longhua", "龙华", "long-hwah"],
+      ["Nanshi", "南市", "nahn-shr"],
+      ["Zhabei", "闸北", "jah-bay"],
+      ["Hongkou", "虹口", "hong-koh"],
+      ["Fahua", "法华", "fah-hwah"],
+      ["Sinan", "思南", "sz-nahn"],
+      ["Dongjiadu", "董家渡", "dong-jyah-doo"],
+      ["Ruijin", "瑞金", "rway-jin"]
+    ]
+  }
 }

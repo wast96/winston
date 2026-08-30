@@ -1,0 +1,45 @@
+{
+  "_about": "Spoiler-free reader-orientation front-matter pages, rendered by build_reading_epub.py (render_orientation_page) after the Cast of Characters. Each page is a title plus a list of blocks: {\"h\": heading} or {\"p\": paragraph}. Paragraphs are rendered VERBATIM (inline <i>...</i> honored; use NUMERIC character references like &#8212; and &#38;, never named entities; literal Chinese is fine). Orientation only: no plot, no character reveals.",
+  "pages": [
+    {
+      "id": "divided-city",
+      "title": "The Divided City",
+      "blocks": [
+        {"p": "Shanghai in 1933 was not one city but several, laid over the same ground under different flags, and the novel&#8217;s cat-and-mouse depends entirely on it. A person could change the law that governed him, and the police who could touch him, simply by crossing a street."},
+        {"h": "The foreign concessions"},
+        {"p": "The <i>International Settlement</i> (公共租界), British- and American-led, was run by its own Shanghai Municipal Council, with its own police (the Shanghai Municipal Police) and courts. Its waterfront, the <i>Bund</i>, was the banking heart of East Asia; its northern district, <i>Hongkou</i> (虹口, &#8216;hong-koh&#8217;), held a large Japanese population and, further out, the leftist literary world along North Sichuan Road. Its east-west streets carried nicknames the book uses constantly: First Avenue (Nanjing Road) down through Second, Third and Fourth (Fuzhou Road)."},
+        {"p": "The <i>French Concession</i> (法租界) was governed separately by the French, with its own police and courts and its own street names in the Route and Avenue style (Route Massenet, Avenue Haig). It was the leafy, fashionable residential quarter, the Sinan district among its addresses."},
+        {"h": "The Chinese city"},
+        {"p": "Around the foreign concessions lay the Chinese-administered territory: to the south the old walled town, <i>Nanshi</i> (南市, &#8216;nahn-shr&#8217;), a maze of lanes and markets around the Old West Gate and the Dongjiadu waterfront; to the north <i>Zhabei</i> (闸北, &#8216;jah-bay&#8217;), the crowded district around the North Station, wrecked in the Japanese attack of early 1932. This ground answered to Chinese authority, and above all to the military <i>Songhu Garrison Command</i>, whose prison and execution ground stood at <i>Longhua</i> (龙华, &#8216;long-hwah&#8217;), southwest of the city."},
+        {"h": "Why the borders matter"},
+        {"p": "Each zone kept its own police, who had no power in the next: a fugitive who stepped over a boundary stepped out of one force&#8217;s reach, and to arrest across a line meant a slow, revealing request for extradition. The underground lived in those seams. It exploited the border towns where jurisdictions met (Fahua, west of the city, where the Settlement&#8217;s outlying roads, the French reach and Chinese county land ran together), and the <i>extra-settlement roads</i>, streets the Settlement had built beyond its own legal edge, where nobody&#8217;s police liked to go. This is why so much of the book turns on exactly which street a character is standing in, and which flag flies over it."}
+      ]
+    },
+    {
+      "id": "two-sides",
+      "title": "The Two Sides",
+      "blocks": [
+        {"p": "Two clandestine organizations face each other through the novel, each with its own chain of command and its own vocabulary. A little of both helps the middle chapters land."},
+        {"h": "The Communist underground"},
+        {"p": "The Shanghai group answers to the Party&#8217;s central leadership, which in these years was itself hunted in Shanghai and shifting its weight toward the soviet base area at <i>Ruijin</i> in the south. A <i>special commissioner</i> (特派员) is an agent sent down from that centre with authority over a local action group. The group works behind ordinary cover jobs (a clinic, a coal yard, a painting shop), meets under pretexts, and keeps contact through recognition signals, coded newspaper advertisements, and the secret <i>liaison lines</i> (交通线) that ran couriers, funds and people out to the base areas. Members go by work names and codenames as a matter of course."},
+        {"h": "The Nationalist secret service"},
+        {"p": "On the other side is the intelligence arm of the ruling Nationalist party, called here the <i>Special Operations Headquarters</i>. It grew out of the party&#8217;s Central Party Affairs Investigation Section (the body that would later become the wartime <i>中统</i>), and it runs plain-clothes <i>detective squads</i> of &#8216;agents.&#8217; It works hand in glove with the military <i>Songhu Garrison Command</i>, which held and shot prisoners at Longhua, and with that command&#8217;s judge-advocate&#8217;s office. A separate and rival military secret service (the future <i>军统</i>, under Dai Li) was rising at the same moment; the two Nationalist services cooperated warily and competed for standing in Nanjing."},
+        {"h": "Words the reader meets"},
+        {"p": "The <i>White areas</i> are the Nationalist-held territory in which the underground works, as opposed to the &#8216;Red&#8217; or soviet areas. A captured Communist might be pressed through the system of &#8216;surrender&#8217; and &#8216;self-renewal&#8217; and sent to a <i>reflection institute</i> to be re-educated rather than shot, a channel the underground sometimes turned to its own use. These terms, and the real people and places behind the story, are explained as they arise in the footnotes."}
+      ]
+    },
+    {
+      "id": "the-calendar",
+      "title": "Reckoning the Days",
+      "blocks": [
+        {"p": "The novel keeps time by the traditional lunar calendar, and its whole action falls within a single season: the Chinese New Year of early 1933. Knowing how the days are counted keeps that clock legible."},
+        {"h": "The lunar months"},
+        {"p": "Days are given as the number of the day within a lunar month, above all the <i>first month</i> (正月), so a phrase like &#8216;the fourteenth of the first month&#8217; is a date, not an age or a count. New Year&#8217;s Eve (除夕) closes the old year; the first of the first month is New Year&#8217;s Day; and the season ends on the fifteenth with the <i>Lantern Festival</i> (元宵), the night of the first full moon. In 1933 the lunar New Year fell on January 26, so New Year&#8217;s Eve was January 25, &#8216;the fourteenth&#8217; falls in early February, and the Lantern Festival on February 9. Holding the window &#8216;late January into February 1933&#8217; in mind is enough."},
+        {"h": "The solar terms"},
+        {"p": "Running alongside the lunar months is a separate solar cycle of twenty-four <i>terms</i> (节气) that mark the farming year; the <i>Beginning of Spring</i> (立春), the first of them, falls in early February. The book names these too, and a note explains each where it appears."},
+        {"h": "Two other reckonings"},
+        {"p": "Occasionally a date is given in the <i>Republican</i> count, which numbers the years from the founding of the Republic in 1912, so that 1933 is &#8216;the twenty-second year&#8217;; these are footnoted where they occur. The closing Appendix, by contrast, drops the lunar reckoning and gives its dates in the ordinary Western calendar."}
+      ]
+    }
+  ]
+}

@@ -7,6 +7,32 @@ Dated record of what changed and, for global corrections, what cascaded where.
 - GLOBAL: renamed "X" to "Y" everywhere (glossary + grep across ch01-ch12); rebuilt, qa green.
 - LOCAL: fixed a dropped clause in ch03 section 2.
 -->
+## 2026-08-30 — front matter: reader-orientation pages + pronunciation (commissioner request)
+
+- NEW (front matter): three spoiler-free orientation pages added after the Cast, in the
+  spine and the navigation (Cast, then Divided City, Two Sides, Reckoning the Days, then the
+  text):
+  - **The Divided City** — Shanghai's split jurisdictions (International Settlement, French
+    Concession, Nanshi, Zhabei) and why the borders drive the plot.
+  - **The Two Sides** — the Communist underground structure vs the Nationalist secret
+    services, and the vocabulary the reader meets (White areas, reflection institute, etc.).
+  - **Reckoning the Days** — the lunar calendar the novel keeps time by (the first month,
+    New Year's Eve, the Lantern Festival), mapped to early 1933, plus the solar terms and the
+    Republican year count.
+- NEW: the **Cast page** now also carries a *Names and forms of address* note (Old X / Little
+  X / Master / rank / code names) and a *Saying the names* pinyin pronunciation guide (the
+  surprising sounds with worked examples, plus a place-name list). Each cast entry gained a
+  rough respelling, and the geography page carries respellings inline on first mention.
+- SPOILER-FREE by design: orientation and pronunciation only; no plot, no character reveals.
+  A build-time guard-grep of all four new pages confirmed no reveal terms leaked.
+- Mechanics: the orientation pages are data-driven from a new `orientation.json`; the cast
+  extras from the expanded `cast.json`. `scripts/build_reading_epub.py` gained
+  `render_orientation_page()`, extended `render_cast()`, a `.pron` style, and the spine/nav
+  wiring. Files: orientation.json, cast.json, scripts/build_reading_epub.py.
+- Rebuilt out/A Thousand Li of Rivers and Mountains.epub (37 of 37 units, 338 notes);
+  qa_epub.py PASS (54 files, 48 documents, 338 references = bodies = backlinks; all links
+  resolve). No translation text, note, glossary, or rendering of the body changed.
+
 ## 2026-08-30 — front matter: spoiler-free Cast of Characters (commissioner request)
 
 - NEW (front matter): added a **Cast of Characters** page at the start of the book, placed
