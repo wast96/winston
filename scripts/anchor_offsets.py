@@ -101,21 +101,38 @@ def resolve(chid):
         end_char = imap[red_end - 1] + 1  # reading-file offset after the anchor
         # absorb the closing punctuation the mark actually follows (Isaacs sets
         # his reference marks after the period/quote), so the marker lands there
-        while end_char < len(R) and R[end_char] in ".,;:!?”’\")":
+        # A closing italic '*' marker is transparent here: step over it so the
+        # anchor ends after the whole italicized term (and any punctuation that
+        # follows it), placing the note marker where Isaacs set his reference
+        # mark -- after '*hsien*.' not inside it.
+        while end_char < len(R) and R[end_char] in ".,;:!?”’\")*":
             end_char += 1
-        # grow the window backward until unique and word-boundary clean
+        # grow the window backward until unique and word-boundary clean.
+        # Prefer an anchor free of '*' italic markers, but fall back to a
+        # unique anchor that DOES contain complete italic runs -- the builder
+        # inserts anchors BEFORE markup substitution, so a '*term*' anchor is
+        # safe (STYLE.local Batch 2 ruling). Needed when the mark falls right
+        # after an italicized term (e.g. six or seven *hsien*).
         red_lo = red_end - 12
+        fallback = None
         while red_lo > 0:
             start_char = imap[red_lo]
             # snap to a word start (previous char is a space/quote/paren)
             while start_char > 0 and R[start_char - 1] not in " \t\n“”‘’\"'([":
                 start_char -= 1
             anchor = R[start_char:end_char]
-            if "*" not in anchor and R.count(anchor) == 1:
-                break
+            if R.count(anchor) == 1:
+                if "*" not in anchor:
+                    break
+                if fallback is None:
+                    fallback = anchor
             red_lo -= 4
         else:
-            sys.exit("%s: could not make unique anchor before %d" % (chid, red_end))
+            if fallback is not None:
+                anchor = fallback
+            else:
+                sys.exit("%s: could not make unique anchor before %d"
+                         % (chid, red_end))
         out.append({"kind": kind, "value": value, "anchor": anchor})
     return out
 

@@ -250,3 +250,32 @@ system; apply it evenly, not at random.
   rely on the glossary &#8212; but do so as a stated choice, not by accident.
 - CHECK: scan the unit&#8217;s people-notes; each names the pinyin once unless it
   equals the Wade-Giles form.
+
+### Batch 4 voice-gate rulings (ch04&#8211;05 blind-critique loop) #book
+
+**RULE: When the body deploys a fact ironically, the note supplies the
+identification and stops &#8212; it does not re-underline the irony.** A note
+that glosses a term the author is already turning to rhetorical effect must add
+the outside fact (what the thing is) and leave the author&#8217;s point where he
+made it.
+- WHY: the Krestintern note ended by re-stating that a Kuomintang rightist sat
+  on a peasants&#8217; body &#8220;as a representative of the Chinese
+  farmers&#8221; &#8212; the exact irony Isaacs&#8217;s own sentence dramatizes
+  (exclamation mark and all). The blind reader flagged it twice as restating
+  the text.
+- FIX: define the institution (peasant arm of the Comintern, founded 1923,
+  propaganda body) and cut the closing sentence; the irony is the prose&#8217;s
+  job, not the note&#8217;s.
+- CHECK: if a note&#8217;s last sentence would still make sense as a line of the
+  author&#8217;s own argument, it is restatement &#8212; cut it.
+
+**RULE: Do not offer a competing translation of a term the body already
+renders.** When Isaacs prints his own gloss of a foreign name inline, the note
+must not translate it a second, different way.
+- WHY: the body gives the Kuominchun as &#8220;People&#8217;s Army&#8221;; the
+  Feng note glossed it &#8220;National People&#8217;s Army,&#8221; so note and
+  text disagreed on the same term.
+- FIX: give the pinyin of the name (Guominjun) and let the body&#8217;s own
+  rendering stand; add a translation only where the body supplies none.
+- CHECK: for any term the body parenthesizes or translates, the note either
+  matches that wording or stays silent on the translation.

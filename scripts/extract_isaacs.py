@@ -259,8 +259,24 @@ def main(chid, dry=False):
     # its ~68-71 margin. A flush (un-indented) first line at the top of a page
     # is a paragraph continuing across the page turn, of the same kind.
     NEW_PARA = {"body": 62, "quote": 75}
+    # The body's normal line-to-line spacing. Used to tell a spurious mid-page
+    # block split (a superscript reference mark at a line end breaking one
+    # paragraph into two blocks) from a REAL new paragraph that happens to be
+    # flush-left: a spurious split follows at the normal line rhythm, while a
+    # real break carries extra leading (and a scene-break ornament, dropped
+    # from the flow, widens the gap further). Indentation alone cannot tell
+    # them apart -- both sit flush at the margin.
+    body_gaps = []
+    for _, k, bb in flow:
+        if k != "body":
+            continue
+        ys = [l["bbox"][1] for l in bb["lines"]]
+        body_gaps.extend(ys[i + 1] - ys[i] for i in range(len(ys) - 1))
+    body_lh = sorted(body_gaps)[len(body_gaps) // 2] if body_gaps else 13.0
+    GAP_FACTOR = 1.35        # <= this * body_lh apart -> same paragraph
     prev_page = None
     last_kind = None
+    prev_last_y = None
     for pnum, kind, b in flow:
         first_line_x = round(b["lines"][0]["bbox"][0])
         indented = first_line_x >= NEW_PARA[kind]
@@ -269,8 +285,18 @@ def main(chid, dry=False):
             continue
         page_first = (pnum != prev_page)
         prev_page = pnum
-        if page_first and not indented and paragraphs and last_kind == kind:
-            # continuation of the previous same-kind paragraph across a page turn
+        # A new paragraph's first line is INDENTED; a block whose first line is
+        # flush to the margin is a CONTINUATION of the current same-kind
+        # paragraph -- either a genuine cross-page turn (page first), or a
+        # spurious mid-page block split. For the mid-page case, require the
+        # block to follow at the normal line rhythm (no extra paragraph leading
+        # and no dropped scene-break ornament in the gap).
+        same_flow = (prev_last_y is not None
+                     and b["lines"][0]["bbox"][1] - prev_last_y
+                     <= body_lh * GAP_FACTOR)
+        if (not indented and paragraphs and last_kind == kind
+                and (page_first or same_flow)):
+            # continuation of the previous same-kind paragraph
             prev = paragraphs[-1]
             if prev.endswith("-"):
                 m = re.search(r"(\S+)-$", prev)
@@ -286,6 +312,7 @@ def main(chid, dry=False):
             para_start_page.append(pnum)
             para_kind.append(kind)
         last_kind = kind
+        prev_last_y = b["lines"][-1]["bbox"][1]
 
     doc.close()
 

@@ -403,3 +403,151 @@ ch03: PDF 63-82, printed folios 40-59, 67 paragraphs (62 body + 5 block quotes).
   refetched epubcheck 5.1.0. Regression suite green except the pre-existing
   "hook stands down on template stub" test (documented non-issue). No stray
   branch this session; the working tree was reset to origin at the top.
+
+## B04 = ch04 "Canton: To Whom the Power?" + ch05 "Canton: The Coup of March 20, 1926" (DONE)
+
+ch04: PDF 83-97, printed folios 60-74, 49 paragraphs (46 body + 3 block quotes).
+ch05: PDF 98-116, printed folios 75-93, 67 paragraphs (57 body + 10 block quotes).
+
+### Session start: branch reconciliation
+- The container checked out the working branch but the tree was sitting on
+  translation-template-master (df55427), NOT the real work; the local
+  remote-tracking ref was stale. Fetched origin/claude/tragedy-of-the-chinese-
+  revolution (4e50b6b) and hard-reset onto it. No stray per-task branch. All
+  Batch 1-3 work (source.pdf, the Isaacs tooling, notes/glossary) was on the
+  remote tip.
+- Environment: setup.sh installs the Chinese OCR packs (template leftover) but
+  NOT the English wordlists extract_isaacs.py uses for de-hyphenation; installed
+  wamerican/wbritish by hand. epubcheck 5.1.0 refetched. Regression suite green
+  except the documented "hook stands down on template stub" case.
+
+### Extraction (faithful reset, no OCR) + an extractor bug fixed (do not revert)
+- extract_isaacs.py ch04 / ch05 wrote the reading files and pagemaps (ch04 15
+  folios, ch05 19). De-hyphenation clean; five real compound hyphens broken at a
+  line end restored by hand (bean-curd, dark-haired, Hu Han-min, fellow-guest,
+  and the confirmed-majority countrywide kept closed).
+- **BUG FIXED IN extract_isaacs.py (do not revert): spurious mid-page paragraph
+  splits.** A superscript reference mark at a line end makes PyMuPDF split one
+  paragraph into two blocks; the old extractor (which merged blocks only across
+  a PAGE TURN) then emitted them as two paragraphs. check_fidelity is blind to
+  this (it ignores paragraph structure). ch05's "Guide Weekly" sentence was
+  split this way, and re-checking found the SAME latent bug had shipped in
+  ch01 (1), ch02 (1), ch03 (2). The fix merges a flush-left, same-kind block
+  into the previous paragraph whenever it either starts a page (old behaviour)
+  or follows at the normal line rhythm (a spurious mid-page split). The
+  discriminator is the VERTICAL GAP RATIO: spurious splits sit ~1.0 line-height
+  below the previous line; real flush-left new paragraphs (the one after a
+  scene-break ornament; a paragraph carrying extra leading) sit >=1.4. Verified
+  clean bimodal separation (merges 0.99-1.03, real breaks 1.40-4.00) across all
+  units; threshold 1.35. Re-extracted ch01-03 and front matter, re-applied their
+  prior hand-fixes ("F drop cap, *** scene break, signature split, the 4 ch02/03
+  compound hyphens), and confirmed the ONLY change to the shipped chapters is
+  the 4 correct spurious-split merges (words byte-identical; fidelity green on
+  all 7 units). This corrects, it does not rewrite, the shipped prose.
+- **anchor_offsets.py (do not revert): two small robustness fixes.** (1) A
+  fallback that accepts a unique anchor containing complete italic (`*...*`)
+  runs when no `*`-free unique anchor exists (needed when a mark falls right
+  after an italicized term, e.g. ch04 note on "six or seven *hsien*."). (2) The
+  trailing-punctuation absorb now steps over a closing `*` so the marker lands
+  after "*hsien*." not inside it.
+- **Fidelity verified byte-for-byte**: ch04 37,301 chars, ch05 45,820; all seven
+  units green.
+
+### Notes (two streams; numeral system distinguishes them)
+- **ch04: 47 notes** = 32 AUTHOR (arabic 1-32: Isaacs's 31 numbered endnotes +
+  his 1 asterisk foot footnote, folded in by position) + 16 EDITORIAL (roman
+  i-xvi, one added in the blind loop).
+- **ch05: 69 notes** = 63 AUTHOR (arabic 1-63: 59 numbered endnotes + 4 asterisk
+  footnotes) + 6 EDITORIAL (roman i-vi).
+- Author-note bodies from dump_endnotes.py (cleaned by the ch01 cleaner);
+  asterisk bodies transcribed by hand with <i>. Anchors resolved by
+  dump_anchors.py + anchor_offsets.py. Assembled by build_ch0405_notes.py.
+- **AUTHOR NOTES ARE NUMBERED POSITIONALLY** (build_ch0405_notes.py), not by the
+  printed back-matter label, because of a source misprint (below).
+- Editorial notes by build_ch0405_editorial.py, fact-checked against standard
+  scholarship: Feng Yu-hsiang/Kuominchun, Kuo Sung-lin (executed 1925), the
+  March 18 1926 Peking massacre (47 killed), the Shanghai Municipal Council and
+  Stirling Fessenden, Yu Ya-ching, Chen Chi-mei (assassinated 1916), Chang
+  Ching-chiang, the Green Gang (Qing Bang), Hu Han-min (1879-1936), the
+  Krestintern, the Sixth Plenum of the E.C.C.I. (Feb-Mar 1926), Kerensky, the
+  Western Hills group, the Sun Yat-senist Society, the Fengtien clique; and for
+  ch05 the Chung-shan (Zhongshan) gunboat incident / March 20 coup, Teng Yen-ta
+  (executed 1931), Eugene Chen, C. C. Wu, Li Chi-sen, and the Browder/Mann/
+  Doriot Comintern delegation. Verdict tags reserved for weighed claims.
+
+### Source misprints / artifacts (kept visible, not repaired)
+- **ch05 back-matter endnote misnumbering.** Isaacs's 1938 endnotes for ch05 are
+  printed "...17, 18, 18, 20..." (two notes labelled 18, no 19), verified in the
+  source. The in-text reference marks run correctly 1-59, so the edition numbers
+  author notes by POSITION and the reader never sees the flaw. Logged, not
+  repaired.
+- **ch04 "whole interests" (printed p. 60).** Isaacs's text reads "a powerful
+  section of the bourgeoisie, whole interests, intertwined..." where sense wants
+  "whose"; a genuine word-level misprint, kept verbatim (letters intact), not
+  footnoted (consistent with the shelf's restraint on plain typos).
+- **Two digitization glitches rendered to plain sense and logged** (born-digital
+  text-layer noise, not authorial): ch04 "in the- masses" -> "in the masses"
+  (stray hyphen in a Trotsky quote); ch05 "'overthrown'~" -> "'overthrown'"
+  (stray tilde). Both are non-letter characters, so fidelity is unaffected.
+- ch05 asterisk footnote 1 had a stray trailing right-quote ("...at Wuhan.'")
+  with no opening mate in the source foot band; dropped as a glitch.
+- Split italic runs preserved/merged per prior practice: the gunboat name is set
+  "*Chung-* *shan*" (two runs) in the body and kept as printed; the citation
+  "*Russia and the Soviet Union in* *the Far East*" in an asterisk note was
+  merged into one italic run (author-note cleaning convention).
+
+### NOT re-noted (already placed in an earlier-reading unit; cross-reference only)
+- From front matter/ch01/ch02/ch03: Kuomintang, Comintern/E.C.C.I., CCP, Sun
+  Yat-sen, Chiang Kai-shek, Borodin, Wang Ching-wei, Chen Tu-hsiu, Trotsky,
+  Lenin, Stalin, Bukharin, the compradores, the 1911 revolution, Yuan Shih-kai,
+  Whampoa, the May Thirtieth movement, the Canton-Hong Kong strike, Shameen,
+  Shakee, Chang Tso-lin, Wu Pei-fu, Tai Chi-tao, Liao Chung-kai, Chen
+  Chiung-ming, the Washington Conference, extraterritoriality, the Northern
+  Expedition, the 1905 Russian revolution, likin, hsien, Louis Fischer.
+- Tuan Chi-jui: identified in ch03's Anfu-clique note and in Isaacs's own ch05
+  asterisk footnote; referenced, not re-noted.
+- The blind critic flagged many of these as "undefined" (Borodin, May 30, Wang
+  Ching-wei, hsien, Washington Conference, etc.): the documented cross-unit
+  false positive, logged for the final reconciliation sweep.
+
+### Glossary (19 rows added, into their sections; add_ch0405_glossary.py)
+- people (15): Hu Han-min, Tai Chi-tao, Chang Ching-chiang, Chen Chi-mei, Yu
+  Ya-ching, Feng Yu-hsiang, Kuo Sung-lin, Teng Yen-ta, Li Chi-sen, Eugene Chen,
+  C. C. Wu, Hsu Chung-shih, Kao Yu-han, Li Chih-lung, Tuan Chi-jui. organizations
+  (3): Western Hills Conference group, Sun Yat-senist Society, Green Circle.
+  places (1): Tsingtao. Pinyin forms agree with authority.json where the shelf
+  has settled one (Hu Hanmin, Dai Jitao, Feng Yuxiang, Yu Qiaqing, Deng Yanda,
+  Eugene Chen/Chen Youren, the Green Gang/Qing Bang, etc.).
+- Principals unchanged (Sun 1, Chiang 2, Chen Tu-hsiu 3, Borodin 4). Wang
+  Ching-wei is now central and is the obvious next principal candidate, but
+  promotion was left for a later batch per the survey's cast.
+
+### Step 0c blind-critique loop (annotation variant) - ran 2 rounds on ch04, CONVERGENT
+- R1: reworded a garbled Krestintern clause; dropped a lone inconsistent verdict
+  tag and a body-restating comparison on the March 18 note; rewrote the Western
+  Hills note off its body-restatement. Most density flags were cross-unit false
+  positives.
+- R2 (fresh reader): "in good shape." Cut the Krestintern note's remaining
+  irony-restatement; aligned the Feng note's Kuominchun gloss to the body's
+  "People's Army"; ADDED the Fengtien-clique note (a genuine gap). Convergent.
+- Two RULE/WHY/FIX/CHECK entries distilled into STYLE.local.md (a note supplies
+  the identification and lets the author's irony stand; do not offer a competing
+  translation of a term the body already renders). Critiques archived in
+  review/voice_gate/ch04_round{1,2}_critique.md.
+
+### Checks run
+- Cumulative build: 7 of 22 chapters, 387 notes (270 front matter+ch01-03, 47
+  ch04, 69 ch05, +1 from the blind loop), 108 pagebreaks, 0.2 MB.
+- qa_epub PASS (29 documents, 387 refs = bodies = backlinks, 108 page-list = 108
+  markers). epubcheck 5.1.0: 0 fatals / 0 errors / 0 warnings (EPUB 3.3).
+  check_apparatus: 0 failures. check_fidelity: all seven units byte-for-byte.
+  Two-stream rendering verified (ch04 arabic 1-32 + roman i-xvi; ch05 arabic
+  1-63 + roman i-vi, both restarting per chapter; the hsien/Guide Weekly markers
+  land after the closing punctuation).
+- Translation-only checks (numbers/parity/qc_entities/register) do not apply.
+
+### Tooling added / changed this batch (do not revert)
+- extract_isaacs.py: gap-ratio spurious-split merge (see above).
+- anchor_offsets.py: italic-run anchor fallback + closing-`*` absorb.
+- build_ch0405_notes.py (positional author-note numbering), build_ch0405_
+  editorial.py, add_ch0405_glossary.py: the per-batch generators.
