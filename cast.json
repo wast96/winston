@@ -1,0 +1,43 @@
+{
+  "_about": "Spoiler-free dramatis personae rendered as a front-matter page by build_reading_epub.py (render_cast). Each figure is described by the role in which the reader first meets them: surface identities only, no hidden allegiances, deaths, romances-as-reveals, or plot turns. Keep blurbs short. The novel's characters are the author's invention (see the translator's note).",
+  "lead": "A guide to the principal figures, each described by the role in which the reader first meets them. All are the author's invention; their world is real.",
+  "groups": [
+    {
+      "group": "The Communist underground",
+      "note": "The secret action group in Shanghai and the Party leaders it answers to.",
+      "members": [
+        {"en": "Chen Qianli", "zh": "陈千里", "blurb": "Sent from the Party's central leadership to take charge of the secret operation in Shanghai; the group's commander, and the story's center."},
+        {"en": "Fang Yunping", "zh": "方云平", "also": "‘Old Fang’", "blurb": "The seasoned head of the Shanghai action group, and the superior of most of its members."},
+        {"en": "Lin Shi", "zh": "林石", "blurb": "A special commissioner from the Party centre, working the operation alongside Chen Qianli."},
+        {"en": "Ling Wen", "zh": "凌汶", "blurb": "A woman cadre of the underground and a published writer; one of the group."},
+        {"en": "Wei Dafu", "zh": "卫达夫", "blurb": "A quick-witted, streetwise member who works the city as a house-letting agent."},
+        {"en": "Chen Qianyuan", "zh": "陈千元", "blurb": "The younger brother of Chen Qianli, and a member of the group. (Note the near-identical names.)"},
+        {"en": "Dong Huiwen", "zh": "董慧文", "blurb": "A young woman of the group, a schoolteacher and the daughter of a famous chef; close to Chen Qianyuan."},
+        {"en": "Li Han", "zh": "李汉", "blurb": "A member who labors at the Maochang coal yard as his cover."},
+        {"en": "Qin Chuan'an", "zh": "秦传安", "also": "‘Doctor Qin’", "blurb": "The group's physician, who keeps a clinic for a cover."},
+        {"en": "Liang Shichao", "zh": "梁士超", "blurb": "A Red Army commander recuperating in Shanghai who joins the underground work."},
+        {"en": "Tian Fei", "zh": "田非", "blurb": "A member of the Shanghai group."},
+        {"en": "Lu Zhongde", "zh": "卢忠德", "also": "‘Old Yi’", "blurb": "Keeps a painting-and-scroll shop and works within the Shanghai underground group."},
+        {"en": "Haohan", "zh": "浩瀚", "blurb": "The code name of a senior Party leader whom the operation must move safely out of Shanghai."}
+      ]
+    },
+    {
+      "group": "The Nationalist secret service",
+      "note": "The pursuers hunting the group for the Nanjing government.",
+      "members": [
+        {"en": "Ye Qinian", "zh": "叶启年", "blurb": "The spymaster leading the hunt for the group; a senior officer of the party's secret service and a former professor. The chief adversary."},
+        {"en": "You Tianxiao", "zh": "游天啸", "blurb": "Captain of the detective squad and Ye Qinian's chief field man and enforcer."},
+        {"en": "Mu Chuan", "zh": "穆川", "also": "‘Section Chief Mu’", "blurb": "A garrison judge advocate who cooperates with Ye Qinian's operation."},
+        {"en": "Secretary Ma", "zh": "马秘书", "blurb": "Ye Qinian's aide and secretary."}
+      ]
+    },
+    {
+      "group": "In Shanghai",
+      "note": "Civilians and others who cross the characters' paths.",
+      "members": [
+        {"en": "Master Dong", "zh": "董师傅", "blurb": "A celebrated Yangzhou chef, and Dong Huiwen's father."},
+        {"en": "Miss Tao", "zh": "陶小姐", "blurb": "A Shanghai socialite who drifts across the characters' paths."}
+      ]
+    }
+  ]
+}

@@ -54,6 +54,10 @@ figure img { max-width: 70%; }
 figcaption { font-size: 0.85em; color: #444; margin-top: 0.5em; }
 dl.gloss dt { font-weight: bold; margin-top: 0.7em; }
 dl.gloss dd { margin: 0 0 0 1.2em; }
+dl.cast dt { font-weight: bold; margin-top: 0.7em; }
+dl.cast dd { margin: 0 0 0.2em 1.2em; }
+dl.cast .also { font-weight: normal; color: #555; }
+dl.cast .zh { font-weight: normal; color: #888; font-size: 0.9em; padding-left: 0.3em; }
 a.noteref { text-decoration: none; }
 a.noteref sup { font-size: 0.72em; color: #7a1f1f; padding-left: 1px; }
 div.endnote { margin: 0 0 1.05em; }
@@ -421,6 +425,30 @@ def render_glossary(gloss):
     return "\n".join(parts)
 
 
+def render_cast(cast):
+    """A spoiler-free dramatis personae from cast.json, rendered as a
+    front-matter page. Each figure is described by the surface role in which
+    the reader first meets them; the data file carries no hidden identities,
+    deaths, or plot turns."""
+    parts = ["<h1>Cast of Characters</h1>"]
+    if cast.get("lead"):
+        parts.append('<p class="note">%s</p>' % esc(cast["lead"]))
+    for grp in cast.get("groups", []):
+        parts.append("<h3>%s</h3>" % esc(grp.get("group", "")))
+        if grp.get("note"):
+            parts.append('<p class="note">%s</p>' % esc(grp["note"]))
+        parts.append('<dl class="cast">')
+        for m in grp.get("members", []):
+            also = (' <span class="also">%s</span>' % esc(m["also"])
+                    if m.get("also") else "")
+            zh = (' <span class="zh" lang="zh-Hant">%s</span>' % esc(m["zh"])
+                  if m.get("zh") else "")
+            parts.append('<dt>%s%s%s</dt><dd>%s</dd>'
+                         % (esc(m["en"]), also, zh, esc(m.get("blurb", ""))))
+        parts.append("</dl>")
+    return "\n".join(parts)
+
+
 def render_colophon(bm):
     c = bm.get("colophon", {})
     return (
@@ -516,6 +544,8 @@ def main(epub_path):
     notes_by_chap = load_json("notes.json", {})
     figspec = load_json("figures.json", {})
     scenes_by_chap = load_json("scenes.json", {})
+    cast = load_json("cast.json", {})
+    have_cast = bool(cast.get("groups"))
 
     manifest_figs = []
     for chap in chapters:
@@ -599,6 +629,11 @@ def main(epub_path):
     write(os.path.join(oebps, "contents.xhtml"),
           render_contents(structure, translated, ids_present), "Contents")
 
+    # cast of characters (spoiler-free front matter), if cast.json supplies one
+    if have_cast:
+        write(os.path.join(oebps, "cast.xhtml"),
+              render_cast(cast), "Cast of Characters")
+
     # a note whose anchor never matched would be silently dropped; refuse.
     orphans = [(cid, n["anchor"]) for cid, lst in notes_by_chap.items()
                for n in lst if cid in translated and not n.get("used")]
@@ -631,6 +666,8 @@ def main(epub_path):
         docs.append(("cover.xhtml", "Cover"))
     docs += [("titlepage.xhtml", "Title Page"),
              ("contents.xhtml", "Contents")]
+    if have_cast:
+        docs += [("cast.xhtml", "Cast of Characters")]
     docs += [(c["id"] + ".xhtml", c["title_en"]) for c in structure]
     docs += [("notes.xhtml", "Notes"),
              ("backmatter.xhtml", "Translator's Note and Glossary")]
@@ -662,6 +699,8 @@ def main(epub_path):
 
     nav_items = ['<li><a href="titlepage.xhtml">Title Page</a></li>',
                  '<li><a href="contents.xhtml">Contents</a></li>']
+    if have_cast:
+        nav_items.append('<li><a href="cast.xhtml">Cast of Characters</a></li>')
     for part_label, chaps in part_groups(structure):
         chap_lis = []
         for chap in chaps:

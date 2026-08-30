@@ -7,6 +7,27 @@ Dated record of what changed and, for global corrections, what cascaded where.
 - GLOBAL: renamed "X" to "Y" everywhere (glossary + grep across ch01-ch12); rebuilt, qa green.
 - LOCAL: fixed a dropped clause in ch03 section 2.
 -->
+## 2026-08-30 — front matter: spoiler-free Cast of Characters (commissioner request)
+
+- NEW (front matter): added a **Cast of Characters** page at the start of the book, placed
+  in the spine right after the Contents (cover, title page, contents, cast, then the text)
+  and linked in the e-reader navigation. It groups the principal figures by faction (the
+  Communist underground; the Nationalist secret service; other Shanghai figures) with a
+  one-line blurb each, so the reader can tell who is who at a glance.
+- SPOILER-FREE by design: every figure is described only by the surface role in which the
+  reader first meets them. No hidden identities, allegiances-behind-a-cover, deaths,
+  reveal-romances, or plot turns are stated; back-story-only figures (e.g. Ye Tao) are
+  omitted entirely, and the cover identities of double-dealing figures are presented at face
+  value, exactly as the narrative first frames them. A build-time guard-grep confirmed no
+  reveal terms leaked onto the page. The near-identical names Chen Qianli / Chen Qianyuan
+  are flagged for the reader.
+- Mechanics: the cast is data-driven from a new `cast.json` (the editable source of truth);
+  `scripts/build_reading_epub.py` gained `render_cast()`, a `.cast` style block, and the
+  spine/nav wiring. Files: cast.json, scripts/build_reading_epub.py.
+- Rebuilt out/A Thousand Li of Rivers and Mountains.epub (37 of 37 units, 338 notes);
+  qa_epub.py PASS (51 files, 45 documents, 338 references = bodies = backlinks; all links
+  resolve). No translation text, note, glossary, or rendering changed.
+
 ## 2026-07-31 — corrections pass: no items filed; build re-verified green
 
 - CORRECTIONS.md contained no items (template only), so no text, note, glossary or
