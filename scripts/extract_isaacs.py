@@ -39,6 +39,9 @@ PDF = os.path.join(ROOT, "source.pdf")
 BODY_LO, BODY_HI = 9.3, 10.4       # body text point size
 DROP_MIN = 40.0                    # drop-cap initial
 FOOT_LO, FOOT_HI = 7.6, 8.4        # asterisk page-foot footnote
+QUOTE_LO, QUOTE_HI = 8.6, 9.2      # set-off block quotation (smaller type)
+QUOTE_X0_LO, QUOTE_X0_HI = 63, 110  # block-quote left indent (body ~54-57;
+#   running heads sit at x0 57 verso / 264+ recto, folios ~210 -- all excluded)
 
 
 def load_words():
@@ -197,6 +200,12 @@ def classify(block):
     sz = dominant_size(block)
     if sz >= DROP_MIN:
         return "drop"
+    x0 = block["bbox"][0]
+    # a set-off block quotation: smaller type AND indented from the body margin.
+    # The geometry gate is what separates a 9.0pt quote (x0 ~68-71) from the
+    # 9.0pt running heads (x0 57 / 264+) and folios (x0 ~210) at the same size.
+    if QUOTE_LO <= sz <= QUOTE_HI and QUOTE_X0_LO <= x0 <= QUOTE_X0_HI:
+        return "quote"
     if FOOT_LO <= sz <= FOOT_HI:
         return "foot"
     if BODY_LO <= sz <= BODY_HI:
@@ -217,17 +226,21 @@ def main(chid, dry=False):
     title_en = node["title_en"]
 
     doc = pymupdf.open(PDF)
-    paragraphs = []          # (text, start_pdf_page)
+    paragraphs = []          # paragraph text, in reading order
     para_start_page = []      # pdf page each paragraph STARTS on
+    para_kind = []            # "body" or "quote" per paragraph
     foots = []                # captured asterisk footnotes (text)
     drop_letter = None
-    pending_continues = False  # next page's first body block continues a para
 
+    # Collect body AND quote blocks across the whole unit in reading order
+    # (top-to-bottom per page), so a set-off quotation stays in sequence with
+    # the narrative it interrupts. Drop caps and page-foot footnotes are pulled
+    # out here; everything else (running heads, folios, title) is skipped.
+    flow = []   # (pnum, kind, block)
     for pnum in range(pdf_start, pdf_end + 1):
         page = doc[pnum - 1]
         blocks = [b for b in page.get_text("dict")["blocks"] if "lines" in b]
         blocks.sort(key=lambda b: b["bbox"][1])
-        body_blocks = []
         for b in blocks:
             kind = classify(b)
             if kind == "drop":
@@ -238,32 +251,41 @@ def main(chid, dry=False):
                     drop_letter = letters
             elif kind == "foot":
                 foots.append(block_text(b))
-            elif kind == "body":
-                body_blocks.append(b)
+            elif kind in ("body", "quote"):
+                flow.append((pnum, kind, b))
 
-        for j, b in enumerate(body_blocks):
-            first_line_x = round(b["lines"][0]["bbox"][0])
-            indented = first_line_x >= 62   # new-paragraph indent (~68/90)
-            txt = block_text(b)
-            if not txt:
-                continue
-            # first body block of the page that is NOT indented continues the
-            # previous paragraph across the page turn
-            if j == 0 and not indented and paragraphs:
-                sep = "" if paragraphs[-1].endswith("-") else " "
-                if paragraphs[-1].endswith("-"):
-                    # soft hyphen at the page turn
-                    m = re.search(r"(\S+)-$", paragraphs[-1])
-                    n = re.match(r"(\S+)", txt)
-                    if m and n and should_rejoin(m.group(1), n.group(1)):
-                        paragraphs[-1] = paragraphs[-1][:-1] + txt
-                    else:
-                        paragraphs[-1] = paragraphs[-1] + txt
+    # New-paragraph indent threshold is per kind: body first lines indent to
+    # ~68 from a ~54-57 margin; a quote's own first lines indent to ~78 from
+    # its ~68-71 margin. A flush (un-indented) first line at the top of a page
+    # is a paragraph continuing across the page turn, of the same kind.
+    NEW_PARA = {"body": 62, "quote": 75}
+    prev_page = None
+    last_kind = None
+    for pnum, kind, b in flow:
+        first_line_x = round(b["lines"][0]["bbox"][0])
+        indented = first_line_x >= NEW_PARA[kind]
+        txt = block_text(b)
+        if not txt:
+            continue
+        page_first = (pnum != prev_page)
+        prev_page = pnum
+        if page_first and not indented and paragraphs and last_kind == kind:
+            # continuation of the previous same-kind paragraph across a page turn
+            prev = paragraphs[-1]
+            if prev.endswith("-"):
+                m = re.search(r"(\S+)-$", prev)
+                n = re.match(r"(\S+)", txt)
+                if m and n and should_rejoin(m.group(1), n.group(1)):
+                    paragraphs[-1] = prev[:-1] + txt      # soft hyphen: fuse
                 else:
-                    paragraphs[-1] = paragraphs[-1] + sep + txt
+                    paragraphs[-1] = prev + txt           # real hyphen: keep
             else:
-                paragraphs.append(txt)
-                para_start_page.append(pnum)
+                paragraphs[-1] = prev + " " + txt
+        else:
+            paragraphs.append(txt)
+            para_start_page.append(pnum)
+            para_kind.append(kind)
+        last_kind = kind
 
     doc.close()
 
@@ -282,10 +304,11 @@ def main(chid, dry=False):
                         "body_paragraph": seen_pages[pg]})
 
     # ----- report -----
+    nquote = sum(1 for k in para_kind if k == "quote")
     print("=== %s: %s ===" % (chid, title_en))
-    print("pdf %d-%d  printed %d-%d  paragraphs=%d"
+    print("pdf %d-%d  printed %d-%d  paragraphs=%d (body=%d, block-quote=%d)"
           % (pdf_start, pdf_end, printed_start, pdf_end - offset,
-             len(paragraphs)))
+             len(paragraphs), len(paragraphs) - nquote, nquote))
     print("\n--- de-hyphenation decisions (%d) ---" % len(REJOIN_LOG))
     for left, right, joined, why in REJOIN_LOG:
         mark = "FUSE " if joined else "KEEP "
@@ -304,8 +327,9 @@ def main(chid, dry=False):
     out_md = os.path.join(ROOT, "out", "%s_reading.md" % chid)
     with open(out_md, "w", encoding="utf-8") as fh:
         fh.write("## %s\n\n" % title_en)
-        for p in paragraphs:
-            fh.write(p + "\n\n")
+        for p, k in zip(paragraphs, para_kind):
+            prefix = "{q} " if k == "quote" else ""
+            fh.write(prefix + p + "\n\n")
     pm_dir = os.path.join(ROOT, "data", "pagemap")
     os.makedirs(pm_dir, exist_ok=True)
     with open(os.path.join(pm_dir, "%s.json" % chid), "w", encoding="utf-8") as fh:

@@ -212,3 +212,41 @@ EARLIER-READING unit (ch00a) or on the Principal Characters page.
 - CHECK: before adding a note, grep notes.json AND remember reading order is
   ch00a &#8594; ch00b &#8594; ch01 &#8594; ...; log residual cross-unit overlaps in
   PROGRESS for the final reconciliation sweep.
+
+### Batch 3 voice-gate rulings (ch02&#8211;03 blind-critique loop) #book
+
+**RULE: A note is never vaguer than the text it annotates.** If the body gives
+an exact figure, date, or name, the note must not soften it.
+- WHY: the May Thirtieth note said &#8220;killing about a dozen&#8221; where
+  Isaacs&#8217;s own sentence reads &#8220;Twelve of them died&#8221;; the note
+  read as less informed than the prose it hung on.
+- FIX: carry the source&#8217;s precise value (&#8220;killing twelve&#8221;), or
+  drop the count and say something the prose does not.
+- CHECK: for any note on a sentence containing a number/date, the note&#8217;s
+  figure matches or is more specific than the body&#8217;s, never less.
+
+**RULE: A note adds what the body does not say &#8212; test it against the
+adjacent paragraphs, not just its own sentence.** The &#8220;don&#8217;t restate
+the body&#8221; rule extends to the paragraphs a note sits among.
+- WHY: the reorganization note and the Canton&#8211;Hong Kong boycott note each
+  re-said their surrounding paragraphs (the boycott note even re-quoted
+  &#8220;the first embryo soviet in China,&#8221; which the body uses a few lines
+  later).
+- FIX: keep only the load-bearing new fact the prose withholds &#8212; a
+  date-span, a duration, an outside consequence, the proper name of the event
+  &#8212; and cut the summary.
+- CHECK: read the note beside the whole paragraph it lands in; every clause
+  should tell the reader something the paragraph does not.
+
+**RULE: Give the modern (pinyin) form once, consistently, for every named
+Chinese figure a reader might look up.** The Wade-Giles-then-pinyin gloss is the
+system; apply it evenly, not at random.
+- WHY: most figures carried the inline gloss (Chen Tu-hsiu (Chen Duxiu)&#8230;)
+  but a few recurring ones (Chen Chiung-ming, the Yunnanese generals) were left
+  bare, which read as inconsistency.
+- FIX: gloss the pinyin inline at first appearance for every figure who recurs
+  or whom a reader might trace to a modern account; a figure whose Wade-Giles and
+  pinyin coincide (Peng Pai) takes no gloss, and truly one-off minor names may
+  rely on the glossary &#8212; but do so as a stated choice, not by accident.
+- CHECK: scan the unit&#8217;s people-notes; each names the pinyin once unless it
+  equals the Wade-Giles form.

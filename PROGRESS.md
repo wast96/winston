@@ -268,3 +268,138 @@ read from book.json; extractor is offset-aware.
   single italic run. No text altered.
 - ch00a: the Foreword's one section break is a centered ZapfDingbats ornament in
   the source, rendered here as a `***` scene break.
+
+## B03 = ch02 "Problems of the Chinese Revolution" + ch03 "The New Awakening" (DONE)
+
+ch02: PDF 42-62, printed folios 19-39, 56 paragraphs (50 body + 6 block quotes).
+ch03: PDF 63-82, printed folios 40-59, 67 paragraphs (62 body + 5 block quotes).
+
+### Extraction (faithful reset, no OCR)
+- `extract_isaacs.py ch02` / `... ch03` wrote the reading files and pagemaps
+  (ch02 21 folios, ch03 20 folios). De-hyphenation followed Isaacs's own usage
+  plus the word lists; four real compound hyphens that broke at the line end were
+  restored by hand (banker-politician, war-weary, three-quarter, forward-looking),
+  a class the fidelity check cannot catch because it strips hyphens.
+- **NEW extractor capability (do not revert): set-off BLOCK QUOTATIONS.** ch02/03
+  are the first units with extract quotations, and Isaacs sets them in 9.0pt,
+  BELOW the 9.3pt body band, so the size classifier was dropping them entirely
+  (a silent loss of whole quoted documents that fidelity was blind to, because
+  check_fidelity shared the same 9.3 lower bound). Added a "quote" class (size
+  8.6-9.2 AND indented left margin x0 63-110, which separates a 9.0pt quote from
+  the 9.0pt running heads at x0 57/264 and folios at x0 ~210), emitted with the
+  builder's `{q} ` prefix, with per-kind indent thresholds and cross-page
+  continuation (one ch02 quote wraps the p55->p56 turn). Mirrored the same
+  geometry gate in check_fidelity so the gate and the extractor agree.
+- **Also fixed in check_fidelity (do not revert): the giant chapter numeral.**
+  The 100pt chapter number ("1"/"2"/"3") was being kept on the PDF side by the
+  drop-cap size rule; the extractor drops it (a digit, not a drop-cap letter).
+  Required the big-glyph keep to contain a letter. This bug meant ch01 had never
+  actually passed the current check_fidelity (it was introduced in B02 and run
+  only on the front matter); ch01 now verifies too.
+- **Fidelity verified byte-for-byte** on ch02 (54,273 chars) and ch03 (46,426),
+  and re-verified on ch00a/ch00b/ch01 to confirm the extractor/checker changes
+  did not disturb the shipped units. All five green.
+
+### Notes (two streams; numeral system distinguishes them)
+- **ch02: 48 notes** = 29 AUTHOR (arabic 1-29: Isaacs's 26 numbered endnotes plus
+  his 3 asterisk page-foot footnotes, folded in by position) + 19 EDITORIAL
+  (roman i-xix).
+- **ch03: 90 notes** = 59 AUTHOR (arabic 1-59: 53 numbered endnotes + 6 asterisk
+  footnotes) + 31 EDITORIAL (roman i-xxxi).
+- Author-note anchors resolved mechanically: `dump_anchors.py` lists every in-text
+  reference mark (superscript digit or inline asterisk) in reading order;
+  `anchor_offsets.py` reduces both the mark's preceding PDF prose and the reading
+  file to a letters+digits stream and maps each mark to a unique verbatim anchor,
+  extending over the trailing punctuation Isaacs's marks follow. Endnote bodies
+  from `dump_endnotes.py` (wrapped notes rejoined), asterisk bodies transcribed by
+  hand with italics; assembled by `build_ch0203_notes.py`.
+- Editorial notes by `build_ch0203_editorial.py` (anchors validated unique and
+  checked non-overlapping with the author stream). Fact-checked against standard
+  scholarship (Britannica/Wikipedia and standard Soviet/Chinese histories):
+  May Fourth (May 4, 1919, Versailles/Shantung), May Thirtieth (May 30, 1925),
+  Shakee/Shaji (June 23, 1925, 52 killed), Canton-Hong Kong strike (June
+  1925-Oct 1926), Whampoa (May 1924), KMT First Congress (Jan 1924), Sun-Joffe
+  (Jan 26, 1923), Feb 7 Peking-Hankow massacre (1923; Isaacs's "sixty" flagged as
+  higher than the ~30s of later estimates, a weighed claim), and the dates/fates
+  of Chen Tu-hsiu, Li Ta-chao, Chang Kuo-tao, Chen Chiung-ming, Liao Chung-kai,
+  Wu Pei-fu, Peng Pai, Wang Ching-wei, Borodin, Maring, Voitinsky, Joffe. Verdict
+  tags reserved for weighed claims (the Feb 7 figure).
+
+### NOT re-noted (already placed in an earlier-reading unit; cross-reference only)
+- From ch00a/ch00b (front matter, reads first): Kuomintang, Sun Yat-sen, Chiang,
+  the Comintern, the CCP, Trotsky, Lenin, Stalin, Bukharin, the Mensheviks and
+  Bolsheviks, the SRs, permanent revolution, the bloc of four classes, historical
+  materialism, the dialectic, colonial/semi-colonial, the April Theses, the three
+  Russian revolutions, Sun's Three Principles, the Second Chinese Revolution,
+  the People's/Popular Front, defeatism.
+- From ch01: the 1911 revolution, Yuan Shih-kai, the Manchus/Qing, compradore
+  (also a glossary row), the Opium Wars, spheres of influence, the Great War, the
+  Taiping, Canton/Kwangsi/Kiangsu/Hankow and the other placed geography.
+- The blind critic flagged several of these (Kuomintang, Sun, Comintern, 1911,
+  compradore, Mao) as "undefined": all are the documented cross-unit false
+  positive (the per-unit reader cannot see the earlier units). Logged here and
+  for the final reconciliation sweep. Mao Tse-tung first appears in ch03's body
+  but is noted in ch00a; not re-noted.
+
+### Glossary (28 rows added, into their sections; DO NOT via apparatus_merge)
+- people (13): Chen Tu-hsiu (principal, cast_order 3), Borodin (principal,
+  cast_order 4), Chen Han-seng, Li Ta-chao, Chang Kuo-tao, Chen Chiung-ming,
+  Liao Chung-kai, Wu Pei-fu, Peng Pai, Wang Ching-wei, Chen Lim-pak, Yang
+  Hsi-min, Liu Chen-han. organizations (5): New Youth, Whampoa Military Academy,
+  Merchants' Volunteers, Anfu clique, Second International. places (7): Shantung,
+  Haifeng, Shameen, Shakee, Chekiang, Honan, Anhwei. terms (3): likin, hsien,
+  Three People's Principles. All pinyin forms agree with authority.json (Chen
+  Duxiu, Borodin/Bao Luoting, Li Dazhao, Zhang Guotao, Chen Jiongming, Liao
+  Zhongkai, Wu Peifu, Wang Jingwei). Borodin is keyed by his Chinese
+  transliteration so the Principal Characters page can carry him.
+
+### Source artifacts / decisions (kept visible)
+- The recto running heads on ch02's pages read "SEEDS OF REVOLT" (ch01's title),
+  not "PROBLEMS OF THE CHINESE REVOLUTION": a 1938 printing quirk where the
+  chapter running head lagged. It is page furniture, excluded from the text, and
+  fidelity confirms none of it leaked in.
+- "machinegun" is printed closed in Isaacs's ch03 foot footnote (one span, no
+  hyphen); kept as printed.
+- Ellipses inside quotations are set with no surrounding spaces in the source
+  ("workers...and", "politics...the"); reproduced faithfully.
+- Merchants' Volunteers editorial note CUT after the blind loop: Isaacs's prose
+  already gives Chen Lim-pak, the HSBC, the British/compradore financing, and the
+  October 1924 defeat; the glossary carries the two rows. A deliberate skip.
+
+### Step 0c blind-critique loop (annotation variant) - ran 2 rounds on ch03
+- Round 1: recast a broken-causation Chen Tu-hsiu note; de-duplicated the
+  Wilson/May-4 chain; trimmed two body-restating notes (First Congress, boycott);
+  fixed a note vaguer than its body ("about a dozen" -> "twelve"); made the
+  pinyin gloss consistent.
+- Round 2 (fresh reader): convergent, only trims. Cut the redundant Merchants'
+  Volunteers note; trimmed Peng Pai (restated body + duplicated the author note);
+  dropped Borodin's meta-filler tail and "notoriously" from Wang Ching-wei;
+  narrowed the syndicalism anchor onto the term.
+- Three new RULE/WHY/FIX/CHECK entries distilled into STYLE.local.md (a note is
+  never vaguer than its text; test a note against the adjacent paragraphs, not
+  just its sentence; apply the pinyin gloss consistently). Critiques archived in
+  review/voice_gate/ch03_round{1,2}_critique.md.
+
+### Checks run
+- Cumulative build: 5 of 22 chapters, 270 notes (132 front matter + ch01, 48
+  ch02, 90 ch03), 74 pagebreaks, 0.2 MB.
+- qa_epub PASS (29 documents, 270 refs = bodies = backlinks, 74 page-list = 74
+  markers). epubcheck 5.1.0: 0 fatals / 0 errors / 0 warnings (EPUB 3.3).
+  check_apparatus: 0 failures. check_fidelity: all five units byte-for-byte.
+  Two-stream rendering verified in the built XHTML (ch02 arabic 1-29 + roman
+  i-xix; ch03 arabic 1-59 + roman i-xxxi, both restarting per chapter).
+- The translation-only checks (numbers/parity/qc_entities/register) do not apply
+  to an annotated edition, as recorded for B01/B02.
+
+### Tooling added this batch (do not revert)
+- extract_isaacs.py: block-quote class + cross-page quote continuation.
+- check_fidelity.py: block-quote spans kept; chapter-numeral excluded.
+- dump_anchors.py, anchor_offsets.py: mechanical author-note anchor resolution.
+- build_ch0203_notes.py, build_ch0203_editorial.py, add_ch0203_glossary.py:
+  the per-batch note/glossary generators (per-chapter templates, like ch01's).
+
+### Environment
+- Fresh container: setup.sh installed pymupdf/pillow/wamerican/wbritish and
+  refetched epubcheck 5.1.0. Regression suite green except the pre-existing
+  "hook stands down on template stub" test (documented non-issue). No stray
+  branch this session; the working tree was reset to origin at the top.

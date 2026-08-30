@@ -31,10 +31,27 @@ PDF = os.path.join(ROOT, "source.pdf")
 BODY_LO, BODY_HI = 9.3, 10.5   # body prose point size
 DROP_MIN = 40.0                # drop-cap initial
 TITLE_LO, TITLE_HI = 18.0, 30.0  # chapter/section title point size
+QUOTE_LO, QUOTE_HI = 8.6, 9.2   # set-off block quotation (smaller type)
+QUOTE_X0_LO, QUOTE_X0_HI = 63, 110  # its left indent (matches extract_isaacs)
 
 
 def reduce(s):
     return re.sub(r"[^a-z0-9]", "", s.lower())
+
+
+def dominant_size(block):
+    szs = [round(s["size"], 1) for l in block["lines"] for s in l["spans"]
+           if s["text"].strip()]
+    return max(set(szs), key=szs.count) if szs else 0.0
+
+
+def is_quote_block(block):
+    """A set-off block quotation: smaller type AND indented from the body
+    margin, the same geometry gate extract_isaacs uses. Keeps a 9.0pt quote
+    while still excluding the 9.0pt running heads and folios at that size."""
+    sz = dominant_size(block)
+    x0 = block["bbox"][0]
+    return QUOTE_LO <= sz <= QUOTE_HI and QUOTE_X0_LO <= x0 <= QUOTE_X0_HI
 
 
 def reading_stream(chid):
@@ -69,6 +86,7 @@ def pdf_stream(chid):
         blocks = [b for b in page.get_text("dict")["blocks"] if "lines" in b]
         blocks.sort(key=lambda b: b["bbox"][1])
         for b in blocks:
+            quote = is_quote_block(b)
             for l in b["lines"]:
                 for s in l["spans"]:
                     if s["flags"] & 1:            # superscript reference mark
@@ -76,7 +94,14 @@ def pdf_stream(chid):
                     if "Dingbat" in s["font"] or "Zapf" in s["font"]:
                         continue                  # scene ornament
                     sz = s["size"]
-                    keep = (BODY_LO <= sz <= BODY_HI) or (sz >= DROP_MIN)
+                    # a big display glyph is the drop-cap INITIAL (a letter) --
+                    # kept; the giant chapter NUMERAL beside it (100pt, digits
+                    # only) is furniture the extractor drops, so exclude it.
+                    drop = sz >= DROP_MIN and any(c.isalpha() for c in s["text"])
+                    # keep body prose, the drop-cap initial, and set-off block
+                    # quotations (smaller type; a whole block decides, not a
+                    # per-span size, so a quote's own spans all survive)
+                    keep = quote or (BODY_LO <= sz <= BODY_HI) or drop
                     if TITLE_LO <= sz <= TITLE_HI:
                         keep = False              # chapter/section title
                     if not keep:
