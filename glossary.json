@@ -1189,10 +1189,10 @@
       "note": "Real. Rue Tifeng; today Urumqi North Road (乌鲁木齐北路)."
     },
     "海格路": {
-      "en": "Haige Road",
+      "en": "Avenue Haig",
       "pinyin": "Haige Lu",
-      "status": "attested",
-      "note": "Real. Avenue Haig (after Field Marshal Douglas Haig); today Huashan Road (华山路)."
+      "status": "decided",
+      "note": "Real. Avenue Haig (after Field Marshal Douglas Haig); today Huashan Road (华山路). Conformed from 'Haige Road' to the authority.json form in R2 (French Concession streets keep their period foreign names)."
     },
     "善钟路": {
       "en": "Shanzhong Road",
@@ -1207,10 +1207,10 @@
       "note": "Real. Route Monseigneur Maresca, after the Catholic bishop of Nanjing Francesco Maresca (赵方济); today Wuyuan Road (五原路)."
     },
     "马斯南路": {
-      "en": "Massenet Road",
+      "en": "Route Massenet",
       "pinyin": "Masinan Lu",
-      "status": "attested",
-      "note": "Real. Rue Massenet, after the composer Jules Massenet; today Sinan Road (思南路). The recognition-signal address."
+      "status": "decided",
+      "note": "Real. Route Massenet, after the composer Jules Massenet; today Sinan Road (思南路). The recognition-signal address. Conformed from 'Massenet Road' to the authority.json form in R2 (French Concession streets keep their Route/Avenue period forms)."
     },
     "肇嘉浜": {
       "en": "Zhaojiabang",

@@ -80,7 +80,7 @@ Wei Dafu rose and asked: “How did the two of you find it?”
 
 Wei Dafu chased as far as the door, then stopped, and came back to sit by the round table.
 
-“If Mr. Chen wants an apartment block, our Donglu agency has several in hand.” He waved a hand out of the window. “Turn from here onto Haige Road, then over by Shanzhong Road to Zhaozhujiao Road, and there are several buildings, four-story cement houses. The rent, though, is a bit steep.”
+“If Mr. Chen wants an apartment block, our Donglu agency has several in hand.” He waved a hand out of the window. “Turn from here onto Avenue Haig, then over by Shanzhong Road to Zhaozhujiao Road, and there are several buildings, four-story cement houses. The rent, though, is a bit steep.”
 
 “Your firm can find any sort of house, it seems.”
 
@@ -94,9 +94,9 @@ Seeing Chen Qianli close the window, Wei Dafu too went to the door and shut it s
 
 “A place where?” Wei Dafu hesitated.
 
-“Massenet Road.”
+“Route Massenet has a T-junction at either end.”
 
-Wei Dafu thought a moment, then said: “Massenet Road has a T-junction at either end. I wonder which end you mean?”
+Wei Dafu thought a moment, then said: “Route Massenet.. I wonder which end you mean?”
 
 Wei Dafu rarely used this recognition signal; by the rules, it was used only when an upline comrade came to find him. But for these two years his upline had been only Old Fang and Yi Junnian, and he had all but forgotten the countersign.
 

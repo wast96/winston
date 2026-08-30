@@ -1218,3 +1218,121 @@ kickoff decision; R1 held to no-pad.
   anchor had contained the existing "Longhua Garrison Command" anchor and shared its end
   position, inverting two note numbers; shortening the anchor fixed it.
 - Deliverable stamped with stamp_deliverable.py R1.
+
+## Retrofit round R2 (ASSESSMENT.md section 6): ch11-ch19 densification
+
+### R2 = ch11-ch19 (nine units), thinnest-first
+
+Densified nine chapters, 23 new fact-checked notes added (book-wide 296 -> 319). Per-chapter
+totals now: ch11 12 (+3), ch12 15 (+6), ch13 10 (+2), ch14 7 (+3), ch15 7 (+1), ch16 10 (+3),
+ch17 5 (+0), ch18 9 (+4), ch19 5 (+1). The thinnest chapters (ch14, ch19, ch17 at 4-5) were
+taken first; ch12 (a location-rich Hongkou chapter) absorbed the most new notes.
+
+Candidates were sourced from glossary.json's referents, CLAUDE.md's four coverage domains, and
+the lost-in-translation idiom/allusion/tradecraft layer, under strict first-appearance discipline
+(the WHOLE notes.json was grepped, anchors AND bodies, before each note). Fact-checking was done by
+three web-enabled research subagents against Wikipedia (EN/ZH), Baidu Baike, ChinaKnowledge, a
+peer-reviewed history journal, the Marxists Internet Archive and cultural/culinary sources (never
+Grok/Grokipedia). Every new note carries a real-vs-fiction and corroborated/uncorroborated verdict.
+
+New notes by chapter (all first-appearance, non-duplicate):
+- ch11: the recognition-signal/countersign tradecraft; the gown-vs-foreign-suit class code; the
+  Settlement/Chinese-city jurisdictional border as a safe-house tradecraft advantage.
+- ch12: Chengzhong Middle School (real, Ye Chengzhong, c.1900); Xiahai Temple (real Hongkou
+  fisherfolk temple); Lenin's Letters from Afar (远方来信, 1917; the manuscript title is Lenin's
+  actual first letter, and gives the chapter its Chinese title); the Soviet cadre-training school
+  (real Comintern schools; the novel's unnamed manor/Siberian-forest campus is atmosphere); the
+  "one striking feature" disguise tradecraft; tangyuan.
+- ch13: the Bund (外滩); the tea dance (茶舞/the dansant).
+- ch14: Shaoxing wine (huangjiu); the Mauser C96 pistol (盒子炮/驳壳枪); the bao/baojia unit
+  (honest on the 1932 systematization) and Fengxian.
+- ch15: eight-treasure rice (八宝饭).
+- ch16: fengshui/geomancy (the canted corner door); door-opening firecrackers (开门炮仗); the
+  secret service's 家法 "family discipline" (line is ch16, not ch17 -- caught during apply).
+- ch17: +0. A pure operation chapter; every referent (armored car, the Ministry-of-Finance bond
+  business/T. V. Soong, the Nanshi police car, the Three Principles, Professor Tao) was already
+  noted. No first-appearance gap; not padded.
+- ch18: the Xujiahui film-studio district (Lianhua, kept general); the penghu (棚户) refugee
+  shanty settlements; Rue Pere Robert (金神父路 -> Ruijin Er Road); Gujiazhai Park (French Park,
+  today Fuxing Park).
+- ch19: the nine-dragon/meteor firework names (traditional, evocative, honestly flagged).
+
+HONEST NOTE ON DENSITY (R2). Like R1, R2 lands well under the directive band (23 new, ~2.6/chapter;
+finals 5-15/chapter). This is deliberate under the no-pad rule, and structural to this stretch:
+ch11-ch19 are interior conversation/operation chapters (a recruitment interview, a brothers'
+reunion, a hotel briefing, a bank job, a coal-yard council) whose big referents -- the Settlement
+and its police, the Songhu Garrison and its Judge Advocate's office, the Party Affairs Investigation
+Section / Special Operations Headquarters, the Guangzhou Uprising, the Northern Expedition, the
+August 7th Conference, the Bund's Cathay/Sassoon, Fourth Avenue, Shen Bao, the surety bond, the
+zhang measure, the Fourth Avenue market raid -- were ALL already footnoted at their first appearance
+in ch02-ch10 or in the chapters' own existing notes. Re-noting them would duplicate. The genuine
+new material is the Hongkou/French-Concession micro-geography (ch12, ch18), a few real institutions
+(Chengzhong, the film district, the baojia unit), the Lenin/tradecraft layer, and the festival
+material-culture (Shaoxing wine, eight-treasure rice, tangyuan, the firecracker customs). The
+density gate here is first-appearance discipline, not effort: the launching chat gave no
+"push-harder-toward-the-band" instruction and CORRECTIONS.md is the empty template, so R2 held to
+no-pad, exactly as R1 did and as the R2 kickoff's density policy directs. Two thin chapters are
+honestly capped: ch17 (+0, all referents pre-noted) and ch19 (+1, Ling Wen's interior backstory).
+
+### Tier A conformances folded (ch11-ch19 only)
+
+- Names (authority.json decided renderings appearing in range), glossary.json updated in lockstep
+  and the broken note anchors moved/reglossed:
+  - ch11 马斯南路 "Massenet Road" -> "Route Massenet" (2 reading occurrences; the ch11 note anchored
+    "Massenet Road" moved to "Route Massenet" and its body reglossed).
+  - ch11 海格路 "Haige Road" -> "Avenue Haig" (1 reading occurrence; the ch11 "Zhaozhujiao Road"
+    note body reglossed from "Haige Road (海格路, Avenue Haig...)" to "Avenue Haig (海格路...)").
+  - ch13 吴淞口 "the Wusong bar" -> "the mouth of the Wusong River" (1 reading occurrence; already
+    noted at ch07 in R1, so a name conformance only).
+  glossary.json 马斯南路 and 海格路 flipped to status "decided" with the authority form; out/ch11_en.json
+  and out/ch13_en.json synced to the reading files (R1 precedent). 大美晚报, 反省院 (ch22) and 白区 do
+  NOT appear in the ch11-ch19 reading text and wait for R3/R4.
+- Dates -> "Month Day, Year": the ch11-ch19 reading text carried NO day-first dates (register_tics
+  day-month-date reads 0 over the range, before and after). Note bodies did: 12 day-first dates in
+  the pre-retrofit ch11/ch13/ch14/ch15/ch19 note bodies were reordered via scripts/patch_note_bodies.py
+  (e.g. "11 December 1931" -> "December 11, 1931", "(11-12 February)" -> "(February 11-12)").
+  Republican-reckoning and lunar dates left as period voice.
+
+### Scene-break review (commissioner directive; ch11-ch19)
+
+Reviewed all nine units against the calibrated principle (add only at a genuine jump in place, time
+AND vantage; leave camera-flips inside a continuous cross-cut, and causally/aurally sutured cuts,
+hard). NO new breaks or datelines were warranted:
+- ch11 (The Tenant) and ch12 (A Letter from Afar): genuinely single-scene (one continuous
+  conversation each, memories braided in but no new scene), left empty, as the earlier survey noted.
+- ch13-ch19 already carry breaks at their genuine scene changes (ch13 1, ch14 1, ch15 2, ch16 4,
+  ch17 7, ch18 3, ch19 2); the built EPUB renders exactly those counts. Borderline cuts left hard
+  and why: ch14's Cui Wentai 1927 flashback is braided with the live dinner dialogue (not a set-off
+  block like ch19's Ling Wen flashback, which already has its break), so a divider there would
+  over-segment; ch19's outer-room shift to Yi Junnian and Ling Wen (para "I don't think Chen Qianli
+  is telling the truth") is a same-place, same-time perspective change, not a new scene.
+
+### First-appearance inversions logged (for the whole-book reconciliation)
+
+- Zhonghui Trust Bank (中汇银行, the gold-holding bank): first appears ch10 (The Clinic), OUTSIDE the
+  R2 range, and is UNNOTED book-wide. The real 中汇银行 was Du Yuesheng's bank, opened 1929; the novel's
+  "中汇信托银行" lightly renames it. R1's ch10 did not note it; a reconciliation pass should add a
+  first-appearance note at ch10.
+- Letters from Afar: a fresh first-appearance note was added at ch12 (its true first appearance and a
+  plot element); the existing ch26 note keeps its own placement (a three-title gloss tied to ch26's
+  action), so this is an added first-appearance note, not a relocation.
+
+### Checks run (R2)
+
+- anchor_check.py per unit before apply_edits.py: only the expected ch11 Massenet collisions (handled
+  by the NOTE-ANCHOR move). apply_edits.py applied 4 prose conformances (ch11 x3, ch13 x1), 1 anchor
+  move, and 23 notes across eight units (ch17 had none). One mis-filed anchor (the "family discipline"
+  line is ch16, not ch17) was caught by apply_edits' verbatim-substring guard and refiled before the
+  notes.json write.
+- scripts/patch_note_bodies.py: 12 note-body edits (2 name reglosses + 10 date normalizations), each
+  guarded to match exactly one note and one occurrence.
+- check_structure.py --pairs data/zh/<id>.txt: paragraph parity OK for all nine (82/106/83/70/85/72/60/54/48).
+- check_numbers.py --noise check_noise.txt on regenerated bilinguals for all nine: 0 unresolved.
+- register_tics.py --profile ch11-ch19: day-month-date 0, british-spelling 0 over the range; the
+  remaining narration-side batteries are pre-existing candidates in the FROZEN reading text
+  (informational this round).
+- Build: build_reading_epub.py "out/A Thousand Li of Rivers and Mountains.epub", 37/37 units, 319
+  notes. qa_epub.py: PASS (50 files, 44 documents; 319 references = 319 bodies = 319 backlinks;
+  numbering sequential; all links resolve). Scene breaks re-verified by grepping the built chapter
+  xhtml (class="brk"/"dateline") -- counts unchanged, as intended.
+- Deliverable stamped with stamp_deliverable.py R2.

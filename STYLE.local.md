@@ -89,7 +89,13 @@ the book. Full ledger in `glossary.json`; the authority conformances land here._
 
 - 老闸捕房: "the Laozha Police Station" -> **"the Louza police station"** (R1,
   authority name; Louza is the attested English of the SMP station).
-- 吴淞口: "the Wusong bar" -> **"the mouth of the Wusong River"** (R1, authority).
-- Authority conformances not yet in range (later rounds): 马斯南路 Massenet Road
-  -> Route Massenet (first appears ch11); 大美晚报 -> the Shanghai Evening Post
-  and Mercury; 老闸巡捕房 handled above.
+- 吴淞口: "the Wusong bar" -> **"the mouth of the Wusong River"** (R1, authority;
+  the ch13 occurrence conformed in R2).
+- 马斯南路: "Massenet Road" -> **"Route Massenet"** (R2, authority; ch11, 2
+  occurrences, the ch11 note anchor moved and its body reglossed).
+- 海格路: "Haige Road" -> **"Avenue Haig"** (R2, authority; ch11, 1 occurrence,
+  the ch11 'Zhaozhujiao Road' note body reglossed).
+- Authority conformances not yet in range (later rounds): 大美晚报 -> the Shanghai
+  Evening Post and Mercury (does not appear in ch11-ch19); 反省院 -> reflection
+  institute (case, ch22, R3); 白区 -> the White areas (number; does not appear
+  in ch11-ch19 reading text).

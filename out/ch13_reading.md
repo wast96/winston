@@ -80,7 +80,7 @@ He was always so, Ye Qinian thought — walking into other people's houses on hi
 
 “What are you saying, Teacher?”
 
-“Those reporters in the lobby downstairs — did you see them? This morning the liner that foreign writer is traveling on lay off the Wusong bar, and they fetched him over by a little steam-launch and had him rest half a day at the Cathay Hotel and give a speech. In a little while he'll be going back aboard the liner to go on around the world.
+“Those reporters in the lobby downstairs — did you see them? This morning the liner that foreign writer is traveling on lay off the mouth of the Wusong River, and they fetched him over by a little steam-launch and had him rest half a day at the Cathay Hotel and give a speech. In a little while he'll be going back aboard the liner to go on around the world.
 
 “A day or two ago he gave a speech at the university in Hong Kong, and what he said made the British political police over there very nervous. Word of it was passed to Shanghai, and passed on again to me. There he was inciting the students to make revolution, saying something to the effect that a man who does not join the revolution at twenty will be an old fool by fifty. He had garbled the famous saying, of course.”
 
