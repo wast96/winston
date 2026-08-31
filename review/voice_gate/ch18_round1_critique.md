@@ -1,0 +1,3 @@
+<!-- blind voice-gate critique | unit=ch18 | round=1 | reader was context-blind (no source, no STYLE, no project) -->
+
+Round 1 blind critique (ch18). Real fixes applied: cordon-sanitaire restatement tail cut; Red Aid provenance tightened; Chin-Doihara/Ho-Umetsu en-dash->hyphen to match body; Peiping note added (Peking renamed 1928). Density flags (Kuomintang, Li Li-san, Bukharin, Wang Ching-wei, democratic dictatorship, yellow unions) are documented cross-unit false positives, all placed in earlier-reading units. Verdict-tag "orphan" is per the weighed-claim-only rule; across the book multiple notes carry it. Third-Period double-mention (notes 11/12): name at first mention, define at the dedicated term — kept.

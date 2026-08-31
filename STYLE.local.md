@@ -464,3 +464,87 @@ the first name; in the built page the marker lands after the SECOND (the subject
 and the first name is placed elsewhere (Yeh Ting ch12, Chow En-lai principal 6).
 Where a subject sits inside a list of names, the marker-after-the-term convention
 resolves it on the page; do not distort the anchor to satisfy the flat-list view.
+
+### Batch 9 voice-gate rulings (ch18&#8211;20 blind-critique loop) #book
+
+**RULE: a book-specific proper name keeps the body's own INTERNAL PUNCTUATION,
+not only its spelling and capitalization &#8212; a hyphen in the body stays a
+hyphen in the note.** The Batch 6 "mirror the body's form" rule extends from
+capitalization to the hyphen/dash inside a compound name.
+- WHY: the body writes the 1935 accords as &#8220;Chin-Doihara&#8221; and
+  &#8220;Ho-Umetsu&#8221; (hyphens); the note set them with en dashes
+  (&#8220;Chin&#8211;Doihara&#8221;), so a blind reader saw note and text
+  spelling the same name two ways.
+- FIX: match the body &#8212; hyphens in the note where the body uses hyphens;
+  reserve the en dash for genuine ranges (June&#8211;July) and number spans.
+- CHECK: for any hyphenated book-specific name, grep the note against the body
+  form; they agree character for character.
+
+**RULE: a note on a period/foreign term supplies the identification and STOPS
+&#8212; it does not append a sentence re-pointing at what the body already
+says.** (Reconfirms Batch 4 on a new instance; the tail creeps back in as a
+paraphrase of the anchor sentence.)
+- WHY: the <i>cordon sanitaire</i> note closed &#8220;Isaacs means the wider
+  effort to hem the Soviet Union in with hostile powers&#8221; &#8212; the body's
+  own sentence, which already reads &#8220;a cordon sanitaire around the Soviet
+  Union.&#8221;
+- FIX: define the term (origin, interwar meaning) and end; let the body's
+  sentence carry the application.
+- CHECK: a term-gloss note's last clause tells the reader something the anchor
+  sentence does not.
+
+**RULE: when the book RENAMES a place mid-narrative, note the new name at its
+first appearance even though the old name is glossed &#8212; the reader does not
+know the two are one city.** A first-appearance note is owed to the FORM the
+reader meets, not only to the referent.
+- WHY: &#8220;Peking&#8221; is glossed across the early chapters, but the book
+  switches to &#8220;Peiping&#8221; for the post-1928 city with no bridge; the
+  blind reader could not place it.
+- FIX: a one-line note at the first &#8220;Peiping&#8221; that it is Peking
+  (Beijing) renamed in 1928 when the capital moved to Nanking.
+- CHECK: any variant name the body adopts for an already-glossed place has its
+  own bridging note at first use.
+
+**RECONFIRMED (the cross-unit false positive, ch18 round 1):** the blind critic
+flagged Kuomintang, Li Li-san, Bukharin, Wang Ching-wei, the &#8220;democratic
+dictatorship,&#8221; and the red/yellow union pairing as unnoted &#8212; every one
+placed in an earlier-reading unit or defined by the body itself (the yellow
+unions are glossed in Isaacs's own sentence). Peiping and the Chin-Doihara hyphen
+were the round's only REAL items. Convergent after the fixes above (round 2
+surfaced nothing substantive).
+
+**NOTE (verdict-tag "orphan," a within-chapter artifact): the weighed-claim-only
+rule (Batch 1) will leave a single &#8220;(corroborated)&#8221; on a chapter whose
+other notes are plain identifications.** A blind reader seeing one tagged note in
+a chapter reads the rest as &#8220;unverified.&#8221; This is expected: the tag
+marks the one note that WEIGHS a claim (here the silver-standard causal chain),
+and across the whole book many notes carry it. Do NOT scatter the tag onto plain
+glosses to even out the look; that is exactly what Batch 1 forbade.
+
+**RULE (round 2): keep the notes' register FLAT &#8212; no raised literary verbs
+where a plain one serves, and do not attribute an argument to the author by
+name inside a note.** The notes are a reference layer; a reader meets them one at
+a time, so a note should state a fact, not perform.
+- WHY: two notes closed with &#8220;the course this chapter dissects&#8221; /
+  &#8220;the next chapter anatomizes&#8221; (a register-jump the flat notes do
+  not otherwise take), and the Reorganizationists note ended &#8220;Isaacs&#8217;s
+  point is that they&#8230;&#8221; &#8212; attributing an argument, and naming the
+  author mid-note where a popup reader may not connect the name.
+- FIX: &#8220;examines&#8221; / &#8220;traces,&#8221; not &#8220;dissects&#8221; /
+  &#8220;anatomizes&#8221;; state the load-bearing fact directly (&#8220;the
+  civilian, anti-Chiang opposition the Communists left unchallenged&#8221;)
+  rather than &#8220;Isaacs&#8217;s point is&#8230;&#8221;. Reserve a named
+  &#8220;Isaacs&#8221; for where the note genuinely marks HIS standpoint (the
+  interested-witness notes), not for ordinary glosses.
+- CHECK: a note's verbs sit at the same plain register as the others, and no
+  ordinary gloss ends by telling the reader what the author&#8217;s &#8220;point
+  is.&#8221;
+
+**RULE (round 2): make cross-references BETWEEN notes one consistent form.**
+- WHY: &#8220;(see the note on Pu Yi in the final chapter)&#8221; sat beside
+  &#8220;(see the final chapter)&#8221; &#8212; two shapes for the same gesture.
+- FIX: one form, &#8220;(see the final chapter),&#8221; naming the unit, never a
+  specific note or a folio (the linked index is what makes a specific page
+  navigable).
+- CHECK: grep the batch for &#8220;see &#8221;; every internal cross-reference
+  reads the same way.

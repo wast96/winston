@@ -1204,3 +1204,95 @@ template stub" fails (not fixed).
 - scripts/build_ch1517_editorial.py, scripts/add_ch1517_glossary.py: the
   per-batch generators (Chiu principal promotion + the mow terms row live nearby;
   mow added directly to glossary.json terms).
+
+## B09 = ch18 "Fruits of Defeat" + ch19 "The Rise and Fall of 'Soviet China'" + ch20 "The New 'National United Front'" + WHOLE-BOOK CLOSE-OUT (DONE)
+
+The final batch: three chapters plus the close-out. The BOOK IS COMPLETE.
+Detailed status, tallies, and reliability statement live in COMPLETION.md; this
+is the working record.
+
+### Chapters
+- Extraction (faithful reset, no OCR): ch18 38 body + 1 block quote, ch19 65 + 3,
+  ch20 70 + 9. check_fidelity green on all three (and re-run green book-wide).
+- Hard-hyphen class hand-fixes (line-break hyphen whose closed form is a
+  non-word), crop/context-verified: ch18 "ex-colonial"; ch19 "merchant-peasant",
+  "shop-owners"; ch20 "air-raids", "bourgeois-military", "turning-point".
+- Source quirks kept visible (not "fixed"): ch20 opening curly quote where a
+  closing belongs, just before ref mark 37 (cf. ch11/ch17); ch18 asterisk
+  footnote closes on a stray single quote ("...government.'").
+
+### Author notes (arabic)
+- build_ch1820_notes.py on the build_ch1517 pattern. Endnote back-matter ranges:
+  ch18 (390,392), ch19 (392,395), ch20 (395,397). Numbered marks clean 1..N
+  (ch18 53, ch19 88, ch20 45), no duplicate mark, no gap.
+- Asterisk footnotes: ch18 1, ch19 3, ch20 5 marks. ch20's LAST asterisk
+  (anchor "political ends.", printed 332) is a MULTI-PARAGRAPH footnote: one '*'
+  in the body, three foot paragraphs (Shanghai Evening Post + North China Daily
+  News + Daily Worker/Sian flip-flop). AST_GROUP ch20 = [1,1,1,1,3];
+  crop-verified against the page image. No stray-glyph AST_SKIP this batch.
+  Drift check (letters+digits vs raw foot text) green.
+
+### Editorial notes (roman, "ed":true)
+- build_ch1820_editorial.py: ch18 17, ch19 10, ch20 18 (ch18 count includes the
+  Peiping note added at the voice gate). New-subject coverage of the aftermath:
+  Manchukuo, Jehol, 19th Route Army, Lytton Commission, Tangku Truce,
+  Chin-Doihara/Ho-Umetsu, the Sixth/Seventh Comintern Congresses, the Third
+  Period, Chu Teh, Peng Teh-huai, Wang Ming, Fang Chih-min, Lo Fu, von Seeckt,
+  the Long March, the Fukien rebellion, the Second United Front, the Sian
+  Incident, the Eighth Route Army, the Marco Polo Bridge, Pu Yi, H. H. Kung,
+  Wellington Koo, and more. Wang Ming placed at ch18 (first appears as party
+  leader; ch17 author note already flags the Chen Shao-yu = Wang Min pseudonym).
+- Cross-unit false positives reconfirmed (all placed in earlier-reading units):
+  Kuomintang, Li Li-san, Bukharin, Wang Ching-wei, the "democratic dictatorship,"
+  the red/yellow union pairing (body-defined). Grepped notes.json (ed:true)
+  before skipping each.
+- Corrections applied this batch (cheap, correct): (a) the clean_body lost-space
+  after "</i>"+word fixed book-wide in the 8 affected author notes (ch01 1,
+  ch10 5, ch14 2); (b) a first-appearance ch02 "mow" editorial note added (the
+  land measure had a glossary row but no note).
+
+### Step 0c blind loop (ch18, 2 rounds, convergent)
+- Round 1: cut the cordon-sanitaire restatement tail; tightened the Red Aid
+  provenance clause; hyphenated Chin-Doihara/Ho-Umetsu to match the body; added
+  the Peiping bridge note. Round 2: standardized the internal cross-ref form
+  ("see the final chapter"); flattened raised-register verbs (dissects/anatomizes
+  -> examines/traces); cut the "Isaacs's point is..." attribution on the
+  Reorganizationists note; dropped "putschism Isaacs describes" jargon. Four new
+  RULE entries distilled into STYLE.local.md (Batch 9). Critique archived at
+  review/voice_gate/ch18_round1_critique.md.
+
+### Close-out
+- LINKED INDEX: parse_index.py -> data/index.json (501 entries, 447 subs);
+  render_index in build_reading_epub.py turns every folio ref into a pg-<unit>-
+  <folio> hyperlink, roman refs -> front matter, missing-folio fallback to the
+  nearest earlier anchor, "see/see also" -> target entry (58 of 59 cross-ref
+  clauses linked; "Communist Party" left plain as genuinely ambiguous).
+- Reconciliation sweep (check_reconcile.py) read by hand; deliberate two-register
+  spelling (British body / American apparatus) is the expected "MIXED" signature,
+  not a defect. Full analysis in COMPLETION.md.
+- authority.json fed this book's 144 renderings (64 new-to-shelf, 80 appended),
+  including the handoff-listed 向忠发/许克祥/何键/苏兆征/朱培德/张太雷.
+- out/term_ledger.md (144 rows), out/deep_audit.md (4.0% sample, seed 20260831,
+  0 errors), COMPLETION.md, glossary +16 rows (10 people, 4 orgs, 1 place,
+  1 term). No further principal promotion (Mao noted ch00a; Isaacs's 1938 book
+  never centers on him).
+
+### Checks run
+- Build: 22 of 22 chapters, 1,308 notes (1,009 author + 299 editorial), 348
+  pagebreaks, 0.6 MB. qa_epub PASS (37 files, 30 documents, all links resolve).
+  epubcheck 5.1.0: 0 fatals / 0 errors / 0 warnings. check_apparatus 0 failures.
+  check_fidelity all 22 units.
+
+### Tooling added this batch (do not revert)
+- scripts/build_ch1820_notes.py, scripts/build_ch1820_editorial.py,
+  scripts/add_ch1820_glossary.py — the batch generators (AST_GROUP ch20 handles
+  the multi-paragraph asterisk footnote).
+- scripts/parse_index.py — parses the two-column printed index into
+  data/index.json (column-aware, soft-hyphen join, ref-token disambiguation with
+  the <=339 page bound and roman-folio whitelist, cross-ref capture).
+- scripts/build_reading_epub.py — render_index + its CSS (linked back-matter
+  Index; page_index resolvers for roman vs arabic, missing-folio fallback).
+- scripts/feed_authority.py — feeds a book's glossary renderings into
+  authority.json on completion.
+- scripts/render_term_ledger.py, scripts/deep_audit.py — the ledger and the
+  fixed-seed letter-coverage audit.

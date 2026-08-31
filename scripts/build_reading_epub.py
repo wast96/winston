@@ -126,6 +126,11 @@ table.errata td.hz { font-size: 1.05em; }
 .colophon { text-align: center; margin-top: 2em; }
 .colophon .notice { border: 2px solid #444; display: inline-block; padding: 0.4em 1.6em; margin: 1em 0; font-size: 1.3em; letter-spacing: 0.3em; }
 .colophon p { text-indent: 0; }
+p.ix-note { text-indent: 0; font-size: 0.9em; color: #555; margin: 0.4em 0; }
+h2.ix-letter { font-size: 1.15em; margin: 1.3em 0 0.4em; color: #7a1f1f; border-bottom: 1px solid #ccc; }
+p.ix-main { text-indent: 0; margin: 0.15em 0; padding-left: 1.2em; text-indent: -1.2em; }
+p.ix-sub { text-indent: 0; margin: 0.1em 0 0.1em 1.2em; padding-left: 1.2em; text-indent: -1.2em; font-size: 0.97em; }
+p.ix-main a, p.ix-sub a { text-decoration: none; }
 """
 
 XHTML = """<?xml version="1.0" encoding="utf-8"?>
@@ -823,6 +828,152 @@ def render_glossary(gloss):
     return "\n".join(parts)
 
 
+def _roman_to_int(s):
+    vals = {"i": 1, "v": 5, "x": 10, "l": 50, "c": 100, "d": 500, "m": 1000}
+    s = s.lower()
+    if not s or any(ch not in vals for ch in s):
+        return None
+    total, prev = 0, 0
+    for ch in reversed(s):
+        v = vals[ch]
+        total += -v if v < prev else v
+        prev = max(prev, v)
+    return total
+
+
+def render_index(index_data, page_index):
+    """Render the printed back-of-book index (data/index.json) as a linked
+    back-matter Index page (book.json _index_decision). Every folio reference
+    becomes a hyperlink to the matching pg-<unit>-<folio> anchor the pagemaps
+    emit; 'See' / 'See also' cross-references link to the target entry.
+
+    Two resolvers: roman folios (vii..xxii) point into the front-matter units
+    (whose pagemap folios are the same arabic numbers 7..21), arabic folios
+    (1..339) into the body units; the arabic value 7 exists in BOTH sequences,
+    so the numeral system decides which. A folio without its own pagebreak
+    marker (a page a paragraph merely spans) resolves to the nearest lower
+    covered folio in the same sequence; an endnote reference like '340n4'
+    (the notes section our edition renders inline) stays plain text."""
+    fm, body = {}, {}
+    for doc, pid, folio, unit in page_index:
+        (fm if str(unit).startswith("ch00") else body)[folio] = (doc, pid)
+
+    def resolver(m):
+        keys = sorted(m)
+
+        def resolve(folio):
+            if folio in m:
+                return m[folio]
+            lo = None
+            for k in keys:
+                if k <= folio:
+                    lo = k
+                else:
+                    break
+            return m[lo] if lo is not None else None
+        return resolve
+
+    fm_res, body_res = resolver(fm), resolver(body)
+
+    def link_one(tok):
+        """Link a single comma-token ('111', '111–13', 'xix', 'xv–xx',
+        '256–60 passim', '340n4', 'passim') -> HTML, preserving its text."""
+        tok = tok.strip()
+        if not tok:
+            return ""
+        m = re.match(r"^(.*?)(\s+passim)$", tok)
+        trail = ""
+        core = tok
+        if m:
+            core, trail = m.group(1), m.group(2)
+        if core.lower() == "passim":
+            return esc(tok)
+        if re.fullmatch(r"\d+n\d+", core):           # endnote ref: no anchor
+            return esc(tok)
+        lead = re.match(r"^(\d+)", core)
+        target = None
+        if lead:
+            if int(lead.group(1)) <= 339:
+                target = body_res(int(lead.group(1)))
+        else:
+            rlead = re.match(r"^([ivxlcdm]+)", core, re.I)
+            if rlead:
+                n = _roman_to_int(rlead.group(1))
+                if n:
+                    target = fm_res(n)
+        if target:
+            doc, pid = target
+            return '<a href="%s#%s">%s</a>%s' % (doc, pid, esc(core), esc(trail))
+        return esc(tok)
+
+    def link_refs(refs):
+        if not refs:
+            return ""
+        return ", ".join(link_one(t) for t in refs.split(","))
+
+    # term -> entry id, for cross-reference links (normalized lookups)
+    def norm(s):
+        return re.sub(r"\s+", " ", s.strip().strip(".,;:")).lower()
+    term_id = {}
+    for e in index_data["entries"]:
+        term_id.setdefault(norm(e["term"]), e["id"])
+
+    def link_target(t):
+        key = norm(t)
+        eid = term_id.get(key)
+        if eid is None:                       # try the head term before ':'/','
+            head = re.split(r"[:,]", t, 1)[0]
+            eid = term_id.get(norm(head))
+        if eid is None:                       # a single unambiguous prefix match
+            cands = [i for k, i in term_id.items() if k.startswith(key)]
+            if len(set(cands)) == 1:
+                eid = cands[0]
+        if eid:
+            return '<a href="#%s">%s</a>' % (eid, esc(t))
+        return esc(t)
+
+    def cross(see, see_also):
+        bits = []
+        if see:
+            bits.append("<i>See</i> " + "; ".join(link_target(t) for t in see))
+        if see_also:
+            bits.append("<i>See also</i> "
+                        + "; ".join(link_target(t) for t in see_also))
+        return ". ".join(bits)
+
+    def entry_html(e, sub=False):
+        term = esc(e["term"]) if e["term"] else ""
+        pieces = []
+        if e["refs"]:
+            pieces.append(link_refs(e["refs"]))
+        cr = cross(e["see"], e["see_also"])
+        if cr:
+            pieces.append(cr)
+        tail = (", " + "; ".join(pieces)) if (term and pieces) else " ".join(pieces)
+        cls = "ix-sub" if sub else "ix-main"
+        idattr = "" if sub else (' id="%s"' % esc(e["id"]))
+        return '<p class="%s"%s>%s%s</p>' % (cls, idattr, term, tail)
+
+    out = ['<h1>Index</h1>']
+    if index_data.get("intro"):
+        out.append('<p class="ix-note">%s</p>'
+                   % esc(html.unescape(index_data["intro"])))
+    out.append('<p class="ix-note">Page references link to the point in the '
+               'text where each printed page began; the original page numbers '
+               'are preserved. Roman numerals refer to the front matter.</p>')
+    cur_letter = None
+    for e in index_data["entries"]:
+        m = re.search(r"[A-Za-z]", e["term"])
+        letter = m.group(0).upper() if m else "#"
+        if letter != cur_letter:
+            cur_letter = letter
+            out.append('<h2 class="ix-letter">%s</h2>' % esc(letter))
+        out.append(entry_html(e))
+        for s in e["subs"]:
+            out.append(entry_html(s, sub=True))
+    return "\n".join(out)
+
+
 def render_errata(bm):
     """The publisher's errata table, rendered as translator's back matter."""
     rows = []
@@ -1177,6 +1328,15 @@ def main(epub_path):
         write(os.path.join(oebps, "colophon.xhtml"),
               render_colophon(back_matter), "Colophon")
 
+    # Linked back-matter Index (book.json _index_decision): rendered only when
+    # data/index.json exists AND the whole book is present, since its folio
+    # links need the pagebreak anchors from every chapter.
+    index_data = load_json(os.path.join("data", "index.json"), None)
+    have_index = bool(index_data and len(translated) == len(structure))
+    if have_index:
+        write(os.path.join(oebps, "index.xhtml"),
+              render_index(index_data, page_index), "Index")
+
     # spine order: cover FIRST (Kindle/Books open on it), then every chapter
     # (translated or skeleton).
     docs = []
@@ -1194,6 +1354,8 @@ def main(epub_path):
              ("backmatter.xhtml", backmatter_title)]
     if have_backmatter:
         docs += [("errata.xhtml", "Errata"), ("colophon.xhtml", "Colophon")]
+    if have_index:
+        docs += [("index.xhtml", "Index")]
 
     # e-reader nav: the full TOC, nested part -> chapter -> section -> subsection.
     # Every entry links to a real anchor (content or skeleton), so the whole
@@ -1243,6 +1405,8 @@ def main(epub_path):
     if have_backmatter:
         nav_items += ['<li><a href="errata.xhtml">Errata</a></li>',
                       '<li><a href="colophon.xhtml">Colophon</a></li>']
+    if have_index:
+        nav_items += ['<li><a href="index.xhtml">Index</a></li>']
 
     # page-list: one entry per pagebreak marker in the text, and none at all
     # when no pagemap files exist (qa_epub's pagination gate then compares
