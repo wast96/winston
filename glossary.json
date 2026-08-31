@@ -306,7 +306,10 @@
       "en": "Chiu Chiu-pei",
       "pinyin": "Qu Qiubai",
       "status": "attested",
-      "note": "1899&#8211;1935. Writer and Communist leader who succeeded Chen Tu-hsiu at the head of the party in August 1927; executed by the Nationalists in 1935."
+      "note": "1899&#8211;1935. Writer and Communist leader who succeeded Chen Tu-hsiu at the head of the party in August 1927; executed by the Nationalists in 1935.",
+      "principal": true,
+      "cast_order": 7,
+      "cast": "1899&#8211;1935. Writer and translator who succeeded Chen Tu-hsiu at the head of the Chinese Communist Party at the August 7, 1927 conference and led its turn to armed insurrection; captured and executed by the Nationalists in 1935."
     },
     "谭平山": {
       "en": "Tang Ping-shan",
@@ -457,6 +460,36 @@
       "pinyin": "Zhu Peide",
       "status": "attested",
       "note": "1888&#8211;1937. Yunnanese general commanding the Third Army and governing Kiangsi, whose 1927 purge of the Communists was comparatively bloodless &#8212; he had them escorted out rather than shot."
+    },
+    "张学良": {
+      "en": "Chang Hsueh-liang",
+      "pinyin": "Zhang Xueliang",
+      "status": "attested",
+      "note": "1901&#8211;2001. The &#8220;Young Marshal,&#8221; who succeeded his father Chang Tso-lin in Manchuria in 1928 and in December 1936 seized Chiang Kai-shek at Sian to force a united front against Japan, then spent most of the next half-century under house arrest."
+    },
+    "张发奎": {
+      "en": "Chang Fah-kwei",
+      "pinyin": "Zhang Fakui",
+      "status": "attested",
+      "note": "1896&#8211;1980. Commander of the Fourth &#8220;Ironsides&#8221; Army; his 1927 rivalry with Li Chi-sen over the control of Canton opened the split the Communists tried to use in the December rising."
+    },
+    "李立三": {
+      "en": "Li Li-san",
+      "pinyin": "Li Lisan",
+      "status": "attested",
+      "note": "1899&#8211;1967. Labor organizer and leader of the Chinese Communist Party in 1928&#8211;30; the &#8220;Li Lisan line&#8221; of 1930 urban insurrections ended in defeat and his removal."
+    },
+    "贺龙": {
+      "en": "Ho Lung",
+      "pinyin": "He Long",
+      "status": "attested",
+      "note": "1896&#8211;1969. Former bandit chief turned Nationalist commander who brought his army over to the Communists at the Nanchang uprising; one of the ten marshals of the People&#8217;s Liberation Army (1955), he died persecuted in the Cultural Revolution."
+    },
+    "张太雷": {
+      "en": "Chang Tai-lei",
+      "pinyin": "Zhang Tailei",
+      "status": "attested",
+      "note": "1898&#8211;1927. A founder of the Communist Youth League who led the Canton Commune of December 1927 and was killed in it &#8212; the highest-ranking Communist to die in the risings of 1927."
     }
   },
   "organizations": {
@@ -757,6 +790,12 @@
       "pinyin": "San Min Zhuyi",
       "status": "attested",
       "note": "Sun Yat-sen&#8217;s doctrine of nationalism, democracy, and the people&#8217;s livelihood; the Kuomintang&#8217;s official ideology (San Min Chu I)."
+    },
+    "亩": {
+      "en": "mow",
+      "pinyin": "mu",
+      "status": "attested",
+      "note": "A Chinese unit of land area, about one-sixth of an acre (roughly 0.07 hectare); fifteen mow make a hectare."
     }
   }
 }

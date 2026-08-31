@@ -1026,3 +1026,181 @@ test "hook stands down on template stub" fails (not fixed).
 - scripts/build_ch1214_editorial.py, scripts/add_ch1214_glossary.py: the
   per-batch generators.
 - scripts/build_ch05_fischer.py: the one-off Louis Fischer gap-fix note (ch05).
+
+## B08 = ch15 "The Wuhan Debacle" + ch16 "Autumn Harvest" + ch17 "The Canton Commune" (DONE)
+
+Container arrived parked on template-master (df55427), as every prior batch
+warned; fetched and hard-reset onto the real tip (364015c) before any work.
+setup.sh installed pymupdf/pillow and refetched epubcheck 5.1.0 but NOT the
+English wordlists; installed wamerican/wbritish by hand (confirmed
+/usr/share/dict/american-english). Only the by-design test "hook stands down on
+template stub" fails (not fixed).
+
+### Extraction (faithful reset, offset 23)
+- ch15 73 paras (PDF 250-268, printed 227-245; 55 body + 18 block quotes);
+  ch16 49 paras (PDF 269-283, printed 246-260; 42 body + 7 quotes); ch17 54
+  paras (PDF 284-302, printed 261-279; 49 body + 5 quotes). check_fidelity green
+  on ALL 19 units byte-for-byte (ch15 44665, ch16 37985, ch17 44652).
+- Hard-hyphen / born-digital fix (the "war-weary" class, invisible to
+  check_fidelity, caught by eye and verified against the raw PDF glyphs):
+  * ch16 body "midwifein-chief" -> "midwife-in-chief" (the source prints
+    "midwife-\nin-chief"; the closed form "midwifein" is a non-word, so the
+    line-break hyphen is a hard compound hyphen, like commander-in-chief. The
+    extractor wrongly fused it; restored and logged).
+- Verified NOT errors (kept as printed, checked against the raw PDF): ch15
+  "Yeh-Ho" (Isaacs's own hyphenated compound for the JOINT forces of Yeh Ting
+  and Ho Lung; printed hyphenated mid-line, so the line-break hyphen is KEPT),
+  "whole-heartedly", "self-defense", "bourgeois-revolutionary", "day-to-day"
+  (all hyphenated per Isaacs's own dominant usage); ch17 "Neumanns" (a correct
+  generic plural, "the Heinz Neumanns and the Lozovskys"); ch17 "liquidationism",
+  ch15 "districts...have" (DEFAULT-review fusions, both correct).
+- Source artifacts kept visible (not repaired):
+  * ch17 (printed p.271): Trotsky's quoted question closes with an OPENING-style
+    curly quote (U+201C) where a closing one belongs -- "...in China look
+    like? [U+201C]" -- before the reference mark; kept verbatim (cf. ch11 p.193).
+  * ch16 (printed p.250): a stray '*' glyph after "the GPU" inside Anna Strong's
+    quoted Borodin remark. The page carries only ONE foot footnote (the Lenin
+    fragment, for "acting correctly." = Stalin's article), crop-verified against
+    the rendered page image; Isaacs's scheme never sets two bare '*' on a page.
+    So the "GPU" '*' is a text-layer stray, NOT a footnote mark -- the extractor
+    already rendered it away, and build_ch1517_notes.py drops the phantom mark
+    via AST_SKIP. Logged.
+  * ch15 "The people [*sic*]" (Feng's ultimatum telegram) and ch16's several
+    "[!]"/"[?]" are Isaacs's own bracketed editorial marks, kept.
+- Four mid-sentence paragraph ends all confirmed normal quote-intros (each
+  precedes a {q} block); no spurious splits, no lowercase-start paragraphs, no
+  C0 control chars.
+
+### Author notes (arabic, positional; build_ch1517_notes.py)
+- ch15 63 (60 endnote + 3 asterisk), ch16 49 (48 + 1), ch17 62 (58 + 4).
+  Endnote ranges: ch15 PDF 385-387, ch16 387-389, ch17 389-390. In-text
+  numbered marks come out a CLEAN 1..N run for all three (ch15 1-60, ch16 1-48,
+  ch17 1-58) -- no source numbering error this batch.
+- Asterisk footnote GROUPING (page order): ch15 [1,1,2] -- the closing note on
+  the fates of the "Left Kuomintang" figures after 1927 (printed p.244) wraps
+  the p.244->245 turn; ch16 [1] (plus the one stray-glyph mark dropped via
+  AST_SKIP); ch17 [1,2,1,1] -- Trotsky's note on the Canton insurrection being
+  timed to the Fifteenth CPSU Congress (p.264) wraps the p.264->265 turn. Each
+  assembled asterisk body reduce-checked against the raw foot text.
+- fix_italic_space added to the notes builder: restores an inter-word space
+  clean_body drops after an italic run followed by a word (Malraux's
+  "<i>Les Conquerants</i> and <i>La Condition Humaine</i>" was rendering closed).
+  The SAME latent artifact sits in earlier batches' author-note citations
+  ("News,</i>April 13") -- logged here for the corrections/reconciliation pass;
+  a global clean_body fix + full regen is too invasive to fold into B08.
+
+### Editorial notes (roman, "ed": true; build_ch1517_editorial.py) - 19 total
+- ch15 (7): "der Tag" (texture), the Chengchow (Zhengzhou) / Hsuchow (Xuzhou)
+  June 1927 conferences and Feng's turn to Nanking, Lochinvar (Scott's Marmion),
+  Chang Hsueh-liang (Zhang Xueliang, the Young Marshal), Chang Fah-kwei (Zhang
+  Fakui), Li Li-san (Li Lisan), the July 15, 1927 Wuhan split.
+- ch16 (8): the "July Days" of 1917, the August 7 Conference (Chiu Chiu-pei
+  replaces Chen Tu-hsiu), Lominadze (Vissarion Lominadze), the Nanchang uprising
+  (Aug 1, Army Day / PLA founding), Ho Lung (He Long), the GPU (Soviet secret
+  police -- added in the blind loop), Chang Tai-lei (Zhang Tailei), the Autumn
+  Harvest Uprisings (Mao's Hunan rising -> Chingkangshan).
+- ch17 (4): the Canton Commune (Guangzhou Uprising, Dec 11-13 1927), Heinz
+  Neumann, the Hailufeng (Haifeng+Lufeng) peasant soviet, "the Chinese Gallifets"
+  (Gaston de Galliffet, the Paris Commune butcher).
+- Fact-checked against real scholarship (Wikipedia/Britannica/Cambridge Core and
+  standard histories; NEVER Grok/Grokipedia): Zhang Xueliang (1901-2001, Young
+  Marshal, Sian Incident Dec 1936), Zhang Fakui (1896-1980, Fourth "Ironsides"
+  Army), Li Lisan (1899-1967, top CCP leader 1928-30, "Li Lisan line"), the July
+  15 1927 Wuhan split, the August 7 1927 Conference (deposed Chen, installed Qu
+  Qiubai, Lominadze presiding), Vissarion Lominadze (1897-1935, suicide as arrest
+  loomed), the Nanchang uprising (Aug 1 1927, Zhou/He Long/Ye Ting/Zhu De, Army
+  Day), He Long (1896-1969, PLA marshal, died in the Cultural Revolution), the
+  Autumn Harvest uprising (Sept 7 1927, Mao -> Jinggangshan), Zhang Tailei
+  (1898-1927, killed at Canton Dec 12), the Canton Commune (Dec 11-13 1927),
+  Heinz Neumann (1902-1937, shot in the Great Purge), the Hailufeng soviet (Peng
+  Pai, Nov 1927), Gaston de Galliffet (1830-1909). No verdict tags this batch
+  (all identifications, no weighed Isaacs claim was checked).
+
+### NOT re-noted (already placed in an earlier-reading unit; cross-reference only)
+- Feng Yu-hsiang (ch04 -- his person; the June CONFERENCES are the new subject,
+  noted here), General Galen = Bluecher (Isaacs's own author asterisk identifies
+  him), Chen Tu-hsiu (3), Borodin (4), Wang Ching-wei (5), Chow En-lai (6), Chiu
+  Chiu-pei (ch07; promoted to principal 7 this batch but NOT re-noted), Chang
+  Kuo-tao (ch02/03), Tang Sheng-chih (ch06), Tang Ping-shan (ch06), Teng Yen-ta /
+  Eugene Chen / Soong Ching-ling (ch05/11), M. N. Roy (ch02), Lozovsky, Peng Pai
+  (ch03), Li Chi-sen (ch05), Chu Pei-teh (ch14), Yeh Ting (ch12), Chen Shao-yu =
+  Wang Min (Isaacs's own author asterisk), the Northern Expedition, the
+  "Ironsides"/Fourth Army (ch06), Whampoa, hsien (ch02), the Paris Commune (ch02
+  -- the MAN Galliffet is glossed here), the three Russian revolutions / the
+  Bolsheviks (ch00b), the bloc of four classes.
+- BOTH ch16 blind rounds flagged Borodin, Chen Tu-hsiu, M. N. Roy, Anna Strong,
+  Wang Ching-wei, Feng Yu-hsiang, Tang Sheng-chih, Yeh Ting, hsien as "undefined":
+  every one placed earlier. The documented cross-unit false positive.
+- GAP FIXED (caught by the ch16 blind loop): the GPU (Soviet secret police) first
+  appears here and was unglossed -- a real gap, noted in ch16.
+- GAP LOGGED (a term first appearing in ch02): "mow", the land measure, was
+  unglossed book-wide -- added as a book-wide glossary TERMS row (亩 mu), not a
+  ch16 note, since its first appearance is ch02. The reconciliation/corrections
+  pass may add a first-appearance ch02 note.
+
+### Deliberate skip tier (minor one-off actors / sources the body contexts inline)
+- ch15: Yu Yu-jen, Tang Leang-li, Yang Yu-ting, the Pan-Pacific Trade Union
+  Secretariat. ch16: Liu Wei-han / Lo Mai (body glosses the alias + role), Hua
+  Kang (a source, body-contexted, per the B05 skip decision), Chang Fao-cheng,
+  Tzo Fung-chi. ch17: Hwang Che-hsiang, Li Fu-lin, Hsueh Yoh (B05 skip), Huang
+  Ping, Huang Mo-sung, Deng Cheng-tsah, Chen Shao-yu-the-participant.
+
+### Glossary (5 people rows + Chiu principal promotion + 1 terms row; add_ch1517_glossary.py)
+- people (5): 张学良 Chang Hsueh-liang (Zhang Xueliang), 张发奎 Chang Fah-kwei
+  (Zhang Fakui), 李立三 Li Li-san (Li Lisan), 贺龙 Ho Lung (He Long), 张太雷 Chang
+  Tai-lei (Zhang Tailei). Pinyin agrees with authority.json where the shelf has
+  settled a form (张学良/李立三/贺龙 "agreed", 张发奎 single-book same form); 张太雷
+  Zhang Tailei is NEW to the shelf -- record it in authority.json on the final
+  batch. Foreign figures (Heinz Neumann, Lominadze, Galliffet) stay in the notes,
+  as Browder/Malraux/Pilsudski did.
+- terms (1): 亩 mow (mu), the land measure -- book-wide (surfaced by the ch16
+  blind loop; first appears ch02).
+- PRINCIPAL PROMOTION: Chiu Chiu-pei (Qu Qiubai) to principal, cast_order 7 (he
+  succeeds Chen Tu-hsiu at the head of the party at the August 7 1927 conference;
+  his 瞿秋白 row already recorded the succession). Principals now: Sun 1, Chiang 2,
+  Chen Tu-hsiu 3, Borodin 4, Wang Ching-wei 5, Chow En-lai 6, Chiu Chiu-pei 7.
+  Verified rendering on the Principal Characters page.
+
+### Figures
+- No images on any ch15-17 PDF page (born-digital text). No figures, a deliberate
+  decision; figures.json unchanged.
+
+### Step 0c blind-critique loop (annotation variant) - ran 2 rounds on ch16, CONVERGENT
+- R1 (context-blind subagent): three real fixes -- trimmed the August 7 note off
+  its body-restatement / Lominadze overlap (kept only that Chiu replaced Chen at
+  the head); ADDED the GPU note (a genuine first-appearance gap); added the "mow"
+  book-wide glossary row (a term first met in ch02). Every density flag (Borodin,
+  Chen, Roy, Strong, Wang, Feng, Tang Sheng-chih, Yeh Ting, hsien) was the
+  documented cross-unit false positive.
+- R2 (fresh reader): convergent. One real class -- the life-date repetition
+  (Lominadze "(1897-1935)...in 1935", Ho Lung "(1896-1969)...in 1969", Neumann
+  "(1902-1937)...in 1937"): dropped the repeated death year in each fate clause.
+  The anchor-span flags (Yeh Ting/Ho Lung, Chow En-lai/Chang Tai-lei) recurred
+  and were adjudicated as a flat-critique-list artifact -- the rendered
+  superscript sits on the SUBJECT (the second name), and the first name is placed
+  elsewhere; not changed.
+- Two new RULE/entries distilled into STYLE.local.md (no repeated death year; the
+  anchor-in-a-name-list artifact). Critiques archived in
+  review/voice_gate/ch16_round{1,2}_critique.md.
+
+### Checks run
+- Cumulative build: 19 of 22 chapters, 1067 notes (874 prior + 193 this batch:
+  ch15 70, ch16 57, ch17 66 -- 63/49/62 author + 7/8/4 editorial), 290
+  pagebreaks, 0.5 MB.
+- qa_epub PASS (36 files, 29 documents, 1067 refs = bodies = backlinks, 290
+  page-list = 290 markers). epubcheck 5.1.0: 0 fatals / 0 errors / 0 warnings
+  (EPUB 3.3). check_apparatus: 0 failures. check_fidelity: all 19 units
+  byte-for-byte. Two-stream rendering verified in the built XHTML (ch15 arabic
+  1-63 + roman i-vii; ch16 arabic 1-49 + roman i-viii; ch17 arabic 1-62 + roman
+  i-iv, both restarting per chapter).
+- Translation-only checks (numbers/parity/qc_entities/register) do not apply to a
+  faithful-reset English edition.
+
+### Tooling added / changed this batch (do not revert)
+- scripts/build_ch1517_notes.py: author-note assembler on the build_ch1214
+  pattern, with (a) AST_SKIP to drop a stray '*' text-layer glyph that is not a
+  footnote mark (ch16's "the GPU"); (b) fix_italic_space to restore the space
+  clean_body drops after "</i>" + a word (Malraux's two titles).
+- scripts/build_ch1517_editorial.py, scripts/add_ch1517_glossary.py: the
+  per-batch generators (Chiu principal promotion + the mow terms row live nearby;
+  mow added directly to glossary.json terms).

@@ -430,3 +430,37 @@ handoff&#8217;s &#8220;NOT re-noted&#8221; list is a convenience, not proof.
 - CHECK: every name on a batch&#8217;s &#8220;NOT re-noted&#8221; list resolves to
   an actual editorial note in an earlier-reading unit, not just an author-note
   citation.
+
+### Batch 8 voice-gate rulings (ch15&#8211;17 blind-critique loop) #book
+
+**RULE: a note that opens with life-dates does not repeat the death year in its
+sentence.** When the note leads with &#8220;(1897&#8211;1935),&#8221; the fate
+clause must not also say &#8220;in 1935&#8221; &#8212; the reader already has it,
+and the echo reads as loose writing.
+- WHY: two ch16 notes did exactly this &#8212; Lominadze &#8220;(1897&#8211;1935)
+  &#8230; took his own life in 1935&#8221; and Ho Lung &#8220;(1896&#8211;1969)
+  &#8230; died in 1969&#8221; &#8212; and the Neumann note (ch17) repeated
+  &#8220;1937&#8221; the same way. Two blind readers flagged the redundancy.
+- FIX: give the fate without the year the dates already carry (&#8220;took his own
+  life as arrest closed in,&#8221; &#8220;died persecuted in the Cultural
+  Revolution,&#8221; &#8220;shot in Moscow, a victim of the Great Purge&#8221;).
+- CHECK: no note states a birth/death year twice; the year in the fate clause is
+  a NEW date (an event), never the one already inside the opening parenthesis.
+
+**RECONFIRMED (Batch 5/6 eyewitness + the cross-unit false positive):** both ch16
+rounds flagged Borodin, Chen Tu-hsiu, M. N. Roy, Anna Strong, Wang Ching-wei,
+Feng Yu-hsiang, Tang Sheng-chih, Yeh Ting, <i>hsien</i> as unnoted &#8212; every
+one placed in an earlier-reading unit (principals page, ch02&#8211;12). The GPU
+(genuinely first-appearing here) and <i>mow</i> (a land measure first met back in
+ch02) were the two REAL coverage gaps; GPU got a ch16 note, <i>mow</i> a book-wide
+glossary term row.
+
+**NOTE (a critique-tool artifact, not a defect): an anchor that ends on the
+glossed name but is preceded in the same phrase by an already-placed name reads
+as ambiguous IN THE FLAT CRITIQUE LIST, though the rendered superscript sits
+correctly after the subject.** Both ch16 rounds flagged &#8220;Yeh Ting and Ho
+Lung&#8221; and &#8220;Chow En-lai, Chang Tai-lei&#8221; as if the note covered
+the first name; in the built page the marker lands after the SECOND (the subject),
+and the first name is placed elsewhere (Yeh Ting ch12, Chow En-lai principal 6).
+Where a subject sits inside a list of names, the marker-after-the-term convention
+resolves it on the page; do not distort the anchor to satisfy the flat-list view.
