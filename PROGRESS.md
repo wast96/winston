@@ -851,3 +851,178 @@ test "hook stands down on template stub" fails (do not fix).
   cannot be inserted per paragraph). build_ch0911_editorial.py,
   add_ch0911_glossary.py: the per-batch generators (Chow promotion in the
   glossary script).
+
+## B07 = ch12 "The 'Revolutionary Center' at Work" + ch13 "The Struggle for the Land" + ch14 "Moscow and Wuhan" (DONE)
+
+Container arrived parked on template-master (df55427), as every prior batch
+warned; fetched and hard-reset onto the real tip (1b9760c) before any work.
+Installed wamerican/wbritish by hand (setup.sh omits them). Only the by-design
+test "hook stands down on template stub" fails (not fixed).
+
+### Extraction (faithful reset, offset 23)
+- ch12 82 paras (PDF 197-215, printed 174-192; 69 body + 13 block quotes);
+  ch13 83 paras (PDF 216-234, printed 193-211; 71 body + 12 quotes); ch14 69
+  paras (PDF 235-249, printed 212-226; 47 body + 22 quotes). check_fidelity
+  green on ALL 16 units, byte-for-byte (ch12 46742, ch13 44594, ch14 31429).
+- Hard-hyphen restorations (the "war-weary" class, invisible to check_fidelity,
+  caught by eye and verified against the raw PDF glyphs):
+  * ch14 body "Chiang Kaishek...." -> "Chiang Kai-shek...." (source prints
+    "Kai-\nshek....", the hyphen dropped because the ellipsis attached to the
+    fragment; every other instance on the page reads "Kai-shek").
+  * ch14 body "Chen Tuhsiu." -> "Chen Tu-hsiu." (born-digital glitch: the text
+    layer prints "Tuhsiu" closed mid-line where "Tu-hsiu" appears six times on
+    the same page; rendered to plain sense and logged).
+  * ch14 asterisk footnote "Chiu Chiupei's" -> "Chiu Chiu-pei's" (same class,
+    inside a foot footnote; the hyphenated form is two lines above in the SAME
+    note). build_ch1214_notes.py's restore_hyphens now also maps
+    "Chiupei"->"Chiu-pei" alongside the inherited "Kaishek"->"Kai-shek".
+- Verified NOT errors (kept as printed, checked against the raw PDF): ch12
+  "twelve-hour day" (real compound, KEPT); ch13 place "Yangshin" (soft
+  syllable break, siblings Hwangkang/Lotien are closed); ch14 "subcommittee"
+  (printed closed mid-line); ch12/ch13 "counterrevolution" vs
+  "counter-revolution" (Isaacs uses BOTH as printed, mid-line hyphens
+  preserved, closed line-breaks fused per his 30:5 dominant usage).
+- Source artifact kept visible: ch14 "reign of terror against the people[!]"
+  is Isaacs's own bracketed editorial exclamation inside a quoted Tang
+  Sheng-chih telegram (cf. ch10 "the people [sic]"), rendered verbatim.
+- Four mid-sentence paragraph ends all confirmed normal quote-intros (each
+  precedes a {q} block): ch12 "he wrote,", ch13 "reported a Hunan peasant
+  leader," and "said the Hupeh peasant secretary,", ch14 "he wired from
+  Changsha on June 26,". No spurious splits, no lowercase-start paragraphs.
+
+### Author notes (arabic, positional; build_ch1214_notes.py)
+- ch12 63 (60 endnote + 3 asterisk), ch13 71 (65 endnote-marks + 6 asterisk),
+  ch14 49 (45 endnote + 4 asterisk). Endnote ranges: ch12 PDF 380-382, ch13
+  382-384, ch14 384-385 (each closed by the next chapter heading). Asterisk
+  foot bodies read programmatically and reduce-checked against the raw foot
+  text.
+- **SOURCE NUMBERING ERROR handled (ch13), the inverse of ch05's duplicate
+  "18":** ch13 has 65 in-text numbered marks but only 64 back-matter notes.
+  Its Min Kuo Jih Pao passage (the reorganized-government quotation) carries
+  the superscript "64" TWICE -- once mid-quote at "were closed down." and once
+  at the quote's end after "Ho Chien." -- verified both are literal sz5.5 "64"
+  glyphs, and the endnotes run a clean 1..64 ending at "64. Min Kuo Jih Pao,
+  June 18-19, 1927" with no note 65 before the ch14 heading. Both marks
+  legitimately cite note 64; build_ch1214_notes.py's positional mapper now
+  allows duplicate mark values as long as every body index 1..N is covered,
+  and the builder renders the two as the edition's own consecutive markers 64
+  and 65, each showing that citation. Faithful; nothing invented or lost.
+- **ch14 multi-block asterisk footnotes:** 13 foot blocks make only 4
+  footnotes -- the first (the composition of the Russian Opposition, printed
+  p.212) runs 6 blocks and wraps the p.212->213 turn; the fourth (the
+  comparison of Chiu Chiu-pei's confession with Trotsky's May 7 Theses, p.222)
+  runs 5 blocks carrying Isaacs's own "Again:" quotations. AST_GROUP =
+  [6,1,1,5] groups them; the anchors come from anchor_offsets (every asterisk
+  in-text mark survives this batch, unlike B06). ch13 has three page-foot
+  footnotes on printed p.198 (*, ** and ***); anchor_offsets resolved all six
+  ch13 asterisk marks one-to-one with the six foot blocks.
+
+### Editorial notes (roman, "ed": true; build_ch1214_editorial.py) - 22 total
+- ch12 (11): Coue (autosuggestion), Baron Tanaka, Sir Austen Chamberlain, the
+  Arcos raid, Tan Yen-kai, Yen Hsi-shan, Hsiang Chung-fah, Yeh Ting, the Fifth
+  CCP Congress, Danton's "de l'audace" (+ the Sam Browne belt metonym added in
+  the blind loop). ch13 (6): the tuhao/haosen ("local tyrants and evil gentry")
+  epithet, H. Owen Chapman (eyewitness), the Horse Day / Ma Ri Incident (naming
+  Hsu Keh-chang), Ho Chien, Hsu Chao-jen, the Four Books and Five Classics.
+  ch14 (5): the Anglo-Russian Trade Union Unity Committee (naming Purcell/Hicks/
+  Citrine), Bukharin's "Enrich yourselves!", Albert Treint, "Ercoli" (Togliatti),
+  Chu Pei-teh.
+- Fact-checked against real scholarship (Wikipedia/Cambridge Core/Britannica
+  and standard histories; NEVER Grok/Grokipedia): Tanaka Giichi (PM Apr 20
+  1927), Austen Chamberlain (FS 1924-29, Locarno), the Arcos raid (May 12 ->
+  Anglo-Soviet break May 26), Tan Yankai, Yan Xishan, Xiang Zhongfa (CCP GS
+  1928, shot 1931), Ye Ting (Nanchang/Canton Commune), the Fifth Congress
+  (Wuhan Apr 27-May 9 1927), Danton (Sept 2 1792 speech, guillotined 1794),
+  H. Owen Chapman ("The Chinese Revolution 1926-27", a Hankow doctor), the Ma
+  Ri Incident (May 21 1927, Xu Kexiang's 33rd regiment, the telegraphic "horse"
+  code for the 21st), He Jian (executed Yang Kaihui 1930), Su Zhaozheng (d.
+  1929), the Anglo-Russian Committee (1925-27), "Enrich yourselves!" (Bukharin
+  1925), Albert Treint (PCF GS 1924-25, expelled Jan 1928), Palmiro Togliatti
+  ("Ercoli"), Zhu Peide (Kiangsi, comparatively bloodless purge). Verdict tags:
+  none this batch (no weighed Isaacs claim was checked; these are identifications).
+
+### NOT re-noted (already placed in an earlier-reading unit; cross-reference only)
+- M. N. Roy (ch02, Second Congress colonial theses -- his Fifth Congress role
+  and the June telegram he showed Wang are body narrative), Feng Yu-hsiang
+  (ch04 -- his Chengchow/Hsuchow conferences arrive in ch15), Chiu Chiu-pei
+  (ch07 editorial + glossary), Earl Browder / Jacques Doriot (ch05), Pavel Mif
+  (ch06), Sun Fo and George Hsu-chien = "Hsu Chien" (ch11), Tang Ping-shan
+  (ch06), Tang Sheng-chih (ch06), Eugene Chen (ch05/06), Confucius (ch01),
+  Bukharin/Stalin/Trotsky/Lenin (ch00b), the Comintern/E.C.C.I., Kuomintang,
+  CCP, Northern Expedition, the Three People's Principles, the bloc of four
+  classes. The blind critic flagged Fischer, Mif, Browder, Chiu Chiu-pei as
+  "undefined": all cross-unit false positives EXCEPT Fischer (a real gap, below).
+- **GAP FIXED (caught by the ch12 blind loop): Louis Fischer.** Cited in the
+  AUTHOR stream throughout (ch03-ch14 as "Fischer, Soviets in World Affairs")
+  but never given an EDITORIAL identification -- prior handoffs wrongly listed
+  him as "placed." He is Isaacs's main source for Borodin's private reasoning.
+  Note added at his FIRST body appearance, ch05 ("Louis Fischer, for example"),
+  via build_ch05_fischer.py -- placement + vantage, no citation duplication.
+  (ch05's editorial count is now 7.)
+
+### Deliberate skip tier (minor one-off actors; named so the omission is a decision)
+- ch12: Chen Cheng (a one-line body mention), Yang Sen, Yu Hsueh-chung, Hsia
+  To-yen, Solomon Lozovsky (a name in an advisers' list), Yen Hsi-shan's
+  lieutenants. ch13: Jen Hsu, the Red Spears and the Min Tuan / lien pao /
+  tuchun / tangpu / haosen terms the body glosses or contexts inline, Chang
+  Lien-sen. ch14: Tu Cheng-tsu, Ercoli's colleague delegates, Andreyev Hall.
+
+### Glossary (8 rows added; add_ch1214_glossary.py, straight into people)
+- 谭延闿 Tan Yen-kai, 阎锡山 Yen Hsi-shan, 向忠发 Hsiang Chung-fah, 叶挺 Yeh Ting,
+  许克祥 Hsu Keh-chang, 何键 Ho Chien, 苏兆征 Hsu Chao-jen, 朱培德 Chu Pei-teh.
+  Pinyin agrees with authority.json where the shelf has settled a form
+  (谭延闿 Tan Yankai, 阎锡山 Yan Xishan, 叶挺 Ye Ting all "agreed"); the other five
+  (向忠发 Xiang Zhongfa, 许克祥 Xu Kexiang, 何键 He Jian, 苏兆征 Su Zhaozheng,
+  朱培德 Zhu Peide) are NEW TO THE SHELF -- record them in authority.json on the
+  final batch. Foreign figures (Tanaka, Chamberlain, Danton, Coue, Treint,
+  Togliatti, Purcell/Hicks/Citrine) stay in the notes, as Browder/Malraux did.
+- NO principal promotion. Chiu Chiu-pei (Qu Qiubai) is heavily quoted here but
+  does not yet lead; he succeeds Chen Tu-hsiu in August 1927 (ch16), which is
+  when his promotion to principal is due. Principals stay Sun 1, Chiang 2, Chen
+  Tu-hsiu 3, Borodin 4, Wang Ching-wei 5, Chow En-lai 6.
+
+### Figures
+- No images on any ch12-14 PDF page (born-digital text). No figures, a
+  deliberate decision; figures.json unchanged.
+
+### Step 0c blind-critique loop (annotation variant) - ran 2 rounds on ch12, CONVERGENT
+- R1 (context-blind): real fixes -- reconciled the Fifth Congress note's
+  "Wuhan" against the body's "Hankow"; made the Danton note acknowledge that
+  its standard wording differs from Isaacs's loose quotation; cut the
+  Chamberlain note's Neville-Chamberlain trivia; ADDED the Sam Browne belt
+  metonym; and surfaced the Louis Fischer gap (fixed at ch05). Fischer aside,
+  the density flags (Mif, Browder) were cross-unit false positives.
+- R2 (fresh reader): convergent. Two polish trims -- cut the Chamberlain note's
+  Locarno/Nobel CV tail (kept in R1) down to placement + China-policy relevance;
+  trimmed the Yeh Ting note's post-chapter pile-on (New Fourth Army, 1946 plane
+  crash) to the two 1927 risings that justify noting him. Every coverage flag
+  (Chiu Chiu-pei, Browder, Mif, Sun Fo, Hsu Chien, Tang Ping-shan, Doriot, the
+  rebel militarists) was a cross-unit false positive or the deliberate skip tier.
+- Three new RULE/WHY/FIX/CHECK entries distilled into STYLE.local.md: a note
+  that gives the "correct" form of a quotation the body prints in a variant must
+  acknowledge the variance, never silently contradict; a place named in a note
+  must match the body's or be reconciled in the same breath; verify a subject's
+  "already placed" status against an actual EDITORIAL note in notes.json, not the
+  handoff's list -- a figure who appears only in author-note citations (Fischer)
+  is NOT placed. Critiques archived in review/voice_gate/ch12_round{1,2}_critique.md.
+
+### Checks run
+- Cumulative build: 16 of 22 chapters, 874 notes (668 prior + 206 this batch:
+  ch12 74, ch13 77, ch14 54, +1 Fischer in ch05), 238 pagebreaks, 0.4 MB.
+- qa_epub PASS (36 files, 29 documents, 874 refs = bodies = backlinks, 238
+  page-list = 238 markers). epubcheck 5.1.0: 0 fatals / 0 errors / 0 warnings
+  (EPUB 3.3). check_apparatus: 0 failures. check_fidelity: all 16 units
+  byte-for-byte. The ch13 dup-64/65 markers verified rendering in notes.xhtml
+  (two Min Kuo Jih Pao, June 18-19 bodies).
+- Translation-only checks (numbers/parity/qc_entities/register) do not apply to
+  a faithful-reset English edition.
+
+### Tooling added / changed this batch (do not revert)
+- scripts/build_ch1214_notes.py: author-note assembler on the build_ch0911
+  pattern, with (a) a positional mapper that ALLOWS duplicate in-text mark
+  values (ch13's double "64"), asserting only that every body index is covered;
+  (b) per-unit AST_GROUP block grouping for multi-block asterisk footnotes
+  (ch14 [6,1,1,5]); (c) restore_hyphens extended with "Chiupei"->"Chiu-pei".
+- scripts/build_ch1214_editorial.py, scripts/add_ch1214_glossary.py: the
+  per-batch generators.
+- scripts/build_ch05_fischer.py: the one-off Louis Fischer gap-fix note (ch05).

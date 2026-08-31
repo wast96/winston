@@ -386,3 +386,47 @@ A gloss appended with a dash can go agrammatical unnoticed.
   parse. Recast &#8220;&#8230;a play on their shared surname, Sun, that mocked his
   sudden changes of front.&#8221;
 - CHECK: the dash-appended tail of a note reads as grammatical English on its own.
+
+### Batch 7 voice-gate rulings (ch12&#8211;14 blind-critique loop) #book
+
+**RULE: a note that gives the &#8220;correct&#8221; form of a quotation or name the
+body prints in a variant must acknowledge the variance, never silently print a
+different wording.** When Isaacs&#8217;s text quotes a phrase loosely, a note that
+supplies the standard version sits one line away contradicting the body, and a
+blind reader reads it as an error in the edition.
+- WHY: the body quotes Danton as &#8220;de l&#8217;audace, de l&#8217;audace,
+  encore de l&#8217;audace&#8221;; the Danton note printed the remembered form
+  &#8220;de l&#8217;audace, encore de l&#8217;audace, toujours de l&#8217;audace&#8221;
+  with no signal, so the two quotations flatly disagreed.
+- FIX: frame the note&#8217;s version as what the words &#8220;echo&#8221; or are
+  &#8220;remembered as,&#8221; not as a correction; translate the phrase (the body
+  supplies no translation) and stop.
+- CHECK: where a note restates a quotation or name the body also gives, either the
+  wordings match or the note explicitly marks its version as the standard/variant.
+
+**RULE: a place named in a note must be the place the body names, or be
+reconciled to it in the same breath.** A general reader cannot know that two
+place-names denote one location.
+- WHY: the body opened the Fifth Congress &#8220;in Hankow&#8221; while the note
+  said it &#8220;met at Wuhan&#8221;; the reader saw two cities.
+- FIX: name the body&#8217;s place and fold in the identity once
+  (&#8220;at Hankow, one of the three cities that make up Wuhan&#8221;).
+- CHECK: no note names a different place than the body for the same spot without
+  reconciling them.
+
+**RULE: verify a subject&#8217;s &#8220;already placed&#8221; status against
+notes.json before trusting it as a cross-unit false positive &#8212; a figure who
+appears only in author-note CITATIONS has NOT been editorially placed.** The
+handoff&#8217;s &#8220;NOT re-noted&#8221; list is a convenience, not proof.
+- WHY: Louis Fischer, Isaacs&#8217;s main source for Borodin&#8217;s private
+  reasoning, was carried on the &#8220;placed&#8221; list for four batches, but
+  &#8220;Fischer, <i>Soviets in World Affairs</i>&#8221; is only a bibliographic
+  citation in the author stream; he had no editorial identification anywhere. The
+  ch12 blind reader caught the gap.
+- FIX: before skipping a flagged subject as a false positive, grep notes.json for
+  an EDITORIAL (&#8220;ed&#8221;:true) note on it, not merely any mention; if none
+  exists, note it at its first BODY appearance (Fischer&#8217;s was ch05, so the
+  note went there, not in ch12 where the loop surfaced it).
+- CHECK: every name on a batch&#8217;s &#8220;NOT re-noted&#8221; list resolves to
+  an actual editorial note in an earlier-reading unit, not just an author-note
+  citation.
