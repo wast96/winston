@@ -279,3 +279,48 @@ must not translate it a second, different way.
   rendering stand; add a translation only where the body supplies none.
 - CHECK: for any term the body parenthesizes or translates, the note either
   matches that wording or stays silent on the translation.
+
+### Batch 5 voice-gate rulings (ch06&#8211;08 blind-critique loop) #book
+
+**RULE: A significance claim (&#8220;the first,&#8221; &#8220;the largest,&#8221;
+&#8220;the only&#8221;) must be grammatical and scoped, not a flat superlative
+bolted onto a plural subject.** When a note asserts that its subject was a
+first or a largest, cast it as an event so the grammar agrees and the claim is
+bounded.
+- WHY: the Chen&#8211;O&#8217;Malley note read &#8220;The agreements&#8230;
+  <i>were the first time</i> an imperial power handed a concession back&#8221;
+  &#8212; a plural subject with a singular complement, and a grand unhedged
+  superlative that also restated the body&#8217;s own &#8220;returned the
+  Hankow and Kiukiang Concessions.&#8221;
+- FIX: recast as &#8220;<i>were negotiated</i> by X with Y &#8212; among the
+  first occasions on which a foreign power gave a concession back&#8221;:
+  subject and verb agree, the claim is scoped (&#8220;among the first&#8221;),
+  and the body&#8217;s wording is not echoed.
+- CHECK: any note asserting a first/largest/only reads grammatically, is scoped
+  (&#8220;among the first&#8221; unless the absolute is certain), and does not
+  repeat a fact the body already states.
+
+**RULE: Identify a quoted eyewitness or source by professional placement, and
+stop.** A note on a person the body quotes gives who they were and what desk
+they wrote from; it does NOT re-tell what the body shows them doing, and it
+does not append biographical trivia unrelated to why they are quoted.
+- WHY: the Arthur Ransome note restated the body (his &#8220;level-headed
+  dispatches punctured the atrocity stories&#8221; &#8212; exactly what the body
+  paragraph dramatizes) and closed with a charming but off-purpose clause that
+  he later wrote <i>Swallows and Amazons</i>. Two independent blind readers
+  flagged both; the reader of a revolution history needs the placement, not the
+  children&#8217;s-book fact.
+- FIX: give the plain placement (&#8220;the <i>Manchester Guardian</i>&#8217;s
+  correspondent in revolutionary Russia and then in China&#8221;) and end
+  there; let the body carry the point his testimony makes.
+- CHECK: an eyewitness/source note names who and from where, adds no clause the
+  body already demonstrates, and adds no fact unrelated to why the source is
+  being cited.
+
+**RECONFIRMED (Batch 2 cross-unit rule): the blind per-unit critic keeps
+flagging shared cast as &#8220;undefined.&#8221;** Both ch06 rounds flagged
+Borodin, Voitinsky, Wu Pei-fu, Chen Tu-hsiu, Chang Tso-lin, May Thirtieth,
+<i>hsien</i>, and compradore as un-noted; every one is noted in an
+earlier-reading unit. This is the documented false positive, not a gap. Confirm
+against notes.json and reading order before adding; log residuals for the final
+reconciliation sweep.

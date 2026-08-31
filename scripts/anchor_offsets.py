@@ -78,7 +78,20 @@ def marks_with_tails(chid):
                         marks.append(("ast", None, "".join(prose)))
                     prose.append(t)
     doc.close()
-    return marks
+    # Collapse a run of consecutive asterisks (Isaacs's ** is the SECOND
+    # page-foot footnote symbol on a page, *** the third): the run is ONE
+    # reference mark, not several. Consecutive 'ast' marks carry identical
+    # preceding prose (the second asterisk adds no text between them), so a
+    # same-prose 'ast' immediately after an 'ast' is a continuation glyph and
+    # is dropped. Two DISTINCT footnote references always have intervening
+    # prose, so their tails differ and neither is merged.
+    merged = []
+    for m in marks:
+        if (m[0] == "ast" and merged and merged[-1][0] == "ast"
+                and merged[-1][2] == m[2]):
+            continue
+        merged.append(m)
+    return merged
 
 
 def resolve(chid):

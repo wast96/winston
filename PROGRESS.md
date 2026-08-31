@@ -551,3 +551,158 @@ ch05: PDF 98-116, printed folios 75-93, 67 paragraphs (57 body + 10 block quotes
 - anchor_offsets.py: italic-run anchor fallback + closing-`*` absorb.
 - build_ch0405_notes.py (positional author-note numbering), build_ch0405_
   editorial.py, add_ch0405_glossary.py: the per-batch generators.
+
+## B05 = ch06 "From Canton to the Yangtze" + ch07 "The Shanghai Insurrection" + ch08 "The Prodigal's Return" (DONE)
+
+ch06: PDF 117-132, printed folios 94-109, 57 paragraphs (body + block quotes).
+ch07: PDF 133-142, printed folios 110-119, 41 paragraphs.
+ch08: PDF 143-154, printed folios 120-131, 47 paragraphs.
+
+### Session start: environment + branch reconciliation
+- Container tree was parked on translation-template-master (df55427), NOT the
+  real work; the local remote-tracking ref was stale. Fetched
+  origin/claude/tragedy-of-the-chinese-revolution (816199b, the B04 tip) and
+  hard-reset onto it. No stray per-task branch.
+- setup.sh installed pymupdf/pillow and refetched epubcheck 5.1.0, but NOT the
+  English wordlists extract_isaacs.py needs; installed wamerican/wbritish by
+  hand (confirmed /usr/share/dict/american-english). Regression suite green
+  except the documented "hook stands down on template stub" case.
+
+### Extraction (faithful reset, no OCR)
+- extract_isaacs.py ch06/ch07/ch08 wrote the reading files and pagemaps (ch06
+  16 folios, ch07 10, ch08 12). De-hyphenation clean by Isaacs's usage + the
+  word lists.
+- THREE real compound hyphens broken at a line end restored by hand (the
+  "war-weary" class check_fidelity cannot see, since it strips hyphens): ch06
+  "breaking-point" and "liberal-reform" (program); ch07 "eighty-two". Confirmed
+  via the raw PDF that each carried a hyphen glyph at the break, and that the
+  closed form is a non-word - so the hyphen is a hard compound hyphen, not a
+  soft line-break hyphen (a line break between two separate words carries no
+  hyphen). The book hyphenates all spelled-out compound numbers (forty-two,
+  twenty-eight...), which settles "eighty-two".
+- Scanned each reading file for spurious mid-page splits: the four paragraphs
+  ending mid-sentence all correctly precede a {q} block quotation (intro
+  clauses like "...he said in a speech on February 19,"). No lowercase-start
+  body paragraphs, no stray glitch glyphs. No born-digital glitches this batch.
+- Fidelity verified byte-for-byte: ch06 39,344 chars, ch07 24,778, ch08 28,338;
+  and re-verified on all seven prior units. All ten green.
+
+### Author notes (arabic stream, numbered POSITIONALLY by in-text mark)
+- ch06: 44 author (41 numbered endnotes + 3 asterisk page-foot footnotes).
+  ch07: 21 author (20 endnotes + 1 asterisk). ch08: 47 author (46 endnotes + 1
+  asterisk). Endnote ranges: ch06 PDF 370-372 ("6. From Canton to Yangtze"),
+  ch07 372-373, ch08 373-375; asterisk bodies transcribed by hand from the 8pt
+  foot band (ch06 Voitinsky / Mandalyan / Shao Li-tze; ch07 Malraux-Ferral;
+  ch08 the arrested-journalists note).
+- build_ch0608_notes.py on the ch0405 positional-numbering pattern.
+
+### Editorial notes (roman stream, "ed": true)
+- ch06: 10, ch07: 8, ch08: 7 (25 total). New first-appearance subjects, fact-
+  checked against standard scholarship (Wikipedia/Britannica and standard
+  histories; NEVER Grok/Grokipedia): Tang Sheng-chih (Tang Shengzhi, 1889-1970),
+  Sun Chuang-fang (Sun Chuanfang, 1885-1935, assassinated), the Fourth/"Iron
+  Army" ("Ironsides"), Chow En-lai (Zhou Enlai), the Seventh Enlarged Plenum of
+  the E.C.C.I. (Nov 22-Dec 16, 1926), Tang Ping-shan (Tan Pingshan), Pavel Mif
+  (1901-1939, purged), the Wanhsien Incident (Sept 5, 1926), the Chen-O'Malley
+  agreements, Arthur Ransome; Niu Yung-chien, Chang Tsung-chang (Zhang
+  Zongchang, the "Dogmeat General"), Wu Chih-hui (Wu Zhihui), Chiu Chiu-pei (Qu
+  Qiubai, 1899-1935, executed), the German October of 1923, Pai Chung-hsi (Bai
+  Chongxi), White Russian mercenaries, the Commercial Press; Ningpo/Chekiang
+  bankers, the Black Hundreds, Louis Napoleon's Society of December 10 (Marx's
+  Eighteenth Brumaire), Ho Ying-chin (He Yingqin), Tsai Yuan-pei (Cai Yuanpei),
+  the Nanking Incident (March 24, 1927), the North China Daily News. Verdict tag
+  used only on the one weighed claim (the Nanking Incident: modern scholarship
+  corroborates Isaacs's no-plot reading).
+- build_ch0608_editorial.py on the ch0405 pattern.
+
+### NOT re-noted (already placed in an earlier-reading unit; cross-reference only)
+- Kuomintang, Comintern/E.C.C.I., CCP, Sun Yat-sen, Chiang Kai-shek, Borodin,
+  Voitinsky, Wang Ching-wei (ch03; promoted to principal this batch), Chen
+  Tu-hsiu, Trotsky, Lenin, Stalin, Bukharin, compradores, the Northern
+  Expedition, Whampoa, May Thirtieth, the Canton-Hong Kong strike, Chang
+  Tso-lin, Wu Pei-fu, the Fengtien clique, the Sixth Plenum, the Green Gang and
+  its bosses Hwang Ching-yung and Tu Yueh-sen (ch04), Yu Ya-ching, Chang
+  Ching-chiang, the International Settlement / Shanghai Municipal Council,
+  hsien, the Washington Conference, the Three People's Principles, the Boxers,
+  Louis Napoleon the man (ch02; his Society of December 10 is a distinct
+  allusion, glossed here).
+- BOTH blind-critique rounds flagged Borodin, Voitinsky, Wu Pei-fu, Chen
+  Tu-hsiu, Chang Tso-lin, May 30 1925, hsien, and compradore as "undefined":
+  all the documented cross-unit false positive. Logged for the reconciliation
+  sweep.
+
+### Deliberate skip tier (minor one-off actors; named so the omission is a decision)
+- Sir Miles Lampson, Li Pao-chang (glossary row only), Hsueh Yoh, Chang Chi,
+  Chang Siao-ling (in the Green Gang glossary), Yang Hu, Pi Shu-cheng, Chow
+  Feng-chi, Quo Tai-chi, Wang I-ting, J. B. Powell, Rodney Gilbert, Hua Kang,
+  Ho Sen, Huang Fu / C. T. Wang, the Shanghai Mixed Court, "Whangpoo
+  metropolis" (= Shanghai, plain from context).
+
+### Source misprints / artifacts (kept visible, not repaired)
+- ch06 back-matter endnote 14 is printed "14" with NO trailing period (every
+  other label carries one). The in-text marks run correctly 1-41, so the
+  edition's positional numbering is unaffected and the reader never sees it.
+  build_ch0608_notes.py's label regex was relaxed to an OPTIONAL period to
+  capture it (verified the relaxed regex still yields a perfectly sequential
+  1..N run for all three units, so no wrapped continuation is misread as a
+  label).
+- ch07 endnote 15 spells Malraux's novel "Man's Fate"; the ch07 asterisk
+  footnote spells it "Mans' Fate" (apostrophe after the s). Both kept as
+  printed.
+
+### Glossary (18 rows added, into their sections; add_ch0608_glossary.py)
+- people (16): Tang Sheng-chih, Sun Chuang-fang, Chow En-lai (Zhou Enlai), Chiu
+  Chiu-pei (Qu Qiubai), Tang Ping-shan (Tan Pingshan), Chang Tsung-chang, Pai
+  Chung-hsi, Ho Ying-chin, Niu Yung-chien, Wu Chih-hui, Tsai Yuan-pei, Tu
+  Yueh-sen, Hwang Ching-yung, Chang Siao-ling, Li Pao-chang, P. Mif. organizations
+  (2): Commercial Press, North China Daily News. Pinyin agrees with authority.json
+  where the shelf has settled a form (Tang Shengzhi, Sun Chuanfang, Zhou Enlai,
+  Qu Qiubai, Bai Chongxi, He Yingqin, Du Yuesheng, Huang Jinrong, Zhang Xiaolin,
+  Zhang Zongchang, Wu Zhihui).
+- PRINCIPAL PROMOTION: Wang Ching-wei promoted to principal, cast_order 5 (the
+  narrative of ch06-08 turns increasingly on him - his April 1, 1927 return and
+  the Chiang-Wang manoeuvres). Principals now: Sun 1, Chiang 2, Chen Tu-hsiu 3,
+  Borodin 4, Wang Ching-wei 5.
+
+### Figures
+- No images on any ch06-08 PDF page (born-digital text; get_images() = 0 on all
+  38 pages). No figures, recorded as a deliberate decision; figures.json
+  unchanged.
+
+### Step 0c blind-critique loop (annotation variant) - ran 2 rounds on ch06, CONVERGENT
+- R1 (context-blind): two real voice fixes (the Chen-O'Malley note's ungrammatical
+  "were the first time" superlative; the Ransome note's register). All six
+  density flags (Borodin, Voitinsky, Wu Pei-fu, Chen Tu-hsiu, Chang Tso-lin, May
+  30) were the documented cross-unit false positive.
+- R2 (fresh reader): convergent. Refined the same two notes (Chen-O'Malley still
+  lightly restated the body; the Ransome "Swallows and Amazons" clause flagged as
+  padding by BOTH rounds - cut). Rejected re-flagging "Isaacs" as an unknown
+  author (established in the edition note + ch00a + ch04/ch05 notes; house
+  consistency). Same false-positive set reconfirmed.
+- Two new RULE/WHY/FIX/CHECK entries distilled into STYLE.local.md (a
+  significance/"first" claim must be grammatical and scoped; identify a quoted
+  eyewitness by placement and stop, no restatement or trivia), plus a reconfirmation
+  of the Batch 2 cross-unit rule. Critiques archived in
+  review/voice_gate/ch06_round{1,2}_critique.md.
+
+### Checks run
+- Cumulative build: 10 of 22 chapters, 524 notes (387 prior + 137 this batch:
+  ch06 54, ch07 29, ch08 54), 146 pagebreaks, 0.3 MB.
+- qa_epub PASS (29 documents, 524 refs = bodies = backlinks, 146 page-list = 146
+  markers). epubcheck 5.1.0: 0 fatals / 0 errors / 0 warnings (EPUB 3.3).
+  check_apparatus: 0 failures. check_fidelity: all ten units byte-for-byte.
+  Two-stream rendering verified (ch06 arabic 1-44 + roman i-x; ch07 arabic 1-21
+  + roman i-viii; ch08 arabic 1-47 + roman i-vii, both restarting per chapter).
+- Translation-only checks (numbers/parity/qc_entities/register) do not apply.
+
+### Tooling added / changed this batch (do not revert)
+- anchor_offsets.py: collapse a run of consecutive asterisks (Isaacs's ** is the
+  SECOND page-foot footnote symbol on a page) into ONE reference mark. ch06 has
+  two footnotes on printed p.98 (comrade V.* = Voitinsky, comrade M.** =
+  Mandalyan); the old code counted ** as two marks and the anchor resolver died
+  on the duplicate. Verified ch04/ch05 anchors regenerate BYTE-IDENTICAL (no
+  chapter before ch06 had a ** on one page).
+- build_ch0608_notes.py: optional-period note-label regex + label pre-strip (for
+  ch06's period-less endnote 14). build_ch0608_editorial.py,
+  add_ch0608_glossary.py: the per-batch generators (Wang promotion lives in the
+  glossary script).
