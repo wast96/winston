@@ -87,6 +87,15 @@ def pdf_stream(chid):
         blocks.sort(key=lambda b: b["bbox"][1])
         for b in blocks:
             quote = is_quote_block(b)
+            # Mirror extract_isaacs: a block whose DOMINANT size is body-size is
+            # a body paragraph, and every one of its surviving spans is emitted,
+            # including inline sub-body glyphs -- small-caps abbreviations like
+            # "4:30 A.M." set the A and M at 7.5pt while the periods stay 10pt.
+            # A per-span size gate would drop those letters and diverge from the
+            # extractor (which keeps them); a per-block gate keeps them while
+            # still excluding the 9.0pt running heads/folios and the 8pt
+            # page-foot footnotes, whose blocks are not body-dominant.
+            body_block = BODY_LO <= dominant_size(b) <= BODY_HI
             for l in b["lines"]:
                 for s in l["spans"]:
                     if s["flags"] & 1:            # superscript reference mark
@@ -98,10 +107,10 @@ def pdf_stream(chid):
                     # kept; the giant chapter NUMERAL beside it (100pt, digits
                     # only) is furniture the extractor drops, so exclude it.
                     drop = sz >= DROP_MIN and any(c.isalpha() for c in s["text"])
-                    # keep body prose, the drop-cap initial, and set-off block
-                    # quotations (smaller type; a whole block decides, not a
-                    # per-span size, so a quote's own spans all survive)
-                    keep = quote or (BODY_LO <= sz <= BODY_HI) or drop
+                    # keep body prose (whole block decides, so an inline
+                    # small-caps span survives), the drop-cap initial, and
+                    # set-off block quotations
+                    keep = quote or body_block or (BODY_LO <= sz <= BODY_HI) or drop
                     if TITLE_LO <= sz <= TITLE_HI:
                         keep = False              # chapter/section title
                     if not keep:

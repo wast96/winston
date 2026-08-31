@@ -31,10 +31,21 @@ PDF = os.path.join(ROOT, "source.pdf")
 
 def reduce_map(text):
     """Return (reduced_stream, index_map) where index_map[k] is the offset in
-    `text` of the character that produced reduced_stream[k]."""
+    `text` of the character that produced reduced_stream[k].
+
+    The single letter of a block-marker prefix ('{q} ', '{v} ', '{d} ', '{g} ',
+    '{p} ') is skipped, so it does not inject a stray 'q'/'v'/'d'/'g'/'p' into
+    the reduced reading stream. Without this a mark whose preceding-prose probe
+    window crosses a set-off paragraph boundary (ch09's signature note 29, after
+    the one-line quote '{q} Chen.') would not be found: '...wang' + 'q' + 'chen'
+    breaks the 'signedwangchen' probe. The PDF prose stream has no '{X}'
+    sequences, so this guard is a no-op there."""
     red, imap = [], []
     for i, ch in enumerate(text):
         c = ch.lower()
+        if c in "qvdgp" and i > 0 and text[i - 1] == "{" \
+                and i + 1 < len(text) and text[i + 1] == "}":
+            continue                     # the letter of a '{q} ' block marker
         if ("a" <= c <= "z") or ("0" <= c <= "9"):
             red.append(c)
             imap.append(i)

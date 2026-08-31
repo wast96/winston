@@ -706,3 +706,148 @@ ch08: PDF 143-154, printed folios 120-131, 47 paragraphs.
   ch06's period-less endnote 14). build_ch0608_editorial.py,
   add_ch0608_glossary.py: the per-batch generators (Wang promotion lives in the
   glossary script).
+
+## B06 = ch09 "The Conspiracy of Silence" + ch10 "The Coup of April 12, 1927" + ch11 "Wuhan: The Revolutionary Center" (DONE)
+
+Container arrived parked on template-master (df55427), as B04/B05 warned; fetched
+and hard-reset onto the real tip (f0a6de5) before any work. Only the by-design
+test "hook stands down on template stub" fails (do not fix).
+
+### Extraction (faithful reset, offset 23)
+- ch09 80 paras (PDF 155-172, printed 132-149); ch10 32 paras (PDF 173-182,
+  printed 150-159); ch11 64 paras (PDF 183-196, printed 160-173). check_fidelity
+  green on ALL 13 units, byte-for-byte.
+- Hard-hyphen restorations (the "war-weary" class, broken at a line end, closed
+  form a non-word; invisible to check_fidelity, which strips hyphens, so caught
+  by eye): ch09 "half-page", "worn-out"; ch11 "semi-adulterated", and
+  "Chiang Kai-shek...and" (the hyphen was dropped because the ellipsis "...and"
+  attached to the "shek" fragment and defeated the closed-form test).
+- Born-digital glitch LOGGED and rendered to plain sense: ch10 endnote 9 in the
+  1938 back matter carries a literal NUL byte (0x00) in the PDF text layer where
+  a space belongs ("Police Report for April,"[NUL]Municipal Gazette). Rendered
+  to a space; build_ch0911_notes.py now strips C0 control characters.
+- Source quirks kept visible: ch09 the manifesto's two-line signature "Signed:
+  Wang / Chen." is two stacked signatories (Wang Ching-wei, Chen Tu-hsiu),
+  rendered as two {q} lines. ch11 p193 a quotation closes with an opening-style
+  curly quote (U+201C where a closing one belongs), kept verbatim. ch10 "the
+  people [sic]" and "not accepting (?) battle" are Isaacs's own bracketed marks,
+  kept. Malraux's novel still both "Man's Fate" (ch09 endnote) and, from before,
+  "Mans' Fate" (ch07 asterisk), kept as printed.
+
+### Author notes (arabic, positional; build_ch0911_notes.py)
+- ch09 58 (55 endnote + 3 asterisk), ch10 42 (39 + 3), ch11 29 (28 + 1). In-text
+  numbered marks come out a clean 1..N run for all three (ch09 1-55, ch10 1-39,
+  ch11 1-28).
+- Asterisk footnotes anchored EXPLICITLY (not positionally off anchor_offsets),
+  because two references have NO extractable in-text mark in the born-digital
+  text layer:
+  * ch09 has THREE asterisk footnotes (one p167, two p170) but only TWO in-text
+    asterisks survive; the p167 Nanking-bombardment note's mark is absent from
+    both the text layer AND the printed page image (crop-verified by eye). Its
+    referent is unambiguous ("...suppression of the mass movement." on p167,
+    the one sentence about foreign forces suppressing the movement), and it is
+    anchored there.
+  * ch11's single asterisk footnote prints as TWO foot paragraphs (the Chen
+    Tu-hsiu / Wu Chih-hui interview, then "This conversation took place on March
+    6, 1927..."); the second carries no ** marker (crop-verified) and is a
+    continuation, joined into one note body.
+- Each asterisk body is read programmatically from the foot blocks (italics <i>,
+  de-hyphenated) and reduce-checked against the raw foot text so nothing is
+  hand-mistyped.
+
+### Editorial notes (roman, "ed": true; build_ch0911_editorial.py) - 15 total
+- ch09 (3): Martinov (Martynov), the "Chinese Pilsudski" (Pilsudski), Malraux /
+  Man's Fate / Kyo.
+- ch10 (6): the Workers' Trade Alliance (scab union), the new Nanking government
+  (April 18, 1927), Yung Chung-chin (Rong Zongjing), Ernst Thaelmann, Walter
+  Duranty, "Fuge, tace, quiesce!" (Marx / St. Arsenius, translated).
+- ch11 (6): Sun Fo (+ the Sun Wu-kung monkey pun), George Hsu-chien, Ku Meng-yu,
+  Soong Ching-ling, Anna Louise Strong, the Eighth Plenum of the E.C.C.I.
+- Verdict tag only where a claim is weighed: (corroborated) on the Workers' Trade
+  Alliance and on Yung Chung-chin's arrest. Fact-checked against Wikipedia,
+  Baidu, the Biographical Dictionary of Chinese Christianity, and academic
+  sources; never Grok/Grokipedia.
+
+### NOT re-noted (already placed in an earlier-reading unit; cross-reference only)
+- bloc of four classes (ch00b); Earl Browder / Tom Mann / Jacques Doriot (ch05);
+  M. N. Roy (ch02, the Second Congress colonial theses); Li Ta-chao (ch03); Li
+  Chi-sen (ch05); Western Hills group (ch04); Wu Chih-hui, Chang Ching-chiang;
+  Yu Ya-ching; Green Gang and Hwang Ching-yung / Tu Yueh-sen (ch04); Chang
+  Tso-lin; Feng Yu-hsiang (ch04); Tang Sheng-chih (ch06); Eugene Chen (ch05/06);
+  Teng Yen-ta, Liao Chung-kai (ch05/earlier); Paris Commune (ch02); Society of
+  December 10 and the Eighteenth Brumaire (ch08); Louis Fischer, George Sokolsky.
+  Chow En-lai already had a ch06 note; his ch10 escape is covered by an author
+  asterisk. Isaacs's April 5 "squeezed lemon" speech being unpublished is already
+  in his OWN author note (ch09), so no editorial note repeats it.
+- Skip tier (minor one-off actors, deliberate): Sydor Stoler, Chen Tsang-shen,
+  Chang Chun, Soumei Cheng, Francis Zia, K. P. Chen, Wang Hsiao-lai, Wang
+  Han-liang, Lin Chun, Hsin Ting-yu, Ku Chen-chung, Chen Chuen, Wang Shao-hua,
+  Victor Stern, Chitarov.
+- T. V. Soong and the Fifth CCP Congress do NOT appear in ch09-11 (they arrive
+  in ch12+); no note owed yet.
+
+### Glossary (5 rows added; add_ch0911_glossary.py, straight into the section)
+- people (5): Sun Fo (Sun Ke), George Hsu-chien (Xu Qian), Ku Meng-yu (Gu
+  Mengyu), Soong Ching-ling (Song Qingling), Yung Chung-chin (Rong Zongjing).
+  Pinyin agrees with authority.json where the shelf has settled a form (Sun Ke,
+  Gu Mengyu, decided "Soong Ching-ling", Rong Zongjing); Xu Qian is new to the
+  shelf. Foreign figures (Pilsudski, Malraux, Thaelmann, Duranty, Martynov,
+  Strong) stay in the notes, as Browder / Doriot / Mann did.
+- PRINCIPAL PROMOTION: Chow En-lai promoted to principal, cast_order 6 (led the
+  Shanghai insurrection, ch07, and escaped the April coup, ch10; the book's most
+  recognizable recurring name after the first five). Principals now: Sun 1,
+  Chiang 2, Chen Tu-hsiu 3, Borodin 4, Wang Ching-wei 5, Chow En-lai 6. Chiu
+  Chiu-pei stays a candidate for a later batch (he succeeds Chen in August 1927).
+
+### Figures
+- No images on any ch09-11 PDF page (born-digital text). No figures, a deliberate
+  decision; figures.json unchanged.
+
+### Step 0c blind-critique loop (annotation variant) - ran 2 rounds on ch11, CONVERGENT
+- R1 (context-blind): two real polish fixes (the Strong note duplicated the
+  author citation; a "left-Kuomintang" vs body "Left Kuomintang" case mismatch).
+  Every density flag (Wang Ching-wei, Borodin, Eugene Chen, Teng Yen-ta, Feng
+  Yu-hsiang, Tang Sheng-chih, Mif, bloc of four classes) was the documented
+  cross-unit false positive.
+- R2 (fresh reader): convergent. Sun Fo pun clause recast for grammar; Strong
+  note (after R1's trim) rebuilt to placement + vantage (the R1/R2 pendulum's
+  stable point). No new gap; four of six notes judged sound.
+- Three RULE/WHY/FIX/CHECK entries distilled into STYLE.local.md (eyewitness
+  note must not duplicate the author citation; the eyewitness balance point,
+  placement plus vantage minus both duplications; a book-specific proper name
+  takes the body's capitalization; read a note's dash-appended tail as a
+  standalone sentence). Critiques archived in review/voice_gate/ch11_round{1,2}.
+
+### Checks run
+- Cumulative build: 13 of 22 chapters, 668 notes (524 prior + 144 this batch:
+  ch09 61, ch10 48, ch11 35), 187 pagebreaks, 0.3 MB.
+- qa_epub PASS (36 files, 29 documents, 668 refs = bodies = backlinks, 187
+  page-list = 187 markers). epubcheck 5.1.0: 0 fatals / 0 errors / 0 warnings
+  (EPUB 3.3). check_apparatus: 0 failures. check_fidelity: all 13 units
+  byte-for-byte.
+- Translation-only checks (numbers/parity/qc_entities/register) do not apply to
+  a faithful-reset English edition.
+
+### Tooling added / changed this batch (do not revert)
+- check_fidelity.py: keep inline sub-body spans when the block is body-dominant
+  (dominant size in the body range), mirroring extract_isaacs's block-level
+  classification. ch10 p173 sets "4:30 A.M." with the A and M as 7.5pt small
+  caps, below the old 9.3pt per-span floor; the extractor keeps them, so the old
+  per-span gate diverged. Verified all 13 units (front matter included) stay
+  green; the fix only ADDS previously-dropped small-caps, and no previously
+  passing unit broke.
+- anchor_offsets.py: skip the single letter of a "{q} "/"{v} " block marker when
+  reducing the reading stream, so it does not inject a stray q/v/d/g/p. Without
+  it, ch09's signature note 29 (after the one-line quote "{q} Chen.") would not
+  resolve. Regenerating ch01-08 anchors: only ch03 note 47 changed, and for the
+  better (marker now lands after the closing italic and period, per the style
+  rule); it does not alter the built book (ch03's notes.json anchor was already
+  committed and is still a valid unique substring).
+- build_ch0911_notes.py: author-note assembler with EXPLICIT asterisk anchoring
+  (handles the two missing/continuation marks), programmatic foot-body reading
+  with a reduce drift-check, "Kaishek" -> "Kai-shek" hard-hyphen restore, C0
+  control-char strip, and a per-anchor override (ch09 note 29 -> "Signed: Wang",
+  the unique first signature line, since the cross-paragraph "Chen." anchor
+  cannot be inserted per paragraph). build_ch0911_editorial.py,
+  add_ch0911_glossary.py: the per-batch generators (Chow promotion in the
+  glossary script).

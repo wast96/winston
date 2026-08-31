@@ -324,3 +324,65 @@ Borodin, Voitinsky, Wu Pei-fu, Chen Tu-hsiu, Chang Tso-lin, May Thirtieth,
 earlier-reading unit. This is the documented false positive, not a gap. Confirm
 against notes.json and reading order before adding; log residuals for the final
 reconciliation sweep.
+
+### Batch 6 voice-gate rulings (ch09&#8211;11 blind-critique loop) #book
+
+**RULE: An eyewitness/source note must not duplicate the author&#8217;s own
+reference note.** When the body quotes a witness and Isaacs&#8217;s numbered
+(author) note already cites her book, the editorial note gives the person&#8217;s
+placement and what she recorded, and stops &#8212; it does not re-print the title
+and date the citation already carries.
+- WHY: the Anna Louise Strong note ended &#8220;Her <i>China&#8217;s Millions</i>
+  (1928) is Isaacs&#8217;s source for the exchanges&#8230;&#8221; &#8212; but the
+  author note on the same passage already reads &#8220;Anna Louise Strong,
+  <i>China&#8217;s Millions</i>, New York, 1928.&#8221; The two footnotes, arabic
+  and roman, sat a line apart saying the same bibliographic thing.
+- FIX: identify the witness and say what she recorded (&#8220;&#8230;reported from
+  Wuhan in 1927 and recorded these exchanges with Borodin&#8221;); let the author
+  citation carry the title/date. This extends the Batch 5 eyewitness rule: the
+  duplication to avoid is not only the body&#8217;s wording but the author
+  note&#8217;s citation.
+- CHECK: an editorial note on a quoted source names no book/date that the
+  adjacent author note already prints.
+
+**RULE: A book-specific proper name takes the body&#8217;s own capitalization and
+spelling in the note.** Where Isaacs fixes a faction or place form, the editorial
+note matches it, so note and text never look to disagree over the same name.
+- WHY: notes wrote &#8220;left-Kuomintang leaders&#8221; where the body has
+  &#8220;Left Kuomintang&#8221; (capital, unhyphenated); a general reader reads
+  the mismatch as an error, not an editorial house style.
+- FIX: mirror the body &#8212; &#8220;Left Kuomintang,&#8221; not
+  &#8220;left-Kuomintang.&#8221; (American spelling and Month D, YYYY dates still
+  govern editorial prose; this rule is only about a name the book itself has
+  set.)
+- CHECK: grep the batch&#8217;s editorial notes for any faction/place name that
+  the body capitalizes differently.
+
+**RECONFIRMED again (cross-unit false positive), ch11 round 1:** the blind
+critic flagged Wang Ching-wei, Borodin, Eugene Chen, Teng Yen-ta, Liao Chung-kai,
+Feng Yu-hsiang, Tang Sheng-chih, Mif, and the &#8220;bloc of four classes&#8221;
+as unnoted &#8212; every one placed in an earlier-reading unit (principals page,
+ch03&#8211;06). No new gap surfaced; the round produced only the two polish rules
+above, i.e. it was convergent.
+
+**RULE (the eyewitness note&#8217;s balance point, from the round-1/round-2
+pendulum): placement PLUS vantage, minus both duplications.** An eyewitness note
+must clear two failure modes at once, and trimming for one can tip it into the
+other. Round 1 trimmed the Strong note until it only said she &#8220;recorded
+these exchanges&#8221; &#8212; which restated the body; round 2 then flagged it as
+thin. The stable form gives (a) who she was, (b) the vantage that makes her
+testimony worth weighing (&#8220;one of the few Western eyewitnesses inside the
+Wuhan camp, a lifelong Soviet-then-CCP sympathizer&#8221;), and (c) that Isaacs
+quotes her here &#8212; while naming neither the book/date the author citation
+carries nor the act the body already shows.
+- CHECK: an eyewitness note says something about the witness&#8217;s standing that
+  neither the body nor the adjacent author citation supplies; if the only content
+  left after trimming is &#8220;X recorded this,&#8221; it is too thin.
+
+**RULE: read every note&#8217;s last clause as a standalone sentence for grammar.**
+A gloss appended with a dash can go agrammatical unnoticed.
+- WHY: the Sun Fo note ended &#8220;&#8230;a pun on their shared surname, Sun, at
+  his sudden changes of front&#8221; &#8212; &#8220;a pun&#8230;at&#8221; does not
+  parse. Recast &#8220;&#8230;a play on their shared surname, Sun, that mocked his
+  sudden changes of front.&#8221;
+- CHECK: the dash-appended tail of a note reads as grammatical English on its own.

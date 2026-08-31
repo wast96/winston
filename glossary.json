@@ -297,7 +297,10 @@
       "en": "Chow En-lai",
       "pinyin": "Zhou Enlai",
       "status": "attested",
-      "note": "1898&#8211;1976. Communist organizer of the Shanghai workers&#8217; risings of 1927; later the first premier of the People&#8217;s Republic of China (1949&#8211;76)."
+      "note": "1898&#8211;1976. Communist organizer of the Shanghai workers&#8217; risings of 1927; later the first premier of the People&#8217;s Republic of China (1949&#8211;76).",
+      "principal": true,
+      "cast_order": 6,
+      "cast": "1898&#8211;1976. Communist organizer who led the Shanghai workers&#8217; insurrection of March 1927 and narrowly escaped Chiang&#8217;s April coup; later the first premier of the People&#8217;s Republic of China (1949&#8211;76)."
     },
     "瞿秋白": {
       "en": "Chiu Chiu-pei",
@@ -376,6 +379,36 @@
       "pinyin": "Pavel Mif",
       "status": "attested",
       "note": "1901&#8211;1939 (pseudonym of M. A. Fortus). Soviet China specialist and rector of the Sun Yat-sen University in Moscow; Stalin&#8217;s instrument in the Chinese party. Shot in the purges."
+    },
+    "孙科": {
+      "en": "Sun Fo",
+      "pinyin": "Sun Ke",
+      "status": "attested",
+      "note": "1891&#8211;1973. Sun Yat-sen&#8217;s only son, American-educated and a former mayor of Canton; a leader of the Wuhan government in 1927 and later president of the Legislative Yuan."
+    },
+    "徐谦": {
+      "en": "George Hsu-chien",
+      "pinyin": "Xu Qian",
+      "status": "attested",
+      "note": "1871&#8211;1940. Christian and Western-trained jurist, twice minister of justice, and a left-Kuomintang leader at Wuhan; fled to Hong Kong after the Wuhan collapse."
+    },
+    "顾孟余": {
+      "en": "Ku Meng-yu",
+      "pinyin": "Gu Mengyu",
+      "status": "attested",
+      "note": "1889&#8211;1972. German-trained economist and Peking University dean who headed the Kuomintang&#8217;s propaganda department at Wuhan; backed Wang Ching-wei&#8217;s July 1927 break with the Communists."
+    },
+    "宋庆龄": {
+      "en": "Soong Ching-ling",
+      "pinyin": "Song Qingling",
+      "status": "attested",
+      "note": "1893&#8211;1981. Sun Yat-sen&#8217;s widow and a mainstay of the Kuomintang left; broke with Chiang&#8217;s Nanking regime and, long afterward, served as a vice-chair of the People&#8217;s Republic of China."
+    },
+    "荣宗敬": {
+      "en": "Yung Chung-chin",
+      "pinyin": "Rong Zongjing",
+      "status": "attested",
+      "note": "1873&#8211;1938. The cotton-and-flour magnate of Wusih and the foremost Chinese industrialist of the day; arrested by Chiang in 1927 for balking at a forced loan."
     }
   },
   "organizations": {
